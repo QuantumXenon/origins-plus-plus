@@ -1,0 +1,16 @@
+To Do:
+
+- Fix Enigma "Staring Contest"
+
+- Fix Wondering Spirirt "Electrokenesis"
+
+- Fix Calamitous Rogue "Secret of the Trade"
+
+- Buff Withered Fox "Float"
+
+- Use bar for all warp and flight abilities (like with shadow)
+
+
+Done:
+- Devine Architect - Universal Beam
+- Fixed "Damage Glitch"
