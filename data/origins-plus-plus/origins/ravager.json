@@ -1,0 +1,31 @@
+{
+    "powers": [
+        "origins-plus-plus:ravager/bad_omen_on_death",
+        "origins-plus-plus:ravager/bigger_they_are",
+        "origins-plus-plus:ravager/clumsy",
+        "origins-plus-plus:ravager/dash",
+        "origins-plus-plus:ravager/exhaust",
+        "origins-plus-plus:ravager/fear",
+        "origins-plus-plus:ravager/hard_hitting",
+        "origins-plus-plus:ravager/heavy_armor",
+        "origins-plus-plus:ravager/heavy_footed",
+        "origins-plus-plus:ravager/immense",
+        "origins-plus-plus:ravager/ram_cooldown",
+        "origins-plus-plus:ravager/ram_duration",
+        "origins-plus-plus:ravager/ram_knockback",
+        "origins-plus-plus:ravager/ram",
+        "origins-plus-plus:ravager/ravager_attribute1",
+        "origins-plus-plus:ravager/ravager_attribute2",
+        "origins-plus-plus:ravager/ravager_axe",
+        "origins-plus-plus:ravager/ravager_resource",
+        "origins-plus-plus:ravager/ravager_slowness",
+        "origins-plus-plus:ravager/team",
+        "origins-plus-plus:ravager/thick_skin",
+        "origins-plus-plus:ravager/vexy"
+    ],
+        "icon": "minecraft:saddle",
+        "impact": 2,
+        "order": 3,
+        "name": "Ravager",
+        "description": "An illager experiment, something between their normal kind and the massive illager beasts known as ravagers."
+}

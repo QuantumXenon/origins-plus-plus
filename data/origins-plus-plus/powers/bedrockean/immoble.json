@@ -1,0 +1,22 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": -0.85,
+        "name": "No movement"
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "origins-plus-plus:bedrockean/toggle"
+    },
+    "cooldown": 1000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 0
+	},
+	"name": "[Primary] Invincible",
+	"description":"Like your ancestors you can be immune to all damage, but when you do this it costs your speed and strength."
+}

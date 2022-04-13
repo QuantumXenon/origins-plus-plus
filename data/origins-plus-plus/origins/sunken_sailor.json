@@ -1,0 +1,18 @@
+{
+	"powers": [
+
+		"origins-plus-plus:sunken-sailor/water_breathing",
+		"origins-plus-plus:sunken-sailor/ignore_water",
+		"origins-plus-plus:sunken-sailor/water_falling",
+		"origins:aqua_affinity",
+		"origins-plus-plus:sunken-sailor/spyglass",
+		"origins-plus-plus:sunken-sailor/skintone",
+		"origins-plus-plus:sunken-sailor/shipwreck_spawn",
+		"origins-plus-plus:sunken-sailor/burn_in_daylight"
+	],
+	"icon": "minecraft:filled_map",
+	"order": 9,
+	"impact": 2,
+	"name": "Sunken Sailor",
+	"description":"Legend has it Sunken Sailors were cruel pirates that died in terrible shipwrecks, But now they're just hollow souls left to wonder a world they no longer fit into."
+}

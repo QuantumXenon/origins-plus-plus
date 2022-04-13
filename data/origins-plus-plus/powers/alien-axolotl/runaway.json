@@ -1,0 +1,23 @@
+{
+    "name": "Runaway",
+    "description": "Natural slight speed boost.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 10,
+    "duration_per_stack": 20,
+    "effects": [
+        {
+            "effect": "minecraft:speed",
+            "duration": 100,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ],
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether",
+        "inverted": true
+    }
+}

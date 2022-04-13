@@ -1,0 +1,42 @@
+{
+	"type": "origins:multiple",
+	"name": "Heavy",
+	"description": "You fall 50% faster than normal, can't float in water, and can't ride any animals or vehicles.",
+	"water": {
+		"type": "origins:ignore_water"
+	},
+	"speed": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "multiply_total",
+			"value": -0.6
+		},
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": ">",
+			"compare_to": 0
+		}
+	},
+	"fall": {
+		"type": "origins:modify_falling",
+		"velocity": 0.12,
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": "==",
+			"compare_to": 0
+		}
+	},
+	"fall_water": {
+		"type": "origins:modify_falling",
+		"velocity": 0.04,
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": ">",
+			"compare_to": 0
+		}
+	}
+}

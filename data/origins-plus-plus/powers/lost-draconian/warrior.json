@@ -1,0 +1,21 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:diamond_sword"
+			}
+		}
+    },
+    "modifier": {
+        "name": "Extra damage with sword",
+        "operation": "addition",
+        "value": 3.5
+    },
+	"name": "Warrior",
+	"description": "You deal extra damage with your sword due to your past being a warrior in the end."
+	
+}

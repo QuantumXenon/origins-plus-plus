@@ -1,0 +1,24 @@
+{
+    "type":"origins:active_self",
+    "entity_action":{
+        "type":"origins:and",
+        "actions":[
+            {
+                "type":"origins:execute_command",
+                "command":"/effect give @e[distance=0.1..30] minecraft:slowness 5 155 true",
+                "permission_level":4
+            }
+        ]
+    },
+    "cooldown":200,
+    "hud_render":{
+        "should_render":true,
+        "sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index":4
+    },
+    "key":{
+        "key":"key.origins.primary_active"
+    },
+    "name":"Look at how cute I am!",
+    "description":"By pressing your primary power key, you freeze all mobs in 30 block radius because of how adorale you are."
+}

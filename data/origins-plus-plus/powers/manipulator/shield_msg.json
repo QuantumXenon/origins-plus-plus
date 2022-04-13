@@ -1,0 +1,9 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "title @s[scores={ManipCycle=4}] actionbar [\"\",{\"text\":\"Resistance Buff\",\"color\":\"black\"},{\"text\":\": \",\"color\":\"gray\"},{\"score\":{\"name\":\"@s\",\"objective\":\"ManipShield\"},\"color\":\"red\"}]"
+    }
+}

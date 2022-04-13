@@ -1,0 +1,67 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:speed",
+          "amplifier": 10,
+          "duration": 300,
+          "is_ambient": false,
+          "show_icon": false,
+          "show_particles": false
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "clear @s minecraft:red_dye 1",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:portal ~ ~.3 ~ 0.1 0.1 0.1 0.3 11 force",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect":{
+          "effect": "minecraft:saturation",
+          "amplifier": 3,
+          "duration": 200,
+          "is_ambient": false,
+          "show_icon": false,
+          "show_particles": false
+        }
+      }
+    ]
+  },
+  "condition": {
+
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+
+      "type": "origins:ingredient",
+      "ingredient": {
+
+        "item": "minecraft:red_dye"
+      }
+    }
+
+  },
+  "key": {
+    "key": "key.use",
+    "continuous": false
+  },
+  "cooldown": 0,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 5
+  },
+  "name": "Snortin Red",
+  "description": "Binturong's can snort red dye for some reason"
+}
+	

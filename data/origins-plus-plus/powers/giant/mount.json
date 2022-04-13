@@ -1,0 +1,30 @@
+{
+	"type": "origins:action_on_being_used",
+	"name": "Piggyback",
+	"description": "Other non-giants can ride on top of you, and are thrown off when slamming.",
+	"bientity_action": {
+		"type" :"origins:mount",
+		"inverted": true
+	},
+	"bientity_condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:actor_condition",
+			"inverted": true,
+			"condition": {
+				"type": "origins:origin",
+				"origin": "origins-plus-plus:giant",
+				"layer": "origins:origin"
+			}
+		},
+		{
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:passenger",
+				"inverted": true
+			}
+		}
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "type": "origins:inventory",
+  "name": "Storage",
+  "description": "You can store precious items in your mouth. [Primary]",
+  "drop_on_death": false,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  }
+}

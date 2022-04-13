@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"origins:carnivore",
+		"origins:no_shield",
+		"origins-plus-plus:cobra/cobras_touch",
+		"origins-plus-plus:cobra/cold_attributes",
+		"origins-plus-plus:cobra/cold_count",
+		"origins-plus-plus:cobra/cold_resource",
+		"origins-plus-plus:cobra/green_skin",
+		"origins-plus-plus:cobra/one_block_height",
+		"origins-plus-plus:cobra/one_less_heart",
+		"origins-plus-plus:cobra/poison_shot",
+		"origins-plus-plus:cobra/scale_armor",
+		"origins-plus-plus:cobra/strength_in_day",
+		"origins-plus-plus:cobra/strength_in_nether"
+	],
+	"icon": "minecraft:green_dye",
+	"order": 10,
+	"impact": 1,
+	"name": "Cobra",
+	"description": "You are a small cobra, your fangs are full of poison and you are ready to attack when you need to."
+}

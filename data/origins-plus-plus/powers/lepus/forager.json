@@ -1,0 +1,61 @@
+{
+    "name": "Forager",
+    "description": "Breaking grass with hoes has a small chance to give carrots or potatoes.",
+    "loading_priority": 1,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:wooden_hoe"
+                },
+                {
+                    "item": "minecraft:stone_hoe"
+                },
+                {
+                    "item": "minecraft:golden_hoe"
+                },
+                {
+                    "item": "minecraft:iron_hoe"
+                },
+                {
+                    "item": "minecraft:diamond_hoe"
+                },
+                {
+                    "item": "minecraft:netherite_hoe"
+                }
+            ]
+        }
+    },
+    "type": "origins:action_on_block_break",
+    "block_action": {
+        "type": "origins:chance",
+        "chance": 0.07,
+        "action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "weight": 1,
+                    "element": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~0.5 ~ {Item:{id:\"minecraft:carrot\",Count:1}}"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "element": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~0.5 ~ {Item:{id:\"minecraft:potato\",Count:1}}"
+                    }
+                }
+            ]
+        }
+    },
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:grass_types"
+    },
+    "only_when_harvested": false
+}

@@ -1,0 +1,32 @@
+{
+	"name":"Rose-Sized",
+	"description":"You are naturally smaller in size, being the size of a lovely rose.",
+	"type": "origins:multiple",
+	"modify_size": {
+		"type": "extraorigins:modify_size",
+		"scale": 0.35
+	},
+	"attribute_modifiers": {
+		"type": "origins:attribute",
+		"modifiers": [
+			{
+				"name": "Origin modifier",
+				"attribute": "minecraft:generic.movement_speed",
+				"operation": "addition",
+				"value": -0.015
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:attack_range",
+				"operation": "multiply_total",
+				"value": 0.9
+			},
+			{
+				"name": "Origin modifier",
+				"attribute": "reach-entity-attributes:reach",
+				"operation": "multiply_total",
+				"value": 0.9
+			}
+		]
+	}
+}

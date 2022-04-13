@@ -1,0 +1,29 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:fireball",
+	"cooldown": 500,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:power_active",
+				"power": "origins-plus-plus:automaton/attacktoggle",
+				"inverted": true
+			},
+			{
+				"type": "origins:resource",
+				"resource": "origins-plus-plus:automaton/firebar",
+				"comparison": ">",
+				"compare_to": 4999
+			}
+		]
+	},
+	"hud_render": {
+		"should_render": false
+	},
+	"tag": "{ExplosionPower:7}",
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"hidden": true
+}

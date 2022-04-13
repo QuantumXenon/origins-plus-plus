@@ -1,0 +1,58 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "minecraft:dirt"
+                            }
+                        },
+                        {
+                            "type": "origins:amount",
+                            "comparison": ">=",
+                            "compare_to": 24
+                        }
+                    ]
+                }
+            },
+            {
+                "inverted": true,
+                "type": "origins:sneaking"
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scoreboard players operation @s ManipDirt += @s ManipDummy"
+            },
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 24
+                }
+            }
+        ]
+    },
+    "cooldown": 5,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    }
+}

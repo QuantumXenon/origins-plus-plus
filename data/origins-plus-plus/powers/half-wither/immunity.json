@@ -1,0 +1,12 @@
+{
+    "type": "origins:effect_immunity",
+    "name": "Wither Immunity",
+    "description": "You are immune to the effects of other withers.",
+    "hidden": false,
+    "effect": "minecraft:wither",
+    "effects": [
+        "minecraft:wither",
+        "minecraft:instant_health",
+        "minecraft:instant_damage"
+    ]
+}

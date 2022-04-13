@@ -1,0 +1,10 @@
+{
+    "type": "origins:action_over_time",
+	"name": "No Lungs",
+	"description": "Altho you are weak in water you still dont drown in it because you dont need to breath.",
+    "entity_action": {
+        "type": "origins:gain_air",
+        "value": 20
+      },
+    "interval": 10
+}

@@ -1,0 +1,20 @@
+{
+    "type": "origins:active_self",
+	"hidden":true,
+    "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+        "effect": "minecraft:weakness",
+        "duration": 40,
+        "amplifier": 100
+    }
+},
+	"key": {
+    "key": "key.sneak",
+    "continuous": true
+},
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": false
+    }
+}

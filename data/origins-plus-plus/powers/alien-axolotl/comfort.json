@@ -1,0 +1,11 @@
+{
+  "name": "Comfort",
+  "description": "You can't sleep above Y = 63!",
+  "type": "origins:prevent_sleep",
+  "block_condition": {
+    "type": "origins:height",
+    "comparison": ">",
+    "compare_to": 63
+  },
+  "message": "Sleep under Y = 63!"
+}

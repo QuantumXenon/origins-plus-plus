@@ -1,0 +1,10 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+   
+    "name": "Energetic Ionization",
+	"description" : "Your energy takes the impact of a landing and absorbs the energy released preventing physical harm."
+}

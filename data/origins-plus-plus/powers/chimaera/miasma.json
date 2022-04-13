@@ -1,0 +1,21 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:wither_skull",
+    "cooldown": 200,
+    "count": 1,
+    "speed": 6.0,
+    "divergence": 1.0,
+    "sound": "minecraft:entity.wither.shoot",
+    "tag": "{pickup:0b,CustomPotionEffects:[{Id:20,Duration:60,Amplifier:1b}]}",
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    },
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 8
+    },
+    "name": "Miasma",
+    "description": "Let loose your bioweapon to rot away whatever caught your ire."
+}

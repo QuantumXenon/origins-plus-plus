@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins-plus-plus:emblazing-warrior/fury",
+        "origins-plus-plus:emblazing-warrior/ignition",
+        "origins-plus-plus:emblazing-warrior/rage",
+        "origins-plus-plus:emblazing-warrior/cross",
+        "origins-plus-plus:emblazing-warrior/fire_immune",
+        "origins-plus-plus:emblazing-warrior/burning_will",
+        "origins-plus-plus:emblazing-warrior/blind",
+        "origins-plus-plus:emblazing-warrior/injury_lover",
+        "origins-plus-plus:emblazing-warrior/world_diff",
+        "origins-plus-plus:emblazing-warrior/exhaustion"
+    ],
+    "icon": "minecraft:blaze_powder",
+    "order": 1,
+    "impact": 2,
+    "name": "Emblazing Warrior",
+    "description": "You are one of the Nether entities sent to the Overworld to cause chaos and disruption. Your powers are tied to your injuries."
+}

@@ -1,0 +1,69 @@
+{
+    "name": "Wanderer's Gear",
+    "description": "Wearing 2 leather armor pieces gives you armor, speed, attack damage buff.",
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "feet",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:leather_boots"
+                    }
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "chest",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:leather_chestplate"
+                    }
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "legs",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:leather_leggings"
+                    }
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "head",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:leather_helmet"
+                    }
+                }
+            }
+        ]
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "generic.armor",
+        "operation": "multiply_total",
+        "value": 1.05
+    },
+    "modifiers": [
+        {
+            "attribute": "generic.movement_speed",
+            "operation": "addition",
+            "value": 0.0125
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "multiply_base",
+            "value": 2
+        }
+    ],
+    "tick_rate": 20,
+    "update_health": false
+}

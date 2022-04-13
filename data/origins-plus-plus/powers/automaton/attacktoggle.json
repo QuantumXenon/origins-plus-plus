@@ -1,0 +1,8 @@
+{
+    "type": "origins:toggle",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+"name": "Elemental Attacks",
+"description": "You can switch between fire and water attacks"
+}

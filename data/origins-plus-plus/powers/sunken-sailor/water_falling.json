@@ -1,0 +1,23 @@
+{
+  "hidden": true,
+  "interval": 1,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:slow_falling",
+      "duration": 3,
+      "show_particles": false,
+      "amplifier": 6,
+      "show_icon": false
+    }
+  },
+  "condition": {
+    "type": "origins:in_block",
+    "block_condition": {
+      "type": "origins:material",
+      "material": "air",
+      "inverted": true
+    }
+  }
+}

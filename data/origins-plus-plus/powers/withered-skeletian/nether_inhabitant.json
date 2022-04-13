@@ -1,0 +1,8 @@
+{
+  "name":"Nether Inhabitant",
+  "description":"You spawn in the Nether, and like your brothers and sisters, you spawn in a fortress with them.",
+  "type":"origins:modify_player_spawn",
+  "dimension":"minecraft:the_nether",
+  "structure":"minecraft:fortress",
+  "spawn_strategy":"center"
+}

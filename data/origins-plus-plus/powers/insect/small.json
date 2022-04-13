@@ -1,0 +1,10 @@
+{
+  "type": "origins:action_on_callback",
+  "entity_action_removed": {
+    "type": "origins:execute_command",
+    "command": "scale reset pehkui:base",
+    "permission_level": 4
+  },
+  "execute_chosen_when_orb": true,
+  "hidden": true
+}

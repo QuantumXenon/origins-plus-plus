@@ -1,0 +1,15 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "effect give @s minecraft:weakness 10 0 true",
+		"permission_level": 4
+	},
+	"interval": 20,
+	"condition": {
+	    "type": "origins:daytime",
+	    "inverted": true
+	},
+	"name": "Moonlight Darkness",
+	"description": "Sun = fire, fire = good. Weakness during night time."
+}

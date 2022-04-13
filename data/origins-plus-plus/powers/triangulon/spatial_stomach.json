@@ -1,0 +1,12 @@
+{
+    "name": "Spatial Stomach",
+    "description": "You get hungrier faster when flying.",
+    "condition": {
+        "type": "origins:creative_flying"
+    },
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 3
+    }
+}

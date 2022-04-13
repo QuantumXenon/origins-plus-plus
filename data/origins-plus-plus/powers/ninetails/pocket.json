@@ -1,0 +1,9 @@
+{
+    "type": "origins:inventory",
+    "name": "Pocket",
+    "drop_on_death": false,
+    "size": 9,
+    "key": "secondary",
+    "sound": "minecraft:entity.fox.spit",
+    "description": "You can store up to 9 items in your mouth with your secondary keybind that you won't lose upon death."
+  }

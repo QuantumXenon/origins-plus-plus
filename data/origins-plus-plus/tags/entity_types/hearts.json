@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+    "minecraft:wither_skeleton",
+    "skeleton",
+    "husk",
+    "stray",
+    "drowned",
+    "vindicator",
+    "evoker",
+    "pillager",
+    "zombie",
+    "ghast",
+    "creeper",
+    "spider",
+    "cave_spider",
+    "magma_cube",
+    "witch",
+    "zombified_piglin",
+    "piglin_brute"
+    ]
+    }

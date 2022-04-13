@@ -1,0 +1,19 @@
+{
+    "name": "Sky Energy Siphoning",
+    "description": "You have permanent regeneration 2 when exposed to the skies of the overworld",
+    "condition": {
+        "type": "origins:exposed_to_sky"
+    },
+    "type": "origins:action_over_time",
+    "interval": 40,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "regeneration",
+            "duration": 160,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "origins:effect_immunity",
+  "effects": [
+    "minecraft:poison",
+    "minecraft:hunger",
+    "minecraft:wither"
+  ],
+  "name": "Decomposer",
+  "description": "Since you are a decomposer, you are immune to poison, hunger, and decay."
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Soft Landing",
+	"description": "You are used to falling down large gaps when injured with your wings, due to being a ghost now it doesn't hurt anymore.",
+	"type": "origins:multiple",
+	"fall": {
+		"type": "origins:modify_falling",
+		"velocity": 0.08,
+		"take_fall_damage": false
+	},
+	"fall_": {
+		"type": "origins:invulnerability",
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "fall"
+		}
+	}
+}

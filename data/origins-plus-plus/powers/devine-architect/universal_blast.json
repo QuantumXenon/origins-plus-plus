@@ -1,0 +1,44 @@
+{
+  "type":"origins:active_self",
+  "entity_action":{
+     "type":"origins:and",
+     "actions":[
+        {
+           "type":"origins:execute_command",
+           "command":"function origins-plus-plus:devine-architect/start_ray",
+           "permission_level":4
+        },
+        {
+           "type":"origins:change_resource",
+           "resource":"origins-plus-plus:devine-architect/charges",
+           "change":-50
+        }
+     ]
+  },
+  "condition":{
+     "type":"origins:and",
+     "conditions":[
+        {
+           "type":"origins:resource",
+           "resource":"origins-plus-plus:devine-architect/charges",
+           "comparison":">=",
+           "compare_to":15
+        },
+        {
+           "type":"origins:fall_flying",
+           "inverted":true
+        }
+     ]
+  },
+  "cooldown":10,
+  "hud_render":{
+     "should_render":true,
+     "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+     "bar_index":17
+  },
+  "key":{
+     "key":"key.pickItem"
+  },
+  "name":"Universal Blast",
+  "description":"You can shoot a beam of condensed universal energy. [Pick Item]"
+}

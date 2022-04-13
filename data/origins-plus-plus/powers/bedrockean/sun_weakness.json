@@ -1,0 +1,22 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:blindness",
+			"duration": 99999,
+			"show_particles": false,
+			"show_icon": false
+		}
+	},
+	"falling_action": {
+		"type": "origins:clear_effect",
+		"effect": "minecraft:blindness"
+	},
+	"interval": 1,
+	"condition": {
+		"type": "origins:exposed_to_sun"
+	},
+	"name": "Bright Sun",
+	"description": "The sun is too bright for your cave adapted eyes."
+}

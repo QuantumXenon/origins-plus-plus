@@ -1,0 +1,103 @@
+{
+	"type": "origins:restrict_armor",
+	"name": "Fallen",
+	"description": "Objects too solid are hard to dematerialize. Iron, diamond and netherite armor cannot be worn and shields are unusable. The curse errodes any wings so elytras are also useless.",
+	"head": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:iron_helmet"
+				}
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:diamond_helmet"
+				}
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:netherite_helmet"
+				}
+			}
+		]
+	},
+	"chest": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:iron_chestplate"
+				}
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:diamond_chestplate"
+				}
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:netherite_chestplate"
+				}
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:elytra"
+				}
+			}
+		]
+	},
+	"legs": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:iron_leggings"
+				}
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:diamond_leggings"
+				}
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:netherite_leggings"
+				}
+			}
+		]
+	},
+	"feet": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:iron_boots"
+				}
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:diamond_boots"
+				}
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:netherite_boots"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"type": "origins:self_action_on_hit",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:strength",
+			"amplifier": 0,
+			"duration": 200
+		}
+	},
+	"target_condition": {
+		"type": "origins:entity_type",
+		"entity_type": "minecraft:wolf"
+	},
+	"cooldown": 600,
+	"name": "Parasitic Nature",
+	"description": "Dealing damage to dogs gives you the strength potion effect for a short while."
+}

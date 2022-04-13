@@ -1,0 +1,560 @@
+{
+	"type": "origins:prevent_sleep",
+	"name": "Gigantic Bed",
+	"description": "Your immense size limits you to needing to sleep on 4 beds put together (2x2).",
+	"message": "This bed isn't big enough for you.",
+	"block_condition": {
+		"type": "origins:or",
+		"inverted": true,
+		"conditions": [
+		{
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:block_state",
+				"property": "facing",
+				"enum": "south"
+			},
+			{
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": -2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"z": -2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": -2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"z": -2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				}
+				]
+			}
+			]
+		},
+		{
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:block_state",
+				"property": "facing",
+				"enum": "west"
+			},
+			{
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": 2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": 2,
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": 2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": 2,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				}
+				]
+			}
+			]
+		},
+		{
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:block_state",
+				"property": "facing",
+				"enum": "north"
+			},
+			{
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": -2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"z": -2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": -2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"z": -2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				}
+				]
+			}
+			]
+		},
+		{
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:block_state",
+				"property": "facing",
+				"enum": "east"
+			},
+			{
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": 1,
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": -2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": -2,
+						"z": -1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+					{
+						"type": "origins:offset",
+						"x": -2,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": -1,
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					},
+					{
+						"type": "origins:offset",
+						"x": -2,
+						"z": 1,
+						"condition": {
+							"type": "origins:in_tag",
+							"tag": "minecraft:beds"
+						}
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+}

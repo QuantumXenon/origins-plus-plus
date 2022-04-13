@@ -1,0 +1,24 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "summon area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:4f,RadiusPerTick:0f,Duration:200,Color:2723378,Effects:[{Id:19b,Amplifier:0b,Duration:100}]}",
+			"permission_level": 4
+		}
+		]
+	},
+
+	"key": {
+		"key": "key.origins.secondary_active"
+	},
+  "cooldown": 400,
+	"hud_render": {
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 20
+	},
+  "name": "Spore Spreader",
+  "description": "Secondary Ability: Spread spores around you that poison all nearby entities in a 4 block radius AOE field. If they escape, lasts for an additional 5 seconds. 30 second cooldown."
+}

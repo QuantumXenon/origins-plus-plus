@@ -1,0 +1,15 @@
+{
+    "name": "Snake",
+    "description": "You are #1 Snek now.",
+    "powers": [
+        "origins-plus-plus:snake/snekbite",
+        "origins-plus-plus:snake/intimidate",
+        "origins-plus-plus:snake/snekhealth"
+    ],
+    "icon": {
+        "item": "minecraft:grass_block"
+    },
+    "upgrades": [],
+    "order": 6,
+    "impact": 2
+}

@@ -1,0 +1,18 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:snowball",
+	"cooldown": 5,
+	"hud_render": {
+		"should_render": false
+	},
+	"count": 10,
+	"speed": 2,
+	"divergence": 10,
+	"sound": "minecraft:entity.snowball.throw",
+	"key": {
+		"key": "key.use",
+		"continuous": true
+	},
+	"name": "Multi-Snowballs",
+	"description": "If you throw a snowball, it is split into 10. Snowballs also do more damage to opponents."
+}

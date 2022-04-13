@@ -1,0 +1,37 @@
+{
+    "type":"origins:active_self",
+    "entity_action":{
+       "type":"origins:and",
+       "actions":[
+          {
+             "type":"origins:add_velocity",
+             "z":1,
+             "space":"local"
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"playsound minecraft:entity.ravager.roar master @s ~ ~ ~ 10 0.18",
+             "permission_level":4
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"particle minecraft:white_ash ~ ~ ~ 1 1 1 0.15 100",
+             "permission_level":4
+          }
+       ]
+    },
+    "condition":{
+       "type":"origins:sneaking",
+       "inverted":true
+    },
+    "cooldown":100,
+    "hud_render":{
+       "should_render":true,
+       "bar_index":7
+    },
+    "key":{
+       "key":"key.origins.primary_active"
+    },
+    "name":"Dash",
+    "description":"You are able to dash forward, giving you a chance to hit your enemies and sending them farther away. [Primary]"
+}

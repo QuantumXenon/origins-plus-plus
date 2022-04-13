@@ -1,0 +1,12 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    }
+  ],
+  "hidden": true
+}

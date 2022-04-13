@@ -1,0 +1,7 @@
+{
+    "type": "origins:modify_falling",
+    "velocity": 0.1,
+    "take_fall_damage": false,
+	"name": "Xenite Implants",
+	"description": "Eldritch metal cancels out any G-Forces on your body, making you immune to fall damage."
+}

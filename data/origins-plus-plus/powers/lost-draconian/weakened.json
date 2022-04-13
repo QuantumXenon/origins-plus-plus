@@ -1,0 +1,12 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Fragile health reduction",
+    "attribute": "minecraft:generic.max_health",
+    "value": -6.0,
+    "operation": "addition"
+  },
+  "hidden": false,
+  "name":"Weakened Health",
+  "description":"Due to your small nature, your health was weakened. you have 2 less hearts"
+}

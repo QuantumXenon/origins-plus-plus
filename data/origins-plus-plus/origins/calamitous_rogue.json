@@ -1,0 +1,20 @@
+{
+    "powers": [
+        "origins-plus-plus:calamitous-rogue/stealth",
+        "origins-plus-plus:calamitous-rogue/strike",
+        "origins-plus-plus:calamitous-rogue/escape",
+        "origins-plus-plus:calamitous-rogue/smooth_talk",
+        "origins-plus-plus:calamitous-rogue/traceless",
+        "origins-plus-plus:calamitous-rogue/expert",
+        "origins-plus-plus:calamitous-rogue/sussy",
+        "origins-plus-plus:calamitous-rogue/assassin",
+        "origins-plus-plus:calamitous-rogue/bad_trade",
+        "origins-plus-plus:calamitous-rogue/infamous",
+        "origins-plus-plus:calamitous-rogue/dps"
+    ],
+    "icon": "minecraft:redstone",
+    "order": 1,
+    "impact": 2,
+    "name": "Calamitous Rogue",
+    "description": "You lurk in the shadows, waiting for just the right moment to strike. Luckily for you, unlike the average rogue you've learned different weapon disciplines for ambushes."
+}

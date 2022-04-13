@@ -1,0 +1,19 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+      {
+        "name": "Extra Reach block reach",
+        "attribute": "reach-entity-attributes:reach",
+        "value": 1.5,
+        "operation": "addition"
+      },
+      {
+        "name": "Extra Reach entity reach",
+        "attribute": "reach-entity-attributes:attack_range",
+        "value": 1.5,
+        "operation": "addition"
+      }
+    ],
+    "name": "Piston Arms",
+    "description": "Due to having pistons in your arms you have extended reach."
+  }

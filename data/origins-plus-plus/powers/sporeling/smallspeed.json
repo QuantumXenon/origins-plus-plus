@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_air_speed",
+  "modifier": {
+        "operation": "multiply_total",
+        "value": 1.2
+  },
+  "name": "Wind-Catching Cap",
+  "description": "You're faster in the air."
+}

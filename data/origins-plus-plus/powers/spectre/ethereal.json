@@ -1,0 +1,18 @@
+{
+	"type": "origins:invulnerability",
+	"name": "Ethereal",
+	"description": "As a former heavenly being, both hunger and gravity are trivial to you.",
+	"damage_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:name",
+				"name": "fall"
+			},
+			{
+				"type": "origins:name",
+				"name": "starve"
+			}
+		]
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 2,
+	"duration_per_stack": 20,
+	"effects": [
+		{
+			"effect": "minecraft:strength",
+			"duration": 100,
+			"amplifier": 2,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:speed",
+			"duration": 100,
+			"amplifier": 2,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		}
+	],
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:biome",
+				"condition": {
+					"type": "origins:temperature",
+					"comparison": "<",
+					"compare_to": 0.15
+				}
+			},
+			{
+				"type": "origins:or",
+				"conditions": [
+					{
+						"type": "origins:exposed_to_sun"
+					},
+					{
+						"type": "origins:dimension",
+						"dimension": "minecraft:the_nether"
+					}
+				]
+			}
+		]
+	},
+	"name": "Cold Buff",
+	"description": "you are buffed in cold biomes."
+}

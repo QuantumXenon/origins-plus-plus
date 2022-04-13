@@ -1,0 +1,34 @@
+{
+    "name": "Evoker Fangs",
+    "description": "You summon up to 3 Evoker fangs on enemies around you, but only at night! [Primary]",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "tag @s add fangsself"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute at @e[tag=!fangsself,distance=..8,limit=3] run summon minecraft:evoker_fangs ~ ~ ~",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "tag @s remove fangsself"
+            }
+        ]
+    },
+    "cooldown": 30,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 1
+    },
+    "condition": {
+        "type": "origins:daytime",
+        "inverted": true
+    },
+    "key": "key.origins.primary_active"
+}

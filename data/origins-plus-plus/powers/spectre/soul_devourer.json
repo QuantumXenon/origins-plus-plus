@@ -1,0 +1,10 @@
+{
+	"type": "origins:self_action_on_hit",
+	"name": "Soul Devourer",
+	"description": "This was once a holy ability used to smite demons, but the curse has corrupted it into a sinister form. Devour the souls of your enemies on hit.",
+	"entity_action": {
+		"type": "origins:heal",
+		"amount": 1.0
+	},
+	"cooldown": 1
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Fresh Air",
+    "description": "You miss the fresh air.",
+    "type": "origins:prevent_sleep",
+    "message": "You want fresh air, you need to sleep above Y = 90",
+    "set_spawn_point": true,
+    "block_condition": {
+        "type": "origins:height",
+        "inverted": false,
+        "comparison": "<",
+        "compare_to": 90
+    }
+}

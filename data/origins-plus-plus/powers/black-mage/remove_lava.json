@@ -1,0 +1,66 @@
+{    
+   "hidden": true,
+	   "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "fill ~12 ~10 ~12 ~-12 ~-10 ~-12 air replace lava",
+                "permission_level": 4
+            },
+			{
+				"type": "origins:execute_command",
+                "command": "fill ~15 ~10 ~15 ~-15 ~-10 ~-15 air replace fire",
+                "permission_level": 4
+			},
+			{ 
+			    "type": "origins:execute_command",
+                "command": "playsound minecraft:item.bucket.fill_lava player @a[distance=..20] ~ ~ ~ 1 1",
+				"permission_level": 4
+			},
+			{ 
+			    "type": "origins:execute_command",
+                "command":"execute as @p at @p run particle particle minecraft:flash ~ ~ ~ normal",
+				"permission_level": 4
+			},
+			{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -120
+	        },
+			{
+				"type": "origins:execute_command",
+                "command": "particle minecraft:lava ~ ~2 ~ 3 3 3 0 500",
+                "permission_level": 4
+			}
+			]
+	},
+	"cooldown": 0,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": true
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": false
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:magma_block"
+              }
+          }
+	}
+	]
+	},
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 0
+	}
+}

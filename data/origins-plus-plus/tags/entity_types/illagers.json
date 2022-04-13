@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "pillager",
+        "evoker",
+        "vindicator",
+        "ravager",
+        "iron_golem",
+        "villager",
+        "wither",
+        "ender_dragon"
+    ]
+}

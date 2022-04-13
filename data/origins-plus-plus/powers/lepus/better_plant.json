@@ -1,0 +1,14 @@
+{
+    "name": "Better plants",
+    "description": "+50% saturation",
+    "hidden": true,
+    "loading_priority": 0,
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:food"
+    },
+    "saturation_modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}

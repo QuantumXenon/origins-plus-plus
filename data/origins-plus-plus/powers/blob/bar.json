@@ -1,0 +1,44 @@
+{
+	"type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1000,
+        "hud_render": {
+		"should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "bar_index": 15
+    }
+    },
+	"onkill": {
+	    "type": "origins:self_action_when_hit",
+    "entity_action": {
+        "type": "origins:change_resource",
+    "resource": "*:bar_resource",
+    "change": -100
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "should_render": false,
+        "bar_index": 1
+    }
+	},
+	"death": {
+    
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:change_resource",
+    "resource": "*:bar_resource",
+    "change": 1000
+    },
+    "entity_action_respawned": {
+        "type": "origins:change_resource",
+    "resource": "*:bar_resource",
+    "change": 1000
+    },
+    "execute_chosen_when_orb": true
+},
+	"name": "Health Bar",
+	"description": "Altho you still use normal hearts, your health has been replaced by a bar making it almost the same as normal health but by using abilitys or getting hit the bar goes down, doesnt matter the strength of the hit or how many armor points you have because its always gonna be the same damage."
+}

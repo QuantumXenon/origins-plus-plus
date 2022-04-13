@@ -1,0 +1,16 @@
+{
+	"name": "Gift of Flight",
+	"description": "Every 20 seconds you can launch yourself 20 blocks into the air by pressing your active power key",
+	"type": "origins:launch",
+	"cooldown": 400,
+	"hud_render": {
+		"bar_index": 4
+	},
+	"sound": "minecraft:entity.parrot.fly",
+	"speed": 3,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": true
+	}
+
+}

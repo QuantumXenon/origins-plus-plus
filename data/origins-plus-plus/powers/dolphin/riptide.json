@@ -1,0 +1,29 @@
+{
+  "type":"origins:active_self",
+  "entity_action":{
+     "type":"origins:add_velocity",
+     "z":2,
+     "space":"local"
+  },
+  "cooldown": 200,
+  "hud_render":{
+     "should_render":true,
+     "bar_index":1
+  },
+  "condition":{
+     "type":"origins:or",
+     "conditions":[
+        {
+           "type":"origins:fluid_height",
+           "fluid":"minecraft:water",
+           "comparison":">",
+           "compare_to":0
+        },
+        {
+           "type":"origins:in_rain"
+        }
+     ]
+  },
+  "name":"Dolphin Jump",
+  "description":"Like a dolphin you can jump out of the water. [Primary]"
+}

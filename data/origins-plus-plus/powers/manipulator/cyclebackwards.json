@@ -1,0 +1,27 @@
+{
+    "name": "Magic Wielder",
+    "description": "You can wield various types of magical attacks. You select your attack by holding their ammo type in your mainhand. Abilities that place blocks in a certain formation will NOT override and replace existing blocks, other than stuff like grass and flowers.\n\nOffensive Attacks:\nAnti-Gravity Arrow - 1 arrow\nGhast Fireball - 1 fire charge\nSpectral Energy Shot - 1 glowstone dust\nEnderdragon Fireball - 1 eye of ender\n\nDefensive Attacks:\nDirt Enclosure (only works if you are grounded): 24 dirt\nEnergy Sheild: 1 golden apple\nResistance Buff: 1 shield\nGolem Reinforcement (will turn on you if you hit them): 1 iron block\n",
+    "hidden": true,
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scoreboard players operation @s[scores={ManipCycle=1..}] ManipCycle -= @s ManipDummy"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute as @s if entity @s[scores={ManipCycle=0}] run scoreboard players set @s ManipCycle 8"
+            }
+        ]
+    },
+    "cooldown": 0,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": "secondary"
+}

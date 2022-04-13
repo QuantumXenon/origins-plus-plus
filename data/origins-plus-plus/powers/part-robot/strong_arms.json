@@ -1,0 +1,125 @@
+{
+	"type": "origins:multiple",
+	"fastbreak": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:stone"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2
+    }
+	},
+	"fastbreak2": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:andesite"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2
+    }
+	},
+	"fastbreak3": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:granite"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2
+    }
+	},
+		"fastbreak4": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:gravel"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2
+    }
+	},
+	    "fastbreak5": {
+	"type": "origins:modify_break_speed",
+	"block_condition": {
+		"type": "origins:block",
+		"block": "minecraft:coal_ore"
+	},
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2		
+	}
+	},
+	    "fastbreak6": {
+	"type": "origins:modify_break_speed",
+	"block_condition": {
+		"type": "origins:block",
+		"block": "minecraft:end_stone"
+	},
+	"modifier": {
+		"operation": "multiply_base",
+		"value": 2
+	}
+		},
+	"obtainabale": {
+		
+    "type": "origins:modify_harvest",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:stone"
+    },
+    "allow": true
+ },
+ 	"obtainabale2": {
+		
+    "type": "origins:modify_harvest",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:andesite"
+    },
+    "allow": true
+ },
+ 	"obtainabale3": {
+		
+    "type": "origins:modify_harvest",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:granite"
+    },
+    "allow": true
+ },
+ 	"obtainabale4": {
+		
+    "type": "origins:modify_harvest",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:gravel"
+    },
+    "allow": true
+ },
+    "obtainable5": {
+		
+		"type": "origins:modify_harvest",
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:coal_ore"
+		},
+		"allow": true
+},
+ 	"obtainabale6": {
+		
+		"type": "origins:modify_harvest",
+		"block_condition": {
+			"type": "origins:block",
+			"block": "minecraft:end_stone"
+		},
+		"allow": true
+	},
+	"name": "Strong Arms",
+	"description": "You can break natural stone much faster due to your Metal fists."
+}

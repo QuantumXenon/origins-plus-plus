@@ -1,0 +1,49 @@
+{
+	"name": "Disruption",
+	"description": "Attack spell that crushes enemies.",
+	"type": "origins:active_self",
+	"entity_action": {
+	"type": "origins:and",
+    "actions": [
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -35
+	},
+	{
+    "type": "origins:raycast",
+    "distance": 90,
+    "block": true,
+    "entity": true,
+    "shape_type": "outline",
+    "fluid_handling": "none",
+	"bientity_action": {
+    "type": "origins:damage",
+    "amount": 40,
+    "source": {
+        "name": "cramming.player",
+        "bypasses_armor": true,
+		"unblockable": true
+    }
+    },
+    "command_at_hit": "function origins-plus-plus:black-mage/disruption",
+    "command_step": 1,
+    "command_along_ray_only_on_hit": true
+    }
+   ]
+  },
+		"cooldown": 20,
+		"key": {
+			"key": "key.origins.primary_active",
+			"continuous": false
+		},
+		"condition": {
+		 "type": "origins:sneaking",
+		 "inverted": true
+		},
+		"hud_render": {
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"should_render": false,
+			"bar_index": 7
+		}
+}

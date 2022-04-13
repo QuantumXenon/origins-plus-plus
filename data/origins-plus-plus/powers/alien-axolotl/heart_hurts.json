@@ -1,0 +1,11 @@
+{
+	"name": "Weak Heart",
+  "description": "8 hearts instead of 10.",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "three less hearts",
+    "attribute": "minecraft:generic.max_health",
+    "value": -4,
+    "operation": "addition"
+  }
+}

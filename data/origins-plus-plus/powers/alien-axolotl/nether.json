@@ -1,0 +1,25 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "execute as @s run effect give @s minecraft:hunger 5 0 true"
+      },
+      {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "execute as @s run effect give @s minecraft:weakness 5 0 true"
+      }
+    ]
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:dimension",
+    "dimension": "minecraft:the_nether"
+  },
+  "name": "Nether Weakness",
+  "description": "You are weaker and slower in the nether."
+}

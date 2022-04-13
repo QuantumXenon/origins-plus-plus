@@ -1,0 +1,31 @@
+{
+    "type": "origins:multiple",
+    "food": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:food"
+        }
+    },
+    "no_hunger": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 1,
+            "saturation": 0
+        },
+        "condition": {
+            "type": "origins:food_level",
+            "comparison": "<=",
+            "compare_to": 14
+        }
+    },
+    "poison": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:poison"
+        ]
+    },
+    "name": "Redstone Powered",
+    "description": "You are unable to eat, but your hunger will never reach zero. You are also immune to poison."
+}

@@ -1,0 +1,175 @@
+{
+  "name": "Ignitable",
+  "description": "You cannot wear iron armor or above in deserts, the nether, and other hot biomes or else risk being set on fire from the heat. You can protect yourself from this by enchanting your armor with Fire Protection II or better.",
+  "type": "origins:multiple",
+
+  "hot_biome_head": {
+    "type": "origins:burn",
+      "interval": 20,
+      "onset_delay": 60,
+      "burn_duration": 1,
+
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "head",
+          "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:armor_value",
+                "comparison": ">",
+                "compare_to": 2
+              },
+              {
+                "type": "origins:enchantment",
+                "inverted": true,
+                "enchantment": "minecraft:fire_protection",
+                "comparison": ">=",
+                "compare_to": 2
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+
+  "hot_biome_chest": {
+    "type": "origins:burn",
+      "interval": 20,
+      "onset_delay": 60,
+      "burn_duration": 1,
+  
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:armor_value",
+                "comparison": ">",
+                "compare_to": 4
+              },
+              {
+                "type": "origins:enchantment",
+                "inverted": true,
+                "enchantment": "minecraft:fire_protection",
+                "comparison": ">=",
+                "compare_to": 2
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+
+  "hot_biome_legs": {
+    "type": "origins:burn",
+    "interval": 20,
+    "onset_delay": 60,
+    "burn_duration": 1,
+  
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "legs",
+          "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:armor_value",
+                "comparison": ">",
+                "compare_to": 3
+              },
+              {
+                "type": "origins:enchantment",
+                "inverted": true,
+                "enchantment": "minecraft:fire_protection",
+                "comparison": ">=",
+                "compare_to": 2
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+
+  "hot_biome_feet": {
+    "type": "origins:burn",
+    "interval": 20,
+    "onset_delay": 60,
+    "burn_duration": 1,
+  
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "feet",
+          "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:armor_value",
+                "comparison": ">",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:enchantment",
+                "inverted": true,
+                "enchantment": "minecraft:fire_protection",
+                "comparison": ">=",
+                "compare_to": 2
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+  
+}
+

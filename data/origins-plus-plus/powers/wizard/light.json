@@ -1,0 +1,28 @@
+{
+    "type": "origins:target_action_on_hit",
+    "cooldown": 40,
+	"hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 18
+    },
+    "entity_action": {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "summon lightning_bolt ~ ~1 ~"
+    },
+    "name": "Lightning Spell",
+    "description": "With a stick in your hand you summon lightning on whoever you hit.",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+
+          "type": "origins:ingredient",
+         "ingredient": {
+
+            "item": "minecraft:stick"
+          }
+        }
+    }
+}

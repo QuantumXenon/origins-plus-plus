@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_break_speed",
+  "modifier": {
+    "value": 1.5,
+    "operation": "multiply_base"
+  },
+  "name": "Maniac Digger",
+  "description": "Binturong's claws allow them break blocks faster than others."
+}

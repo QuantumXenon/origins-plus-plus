@@ -1,0 +1,31 @@
+{
+    "name": "Tranquil",
+    "description": "When your derangement bar is lesser than or equal to 25 it will put you in a tranquil state.\n\nWhile tranquil, you are as fit as a fiddle. Being tranquil gives you Speed 2 and, Jump 1 as well.",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "origins-plus-plus:deranged/derangement",
+        "comparison": "<=",
+        "compare_to": 25
+    },
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "speed",
+                "duration": 3,
+                "amplifier": 1,
+                "show_particles": false,
+                "show_icon": false
+            },
+            {
+                "effect": "jump_boost",
+                "duration": 3,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": false
+            }
+        ]
+    }
+}

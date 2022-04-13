@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1, 
+	"id": "origins-plus-plus", 
+	"name": "Origins++", 
+	"version": "1.4.1", 
+	"description": "A collection of 110+ origins",
+	"authors": ["TheQuantumXenon"],   
+	"contributors": ["All credit goes to original authors.",
+					"(See CurseForge Description)"], 
+	"contact": {"homepage": "https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus"},
+	"license": "MIT",
+	"icon": "assets/origins++/icon.png",
+	"environment": "*", 
+	"depends": {
+		"fabric-api-base": "*",
+		"origins": "*",
+	    "pehkui": "*",
+	    "extraorigins": "*",
+	    "moborigins": "*"
+	}
+}

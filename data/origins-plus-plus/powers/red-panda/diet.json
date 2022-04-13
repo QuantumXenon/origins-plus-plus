@@ -1,0 +1,8 @@
+{
+    "name": "Strict Diet",
+    "description": "You can only eat bamboo.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:food"
+    }
+}

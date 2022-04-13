@@ -1,0 +1,245 @@
+{
+	"type":"origins:active_self",
+	"key":{
+	   "key":"key.origins.secondary_active",
+	   "continuous":false
+	},
+	"cooldown":1,
+	"hud_render":{
+	   "should_render":false,
+	   "sprite_location":"origins:textures/gui/resource_bar.png",
+	   "bar_index":1
+	},
+	"entity_action":{
+	   "type":"origins:and",
+	   "actions":[
+		  {
+			 "type":"origins:execute_command",
+			 "command":"playsound minecraft:block.beacon.power_select player @a ~ ~ ~ 10 2"
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":1,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"particle minecraft:end_rod ~ ~ ~ 8 8 8 0.55 1500"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":16,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~ ~ ~4"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":18,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-2 ~ ~-2"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":20,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~ ~ ~4"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":22,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-2 ~ ~-2"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":24,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~6 ~ ~"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":26,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~ ~ ~4"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":28,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-2 ~ ~-2"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":30,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~6 ~ ~"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":32,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~ ~ ~-3"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":34,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-4 ~ ~4"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":36,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-5 ~ ~-4"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":38,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~ ~ ~-3"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":40,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-4 ~ ~4"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":42,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-5 ~ ~-4"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":44,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~ ~ ~-3"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":46,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-4 ~ ~4"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":48,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-5 ~ ~-4"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":50,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~3 ~ ~3"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":52,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-5 ~ ~"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":54,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~3 ~ ~-2"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":56,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~3 ~ ~3"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":58,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-5 ~ ~"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":60,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~3 ~ ~-2"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":62,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~3 ~ ~3"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":64,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~-5 ~ ~"
+			 }
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":66,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:lightning_bolt ~3 ~ ~-2"
+			 }
+		  },
+		  {
+            "type": "origins:feed",
+            "food": -1.0,
+            "saturation": -1.0
+		 }
+	   ]
+	},
+	"name":"Lightning Charge",
+	"description":"You can summon a great storm that will strike lightning around you. But you lose hunger every time you use it. [Secondary]"
+}

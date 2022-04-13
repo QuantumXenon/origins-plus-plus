@@ -1,0 +1,27 @@
+{
+    "name": "Insane",
+    "description": "When your derangement bar is over or equal to 75, you will go insane. \n\nWhile insane, you deal an extra 2 hearts of damage, but your mental state is so broken that you are only left with 4 hearts to spare.",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "origins-plus-plus:deranged/derangement",
+        "comparison": ">=",
+        "compare_to": 75
+    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "addition",
+            "value": 4,
+            "name": "ATK Damage Increase"
+        },
+        {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": -12,
+            "name": "HP Decrease"
+        }
+    ],
+    "tick_rate": 5,
+    "update_health": true
+}

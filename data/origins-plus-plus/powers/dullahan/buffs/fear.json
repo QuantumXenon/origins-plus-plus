@@ -1,0 +1,25 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 100,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @e[distance=5.1..1] minecraft:weakness 255"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @e[distance=5.1..1] minecraft:blindness 255"
+      }
+    ]
+  },
+  "condition": {
+  "type": "origins:command",
+  "command": "execute if entity @e[distance=5.1..1]",
+  "comparison": ">",
+  "compare_to": 0
+},
+  "name": "Cower, Run",
+  "description": "Even your presence is scary, making enemies blinded with fear."
+}

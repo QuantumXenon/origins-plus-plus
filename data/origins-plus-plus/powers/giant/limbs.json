@@ -1,0 +1,12 @@
+{
+	"type": "origins:multiple",
+	"name": "Long Limbs",
+	"description": "You have twice the normal jump height, 33% more reach.",
+	"jump": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.5
+		}
+	}
+}

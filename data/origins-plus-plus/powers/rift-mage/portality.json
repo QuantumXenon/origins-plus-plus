@@ -1,0 +1,94 @@
+{
+    "name": "Portality",
+    "description": "You are able to rip space and time apart to create a rift. Entering it will let you fly and phase through blocks around the rift. You can only own 1 rift at a time.",
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "phase": {
+        "type": "origins:phasing",
+        "blacklist": true,
+        "render_type": "blindness",
+        "view_distance": 6,
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:unphasable"
+        },
+        "phase_down_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:on_block"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_toggle",
+            "compare_to": 1,
+            "comparison": "=="
+        }
+    },
+    "fly": {
+        "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_toggle",
+            "compare_to": 1,
+            "comparison": "=="
+        }
+    },
+    "detect_rift": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute if entity @e[tag=lpm_Portality,distance=..8] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
+        },
+        "interval": 1
+    },
+    "detect_rift2": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute unless entity @e[tag=lpm_Portality,distance=..8] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
+        },
+        "interval": 1
+    },
+    "detect_rift3": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute if entity @e[tag=lpm_Portality,distance=6..8] run title @s actionbar {\"text\":\"You are too far from your rift!\"}"
+        },
+        "interval": 1
+    },
+    "detect_rift4": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function origins-plus-plus:rift-mage/if_portal_exists"
+        },
+        "interval": 1
+    },
+    "active": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function origins-plus-plus:rift-mage/portality"
+        },
+        "cooldown": 600,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 1
+        }
+    }
+}

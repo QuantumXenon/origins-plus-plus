@@ -1,0 +1,9 @@
+{
+  "name": "Fading soul",
+  "description": "As Your soul begens to fade into memory Your skin becomes translucent.", 
+  "type": "origins:model_color",
+  "red": 0.8,
+  "green": 1,
+  "blue": 0.99,
+  "alpha": 0.9
+}

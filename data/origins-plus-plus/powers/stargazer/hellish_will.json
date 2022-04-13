@@ -1,0 +1,9 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:wither"
+    ],
+      "name": "Hellish Will",
+      "description": "Immune to Wither effects."
+  }
+  

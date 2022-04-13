@@ -1,0 +1,23 @@
+{
+    "name": "Blinding",
+    "description": "Any arrow you shoot, will cause slowness 2 to an enemy for 10 seconds.",
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "slowness",
+                "duration": 200,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+        }
+    },
+    "damage_condition": {
+        "type": "origins:projectile",
+        "projectile": "arrow"
+    },
+    "cooldown": 1
+}

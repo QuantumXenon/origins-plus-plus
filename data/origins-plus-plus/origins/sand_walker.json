@@ -1,0 +1,17 @@
+{
+  "powers": [
+      "origins-plus-plus:sand-walker/heat_resistance",
+      "origins-plus-plus:sand-walker/no_hunger",
+      "origins-plus-plus:sand-walker/flesh_eater",
+      "origins-plus-plus:sand-walker/worse_steak",
+      "origins-plus-plus:sand-walker/sand_blender",
+      "origins-plus-plus:sand-walker/desert_spawn",
+      "origins-plus-plus:sand-walker/sand_shifter",
+      "origins-plus-plus:sand-walker/cold_hatred"
+  ],
+  "icon": "minecraft:sand",
+  "order": 11,
+  "impact": 2,
+  "name": "Sand Walker",
+  "description": "The sand walker is a creature of the desert and sand, forever walking amungst the dunes."
+}

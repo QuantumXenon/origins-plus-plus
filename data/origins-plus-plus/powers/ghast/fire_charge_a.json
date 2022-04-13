@@ -1,0 +1,16 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:fireball",
+	"speed": 0.2,
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "minecraft:the_nether",
+		"inverted": true
+	},
+	"cooldown": 1200,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 7
+	},
+	"hidden": true
+}

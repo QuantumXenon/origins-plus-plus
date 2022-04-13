@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"origins-plus-plus:magmean/droploot",
+		"origins-plus-plus:magmean/bouncy",
+		"origins-plus-plus:magmean/spicyhands",
+		"origins-plus-plus:magmean/antivore",
+		"origins-plus-plus:magmean/lavaspeed",
+		"origins-plus-plus:magmean/lavafeed",
+		"origins:nether_spawn",
+		"origins:water_vulnerability",
+		"origins-plus-plus:magmean/nofall",
+		"origins:fire_immunity",
+		"origins:light_armor"
+	],
+	"icon": "minecraft:magma_cream",
+	"order": 9,
+	"impact": 3,
+	"name": "Magmean",
+	"description":"Oozey, fiery, bouncy, what's not to love?"
+}

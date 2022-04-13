@@ -1,0 +1,27 @@
+{
+	"powers":[
+	   "origins-plus-plus:ebon-wing/blood",
+	   "origins-plus-plus:ebon-wing/dodge",
+	   "origins-plus-plus:ebon-wing/wings",
+	   "origins-plus-plus:ebon-wing/fly",
+	   "origins-plus-plus:ebon-wing/distort",
+	   "origins-plus-plus:ebon-wing/withered",
+	   "origins-plus-plus:ebon-wing/resistance",
+	   "origins-plus-plus:ebon-wing/ebon_effects",
+	   "origins-plus-plus:ebon-wing/night_strength",
+	   "origins-plus-plus:ebon-wing/last_resort",
+	   "origins-plus-plus:ebon-wing/last_resort_cooldown",
+	   "origins-plus-plus:ebon-wing/hydrophobic",
+	   "origins-plus-plus:ebon-wing/smite_being",
+	   "origins:more_exhaustion",
+	   "origins-plus-plus:ebon-wing/daytime_hurt",
+	   "origins:carnivore",
+	   "origins-plus-plus:ebon-wing/uncomfortable",
+	   "origins-plus-plus:ebon-wing/nether_spawn"
+	],
+	"icon": "minecraft:amethyst_shard",
+	"order":10,
+	"impact":3,
+	"name":"Ebon-Wing",
+	"description":"Ebon-Wings are a winged creature often seen hunting for prey by themselves or with Blood-Horns."
+}

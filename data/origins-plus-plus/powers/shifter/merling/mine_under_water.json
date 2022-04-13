@@ -1,0 +1,84 @@
+{
+    "name": "§9§nAqua Affinity",
+    "description": "§9You can mine blocks underwater but on land you mine blocks slower.",
+    "type": "origins:multiple",
+    "underwater": {
+      "type": "origins:modify_break_speed",
+      "modifier": {
+        "operation": "multiply_total",
+        "value": 4
+      },
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+          },
+          {
+            "type": "origins:enchantment",
+            "enchantment": "minecraft:aqua_affinity",
+            "comparison": "==",
+            "compare_to": 0
+          },
+          {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:shifter/shift_bar",
+            "comparison": "==",
+            "compare_to": 7
+          }
+        ]
+      }
+    },
+    "ungrounded": {
+      "type": "origins:modify_break_speed",
+      "modifier": {
+        "operation": "multiply_total",
+        "value": 4
+      },
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0
+          },
+          {
+            "type": "origins:on_block",
+            "inverted": true
+          },
+          {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:shifter/shift_bar",
+            "comparison": "==",
+            "compare_to": 7
+          }
+        ]
+      }
+    },
+    "slowland": {
+        "type": "origins:modify_break_speed",
+        "modifier": {
+          "operation": "multiply_total",
+          "value": -0.75
+        },
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:submerged_in",
+              "fluid": "minecraft:water",
+              "inverted": true
+            },
+            {
+              "type": "origins:resource",
+              "resource": "origins-plus-plus:shifter/shift_bar",
+              "comparison": "==",
+              "compare_to": 7
+            }
+          ]
+        } 
+    }
+  }

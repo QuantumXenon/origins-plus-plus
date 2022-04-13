@@ -1,0 +1,12 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:slow_falling"
+    },
+    "interval": 10,
+    "condition": {
+        "type": "origins:on_block"
+    },
+    "hidden": true
+}

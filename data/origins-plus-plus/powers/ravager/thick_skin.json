@@ -1,0 +1,19 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+      {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.max_health",
+        "value": 10.0,
+        "operation": "addition"
+      },
+      {
+        "name": "Armor increase",
+        "attribute": "minecraft:generic.armor",
+        "value": 6,
+        "operation": "addition"
+      }
+    ],
+    "name": "Tough",
+    "description": "Your natural bulk gives you increased health and armor."
+  }

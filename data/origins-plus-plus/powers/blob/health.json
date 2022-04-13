@@ -1,0 +1,16 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "name": "health",
+        "operation": "multiply_base",
+        "value": -0.9999
+    },
+	"condition": {
+			"type": "origins:resource",
+			"resource": "*:bar_resource",
+			"comparison": ">=",
+			"compare_to": 1
+	},
+	"name": "Paranoia",
+	"description": "You are so paranoid that when you are hit you get a speed boost that lasts 3 seconds(6 sec cooldown)."
+}

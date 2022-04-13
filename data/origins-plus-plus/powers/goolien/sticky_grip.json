@@ -1,0 +1,53 @@
+{
+  "name": "Sticky Grip",
+  "description": "With your sticky skin, you're able to climb walls. However, this also makes it so you can't throw tridents as effectively.",
+  "type": "origins:multiple",
+
+    "climbing": {
+      "type": "origins:climbing",
+        "hold_condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:or",
+              "conditions": [
+                {
+                  "type": "origins:block_collision",
+                  "offset_x": 0.01,
+                  "offset_z": 0.01,
+                  "offset_y": 0
+                },
+                {
+                  "type": "origins:block_collision",
+                  "offset_x": -0.01,
+                  "offset_z": -0.01,
+                  "offset_y": 0
+                }
+              ]
+            }
+          ]
+        },
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:collided_horizontally"
+            }
+          ]
+        }
+
+    },
+  "bad_bow_trident": {
+		"type": "origins:modify_projectile_damage",
+		"damage_condition":	{
+			"type": "origins:projectile",
+			"projectile": "minecraft:trident"
+		},
+		"modifiers": [
+      {
+        "operation": "multiply_base",
+        "value": -0.50
+      }
+		]
+	}
+}

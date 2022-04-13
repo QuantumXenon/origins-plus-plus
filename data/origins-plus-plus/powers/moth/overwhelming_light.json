@@ -1,0 +1,25 @@
+{
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":2,
+	"duration_per_stack":30,
+	"effects":[
+	   {
+		  "effect":"minecraft:weakness",
+		  "amplifier":0,
+		  "is_ambient":true,
+		  "show_particles":false,
+		  "show_icon":true
+	   }
+	],
+	"condition":{
+	   "type":"origins:and",
+	   "conditions":[
+		  {
+			 "type":"origins:exposed_to_sun"
+		  }
+	   ]
+	},
+	"name":"Overwhelming Light",
+	"description":"Your eyes are only used to darkness and low light, the sun is too much for you to comprehend. You feel overwhelmed in its presence."
+}

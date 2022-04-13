@@ -1,0 +1,21 @@
+{
+    "powers": [
+        "origins-plus-plus:witch-of-ink/magicbrush",
+        "origins-plus-plus:witch-of-ink/eraser",
+        "origins-plus-plus:witch-of-ink/reanimate",
+        "origins-plus-plus:witch-of-ink/artfinity",
+        "origins-plus-plus:witch-of-ink/witchy",
+        "origins-plus-plus:witch-of-ink/artistry",
+        "origins-plus-plus:witch-of-ink/painted_armor",
+        "origins-plus-plus:witch-of-ink/aura",
+        "origins-plus-plus:witch-of-ink/frail",
+        "origins-plus-plus:witch-of-ink/fired",
+        "origins-plus-plus:witch-of-ink/no_eat",
+        "origins-plus-plus:witch-of-ink/no_invis"
+    ],
+    "icon": "red_dye",
+    "order": 1,
+    "impact": 2,
+    "name": "Witch of Ink",
+    "description": "You saw The Canvas: a legendary artifact that has enlightened you. Your only purpose is to create a world made entirely of paint and simple colors."
+}

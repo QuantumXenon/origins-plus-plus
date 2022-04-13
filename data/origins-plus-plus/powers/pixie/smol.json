@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+        "type": "origins:execute_command",
+        "command": "scale set 0.25"
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale reset pehkui:base @s"
+    },
+    "entity_action_respawn": {
+        "type": "origins:execute_command",
+        "command": "scale set 0.25"
+    },
+    "execute_chosen_when_orb": true,
+	"name": "Party-Sized",
+    "description": "You are slightly over 3 blocks tall, and almost 2 blocks wide."
+	
+}

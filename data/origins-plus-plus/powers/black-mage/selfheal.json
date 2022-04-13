@@ -1,0 +1,63 @@
+{    
+    "name": "Recover",
+	"description": "Self heal spell.",
+	   "type": "origins:active_self",
+    "entity_action": {
+		"type": "origins:and",
+        "actions": [
+		{
+                "type": "origins:execute_command",
+                "command": "effect give @s minecraft:instant_health 1 1",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:electric_spark ~ ~ ~ 0 1 0 2 1000",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:explosion ~ ~ ~ 0 1 0 2 10",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.ender_eye.death player @a[distance=..20] ~ ~ ~ 10 0.3 1",
+                "permission_level": 4
+	},
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -70
+	}
+	]
+	},
+	"cooldown": 50,
+	"key": {
+		"key": "key.origins.secondary_active",
+		"continuous": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": false
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:wooden_sword"
+              }
+          },
+		  "inverted": true
+	}
+	]
+	},
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 0
+	}
+}

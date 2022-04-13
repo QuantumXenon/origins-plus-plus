@@ -1,0 +1,21 @@
+{
+    "name": "Fast Metabolism",
+    "description": "You need to eat a lot more while phasing.",
+    "type": "origins:exhaust",
+    "interval": 20,
+    "exhaustion": 0.812,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+            "type": "origins:invisible"
+            },
+            {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:shifter/shift_bar",
+            "comparison": "==",
+            "compare_to": 9    
+            }
+        ]
+    }
+}

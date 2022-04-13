@@ -1,0 +1,360 @@
+{
+    "name": "Portals",
+    "description": "(Primary, Secondary) You can summon a portal. When you have two portals, you can teleport between them by standing close to them. (Works across dimensions.)",
+    "type": "origins:multiple",
+    "toggled_blue":
+    {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0,
+        "hud_render":
+        {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+            "bar_index": 20,
+            "condition":
+            {
+                "type": "origins:resource",
+                "inverted": false,
+                "comparison": "==",
+                "compare_to": 1,
+                "resource": "*:*_toggled_blue"
+            }
+        },
+        "max_action":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "summon armor_stand ~ ~ ~ {NoGravity:0b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:[\"portal1\"],ArmorItems:[{},{},{},{id:\"minecraft:player_head\",Count:1b,tag:{SkullOwner:{Id:[I;1173494200,293750280,-1239947527,-1060776172],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTlhMWMxOTFlMGViYWJlODlkZGYxOGE4YmFjOGY0MjgwZTNhYzZiYzY2MWMxM2NlMWRmZjY3NGRhZDI4ODVlMyJ9fX0=\"}]}}}}]}"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "forceload add ~ ~ ~ ~"
+                }
+            ]
+        },
+        "min_action":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "execute at @e[type=minecraft:armor_stand,tag=portal1,limit=1,sort=nearest] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[\"force1\"]}"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "execute at @e[type=minecraft:area_effect_cloud,tag=force1,limit=1,sort=nearest] run kill @e[distance=..1,type=minecraft:armor_stand,tag=portal1]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "execute at @e[type=minecraft:area_effect_cloud,tag=force1,limit=1,sort=nearest] run forceload remove ~ ~"
+                }
+            ]
+        }
+    },
+    "toggled_orange":
+    {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0,
+        "hud_render":
+        {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+            "bar_index": 10,
+            "condition":
+            {
+                "type": "origins:resource",
+                "inverted": false,
+                "comparison": "==",
+                "compare_to": 1,
+                "resource": "*:*_toggled_orange"
+            }
+        },
+        "min_action":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "execute at @e[type=minecraft:armor_stand,tag=portal2,limit=1,sort=nearest] run summon area_effect_cloud ~ ~ ~ {Duration:1,Tags:[\"force2\"]}"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "execute at @e[type=minecraft:area_effect_cloud,tag=force2,limit=1,sort=nearest] run kill @e[distance=..1,type=minecraft:armor_stand,tag=portal2]"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "execute at @e[type=minecraft:area_effect_cloud,tag=force2,limit=1,sort=nearest] run forceload remove ~ ~"
+                }
+            ]
+        },
+        "max_action":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "summon armor_stand ~ ~ ~ {NoGravity:0b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:[\"portal2\"],ArmorItems:[{},{},{},{id:\"minecraft:player_head\",Count:1b,tag:{SkullOwner:{Id:[I;-484979924,2061978897,-1799446715,-114138908],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI4NTEzYzYxNjQ5NTg0OWNmOTFiNzY1MzZlODcyZTIwMDFhNjFjNWRiNDJhYzQwZDFiMjBhNzM0MjVkM2E5NSJ9fX0=\"}]}}}}]}"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "forceload add ~ ~ ~ ~"
+                }
+            ]
+        }
+    },
+    "summon_blue":
+    {
+        "type": "origins:active_self",
+        "cooldown": 5,
+        "key":
+        {
+            "key": "key.origins.primary_active",
+            "continuous": false
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "entity_action":
+        {
+            "type": "origins:if_else",
+            "condition":
+            {
+                "type": "origins:resource",
+                "inverted": false,
+                "comparison": "==",
+                "compare_to": 1,
+                "resource": "*:*_toggled_blue"
+            },
+            "if_action":
+            {
+                "type": "origins:change_resource",
+                "resource": "*:*_toggled_blue",
+                "change": -1
+            },
+            "else_action":
+            {
+                "type": "origins:change_resource",
+                "resource": "*:*_toggled_blue",
+                "change": 1
+            }
+        }
+    },
+    "summon_orange":
+    {
+        "type": "origins:active_self",
+        "cooldown": 5,
+        "key":
+        {
+            "key": "key.origins.secondary_active",
+            "continuous": false
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png"
+        },
+        "entity_action":
+        {
+            "type": "origins:if_else",
+            "condition":
+            {
+                "type": "origins:resource",
+                "inverted": false,
+                "comparison": "==",
+                "compare_to": 1,
+                "resource": "*:*_toggled_orange"
+            },
+            "if_action":
+            {
+                "type": "origins:change_resource",
+                "resource": "*:*_toggled_orange",
+                "change": -1
+            },
+            "else_action":
+            {
+                "type": "origins:change_resource",
+                "resource": "*:*_toggled_orange",
+                "change": 1
+            }
+        }
+    },
+    "portal":
+    {
+        "type": "origins:action_over_time",
+        "interval": 40,
+        "entity_action":
+        {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition":
+                    {
+                        "type": "origins:command",
+                        "inverted": false,
+                        "comparison": ">=",
+                        "compare_to": 1,
+                        "permission_level": 4,
+                        "command": "execute at @e[tag=portal1,limit=1,sort=nearest] as @e[tag=portal1,limit=1,sort=nearest] if entity @e[distance=..1,type=!armor_stand,type=!minecraft:area_effect_cloud]"
+                    },
+                    "action":
+                    {
+                        "type": "origins:delay",
+                        "ticks": 20,
+                        "action":
+                        {
+                            "type": "origins:and",
+                            "actions":
+                            [
+                                {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "execute at @e[type=minecraft:armor_stand,tag=portal1,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..3] ~ ~ ~ .1 .8"
+                                },
+                                {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "execute at @e[type=minecraft:armor_stand,tag=portal1,limit=1,sort=nearest] run tp @e[distance=..1,type=!armor_stand,type=!minecraft:area_effect_cloud] @e[type=armor_stand,tag=portal2,limit=1]"
+                                },
+                                {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "execute at @e[type=minecraft:armor_stand,tag=portal2,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..3] ~ ~ ~ .1 .8"
+                                },
+                                {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "execute as @e if entity @e[type=minecraft:armor_stand,tag=portal2,distance=..1,limit=1,sort=nearest] run playsound minecraft:block.portal.trigger player @s ~ ~ ~ .1 2"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "condition":
+                    {
+                        "type": "origins:command",
+                        "inverted": false,
+                        "comparison": ">=",
+                        "compare_to": 1,
+                        "permission_level": 4,
+                        "command": "execute at @e[tag=portal2,limit=1,sort=nearest] as @e[tag=portal2,limit=1,sort=nearest] if entity @e[distance=..1,type=!armor_stand,type=!minecraft:area_effect_cloud]"
+                    },
+                    "action":
+                    {
+                        "type": "origins:delay",
+                        "ticks": 20,
+                        "action":
+                        {
+                            "type": "origins:and",
+                            "actions":
+                            [
+                                {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "execute at @e[type=minecraft:armor_stand,tag=portal2,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..10] ~ ~ ~ .1 .8"
+                                },
+                                {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "execute at @e[type=minecraft:armor_stand,tag=portal2,limit=1,sort=nearest] run tp @e[distance=..1,type=!armor_stand,type=!minecraft:area_effect_cloud] @e[type=armor_stand,tag=portal1,limit=1]"
+                                },
+                                {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "execute at @e[type=minecraft:armor_stand,tag=portal1,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..10] ~ ~ ~ .1 .8"
+                                },
+                                {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "execute as @e if entity @e[type=minecraft:armor_stand,tag=portal1,distance=..1,limit=1,sort=nearest] run playsound minecraft:block.portal.trigger player @s ~ ~ ~ .1 2"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "condition":
+        {
+            "type": "origins:and",
+            "conditions":
+            [
+                {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "==",
+                    "compare_to": 1,
+                    "resource": "*:*_toggled_blue"
+                },
+                {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "==",
+                    "compare_to": 1,
+                    "resource": "*:*_toggled_orange"
+                }
+            ]
+        }
+    },
+    "particle":
+    {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action":
+        {
+            "type": "origins:and",
+            "actions":
+			[
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "execute at @e[type=minecraft:armor_stand,tag=portal1] run particle minecraft:dust .3 .3 1 1 ~ ~1.5 ~ .3 .3 .3 1 1 normal"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "execute at @e[type=minecraft:armor_stand,tag=portal2] run particle minecraft:dust 1 .6 0 1 ~ ~1.5 ~ .3 .3 .3 1 1 normal"
+                }
+            ]
+        },
+        "condition":
+        {
+            "type": "origins:and",
+            "conditions":
+            [
+                {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "==",
+                    "compare_to": 1,
+                    "resource": "*:*_toggled_blue"
+                },
+                {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "==",
+                    "compare_to": 1,
+                    "resource": "*:*_toggled_orange"
+                }
+            ]
+        }
+    }
+}

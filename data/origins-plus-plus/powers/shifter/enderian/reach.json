@@ -1,0 +1,24 @@
+{
+    "name": "§5§nSlender Body",
+    "description": "§5You can reach blocks and entities slightly further away.",
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "reach-entity-attributes:reach",
+        "value": 0.75,
+        "operation": "addition"
+      },
+      {
+        "attribute": "reach-entity-attributes:attack_range",
+        "value": 0.75,
+        "operation": "addition"
+      }
+    ],
+    "tick_rate": 20,
+    "condition":{
+		"type": "origins:resource",
+		"resource": "origins-plus-plus:shifter/shift_bar",
+		"comparison": "==",
+		"compare_to": 6
+	}
+  }

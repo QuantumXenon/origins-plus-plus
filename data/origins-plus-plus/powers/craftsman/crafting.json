@@ -1,0 +1,9 @@
+{
+    "name": "Crafting On The Road",
+    "description": "Due to your specialization in crafting you don't require a crafting table to craft, being able to summon a crafting GUI by using <primary>",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:crafting_table"
+    },
+    "key": "primary"
+}

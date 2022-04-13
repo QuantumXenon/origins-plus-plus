@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+	"name": "Cobra's Life",
+	"description": "You only have 9 hearts.",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.max_health",
+        "value": -3,
+        "operation": "addition"
+    }
+}

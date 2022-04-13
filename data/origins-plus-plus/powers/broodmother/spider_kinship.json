@@ -1,0 +1,31 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Friendly Kinship",
+    "description": "Spiders and Cave Spiders are all your allies and will not attack you.",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team add arachnid"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join arachnid @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join arachnid @e[type=minecraft:spider]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join arachnid @e[type=minecraft:cave_spider]"
+            }
+        ]
+    }
+}

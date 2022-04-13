@@ -1,0 +1,18 @@
+{
+  "name": "Absorbent",
+  "description": "Since your body passively absorbs water over time, being in water too long causes you to become slower.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 2,
+    "duration_per_stack": 10,
+    "effect": {
+      "effect": "minecraft:slowness",
+      "amplifier": 1,
+      "show_icon": false,
+      "show_particles": false
+    },
+    "condition": {
+      "type": "origins:submerged_in",
+      "fluid": "minecraft:water"
+    }
+}

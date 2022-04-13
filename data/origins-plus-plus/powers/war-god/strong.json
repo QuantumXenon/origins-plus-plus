@@ -1,0 +1,10 @@
+{  "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 6,
+      "operation": "addition"
+      
+    },
+    "name": "Strong",
+    "description": "You have a lot of experience in wars. Double Health."
+}

@@ -1,0 +1,20 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 22,
+    "max_stacks": 22,
+    "duration_per_stack": 5,
+	"effect":{
+		"effect": "minecraft:speed",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": false,
+		"amplifier": 1
+	},
+    "condition": {
+		"type": "origins:dimension",
+		"dimension": "minecraft:the_nether",
+		"inverted": true
+    },
+    "name": "God Speed",
+    "description": "Because of your nature, you are naturally faster than most (when not in the nether)."
+}

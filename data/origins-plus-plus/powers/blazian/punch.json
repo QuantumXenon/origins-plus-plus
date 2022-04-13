@@ -1,0 +1,9 @@
+{
+    "type": "origins:target_action_on_hit",
+    "hidden": true,
+    "cooldown": 0,
+    "entity_action": {
+        "type": "origins:set_on_fire",
+        "duration": 4
+    }
+}

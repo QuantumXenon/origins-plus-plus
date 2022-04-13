@@ -1,0 +1,29 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 22,
+    "max_stacks": 22,
+    "duration_per_stack": 5,
+    "effects": [
+		{
+			"effect": "minecraft:weakness",
+			"is_ambient": true,
+            "show_particles": false,
+            "show_icon": true,
+			"amplifier": 1
+		},
+		{
+			"effect": "minecraft:slowness",
+			"is_ambient": true,
+            "show_particles": false,
+            "show_icon": true,
+			"amplifier": 1
+		}
+    ],
+    "condition": {
+		"type": "origins:dimension",
+		"dimension": "minecraft:the_nether"
+    },
+	"name":"Curse of the Underworld",
+	"description":"As you are a (half) god, you are cursed by the underworld when you are in the nether."
+
+}

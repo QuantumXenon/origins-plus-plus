@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"origins-plus-plus:jellyfish/dry",
+		"origins-plus-plus:jellyfish/stinger",
+		"origins-plus-plus:jellyfish/ship_dweller",
+		"origins-plus-plus:jellyfish/little_blob",
+		"origins-plus-plus:jellyfish/jelly_body",
+		"origins:water_breathing",
+		"origins-plus-plus:jellyfish/water_vision",
+		"origins-plus-plus:jellyfish/hold_breath",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:like_water",
+		"origins:aquatic",
+		"origins:conduit_power_on_land",
+		"origins-plus-plus:jellyfish/aquatic_agriculture"
+
+	],
+	"icon": "minecraft:gold_nugget",
+	"order": 1,
+	"impact": 3,
+	"name": "Jellyfish",
+	"description": "Jellyfish are a creature which uses it stings to paralyze and poison its prey."
+}

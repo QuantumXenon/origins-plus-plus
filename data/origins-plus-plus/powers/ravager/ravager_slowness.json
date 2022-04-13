@@ -1,0 +1,38 @@
+{
+    "type": "origins:multiple",
+    "start": {
+        "type": "origins:action_on_callback",
+        "entity_action_added": {
+            "type": "origins:execute_command",
+            "command": "effect give @s minecraft:slowness 999999 0 true",
+            "permission_level": 4
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "effect give @s minecraft:slowness 999999 0 true",
+            "permission_level": 4
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "effect clear @s minecraft:slowness",
+            "permission_level": 4
+        }
+    },
+    "check" : {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "effect give @s minecraft:slowness 999999 0 true",
+            "permission_level": 4
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:ravager/ravager_resource",
+            "comparison": "==",
+            "compare_to": 1
+        }
+    },
+    "name": "Slowness",
+    "description": "Your species is heavy and bulky. You are permanently slowed."
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Long Arms",
+    "description": "Your reach is increased by 5 blocks.",
+    "type": "origins:attribute",
+    "modifiers": [
+      {
+        "name": "Extra Reach block reach",
+        "attribute": "reach-entity-attributes:reach",
+        "value": 5,
+        "operation": "addition"
+      },
+      {
+        "name": "Extra Reach entity reach",
+        "attribute": "reach-entity-attributes:attack_range",
+        "value": 5,
+        "operation": "addition"
+      }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effects": [{
+        "effect": "minecraft:strength",
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true,
+        "amplifier": 0
+    }
+    ],
+    "condition": {
+        "type": "origins:daytime"
+    },
+    "name": "Heat Strength",
+    "description": "You are naturally stronger because of the heat, you gain strength during the day and in the nether."
+}

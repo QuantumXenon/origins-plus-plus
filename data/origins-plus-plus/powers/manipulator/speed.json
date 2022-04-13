@@ -1,0 +1,11 @@
+{
+    "name": "testspeed",
+    "hidden": true,
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_base",
+        "value": 0.5
+    },
+    "update_health": false
+}

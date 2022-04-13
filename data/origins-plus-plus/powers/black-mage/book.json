@@ -1,0 +1,67 @@
+{
+	"name": "Hidden Knowledge",
+	"description": "You can turn a book into a Mage Book using Shift + Primary with a book on your offhand.",
+	"type": "origins:active_self",
+	"entity_action": {
+    "type": "origins:and",
+    "actions": [
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -15
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "give @p written_book{pages:['{\"text\":\"Welcome to the Black Mage Origin!          There are some hidden spells but they require specific items on your offhand, these spells will replace the presence spell, you can also make potions. (Shift+Primary to use)\"}','{\"text\":\"Mana Potions: You can drink mana potions to regen mana, there are 2 types of mana potions, the basic and the super mana potion. Basic Potion: Press Shift+Primary with Honey Bottle on your offhand. (100)     Super Potion: Press Shift+Primary with Dragon Breath on your offhand. (250)\"}','{\"text\":\"Teams: You have your own team in order to add or remove someone use a wooden sword on your offhand, press primary+shift to add or secondary+shift to remove.(Only works on players,need to be 1..6 blocks away from you)\"}','{\"text\":\"First Hidden Spell:     Darkness: You can use this spell do give blindness and slowness to any entity in a 15 blocks radius! Item: Ink sac on your offhand.\"}','{\"text\":\"Second Hidden Spell:  Lava Absorption: You can use this spell to absorb any lava around you.          Item: Magma Block on your offhand.\"}','{\"text\":\"Third Hidden Spell: Absorption: You can use this spell to get absorption 5 and resistance 2 for 30 seconds!                 Item: Golden Apple on your offhand.\"}','{\"text\":\"Fourth Hidden Spell: Leviosa: You can use this spell to levitate anyone in a 15 blocks radius!                     Item: Phantom Membrane on your offhand.\"}','{\"text\":\"Fifth Hidden Spell: Decay: You can give wither effect to  anyone in a 15 blocks radius.                   Item: Wither Rose on your offhand.\"}','{\"text\":\"Sixth Hidden Spell:  Phase: You can phase through blocks with that spell.(Passive, drains mana over time).                  Item: Glistering Melon Slice on your offhand.\"}','{\"text\":\"Seventh Hidden Spell: Scorch: You can use this spell to burn your enemies.           Item: Blaze Powder on your offhand.\"}','{\"text\":\"Eighth Hidden Spell: Zog Army: You can summon an army of zoglins.(They will hit you back if you attack them)                    Item: Leather on your offhand.\"}','{\"text\":\"Ninth Hidden Spell: Strong Wolf: You can summon a strong wolf. (Need to tame it, wont attack you)          Item: Bone Block on your offhand\"}','{\"text\":\"Tenth Hidden Spell: Repulsion: You can deal extra knockback. (Passive, drains mana) Item: Slime ball in your offhand.\"}','{\"text\":\"Ultimate spell: You can use ultimate spells with a dragon head on your offhand, they will replace the basic spells, Ultimate Zog Army: Shift+Primary. (Will add more in the future) \"}',],title:MageBook,author:BlackMage}",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "clear @s minecraft:book 1",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:enchant ~ ~ ~ 2 2 2 2 1000",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:enchanted_hit ~ ~ ~ 3 3 3 3 1000",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:block.note_block.iron_xylophone player @a[distance=..20] ~ ~ ~ 100 0.9 1",
+                "permission_level": 4
+	}
+	]
+	},
+	"cooldown": 0,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": false
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:book"
+              }
+          }
+	}
+	]
+	},
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 0
+	}
+}

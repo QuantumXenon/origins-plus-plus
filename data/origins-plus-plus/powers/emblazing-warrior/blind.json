@@ -1,0 +1,12 @@
+{
+    "type": "origins:status_bar_texture",
+    "texture": "netherw:angry_bar.png",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+        "compare_to": 3,
+        "comparison": "=="
+    },
+    "name": "Clouded Judgement",
+    "description": "At 3 Fury, you can no longer see your health."
+}

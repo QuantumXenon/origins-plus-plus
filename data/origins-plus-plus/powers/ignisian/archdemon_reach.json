@@ -1,0 +1,18 @@
+{
+	"type": "origins:attribute",
+	"hidden": true,
+	"modifiers": [
+		{
+			"name": "Extra Reach block reach",
+			"attribute": "reach-entity-attributes:reach",
+			"operation": "addition",
+			"value": 1.0
+		},
+		{
+			"name": "Extra Reach entity reach",
+			"attribute": "reach-entity-attributes:attack_range",
+			"operation": "addition",
+			"value": 1.0
+		}
+	]
+}

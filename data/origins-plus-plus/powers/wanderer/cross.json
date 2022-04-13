@@ -1,0 +1,12 @@
+{
+    "name": "Merchants Body",
+    "description": "Due to your body being used to travel, you became a little weaker to fire.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.05
+    }
+}

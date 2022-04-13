@@ -1,0 +1,25 @@
+{
+	"type":"origins:action_over_time",
+	"interval":20,
+	"entity_action":{
+	   "type":"origins:apply_effect",
+	   "effects":[
+		  {
+			 "effect":"minecraft:speed",
+			 "duration":21,
+			 "amplifier":0,
+			 "show_particles":false,
+			 "is_ambient":true
+		  }
+	   ]
+	},
+	"condition":{
+	   "type":"origins:biome",
+	   "condition":{
+		  "type":"origins:temperature",
+		  "comparison":"<=",
+		  "compare_to":0.15
+	   }
+	},
+	"hidden": true
+ }

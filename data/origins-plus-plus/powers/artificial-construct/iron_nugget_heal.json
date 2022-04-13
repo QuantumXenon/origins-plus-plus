@@ -1,0 +1,39 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 25,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:heal",
+                "amount": 3
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "clear @s iron_nugget 1"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "offhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:iron_nugget"
+                    }
+                }
+            },
+            {
+                "type": "origins:health",
+                "comparison": "<",
+                "compare_to": 20
+            }
+        ]
+    },
+    "name": "Inorganic",
+    "description": "Since you are a machine, you cannot heal naturally, but you can heal your self with iron nuggets(put an iron nugget in your offhand to consume it)."
+}

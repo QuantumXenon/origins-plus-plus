@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"value": 1,
+		"operation": "multiply_base"
+	},
+	"name": "Light Body",
+	"description": "Your small stature allows you to move quicker."
+}

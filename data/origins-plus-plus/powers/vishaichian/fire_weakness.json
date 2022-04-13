@@ -1,0 +1,25 @@
+{
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:fire"
+  },
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 4
+  },
+  "self_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:weakness 2 2"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:blindness 2 2"
+      }
+    ]
+  },
+  "name": "Fire Weakness",
+  "description": "Fire deals double damage to you. Additionally, when on fire it gives you Blindness and Weakness."
+}

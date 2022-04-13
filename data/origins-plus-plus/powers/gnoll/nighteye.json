@@ -1,0 +1,9 @@
+{
+	"name": "Low-Light Vision",
+	"description": "When exposed to moonlight you can see clearly at night.",
+    "type": "origins:night_vision",
+    "strength": 1,
+    "condition": {
+		"type": "origins:exposed_to_sky"
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "type": "origins:self_action_on_hit",
+	"entity_action": {
+    "type": "origins:feed",
+    "food": 1,
+    "saturation": 0.5
+	},
+    "damage_condition": {
+        "type": "origins:amount",
+        "comparison": ">=",
+        "compare_to": 1.0
+    },
+    "cooldown": 5,
+	"name": "Soul Steal",
+	"description": "Thanks to your Soul-Like body, you fill Food and fuel your Soul-Well with strikes."
+}

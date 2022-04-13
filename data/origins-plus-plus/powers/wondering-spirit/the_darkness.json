@@ -1,0 +1,36 @@
+{
+    "name": "The Darkness",
+    "description": "At night you are afraid of the dark, so you get Slowness and Weakness.",
+    "type": "origins:action_over_time",
+    "condition": {
+        "type": "origins:daytime",
+        "inverted": true
+    },
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "duration": 300,
+                        "is_ambient": false,
+                        "show_particles": true,
+                        "show_icon": true,
+                        "effect": "minecraft:night_vision",
+                        "amplifier": 1
+                    },
+                    {
+                        "duration": 300,
+                        "is_ambient": false,
+                        "show_particles": true,
+                        "show_icon": true,
+                        "effect": "minecraft:speed",
+                        "amplifier": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

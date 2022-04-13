@@ -1,0 +1,12 @@
+{
+    "type": "origins:freeze",
+    "name": "Weakened",
+    "description": "The cold weakens your protection against the curse. The decay by the curse deals damage to you.",
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:precipitation",
+            "precipitation": "snow"
+        }
+    }
+}

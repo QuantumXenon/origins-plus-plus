@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:set_on_fire",
+        "duration": 1
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:resource",
+        "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+        "compare_to": 3,
+        "comparison": "=="
+    },
+    "name": "Red Hot Chili",
+    "description": "At 3 Fury, you will begin burning."
+}

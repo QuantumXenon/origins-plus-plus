@@ -1,0 +1,30 @@
+{
+    "type": "origins:multiple",
+    "ignore_water": {
+        "type": "origins:ignore_water"
+    },
+    "slow_in_water": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.03
+        },
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "no_drowning": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:gain_air",
+            "value": 60
+        }
+    },
+    "name": "Sinking Weight",
+    "description": "You sink in water. You will also move slower, however you will not drown."
+}

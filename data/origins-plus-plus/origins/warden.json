@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"origins-plus-plus:warden/warden_life",
+		"origins-plus-plus:warden/warden_scream",
+		"origins-plus-plus:warden/warden_shield",
+		"origins-plus-plus:warden/warden_eye",
+		"origins-plus-plus:warden/warden_eye2",
+		"origins-plus-plus:warden/warden_eye3"
+	],
+	"icon": "minecraft:warped_wart_block",
+	"order": 10,
+	"impact": 2,
+	"name": "Warden",
+	"description": "Your Warden character has certain Traits deriving from your Warden ancestry."
+}

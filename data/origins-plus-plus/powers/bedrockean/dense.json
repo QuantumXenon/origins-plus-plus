@@ -1,0 +1,22 @@
+{
+	"type": "origins:attribute",
+	"modifiers": [
+		{
+			"attribute": "generic.max_health",
+			"operation": "addition",
+			"value": 10.0
+		},
+		{
+			"attribute": "generic.movement_speed",
+			"operation": "addition",
+			"value": -0.05
+		},
+		{
+			"attribute": "reach-entity-attributes:attack_range",
+			"operation": "addition",
+			"value": -1
+		}
+	],
+	"name": "Dense",
+	"description": "Due to your density you have extra health, and you are slower."
+}

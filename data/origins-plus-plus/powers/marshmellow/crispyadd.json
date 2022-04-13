@@ -1,0 +1,13 @@
+{
+    "type": "origins:action_when_damage_taken",
+    "hidden": true,
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "origins-plus-plus:marshmellow/crispyresource",
+        "change": 1
+    },
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "cooldown": 300
+}

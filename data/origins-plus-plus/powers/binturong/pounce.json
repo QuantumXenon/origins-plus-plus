@@ -1,0 +1,44 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:portal ~ ~ ~ 0.5 0 0.5 0.2 20 force",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:entity.ender_dragon.flap player @a[distance=..10] ~ ~ ~ 1 1 1",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:add_velocity",
+        "z": 5,
+        "space": "local"
+      },
+      {
+        "type": "origins:add_velocity",
+        "y": 1.2
+      },
+      {
+        "type": "origins:exhaust",
+        "amount": 0
+      }
+    ]
+  },
+  "key": {
+    "key": "key.origins.nonary_active",
+    "continuous": false
+  },
+  "cooldown": 240,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 23
+  },
+
+  "name": "Binturong's Leap",
+  "description": "Binturong's need to jump from tree to tree"
+}

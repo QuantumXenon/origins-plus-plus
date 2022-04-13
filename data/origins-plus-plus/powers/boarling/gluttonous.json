@@ -1,0 +1,13 @@
+{
+    "name": "Savory",
+    "description": "All food is far more saturating.",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "inverted": false,
+        "type": "origins:food"
+    },
+    "saturation_modifier": {
+        "operation": "multiply_base",
+        "value": 0.5
+    }
+}

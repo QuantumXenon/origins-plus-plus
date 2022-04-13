@@ -1,0 +1,15 @@
+{
+  "name": "Burn In The Sun",
+  "description": "You burn in the sun.",
+  "type": "origins:burn",
+  "interval": 20,
+  "burn_duration": 6,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:exposed_to_sun"
+      }
+    ]
+  }
+}

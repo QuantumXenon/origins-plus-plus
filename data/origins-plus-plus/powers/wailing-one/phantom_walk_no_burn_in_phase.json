@@ -1,0 +1,9 @@
+{
+    "hidden": true,
+    "type": "origins:fire_immunity",
+    "render_armor": true,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:phantom_walk_toggle"
+    }
+}

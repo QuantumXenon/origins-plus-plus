@@ -1,0 +1,55 @@
+{
+    "name": "A Reminder",
+    "description": "Touching a Kelp Plant gives you Regeneration, Blindness and Slowness 2.",
+    "type": "origins:action_over_time",
+    "condition": {
+        "type": "origins:block_in_radius",
+        "inverted": false,
+        "radius": 1,
+        "shape": "cube",
+        "comparison": ">=",
+        "compare_to": 1,
+        "block_condition": {
+            "type": "origins:block",
+            "inverted": false,
+            "block": "minecraft:kelp"
+        }
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "duration": 200,
+                    "is_ambient": false,
+                    "show_particles": true,
+                    "show_icon": true,
+                    "effect": "minecraft:regeneration"
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "duration": 200,
+                    "is_ambient": false,
+                    "show_particles": true,
+                    "show_icon": true,
+                    "effect": "minecraft:blindness"
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "duration": 200,
+                    "is_ambient": false,
+                    "show_particles": true,
+                    "show_icon": true,
+                    "effect": "minecraft:slowness",
+                    "amplifier": 2
+                }
+            }
+        ]
+    },
+    "interval": 40
+}

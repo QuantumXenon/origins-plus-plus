@@ -1,0 +1,36 @@
+{
+	"key": "secondary",
+	"cooldown": 200,
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:feed",
+				"food": 10,
+				"saturation": 5
+			},
+			{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:regeneration",
+					"is_ambient": true,
+					"show_particles": false,
+					"show_icon": false,
+					"duration": 20
+				}
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:brightness",
+		"comparison": "<",
+		"compare_to": 0.5
+	},
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 9
+	},
+	"name": "Shadow Snack",
+	"description": "Because eating food isn't an option, and you're a shadow, you are able to regain your hunger when in dark areas, if you press your secondary key. This fills half of your hunger bar and gives regeneration for a short period of time."
+}

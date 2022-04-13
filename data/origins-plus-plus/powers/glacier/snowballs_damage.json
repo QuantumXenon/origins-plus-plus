@@ -1,0 +1,33 @@
+{
+	"type": "origins:target_action_on_hit",
+	"entity_action": {
+		"type": "origins:damage",
+		"amount": 3,
+		"source": {
+			"name": "player"
+		}
+	},
+	"cooldown": 5,
+	"damage_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:projectile",
+				"projectile": "minecraft:snowball"
+			},
+			{
+				"type": "origins:attacker",
+				"entity_condition": {
+					"type": "origins:status_effect",
+					"effect": "minecraft:weakness",
+					"min_amplifier": 0,
+					"max_amplifier": 2147483647,
+					"min_duration": 0,
+					"max_duration": 2147483647
+				},
+				"inverted": true
+			}
+		]
+	},
+	"hidden": true
+}

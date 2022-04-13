@@ -1,0 +1,12 @@
+{
+	"type": "origins:exhaust",
+	"interval": 10,
+	"exhaustion": 10000,
+	"condition": {
+		"type": "origins:food_level",
+		"comparison": "!=",
+		"compare_to": 0
+	},
+	"name": "Food",
+	"description": "You never have eaten so you never have a full food bar"
+}

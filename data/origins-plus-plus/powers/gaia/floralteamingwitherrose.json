@@ -1,0 +1,25 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:strength",
+            "duration": 200,
+            "amplifier": 4
+        }
+    },
+    "interval": 40,
+    "condition": {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:wither_rose"
+        },
+        "radius": 5,
+        "shape": "cube",
+        "comparison": ">",
+        "compare_to": 15
+    },
+    "hidden": true,
+    "name": "Floral Teaming Strength WitherRose"
+}

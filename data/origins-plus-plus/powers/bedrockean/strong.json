@@ -1,0 +1,19 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:air"
+			}
+        }
+    },
+    "modifier": {
+		"operation": "addition",
+		"value": 7.0
+    },
+	"name": "Strong",
+	"description": "Due to you being made out of bedrock, you deal extra damage when using your fist."
+}

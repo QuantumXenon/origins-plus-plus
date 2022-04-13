@@ -1,0 +1,12 @@
+{
+    "name": "Smaller Body",
+    "description": "Because your body is smaller, you are more fragile.",
+    "loading_priority": 0,
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -4
+    },
+    "update_health": true
+}

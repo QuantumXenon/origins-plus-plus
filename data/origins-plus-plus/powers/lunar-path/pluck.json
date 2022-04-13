@@ -1,0 +1,25 @@
+{
+	"type":"origins:conditioned_attribute",
+	"modifiers":{
+	   "attribute":"minecraft:generic.attack_damage",
+	   "operation":"addition",
+	   "value":2
+	},
+	"condition":{
+	   "type":"origins:and",
+	   "conditions":[
+		  {
+			 "type":"origins:equipped_item",
+			 "equipment_slot":"mainhand",
+			 "item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+				   "item":"minecraft:iron_sword"
+				}
+			 }
+		  }
+	   ]
+	},
+	"name":"Pluck",
+	"description":"Because the iron is very conductive, it makes it so the sword is fueled with dark energy, making it deal as much damage as a netherite sword."
+}

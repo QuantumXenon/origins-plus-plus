@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_jump",
+  "modifier": {
+    "name": "Heavy Body jump force penalty",
+    "value": -0.05,
+    "operation": "addition"
+  },
+  "name":"Heavy body",
+  "description": "Due to your great weight you can barley jump a block high."
+}

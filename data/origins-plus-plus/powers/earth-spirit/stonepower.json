@@ -1,0 +1,33 @@
+{
+	"name": "Rock Form",
+	"description": "Being rock-like you become one with the rocks. You gain numerous rock abilities and disabilities.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -3,
+    "max_stacks": 1,
+    "duration_per_stack": 40,
+    "tick_rate": 20,
+    "effects": [
+	{
+        "effect": "minecraft:strength",
+		"amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    },
+	{
+		"effect": "minecraft:slowness",
+		"amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+	},
+	{
+		"effect": "minecraft:resistance",
+		"amplifier": 1,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+	}
+]
+
+}

@@ -1,0 +1,8 @@
+{
+    "type": "origins:swimming",
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "name": "Suspicious Moves",
+    "description": "Sneaking mid-sprint makes you able to enter 1-block-high holes."
+}

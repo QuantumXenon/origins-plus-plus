@@ -1,0 +1,32 @@
+{
+    "replace": false,
+    "values": [
+    "minecraft:cooked_beef",
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_salmon",
+    "minecraft:cooked_cod",
+    "cooked_mutton",
+    "cooked_porkchop",
+    "cookie",
+    "chorus_fruit",
+    "cooked_rabbit",
+    "beetroot",
+    "beetroot_soup",
+    "rabbit_stew",
+    "mushroom_stew",
+    "golden_carrot",
+    "golden_apple",
+    "apple",
+    "cod",
+    "salmon",
+    "tropical_fish",
+    "melon_slice",
+    "baked_potato",
+    "potato",
+    "poisonous_potato",
+    "pumpkin_pie",
+    "glow_berries",
+    "sweet_berries",
+    "dried_kelp"
+    ]
+    }

@@ -1,0 +1,17 @@
+{
+    "name": "§7§nElytra Like",
+    "description": "§7You have 7 hearts and are a light grey colour.",
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -6.0,
+        "operation": "addition"
+    },
+    "tick_rate": 20,
+    "condition":{
+		"type": "origins:resource",
+		"resource": "origins-plus-plus:shifter/shift_bar",
+		"comparison": "==",
+		"compare_to": 3
+	}
+  }

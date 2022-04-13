@@ -1,0 +1,19 @@
+{
+	"type": "origins:modify_harvest",
+	"block_condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:block",
+				"block": "minecraft:snow"
+			},
+			{
+				"type": "origins:block",
+				"block": "minecraft:snow_block"
+			}
+		]
+	},
+	"allow": true,
+	"name": "Frosty Touch",
+	"description": "You're able to collect snow and with your bare hands."
+}

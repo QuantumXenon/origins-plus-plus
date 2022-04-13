@@ -1,0 +1,23 @@
+{
+	"powers": [
+		"origins:nether_spawn",
+		"origins-plus-plus:ghast/flight",
+		"origins-plus-plus:ghast/nether_phasing",
+		"origins-plus-plus:ghast/fire_charge",
+		"origins-plus-plus:ghast/fire_charge_a",
+		"origins:fragile",
+		"origins:fire_immunity",
+		"origins-plus-plus:ghast/tall",
+		"origins-plus-plus:ghast/miserable",
+		"origins:slow_falling",
+		"origins:translucent",
+		"origins-plus-plus:ghast/red_nether_phasing",
+		"origins-plus-plus:ghast/not_warm_shaking",
+		"origins-plus-plus:ghast/hunger_over_time"
+	],
+	"icon": "minecraft:fire_charge",
+	"order": 3,
+	"impact": 3,
+	"name": "Ghast",
+	"description": "Ghosts of players who died in the nether, the only thing these spirits can remember is that they were trying to find a way back home."
+}

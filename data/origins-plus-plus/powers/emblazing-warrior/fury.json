@@ -1,0 +1,115 @@
+{
+    "name": "Flaming Fury",
+    "description": "For each 25% HP lost, you will gain Fury, which increases all of your powers' effectiveness.",
+    "type": "origins:multiple",
+    "bar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 3,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 15
+        }
+    },
+    "fury0": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_bar",
+            "change": 0,
+            "operation": "set"
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": ">",
+                    "compare_to": 0.75
+                },
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<=",
+                    "compare_to": 1
+                }
+            ]
+        }
+    },
+    "fury1": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_bar",
+            "change": 1,
+            "operation": "set"
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<=",
+                    "compare_to": 0.75
+                },
+                {
+                    "type": "origins:relative_health",
+                    "comparison": ">",
+                    "compare_to": 0.5
+                }
+            ]
+        }
+    },
+    "fury2": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_bar",
+            "change": 2,
+            "operation": "set"
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<=",
+                    "compare_to": 0.5
+                },
+                {
+                    "type": "origins:relative_health",
+                    "comparison": ">",
+                    "compare_to": 0.25
+                }
+            ]
+        }
+    },
+    "fury3": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_bar",
+            "change": 3,
+            "operation": "set"
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:relative_health",
+                    "comparison": "<=",
+                    "compare_to": 0.25
+                },
+                {
+                    "type": "origins:relative_health",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        }
+    }
+}

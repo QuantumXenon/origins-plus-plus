@@ -1,0 +1,27 @@
+{
+    "name": "Bundles",
+    "description": "You can craft Bundles out of 6 rabbit hide and 2 string!",
+    "loading_priority": 1,
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "bunnydle",
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+            "#L#",
+            "L L",
+            "LLL"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:string"
+            },
+            "L": {
+                "item": "minecraft:rabbit_hide"
+            }
+        },
+        "result": {
+            "item": "minecraft:bundle",
+            "count": 1
+        }
+    }
+}

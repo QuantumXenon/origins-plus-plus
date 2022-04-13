@@ -1,0 +1,9 @@
+{
+	"type": "origins:model_color",
+	"red": 0,
+	"blue": 1,
+	"green": 0.8,
+	"alpha": 1,
+	"name": "Blue Skin",
+	"description": "Your cold nature makes your skin blue."
+}

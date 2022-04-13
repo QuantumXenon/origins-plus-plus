@@ -1,0 +1,23 @@
+{
+	"type": "origins:target_action_on_hit",
+	"entity_action": {
+	  "type": "origins:apply_effect",
+	  "effect": {
+		"effect": "minecraft:poison",
+		"amplifier": 2,
+		"duration": 200
+	  }
+	},
+	"cooldown": 120,
+	"hud_render": {
+	  "should_render": true,
+	  "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+	  "bar_index": 21
+	},
+	"damage_condition": {
+	  "type": "origins:name",
+	  "name": "player"
+	},
+	"name":"Cobra's Touch",
+	"description":"To defend yourself, you poison people you attack."
+}

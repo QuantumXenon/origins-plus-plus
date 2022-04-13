@@ -1,0 +1,10 @@
+{
+	"type": "origins:restrict_armor",
+	"chest": {
+		"type": "origins:armor_value",
+		"comparison": "<",
+		"compare_to": 3
+	},
+	"name": "NO elyta",
+	"description": "Due to your great density you could not every fly."
+}

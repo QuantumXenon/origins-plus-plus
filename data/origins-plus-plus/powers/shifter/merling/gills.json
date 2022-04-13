@@ -1,0 +1,86 @@
+{
+    "name": "§9§nGills",
+    "description": "§9You can breathe underwater, but not on land.",
+    "type": "origins:multiple",
+    "givegills": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+		"command": "function origins-plus-plus:shifter/water"
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:resource",
+		"resource": "origins-plus-plus:shifter/shift_bar",
+		"comparison": "==",
+		"compare_to": 7
+        }
+    },
+    "removegills":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function origins-plus-plus:shifter/water2"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-plus-plus:shifter/shift_bar",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-plus-plus:shifter/shift_bar",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-plus-plus:shifter/shift_bar",
+                    "comparison": "==",
+                    "compare_to": 2
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-plus-plus:shifter/shift_bar",
+                    "comparison": "==",
+                    "compare_to": 3
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-plus-plus:shifter/shift_bar",
+                    "comparison": "==",
+                    "compare_to": 4
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-plus-plus:shifter/shift_bar",
+                    "comparison": "==",
+                    "compare_to": 5
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-plus-plus:shifter/shift_bar",
+                    "comparison": "==",
+                    "compare_to": 6
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-plus-plus:shifter/shift_bar",
+                    "comparison": "==",
+                    "compare_to": 8
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-plus-plus:shifter/shift_bar",
+                    "comparison": "==",
+                    "compare_to": 9
+                }
+            ]
+        }
+    }
+}

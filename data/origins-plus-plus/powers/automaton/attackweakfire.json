@@ -1,0 +1,41 @@
+{
+	"type": "origins:target_action_on_hit",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:set_on_fire",
+				"duration": 5
+			},
+			{
+				"type": "origins:damage",
+				"amount": 3,
+				"source": {
+					"name": "onFire",
+					"fire": true,
+					"bypasses_armor": false
+				}
+			},
+			{
+			"type": "origins:execute_command",
+			"command": "particle minecraft:flame ~ ~.5 ~ 0.5 1 0.5 0.01 25 force"
+			}
+		]
+	},
+	"cooldown": 1,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:power_active",
+				"power": "origins-plus-plus:automaton/attacktoggle",
+				"inverted": true
+			},
+			{
+				"type": "origins:resource",
+				"resource": "origins-plus-plus:automaton/firebar",
+				"comparison": ">",
+				"compare_to": 1499
+			}
+		]
+	},
+	"hidden": true
+}

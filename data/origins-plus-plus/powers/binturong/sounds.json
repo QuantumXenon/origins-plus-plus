@@ -1,0 +1,26 @@
+{
+    "description": ".",
+    "hidden": true,
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:health",
+            "comparison": ">",
+            "compare_to": 1
+        },
+        "if_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.fox.screech",
+            "volume": 1,
+            "pitch": 1
+        },
+        "else_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.fox.screech",
+            "volume": 1,
+            "pitch": 1
+        }
+    },
+    "cooldown": 0
+}

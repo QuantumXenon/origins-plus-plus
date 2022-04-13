@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"origins-plus-plus:chimaera/anoxic",
+		"origins-plus-plus:chimaera/xeniteimplants",
+		"origins-plus-plus:chimaera/aggression",
+		"origins-plus-plus:chimaera/chimeric",
+		"origins-plus-plus:chimaera/pathophagy",
+		"origins-plus-plus:chimaera/unstable",
+		"origins-plus-plus:chimaera/phaseshift",
+		"origins:climbing",
+		"origins-plus-plus:chimaera/shrodingervitality",
+		"origins-plus-plus:chimaera/miasma"
+
+	],
+	"icon": "minecraft:budding_amethyst",
+	"order": 3,
+	"impact": 3,
+	"name": "Chimaera",
+	"description": "Dark Inquisitors made with eldritch and draconic magic in order to hunt demons and the undead. You are what we in the biz call ''chaotic good'' However, beware that, when fighting monsters, you yourself do not become a monster..."
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Exoskeleton",
+    "description": "Like spiders, you are equipped with an exoskeleton – a hard, external covering that provides both structural support and protection from predators.",
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Natural Armor health bonus",
+      "attribute": "minecraft:generic.armor",
+      "value": 8.0,
+      "operation": "addition"
+    }
+  }

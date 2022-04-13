@@ -1,0 +1,24 @@
+{
+    "type": "origins:burn",
+    "interval": 20,
+    "burn_duration": 1,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:dimension",
+                "dimension": "minecraft:the_nether"
+            },
+            {
+                "type": "origins:enchantment",
+                "enchantment": "minecraft:fire_protection",
+                "calculation": "max",
+                "comparison": ">=",
+                "compare_to": 2,
+                "inverted": true
+            }
+        ]
+    },
+    "name": "Hades' Gate",
+    "description": "The Nether rejects your essence, burning it the moment you enter. If you have at least 1 armorpiece with Fire Protection II, this effect will recede."
+}

@@ -1,0 +1,12 @@
+{
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:fire"
+	},
+	"modifier": {
+		"operation": "multiply_base",
+		"value": 2
+	},
+	"name": "Ice Body",
+	"description": "You have less hearts and take x2 fire damage."
+}

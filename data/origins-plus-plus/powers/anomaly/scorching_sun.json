@@ -1,0 +1,38 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:weakness",
+                "duration": 99999,
+				"show_particles": false
+            },
+			{   "effect": "minecraft:slowness",
+			    "duration": 99999,
+				"amplifier": 1,
+				"show_particles": false
+			}
+        ]
+    },
+    "falling_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:weakness"
+            },
+			{
+				"type": "origins:clear_effect",
+				"effect": "minecraft:slowness"
+			}
+        ]
+    },
+    "condition": {
+        "type": "origins:daytime"
+    },
+	"interval" : 1,
+
+    "name": "Scorching Sun",
+    "description": "The Starlight in you greately weakens you during the day, be careful until nightfall. "
+}

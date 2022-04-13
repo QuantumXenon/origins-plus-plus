@@ -1,0 +1,49 @@
+{
+    "type": "origins:action_over_time",
+    "rising_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:raycast",
+                "distance": 16,
+                "block": true,
+                "entity": true,
+                "shape_type": "visual",
+                "fluid_handling": "any",
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function origins-plus-plus:deathsworn/minionify"
+                    }
+                },
+                "bientity_condition": {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:nbt",
+                                "nbt": "{Tags:['lnc_Minion']}",
+                                "inverted": true
+                            },
+                            {
+                                "type": "origins:entity_type",
+                                "entity_type": "player",
+                                "inverted": true
+                            }
+                        ]
+                    }
+                },
+                "command_along_ray": "particle minecraft:totem_of_undying",
+                "command_step": 0.25,
+                "command_along_ray_only_on_hit": false
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "power revoke @s origins-plus-plus:deathsworn/one_off/convertray"
+            }
+        ]
+    },
+    "interval": 1
+}

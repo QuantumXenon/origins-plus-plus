@@ -1,0 +1,12 @@
+{
+    "name": "Noshield",
+    "description": "You cannot Hold a Shield.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "inverted": false,
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:shield"
+        }
+    }
+}

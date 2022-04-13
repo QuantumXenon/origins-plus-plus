@@ -1,0 +1,34 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.attack_damage",
+		"operation": "multiply_total",
+		"value": -2.25
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "fabric:swords"
+					}
+				}
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "fabric:swords"
+					}
+				}
+			}
+		]
+	},
+	"name": "not made for this",
+	"description": "[DE-BUFF]like shields you dont like swords so they do less damage"
+}

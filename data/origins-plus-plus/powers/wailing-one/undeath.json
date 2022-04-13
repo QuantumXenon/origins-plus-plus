@@ -1,0 +1,81 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Undeath",
+    "description": "The Undead see you as their own and aren’t hostile to you.",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team add undead"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team modify undead seeFriendlyInvisibles false"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:skeleton]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:stray]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:husk]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:zombie]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:wither_skeleton]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:zombified_piglin]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:wither]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:zoglin]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:phantom]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:drowned]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join undead @e[type=minecraft:zombie_villager]"
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+	"type": "origins:multiple",
+	"name": "Extremely Sturdy",
+	"description": "You take 50% less fall damage, 33% less knockback, mine 50% faster, and you don't slip on ice.",
+	"mining_speed": {
+		"type": "origins:modify_break_speed",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.5
+		}
+	},
+	"ice_slip": {
+		"type": "origins:modify_slipperiness",
+		"modifier": {
+			"operation": "addition",
+			"value": -0.38
+		},
+		"block_condition": {
+			"type": "origins:in_tag",
+			"tag": "ice"
+		}
+	}
+}

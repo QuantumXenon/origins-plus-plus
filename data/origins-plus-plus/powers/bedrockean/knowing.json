@@ -1,0 +1,184 @@
+{
+	"type": "origins:action_on_block_break",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "give @s minecraft:diamond 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s {\"text\":\"Your senses discovered a diamond.\"}"
+						}
+					]
+				},
+				"chance": 0.006
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "give @s minecraft:iron_nugget 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s {\"text\":\"Your senses discovered a sliver of iron.\"}"
+						}
+					]
+				},
+				"chance": 0.03
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "give @s minecraft:gold_nugget 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s {\"text\":\"Your senses discovered a sliver of gold.\"}"
+						}
+					]
+				},
+				"chance": 0.02
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "give @s minecraft:coal 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s {\"text\":\"Your senses discovered a chunk of coal.\"}"
+						}
+					]
+				},
+				"chance": 0.05
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "give @s minecraft:lapis_lazuli 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s {\"text\":\"Your senses discovered some lapis.\"}"
+						}
+					]
+				},
+				"chance": 0.008
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "give @s minecraft:redstone 2"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s {\"text\":\"Your senses discovered some redstone powder.\"}"
+						}
+					]
+				},
+				"chance": 0.05
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "give @s minecraft:emerald 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s {\"text\":\"Your senses discovered an emerald.\"}"
+						}
+					]
+				},
+				"chance": 0.008
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "give @s minecraft:iron_ingot 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s {\"text\":\"Your senses discovered a chunk of iron.\"}"
+						}
+					]
+				},
+				"chance": 0.015
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "give @s minecraft:gold_ingot 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s {\"text\":\"Your senses discovered a chunk of gold.\"}"
+						}
+					]
+				},
+				"chance": 0.015
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "/give @s totem_of_undying{display:{Name:'[{\"text\":\"Dusty idol\",\"italic\":true,\"color\":\"#ffffcc\"}]',Lore:['[{\"text\":\"A dusty miniature statue made\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"of \",\"italic\":false,\"color\":\"white\"},{\"text\":\"gold\",\"color\":\"yellow\"},{\"text\":\" with \"},{\"text\":\"emerald eyes\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"white\"}]','[{\"text\":\"Something tells you this\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"should stay with you.\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{}]} 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s {\"text\":\"Your senses discovered some sort of dusty miniature statue.\"}"
+						}
+					]
+				},
+				"chance": 0.001
+			}
+		]
+	},
+	"block_condition": {
+		"type": "origins:in_tag",
+		"tag": "*:stone"
+	},
+	"name": "Earth Familiarity",
+	"description": "Your familiarity with the earth allows to to find treasures others cannot."
+}

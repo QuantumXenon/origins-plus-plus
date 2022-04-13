@@ -1,0 +1,5 @@
+{
+	"name": "Stone Weight",
+	"description": "You are as heavy as a rock. You immediately sink upon being in contact with water.",
+	"type": "origins:ignore_water"
+}

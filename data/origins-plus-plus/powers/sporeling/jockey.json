@@ -1,0 +1,8 @@
+{
+  "type": "extraorigins:start_riding",
+  "key": {
+	"key": "key.use"
+  },
+  "name": "Jockey",
+  "description":"You can ride on other players."
+}

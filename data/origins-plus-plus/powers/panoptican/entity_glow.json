@@ -1,0 +1,10 @@
+{
+    "type": "origins:entity_glow",
+        "inverted": true,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:glowtoggle"
+         
+    },
+    "hidden": true
+}

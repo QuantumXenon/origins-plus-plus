@@ -1,0 +1,11 @@
+{
+	"type": "origins:action_over_time",
+	"hidden": true,
+	"interval": 1,
+	"entity_action": {
+		"type": "origins:dismount"
+	},
+	"condition": {
+		"type": "origins:riding"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"type": "origins:swimming",
+	"condition": {
+		"type": "origins:fluid_height",
+		"fluid": "minecraft:lava",
+		"comparison": ">",
+		"compare_to": 0.0,
+		"inverted": false
+	},
+	"hidden": true
+}

@@ -1,0 +1,15 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -3,
+    "max_stacks": 1,
+    "duration_per_stack": 200,
+    "tick_rate": 20,
+    "effect": {
+        "effect": "minecraft:glowing",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+    },
+	"name": "Pixies Blessing",
+	"description":"Being a being of pure fondness gives you permanent luck and a warming aura."
+}
