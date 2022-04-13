@@ -11,7 +11,8 @@
         "origins:ender_particles",
         "origins-plus-plus:triangulon/spatial_stomach",
         "origins-plus-plus:triangulon/warped_health",
-        "origins-plus-plus:triangulon/nmfm"
+        "origins-plus-plus:triangulon/nmfm",
+		"origins-plus-plus:triangulon/bowmaster",
     ],
     "icon": {
         "item": "minecraft:emerald_block"
