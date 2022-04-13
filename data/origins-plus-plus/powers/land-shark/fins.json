@@ -1,6 +1,6 @@
 {
     "name": "Fins",
-    "description": "You get slowness 3 while on land.",
+    "description": "You get slowness 2 while on land.",
     "condition": {
         "inverted": true,
         "type": "origins:submerged_in",
@@ -14,7 +14,7 @@
     "effect": {
         "effect": "minecraft:slowness",
         "duration": 100,
-        "amplifier": 2,
+        "amplifier": 1,
         "show_particles": false,
         "show_icon": true
     }
