@@ -1,7 +1,7 @@
 ---
 name: Balance Request
 about: Request a balance
-title: "[Origin] ["Power"]"
+title: "[Origin] [Power]"
 labels: 'balance'
 assignees: QuantumXenon
 

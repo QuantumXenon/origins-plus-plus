@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 about: Report a bug
-title: "[Origin] ["Power"]"
+title: "[Origin] [Power]"
 labels: 'bug'
 assignees: QuantumXenon
 
