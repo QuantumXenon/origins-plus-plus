@@ -17,7 +17,7 @@
 	},
 	{
                 "type": "origins:execute_command",
-                "command": "team join blackk @e[type=!minecraft:player,distance=..6]",
+                "command": "team join blackk @e[type=!minecraft:player,distance=..8]",
                 "permission_level": 4
 	},
 	{
@@ -42,7 +42,7 @@
 	}
 	]
 	},
-	"cooldown": 40,
+	"cooldown": 400,
 	"key": {
 		"key": "key.origins.primary_active",
 		"continuous": false
@@ -60,6 +60,28 @@
 			"type": "origins:ingredient",
 			"ingredient": {
             "item": "minecraft:honey_bottle"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:netherite_pickaxe"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:gunpowder"
               }
           },
 		  "inverted": true

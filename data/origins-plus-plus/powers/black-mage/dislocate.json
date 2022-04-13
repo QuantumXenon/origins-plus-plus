@@ -8,7 +8,7 @@
 	{
 			    "type": "origins:change_resource",
                 "resource": "origins-plus-plus:black-mage/resource",
-                "change": -20
+                "change": -30
 	},
 	{
     "type": "origins:raycast",

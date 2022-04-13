@@ -1,0 +1,93 @@
+{
+	"hidden": true,
+	"type": "origins:active_self",
+	"entity_action": {
+	"type": "origins:and",
+    "actions": [
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -400
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "tp @r[distance=1..]",
+                "permission_level": 4
+    },
+	{
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=..5] minecraft:blindness 20 0",
+                "permission_level": 4
+    },
+	{
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=..5] minecraft:slowness 20 3",
+                "permission_level": 4
+    },
+	{
+                "type": "origins:execute_command",
+                "command": "effect clear @s",
+                "permission_level": 4
+    },
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:dust 0 0 0 2 ~ ~ ~ 2 2 2 100 1000",
+                "permission_level": 4
+    },
+	{
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.enderman.death player @a[distance=..20] ~ ~ ~ 100 0.5",
+                "permission_level": 4
+    },
+	{
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.elder_guardian.curse player @a[distance=..20] ~ ~ ~ 100 0.1",
+                "permission_level": 4
+    },
+	{
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=1..15] minecraft:blindness 40 0",
+                "permission_level": 4
+    }
+    ]
+	},
+		"cooldown": 190,
+		"key": {
+			"key": "key.origins.secondary_active",
+			"continuous": false
+		},
+		"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:dragon_head"
+              }
+          },
+		  "inverted": false
+	  },
+	  {
+            "type": "origins:time_of_day",
+            "comparison": ">=",
+            "compare_to": 13000
+        },
+        {
+            "type": "origins:time_of_day",
+            "comparison": "<=",
+            "compare_to": 23000
+        }
+	    ]
+		},
+		"hud_render": {
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"should_render": false,
+			"bar_index": 7
+		}
+}

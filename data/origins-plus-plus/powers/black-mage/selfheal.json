@@ -12,6 +12,11 @@
 	},
 	{
                 "type": "origins:execute_command",
+                "command": "effect give @s minecraft:saturation 1 1",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
                 "command": "particle minecraft:electric_spark ~ ~ ~ 0 1 0 2 1000",
                 "permission_level": 4
 	},
