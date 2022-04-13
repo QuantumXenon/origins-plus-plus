@@ -2,7 +2,7 @@
 name: Balance Request
 about: Request a balance
 title: "[Balance]"
-labels: ''
+labels: 'balance'
 assignees: QuantumXenon
 
 ---

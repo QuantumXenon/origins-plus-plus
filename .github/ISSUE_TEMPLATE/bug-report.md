@@ -2,7 +2,7 @@
 name: Bug Report
 about: Report a bug
 title: "[Bug]"
-labels: ''
+labels: 'bug'
 assignees: QuantumXenon
 
 ---
