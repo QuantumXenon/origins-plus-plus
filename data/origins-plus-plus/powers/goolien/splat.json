@@ -63,7 +63,7 @@
             "effect": {
                 "effect": "minecraft:slowness",
                 "amplifier": 1,
-                "duration": 100
+                "duration": 140
             }
         },
         "damage_condition": {
@@ -89,7 +89,7 @@
             "effect": {
                 "effect": "minecraft:slowness",
                 "amplifier": 1,
-                "duration": 100
+                "duration": 140
             }
         },
         "damage_condition": {
@@ -116,7 +116,7 @@
             "effect": {
                 "effect": "minecraft:slowness",
                 "amplifier": 2,
-                "duration": 120
+                "duration": 180
             }
         },
         "damage_condition": {
@@ -142,7 +142,7 @@
             "effect": {
                 "effect": "minecraft:slowness",
                 "amplifier": 2,
-                "duration": 120
+                "duration": 180
             }
         },
         "damage_condition": {
@@ -169,7 +169,7 @@
             "effect": {
                 "effect": "minecraft:slowness",
                 "amplifier": 3,
-                "duration": 140
+                "duration": 220
             }
         },
         "damage_condition": {
@@ -195,7 +195,7 @@
             "effect": {
                 "effect": "minecraft:slowness",
                 "amplifier": 3,
-                "duration": 140
+                "duration": 220
             }
         },
         "damage_condition": {
@@ -222,7 +222,7 @@
             "effect": {
                 "effect": "minecraft:slowness",
                 "amplifier": 4,
-                "duration": 140
+                "duration": 260
             }
         },
         "damage_condition": {
@@ -248,7 +248,7 @@
             "effect": {
                 "effect": "minecraft:slowness",
                 "amplifier": 4,
-                "duration": 140
+                "duration": 260
             }
         },
         "damage_condition": {
@@ -262,6 +262,59 @@
                     "type": "origins:amount",
                     "comparison": ">=",
                     "compare_to": 18.0
+                }
+            ]
+        },
+    "cooldown": 20
+    },
+
+    "slowness_when_fall11": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:slowness",
+                "amplifier": 5,
+                "duration": 280
+            }
+        },
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                "type": "origins:name",
+                "name": "fall"
+                },
+                {                
+                    "type": "origins:amount",
+                    "comparison": ">=",
+                    "compare_to": 20.0
+                }
+            ]
+        },
+    "cooldown": 20
+    },
+    "slowness_when_flyintowall11": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:slowness",
+                "amplifier": 5,
+                "duration": 280
+            }
+        },
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                "type": "origins:name",
+                "name": "flyIntoWall"
+                },
+                {                
+                    "type": "origins:amount",
+                    "comparison": ">=",
+                    "compare_to": 20.0
                 }
             ]
         },

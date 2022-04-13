@@ -8,15 +8,5 @@
             "operation": "multiply_base",
             "value": -0.25
         }
-    },  
-
-    "cannot_use_bows": {
-        "type": "origins:prevent_item_use",
-        "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-                "item": "minecraft:bow"
-            }
-        }
     }
 }

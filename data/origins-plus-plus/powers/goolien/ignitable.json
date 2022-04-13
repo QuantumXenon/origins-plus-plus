@@ -1,6 +1,6 @@
 {
   "name": "Ignitable",
-  "description": "You cannot wear iron armor or above in deserts, the nether, and other hot biomes or else risk being set on fire from the heat. You can protect yourself from this by enchanting your armor with Fire Protection II or better.",
+  "description": "You cannot wear iron armor or above in deserts, the nether, and other hot biomes or else risk being set on fire from the heat. You can protect yourself from this by enchanting your armor with Fire Protection I or better.",
   "type": "origins:multiple",
 
   "hot_biome_head": {
@@ -36,7 +36,7 @@
                 "inverted": true,
                 "enchantment": "minecraft:fire_protection",
                 "comparison": ">=",
-                "compare_to": 2
+                "compare_to": 1
               }
             ]
           }
@@ -78,7 +78,7 @@
                 "inverted": true,
                 "enchantment": "minecraft:fire_protection",
                 "comparison": ">=",
-                "compare_to": 2
+                "compare_to": 1
               }
             ]
           }
@@ -120,7 +120,7 @@
                 "inverted": true,
                 "enchantment": "minecraft:fire_protection",
                 "comparison": ">=",
-                "compare_to": 2
+                "compare_to": 1
               }
             ]
           }
@@ -162,7 +162,7 @@
                 "inverted": true,
                 "enchantment": "minecraft:fire_protection",
                 "comparison": ">=",
-                "compare_to": 2
+                "compare_to": 1
               }
             ]
           }
