@@ -12,5 +12,7 @@ To Do:
 
 
 Done:
-- Devine Architect - Universal Beam
-- Fixed "Damage Glitch"
+
+- Fixed Devine Architect "Universal Beam"
+
+- Fixed Wondering Spirit "Damage Glitch"
