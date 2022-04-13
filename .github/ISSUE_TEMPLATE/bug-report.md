@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Make a bug known to the developer
+about: Report a bug
 title: "[Bug]"
 labels: ''
 assignees: QuantumXenon

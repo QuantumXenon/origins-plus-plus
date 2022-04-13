@@ -1,6 +1,6 @@
 ---
 name: Other Issues
-about: A issues that is neither a bug or a balance request
+about: Any other issue
 title: "[Other]"
 labels: ''
 assignees: QuantumXenon

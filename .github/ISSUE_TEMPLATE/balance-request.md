@@ -1,6 +1,6 @@
 ---
 name: Balance Request
-about: Suggest an idea for this project
+about: Request a balance
 title: "[Balance]"
 labels: ''
 assignees: QuantumXenon
