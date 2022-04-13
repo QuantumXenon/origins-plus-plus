@@ -1,0 +1,7 @@
+Coming in the next version:
+
+- Fixed Devine Architect taking suffocation damage while phasing
+- Fixed Devine Architect "Universal Beam" from not loading properly
+- Fixed Wondering Spirit "Damage Glitch" from always applying
+
+- Other bug fixes and balances
