@@ -1,7 +1,6 @@
 {
 	"type": "origins:active_self",
-	"name": "Excessive Power",
-	"description": "Bows and crossbows break on use",
+	"hidden": true,
 	"key": {
 		"key": "key.use",
 		"continuous": true

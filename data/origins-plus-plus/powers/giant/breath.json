@@ -1,7 +1,7 @@
 {
 	"type": "origins:action_over_time",
 	"name": "Oversized Lungs",
-	"description": "You have twice as much oxygen.",
+	"description": "You have twice as much oxygen",
 	"interval": 20,
 	"condition": {
 		"type": "origins:and",

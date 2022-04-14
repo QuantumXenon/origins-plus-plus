@@ -1,7 +1,7 @@
 {
 	"type": "origins:multiple",
 	"name": "Cumbersome",
-	"description": "Your size leaves you unaffected by levitation, but incapable of using an elytra or riptide trident.",
+	"description": "Your size leaves you unaffected by levitation, but incapable of using an elytra or riptide trident",
 	"riptide_no": {
 		"type": "origins:prevent_item_use",
 		"item_condition": {

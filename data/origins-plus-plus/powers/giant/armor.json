@@ -1,7 +1,7 @@
 {
 	"type": "origins:multiple",
 	"name": "Giant Heritage",
-	"description": "Leather armor gives you as much protection as iron armor.",
+	"description": "Leather armor gives you as much protection as iron armor",
 	"helmet": {
 		"type": "origins:conditioned_attribute",
 		"modifier": {

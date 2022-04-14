@@ -1,7 +1,7 @@
 {
 	"type": "origins:multiple",
 	"name": "Colossal Slam",
-	"description": "You can slam into the ground, creating a small explosion.",
+	"description": "You can slam into the ground, creating a small explosion, and dismounting your passenger",
 	"resource": {
 		"type": "origins:resource",
 		"min": 0,
@@ -22,18 +22,25 @@
 			"bar_index": 2
 		},
 		"condition": {
-			"type": "origins:on_block",
-			"inverted": true,
-			"block_condition": {
-				"type": "origins:movement_blocking"
-			}
+			"type": "origins:fluid_height",
+			"fluid": "water",
+			"comparison": "==",
+			"compare_to": 0
 		},
 		"entity_action": {
 			"type": "origins:and",
 			"actions": [
 			{
 				"type": "origins:add_velocity",
-				"y": -0.67
+				"y": 0.5
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 10,
+				"action": {
+					"type": "origins:add_velocity",
+					"y": -0.67
+				}
 			},
 			{
 				"type": "origins:change_resource",
@@ -92,6 +99,32 @@
 				}
 			}
 			]
+		}
+	},
+	"water": {
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"condition": {
+			"type": "origins:or",
+			"conditions": [
+			{
+				"type": "origins:on_block",
+				"block_condition": {
+					"type": "origins:movement_blocking"
+				}
+			},
+			{
+				"type": "origins:fluid_height",
+				"fluid": "water",
+				"comparison": ">",
+				"compare_to": 0
+			}
+			]
+		},
+		"rising_action": {
+			"type": "origins:change_resource",
+			"resource": "origins-plus-plus:giant/slam_resource",
+			"change": -1
 		}
 	}
 }

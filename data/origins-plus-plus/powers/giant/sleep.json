@@ -1,7 +1,7 @@
 {
 	"type": "origins:prevent_sleep",
 	"name": "Gigantic Bed",
-	"description": "Your immense size limits you to needing to sleep on 4 beds put together (2x2).",
+	"description": "Your immense size limits you to needing to sleep on 4 beds put together (2x2)",
 	"message": "This bed isn't big enough for you.",
 	"block_condition": {
 		"type": "origins:or",

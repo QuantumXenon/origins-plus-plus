@@ -14,6 +14,11 @@
 		}
 		]
 	},
+	"condition": {
+		"type": "origins:food_level",
+		"comparison": "<",
+		"compare_to": 20
+	},
 	"entity_action": {
 		"type": "origins:and",
 		"actions": [

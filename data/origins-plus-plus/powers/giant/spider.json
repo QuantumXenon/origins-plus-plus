@@ -1,7 +1,7 @@
 {
 	"type": "origins:multiple",
 	"name": "Arachnophobe",
-	"description": "You take triple damage from any mobs that are affected by Bane of Arthropods.",
+	"description": "You take triple damage from any mobs that are affected by Bane of Arthropods",
 	"from": {
 		"type": "origins:modify_damage_taken",
 		"modifier": {
