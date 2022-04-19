@@ -1,13 +1,1 @@
-Coming in the next version (v1.4.1):
-
-- Fixed Devine Architect taking suffocation damage while phasing
-- Fixed Devine Architect "Universal Beam" from not loading properly
-- Fixed Wondering Spirit "Damage Glitch" from always applying
-
-- Updated Goolien
-- Updated Black Mage
-- Updated Triangulon
-- Updated Land Shark
-- Updated Giant
-
-- Other bug fixes and balances
+v1.4.1 - Released 19/04/2022
