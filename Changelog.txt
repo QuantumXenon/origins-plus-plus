@@ -1,1 +1,3 @@
 v1.4.1 - Released 19/04/2022
+
+Coming in the next version:
