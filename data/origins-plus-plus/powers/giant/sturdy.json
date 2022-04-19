@@ -2,14 +2,6 @@
 	"type": "origins:multiple",
 	"name": "Extremely Sturdy",
 	"description": "You take 50% less fall damage, 33% less knockback, and mine 50% faster",
-	"knockback_take": {
-		"type": "origins:attribute",
-		"modifier": {
-			"attribute": "minecraft:generic.knockback_resistance",
-			"operation": "addition",
-			"value": 0.5
-		}
-	},
 	"mining_speed": {
 		"type": "origins:modify_break_speed",
 		"modifier": {

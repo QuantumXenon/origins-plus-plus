@@ -32,6 +32,10 @@
 		{
 			"type": "origins:execute_command",
 			"command": "scale set pehkui:reach 1.33"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "attribute @s generic.knockback_resistance base set 0.33"
 		}
 		]
 	},
@@ -65,16 +69,38 @@
 		{
 			"type": "origins:execute_command",
 			"command": "scale set pehkui:reach 1.33"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "attribute @s generic.knockback_resistance base set 0.33"
 		}
 		]
 	},
 	"entity_action_lost": {
-		"type": "origins:execute_command",
-		"command": "scale reset"
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "scale reset"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "attribute @s generic.knockback_resistance base set 0"
+		}
+		]
 	},
 	"entity_action_removed": {
-		"type": "origins:execute_command",
-		"command": "scale reset"
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "scale reset"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "attribute @s generic.knockback_resistance base set 0"
+		}
+		]
 	},
 	"entity_action_respawned": {
 		"type": "origins:and",
@@ -106,6 +132,10 @@
 		{
 			"type": "origins:execute_command",
 			"command": "scale set pehkui:reach 1.33"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "attribute @s generic.knockback_resistance base set 0.33"
 		}
 		]
 	}

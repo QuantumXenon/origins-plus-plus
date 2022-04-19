@@ -22,12 +22,9 @@
 			"operation": "multiply_total",
 			"value": -0.33
 		},
-		"damage_condition": {
-			"type": "origins:attacker",
-			"entity_condition": {
-				"type": "origins:entity_group",
-				"group": "arthropod"
-			}
+		"target_condition": {
+			"type": "origins:entity_group",
+			"group": "arthropod"
 		}
 	}
 }

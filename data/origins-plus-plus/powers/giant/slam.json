@@ -1,7 +1,7 @@
 {
 	"type": "origins:multiple",
 	"name": "Colossal Slam",
-	"description": "You can slam into the ground, creating a small explosion, and dismounting your passenger",
+	"description": "You can slam into the ground, creating a small explosion, and throwing off passengers",
 	"resource": {
 		"type": "origins:resource",
 		"min": 0,
@@ -36,7 +36,7 @@
 			},
 			{
 				"type": "origins:delay",
-				"ticks": 10,
+				"ticks": 5,
 				"action": {
 					"type": "origins:add_velocity",
 					"y": -0.67
@@ -74,7 +74,7 @@
 			},
 			{
 				"type": "origins:explode",
-				"power": 2,
+				"power": 1.5,
 				"damage_self": false,
 				"indestructible": {
 					"type": "origins:or",

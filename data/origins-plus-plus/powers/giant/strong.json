@@ -11,11 +11,10 @@
 		}
 	},
 	"knockback_deal": {
-		"type": "origins:attribute",
-		"modifier": {
-			"attribute": "minecraft:generic.attack_knockback",
-			"operation": "multiply_base",
-			"value": 0.5
+		"type": "origins:action_on_hit",
+		"bientity_action": {
+			"type": "origins:add_velocity",
+			"z": 0.33
 		}
 	}
 }
