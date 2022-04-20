@@ -2,7 +2,7 @@
 	"schemaVersion": 1, 
 	"id": "origins-plus-plus", 
 	"name": "Origins++", 
-	"version": "1.4.1", 
+	"version": "1.5", 
 	"description": "A collection of 110+ origins",
 	"authors": ["TheQuantumXenon"],   
 	"contributors": ["All credit goes to original authors.",
