@@ -9,7 +9,7 @@
 					"(See CurseForge Description)"], 
 	"contact": {
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus",
-		"issues": "https://github.com/QuantumXenon/origins-plus-plus/issues",
+		"issues": "https://github.com/QuantumXenon/origins-plus-plus/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/origins++/icon.png",
