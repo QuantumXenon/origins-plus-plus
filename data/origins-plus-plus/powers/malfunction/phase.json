@@ -1,265 +1,248 @@
 {
-    "name": "Phase",
-    "description": "You can phase through blocks with the primary key.",
     "type": "origins:multiple",
-    "togglephase": {
-        "type": "origins:toggle"
-    },
-    "phase": {
-        "type": "origins:phasing",
-        "blacklist": true,
-        "render_type": "blindness",
-        "view_distance": 10,
-        "block_condition": {
-            "type": "origins:in_tag",
-            "tag": "origins:unphasable"
-        },
-        "phase_down_condition": {
-            "type": "origins:sneaking"
-        },
-        "condition":{
-            "type": "origins:power_active",
-            "power": "*:*_togglephase"
+    "resource":
+    {
+        "type": "origins:resource",
+        "max": 500,
+        "min": 0,
+        "start_value": 500,
+        "hud_render":
+        {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 4
         }
     },
-    "invuln": {
-        "type": "origins:invulnerability",
-        "damage_condition": {
-            "type": "origins:name",
-            "name": "fall"
+    "toggle":
+    {
+        "type": "origins:resource",
+        "max": 1,
+        "min": 0,
+        "start_value": 0,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 0
+        }
+    },
+    "active_toggle":
+    {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "key":
+        {
+            "key": "key.origins.primary_active",
+            "continuous": false
         },
-        "condition": {
+        "condition":
+        {
+            "type": "origins:sneaking",
+            "inverted": true
+        },
+        "entity_action":
+        {
+            "type": "origins:if_else",
+            "condition":
+            {
+                "type": "origins:resource",
+                "inverted": false,
+                "comparison": "==",
+                "resource": "*:*_toggle",
+                "compare_to": 1
+            },
+            "if_action":
+            {
+                "type": "origins:change_resource",
+                "resource": "*:*_toggle",
+                "change": -1
+            },
+            "else_action":
+            {
+                "type": "origins:change_resource",
+                "resource": "*:*_toggle",
+                "change": 1
+            }
+        },
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 1
+        }
+    },
+    "invis":
+    {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition":
+        {
+            "type": "origins:resource",
+            "inverted": false,
+            "comparison": "==",
+            "resource": "*:*_toggle",
+            "compare_to": 1
+        }
+    },
+    "invin":
+    {
+        "type": "origins:invulnerability",
+        "condition":
+        {
+            "type": "origins:resource",
+            "inverted": false,
+            "comparison": "==",
+            "resource": "*:*_toggle",
+            "compare_to": 1
+        },
+        "damage_condition":
+        {
+            "type": "origins:name",
+            "inverted": true,
+            "name": "wither"
+        }
+    },
+    "weak":
+    {
+        "type": "origins:stacking_status_effect",
+        "condition":
+        {
+            "type": "origins:resource",
+            "inverted": false,
+            "comparison": "==",
+            "resource": "*:*_toggle",
+            "compare_to": 1
+        },
+        "duration_per_stack": 20,
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "effect":
+        {
+            "duration": 0,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": true,
+            "effect": "weakness",
+            "amplifier": 100
+        }
+    },
+	"particle":
+    {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action":
+        {
             "type": "origins:and",
-            "conditions": [
+            "actions": [
                 {
-                    "type": "origins:sneaking"
-                },
-                {
-                    "type": "origins:power_active",
-                    "power": "*:*_togglephase"
+                    "type": "origins:if_else",
+                    "condition":
+                    {
+                        "type": "origins:resource",
+                        "inverted": false,
+                        "comparison": "==",
+                        "resource": "*:*_toggle",
+                        "compare_to": 1
+                    },
+                    "if_action":
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_resource",
+                        "change": -1
+                    },
+                    "else_action":
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_resource",
+                        "change": 1
+                    }
                 }
             ]
         }
     },
-    "ignorewater": {
-        "type": "origins:ignore_water",
-        "condition": {
-            "type": "origins:power_active",
-            "power": "*:*_togglephase"
-        }
-    },
-    "ascend":{
-        "type": "origins:active_self",
-        "entity_action": {
-            "type":"origins:if_else",
-            "condition":{
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:in_block",
-                        "block_condition": {
-                            "type": "origins:height",
-                            "comparison": "<=",
-                            "compare_to": 128
-                        }
-                    },
-                    {
-                        "type": "origins:resource",
-                        "resource": "*:*_resource",
-                        "comparison": "==",
-                        "compare_to": 1
-                    }
-                ]
-            },
-            "else_action": {
-                "type": "origins:damage",
-                "amount": 0,
-                "source": {
-                "name": "null",
-                "bypasses_armor": true
-            }
-            },
-            "if_action": {
-                "type": "origins:change_resource",
-                "resource": "*:*_up_resource",
-                "change": 4
-            }
+    "wither":
+    {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 20,
+        "effect":
+        {
+            "duration": 0,
+            "is_ambient": false,
+            "show_particles": true,
+            "show_icon": true,
+            "effect": "wither",
+            "amplifier": 1
         },
-        "cooldown": 0,
-        "hud_render": {
-            "should_render": false
-        },
-        "key": {
-            "key": "key.jump",
-            "continuous": true
-        }
-    },
-    "descend":{
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:change_resource",
-            "resource": "*:*_down_resource",
-            "change": 4
-        },
-        "cooldown": 0,
-        "hud_render": {
-            "should_render": false
-        },
-        "key": {
-            "key": "key.sneak",
-            "continuous": true
-        }
-    },
-    "float":{
-        "type": "origins:action_over_time",
-        "entity_action": {
-            "type": "origins:if_else",
-            "condition": {
-                "type": "origins:resource",
-                "resource": "*:*_up_resource",
-                "comparison": "!=",
-                "compare_to": 0 
-            },
-            "if_action": {
-                "type": "origins:and",
-                "actions": [
-                    {
-                        "type": "origins:apply_effect",
-                        "effect": {
-                            "effect": "minecraft:levitation",
-                            "duration": 2,
-                            "amplifier": 1,
-                            "show_particles": false,
-                            "show_icon": false
-                        }
-                    }
-                ]
-            },
-            "else_action": {
-                "type": "origins:if_else",
-                "condition": {
-                    "type": "origins:resource",
-                    "resource": "*:*_down_resource",
-                    "comparison": "!=",
-                    "compare_to": 0 
-                }, 
-                "if_action": {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:status_effect",
-                        "effect": "minecraft:levitation",
-                        "min_amplifier": -1
-                    },
-                    "if_action": {
-                        "type": "origins:clear_effect",
-                        "effect": "minecraft:levitation"
-                    },
-                    "else_action": {
-                        "type": "origins:apply_effect",
-                        "effect": {
-                            "effect": "minecraft:levitation",
-                            "duration": 2,
-                            "amplifier": -5,
-                            "show_particles": false,
-                            "show_icon": false
-                        }
-                    }
-                },  
-                "else_action": {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:levitation",
-                        "duration": 2,
-                        "amplifier": -1,
-                        "show_particles": false,
-                        "show_icon": false
-                    }
-                }    
-            }
-        },
-        "condition": {
+        "condition":
+        {
             "type": "origins:resource",
-            "resource": "*:*_resource",
+            "inverted": false,
             "comparison": "==",
-            "compare_to": 1 
+            "resource": "*:*_resource",
+            "compare_to": 0
+        }
+    },
+    "phase":
+    {
+        "type": "origins:phasing",
+        "blacklist": true,
+        "render_type": "blindness",
+        "view_distance": 20,
+        "condition":
+        {
+            "type": "origins:resource",
+            "inverted": false,
+            "comparison": "==",
+            "resource": "*:*_toggle",
+            "compare_to": 1
         },
-        "interval": 1
-    },
-    "down_resource": {
-        "type": "origins:resource",
-        "min": 0,
-        "max": 2,
-        "start_value": 0,
-        "hud_render": {
-            "should_render": false
-        }
-    },
-    "up_resource": {
-        "type": "origins:resource",
-        "min": 0,
-        "max": 2,
-        "start_value": 0,
-        "hud_render": {
-            "should_render": false
-        }
-    },
-    "resource": {
-        "type": "origins:resource",
-        "min": 0,
-        "max": 1,
-        "start_value": 0,
-        "hud_render": {
-            "should_render": false
-        }
-    },
-    "toggle": {
-        "type": "origins:action_over_time",
-        "entity_action": {
-            "type": "origins:if_else",
-            "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:power_active",
-                        "power": "*:*_togglephase"
-                    },
-                    {
-                        "type": "origins:in_block",
-                        "block_condition": {
-                            "type": "origins:movement_blocking"
+        "block_condition":
+        {
+            "type": "origins:in_tag",
+            "inverted": false,
+            "tag": "origins:unphasable"
+        },
+        "phase_down_condition":
+        {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "==",
+                    "resource": "*:*_toggle",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:or",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:swimming",
+                            "inverted": false
+                        },
+                        {
+                            "type": "origins:sneaking",
+                            "inverted": false
                         }
-                    }
-                ]
-            },
-            "if_action": {
-                "type": "origins:change_resource",
-                "resource": "*:*_resource",
-                "change": 1
-            },
-            "else_action": {
-                "type": "origins:change_resource",
-                "resource": "*:*_resource",
-                "change": -1
-            }
-        },
-        "interval": 1
+                    ]
+                }
+            ]
+        }
     },
-    "drain1": {
-        "type": "origins:action_over_time",
-        "entity_action": {
-        "type": "origins:change_resource",
-            "resource": "*:*_up_resource",
-            "change": -1
-        },
-        "interval": 1
+    "respawn":
+    {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": false,
+        "entity_action_respawned":
+        {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "change": 500
+        }
     },
-    "drain2": {
-        "type": "origins:action_over_time",
-        "entity_action": {
-        "type": "origins:change_resource",
-            "resource": "*:*_down_resource",
-            "change": -1
-        },
-        "interval": 1
-    }
+    "name": "Phase",
+    "description": "You can phase through blocks (but it's to unstable to stay in that form for long). [Primary]"
 }

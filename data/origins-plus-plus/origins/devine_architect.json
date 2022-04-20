@@ -1,7 +1,5 @@
 {
 	"powers": [
-		"origins-plus-plus:devine-architect/phase_no_suffocate",
-		"origins-plus-plus:devine-architect/phase_no_suffocate_player",
 		"origins-plus-plus:devine-architect/phase",
 		"origins-plus-plus:devine-architect/flight",
 		"origins-plus-plus:devine-architect/nether_travel",
@@ -17,8 +15,7 @@
 		"origins-plus-plus:devine-architect/fall_immunity",
 		"origins-plus-plus:devine-architect/charges",
 		"origins-plus-plus:devine-architect/demonic_jealousy",
-		"origins-plus-plus:devine-architect/distrust",
-		"origins-plus-plus:devine-architect/hunger_over_time"
+		"origins-plus-plus:devine-architect/distrust"
 	],
 	"icon": "minecraft:end_crystal",
 	"order": 10,

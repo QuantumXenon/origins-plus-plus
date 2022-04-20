@@ -1,9 +1,7 @@
 {
 	"powers": [
 		"origins:ender_particles",
-		"origins-plus-plus:wailing-one/phantom_walk",
-		"origins-plus-plus:wailing-one/phantom_walk_toggle",
-		"origins-plus-plus:wailing-one/phantom_walk_no_burn_in_phase",
+		"origins-plus-plus:wailing-one/phase",
 		"origins-plus-plus:wailing-one/wail",
 		"origins-plus-plus:wailing-one/levitate",
 		"origins-plus-plus:wailing-one/as_soft_as_a_wisp",
@@ -24,8 +22,7 @@
 		"origins-plus-plus:wailing-one/ghost",
 		"origins-plus-plus:wailing-one/swamp_spawn",
 		"origins-plus-plus:wailing-one/translucent",
-		"origins-plus-plus:wailing-one/particles",
-		"origins-plus-plus:wailing-one/hunger_over_time"
+		"origins-plus-plus:wailing-one/particles"
 	],
 	"icon": "minecraft:ghast_tear",
 	"order": 10,

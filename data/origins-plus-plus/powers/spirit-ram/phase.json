@@ -126,7 +126,7 @@
             "amplifier": 100
         }
     },
-    "particle":
+	"particle":
     {
         "type": "origins:action_over_time",
         "interval": 1,
@@ -146,19 +146,9 @@
                     },
                     "if_action":
                     {
-                        "type": "origins:and",
-                        "actions": [
-                            {
-                                "type": "origins:execute_command",
-                                "permission_level": 4,
-                                "command": "particle minecraft:large_smoke ~ ~1 ~ .2 .2 .2 .05 5 normal"
-                            },
-                            {
-                                "type": "origins:change_resource",
-                                "resource": "*:*_resource",
-                                "change": -1
-                            }
-                        ]
+                        "type": "origins:change_resource",
+                        "resource": "*:*_resource",
+                        "change": -1
                     },
                     "else_action":
                     {
@@ -253,16 +243,6 @@
             "change": 500
         }
     },
-    "flight": {
-        "type": "origins:creative_flight",
-        "condition": {
-            "type": "origins:resource",
-            "inverted": false,
-            "comparison": "==",
-            "resource": "*:*_toggle",
-            "compare_to": 1
-        }
-    },
-    "name": "Shadow Form",
-    "description": "You can transform yourself into dark energy with your primary, but it's to unstable to stay in that form for long. (You can also go through blocks)"
+    "name": "Spirit Walk",
+    "description": "You can phase through blocks (but it's to unstable to stay in that form for long). [Primary]"
 }

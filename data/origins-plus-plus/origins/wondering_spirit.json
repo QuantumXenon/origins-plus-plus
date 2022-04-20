@@ -3,9 +3,7 @@
 		"origins-plus-plus:wondering-spirit/lightning_summon",
 		"origins-plus-plus:wondering-spirit/lightning_charge",
 		"origins-plus-plus:wondering-spirit/lightning_invulnerability",
-		"origins-plus-plus:wondering-spirit/phantom_walk",
-		"origins-plus-plus:wondering-spirit/phantom_toggle",
-		"origins-plus-plus:wondering-spirit/phantom_walk_no_suffocate",
+		"origins-plus-plus:wondering-spirit/phase",
 		"origins-plus-plus:wondering-spirit/translucent",
 		"origins-plus-plus:wondering-spirit/size_change",
 		"origins-plus-plus:wondering-spirit/size_changer",
@@ -14,8 +12,7 @@
 		"origins-plus-plus:wondering-spirit/shaking",
 		"origins-plus-plus:wondering-spirit/the_darkness",
 		"origins-plus-plus:wondering-spirit/glasses",
-		"origins-plus-plus:wondering-spirit/damage_glitch",
-		"origins-plus-plus:wondering-spirit/hunger_over_time",
+		"origins-plus-plus:wondering-spirit/damage_glitch"
 		"origins-plus-plus:wondering-spirit/fire"
 	],
 	"icon": "minecraft:crimson_roots",

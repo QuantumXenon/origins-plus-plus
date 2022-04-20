@@ -1,9 +1,6 @@
 {
 	"powers": [
-		"origins-plus-plus:spirit-ram/spirit_walk",
-		"origins-plus-plus:spirit-ram/spirit_walk_trigger",
-		"origins-plus-plus:spirit-ram/spirit_walk_no_suffocate",
-		"origins-plus-plus:spirit-ram/spirit_walk_no_suffocate_player",
+		"origins-plus-plus:spirit-ram/phase",
 		"origins-plus-plus:spirit-ram/mist_protection",
 		"origins-plus-plus:spirit-ram/mist_protection_trigger",
 		"origins-plus-plus:spirit-ram/horn_pockets",

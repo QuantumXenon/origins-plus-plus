@@ -4,8 +4,7 @@
 		"origins-plus-plus:malfunction/flight",
 		"origins-plus-plus:malfunction/callback_persuit",
 		"origins-plus-plus:malfunction/random_teleport",
-		"origins-plus-plus:malfunction/particles",
-		"origins-plus-plus:malfunction/hunger_over_time"
+		"origins-plus-plus:malfunction/particles"
 	],
 	"icon": "minecraft:crying_obsidian",
 	"order": 10,

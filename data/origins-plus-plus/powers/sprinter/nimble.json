@@ -7,12 +7,12 @@
         {
             "effect": "minecraft:speed",
             "duration": 100,
-            "amplifier": 1,
+            "amplifier": 2,
             "is_ambient": true,
             "show_particles": false,
             "show_icon": false
         }
     ],
     "name": "Nimble",
-    "description": "Permanent Speed II."
+    "description": "Permanent Speed III."
 }
