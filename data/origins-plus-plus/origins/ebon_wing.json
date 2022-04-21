@@ -17,7 +17,8 @@
 	   "origins-plus-plus:ebon-wing/daytime_hurt",
 	   "origins:carnivore",
 	   "origins-plus-plus:ebon-wing/uncomfortable",
-	   "origins-plus-plus:ebon-wing/nether_spawn"
+	   "origins-plus-plus:ebon-wing/nether_spawn",
+           "origins-plus-plus:ebon-wing/fall"
 	],
 	"icon": "minecraft:amethyst_shard",
 	"order":10,
