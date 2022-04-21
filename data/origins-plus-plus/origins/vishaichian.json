@@ -10,7 +10,8 @@
 		"origins-plus-plus:vishaichian/upgrade/upgrade_hearts",
 		"origins-plus-plus:vishaichian/upgrade/upgrade_jump",
 		"origins-plus-plus:vishaichian/upgrade/upgrade_strength",
-		"origins-plus-plus:vishaichian/saturation"
+		"origins-plus-plus:vishaichian/saturation",
+                "origins-plus-plus:vishaichian/fall"
 	],
 	"icon": "minecraft:rabbit_hide",
 	"order": 10,
