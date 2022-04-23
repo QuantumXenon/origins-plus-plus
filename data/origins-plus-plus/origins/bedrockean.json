@@ -35,7 +35,9 @@
 		"origins-plus-plus:bedrockean/spawn",
 		"origins-plus-plus:bedrockean/fire",
 		"origins-plus-plus:bedrockean/bedrock_block",
-		"origins-plus-plus:bedrockean/strong"
+		"origins-plus-plus:bedrockean/strong",
+		"origins-plus-plus:bedrockean/disable_regen",
+		"origins-plus-plus:bedrockean/regen"
 	],
 	"icon": {
 		"item": "minecraft:bedrock"

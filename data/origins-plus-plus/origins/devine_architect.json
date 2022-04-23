@@ -15,7 +15,9 @@
 		"origins-plus-plus:devine-architect/fall_immunity",
 		"origins-plus-plus:devine-architect/charges",
 		"origins-plus-plus:devine-architect/demonic_jealousy",
-		"origins-plus-plus:devine-architect/distrust"
+		"origins-plus-plus:devine-architect/distrust",
+		"origins-plus-plus:devine-architect/regen",
+		"origins-plus-plus:devine-architect/disable_regen"
 	],
 	"icon": "minecraft:end_crystal",
 	"order": 10,

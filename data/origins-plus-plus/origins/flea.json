@@ -12,7 +12,9 @@
 		"origins-plus-plus:flea/diseasedbite",
 		"origins-plus-plus:flea/bloodsucking",
 		"origins:arthropod",
-		"extraorigins:jockey"
+		"extraorigins:jockey",
+		"origins-plus-plus:flea/regen",
+		"origins-plus-plus:flea/disable_regen"
 	],
 	"icon": "minecraft:beetroot_soup",
 	"order": 10,

@@ -16,7 +16,9 @@
 		"origins:light_armor",
 		"origins-plus-plus:iceling/immunit",
 		"origins-plus-plus:iceling/tippe",
-		"origins-plus-plus:iceling/spee"
+		"origins-plus-plus:iceling/spee",
+		"origins-plus-plus:iceling/regen",
+		"origins-plus-plus:iceling/disable_regen"
 	],
 	"icon": "minecraft:iron_nugget",
 	"order": 10,

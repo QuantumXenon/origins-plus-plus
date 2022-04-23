@@ -10,7 +10,9 @@
 		"origins:water_vulnerability",
 		"origins-plus-plus:magmean/nofall",
 		"origins:fire_immunity",
-		"origins:light_armor"
+		"origins:light_armor",
+		"origins-plus-plus:magmean/regen",
+		"origins-plus-plus:magmean/disable_regen"
 	],
 	"icon": "minecraft:magma_cream",
 	"order": 9,
