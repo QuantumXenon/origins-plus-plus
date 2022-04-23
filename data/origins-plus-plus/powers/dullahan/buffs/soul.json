@@ -24,7 +24,7 @@
             }
         ]
     },
-    "cooldown": 10,
+    "cooldown": 50,
     "hud_render": {
         "should_render": false
     },
@@ -43,5 +43,5 @@
         }
     },
 	"name":"Devourer",
-	"description":"As a horsemen, You cant eat anything only being able to absorb the souls in soul lanterns to give you nutrients."
+	"description":"As a horsemen, You can't eat anything - only being able to absorb the souls in soul lanterns to give you nutrients."
 }

@@ -8,7 +8,7 @@
     },
     "ingot_copper": {
         "type": "origins:action_over_time",
-        "interval": 20,
+        "interval": 50,
         "entity_action": {
             "type": "origins:and",
             "actions": [
@@ -46,7 +46,7 @@
     },
     "raw_copper": {
         "type": "origins:action_over_time",
-        "interval": 20,
+        "interval": 50,
         "entity_action": {
             "type": "origins:and",
             "actions": [
@@ -84,7 +84,7 @@
     },
     "block_copper": {
         "type": "origins:action_over_time",
-        "interval": 20,
+        "interval": 50,
         "entity_action": {
             "type": "origins:and",
             "actions": [

@@ -1,12 +1,12 @@
 {
     "type": "origins:action_over_time",
-    "interval": 25,
+    "interval": 50,
     "entity_action": {
         "type": "origins:and",
         "actions": [
             {
                 "type": "origins:heal",
-                "amount": 3
+                "amount": 2
             },
             {
                 "type": "origins:execute_command",

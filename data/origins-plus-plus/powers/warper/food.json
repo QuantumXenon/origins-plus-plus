@@ -6,7 +6,7 @@
   "name": "Reliable Food Source",
   "description": "Due to your time spent in the End, you can eat end stone.",  
   "type": "origins:active_self",
-  "cooldown": 27,
+  "cooldown": 30,
   "hud_render": {
     "should_render": false
   },

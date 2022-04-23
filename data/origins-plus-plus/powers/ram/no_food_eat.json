@@ -4,7 +4,7 @@
 	   "continuous":true
 	},
 	"type":"origins:active_self",
-	"cooldown":27,
+	"cooldown":30,
 	"hud_render":{
 	   "should_render":false
 	},
