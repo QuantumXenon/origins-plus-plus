@@ -40,5 +40,5 @@
     "execute_chosen_when_orb": true
 },
 	"name": "Health Bar",
-	"description": "Altho you still use normal hearts, your health has been replaced by a bar making it almost the same as normal health but by using abilitys or getting hit the bar goes down, doesnt matter the strength of the hit or how many armor points you have because its always gonna be the same damage."
+	"description": "Although you still use normal hearts, your health has been replaced by a bar making it almost the same as normal health but by using abilities or getting hit the bar goes down, doesn't matter the strength of the hit or how many armor points you have because it will always be the same damage."
 }

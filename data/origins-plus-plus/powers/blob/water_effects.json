@@ -1,7 +1,7 @@
 {
     "type": "origins:stacking_status_effect",
     "name": "Puddle",
-    "description": "You start transforming into some kind of bubble making you slower(slowness 2) and hungrier.",
+    "description": "You start transforming into some kind of bubble making you slower and hungrier.",
     "min_stacks": 0,
     "max_stacks": 26,
     "duration_per_stack": 10,

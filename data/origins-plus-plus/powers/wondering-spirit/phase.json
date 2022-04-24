@@ -32,7 +32,7 @@
         "cooldown": 1,
         "key":
         {
-            "key": "key.origins.primary_active",
+            "key": "key.saveToolbarActivator",
             "continuous": false
         },
         "condition":
@@ -244,5 +244,5 @@
         }
     },
     "name": "Phase",
-    "description": "You can phase through blocks (but it's to unstable to stay in that form for long). [Primary]"
+    "description": "You can phase through blocks (but it's to unstable to stay in that form for long). [Save Toolbar Activator]"
 }

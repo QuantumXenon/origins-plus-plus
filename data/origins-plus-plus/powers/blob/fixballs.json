@@ -1,6 +1,6 @@
 {
     "type": "origins:action_over_time",
-	"description": "If there are alot of dragon fireballs on unloaded chunk this is a fix for that.",
+	"description": "If there are a lot of dragon fireballs on unloaded chunk this is a fix for that.",
     "entity_action": {
 				"type": "origins:execute_command",
 				"permission_level": 4,

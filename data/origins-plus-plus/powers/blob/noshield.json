@@ -1,6 +1,6 @@
 {
     "name": "Weird Hands",
-    "description": "Your hands are great for alot of things but holding a shield isnt one of them.",
+    "description": "Your hands are great for a lot of things but holding a shield isn't one of them.",
     "type": "origins:multiple",
     "noshield": {
         "type": "origins:prevent_item_use",

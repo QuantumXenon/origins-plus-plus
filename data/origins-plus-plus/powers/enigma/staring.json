@@ -35,5 +35,5 @@
     },
     "interval": 13,
     "name": "Staring Contest",
-    "description": "Staring at an entity for a long enough time will kill it. When you begin looking at it, it'll gain Slowness & Weakness. Later on, your stare will inflict Blindness and Nausea."
+    "description": "Staring at an entity for a long enough time will kill it. When you begin looking at it, it'll gain slowness & weakness. Later on, your stare will inflict blindness and nausea."
 }

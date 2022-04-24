@@ -1,7 +1,7 @@
 
 {
-	"name": "heat allergic",
-	"description": "penguins are not used to hot biomes, so they weaken when they reach one.",
+	"name": "Heat Allergic",
+	"description": "Blobs are not used to hot biomes, so they weaken when they reach one.",
 	"hidden": true,
 	"type": "origins:stacking_status_effect",
 	"min_stacks": 0,
