@@ -7,7 +7,7 @@
                 "type": "origins:actor_action",
                 "action": {
                     "type": "origins:execute_command",
-                    "command": "tag @s add lro_SMT"
+                    "command": "tag @s add SMT"
                 }
             },
             {

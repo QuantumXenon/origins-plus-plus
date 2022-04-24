@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=lro_Point] at @s run particle large_smoke ~ ~0.5 ~ 0.2 0.2 0.2 0 5
+execute as @e[type=marker,tag=Point] at @s run particle large_smoke ~ ~0.5 ~ 0.2 0.2 0.2 0 5

@@ -13,7 +13,7 @@
                     "type": "origins:if_else",
                     "condition": {
                         "type": "origins:command",
-                        "command": "execute if entity @s[tag=lro_Return]",
+                        "command": "execute if entity @s[tag=Return]",
                         "comparison": "==",
                         "compare_to": 1
                     },
@@ -45,7 +45,7 @@
                     "type": "origins:if_else",
                     "condition": {
                         "type": "origins:command",
-                        "command": "execute if entity @s[tag=lro_Return]",
+                        "command": "execute if entity @s[tag=Return]",
                         "comparison": "==",
                         "compare_to": 1
                     },

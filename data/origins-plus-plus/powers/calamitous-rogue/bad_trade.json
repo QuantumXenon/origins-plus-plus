@@ -14,7 +14,7 @@
                 "type": "origins:target_condition",
                 "condition": {
                     "type": "origins:nbt",
-                    "nbt": "{Tags:['lro_Tradable']}",
+                    "nbt": "{Tags:['Tradable']}",
                     "inverted": true
                 }
             }
