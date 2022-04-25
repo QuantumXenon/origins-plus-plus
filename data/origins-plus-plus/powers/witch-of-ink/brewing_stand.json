@@ -1,0 +1,11 @@
+{
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "minecraft:glow_squid_spawn_egg",
+            "tag": "{display:{Name:'{\"text\":\"True Brewing Stand\",\"color\":\"white\",\"bold\":false,\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:[\"lwi_BStand\"]}}"
+        }
+    ],
+    "name": "Family Heirloom",
+    "description": "Your wizard ancestors passed the True Brewing Stand to you - it never runs out of fuel."
+}

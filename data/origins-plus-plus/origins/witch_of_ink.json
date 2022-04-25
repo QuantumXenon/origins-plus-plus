@@ -11,7 +11,8 @@
         "origins-plus-plus:witch-of-ink/frail",
         "origins-plus-plus:witch-of-ink/fired",
         "origins-plus-plus:witch-of-ink/no_eat",
-        "origins-plus-plus:witch-of-ink/no_invis"
+        "origins-plus-plus:witch-of-ink/no_invis",
+		"origins-plus-plus:witch-of-ink/brewing_stand"
     ],
     "icon": "red_dye",
     "order": 1,

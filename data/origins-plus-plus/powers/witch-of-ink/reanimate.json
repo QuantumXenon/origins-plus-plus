@@ -14,6 +14,12 @@
                 "command": "function origins-plus-plus:witch-of-ink/reanimate"
             }
         },
+        "bientity_condition": {
+             "type": "origins:target_condition", 
+             "condition": { 
+                 "type": "origins:entity_type", "entity_type": "painting" 
+            } 
+        },
         "command_along_ray": "particle witch ~ ~ ~",
         "command_step": 0.25
     },

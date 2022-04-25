@@ -32,4 +32,4 @@ execute if entity @s[nbt={Motive:"minecraft:burning_skull"}] run summon item ^ ^
 
 execute if entity @s[nbt={Motive:"minecraft:pigscene"}] run summon pig ^ ^ ^0.75 {Team:"lwi_Witch"}
 
-kill @s[type=!painting]
+kill @s[type=painting]
