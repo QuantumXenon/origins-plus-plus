@@ -26,5 +26,6 @@
           }
        ]
     },
-    "hidden":true
+	"name":"Amphibious",
+    "description":"Since you have grown use to water, you get slowness on land to cure it move to water, but you will always have it when you go on land (Not in rain)."
 }

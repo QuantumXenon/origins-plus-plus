@@ -27,11 +27,6 @@
 				},
 				{
 					"type": "origins:execute_command",
-					"command": "scale set pehkui:reach 0.5 @s",
-					"permission_level": 4
-				},
-				{
-					"type": "origins:execute_command",
 					"command": "scale set pehkui:health 0.5",
 					"permission_level": 4
 				},
@@ -74,11 +69,6 @@
 					},
 					{
 						"type": "origins:execute_command",
-						"command": "scale set pehkui:reach 1.1 @s",
-						"permission_level": 4
-					},
-					{
-						"type": "origins:execute_command",
 						"command": "effect give @s minecraft:resistance 2 0 true",
 						"permission_level": 4
 					},
@@ -115,11 +105,6 @@
 					{
 						"type": "origins:execute_command",
 						"command": "scale set pehkui:motion 1.00 @s",
-						"permission_level": 4
-					},
-					{
-						"type": "origins:execute_command",
-						"command": "scale set pehkui:reach 1.00 @s",
 						"permission_level": 4
 					},
 					{
