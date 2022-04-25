@@ -1,5 +1,6 @@
 {
-    "values": [
+    "replace": false,
+	"values": [
 		"origins-plus-plus:calamitous-rogue/load",
 		"origins-plus-plus:deathsworn/load",
 		"origins-plus-plus:devine-architect/load",

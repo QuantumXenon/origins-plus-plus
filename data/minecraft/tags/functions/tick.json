@@ -1,5 +1,6 @@
 {
-    "values": [
+    "replace": false,
+	"values": [
 		"origins-plus-plus:technomancer/tick",
 		"origins-plus-plus:rift-mage/loop",
 		"origins-plus-plus:witch-of-ink/loop",
