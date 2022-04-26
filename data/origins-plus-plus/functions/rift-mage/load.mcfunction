@@ -5,4 +5,4 @@ scoreboard objectives add UUID2 dummy
 scoreboard objectives add UUID3 dummy
 scoreboard objectives add UUID4 dummy
 
-scoreboard objectives add lpm_PE dummy
+scoreboard objectives add Rift_Mage dummy

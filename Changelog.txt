@@ -1,6 +1,0 @@
-v1.4.1 - Released 19/04/2022
-
-Coming in the next version (v1.5):
-- Standardised phase/float abilities
-- Balanced origins with unusual diets
-- More bux fixes and balances

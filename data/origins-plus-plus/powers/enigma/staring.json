@@ -14,15 +14,15 @@
                 "actions": [
                     {
                         "type": "origins:execute_command",
-                        "command": "scoreboard players add @s ljs_Stare 1"
+                        "command": "scoreboard players add @s Enigma 1"
                     },
                     {
                         "type": "origins:execute_command",
-                        "command": "scoreboard players set @s ljs_Stare2 20"
+                        "command": "scoreboard players set @s Enigma2 20"
                     },
                     {
                         "type": "origins:execute_command",
-                        "command": "kill @s[scores={ljs_Stare=35..}]"
+                        "command": "kill @s[scores={Enigma=35..}]"
                     },
                     {
                         "type": "origins:execute_command",
@@ -33,7 +33,7 @@
         },
         "command_step": 0.25
     },
-    "interval": 13,
+    "interval": 10,
     "name": "Staring Contest",
     "description": "Staring at an entity for a long enough time will kill it. When you begin looking at it, it'll gain slowness & weakness. Later on, your stare will inflict blindness and nausea."
 }

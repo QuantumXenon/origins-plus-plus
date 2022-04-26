@@ -1,1 +1,1 @@
-scoreboard objectives add chaintemp dummy
+scoreboard objectives add Glacier dummy

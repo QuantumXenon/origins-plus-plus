@@ -1,1 +1,1 @@
-scoreboard objectives add chaintemp dummy
+scoreboard objectives add Lunar_Path dummy

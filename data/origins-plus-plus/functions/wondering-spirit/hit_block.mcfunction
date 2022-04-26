@@ -1,2 +1,2 @@
-scoreboard players set #hit tempp 1
+scoreboard players set #hit Wondering_Spirit 1
 summon minecraft:lightning_bolt ~ ~ ~

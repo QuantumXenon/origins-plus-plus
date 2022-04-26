@@ -1,2 +1,2 @@
-scoreboard objectives add ljs_Stare dummy
-scoreboard objectives add ljs_Stare2 dummy
+scoreboard objectives add Enigma dummy
+scoreboard objectives add Enigma2 dummy

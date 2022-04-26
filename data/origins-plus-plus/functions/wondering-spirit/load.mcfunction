@@ -1,1 +1,1 @@
-scoreboard objectives add tempp dummy
+scoreboard objectives add Wondering_Spirit dummy
