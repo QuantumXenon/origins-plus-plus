@@ -8,9 +8,9 @@
         "start_value": 500,
         "hud_render":
         {
-            "should_render": true,
-            "sprite_location": "origins:textures/gui/resource_bar.png",
-            "bar_index": 4
+			"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+			"should_render": true,
+			"bar_index": 5
         }
     },
     "toggle":
@@ -69,19 +69,6 @@
             "should_render": false,
             "sprite_location": "origins:textures/gui/resource_bar.png",
             "bar_index": 1
-        }
-    },
-    "invis":
-    {
-        "type": "origins:invisibility",
-        "render_armor": false,
-        "condition":
-        {
-            "type": "origins:resource",
-            "inverted": false,
-            "comparison": "==",
-            "resource": "*:*_toggle",
-            "compare_to": 1
         }
     },
     "invin":

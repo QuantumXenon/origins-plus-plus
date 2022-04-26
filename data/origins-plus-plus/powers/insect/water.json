@@ -6,5 +6,6 @@
         "fluid": "minecraft:water",
         "comparison": "<=",
         "compare_to": 0.4
-    }
+    },
+	"hidden": true
 }

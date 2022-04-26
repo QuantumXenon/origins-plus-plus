@@ -1,6 +1,6 @@
 {
-    "name": "water slowness",
-    "description": "You are very small, water slows you down.",
+    "name": "Water Slowness",
+    "description": "You are very small, so water slows you down.",
     "hidden": true,
     "condition": {
         "type": "origins:and",

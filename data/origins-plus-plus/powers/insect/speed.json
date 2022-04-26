@@ -4,5 +4,5 @@
         "attribute": "minecraft:generic.movement_speed",
         "value": 0.1,
         "operation": "addition"
-    }
-}
+    },
+	"hidden": true
