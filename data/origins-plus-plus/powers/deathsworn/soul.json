@@ -16,11 +16,8 @@
             "resource": "*:soul_bar",
             "change": 5
         },
-        "cooldown": 0,
-        "hud_render": {
-            "should_render": false
-        }
+        "cooldown": 0
     },
     "name": "Soul Energy",
-    "description": "Like all occultists, you use soul Energy for your demonic rituals. Accumulate it by killing mobs."
+    "description": "Like all occultists, you use soul energy for your demonic rituals. Accumulate it by killing mobs."
 }
