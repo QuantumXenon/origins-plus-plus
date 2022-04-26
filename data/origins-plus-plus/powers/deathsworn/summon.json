@@ -28,6 +28,6 @@
         "should_render": false
     },
     "name": "Demonic Pact",
-    "description": "Using the power of 5 SOUL Energy and a Petrified Heart in your hand, resummon its bound mob to serve you. Some mobs have special abilities that can be used at will.",
+    "description": "Using the power of 5 soul Energy and a petrified heart in your hand, resummon its bound mob to serve you. Some mobs have special abilities that can be used at will.",
     "key": "key.use"
 }

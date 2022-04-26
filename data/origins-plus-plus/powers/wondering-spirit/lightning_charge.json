@@ -4,7 +4,7 @@
 	   "key":"key.origins.secondary_active",
 	   "continuous":false
 	},
-	"cooldown":1,
+	"cooldown":750,
 	"hud_render":{
 	   "should_render":false,
 	   "sprite_location":"origins:textures/gui/resource_bar.png",

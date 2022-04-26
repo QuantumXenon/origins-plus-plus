@@ -1,6 +1,6 @@
 {
     "name": "Portality",
-    "description": "You are able to rip space and time apart to create a rift. Entering it will let you fly and phase through blocks around the rift. You can only own 1 rift at a time.",
+    "description": "You are able to rip space and time apart to create a rift. Entering it will let you fly and phase through blocks around the rift. You can only own one rift at a time.",
     "type": "origins:multiple",
     "toggle": {
         "type": "origins:resource",
@@ -50,7 +50,7 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:execute_command",
-            "command": "execute if entity @e[tag=lpm_Portality,distance=..8] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
+            "command": "execute if entity @e[tag=lpm_Portality,distance=..32] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
         },
         "interval": 1
     },
@@ -58,7 +58,7 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:execute_command",
-            "command": "execute unless entity @e[tag=lpm_Portality,distance=..8] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
+            "command": "execute unless entity @e[tag=lpm_Portality,distance=..32] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
         },
         "interval": 1
     },
@@ -66,7 +66,7 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:execute_command",
-            "command": "execute if entity @e[tag=lpm_Portality,distance=6..8] run title @s actionbar {\"text\":\"You are too far from your rift!\"}"
+            "command": "execute if entity @e[tag=lpm_Portality,distance=30..32] run title @s actionbar {\"text\":\"You are venturing too far from your rift!\"}"
         },
         "interval": 1
     },

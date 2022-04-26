@@ -1,6 +1,6 @@
 {
     "name": "Flaming Fury",
-    "description": "For each 25% HP lost, you will gain Fury, which increases all of your powers' effectiveness.",
+    "description": "For each 25% HP lost, you will gain fury, which increases all of your powers' effectiveness.",
     "type": "origins:multiple",
     "bar": {
         "type": "origins:resource",

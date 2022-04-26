@@ -16,32 +16,31 @@
                     {
                         "duration": 300,
                         "is_ambient": false,
-                        "show_particles": true,
-                        "show_icon": true,
+                        "show_particles": false,
+                        "show_icon": false,
                         "effect": "minecraft:night_vision",
                         "amplifier": 1
                     },
                     {
                         "duration": 300,
                         "is_ambient": false,
-                        "show_particles": true,
-                        "show_icon": true,
+                        "show_particles": false,
+                        "show_icon": false,
                         "effect": "minecraft:speed",
                         "amplifier": 1
                     },
                     {
                         "duration": 300,
                         "is_ambient": false,
-                        "show_particles": true,
-                        "show_icon": true,
+                        "show_particles": false,
+                        "show_icon": false,
                         "effect": "minecraft:strength",
-                        "amplifier": 2
                     },
                     {
                         "duration": 300,
                         "is_ambient": false,
-                        "show_particles": true,
-                        "show_icon": true,
+                        "show_particles": false,
+                        "show_icon": false,
                         "effect": "minecraft:regeneration",
                         "amplifier": 0
                     }

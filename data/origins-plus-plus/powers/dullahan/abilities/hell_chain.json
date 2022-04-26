@@ -47,10 +47,10 @@
     "key": "key.loadToolbarActivator",
     "continuous": true
   },
-  "cooldown": 900,
+  "cooldown": 600,
   "hud_render": {
     "should_render": true
   },
   "name": "Binding Chain",
-  "description": "Presing your loadtoolbaractivator allows you to stab a chain into your enemies dealing bleed damage"
+  "description": "Pressing [Load Toolbar Activator] allows you to stab a chain into your enemies dealing bleed damage"
 }

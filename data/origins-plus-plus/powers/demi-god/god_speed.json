@@ -5,7 +5,7 @@
     "duration_per_stack": 5,
 	"effect":{
 		"effect": "minecraft:speed",
-		"is_ambient": true,
+		"is_ambient": false,
 		"show_particles": false,
 		"show_icon": false,
 		"amplifier": 1

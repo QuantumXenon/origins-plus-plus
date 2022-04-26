@@ -74,5 +74,5 @@
     },
     "key": "key.use",
     "name": "Magic Brush",
-    "description": "With the respective dye in hand, click to fire a ray of red, blue or green energy that colors entities around the impact."
+    "description": "With the respective dye in hand, click to fire a ray of red, blue or green energy that colors entities around the impact.\nBlue -> Blue or Red -> Red pulls the target entity to the attacker.\nBlue -> Red and vice versa applies extra knockback to the attack.\nGreen + Red creates Yellow, which causes the entity to glow brightly and be seen through walls.\nBlue -> Green heals the target entity and creates a water block at its feet for a moment.\nGreen -> Blue steals health from the target entity to restore health for the attacker."
 }

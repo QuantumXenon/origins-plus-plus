@@ -33,5 +33,5 @@
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png"
     },
     "name": "Execute Order",
-    "description": "Your Primary Ability singles out a mob for all of your minions to target."
+    "description": "Your primary ability singles out a mob for all of your minions to target."
 }

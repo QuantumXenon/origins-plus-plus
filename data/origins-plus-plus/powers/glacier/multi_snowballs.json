@@ -1,7 +1,7 @@
 {
 	"type": "origins:fire_projectile",
 	"entity_type": "minecraft:snowball",
-	"cooldown": 5,
+	"cooldown": 25,
 	"hud_render": {
 		"should_render": false
 	},

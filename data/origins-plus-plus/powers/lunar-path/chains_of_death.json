@@ -7,7 +7,7 @@
         "command": "function origins-plus-plus:lunar-path/start_ray",
         "permission_level": 4
     },
-    "cooldown": 1,
+    "cooldown": 250,
 	"key": "key.origins.secondary_active",
 	"hud_render": {
 		"should_render": false,

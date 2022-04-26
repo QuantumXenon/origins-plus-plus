@@ -1,6 +1,6 @@
 {
     "name": "Torrent of Abuse",
-    "description": "The higher your Fury is, the more damage you deal with attacks.",
+    "description": "The higher your fury is, the more damage you deal with attacks.",
     "type": "origins:multiple",
     "atk1": {
         "type": "origins:conditioned_attribute",

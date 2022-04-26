@@ -4,7 +4,7 @@
     "loading_priority": 10,
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:wither_skull",
-    "cooldown": 400,
+    "cooldown": 600,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/resource_bar.png",
