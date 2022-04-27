@@ -87,20 +87,10 @@
     "invin":
     {
         "type": "origins:invulnerability",
-        "condition":
-        {
-            "type": "origins:resource",
-            "inverted": false,
-            "comparison": "==",
-            "resource": "*:*_toggle",
-            "compare_to": 1
-        },
-        "damage_condition":
-        {
-            "type": "origins:name",
-            "inverted": true,
-            "name": "wither"
-        }
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "inWall"
+		}
     },
     "weak":
     {
