@@ -22,7 +22,7 @@ execute if entity @s[type=zombified_piglin] run data modify entity @e[tag=lnc_He
 execute if entity @s[type=piglin_brute] run data modify entity @e[tag=lnc_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "piglin_brute"
 execute as @e[tag=lnc_Heart,distance=..1,sort=nearest,limit=1] at @s unless data entity @s Item.tag.mob run data modify entity @s Item.tag.mob set value "zombie"
 
-execute store result entity @e[tag=lnc_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run scoreboard players get @s Deathsworn3
-execute store result entity @e[tag=lnc_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run scoreboard players get @s Deathsworn1
-execute store result entity @e[tag=lnc_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run scoreboard players get @s Deathsworn2
+execute store result entity @e[tag=lnc_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run scoreboard players get @s lnc_PH3
+execute store result entity @e[tag=lnc_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run scoreboard players get @s lnc_PH1
+execute store result entity @e[tag=lnc_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run scoreboard players get @s lnc_PH2
 execute store result entity @e[tag=lnc_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Size float 1 run data get entity @s Size 1

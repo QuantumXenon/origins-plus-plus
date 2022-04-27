@@ -35,6 +35,7 @@
                         "show_particles": false,
                         "show_icon": false,
                         "effect": "minecraft:strength",
+						"amplifier": 0
                     },
                     {
                         "duration": 300,
