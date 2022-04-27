@@ -1,7 +1,7 @@
 {
 	"powers": [
 		"origins:nether_spawn",
-		"origins-plus-plus:ghast/flight",
+		"origins-plus-plus:ghast/float",
 		"origins-plus-plus:ghast/nether_phasing",
 		"origins-plus-plus:ghast/fire_charge",
 		"origins-plus-plus:ghast/fire_charge_a",

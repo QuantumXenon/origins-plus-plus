@@ -1,7 +1,7 @@
 {
 	"powers": [
 		"origins-plus-plus:malfunction/phase",
-		"origins-plus-plus:malfunction/flight",
+		"origins-plus-plus:malfunction/float",
 		"origins-plus-plus:malfunction/callback_persuit",
 		"origins-plus-plus:malfunction/random_teleport",
 		"origins-plus-plus:malfunction/particles"
