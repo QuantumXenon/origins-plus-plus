@@ -2,66 +2,57 @@
 	"name": "Heal",
 	"description": "Holding shift and pressing your secondary heals your health bar.",
 	"type": "origins:active_self",
-        "hud_render": {
-    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-    "bar_index": 9
-        },
-        "key": {
-            "key": "key.origins.secondary_active"
-        },
-        "cooldown": 1200,
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [{
-					"type": "origins:delay",
-					"ticks": 1,
-					"action": {
-                    "type": "origins:execute_command",
-                    "command": "execute at @s run playsound minecraft:entity.shulker.ambient master @a[distance=..15] ~ ~ ~ 1 2",
-                    "permission_level": 4
-					}
-                },
-                {
-					"type": "origins:delay",
-					"ticks": 1,
-					"action": {
-                    "type": "origins:execute_command",
-                    "command": "effect give @s minecraft:blindness 1 1",
-                    "permission_level": 4
-					}
-                },
-				{
-					"type": "origins:delay",
-					"ticks": 1,
-					"action": {
-					"type": "origins:execute_command",
-                    "command": "effect give @s minecraft:slowness 1 2",
-                    "permission_level": 4
-					}
-				},
-				{
-					"type": "origins:delay",
-					"ticks": 1,
-					"action": {
-                    "type": "origins:change_resource",
-					"resource": "*:bar_resource",
-					"change": 250
-					}
-                }
-            ]
-        },
-		"condition": {
-		"type": "origins:and",
-		"conditions": [	
-        {
-			"type": "origins:resource",
-			"resource": "*:bar_resource",
-			"comparison": "<",
-			"compare_to": 1000
-	},
-			{      
-				"type": "origins:sneaking"
+    "hud_render": {
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 9
+    },
+    "key": "key.saveToolbarActivator",
+    "cooldown": 1000,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+		{
+			"type": "origins:delay",
+			"ticks": 1,
+			"action": {
+                "type": "origins:execute_command",
+                "command": "execute at @s run playsound minecraft:entity.shulker.ambient master @a[distance=..15] ~ ~ ~ 1 2",
+                "permission_level": 4
 			}
-		]
-		}
+        },
+        {
+			"type": "origins:delay",
+			"ticks": 1,
+			"action": {
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:blindness 1 1",
+				"permission_level": 4
+			}
+        },
+		{
+			"type": "origins:delay",
+			"ticks": 1,
+			"action": {
+				"type": "origins:execute_command",
+                "command": "effect give @s minecraft:slowness 1 2",
+                "permission_level": 4
+			}
+		},
+		{
+			"type": "origins:delay",
+			"ticks": 1,
+			"action": {
+                "type": "origins:change_resource",
+				"resource": "*:bar_resource",
+				"change": 250
+			}
+        }
+        ]
+    },
+	"condition": {
+		"type": "origins:resource",
+		"resource": "*:bar_resource",
+		"comparison": "<",
+		"compare_to": 1000
+	}
 }

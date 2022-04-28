@@ -5,15 +5,13 @@
 	"version": "1.5", 
 	"description": "A collection of 110+ origins",
 	"authors": ["TheQuantumXenon"],   
-	"contributors": ["All credit goes to original authors.",
+	"contributors": ["Credit goes to original authors.",
 					"(See CurseForge Description)"], 
 	"contact": {
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus",
 		"issues": "https://github.com/QuantumXenon/origins-plus-plus/issues"
 	},
-	"license": "MIT",
 	"icon": "icon.png",
-	"environment": "*", 
 	"depends": {
 		"fabric-api-base": "*",
 		"origins": "*",

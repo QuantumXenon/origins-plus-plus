@@ -1,7 +1,7 @@
 {
 	"type": "origins:fire_projectile",
 	"entity_type": "minecraft:dragon_fireball",
-	"cooldown": 45,
+	"cooldown": 100,
 	"hud_render": {
 		"should_render": true,
 		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
@@ -10,14 +10,12 @@
 	"count": 1,
 	"speed": 2,
 	"divergence": 1.0,
-	"key": {
-		"key": "key.origins.primary_active"
-	},
+	"key": "key.origins.primary_active",
 	"condition": {
-			"type": "origins:resource",
-			"resource": "*:bar_resource",
-			"comparison": ">=",
-			"compare_to": 1
+		"type": "origins:resource",
+		"resource": "*:bar_resource",
+		"comparison": ">=",
+		"compare_to": 1
 	},
 	"name": "Own Self",
 	"description": "You can shoot out a part of yourself, this takes 20% of your bar."

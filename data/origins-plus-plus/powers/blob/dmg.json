@@ -7,7 +7,7 @@
         "min": 0,
         "max": 3,
         "hud_render": {
-            "should_render": true,
+            "should_render": false,
             "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
             "bar_index": 2
         }
