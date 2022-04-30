@@ -1,0 +1,123 @@
+{
+    "type": "origins:multiple",
+    "cd": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 5,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 3
+        }
+    },
+    "tick": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_cd",
+            "change": -1
+        },
+        "interval": 20
+    },
+    "if_clone": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "function origins-plus-plus:enigma/if_clone"
+                },
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:scoreboard",
+                        "objective": "Enigma_Clone",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    },
+                    "if_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:clear_effect",
+                                "effect": "minecraft:invisibility"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "execute at @s as @e[type=zombie,tag=ljs_Clone] if score @s UUID1 = @a[distance=..0.001,sort=nearest,limit=1] UUID1 if score @s UUID2 = @a[distance=..0.001,sort=nearest,limit=1] UUID2 if score @s UUID3 = @a[distance=..0.001,sort=nearest,limit=1] UUID3 if score @s UUID4 = @a[distance=..0.001,sort=nearest,limit=1] UUID4 run tp @s 0 -999 -0"
+                            }
+                        ]
+                    },
+                    "else_action": {
+                        "type": "origins:if_else",
+                        "condition": {
+                            "type": "origins:resource",
+                            "resource": "*:*_cd",
+                            "comparison": "==",
+                            "compare_to": 0
+                        },
+                        "if_action": {
+                            "type": "origins:execute_command",
+                            "command": "function origins-plus-plus:enigma/clone"
+                        }
+                    }
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.secondary_active"
+    },
+    "antiinvis": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:invisibility"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=zombie,tag=ljs_Clone] if score @s UUID1 = @a[distance=..0.001,sort=nearest,limit=1] UUID1 if score @s UUID2 = @a[distance=..0.001,sort=nearest,limit=1] UUID2 if score @s UUID3 = @a[distance=..0.001,sort=nearest,limit=1] UUID3 if score @s UUID4 = @a[distance=..0.001,sort=nearest,limit=1] UUID4 run tp @s 0 -999 -0"
+                }
+            ]
+        },
+        "cooldown": 0
+    },
+    "get_dmg": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:damage",
+                    "amount": 6,
+                    "source": {
+                        "name": "magic",
+                        "bypasses_armor": true
+                    }
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:invisibility"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "tag @s remove ljs_DMG"
+                }
+            ]
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Tags:['ljs_DMG']}"
+        }
+    },
+    "name": "Clone",
+    "description": "Summon a clone at your place and become invisible. If either of you get hit, become visible again and create an explosion that deals damage at the clone, killing it. Press the same key while your clone is alive to kill it."
+}
+
+
