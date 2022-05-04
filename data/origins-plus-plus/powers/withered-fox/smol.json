@@ -4,35 +4,24 @@
 	"entity_action_chosen": {
 		"type": "origins:execute_command",
 		"permission_level": 4,
-		"command": "scale set pehkui:base 0.75",
-		"type": "origins:execute_command",
-		"permission_level": 4,
-		"command": "scale set pehkui:step_height 1"
+		"command": "scale set pehkui:base 0.75"
 	},
 	"entity_action_respawned":{
 		"type": "origins:execute_command",
 		"permission_level": 4,
-		"command": "scale set pehkui:base 0.75",
-		"type": "origins:execute_command",
-		"permission_level": 4,
-		"command": "scale set pehkui:step_height 1"
+		"command": "scale set pehkui:base 0.75"
 	},
 	"entity_action_removed":{
 		"type": "origins:execute_command",
 		"permission_level": 4,
-		"command": "scale set pehkui:base 1",
-		"type": "origins:execute_command",
-		"permission_level": 4,
-		"command": "scale set pehkui:step_height 1"
+		"command": "scale set pehkui:base 1"
 	},
 	"entity_action_lost":{
 		"type": "origins:execute_command",
 		"permission_level": 4,
-		"command": "scale set pehkui:base 1",
-		"type": "origins:execute_command",
-		"permission_level": 4,
-		"command": "scale set pehkui:step_height 1"
+		"command": "scale set pehkui:base 1"
 	},
+	
 	"name": "Small",
-	"description": "one of your ancestors is a fox so you are a block and a half tall"
+	"description": "One of your ancestors is a fox so you are a block and a half tall."
 }
