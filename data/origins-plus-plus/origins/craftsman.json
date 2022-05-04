@@ -14,8 +14,6 @@
         "origins-plus-plus:craftsman/undead",
         "origins-plus-plus:craftsman/pillager"
     ],
-    "icon": {
-        "item": "minecraft:crafting_table"
-    },
+    "icon": "minecraft:crafting_table",
     "impact": 1
 }

@@ -14,7 +14,6 @@ execute if entity @s[nbt={SelectedItem:{tag:{mob:"cave_spider"}}}] run summon ca
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"magma_cube"}}}] run summon magma_cube ^ ^1 ^2 {Team:"lc_Necro",Tags:["lnc_Minion"],Attributes:[{Name:"generic.max_health",Base:100},{Name:"generic.follow_range",Base:32},{Name:"generic.knockback_resistance",Base:1},{Name:"generic.attack_damage",Base:1},{Name:"generic.armor",Base:1}]}
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"witch"}}}] run summon witch ^ ^1 ^2 {Team:"lc_Necro",Tags:["lnc_Minion"],Attributes:[{Name:"generic.max_health",Base:100},{Name:"generic.follow_range",Base:32},{Name:"generic.knockback_resistance",Base:1},{Name:"generic.attack_damage",Base:1},{Name:"generic.armor",Base:1}]}
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"zombified_piglin"}}}] run summon zombified_piglin ^ ^1 ^2 {Team:"lc_Necro",Tags:["lnc_Minion"],Attributes:[{Name:"generic.max_health",Base:100},{Name:"generic.follow_range",Base:32},{Name:"generic.knockback_resistance",Base:1},{Name:"generic.attack_damage",Base:1},{Name:"generic.armor",Base:1}]}
-
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"piglin_brute"}}}] run summon piglin_brute ^ ^1 ^2 {HandItems:[{id:"minecraft:golden_axe",Count:1b,tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:1,Operation:0,UUID:[I;-55720091,611075810,-1271712052,-552013438]}]}},{}],Team:"lc_Necro",Tags:["lnc_Minion"],Attributes:[{Name:"generic.max_health",Base:100},{Name:"generic.follow_range",Base:32},{Name:"generic.knockback_resistance",Base:1},{Name:"generic.attack_damage",Base:1},{Name:"generic.armor",Base:1}]}
 
 execute positioned ^ ^1 ^2 at @e[tag=lnc_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=lnc_Minion,distance=..1,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base set from entity @s SelectedItem.tag.Health
@@ -31,7 +30,6 @@ execute if entity @s[nbt={SelectedItem:{tag:{mob:"skeleton"}}}] run advancement 
 execute if entity @s[nbt={Dimension:"minecraft:overworld",SelectedItem:{tag:{mob:"wither_skeleton"}}}] run advancement grant @s only origins-plus-plus:deathsworn/skeleton
 execute if entity @s[nbt={Dimension:"minecraft:overworld",SelectedItem:{tag:{mob:"piglin_brute"}}}] run advancement grant @s only origins-plus-plus:deathsworn/brute
 advancement grant @s only origins-plus-plus:deathsworn/summon
-
 
 resource change @s origins-plus-plus:deathsworn/soul_bar -5
 item modify entity @s weapon.mainhand origins-plus-plus:deathsworn/consume

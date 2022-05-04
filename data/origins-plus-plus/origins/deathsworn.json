@@ -18,10 +18,7 @@
         "origins-plus-plus:deathsworn/no_trades",
         "origins:burn_in_daylight"
     ],
-    "icon": {
-      "item": "heart_of_the_sea",
-      "nbt": "{display:{Name:'{\"text\":\"Petrified Heart\"}'}}"  
-    },
+    "icon": "minecraft:heart_of_the_sea",
     "order": 1,
     "impact": 3,
     "name": "Deathsworn",
