@@ -25,7 +25,7 @@
     "active_toggle": {
         "type": "origins:active_self",
         "cooldown": 1,
-        "key": "key.saveToolbarActivator",
+        "key": "key.origins.secondary_active",
         "entity_action": {
             "type": "origins:if_else",
             "condition": {
