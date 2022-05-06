@@ -15,7 +15,7 @@
         },
         "condition": {
             "type": "origins:resource",
-            "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+            "resource": "*:fury_bar",
             "compare_to": 1,
             "comparison": "=="
         }
@@ -33,7 +33,7 @@
         },
         "condition": {
             "type": "origins:resource",
-            "resource": "origins-plus-plus:emblazing_warrior/fury_bar",
+            "resource": "*:fury_bar",
             "comparison": "==",
             "compare_to": 2
         }
@@ -51,7 +51,7 @@
         },
         "condition": {
                 "type": "origins:resource",
-                "resource": "origins-plus-plus:emblazing_warrior/fury_bar",
+                "resource": "*:fury_bar",
                 "compare_to": 3,
                 "comparison": "=="
             }

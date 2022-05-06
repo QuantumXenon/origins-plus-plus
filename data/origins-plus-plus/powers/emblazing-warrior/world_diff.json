@@ -18,7 +18,7 @@
                     "type": "origins:change_resource",
                     "change": 0,
                     "operation": "set",
-                    "resource": "origins-plus-plus:emblazing_warrior/world_diff_bar"
+                    "resource": "*:*_bar"
                 },
                 {
                     "type": "origins:execute_command",
@@ -35,7 +35,7 @@
                 {
                     "type": "origins:change_resource",
                     "change": 1,
-                    "resource": "origins-plus-plus:emblazing_warrior/world_diff_bar"
+                    "resource": "*:*_bar"
                 },
                 {
                     "type": "origins:execute_command",
