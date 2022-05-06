@@ -31,7 +31,7 @@
 					"ticks": 1,
 					"action": {
                     "type": "origins:change_resource",
-					"resource": "*:bar_resource",
+					"resource": "origins-plus-plus:blob/bar_resource",
 					"change": 50
 				}
 					},

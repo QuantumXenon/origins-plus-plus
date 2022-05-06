@@ -6,7 +6,7 @@
 					"ticks": 1,
 					"action": {
                     "type": "origins:change_resource",
-					"resource": "*:bar_resource",
+					"resource": "origins-plus-plus:blob/bar_resource",
 					"change": -200
 					},
     "key": {
@@ -18,7 +18,7 @@
     },
 	"condition": {
 			"type": "origins:resource",
-			"resource": "*:bar_resource",
+			"resource": "origins-plus-plus:blob/bar_resource",
 			"comparison": ">=",
 			"compare_to": 1
 	}

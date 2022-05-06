@@ -44,7 +44,7 @@
                     "type": "origins:resource",
                     "comparison": "==",
                     "compare_to": 1,
-                    "resource": "*:*_cd"
+                    "resource": "origins-plus-plus:blob/*_cd"
                 }
             ]
         }
@@ -83,7 +83,7 @@
                     "type": "origins:resource",
                     "comparison": "!=",
                     "compare_to": 3,
-                    "resource": "*:*_stack"
+                    "resource": "origins-plus-plus:blob/*_stack"
                 }
             ]
         },
@@ -111,7 +111,7 @@
                     "type": "origins:resource",
                     "comparison": "==",
                     "compare_to": 3,
-                    "resource": "*:*_stack"
+                    "resource": "origins-plus-plus:blob/*_stack"
                 }
             ]
         },
@@ -130,7 +130,7 @@
                     "type": "origins:resource",
                     "comparison": "==",
                     "compare_to": 3,
-                    "resource": "*:*_stack"
+                    "resource": "origins-plus-plus:blob/*_stack"
                 }
             ]
         }
