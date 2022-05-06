@@ -13,6 +13,10 @@
             {
                 "type": "origins:execute_command",
                 "command": "tp @e[tag=lnc_Minion,sort=nearest,limit=2,distance=..10] 0 -999 -0"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "advancement grant @s only origins-plus-plus:deathsworn/immortal"
             }
         ]
     },

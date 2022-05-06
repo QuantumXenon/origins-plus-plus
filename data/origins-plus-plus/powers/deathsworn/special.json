@@ -9,7 +9,7 @@
         "conditions": [
             {
                 "type": "origins:resource",
-                "resource": "*:soul_bar",
+                "resource": "origins-plus-plus:deathsworn/soul_bar",
                 "comparison": ">",
                 "compare_to": 9
             }
@@ -22,6 +22,6 @@
         "bar_index": 5
     },
     "name": "Unleash Potential",
-    "description": "Sacrifice your vitality to unleash a special ability of all your minions within 8 blocks. You will receive a book detailing each.\nRequires your soul to be higher than 50%, but doesn't consume soul.",
+    "description": "Sacrifice your vitality to unleash a special ability of all your minions within 8 blocks. You will receive a book detailing each.\nRequires your SOUL to be higher than 50%, but doesn't consume SOUL.",
     "key": "key.origins.secondary_active"
 }
