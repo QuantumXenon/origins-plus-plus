@@ -16,7 +16,7 @@
         "type": "origins:action_over_time",
         "rising_action": {
             "type": "origins:change_resource",
-            "resource": "*:*_bar",
+            "resource": "origins-plus-plus:emblazing_warrior/fury_bar",
             "change": 0,
             "operation": "set"
         },
@@ -41,7 +41,7 @@
         "type": "origins:action_over_time",
         "rising_action": {
             "type": "origins:change_resource",
-            "resource": "*:*_bar",
+            "resource": "origins-plus-plus:emblazing_warrior/fury_bar",
             "change": 1,
             "operation": "set"
         },
@@ -66,7 +66,7 @@
         "type": "origins:action_over_time",
         "rising_action": {
             "type": "origins:change_resource",
-            "resource": "*:*_bar",
+            "resource": "origins-plus-plus:emblazing_warrior/*_bar",
             "change": 2,
             "operation": "set"
         },
@@ -91,7 +91,7 @@
         "type": "origins:action_over_time",
         "rising_action": {
             "type": "origins:change_resource",
-            "resource": "*:*_bar",
+            "resource": "origins-plus-plus:emblazing_warrior/fury_bar",
             "change": 3,
             "operation": "set"
         },

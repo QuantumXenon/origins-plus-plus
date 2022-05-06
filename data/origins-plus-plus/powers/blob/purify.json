@@ -1,6 +1,6 @@
 {
 	"name": "Heal",
-	"description": "Holding shift and pressing your secondary heals your health bar.",
+	"description": "Holding shift and pressing [Save Toolbar Activator] heals your health bar.",
 	"type": "origins:active_self",
     "hud_render": {
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
@@ -25,7 +25,7 @@
 			"ticks": 1,
 			"action": {
 				"type": "origins:execute_command",
-				"command": "effect give @s minecraft:blindness 1 1",
+				"command": "effect give @s minecraft:blindness 1 5",
 				"permission_level": 4
 			}
         },
@@ -34,7 +34,7 @@
 			"ticks": 1,
 			"action": {
 				"type": "origins:execute_command",
-                "command": "effect give @s minecraft:slowness 1 2",
+                "command": "effect give @s minecraft:slowness 1 7",
                 "permission_level": 4
 			}
 		},
