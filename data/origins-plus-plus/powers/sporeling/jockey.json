@@ -1,8 +1,26 @@
 {
-  "type": "extraorigins:start_riding",
-  "key": {
-	"key": "key.use"
-  },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:raycast",
+		"distance": 3,
+		"bientity_condition": {
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:player"
+			}
+		},
+		"bientity_action": {
+			"type": "origins:mount"
+		}
+    },
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use"
+    },
   "name": "Jockey",
   "description":"You can ride on other players."
 }

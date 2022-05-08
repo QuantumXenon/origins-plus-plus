@@ -12,7 +12,7 @@
 		"origins-plus-plus:flea/diseasedbite",
 		"origins-plus-plus:flea/bloodsucking",
 		"origins:arthropod",
-		"extraorigins:jockey",
+		"origins-plus-plus:flea/jockey",
 		"origins-plus-plus:flea/regen",
 		"origins-plus-plus:flea/disable_regen"
 	],
