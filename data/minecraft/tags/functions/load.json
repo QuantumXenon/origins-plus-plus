@@ -1,6 +1,6 @@
 {
-    "replace": false,
-	"values": [
+	"replace":false,
+	"values":[
 		"origins-plus-plus:calamitous-rogue/load",
 		"origins-plus-plus:deathsworn/load",
 		"origins-plus-plus:devine-architect/load",
@@ -14,5 +14,5 @@
 		"origins-plus-plus:vishaichian/load",
 		"origins-plus-plus:witch-of-ink/load",
 		"origins-plus-plus:wondering-spirit/load"
-    ]
+	]
 }

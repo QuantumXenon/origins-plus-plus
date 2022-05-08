@@ -1,6 +1,6 @@
 {
-    "replace": false,
-	"values": [
+	"replace":false,
+	"values":[
 		"origins-plus-plus:calamitous-rogue/loop",
 		"origins-plus-plus:deathsworn/loop",
 		"origins-plus-plus:dullahan/tick",

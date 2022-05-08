@@ -1,7 +1,7 @@
 {
-    "replace":false,
-    "allow_random": true,
-    "origins" : [
+	"replace":false,
+	"allow_random":true,
+	"origins":[
 		"origins-plus-plus:alien_axolotl",
 		"origins-plus-plus:anomaly",
 		"origins-plus-plus:artificial_construct",
