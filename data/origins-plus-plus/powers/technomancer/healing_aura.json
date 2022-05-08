@@ -1,13 +1,13 @@
 {
 	"name":"Healing Aura",
-	"description":"Blue Conduit: You are able to generate a quick burst of healing nanites which, upon release, will shoot out potent healing chemicals that will heal anyone within its radius, including yourself. Mana Cost: 10. [Primary]",
+	"description":"§9Blue Conduit: §rYou are able to generate a quick burst of healing nanites which, upon release, will shoot out potent healing chemicals that will heal anyone within its radius, including yourself. §6Mana Cost: 10000. §f[Primary]",
 	"type":"origins:active_self",
 	"entity_action":{
 	   "type":"origins:and",
 	   "actions":[
 		  {
 			 "type":"origins:execute_command",
-			 "command":"execute at @s run summon area_effect_cloud ~ ~ ~ {ReapplicationDelay:20,Radius:5f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:100,Color:2539263,Effects:[{Id:10,Amplifier:3,Duration:20,ShowParticles:0b},{Id:22,Amplifier:2,Duration:600,ShowParticles:0b},{Id:23,Amplifier:1,Duration:400,ShowParticles:0b}]}",
+			 "command":"execute at @s run summon area_effect_cloud ~ ~ ~ {ReapplicationDelay:20,Radius:5f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:100,Color:2539263,Effects:[{Id:10,Amplifier:1,Duration:20,ShowParticles:0b},{Id:22,Amplifier:1,Duration:300,ShowParticles:0b},{Id:23,Amplifier:1,Duration:300,ShowParticles:0b}]}",
 			 "permission_level":4
 		  },
 		  {

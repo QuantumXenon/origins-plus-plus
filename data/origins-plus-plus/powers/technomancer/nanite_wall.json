@@ -1,6 +1,6 @@
 {
 	"name":"Nanite Shield",
-	"description":"Light Blue Conduit: Surround yourself in nanites, preventing all health loss, but are unable to move. Mana Cost: 1 Per Second Used. [Primary]",
+	"description":"§bLight Blue Conduit:§r Surround yourself in nanites, preventing all health loss, but are unable to move. §6Mana Cost: 1000 Per Second Used. §f[Primary]",
 	"type":"origins:multiple",
 	"summon_nanites":{
 	   "type":"origins:active_self",

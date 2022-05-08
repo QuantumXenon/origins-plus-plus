@@ -1,6 +1,6 @@
 {
    "name":"Grappling Hook",
-   "description":"Black Conduit: Shoot a grappling hook that allows you to swing and move around quicker. Mana Cost: 1 Per Use. [Right Click]",
+   "description":"§0Black Conduit: §rShoot a grappling hook that allows you to swing and move around quicker. §6Mana Cost: 1000 Per Use. §f[Right Click]",
    "type":"origins:multiple",
    "velocity":{
       "type":"origins:active_self",

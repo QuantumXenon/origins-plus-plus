@@ -1,6 +1,6 @@
 {
 	"name": "Blockade",
-	"description": "Lime Conduit: You trap any entity in a temporary jail cell. Mana Cost: 10. [Primary]",
+	"description": "§aLime Conduit: §rYou trap any entity in a temporary jail cell. §6Mana Cost: 10000. §f[Primary]",
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:and",
