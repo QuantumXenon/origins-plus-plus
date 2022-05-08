@@ -19,12 +19,11 @@ version="1.5.2" #mandatory
  # A display name for the mod
 displayName="Origins++" #mandatory
 
-# The description text for the mod (multi line!) (#mandatory)
-description='''
-A direct port of Origins++ to Forge.
-'''
+# The description text for the mod {#mandatory)
+description='A collection of 110+ origins'
 
 displayURL="https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus"
+issueTrackerURL="https://github.com/QuantumXenon/origins-plus-plus/issues"
 authors="TheQuantumXenon"
 credits="Credit goes to original authors (see CurseForge desription)"
 
@@ -56,3 +55,5 @@ credits="Credit goes to original authors (see CurseForge desription)"
     ordering="NONE"
     side="BOTH"
 
+[modproperties.origins_plus_plus]
+    catalogueImageIcon="icon.png"
