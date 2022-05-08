@@ -1,6 +1,6 @@
 {
    "name":"Laser Beam",
-   "description":"Red Conduit: You release a powerful beam of energy capable to cutting through blocks and mobs. Mana Cost: 1 Per Use. [Right Click, Held]",
+   "description":"§4Red Conduit: §rYou release a powerful beam of energy capable to cutting through blocks and mobs. §6Mana Cost: 100 Per Use. §f[Right Click, Held]",
    "type":"origins:active_self",
    "entity_action":{
       "type":"origins:and",
@@ -18,7 +18,7 @@
          {
             "type":"origins:change_resource",
             "resource":"origins-plus-plus:technomancer/tech_mana_resource",
-            "change":-1000
+            "change":-100
          }
       ]
    },
@@ -66,7 +66,7 @@
             "type":"origins:resource",
             "resource":"origins-plus-plus:technomancer/tech_mana_resource",
             "comparison":">=",
-            "compare_to":1000
+            "compare_to":100
          },
          {
             "type":"origins:fluid_height",
