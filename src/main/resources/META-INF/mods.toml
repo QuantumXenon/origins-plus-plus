@@ -19,6 +19,9 @@ version="1.5.2" #mandatory
  # A display name for the mod
 displayName="Origins++" #mandatory
 
+# An icon for the mod
+logoFile="icon.png"
+
 # The description text for the mod {#mandatory)
 description='A collection of 110+ origins'
 
@@ -55,5 +58,3 @@ credits="Credit goes to original authors (see CurseForge desription)"
     ordering="NONE"
     side="BOTH"
 
-[modproperties.origins_plus_plus]
-    catalogueImageIcon="icon.png"

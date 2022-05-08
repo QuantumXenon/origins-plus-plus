@@ -1,6 +1,6 @@
 {
 	"name":"Nanite Shield",
-	"description":"§bLight Blue Conduit:§r Surround yourself in nanites, preventing all health loss, but are unable to move. §6Mana Cost: 1000 Per Second Used. §f[Primary]",
+	"description":"§bLight Blue Conduit:§r Surround yourself in nanites, preventing all health loss, but are unable to move. §6Mana Cost: 1000 Per Second Used. §f[Secondary]",
 	"type":"origins:multiple",
 	"summon_nanites":{
 	   "type":"origins:active_self",
@@ -16,7 +16,7 @@
 		  "inverted":false
 	   },
 	   "key":{
-		  "key":"key.origins.primary_active",
+		  "key":"key.origins.secondary_active",
 		  "continuous":false
 	   },
 	   "hud_render":{
@@ -25,27 +25,27 @@
 	},
 	"immobile":{
 	   "type":"origins:stacking_status_effect",
-	   "min_stacks":2,
-	   "max_stacks":2,
-	   "duration_per_stack":10,
+	   "min_stacks":20,
+	   "max_stacks":20,
+	   "duration_per_stack":20,
 	   "effects":[
 		  {
 			 "effect":"minecraft:jump_boost",
-			 "amplifier":199,
+			 "amplifier":255,
 			 "is_ambient":true,
 			 "show_particles":false,
 			 "show_icon":true
 		  },
 		  {
 			 "effect":"minecraft:slowness",
-			 "amplifier":199,
+			 "amplifier":255,
 			 "is_ambient":true,
 			 "show_particles":false,
 			 "show_icon":true
 		  },
 		  {
 			 "effect":"minecraft:resistance",
-			 "amplifier":199,
+			 "amplifier":255,
 			 "is_ambient":true,
 			 "show_particles":false,
 			 "show_icon":true
