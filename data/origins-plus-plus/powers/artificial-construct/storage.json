@@ -3,7 +3,7 @@
     "title": "Compartment",
     "drop_on_death": false,
     "key": {
-        "key": "secondary"
+        "key": "key.origins.secondary_active"
     },
     "name": "Internal Storage",
     "description": "You can store items in a chest-like compartment. These items do not drop on death."

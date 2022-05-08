@@ -1,6 +1,6 @@
 {
     "name": "Logger",
-    "description": "You gain Haste when near wood blocks.",
+    "description": "You gain haste when near wood blocks.",
     "type": "origins:action_over_time",
     "condition": {
         "type": "origins:block_in_radius",

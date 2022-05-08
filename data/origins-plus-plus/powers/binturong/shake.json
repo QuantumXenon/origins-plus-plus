@@ -3,7 +3,7 @@
     "type": "origins:shaking",
     "condition": {
         "type": "origins:power_active",
-        "power": "binturong:sugar_rush"
+        "power": "origins-plus-plus:binturong/sugar_rush"
     },
     "hidden": true
 }
