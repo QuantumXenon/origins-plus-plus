@@ -1,6 +1,6 @@
 {
    "name":"Grappling Hook",
-   "description":"Black Conduit: Shoot a grappling hook that allows you to swing and move around quicker. Mana Cost: 500 Per Used. [Right Click]",
+   "description":"Black Conduit: Shoot a grappling hook that allows you to swing and move around quicker. Mana Cost: 1 Per Use. [Right Click]",
    "type":"origins:multiple",
    "velocity":{
       "type":"origins:active_self",
@@ -29,7 +29,7 @@
             {
                "type":"origins:change_resource",
                "resource":"origins-plus-plus:technomancer/tech_mana_resource",
-               "change":-500
+               "change":-1000
             },
             {
                "type":"origins:play_sound",
@@ -82,7 +82,7 @@
                "type":"origins:resource",
                "resource":"origins-plus-plus:technomancer/tech_mana_resource",
                "comparison":">=",
-               "compare_to":500
+               "compare_to":1000
             },
             {
                "type":"origins:fluid_height",
@@ -153,7 +153,7 @@
                "type":"origins:resource",
                "resource":"origins-plus-plus:technomancer/tech_mana_resource",
                "comparison":">=",
-               "compare_to":500
+               "compare_to":1000
             },
             {
                "type":"origins:fluid_height",
