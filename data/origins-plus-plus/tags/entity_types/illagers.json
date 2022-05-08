@@ -1,6 +1,6 @@
 {
     "replace": false,
-    "values": [
+    "values":[
         "minecraft:pillager",
         "minecraft:evoker",
         "minecraft:vindicator",

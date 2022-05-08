@@ -1,6 +1,6 @@
 {
     "replace": false,
-    "values": [
+    "values":[
         "minecraft:bee",
         "minecraft:cave_spider",
         "minecraft:enderman",

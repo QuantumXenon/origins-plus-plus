@@ -1,5 +1,6 @@
 {
-    "values": [
-        "minecraft:golden_carrot"
-    ]
+	"replace":false,
+	"values":[
+		"minecraft:golden_carrot"
+	]
 }

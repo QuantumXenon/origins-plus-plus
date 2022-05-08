@@ -1,7 +1,8 @@
 {
-    "values":[
-        "minecraft:stone",
-        "minecraft:cobblestone",
+	"replace":false,
+	"values":[
+		"minecraft:stone",
+		"minecraft:cobblestone",
 		"minecraft:netherrack",
 		"minecraft:end_stone",
 		"minecraft:granite",
@@ -12,5 +13,5 @@
 		"minecraft:andesite_slab",
 		"minecraft:stone_brick_slab",
 		"minecraft:stone_bricks"
-    ]
+	]
 }
