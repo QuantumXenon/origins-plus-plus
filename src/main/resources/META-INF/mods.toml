@@ -54,7 +54,7 @@ credits="Credit goes to original authors (see CurseForge desription)"
 [[dependencies.origins_plus_plus]]
     modId="pehkui"
     mandatory=true
-    versionRange="[3.2.0,)"
+    versionRange="[3.1.0,)"
     ordering="NONE"
     side="BOTH"
 
