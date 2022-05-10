@@ -28,10 +28,7 @@
       }
     ]
   },
-  "key": {
-    "key": "key.origins.nonary_active",
-    "continuous": false
-  },
+  "key": "key.spectatorOutlines",
   "cooldown": 240,
   "hud_render": {
     "should_render": true,

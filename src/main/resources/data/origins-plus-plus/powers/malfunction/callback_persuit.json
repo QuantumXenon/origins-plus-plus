@@ -39,9 +39,7 @@
     "hud_render": {
       "should_render": false
     },
-    "key": {
-        "key": "key.origins.ternary_active"
-    },
+	"key": "key.saveToolbarActivator",
     "entity_action": {
       "type":"origins:and",
       "actions": [
@@ -94,9 +92,7 @@
     "hud_render": {
       "should_render": false
     },
-    "key": {
-        "key": "key.origins.ternary_active"
-    },
+    "key": "key.saveToolbarActivator",
     "entity_action": {
       "type":"origins:and",
       "actions": [
@@ -152,5 +148,5 @@
     }
   },
   "name": "Entity Teleportation",
-  "description": "You can teleport to or teleport to you the last entity you punched. Click the ternary key without shifting to teleport it to you, and with shifting to teleport to it."
+  "description": "You can teleport to or teleport to you the last entity you punched. Activate without shifting to teleport it to you, and with shifting to teleport to it."
 }

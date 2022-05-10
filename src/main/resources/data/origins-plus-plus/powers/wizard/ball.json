@@ -12,7 +12,7 @@
       "bar_index": 7
     },
 
-  "key": "secondary",
+  "key": "key.origins.secondary_active",
   "name": "Fireball Spell",
-  "description": "[SECONDARY] With your magic you summon a fireball."
+  "description": "With your magic you summon a fireball."
 }

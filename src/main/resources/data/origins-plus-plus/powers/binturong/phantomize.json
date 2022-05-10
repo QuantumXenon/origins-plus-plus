@@ -1,8 +1,5 @@
 {
   "type": "origins:toggle",
   "hidden": true,
-  "key": {
-    "key": "key.origins.ternary_active",
-    "continuous": false
-  }
+  "key": "key.saveToolbarActivator"
 }

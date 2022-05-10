@@ -1,6 +1,6 @@
 {
     "name": "Portals",
-    "description": "(Primary, Secondary) You can summon a portal. When you have two portals, you can teleport between them by standing close to them. (Works across dimensions.)",
+    "description": "[Primary/Secondary] You can summon a portal. When you have two portals, you can teleport between them by standing close to them. (Works across dimensions.)",
     "type": "origins:multiple",
     "toggled_blue":
     {

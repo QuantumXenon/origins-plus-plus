@@ -1,6 +1,6 @@
 {
     "name": "Skull Bomb Spell",
-    "description": "[TERNARY] You summon a skull bomb",
+    "description": "You summon a skull bomb",
     "loading_priority": 10,
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:wither_skull",
@@ -14,5 +14,5 @@
     "speed": 3,
     "divergence": 1,
     "sound": "minecraft:entity.phantom.death",
-    "key": "ternary"
+    "key": "key.saveToolbarActivator"
 }

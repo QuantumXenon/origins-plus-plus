@@ -1,9 +1,9 @@
 {
     "type":"origins:active_self",
     "name":"Ghost Summoner",
-    "description":"[PRIMARY] Vexes love you cause you are a kind wizard and will protect you.",
+    "description":"Vexes love you cause you are a kind wizard and will protect you.",
     "cooldown":300,
-    "key":"primary",
+    "key":"key.origins.primary_active",
     "entity_action":{
        "type":"origins:and",
        "actions":[

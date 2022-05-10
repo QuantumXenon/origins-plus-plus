@@ -10,9 +10,9 @@
         "inverted": true
     },
     "key": {
-        "key": "key.origins.ternary_active",
+        "key": "key.saveToolbarActivator",
         "continuous": true
     },
     "name": "Willow Wisp",
-    "description": "You are able to shoot fireballs using the ternary key."
+    "description": "You are able to shoot fireballs."
 }
