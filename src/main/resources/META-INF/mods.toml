@@ -14,7 +14,7 @@ license="MIT" #mandatory
 modId="origins_plus_plus" #mandatory
 
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
-version="1.5.2" #mandatory
+version="1.5.3" #mandatory
 
  # A display name for the mod
 displayName="Origins++" #mandatory
@@ -28,7 +28,7 @@ description='A collection of 110+ origins'
 displayURL="https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus"
 issueTrackerURL="https://github.com/QuantumXenon/origins-plus-plus/issues"
 authors="TheQuantumXenon"
-credits="Credit goes to original authors (see CurseForge desription)"
+credits="Credit goes to original authors (see CurseForge description)"
 
 [[dependencies.origins_plus_plus]]
     modId="minecraft"

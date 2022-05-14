@@ -1,10 +1,14 @@
 {
-	"type": "origins:attribute",
-	"modifier": {
-		"attribute": "minecraft:generic.movement_speed",
-		"value": 1,
-		"operation": "multiply_base"
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 22,
+    "max_stacks": 22,
+    "duration_per_stack": 5,
+	"effect":{
+		"effect": "minecraft:speed",
+		"is_ambient": false,
+		"show_particles": false,
+		"show_icon": false,
+		"amplifier": 1
 	},
-	"name": "Light Body",
-	"description": "Your small stature allows you to move quicker."
+	"hidden": true
 }

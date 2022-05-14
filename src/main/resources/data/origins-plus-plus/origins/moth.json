@@ -13,7 +13,8 @@
 		"origins-plus-plus:moth/soulaffinity",
 		"origins-plus-plus:moth/wings",
 		"origins-plus-plus:moth/explusion",
-		"origins-plus-plus:moth/short"
+		"origins-plus-plus:moth/short",
+		"origins-plus-plus:moth/climbing"
 	],
 	"icon": "minecraft:redstone_lamp",
 	"order": 10,

@@ -13,8 +13,8 @@
 		"origins:like_water",
 		"origins:aquatic",
 		"origins:conduit_power_on_land",
-		"origins-plus-plus:jellyfish/aquatic_agriculture"
-
+		"origins-plus-plus:jellyfish/aquatic_agriculture",
+		"origins-plus-plus:jellyfish/climbing"
 	],
 	"icon": "minecraft:gold_nugget",
 	"order": 1,

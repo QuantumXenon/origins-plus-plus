@@ -13,7 +13,5 @@
         "command": "scale set 0.25"
     },
     "execute_chosen_when_orb": true,
-	"name": "Party-Sized",
-    "description": "You are slightly over 3 blocks tall, and almost 2 blocks wide."
-	
+	"hidden":true
 }

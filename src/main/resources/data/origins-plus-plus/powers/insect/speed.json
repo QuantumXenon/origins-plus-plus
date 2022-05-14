@@ -5,5 +5,6 @@
         "value": 0.1,
         "operation": "addition"
     },
-	"hidden": true
+	"name": "Light Body",
+	"description": "Your small stature allows you to move quicker."
 }
