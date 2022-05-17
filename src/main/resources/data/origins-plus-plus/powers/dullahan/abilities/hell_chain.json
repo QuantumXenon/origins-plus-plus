@@ -47,7 +47,7 @@
     "key": "key.loadToolbarActivator",
     "continuous": true
   },
-  "cooldown": 600,
+  "cooldown": 900,
   "hud_render": {
     "should_render": true
   },

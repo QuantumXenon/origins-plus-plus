@@ -29,8 +29,8 @@
             "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
             "bar_index": 17
         },
-        "key": "secondary",
-        "cooldown": 6000,
+        "key": "key.origins.secondary_active",
+        "cooldown": 5000,
         "entity_action": {
             "type": "origins:and",
             "actions": [{
@@ -70,5 +70,5 @@
         }
     },
     "name": "Nightmare Steed",
-    "description": "Conjure a speedy nightmare steed that will either last 2 minutes or dies when you die. This has a 5 minute cooldown."
+    "description": "Conjure a speedy nightmare steed that will either last 2 minutes or dies when you die."
 }

@@ -21,7 +21,7 @@
     "modifier": {
         "name": "Weak to cursed items",
         "operation": "addition",
-        "value": 10
+        "value": 5
     },
     "name": "Cursed",
     "description": "Any items embued with a curse can seal you inside the weapon and kill you"
