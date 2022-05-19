@@ -1,8 +1,5 @@
 # gradle
-gradlew
-*.bat
 *.gradle
-.gradle/
 build/
 gradle/
 run/
