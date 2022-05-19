@@ -1,0 +1,29 @@
+{
+	"powers": [
+		"origins-plus-plus:demi-god/cake",
+		"origins-plus-plus:demi-god/cursed",
+		"origins-plus-plus:demi-god/fire",
+		"origins-plus-plus:demi-god/god_punch",
+		"origins-plus-plus:demi-god/god_speed",
+		"origins-plus-plus:demi-god/health",
+		"origins-plus-plus:demi-god/more_dragon_damage",
+		"origins-plus-plus:demi-god/more_guardian_damage",
+		"origins-plus-plus:demi-god/more_wither_damage",
+		"origins-plus-plus:demi-god/phase",
+		"origins-plus-plus:demi-god/raw_beef",
+		"origins-plus-plus:demi-god/raw_chicken",
+		"origins-plus-plus:demi-god/raw_cod",
+		"origins-plus-plus:demi-god/raw_diet",
+		"origins-plus-plus:demi-god/raw_mutton",
+		"origins-plus-plus:demi-god/raw_pork",
+		"origins-plus-plus:demi-god/raw_rabbit",
+		"origins-plus-plus:demi-god/raw_rotten_flesh",
+		"origins-plus-plus:demi-god/raw_salmon",
+		"origins-plus-plus:demi-god/raw_tropicalfish"
+	],
+	"icon": "minecraft:glowstone",
+	"order": 10,
+	"impact": 2,
+	"name": "Demi-God",
+	"description": "After training for years on end you have overworked yourself to the point of being unstoppable, the only beings that would be able to beat you are the gods themselves (the bosses)."
+}

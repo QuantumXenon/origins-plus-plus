@@ -1,0 +1,6 @@
+{
+    "type": "origins:shader",
+    "shader": "minecraft:shaders/post/sobel.json",
+    "name": "Soul Sight",
+    "description": "As a SoulSeer, you can see the souls of entites through all objects."
+}

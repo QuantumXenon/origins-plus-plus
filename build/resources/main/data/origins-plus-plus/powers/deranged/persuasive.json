@@ -1,0 +1,16 @@
+{
+    "name": "Persuasive",
+    "description": "You've learned to convince and persuade many people over the years.\n\nToday, you can now use this to haggle with villagers to lower your prices.\n\n[50% Discount in villager prices]",
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "hero_of_the_village",
+            "duration": 20,
+            "amplifier": 4,
+            "show_particles": false,
+            "show_icon": false
+        }
+    }
+}

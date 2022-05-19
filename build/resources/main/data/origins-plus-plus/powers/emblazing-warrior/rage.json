@@ -1,0 +1,53 @@
+{
+    "name": "Torrent of Abuse",
+    "description": "The higher your fury is, the more damage you deal with attacks.",
+    "type": "origins:multiple",
+    "atk1": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 1,
+            "name": "Fury"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+            "compare_to": 1,
+            "comparison": "=="
+        }
+    },
+    "atk2": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 2,
+            "name": "Fury"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+            "compare_to": 2,
+            "comparison": "=="
+        }
+    },
+    "atk3": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 4,
+            "name": "Fury"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+            "compare_to": 3,
+            "comparison": "=="
+        }
+    }
+}

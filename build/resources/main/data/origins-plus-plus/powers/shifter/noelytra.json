@@ -1,0 +1,12 @@
+{
+    "name": "Unwingable",
+    "description": "You can not equip an elytra, you already have a whole form for that!",
+    "type":"origins:restrict_armor",
+    "chest": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:elytra"
+      }
+    }
+  }
+  

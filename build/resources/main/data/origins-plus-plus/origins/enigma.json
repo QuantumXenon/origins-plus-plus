@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "origins-plus-plus:enigma/behind_you",
+        "origins-plus-plus:enigma/phase",
+        "origins-plus-plus:enigma/staring",
+        "origins-plus-plus:enigma/hated",
+        "origins-plus-plus:enigma/sight",
+        "origins-plus-plus:enigma/nodmg",
+		"origins-plus-plus:enigma/clone"
+    ],
+    "icon": "jigsaw",
+    "order": 1,
+    "impact": 2,
+    "name": "Enigma",
+    "description": "Mystery... puzzles... trickery... You make people live in fear of themselves and question their own sanity."
+}

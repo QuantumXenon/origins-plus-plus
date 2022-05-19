@@ -1,0 +1,10 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "*:meter",
+		"change": 1
+	},
+	"interval": 1,
+	"hidden": true
+}

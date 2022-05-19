@@ -1,0 +1,46 @@
+{
+	"type": "origins:active_self",
+	"key":
+	{
+		"key": "key.origins.secondary_active"
+	},
+	"cooldown": 1800,
+	"hud_render":
+	{
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index": 5
+	},
+	"entity_action": 
+	{
+		"type": "origins:and",
+		"actions":
+		[
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:strength 30 0 false",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:speed 30 2 false",
+				"permission_level": 4
+			},
+            {
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:regeneration 30 0 false",
+				"permission_level": 4
+			},
+            {
+                "type": "origins:delay",
+                "ticks": 600,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @s instant_damage 1 0 false"
+                }
+            }
+		]
+	},
+	"name": "Adrenaline Boost",
+	"description": "You gain speed 3, strength 1, and regen 1 for 30 seconds, get down to 3 hearts when it wears off, 90 second cool down. [Secondary]"
+  }

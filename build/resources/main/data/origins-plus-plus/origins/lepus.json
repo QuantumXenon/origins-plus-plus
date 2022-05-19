@@ -1,0 +1,24 @@
+{
+    "name": "Lepus",
+    "description": "An evolutionary branch of common rabbits, the Lepus love to explore and scavenge lost ruins for loot.",
+    "powers": [
+        "origins-plus-plus:lepus/leap",
+        "origins-plus-plus:lepus/bunny_hop",
+        "origins-plus-plus:lepus/luck_effect",
+        "origins-plus-plus:lepus/what_cost",
+        "origins-plus-plus:lepus/lucky_strike",
+        "origins:fall_immunity",
+        "origins-plus-plus:lepus/energetic",
+        "origins-plus-plus:lepus/vegetarianplus",
+        "origins-plus-plus:lepus/forager",
+        "origins-plus-plus:lepus/goldenvision",
+        "origins-plus-plus:lepus/bundle",
+        "origins-plus-plus:lepus/hide",
+        "origins-plus-plus:lepus/better_plant"
+    ],
+    "icon": {
+        "item": "minecraft:rabbit_hide"
+    },
+    "order": 1,
+    "impact": 1
+}

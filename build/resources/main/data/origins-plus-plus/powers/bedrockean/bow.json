@@ -1,0 +1,17 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": [
+			{
+				"item": "bow"
+			},
+			{
+				"item": "crossbow"
+			}
+		]
+	},
+	"hidden": "true",
+	"name": "Short arms",
+	"description": "Due to your short arms you can't pull back a bow or crossbow."
+}

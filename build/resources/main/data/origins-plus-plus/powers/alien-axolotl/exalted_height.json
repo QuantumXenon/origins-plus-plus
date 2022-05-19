@@ -1,0 +1,18 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_added":
+	{
+		"type": "origins:execute_command",
+		"command": "scale set pehkui:base 1.25 @s",
+		"permission_level": 4
+	},
+	"entity_action_removed":
+	{
+		"type": "origins:execute_command",
+		"command": "scale set 1.0 @s",
+		"permission_level": 4
+	},
+	"execute_chosen_when_orb": true,
+    "name": "Exalted Height",
+    "description": "You are naturally three blocks tall."
+}

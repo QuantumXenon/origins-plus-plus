@@ -1,0 +1,80 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 3,
+        "start_value": 0,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 0
+        }
+    },
+    "combo_finish": {
+            "type": "origins:target_action_on_hit",
+            "entity_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:wither",
+                                "amplifier": 3,
+                                "duration": 100
+                        }
+                    },
+					                    {
+                        "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:slowness",
+                                "amplifier": 3,
+                                "duration": 100
+                        }
+                    },
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_resource",
+                        "change": -3
+                    }
+                ]
+            },
+            "cooldown": 1,
+            "hud_render": {
+                "should_render": false
+            },
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_resource",
+                "comparison": "==",
+                "compare_to": 3
+            }
+    },
+    "resource_up": {
+        "type": "origins:self_action_on_hit",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "change": 1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "comparison": "!=",
+            "compare_to": 3
+        },
+        "cooldown": 1
+    },
+    "combo_end": {
+        "type": "origins:action_when_hit",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_resource",
+                "operation": "set",
+                "change": 0
+        }
+    }
+    }
+}

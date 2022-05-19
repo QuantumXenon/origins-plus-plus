@@ -1,0 +1,9 @@
+{
+	"type": "origins:modify_exhaustion",
+	"name": "Massive Stomach",
+	"description": "Your hunger drains 50% faster",
+	"modifier": {
+		"value": 0.5,
+		"operation": "multiply_base"
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Nocturnal",
+    "description": "Binturong's can see every star in the sky",
+    "type": "origins:night_vision",
+    "strength": 0.6
+}

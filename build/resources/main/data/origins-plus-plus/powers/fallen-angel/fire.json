@@ -1,0 +1,35 @@
+{
+    "name": "Trauma",
+    "description": "The feel of fire brings you back to your suppose-to-be torture in Hell, so you take more damage from fire.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "inverted": false,
+        "type": "origins:or",
+        "conditions": [
+            {
+                "inverted": false,
+                "type": "origins:name",
+                "name": "inFire"
+            },
+            {
+                "inverted": false,
+                "type": "origins:name",
+                "name": "onFire"
+            },
+            {
+                "inverted": false,
+                "type": "origins:name",
+                "name": "lava"
+            },
+            {
+                "inverted": false,
+                "type": "origins:name",
+                "name": "hotFloor"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 2
+    }
+}

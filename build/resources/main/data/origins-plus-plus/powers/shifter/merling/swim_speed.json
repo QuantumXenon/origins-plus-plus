@@ -1,0 +1,15 @@
+{
+    "name": "§9§nFins",
+    "description": "§9Your swim speed is slightly increased.",
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+      "value": 0.6,
+      "operation": "multiply_base"
+    },
+    "condition":{
+		"type": "origins:resource",
+		"resource": "origins-plus-plus:shifter/shift_bar",
+		"comparison": "==",
+		"compare_to": 7
+	}
+  }

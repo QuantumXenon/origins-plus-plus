@@ -1,0 +1,51 @@
+{
+   "type":"origins:active_self",
+   "cooldown":50,
+   "hud_render":{
+      "should_render":false
+   },
+   "condition":{
+      "type":"origins:and",
+      "conditions":[
+         {
+            "type":"origins:equipped_item",
+            "equipment_slot":"mainhand",
+            "item_condition":{
+               "type":"origins:ingredient",
+               "ingredient":{
+                  "item":"minecraft:amethyst_shard"
+               }
+            }
+         }
+      ]
+   },
+   "entity_action":{
+      "type":"origins:and",
+      "actions":[
+         {
+            "type":"origins:execute_command",
+            "command":"clear @s minecraft:amethyst_shard 1"
+         },
+				{
+					"type": "origins:delay",
+					"ticks": 1,
+					"action": {
+                    "type": "origins:change_resource",
+					"resource": "origins-plus-plus:blob/bar_resource",
+					"change": 50
+				}
+					},
+         {
+            "type":"origins:feed",
+            "food":2.5,
+            "saturation":1.5
+         }
+      ]
+   },
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    },
+   "name":"Similar",
+   "description":"You can eat amethyst shards due to thinking they are a part of you."
+}

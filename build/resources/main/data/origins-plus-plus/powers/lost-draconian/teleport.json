@@ -1,0 +1,31 @@
+{
+	"name": "Teleportation",
+	"description": "The draconian race was the smaller cousins of the enderians, they both could teleport short distances",
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "cooldown": 5,
+    "hud_render": {
+        "should_render": true
+    },
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 15,
+        "entity": false,
+        "before_action": {
+            "type": "origins:execute_command",
+            "command": "tag @s add tping"
+        },
+        "command_step": 1,
+        "command_along_ray": "execute positioned ~ ~ ~ if block ~ ~ ~ air run tp @e[tag=tping,sort=nearest] ~ ~ ~"
+        },
+        "hit_action": {
+            "type": "origins:execute_command",
+            "command": "tag @e remove tping"
+        },
+        "miss_action": {
+            "type": "origins:execute_command",
+            "command": "tp @s ^ ^ ^15"
+        }
+}

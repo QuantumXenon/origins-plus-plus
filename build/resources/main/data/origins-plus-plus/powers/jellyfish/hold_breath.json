@@ -1,0 +1,22 @@
+{
+	"type":"origins:active_self",
+	"entity_action":{
+	   "type":"origins:apply_effect",
+	   "effect":{
+		  "effect":"minecraft:water_breathing",
+		  "show_particles":false,
+		  "duration":6000,
+		  "amplifier":0
+	   }
+	},
+	"condition":{
+	   "type":"origins:submerged_in",
+	   "fluid":"minecraft:water"
+	},
+	"cooldown":0,
+	"hud_render":{
+	   "should_render":false
+	},
+	"name":"Hold Breath",
+	"description":"While underwater to hold your breath for 5 minutes and walk on land. You'll still get dry after some time. [Primary]"
+}

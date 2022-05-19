@@ -1,0 +1,49 @@
+{
+	"type":"origins:fire_projectile",
+	"entity_type":"minecraft:falling_block",
+	"tag":"{BlockState:{Name:\"minecraft:cobweb\"},NoGravity:0b,Time:10,HurtEntities:1b,FallHurtMax:10,FallDistance:10f,FallHurtAmount:1f}",
+	"speed":1,
+	"divergence":0,
+	"cooldown":100,
+	"hud_render":{
+	   "should_render":true,
+	   "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+	   "bar_index":19
+	},
+	"condition":{
+	   "type":"origins:and",
+	   "conditions":[
+		  {
+			 "type":"origins:sneaking",
+			 "inverted":true
+		  },
+		  {
+			 "type":"origins:fluid_height",
+			 "fluid":"minecraft:water",
+			 "comparison":"==",
+			 "compare_to":0
+		  },
+		  {
+			 "type":"origins:on_block"
+		  },
+		  {
+			 "type":"origins:equipped_item",
+			 "equipment_slot":"feet",
+			 "item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+				   "tag":"origins-plus-plus:boots"
+				}
+			 },
+			 "inverted":true
+		  }
+	   ]
+	},
+	"key":{
+	   "key":"key.origins.primary_active",
+	   "continuous":false
+	},
+	"hidden":false,
+	"name":"Web Shot",
+	"description":"Launch a web in the direction you're facing. Deals damage if it lands on the same block as an entity. [Primary]"
+}

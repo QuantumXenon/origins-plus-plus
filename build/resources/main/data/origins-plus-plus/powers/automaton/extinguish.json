@@ -1,0 +1,8 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 1,
+	"entity_action": {
+	    "type": "origins:extinguish"
+	},
+	"hidden": true
+}

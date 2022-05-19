@@ -1,0 +1,60 @@
+{
+	"hidden": true,
+	"type": "origins:active_self",
+	"entity_action": {
+	"type": "origins:and",
+    "actions": [
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -3
+	},
+	{
+    "type": "origins:raycast",
+    "distance": 60,
+    "block": true,
+    "entity": true,
+    "shape_type": "outline",
+    "fluid_handling": "none",
+	"bientity_action": {
+		"type": "origins:target_action",
+    "action": {
+        "type": "origins:set_on_fire",
+        "duration": 30
+    }
+	},
+	"command_along_ray": "particle minecraft:flame ~ ~ ~ 0 0 0 0 20",
+    "command_at_hit": "function origins-plus-plus:black-mage/flame",
+    "command_step": 1,
+    "command_along_ray_only_on_hit": true
+    }
+   ]
+  },
+	"cooldown": 0,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": true
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": false
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:blaze_powder"
+              }
+          }
+	}
+	]
+	},
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 0
+	}
+}

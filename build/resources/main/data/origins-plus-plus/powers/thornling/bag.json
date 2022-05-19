@@ -1,0 +1,18 @@
+{
+    "name": "Punching Bag",
+    "description": "Being hit so many times has weakened you a lot. You have 3 less hearts, and deal 40% less damage.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "multiply_total",
+            "value": -0.4
+        },
+        {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": -6
+        }
+    ],
+    "update_health": true
+}

@@ -1,0 +1,21 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:arrow",
+	"cooldown": 100,
+	"count": 1,
+	"speed": 8,
+	"divergence": 1,
+	"sound": "entity.generic.explode",
+	"tag": "{pickup:0b,CustomPotionEffects:[{Id:20,Duration:100,Amplifier:1b}]}",
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_index": 2
+	},
+	"name":"Laser",
+	"description": "Shoot a harming speedy Laser into the air!"
+}

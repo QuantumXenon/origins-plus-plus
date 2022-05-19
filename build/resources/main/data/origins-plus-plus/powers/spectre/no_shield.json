@@ -1,0 +1,10 @@
+{
+	"type": "origins:prevent_item_use",
+	"hidden": true,
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "origins:shields"
+		}
+	}
+}

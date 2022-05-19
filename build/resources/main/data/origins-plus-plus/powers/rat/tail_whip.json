@@ -1,0 +1,42 @@
+{
+  "type":"origins:active_self",
+  "condition":{
+     "type":"origins:resource",
+     "resource":"origins-plus-plus:rat/tail_whip_cooldown",
+     "comparison":"<=",
+     "compare_to":0
+  },
+  "entity_action":{
+     "type":"origins:and",
+     "actions":[
+        {
+           "type":"origins:and",
+           "actions":[
+              {
+                 "type":"origins:trigger_cooldown",
+                 "power":"origins-plus-plus:rat/tail_whip_duration"
+              },
+              {
+                 "type":"origins:execute_command",
+                 "command":"playsound minecraft:entity.fox.ambient master @a[distance=..20] ~ ~ ~ 1 1",
+                 "permission_level":4
+              }
+           ]
+        },
+        {
+           "type":"origins:delay",
+           "action":{
+              "type":"origins:trigger_cooldown",
+              "power":"origins-plus-plus:rat/tail_whip_cooldown"
+           },
+           "ticks":60
+        }
+     ]
+  },
+  "cooldown":0,
+  "hud_render":{
+     "should_render":false
+  },
+  "name":"Tail Whip",
+  "description":"You are able to give your attacks extreme knockback for a few seconds. [Primary]"
+}

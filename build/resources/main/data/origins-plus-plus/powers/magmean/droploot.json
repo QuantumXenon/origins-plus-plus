@@ -1,0 +1,33 @@
+{
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+      "type": "origins:chance",
+      "chance": 0.1,
+      "action": {
+	"type": "origins:and",
+	"actions": [
+	  {
+           	"type": "origins:execute_command",
+            "command": "/summon item ~ ~ ~ {PickupDelay:30,Item:{id:magma_cream,Count:1}}",
+            "permission_level": 4
+          },
+	  {
+		"type": "origins:execute_command",
+		"command": "playsound minecraft:entity.slime.hurt voice @s",
+		"permission_level": 4
+	  }
+	]
+     }
+  },
+  "damage_condition": {
+	"type": "origins:amount",
+	"comparison": ">=",
+	"compare_to": 2.0
+  },
+  "cooldown": 0,
+  "hud_render": {
+	"should_render": false
+  },
+  "name": "Fissile",
+  "description": "When hit, you have a small chance of dropping magma cream."
+}

@@ -1,0 +1,32 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:scoreboard",
+                "objective": "ManipCycle",
+                "comparison": "==",
+                "compare_to": 7
+            },
+            {
+                "type": "origins:scoreboard",
+                "objective": "ManipEnder",
+                "comparison": ">=",
+                "compare_to": 1
+            }
+        ]
+    },
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:dragon_fireball",
+    "cooldown": 40,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 0
+    },
+    "count": 1,
+    "speed": 0.08,
+    "sound": "entity.enderman.teleport",
+    "key": "primary"
+}

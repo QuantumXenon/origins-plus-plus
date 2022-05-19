@@ -1,0 +1,59 @@
+{
+    "name": "Ignition",
+    "description": "Whenever you attack with at least 1 fury, there is a 33% chance to ignite mobs to your left or right side.\nAt 2 fury, this will ignite enemies on both sides at a 66% chance.\nAt 3 fury, the chance of this activating increases to 95%.",
+    "type": "origins:multiple",
+    "c": {
+        "type": "origins:self_action_on_hit",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:chance",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "function origins-plus-plus:emblazing-warrior/powers/ignition"
+            },
+            "chance": 0.33
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:fury_bar",
+            "compare_to": 1,
+            "comparison": "=="
+        }
+    },
+    "b": {
+        "type": "origins:self_action_on_hit",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:chance",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "function origins-plus-plus:emblazing-warrior/powers/ignition2"
+            },
+            "chance": 0.66
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:fury_bar",
+            "comparison": "==",
+            "compare_to": 2
+        }
+    },
+    "a": {
+        "type": "origins:self_action_on_hit",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:chance",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "function origins-plus-plus:emblazing-warrior/powers/ignition2"
+            },
+            "chance": 1
+        },
+        "condition": {
+                "type": "origins:resource",
+                "resource": "*:fury_bar",
+                "compare_to": 3,
+                "comparison": "=="
+            }
+    }
+}

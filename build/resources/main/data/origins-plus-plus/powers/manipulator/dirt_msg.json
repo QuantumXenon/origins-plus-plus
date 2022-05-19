@@ -1,0 +1,9 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "title @s[scores={ManipCycle=3}] actionbar [\"\",{\"text\":\"Dirt Enclosure\",\"color\":\"#673B29\"},{\"text\":\": \",\"color\":\"gray\"},{\"score\":{\"name\":\"@s\",\"objective\":\"ManipDirt\"},\"color\":\"red\"}]"
+    }
+}

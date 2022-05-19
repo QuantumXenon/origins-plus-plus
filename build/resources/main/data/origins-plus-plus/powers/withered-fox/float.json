@@ -1,0 +1,144 @@
+{
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "max": 300,
+        "min": 0,
+        "start_value": 300,
+        "hud_render": {
+            "should_render": true,
+			"sprite_location": "origins:textures/gui/resource_bar.png",
+			"bar_index": 4
+        }
+    },
+    "toggle": {
+        "type": "origins:resource",
+        "max": 1,
+        "min": 0,
+        "start_value": 0,
+		"hud_render": {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 0
+        }
+    },
+    "active_toggle": {
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "key": "key.jump",
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:resource",
+                "inverted": false,
+                "comparison": "==",
+                "resource": "*:*_toggle",
+                "compare_to": 1
+            },
+            "if_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_toggle",
+                "change": -1
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_toggle",
+                "change": 1
+            }
+        },
+		"hud_render": {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 1
+        }
+    },
+    "weak": {
+        "type": "origins:stacking_status_effect",
+        "condition": {
+            "type": "origins:resource",
+            "inverted": false,
+            "comparison": "==",
+            "resource": "*:*_toggle",
+            "compare_to": 1
+        },
+        "duration_per_stack": 20,
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "effect": {
+            "duration": 0,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": false,
+            "effect": "weakness",
+            "amplifier": 100
+        }
+    },
+    "timer": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+				"type": "origins:resource",
+				"inverted": false,
+				"comparison": "==",
+				"resource": "*:*_toggle",
+				"compare_to": 1
+            },
+            "if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_resource",
+				"change": -1
+            },
+            "else_action": {
+				"type": "origins:change_resource",
+                "resource": "*:*_resource",
+                "change": 1
+            }
+        }
+    },
+    "wither": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 20,
+        "effect": {
+            "duration": 0,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": false,
+            "effect": "instant_damage",
+            "amplifier": 1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "inverted": false,
+            "comparison": "==",
+            "resource": "*:*_resource",
+            "compare_to": 0
+        }
+    },
+	"float": {
+        "type": "origins:stacking_status_effect",
+        "condition": {
+            "type": "origins:resource",
+            "inverted": false,
+            "comparison": "==",
+            "resource": "*:*_toggle",
+            "compare_to": 1
+        },
+        "duration_per_stack": 20,
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "effect": {
+            "duration": 0,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": false,
+            "effect": "levitation",
+            "amplifier": 1
+        }
+    },
+    "name": "Float",
+    "description": "You can float, but it's too exhausting to fly for long."
+}

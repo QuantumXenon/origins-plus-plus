@@ -1,0 +1,7 @@
+{
+	"hidden": true,
+    "type": "origins:effect_immunity",
+    "effect": [
+        "minecraft:glowing"
+    ]
+}

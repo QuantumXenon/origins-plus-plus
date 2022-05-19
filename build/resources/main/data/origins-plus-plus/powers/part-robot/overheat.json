@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2
+    },
+    "name": "Overheat",
+    "description": "Your player overheats because hes a robot. because of that you will take 2 times more fire and lava damage"
+}

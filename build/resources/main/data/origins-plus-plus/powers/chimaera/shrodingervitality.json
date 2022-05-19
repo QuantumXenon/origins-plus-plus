@@ -1,0 +1,14 @@
+{
+    "type": "origins:conditioned_attribute",
+    "tick_rate": 1,
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -10,
+        "operation": "addition"
+    },
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "name": "Shrodinger's Vitality",
+    "description": "Your HP is cut in half under the sun, it is uncertain your biology is living or dead."
+}

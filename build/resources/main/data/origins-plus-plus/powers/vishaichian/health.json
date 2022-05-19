@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": 4,
+        "operation": "addition"
+    },
+    "name": "Health",
+    "description": "You have two more hearts because you fight a lot."
+}

@@ -1,0 +1,24 @@
+{
+	"display":{
+		"title":{
+			"text":"Broken Bonds"
+		},
+		"description":{
+			"text":"Summon a wither skeleton in the overworld."
+		},
+		"icon":{
+			"item":"minecraft:coal"
+		},
+		"frame":"task",
+		"show_toast":true,
+		"announce_to_chat":false,
+		"hidden":false,
+		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria":{
+		"b":{
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"parent":"origins-plus-plus:deathsworn/summon"
+}

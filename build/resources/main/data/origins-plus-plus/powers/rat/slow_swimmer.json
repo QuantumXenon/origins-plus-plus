@@ -1,0 +1,21 @@
+{
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":3,
+	"duration_per_stack":10,
+	"effects":[
+	   {
+		  "effect":"minecraft:slowness",
+		  "amplifier":1,
+		  "is_ambient":false,
+		  "show_particles":false,
+		  "show_icon":false
+	   }
+	],
+	"condition":{
+	   "type":"origins:submerged_in",
+	   "fluid":"minecraft:water"
+	},
+	"name":"Slow Swimmer",
+	"description":"You are small and your paws aren't made to swim faster, you are slower in the water."
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Born Trader",
+    "description": "You are merchant, prices go down when you're around.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:hero_of_the_village",
+        "duration": 999999,
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon": false
+    }
+}

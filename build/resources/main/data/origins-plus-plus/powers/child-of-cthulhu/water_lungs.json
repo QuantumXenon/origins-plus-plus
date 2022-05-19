@@ -1,0 +1,20 @@
+{
+  "type":"origins:stacking_status_effect",
+  "min_stacks":1,
+  "max_stacks":3,
+  "duration_per_stack":11,
+  "effect":{
+     "effect":"minecraft:water_breathing",
+     "duration":11,
+     "amplifier":0,
+     "is_ambient":true,
+     "show_particles":false,
+     "show_icon":false
+  },
+  "condition":{
+     "type":"origins:submerged_in",
+     "fluid":"minecraft:water"
+  },
+  "name":"Water Lungs",
+  "description":"You are granted with permanent Water Breathing."
+}

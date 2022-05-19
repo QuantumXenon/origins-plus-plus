@@ -1,0 +1,10 @@
+{
+    "type": "origins:invulnerability",
+    "name": "Featherweight",
+    "description": "Your small body prevents any fall damage.",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall",
+        "inverted": false
+    }
+}

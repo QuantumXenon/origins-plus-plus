@@ -1,0 +1,18 @@
+{
+	"type": "origins:modify_food",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:tropical_fish"
+		}
+	},
+	"food_modifier": {
+		"value": 7,
+		"operation": "addition"
+	},
+	"saturation_modifier": {
+		"value": 14.2,
+		"operation": "addition"
+	},
+	"hidden": true
+}

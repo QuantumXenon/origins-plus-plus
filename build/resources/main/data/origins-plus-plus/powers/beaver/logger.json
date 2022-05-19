@@ -1,0 +1,34 @@
+{
+    "name": "Logger",
+    "description": "You gain haste when near wood blocks.",
+    "type": "origins:action_over_time",
+    "condition": {
+        "type": "origins:block_in_radius",
+        "inverted": false,
+        "radius": 9,
+        "shape": "cube",
+        "comparison": ">=",
+        "compare_to": 1,
+        "block_condition": {
+            "type": "origins:in_tag",
+            "inverted": false,
+            "tag": "beaver:wood"
+        }
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "duration": 200,
+                    "is_ambient": false,
+                    "show_particles": true,
+                    "show_icon": true,
+                    "effect": "minecraft:haste"
+                }
+            }
+        ]
+    },
+    "interval": 40
+}

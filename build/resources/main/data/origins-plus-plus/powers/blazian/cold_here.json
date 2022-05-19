@@ -1,0 +1,32 @@
+{
+    "name": "Damn! It's Cold Out Here",
+	"description": "When in a cold environment your majorly slowed and Weakness II is applied.",
+	"type": "origins:stacking_status_effect",
+	"min_stacks": -20,
+	"max_stacks": 361,
+	"duration_per_stack": 10,
+	"effects": [
+		{
+			"effect": "minecraft:slowness",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true,
+			"amplifier": 1
+		},
+		{
+			"effect": "minecraft:weakness",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true,
+			"amplifier": 1
+		}
+	],
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:temperature",
+			"comparison": "<=",
+			"compare_to": 0.5
+		}
+	}
+}

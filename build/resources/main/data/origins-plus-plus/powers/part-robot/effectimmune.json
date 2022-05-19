@@ -1,0 +1,15 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:poison",
+		"minecraft:blindness",
+		"minecraft:instant_damage",
+		"minecraft:weakness",
+		"minecraft:wither",
+		"minecraft:hunger",
+		"minecraft:mining_fatigue",
+		"minecraft:nausea"
+    ],
+	"name": "Effect Immune",
+	"description": "You don't suffer from any negative status effects."
+}

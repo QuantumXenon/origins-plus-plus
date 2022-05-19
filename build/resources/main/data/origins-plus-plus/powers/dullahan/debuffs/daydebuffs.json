@@ -1,0 +1,36 @@
+{
+    "hidden": true,
+    "loading_priority": 6,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sky"
+            },
+            {
+                "type": "origins:exposed_to_sun"
+            }
+        ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+        "effect": "minecraft:slowness",
+        "duration": 100,
+        "amplifier": 1,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    },
+    "effects": [
+        {
+            "effect": "minecraft:hunger",
+            "duration": 100,
+            "amplifier": 2,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ]
+}

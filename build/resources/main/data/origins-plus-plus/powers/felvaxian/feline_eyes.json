@@ -1,0 +1,11 @@
+{
+  "type": "origins:night_vision",
+  "strength": 1,
+  "condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water",
+    "inverted": true
+  },
+  "name": "Feline Eyes",
+  "description": "Your ancestors have granted you with the eye of the night"
+}

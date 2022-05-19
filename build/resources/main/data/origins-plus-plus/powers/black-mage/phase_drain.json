@@ -1,0 +1,20 @@
+{
+	"hidden": true,
+	"type": "origins:action_over_time",
+	"entity_action": {
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -1
+	},
+	"condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:glistering_melon_slice"
+              }
+          }
+		},
+	 "interval": 3
+}

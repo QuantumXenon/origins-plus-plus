@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"origins-plus-plus:moth/compound_vision",
+		"origins-plus-plus:moth/easy_evasion",
+		"origins-plus-plus:moth/flammable_body",
+		"origins-plus-plus:moth/glowaffinity",
+		"origins-plus-plus:moth/jackoaffinity",
+		"origins-plus-plus:moth/light_affinity",
+		"origins-plus-plus:moth/lightweight",
+		"origins-plus-plus:moth/overwhelming_light",
+		"origins-plus-plus:moth/sea_light",
+		"origins-plus-plus:moth/soulaffinity_two",
+		"origins-plus-plus:moth/soulaffinity",
+		"origins-plus-plus:moth/wings",
+		"origins-plus-plus:moth/explusion",
+		"origins-plus-plus:moth/short",
+		"origins-plus-plus:moth/climbing"
+	],
+	"icon": "minecraft:redstone_lamp",
+	"order": 10,
+	"impact": 2,
+	"name": "Moth",
+	"description": "The light calls to you."
+}

@@ -1,0 +1,96 @@
+{
+	"type": "origins:multiple",
+	"name": "Soul Sacrifice",
+	"description": "10 tick cooldown. Hold to consume 1.5 hearts to fill the bar by 200 Spectre points if bar is not full.",
+	"health": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:damage",
+			"amount": 3,
+			"source": {
+				"name": "generic",
+				"bypasses_armor": true,
+				"unblockable": true
+			}
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "origins-plus-plus:spectre/spectre_infinite",
+					"comparison": "<",
+					"compare_to": 1000
+				},
+				{
+					"type": "origins:power_active",
+					"power": "origins-plus-plus:spectre/spectre_terror_toggle",
+					"inverted": true
+				}
+			]
+		},
+		"key": {
+			"key": "key.origins.secondary_active",
+			"continuous": true
+		},
+		"cooldown": 10
+	},
+	"spectre": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "origins-plus-plus:spectre/spectre_infinite",
+			"change": 200
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "origins-plus-plus:spectre/spectre_infinite",
+					"comparison": "<",
+					"compare_to": 1000
+				},
+				{
+					"type": "origins:power_active",
+					"power": "origins-plus-plus:spectre/spectre_terror_toggle",
+					"inverted": true
+				}
+			]
+		},
+		"key": {
+			"key": "key.origins.secondary_active",
+			"continuous": true
+		},
+		"cooldown": 10
+	},
+	"sound": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "block.end_portal_frame.fill",
+			"pitch": 0.1
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "origins-plus-plus:spectre/spectre_infinite",
+					"comparison": "<",
+					"compare_to": 1000
+				},
+				{
+					"type": "origins:power_active",
+					"power": "origins-plus-plus:spectre/spectre_terror_toggle",
+					"inverted": true
+				}
+			]
+		},
+		"key": {
+			"key": "key.origins.secondary_active",
+			"continuous": true
+		},
+		"cooldown": 10
+	}
+}

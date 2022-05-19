@@ -1,0 +1,31 @@
+{
+    "type":"origins:action_over_time",
+    "entity_action":{
+       "type":"origins:apply_effect",
+       "effects":[
+          {
+             "effect":"minecraft:blindness",
+             "duration":40,
+             "show_particles":false,
+             "show_icon":false
+          },
+          {
+             "effect":"minecraft:slowness",
+             "duration":40,
+             "show_particles":false,
+             "show_icon":false
+          }
+       ]
+    },
+    "interval":20,
+    "condition":{
+       "type":"origins:in_block",
+       "block_condition":{
+          "type":"origins:light_level",
+          "comparison":">=",
+          "compare_to":13
+       }
+    },
+    "name":"Heliophobia",
+    "description":"When in harsh lighting conditions, you get Blindness and Slowness for 2 seconds."
+}

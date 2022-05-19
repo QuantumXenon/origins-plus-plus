@@ -1,0 +1,33 @@
+{
+	"type": "origins:active_self",
+	"key":
+	{
+		"key": "key.origins.secondary_active"
+	},
+	"cooldown": 6000,
+	"hud_render":
+	{
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index": 5
+	},
+	"entity_action": 
+	{
+		"type": "origins:and",
+		"actions":
+		[
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:speed 30 0 false",
+				"permission_level": 4
+			},
+            {
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:regeneration 30 0 false",
+				"permission_level": 4
+			}
+		]
+	},
+	"name": "Rage Beaver",
+	"description": "You get Speed I and Regeneration I for 30 seconds (5 min cooldown). [Secondary]"
+  }

@@ -1,0 +1,68 @@
+{
+	"type": "origins:active_self",
+	"entity_action":
+	{
+		"type": "origins:if_else",
+		"condition":
+		{
+			"type": "origins:or",
+			"conditions":
+			[
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition":
+					{
+						"type": "origins:ingredient",
+						"ingredient":
+						{
+							"item": "minecraft:nautilus_shell"
+						}
+					}
+				}
+			]
+		},
+		"if_action":
+		{
+			"type": "origins:and",
+			"actions":
+			[
+				{
+					"type": "origins:execute_command",
+					"command": "clear @p nautilus_shell 1",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "item replace entity @s armor.head with nautilus_shell",
+					"permission_level": 4
+				},
+				{
+				    "type": "origins:execute_command",
+					"command": "playsound minecraft:item.armor.equip_turtle master @s ~ ~1 ~ 3 1",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:damage",
+					"amount": 0,
+					"source": {
+						"name": "damage",
+						"unblockable": true,
+						"bypasses_armor": true
+					}
+				}
+			]
+		}
+	},
+	"cooldown": 0.1,
+	"hud_render":
+	{
+		"should_render": true,
+	    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+	    "bar_index": 16
+	},
+	"key": "secondary",
+
+	"name": "Shell Equiping",
+	"description": "Press the secondary key while holding a nautilus shell to put it on your head slot."
+}

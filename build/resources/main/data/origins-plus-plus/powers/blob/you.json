@@ -1,0 +1,15 @@
+{
+  "type": "origins:inventory",
+  "title": "It's you.",
+  "drop_on_death": false,
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    },
+"condition": {
+    "type": "origins:sneaking",
+    "inverted": true
+},
+  "name": "Strange Storage",
+  "description": "You can store things inside yourself and they don't drop on death."
+}

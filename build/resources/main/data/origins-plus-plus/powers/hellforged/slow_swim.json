@@ -1,0 +1,10 @@
+{
+	"name": "Cooled Off",
+	"description": "You swim slowly and take damage while in water.",
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -0.75
+    },
+	"hidden": "false"
+}

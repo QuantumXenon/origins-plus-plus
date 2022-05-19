@@ -1,0 +1,5 @@
+{
+    "name": "Gravity Manipulator",
+    "description": "You can fly, have void immunity, and can walk on liquids.",
+    "type": "origins:creative_flight"
+}

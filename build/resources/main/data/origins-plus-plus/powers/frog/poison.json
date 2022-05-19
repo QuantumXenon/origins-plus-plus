@@ -1,0 +1,24 @@
+{
+	"type": "origins:attacker_action_when_hit",
+	"entity_action": {
+		
+		"type": "origins:apply_effect",
+		"effect": {
+			
+			"effect": "minecraft:poison",
+			"duration": 400,
+			"amplifier": 2
+    					
+    				}
+				},
+	"cooldown": 100,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 18
+			},
+    
+	"name": "Powerfull Toxin",
+	"description": "Your skin produces a toxin that you can use to poison others." 
+
+				
+}

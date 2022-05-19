@@ -1,0 +1,25 @@
+{
+	"type": "origins:prevent_sleep",
+	"message": "It isn't cold enough for you to sleep",
+	"set_spawn_point": true,
+	"block_condition": {
+		"type": "origins:adjacent",
+		"adjacent_condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:in_tag",
+					"tag": "minecraft:snow"
+				},
+				{
+					"type": "origins:in_tag",
+					"tag": "minecraft:ice"
+				}
+			]
+		},
+		"comparison": "<=",
+		"compare_to": 2
+	},
+	"name": "Cold Nap",
+	"description": "You can't sleep when it's not cold enough. One half of your bed needs to be adjacent to at least 3 blocks that belong to snow or ice block tags."
+}

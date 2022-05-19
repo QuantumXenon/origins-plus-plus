@@ -1,0 +1,12 @@
+{
+    "type": "origins:prevent_item_use",
+	"hidden": false,
+	"name": "Unwieldy",
+	"description": "You're a wither skeleton meaning you've never used a shield... good luck!!",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:shield"
+        }
+    }
+}

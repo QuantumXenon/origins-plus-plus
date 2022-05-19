@@ -1,0 +1,12 @@
+{
+	"type": "origins:modify_exhaustion",
+	"modifier": {
+		"operation": "addition",
+		"value": 0.06
+	},
+	"condition": {
+		"type": "origins:power_active",
+		"power": "origins-plus-plus:mountain-goat/high_jump_toggle"
+	},
+	"hidden": true
+}

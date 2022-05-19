@@ -1,0 +1,44 @@
+{
+   "hidden": true,
+    "type":"origins:action_over_time",
+    "entity_action":{
+       "type":"origins:and",
+       "actions":[
+          {
+             "type":"origins:apply_effect",
+             "effect":{
+                "duration":200,
+                "is_ambient":false,
+                "show_particles":true,
+                "show_icon":true,
+                "effect":"minecraft:speed",
+                "amplifier": 5
+             }
+          }
+       ]
+    },
+    "condition":{
+       "type":"origins:and",
+       "conditions":[
+          {
+             "type":"origins:block_in_radius",
+             "inverted":false,
+             "radius":9,
+             "shape":"cube",
+             "comparison":">=",
+             "compare_to":6,
+             "block_condition":{
+                "type":"origins:block",
+                "inverted":false,
+                "block":"minecraft:soul_sand"
+             }
+          },
+          {
+             "type":"origins:dimension",
+             "dimension":"minecraft:the_nether",
+             "inverted":true
+          }
+       ]
+    },
+    "interval":40
+}

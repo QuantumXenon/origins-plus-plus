@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"origins-plus-plus:marshmellow/tiny",
+		"origins-plus-plus:marshmellow/crispyresource",
+		"origins-plus-plus:marshmellow/crispyadd",
+		"origins-plus-plus:marshmellow/crispyremove",
+		"origins-plus-plus:marshmellow/crispylvl1hp",
+		"origins-plus-plus:marshmellow/crispylvl2hp",
+		"origins-plus-plus:marshmellow/crispylvl3hp",
+		"origins-plus-plus:marshmellow/crispylvl1",
+		"origins-plus-plus:marshmellow/crispylvl2",
+		"origins-plus-plus:marshmellow/crispylvl3",
+		"origins-plus-plus:marshmellow/lesshearts",
+		"origins-plus-plus:marshmellow/sink_in_water",
+		"origins-plus-plus:marshmellow/pyrophobia"
+	],
+	"icon": "minecraft:quartz_block",
+	"order": 10,
+	"impact": 2,
+	"name": "Marshmellow",
+	"description": "Soft, fluffy and yummy!"
+}

@@ -1,0 +1,26 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:height 0.8"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:width 0.8"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale persist true"
+			}
+		]
+	},
+	"entity_action_lost": {
+		"type": "origins:execute_command",
+		"command": "scale reset"
+	},
+  "name": "Small",
+  "description": "As a descendant of the velociraptor, you are slightly smaller than the average human."
+}

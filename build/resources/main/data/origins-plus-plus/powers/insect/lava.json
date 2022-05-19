@@ -1,0 +1,12 @@
+{
+    "0": {
+        "type": "origins:walk_on_fluid",
+        "fluid": "minecraft:lava"
+    },
+    "1": {
+        "type": "origins:fire_immunity"
+    },
+    "name": "Insects's Step",
+    "description": "Walk on water (and lava)",
+    "type": "origins:multiple"
+}

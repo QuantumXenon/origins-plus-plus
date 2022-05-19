@@ -1,0 +1,15 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 22,
+    "max_stacks": 22,
+    "duration_per_stack": 5,
+	"effect":{
+		"effect": "minecraft:speed",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": false,
+		"amplifier": 1
+	},
+ "name": "Quick Feet",
+ "description": "Due to constantly running from hunters you have devolved natural speed."
+}

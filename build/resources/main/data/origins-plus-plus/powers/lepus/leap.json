@@ -1,0 +1,64 @@
+{
+    "name": "Leap",
+    "description": "A hefty leap that launches you up and forward.",
+    "loading_priority": 2,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:on_block"
+            },
+            {
+                "inverted": true,
+                "type": "origins:status_effect",
+                "effect": "minecraft:slow_falling",
+                "min_amplifier": 0,
+                "max_amplifier": 2147483647,
+                "min_duration": 0,
+                "max_duration": 2147483647
+            },
+            {
+                "inverted": true,
+                "type": "origins:swimming"
+            }
+        ]
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:exhaust",
+                "amount": 0.07
+            },
+            {
+                "type": "origins:add_velocity",
+                "y": 0.7,
+                "space": "world",
+                "client": true,
+                "server": false
+            },
+            {
+                "type": "origins:add_velocity",
+                "z": 1.4,
+                "space": "local_horizontal",
+                "client": true,
+                "server": false
+            },
+            {
+                "type": "origins:add_velocity",
+                "z": 0.5,
+                "space": "local",
+                "client": true,
+                "server": false
+            }
+        ]
+    },
+    "cooldown": 40,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 8
+    },
+    "key": "primary"
+}

@@ -1,0 +1,19 @@
+{
+
+
+	"type": "origins:action_over_time",
+	"entity_action": {
+	        "type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:blindness",
+			"duration": 400,
+			"amplifier": 0
+  }
+},
+	"interval": 20,
+	"condition": {
+	"type": "origins:exposed_to_sky"
+},
+	"name": "Echo Location",
+    	"description": "You can not see while in open areas."
+}

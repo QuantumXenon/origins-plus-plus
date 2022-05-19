@@ -1,0 +1,21 @@
+{
+    "type": "origins:launch",
+    "cooldown": 800,
+    "hud_render": {
+        "bar_index": 4
+    },
+    "sound": "minecraft:entity.ender_dragon.flap",
+    "speed": 3,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+    "condition":{
+        "type":"origins:resource",
+        "resource":"origins-plus-plus:ebon_wing/blood_blood",
+        "comparison":">=",
+        "compare_to":100
+     },
+	"name": "Fly",
+	"description": "You launch yourself into the sky. Kill 100 mobs to use this ability. (40 second cooldown) [Primary]"
+}

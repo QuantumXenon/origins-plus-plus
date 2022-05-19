@@ -1,0 +1,24 @@
+{
+  "type":"origins:target_action_on_hit",
+  "entity_action":{
+     "type":"origins:apply_effect",
+     "effect":{
+        "effect":"minecraft:poison",
+        "amplifier":0,
+        "duration":60
+     }
+  },
+  "cooldown":25,
+  "condition":{
+     "type":"origins:equipped_item",
+     "equipment_slot":"mainhand",
+     "item_condition":{
+        "type":"origins:ingredient",
+        "ingredient":{
+           "item":"minecraft:air"
+        }
+     }
+  },
+  "name":"Thorned Punch",
+  "description":"You have thorns all over your body, and the ones on your fists are designed to have a weak poison."
+}

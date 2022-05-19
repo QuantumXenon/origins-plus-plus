@@ -1,0 +1,28 @@
+{
+"name":"Weakening Light",
+"description":"When nearby a soul lantern you get mining fatigue.",
+
+"interval": 3,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:mining_fatigue",
+      "duration": 10,
+      "show_particles": false,
+      "amplifier": 1,
+      "show_icon": false
+    }
+  },
+  "condition": {
+    "type": "origins:block_in_radius",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:soul_lantern"
+    },
+    "radius": 1,
+    "shape": "cube",
+    "comparison": ">=",
+    "compare_to": 1
+  }
+}

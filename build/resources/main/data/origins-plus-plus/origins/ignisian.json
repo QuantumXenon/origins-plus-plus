@@ -1,0 +1,30 @@
+{
+	"powers": [
+		"origins-plus-plus:ignisian/brawler",
+		"origins-plus-plus:ignisian/extinguished",
+		"origins-plus-plus:ignisian/extinguished_air",
+		"origins-plus-plus:ignisian/extinguished_ignore",
+		"origins-plus-plus:ignisian/heavyweight",
+		"origins-plus-plus:ignisian/predatory",
+		"origins-plus-plus:ignisian/punished",
+		"origins-plus-plus:ignisian/sluggish_arms",
+		"origins-plus-plus:ignisian/sluggish_break",
+		"origins-plus-plus:ignisian/archdemon_size",
+		"origins-plus-plus:ignisian/archdemon_reach",
+		"origins-plus-plus:ignisian/diabolic",
+		"origins-plus-plus:ignisian/infernal",
+		"origins-plus-plus:ignisian/leaper",
+		"origins-plus-plus:ignisian/ignisian_zenith",
+		"origins-plus-plus:ignisian/ignisian_zenith_effects",
+		"origins-plus-plus:ignisian/ignisian_wrath_toggle",
+		"origins-plus-plus:ignisian/ignisian_wrath",
+		"origins-plus-plus:ignisian/hades_hopper",
+		"origins-plus-plus:ignisian/hades_trembler",
+		"origins-plus-plus:ignisian/crimson"
+	],
+	"icon": "minecraft:magma_block",
+	"order": 10,
+	"impact": 3,
+	"name": "Ignisian",
+	"description": "Archdemons exiled after the rebellion. Weakened by the retribution, the betrayed Ignisians were driven to the shadows. Day by day, their power grows, soon, vengeance will be theirs. Made by PeterTP."
+}

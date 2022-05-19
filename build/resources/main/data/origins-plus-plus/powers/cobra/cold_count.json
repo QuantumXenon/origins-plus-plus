@@ -1,0 +1,71 @@
+{
+	"type": "origins:multiple",
+	"cold_increase": {
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "origins-plus-plus:cobra/cold_resource",
+			"change": 1
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:biome",
+					"condition": {
+						"type": "origins:temperature",
+						"comparison": "<=",
+						"compare_to": 0.2
+					}
+				}
+			]
+		}
+	},
+	"cold_decrease": {
+		"type": "origins:action_over_time",
+		"interval": 14,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "origins-plus-plus:cobra/cold_resource",
+			"change": -1
+		},
+		"condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:biome",
+							"condition": {
+								"type": "origins:temperature",
+								"comparison": "<=",
+								"compare_to": 0.2
+							},
+							"inverted": true
+						}
+					]
+				},
+				{
+					"type": "origins:on_fire"
+				}
+			]
+		}
+	},
+	"cold_deah": {
+		"type": "origins:action_over_time",
+		"interval": 10,
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "origins-plus-plus:cobra/cold_resource",
+			"change": -200
+		},
+		"condition": {
+			"type": "origins:health",
+			"comparison": "==",
+			"compare_to": 0
+		}
+	},
+	"hidden": true
+}

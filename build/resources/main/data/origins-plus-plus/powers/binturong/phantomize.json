@@ -1,0 +1,5 @@
+{
+  "type": "origins:toggle",
+  "hidden": true,
+  "key": "key.saveToolbarActivator"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+      "type": "origins:chance",
+      "chance": 0.5,
+      "action": {
+	"type": "origins:and",
+	"actions": [
+	  {
+           	"type": "origins:execute_command",
+            "command": "/summon item ~ ~ ~ {PickupDelay:30,Item:{id:bone,Count:1}}",
+            "permission_level": 4
+          },
+	  {
+		"type": "origins:execute_command",
+		"command": "playsound minecraft:entity.slime.hurt voice @s",
+		"permission_level": 4
+	  }
+	]
+     }
+  },
+  "damage_condition": {
+	"type": "origins:amount",
+	"comparison": ">=",
+	"compare_to": 4.0
+  },
+  "cooldown": 0,
+  "hud_render": {
+	"should_render": false
+  },
+  "name": "Boned",
+  "description": "When hit, you have a chance of dropping bones."
+}

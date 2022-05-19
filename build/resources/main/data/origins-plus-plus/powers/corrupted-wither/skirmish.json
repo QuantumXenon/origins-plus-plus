@@ -1,0 +1,202 @@
+{
+	"type": "origins:multiple",
+	"on": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 1,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"timer": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 10,
+		"hud_render": {
+			"should_render": true,
+			"bar_index": 3
+		}
+	},
+	"toggle_on": {
+		"type": "origins:active_self",
+		"cooldown": 50,
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:resource",
+				"resource": "*:*_on",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			"if_action": {
+				"type": "origins:and",
+				"actions": [
+					{
+						"type": "origins:change_resource",
+						"resource": "*:*_on",
+						"change": -1
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "playsound minecraft:block.beacon.power_select ambient @s ~ ~ ~ 10 2"
+					}
+				]
+			},
+			"else_action": {
+				"type": "origins:and",
+				"actions": [
+					{
+						"type": "origins:change_resource",
+						"resource": "*:*_on",
+						"change": 1
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "playsound minecraft:block.beacon.power_select ambient @s ~ ~ ~ 10 2"
+					}
+				]
+			}
+		}
+	},
+	"fast": {
+		"type": "origins:modify_swim_speed",
+		"modifier": {
+			"operation": "addition",
+			"value": 0.03
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_on",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"phase": {
+		"type": "origins:phasing",
+		"blacklist": true,
+		"block_condition": {
+			"type": "origins:in_tag",
+			"tag": "origins:unphasable"
+		},
+		"view_distance": 15,
+		"phase_down_condition": {
+			"type": "origins:swimming"
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_on",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"invis": {
+		"type": "origins:invisibility",
+		"render_armor": false,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_on",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"prevent": {
+		"type": "origins:prevent_entity_render",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_on",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"shader": {
+		"type": "origins:shader",
+		"shader": "minecraft:shaders/post/desaturate.json",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_on",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"block": {
+		"type": "origins:prevent_block_use",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_on",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"swim": {
+		"type": "origins:swimming",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_on",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"invul": {
+		"type": "origins:invulnerability",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_on",
+			"comparison": "==",
+			"compare_to": 1
+		},
+		"damage_condition": {
+			"type": "origins:name",
+			"name": "outOfWorld",
+			"inverted": true
+		}
+	},
+	"off": {
+		"type": "origins:action_over_time",
+		"interval": 10,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "*:*_on",
+					"change": -1
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "playsound minecraft:block.beacon.power_select ambient @s ~ ~ ~ 10 2"
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_timer",
+			"comparison": "==",
+			"compare_to": 0
+		}
+	},
+	"gen": {
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:resource",
+				"resource": "*:*_on",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_timer",
+				"change": -1
+			},
+			"else_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_timer",
+				"change": 1
+			}
+		}
+	},
+	"name": "Skirmish",
+	"description": "You warp to another dimension becoming invulnerable to any kind of damage and become invisible, when enter/exiting the dimension you emit a sound. This has a cooldown, you can unwarp to reset the cooldown earlier."
+}

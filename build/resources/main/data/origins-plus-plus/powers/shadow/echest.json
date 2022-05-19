@@ -1,0 +1,9 @@
+{
+  "name": "Shadow Storage",
+  "description": "You can warp the shadows into a storage area only you can access, and is kept on death.",
+  "type": "origins:inventory",
+  "drop_on_death": false,
+  "key": {
+    "key": "key.saveToolbarActivator"
+  }
+}

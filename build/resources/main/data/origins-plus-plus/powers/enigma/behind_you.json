@@ -1,0 +1,19 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 64,
+        "block": true,
+        "entity": true,
+        "shape_type": "visual",
+        "fluid_handling": "any",
+        "command_at_hit": "function origins-plus-plus:enigma/behind",
+        "command_step": 0.25
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": false
+    },
+    "name": "Behind You",
+    "description": "Nothing can evade you... Use this ability to teleport behind anyone."
+}

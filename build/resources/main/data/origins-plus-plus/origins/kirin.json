@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"origins:sprint_jump",
+		"origins:fall_immunity",
+		"origins:cat_vision",
+		"origins-plus-plus:kirin/climb",
+		"origins-plus-plus:kirin/cat_size",
+		"origins:carnivore",
+		"origins:nine_lives",
+		"origins-plus-plus:kirin/exhaustion",
+		"origins-plus-plus:kirin/dislike_of_water",
+		"origins-plus-plus:kirin/jump_boost",
+		"origins-plus-plus:kirin/unrivaled_speed",
+		"origins-plus-plus:kirin/modify_player_speed"
+	],
+	"icon": "minecraft:cod",
+	"order": 10,
+	"impact": 3,
+	"name": "Kirin",
+	"description": "Basically, like the cat and fox origin but better."
+}

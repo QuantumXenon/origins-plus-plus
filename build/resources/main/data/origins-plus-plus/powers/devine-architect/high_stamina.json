@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "name": "Reduced exhaustion",
+        "operation": "multiply_base",
+        "value": -999
+    },
+	"name": "High Stamina",
+	"description": "You don't exhaust."
+}

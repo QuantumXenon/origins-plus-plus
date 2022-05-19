@@ -1,0 +1,85 @@
+{
+	"type": "origins:active_self",
+	"hidden": true,
+	"key": {
+		"key": "key.use",
+		"continuous": true
+	},
+	"entity_action": {
+		"type": "origins:if_else_list",
+		"actions": [
+		{
+			"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": [
+					{
+						"item": "bow"
+					},
+					{
+						"item": "crossbow"
+					}
+					]
+				}
+			},
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:equipped_item_action",
+					"equipment_slot": "mainhand",
+					"action": {
+						"type": "origins:consume",
+						"amount": 1
+					}
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "entity.item.break",
+					"volume": 0.8,
+					"pitch": 1
+				}
+				]
+			}
+		},
+		{
+			"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": [
+					{
+						"item": "bow"
+					},
+					{
+						"item": "crossbow"
+					}
+					]
+				}
+			},
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:equipped_item_action",
+					"equipment_slot": "offhand",
+					"action": {
+						"type": "origins:consume",
+						"amount": 1
+					}
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "entity.item.break",
+					"volume": 0.8,
+					"pitch": 1
+				}
+				]
+			}
+		}
+		]
+	}
+}

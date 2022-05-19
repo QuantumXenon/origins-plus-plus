@@ -1,0 +1,12 @@
+{
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:fire"
+	},
+	"modifier": {
+		"operation": "multiply_base",
+		"value": 1
+	},
+	"name": "Pyrophobia",
+	"description": "You take 2x more fire damage."
+}

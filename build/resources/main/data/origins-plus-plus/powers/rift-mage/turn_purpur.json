@@ -1,0 +1,20 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "origins-plus-plus:rift-mage/purpur_block",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "minecraft:stone_bricks"
+            },
+            {
+                "item": "minecraft:amethyst_shard"
+            }
+        ],
+        "result": {
+            "item": "minecraft:purpur_block"
+        }
+    },
+    "name": "Turn Purpur",
+    "description": "With an amethyst shard and a Stone Bricks block, you can create a Purpur Block."
+}

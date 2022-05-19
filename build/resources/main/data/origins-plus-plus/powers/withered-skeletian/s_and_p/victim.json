@@ -1,0 +1,10 @@
+{
+	"type":"origins:self_action_when_hit",
+	"entity_action":{
+	   "type":"origins:execute_command",
+	   "command":"particle smoke ~ ~ ~ 0.5 1 0.5 1 50 force @a[distance=1..15]",
+	   "permission_level":4
+	},
+	"hidden":true,
+	"cooldown":3
+}

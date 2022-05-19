@@ -1,0 +1,23 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:feed",
+                "food": 6.0,
+                "saturation": 2
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.evoker.prepare_summon player @a ~ ~ ~ 1 2",
+                "permission_level": 4
+            }
+        ]
+    },
+    "cooldown": 0,
+    "hud_render": {
+        "should_render": false
+    },
+    "hidden": true
+}

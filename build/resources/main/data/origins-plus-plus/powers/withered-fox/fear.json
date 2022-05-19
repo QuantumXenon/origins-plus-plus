@@ -1,0 +1,66 @@
+{
+    "type": "origins:action_over_time",
+    "name":"Undead Fear",
+    "description":"As being related to the wither undead mobs are afraid of you and the Wither likes you so will not attack you.",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team add wiz"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join wiz @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join wiz @e[type=minecraft:zombie]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join wiz @e[type=minecraft:husk]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join wiz @e[type=minecraft:drowned]"
+            },
+	    {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join wiz @e[type=minecraft:zombie_villager]"
+            },
+	    {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join wiz @e[type=minecraft:wither_skeleton]"
+            },
+	    {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join wiz @e[type=minecraft:stray]"
+            },
+	    {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join wiz @e[type=minecraft:skeleton]"
+            },
+	    {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join wiz @e[type=minecraft:wither]"
+            },
+	    {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join wiz @e[type=minecraft:phantom]"
+            }
+        ]
+    }
+}

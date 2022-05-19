@@ -1,0 +1,15 @@
+{
+	"type": "origins:burn",
+	"interval": 60,
+	"burn_duration": 5,
+	"condition": {
+	
+		"type": "origins:resource",
+		"resource": "origins-plus-plus:frog/frog_fire_bar1",
+		"comparison": ">",
+		"compare_to": 49
+
+			},
+	"name": "Dehydration",
+	"description": "When your exposed to the sun you will dehydrate and die."
+}

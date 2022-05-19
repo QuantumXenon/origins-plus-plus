@@ -1,0 +1,10 @@
+{
+	"name": "Huge Heart",
+	"description": "You have twice as much health",
+		"type": "origins:attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.max_health",
+			"value": 20,
+			"operation": "addition"
+		}
+}

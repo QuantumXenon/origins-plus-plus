@@ -1,0 +1,12 @@
+{
+    "name": "...But at what cost?",
+    "description": "You have seven hearts of health, which just so happens to be your lucky number. How fortunate! :)",
+    "loading_priority": 0,
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -6
+    },
+    "update_health": true
+}

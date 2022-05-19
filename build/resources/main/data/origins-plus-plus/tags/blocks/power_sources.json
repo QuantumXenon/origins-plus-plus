@@ -1,0 +1,10 @@
+{
+	"replace":false,
+	"values":[
+		"minecraft:redstone_wire",
+		"minecraft:redstone_ore",
+		"minecraft:deepslate_redstone_ore",
+		"minecraft:redstone_block",
+		"minecraft:redstone_torch"
+	]
+}

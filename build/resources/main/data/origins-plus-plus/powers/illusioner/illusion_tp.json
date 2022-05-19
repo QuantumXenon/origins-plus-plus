@@ -1,0 +1,25 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "/execute as @e[type=minecraft:illusioner,tag=three] at thatalloguy run tp @s ~2 ~ ~"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "/execute as @e[type=minecraft:illusioner,tag=four] at thatalloguy run tp @s ~-2 ~ ~"
+			},
+      {
+				"type": "origins:execute_command",
+				"command": "/execute as @e[type=minecraft:illusioner,tag=two] at thatalloguy run tp @s ~ ~ ~-2"
+			},
+      {
+				"type": "origins:execute_command",
+				"command": "/execute as @e[type=minecraft:illusioner,tag=one] at thatalloguy run tp @s ~ ~ ~2"
+			}
+		]
+	},
+  "interval": 1,
+  "hidden": true
+}

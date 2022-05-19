@@ -1,0 +1,66 @@
+{    
+   "hidden": true,
+    "type": "origins:active_self",
+    "entity_action": {
+		"type": "origins:and",
+        "actions": [
+	{
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=1..15] minecraft:blindness 40 0",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=1..15] minecraft:slowness 40 2",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:dust 0 0 0 2 ~ ~ ~ 3 3 3 100 1000",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:ash ~ ~ ~ 2 2 2 2 300",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.squid.squirt player @a[distance=..20] ~ ~ ~ 100 0.5 1",
+                "permission_level": 4
+	},
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -60
+	}
+	]
+	},
+	"cooldown": 40,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": false
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:ink_sac"
+              }
+          }
+	}
+	]
+	},
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 0
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "type": "origins:prevent_sleep",
+    "block_condition": {
+        "type": "origins:height",
+        "comparison": "<",
+        "compare_to": 70,
+        "inverted": false
+    },
+    "message": "You can only sleep above Y = 70.",
+    "set_spawn_point": false,
+    "name": "High Sleep",
+    "description": "You have to sleep above Y level 70 and higher."
+}

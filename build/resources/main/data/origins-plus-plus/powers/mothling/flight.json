@@ -1,0 +1,6 @@
+{
+	"name": "Flight",
+	"description": "You can fly using a mix of gliding and wing propulsion.",
+    "type": "origins:elytra_flight",
+    "render_elytra": true
+}

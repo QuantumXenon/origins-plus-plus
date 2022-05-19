@@ -1,0 +1,13 @@
+{
+	"type": "origins:shaking",
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:temperature",
+			"comparison": ">=",
+			"compare_to": 2,
+			"inverted": true
+		}
+	},
+	"hidden": true
+}

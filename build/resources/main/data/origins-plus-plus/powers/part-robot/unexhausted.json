@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -1
+    },
+	"name": "Unexhausted",
+	"description": "Because you are a robot you won't get exhausted or hungry at all."
+}

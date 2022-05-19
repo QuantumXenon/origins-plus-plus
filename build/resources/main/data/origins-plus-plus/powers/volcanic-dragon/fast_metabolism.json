@@ -1,0 +1,7 @@
+{
+    "name": "Fast Metabolism",
+    "description": "Hunger goes down a bit quicker.",
+    "type": "origins:exhaust",
+    "interval": 600,
+    "exhaustion": 1
+    }

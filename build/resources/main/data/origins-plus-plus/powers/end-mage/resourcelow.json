@@ -1,0 +1,18 @@
+{
+	"name": "Mana Bug",
+	"description": "Mana Bugs will teleport to you if your mana is low",
+	"type": "origins:action_over_time",
+	"entity_action": 
+	        {
+				"type": "origins:execute_command",
+                "command": "function origins-plus-plus:end-mage/bug",
+                "permission_level": 4
+			},
+			"interval": 200,
+	"condition": {
+		"type": "origins:resource",
+        "resource": "origins-plus-plus:end-mage/resource",
+        "comparison": "<",
+        "compare_to": 100
+	}
+}

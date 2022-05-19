@@ -1,0 +1,24 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+        {
+            "effect": "minecraft:water_breathing",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false,
+            "duration": 23
+        }
+      ]
+    },
+    "interval": 10,
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "name": "Water Breath",
+    "description": "You get water breathing. 1.no nose."
+}

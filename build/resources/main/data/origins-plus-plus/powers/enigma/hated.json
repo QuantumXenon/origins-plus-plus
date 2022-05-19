@@ -1,0 +1,107 @@
+{
+    "type": "origins:multiple",
+    "no_trades": {
+        "type": "origins:prevent_entity_use",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:villager"
+            }
+        }
+    },
+    "no_tame1": {
+        "type": "origins:prevent_entity_use",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:wolf"
+            }
+        }
+    },
+    "nt2": {
+        "type": "origins:prevent_entity_use",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:ocelot"
+            }
+        }
+    },
+    "nt3": {
+        "type": "origins:prevent_entity_use",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:fox"
+            }
+        }
+    },
+    "nt4": {
+        "type": "origins:prevent_entity_use",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:horse"
+            }
+        }
+    },
+    "nt5": {
+        "type": "origins:prevent_entity_use",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:cat"
+            }
+        }
+    },
+    "name": "Hated",
+    "description": "They all betray us. Villagers won't trade with us, and we can't tame anyone."
+}

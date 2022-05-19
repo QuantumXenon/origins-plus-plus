@@ -1,0 +1,46 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "gamerule showDeathMessages false"
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 200,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "summon creeper ~ ~ ~ {Fuse:0,ignited:1, ExplosionRadius:4, powered:1, Invisible:1}"
+				}
+			},
+			{
+				"type": "origins:change_resource",
+				"resource": "*:meter",
+				"change": -12000
+			}
+		]
+	},
+	"cooldown": 20,
+	"key": {
+		"key": "key.origins.secondary_active"
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:power_active",
+				"power": "origins-plus-plus:bedrockean/toggle"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "*:meter",
+				"comparison": ">=",
+				"compare_to": 12000
+			}
+		]
+	},
+	"name": "Density grow",
+	"description": "You absorb the earths energy to in crease your density, then relase it suddenly."
+}

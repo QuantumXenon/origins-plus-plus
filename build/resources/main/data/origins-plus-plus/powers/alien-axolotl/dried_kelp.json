@@ -1,0 +1,115 @@
+{
+	"name": "Finally, Some Good Freaking Food",
+	"description": "Dried Kelp gives more hunger.",
+	"type": "origins:multiple",
+	"fish_1": {
+	  "type": "origins:modify_food",
+	  "item_condition": {
+		  "type": "origins:ingredient",
+		  "ingredient": {
+			  "item": "minecraft:dried_kelp"
+		  }
+	  },
+	  "food_modifier": {
+		  "name": "Increased food points",
+		  "operation": "multiply_total",
+		  "value": 1.0
+	  },
+	  "saturation_modifier": {
+		  "name": "Increased saturation points",
+		  "operation": "multiply_total",
+		  "value": 1
+	  },
+	  "entity_action": {
+		  "type": "origins:and",
+		  "actions": [
+			  {
+				  "type": "origins:apply_effect",
+				  "effect": {
+					"effect": "minecraft:saturation",
+					"duration": 100,
+					"amplifier": 0
+					}
+			  },
+			  {
+				  "type": "origins:apply_effect",
+				  "effect": {
+					"effect": "minecraft:speed",
+					"duration": 1,
+					"amplifier": 0
+				  }
+			  },
+			  {
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					  "type": "origins:execute_command",
+					  "command": "effect clear @s minecraft:hunger"
+				  }
+				}
+		  ]
+	  }
+	},
+	"fish_2": {
+	"type": "origins:modify_food",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:dried_kelp"
+		}
+	},
+	"food_modifier": {
+		"name": "Increased food points",
+		"operation": "multiply_total",
+		"value": 1.0
+	},
+	"saturation_modifier": {
+		"name": "Increased saturation points",
+		"operation": "multiply_total",
+		"value": 1.0
+	},
+	"entity_action": {
+	  "type": "origins:delay",
+	  "ticks": 1,
+	  "action": {
+			"type": "origins:execute_command",
+			"command": "effect clear @s minecraft:hunger"
+		}
+	  }
+	},
+	"fish_3": {
+	"type": "origins:modify_food",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:dried_kelp"
+		}
+	},
+	"food_modifier": {
+		"name": "Increased food points",
+		"operation": "multiply_total",
+		"value": 1.0
+	},
+	"saturation_modifier": {
+		"name": "Increased saturation points",
+		"operation": "multiply_total",
+		"value": 1
+	},
+	"entity_action": {
+	  "type": "origins:delay",
+	  "ticks": 1,
+	  "action": {
+			"type": "origins:execute_command",
+			"command": "effect clear @s minecraft:hunger"
+		}
+	  }
+	},
+	"fish_4": {
+	"type": "origins:modify_food",
+	"entity_action": {
+	  "type": "origins:execute_command",
+	  "command": "effect clear @s minecraft:hunger"
+		}
+	},
+  "hidden": true
+  }

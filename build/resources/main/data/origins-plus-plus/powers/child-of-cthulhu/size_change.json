@@ -1,0 +1,127 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:if_else",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "origins-plus-plus:child-of-cthulhu/size_resource",
+			"comparison": "<",
+			"compare_to": 1
+		},
+		"if_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:height 0.25 @s",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:width 0.25 @s",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:motion 1.5 @s",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "scale set pehkui:health 0.5",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "effect give @s minecraft:weakness 2 0 true",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "effect give @s minecraft:mining_fatigue 2 0 true",
+					"permission_level": 4
+				}
+			]
+		},
+		"else_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:resource",
+				"resource": "origins-plus-plus:child-of-cthulhu/size_resource",
+				"comparison": ">",
+				"compare_to": 1
+			},
+			"if_action": {
+				"type": "origins:and",
+				"actions": [{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:height 2 @s",
+						"permission_level": 4
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:width 2 @s",
+						"permission_level": 4
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:motion 1 @s",
+						"permission_level": 4
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "effect give @s minecraft:resistance 2 0 true",
+						"permission_level": 4
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "effect give @s minecraft:strength 2 0 true",
+						"permission_level": 4
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:health 1.5",
+						"permission_level": 4
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "effect give @s minecraft:haste 2 0 true",
+						"permission_level": 4
+					}
+
+				]
+			},
+			"else_action": {
+				"type": "origins:and",
+				"actions": [{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:height 1.00 @s",
+						"permission_level": 4
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:width 1.00 @s",
+						"permission_level": 4
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:motion 1.00 @s",
+						"permission_level": 4
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:health 1",
+						"permission_level": 4
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "effect give @s minecraft:jump_boost 2 0 true",
+						"permission_level": 4
+					}
+				]
+			}
+		}
+	},
+	"interval": 20,
+	"name": "Morphing",
+	"description": "You can switch between Small, Normal and Large size. [Primary]"
+}

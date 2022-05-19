@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"origins-plus-plus:mouse/a_mouses_lifespan",
+		"origins-plus-plus:mouse/little_jump",
+		"origins-plus-plus:mouse/mischievous",
+		"origins-plus-plus:mouse/mob_ally",
+		"origins-plus-plus:mouse/motion",
+		"origins-plus-plus:mouse/mouse_sized",
+		"origins-plus-plus:mouse/reach",
+		"origins-plus-plus:mouse/ride",
+		"origins-plus-plus:mouse/yoink"
+	],
+	"icon": "minecraft:beef",
+	"order": 10,
+	"impact": 3,
+	"name": "Mouse",
+	"description": "A small scavenger."
+}

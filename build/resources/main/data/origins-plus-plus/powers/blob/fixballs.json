@@ -1,0 +1,11 @@
+{
+    "type": "origins:action_over_time",
+	"description": "If there are a lot of dragon fireballs on unloaded chunk this is a fix for that.",
+    "entity_action": {
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "kill @e[type=minecraft:dragon_fireball]"
+			},
+    "interval": 2400,
+    "hidden": true
+}

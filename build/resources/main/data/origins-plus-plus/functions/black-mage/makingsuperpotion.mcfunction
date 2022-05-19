@@ -1,0 +1,2 @@
+clear @s minecraft:dragon_breath 1
+give @s minecraft:potion{tag:superempty,display:{Name:'[{"text":"Super Mana Potion","italic":false,"color":"dark_purple"}]',Lore:['[{"text":"250 Mana.","italic":false}]']}} 1

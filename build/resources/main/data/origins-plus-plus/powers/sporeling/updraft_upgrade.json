@@ -1,0 +1,16 @@
+{
+  "type": "origins:launch",
+  "cooldown": 80,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 4
+  },
+  "sound": "entity.pig.saddle",
+  "speed": 2,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "name":"Updraft+",
+  "description":"Primary Ability: Blast more spores into your cap to launch you higher upwards. 4 second cooldown."
+}

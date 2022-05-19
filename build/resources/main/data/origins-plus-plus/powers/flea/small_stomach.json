@@ -1,0 +1,9 @@
+{
+	"type": "origins:modify_exhaustion",
+	"modifier": {
+		"operation": "multiply_base",
+		"value": 1.5
+	},
+	"name": "Smallest Stomach",
+	"description": "You do not need much food to keep going."
+}

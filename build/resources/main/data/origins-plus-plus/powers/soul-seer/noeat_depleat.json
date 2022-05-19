@@ -1,0 +1,16 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+    "type": "origins:change_resource",
+    "resource": "origins-plus-plus:soul-seer/noeat_source",
+    "change": -6
+	},
+	"interval": 20,
+	"condition": {
+    "type": "origins:health",
+    "comparison": "<",
+    "compare_to": 1
+},
+"name": "Combustive Eatting",
+"description": "You are unable to eat the physical food like those with flesh."
+}

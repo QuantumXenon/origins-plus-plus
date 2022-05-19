@@ -1,0 +1,25 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:nausea",
+            "duration": 200,
+            "amplifier": 2
+        }
+    },
+    "interval": 40,
+    "condition": {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:crimson_fungus"
+        },
+        "radius": 5,
+        "shape": "cube",
+        "comparison": ">",
+        "compare_to": 1
+    },
+    "hidden": true,
+    "name": "Fungal Enemy Crimson"
+}

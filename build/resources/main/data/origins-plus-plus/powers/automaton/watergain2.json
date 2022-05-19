@@ -1,0 +1,21 @@
+{
+	"type": "origins:action_on_item_use",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "resource change @s origins-plus-plus:automaton/waterbar 1250"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:item.bucket.empty voice @a ~ ~ ~ 2 0.75",
+				"permission_level": 4
+			}
+		]
+	},
+	"item_condition": {
+		"type": "origins:nbt",
+		"nbt": "{Potion:\"minecraft:water\"}"
+	},
+	"hidden": true
+}

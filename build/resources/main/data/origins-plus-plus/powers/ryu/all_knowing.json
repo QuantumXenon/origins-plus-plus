@@ -1,0 +1,29 @@
+{
+	"type":"origins:active_self",
+	"key":{
+	   "key":"key.origins.secondary_active"
+	},
+	"cooldown":300,
+	"hud_render":{
+	   "should_render":true,
+	   "sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+	   "bar_index":14
+	},
+	"entity_action":{
+	   "type":"origins:and",
+	   "actions":[
+		  {
+			 "type":"origins:execute_command",
+			 "command":"effect give @e[distance=1..25] glowing 15 10 true",
+			 "permission_level":4
+		  },
+		  {
+			"type":"origins:execute_command",
+			"command":"particle minecraft:crit ~ ~ ~ 1 1 1 0.15 15",
+			"permission_level":4
+		 }
+	   ]
+	},
+	"name":"All Knowing",
+	"description":"Because you are a dragon, you have better vision. You can see mobs within a 25-block radius for 15 seconds [Secondary]"
+}

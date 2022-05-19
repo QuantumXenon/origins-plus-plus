@@ -1,0 +1,8 @@
+{
+  "name": "Arachno-Immunity",
+  "description": "Your body does not react to poison as it is immune to it.",
+  "type": "origins:effect_immunity",
+  "effects": [
+      "minecraft:poison"
+  ]
+}

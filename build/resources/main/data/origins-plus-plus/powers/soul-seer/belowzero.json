@@ -1,0 +1,30 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 2,
+	"duration_per_stack": 25,
+	"effects": [
+		{
+			"effect": "minecraft:wither",
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:hunger",
+			"amplifier": 5,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false
+		}
+	],
+	"condition": {
+    "type": "origins:resource",
+	"resource": "origins-plus-plus:soul-seer/soulsource",
+	"comparison": "<=",
+	"compare_to": 5
+},
+"name": "Empty Well",
+"description": "When your Soul Well drops below 25% you will be exhausted and require food quicker then normal. If you drop to 0% you will begin to die due to being a empty husk."
+}
+	

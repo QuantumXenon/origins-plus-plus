@@ -1,0 +1,51 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Relatives",
+    "description": "Other pillagers are passive towards you because you are a relative to them.",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team add illager"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join illager @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join illager @e[type=minecraft:vex]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join illager @e[type=minecraft:witch]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join illager @e[type=minecraft:vindicator]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join illager @e[type=minecraft:pillager]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join illager @e[type=minecraft:evoker]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join illager @e[type=minecraft:ravager]"
+            }
+        ]
+    }
+}

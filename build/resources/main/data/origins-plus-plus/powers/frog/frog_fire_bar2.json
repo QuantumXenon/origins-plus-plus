@@ -1,0 +1,23 @@
+{
+	"hidden":true,
+	"type": "origins:action_over_time",
+	"entity_action": {
+		
+		"type": "origins:change_resource",
+		"resource": "origins-plus-plus:frog/frog_fire_bar1",
+		"change": 1
+				
+				},
+	"interval": 50,
+	"condition": {
+	
+		"type": "origins:exposed_to_sun"
+		
+			},
+	"cooldown": 1,
+	"hud_render": {
+	
+        "should_render": false
+    			
+    			}
+}

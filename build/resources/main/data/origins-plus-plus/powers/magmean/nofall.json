@@ -1,0 +1,18 @@
+{
+    "name": "Flexible",
+    "description": "Kinetic damage is absorbed by your gelatinous form and does no harm to you.",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:name",
+                "name": "fall"
+            },
+            {
+                "type": "origins:name",
+                "name": "flyIntoWall"
+            }
+        ]
+    }
+}

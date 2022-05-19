@@ -1,0 +1,26 @@
+{
+    "name": "§9§nWet Eyes",
+    "description": "§9You can see slightly better underwater.",
+    "type": "origins:toggle_night_vision",
+    "strength": 0.7,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+      "type": "origins:submerged_in",
+      "fluid": "minecraft:water"
+            },
+            {
+        "type": "origins:resource",
+        "resource": "origins-plus-plus:shifter/shift_bar",
+        "comparison": "==",
+        "compare_to": 7
+             }
+        ]
+    },
+    "active_by_default": true,
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+    }
+  }

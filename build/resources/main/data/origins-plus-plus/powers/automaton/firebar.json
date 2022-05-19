@@ -1,0 +1,13 @@
+{
+  "type": "origins:resource",
+  "min": 0,
+  "max": 10000,
+  "start_value": 5000,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 7
+  },
+  "name": "Steam Machine",
+  "description": "You have both a fire and water bar. Make sure to watch these carefully!"
+}

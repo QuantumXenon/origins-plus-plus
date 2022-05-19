@@ -1,0 +1,36 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Friendly Kinship",
+    "description": "Zombies, Skeletons, and Creepers are all your allies and will not attack you.",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team add rat"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join rat @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join rat @e[type=minecraft:zombie]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join rat @e[type=minecraft:skeleton]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join rat @e[type=minecraft:creeper]"
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"type": "origins:prevent_death",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "resource change @s origins-plus-plus:automaton/waterbar -750"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "resource change @s origins-plus-plus:automaton/firebar -750"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:smoke ~ ~ ~ 0.5 1 0.5 0 10"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:entity.cat.hiss voice @a ~ ~ ~ 0.25 2"
+			}
+		]
+	},
+	"name": "Deathless",
+	"description": "You do not die, but you will still power down when too low on steam."
+}

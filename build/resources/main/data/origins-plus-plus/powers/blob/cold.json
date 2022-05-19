@@ -1,0 +1,29 @@
+{
+	"name": "Frozen Feet",
+	"description": "Now when in cold biomes, you'll gain speed, because your blob like skin freezes to become a lot more stable to walk with.",
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 5,
+	"duration_per_stack": 100,
+	"tick_rate": 10,
+	"effect": {
+		"effect": "minecraft:speed",
+		"duration": 10,
+		"amplifier": 1,
+		"show_particles": false,
+		"show_icon": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:biome",
+			"condition": {
+			  "type": "origins:temperature",
+			  "comparison": "<",
+			  "compare_to": 0.15
+			}
+		}
+		]
+	}
+}

@@ -1,0 +1,36 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 2,
+    "max_stacks": 2,
+    "duration_per_stack": 10,
+    "effects": [
+        {
+            "effect": "minecraft:levitation",
+            "is_ambient": true,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ],
+    "condition": {
+    "type": "origins:and",
+    "conditions": [
+    {
+      "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:feather"
+                }
+            }
+    },
+    {
+      "type": "origins:sneaking",
+      "inverted": true
+    }
+  ]
+},
+    "name": "Flight...well kinda",
+    "description": "When holding a feather you gain levitation"
+}

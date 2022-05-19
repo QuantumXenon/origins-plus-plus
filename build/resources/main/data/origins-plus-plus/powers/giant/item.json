@@ -1,0 +1,36 @@
+{
+	"type": "origins:multiple",
+	"name": "Cumbersome",
+	"description": "Your size leaves you unaffected by levitation, but incapable of using an elytra or riptide trident",
+	"riptide_no": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:enchantment",
+			"enchantment": "minecraft:riptide",
+			"comparison": ">",
+			"compare_to": 0
+		}
+	},
+	"elytra_no_prevent": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:elytra"
+			}
+		}
+	},
+	"elytra_no_resrict": {
+		"type": "origins:restrict_armor",
+		"chest": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:elytra"
+			}
+		}
+	},
+	"levitation_no": {
+		"type": "origins:effect_immunity",
+		"effect": "minecraft:levitation"
+	}
+}

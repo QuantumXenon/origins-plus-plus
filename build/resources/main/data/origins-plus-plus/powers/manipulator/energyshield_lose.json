@@ -1,0 +1,16 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "origins-plus-plus:manipulator/energysheilddddd"
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "scoreboard players operation @s[scores={ManipCycle=5,ManipEnShield=1..}] ManipEnShield -= @s ManipDummy"
+    },
+    "cooldown": 1000,
+    "hud_render": {
+        "should_render": false
+    }
+}

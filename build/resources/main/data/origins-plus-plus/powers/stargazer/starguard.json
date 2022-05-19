@@ -1,0 +1,22 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:resistance 5 1 true"
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+
+            "type": "origins:ingredient",
+            "ingredient": {
+
+                "item": "minecraft:nether_star"
+            }
+        }
+    },
+    "name": "Starguard",
+    "description": "When holding a Nether Star, you gain Resistance II."
+}

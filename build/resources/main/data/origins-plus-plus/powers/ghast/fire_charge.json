@@ -1,0 +1,16 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:fireball",
+	"speed": 0.2,
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "minecraft:the_nether"
+	},
+	"cooldown": 100,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 7
+	},
+	"name": "Fire Charge",
+	"description": "You're able to shoot a fireball every minute. The cooldown is drastically reduced in the nether."
+}

@@ -1,0 +1,14 @@
+{
+	"type": "origins:invulnerability",
+	"damage_condition": {
+		"type": "origins:projectile",
+		"name": "projectile_immunity"
+
+	},
+	"condition": {
+		"type": "origins:health",
+		"comparison": "<=",
+		"compare_to": 10
+	},
+	"hidden": true
+}

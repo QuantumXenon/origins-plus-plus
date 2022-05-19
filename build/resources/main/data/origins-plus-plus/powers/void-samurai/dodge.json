@@ -1,0 +1,148 @@
+{
+    "name": "Intangible",
+    "description": "Automatically dodges the first attack you receive (with a cooldown).",
+    "type": "origins:multiple",
+    "0dmg": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "cramming"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "cactus"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "magic"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "generic"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "anvil"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "fallingBlock"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "sweetBerryBush"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "sting"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "mob"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "player"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "arrow"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "trident"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "indirectMagic"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "fireworks"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "witherSkull"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "thrown"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "explosion.player"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "explosion"
+                }
+            ]
+        },
+        "self_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle poof ~ ~1 ~ 0 0 0 0.1 50",
+                    "permission_level": 5
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.wither.ambient",
+                    "pitch": 4
+                },
+                {
+                    "type": "origins:add_velocity",
+                    "y": 1,
+                    "set": true
+                },
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "*:*_cooldown"
+                }
+            ]
+        }
+    },
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 300,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 6
+        }
+    },
+    "invis": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": "<",
+                    "compare_to": 300
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": ">",
+                    "compare_to": 288
+                }
+            ]
+        }
+    }
+}

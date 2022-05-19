@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_exhaustion",
+    "name": "Unstable Soul",
+    "description": "Because your body is half-wither, your Soul needs more energy to stay stable.",
+    "hidden": false,
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 1.02
+    }
+}

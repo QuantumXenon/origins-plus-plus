@@ -1,0 +1,134 @@
+{
+    "name":"From Beyond The Grave",
+    "description":"Your inherent ability to perform necromancy allows you to call forth an armored skeleton, and an armored zombie, from beyond the grave to fight along your side. [Load Toolbar Activator]",
+    "type":"origins:multiple",
+    "summon":{
+       "type":"origins:active_self",
+       "key":{
+          "key":"key.loadToolbarActivator"
+       },
+       "entity_action":{
+          "type":"origins:and",
+          "actions":[
+             {
+                "type":"origins:execute_command",
+                "command":"summon skeleton ^2 ^ ^ {Tags:[\"sfriend\"],HandItems:[{Count:1,id:bow,tag:{Enchantments:[{id:vanishing_curse,lvl:1}]}},{}],ArmorItems:[{Count:1,id:iron_boots,tag:{Enchantments:[{id:vanishing_curse,lvl:1}]}},{Count:1,id:iron_leggings,tag:{Enchantments:[{id:vanishing_curse,lvl:1}]}},{Count:1,id:iron_chestplate,tag:{Enchantments:[{id:vanishing_curse,lvl:1}]}},{Count:1,id:iron_helmet,tag:{Enchantments:[{id:vanishing_curse,lvl:1}]}}]}"
+             },
+             {
+                "type":"origins:execute_command",
+                "command":"summon zombie ^-2 ^ ^ {Tags:[\"sfriend\"],ArmorItems:[{Count:1,id:iron_boots,tag:{Enchantments:[{id:vanishing_curse,lvl:1}]}},{Count:1,id:iron_leggings,tag:{Enchantments:[{id:vanishing_curse,lvl:1}]}},{Count:1,id:iron_chestplate,tag:{Enchantments:[{id:vanishing_curse,lvl:1}]}},{Count:1,id:iron_helmet,tag:{Enchantments:[{id:vanishing_curse,lvl:1}]}}]}"
+             },
+             {
+                "type":"origins:execute_command",
+                "command":"playsound entity.evoker.cast_spell ambient @p ~ ~ ~"
+             }
+          ]
+       },
+       "cooldown":1000,
+       "hud_render":{
+          "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+          "bar_index":17
+       }
+    },
+    "create_team":{
+       "type":"origins:action_on_callback",
+       "execute_chosen_when_orb":true,
+       "entity_action_added":{
+          "type":"origins:execute_command",
+          "permission_level":4,
+          "command":"team add fight"
+       },
+       "entity_action_removed":{
+          "type":"origins:execute_command",
+          "permission_level":4,
+          "command":"team leave @s"
+       }
+    },
+    "join_team":{
+       "type":"origins:action_over_time",
+       "interval":20,
+       "entity_action":{
+          "type":"origins:and",
+          "actions":[
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"team join fight @s"
+             },
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"team join fight @e[tag=sfriend,distance=..64]"
+             }
+          ]
+       }
+    },
+    "target":{
+       "type":"origins:target_action_on_hit",
+       "cooldown":1,
+       "entity_action":{
+          "type":"origins:and",
+          "actions":[
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"tag @s add self"
+             },
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"execute at @e[type=!player,team=fight,distance=..64] run summon snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
+             },
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
+             },
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"tag @s remove self"
+             },
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"tag @e remove aggro.init"
+             }
+          ]
+       }
+    },
+    "attacker":{
+       "type":"origins:attacker_action_when_hit",
+       "cooldown":1,
+       "entity_action":{
+          "type":"origins:and",
+          "actions":[
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"tag @s add self"
+             },
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"execute at @e[type=!player,team=fight,distance=..64] run summon snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
+             },
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
+             },
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"tag @s remove self"
+             },
+             {
+                "type":"origins:execute_command",
+                "permission_level":4,
+                "command":"tag @e remove aggro.init"
+             }
+          ]
+       }
+    }
+}

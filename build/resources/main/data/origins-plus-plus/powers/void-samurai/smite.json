@@ -1,0 +1,10 @@
+{
+    "type": "origins:target_action_on_hit",
+    "hidden": false,
+	"name":"Purify",
+	"description":"Your attacks link your target to the void, cleansing them of impurities",
+    "cooldown": 0,
+    "entity_action": {
+       "type": "origins:clear_effect"
+    }
+}

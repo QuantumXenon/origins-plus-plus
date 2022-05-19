@@ -1,0 +1,12 @@
+{
+    "name": "Bowmaster",
+    "description": "You do extra damage with projectiles.",
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+        "type": "origins:projectile"
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 1.4
+    }
+}

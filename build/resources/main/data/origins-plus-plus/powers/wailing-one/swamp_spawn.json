@@ -1,0 +1,8 @@
+{
+	"name": "Swamp Spawn",
+	"description": "You spawn in a swamp.",
+	"type": "origins:modify_player_spawn",
+	"dimension": "minecraft:overworld",
+	"biome": "swamp",
+	"spawn_strategy": "default"
+  }

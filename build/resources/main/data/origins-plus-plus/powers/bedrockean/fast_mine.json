@@ -1,0 +1,9 @@
+{
+  "type" : "origins:modify_break_speed",
+  "modifier" : {
+   "operation" : "multiply_base",
+   "value" : 2
+  }, 
+ "name" : "Miner",
+ "description" : "You were built to mine so you mine faster."
+}

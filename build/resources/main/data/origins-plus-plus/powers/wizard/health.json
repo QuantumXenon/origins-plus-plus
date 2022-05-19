@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 8.0,
+      "operation": "addition"
+    },
+    "name":"Healthy?",
+    "description":"The extra magic in your body goes to your health."
+  }

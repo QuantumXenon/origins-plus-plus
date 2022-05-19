@@ -1,0 +1,18 @@
+{
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+        "type": "origins:chance",
+        "action": {
+            "type": "origins:equipped_item_action",
+            "equipment_slot": "mainhand",
+            "action": {
+                "type": "origins:damage",
+                "amount": -1
+            }
+        },
+        "chance": 0.33
+    },
+    "cooldown": 1,
+    "name": "Weapon Expert",
+    "description": "On-hit, instantly restore 1 durability of your weapon at a 33% chance unless the weapon is 1 hit away from breaking."
+}

@@ -1,0 +1,17 @@
+{
+    "type": "origins:multiple",
+    "name": "Shadow",
+	"description": "In low light conditions, you become invisible, but moonlight and sunlight expose you.",
+"invis":{
+    "type": "origins:invisibility",
+    "render_armor": false,
+     "condition": {
+        "type": "origins:in_block",
+        "block_condition": {
+            "type": "origins:light_level",
+            "comparison": "<=",
+            "compare_to": 7
+        }
+    }
+}
+}

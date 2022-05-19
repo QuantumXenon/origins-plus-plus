@@ -1,0 +1,30 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+		"operation": "multiply_total",
+		"value": 4
+	},
+	"damage_condition":{
+		"type": "origins:or",
+		"conditions": [
+		{
+			"type": "origins:name",
+			"name": "inFire"
+		},
+				{
+			"type": "origins:name",
+			"name": "onFire"
+		},
+				{
+			"type": "origins:name",
+			"name": "inLava"
+		},
+				{
+			"type": "origins:name",
+			"name": "hotfloor"
+		}
+		]
+	},
+	"name": "Fragile Flame",
+	"description": "You take more fire and lava damage."
+}

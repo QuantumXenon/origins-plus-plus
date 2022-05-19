@@ -1,0 +1,15 @@
+{
+  "name": "Prickly",
+  "description": "You have natural thorns.",
+    "type": "origins:attacker_action_when_hit",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 2,
+            "source": {
+            "name": "thorns",
+            "fire": false,
+            "bypasses_armor": true
+        }
+    },
+    "cooldown": 67
+}
