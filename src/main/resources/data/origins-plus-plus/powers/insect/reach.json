@@ -4,17 +4,17 @@
 	"execute_chosen_when_orb":true,
 	"entity_action_chosen":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:reach 1.775 @s",
+		"command":"scale set pehkui:reach 1.7 @s",
 		"permission_level":4
 	},
 	"entity_action_respawned":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:reach 1.775 @s",
+		"command":"scale set pehkui:reach 1.7 @s",
 		"permission_level":4
 	},
 	"entity_action_lost":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:reach 1.775 @s",
+		"command":"scale set pehkui:reach 1.7 @s",
 		"permission_level":4
 	}
 }
