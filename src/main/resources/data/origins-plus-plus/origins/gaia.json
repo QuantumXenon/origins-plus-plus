@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:gaia/floral_superiority",
 		"origins-plus-plus:gaia/floralteaming",
 		"origins-plus-plus:gaia/floralteamingabsorb",
@@ -27,13 +27,14 @@
 		"origins-plus-plus:gaia/photosynthesis",
 		"origins-plus-plus:gaia/plant_based",
 		"origins-plus-plus:gaia/prickly",
+		"origins-plus-plus:gaia/reach",
 		"origins-plus-plus:gaia/rose_sized",
 		"origins-plus-plus:gaia/thorned_punch",
 		"origins-plus-plus:gaia/updraft"
 	],
-	"icon": "minecraft:poppy",
-	"order": 10,
-	"impact": 2,
-	"name": "Gaia",
-	"description": "You are the mother of all nature, a God of Earth with a passion for the flowers you've created."
+	"icon":"minecraft:poppy",
+	"order":10,
+	"impact":2,
+	"name":"Gaia",
+	"description":"You are the mother of all nature, a God of Earth with a passion for the flowers you've created."
 }

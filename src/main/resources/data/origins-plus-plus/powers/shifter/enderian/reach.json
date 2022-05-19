@@ -1,24 +1,21 @@
 {
-    "name": "§5§nSlender Body",
+    "type":"origins:action_on_callback",
+	"name": "§5§nSlender Body",
     "description": "§5You can reach blocks and entities slightly further away.",
-    "type": "origins:conditioned_attribute",
-    "modifiers": [
-      {
-        "attribute": "reach-entity-attributes:reach",
-        "value": 0.75,
-        "operation": "addition"
-      },
-      {
-        "attribute": "reach-entity-attributes:attack_range",
-        "value": 0.75,
-        "operation": "addition"
-      }
-    ],
-    "tick_rate": 20,
-    "condition":{
-		"type": "origins:resource",
-		"resource": "origins-plus-plus:shifter/shift_bar",
-		"comparison": "==",
-		"compare_to": 6
+	"execute_chosen_when_orb":true,
+	"entity_action_chosen":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:reach 1.1875 @s",
+		"permission_level":4
+	},
+	"entity_action_respawned":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:reach 1.1875 @s",
+		"permission_level":4
+	},
+	"entity_action_lost":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:reach 1.1875 @s",
+		"permission_level":4
 	}
-  }
+}

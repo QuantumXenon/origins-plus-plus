@@ -28,25 +28,9 @@
 	},
 	"attribute_modifiers": {
 		"type": "origins:attribute",
-		"modifiers": [
-			{
-				"name": "Origin modifier",
-				"attribute": "minecraft:generic.movement_speed",
-				"operation": "addition",
-				"value": -0.015
-			},
-			{
-				"name": "Origin modifier",
-				"attribute": "reach-entity-attributes:attack_range",
-				"operation": "multiply_total",
-				"value": 0.9
-			},
-			{
-				"name": "Origin modifier",
-				"attribute": "reach-entity-attributes:reach",
-				"operation": "multiply_total",
-				"value": 0.9
-			}
-		]
+		"name": "Origin modifier",
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "addition",
+		"value": -0.015
 	}
 }

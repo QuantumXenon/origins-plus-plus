@@ -10,11 +10,6 @@
 			"attribute": "generic.movement_speed",
 			"operation": "addition",
 			"value": -0.05
-		},
-		{
-			"attribute": "reach-entity-attributes:attack_range",
-			"operation": "addition",
-			"value": -1
 		}
 	],
 	"name": "Dense",
