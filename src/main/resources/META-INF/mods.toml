@@ -1,34 +1,32 @@
-# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
-modLoader="javafml" #mandatory
+# The name of the mod loader type to load (#mandatory)
+modLoader="javafml"
 
-# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
-loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+# A version range to match for said mod loader (#mandatory)
+loaderVersion="[39,)"
 
-# The license for your mod. This is mandatory and allows for easier comprehension of your redistributive properties.
-license="MIT" #mandatory
+# The license for your mod (#mandatory)
+license="MIT"
 
-# A list of mods - how many allowed here is determined by the individual mod loader
-[[mods]] #mandatory
+# A list of mods (#mandatory)
+[[mods]] 
 
-# The modId of the mod
-modId="origins_plus_plus" #mandatory
+# The modId of the mod (#mandatory)
+modId="origins_plus_plus"
 
-# The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
-version="1.5.3" #mandatory
+# The version number of the mod (#mandatory)
+version="1.5.3"
 
- # A display name for the mod
-displayName="Origins++" #mandatory
+ # A display name for the mod (#mandatory)
+displayName="Origins++"
 
-# An icon for the mod
-logoFile="icon.png"
-
-# The description text for the mod {#mandatory)
+# The description text for the mod (#mandatory)
 description='A collection of 110+ origins'
 
 displayURL="https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus"
 issueTrackerURL="https://github.com/QuantumXenon/origins-plus-plus/issues"
 authors="TheQuantumXenon"
 credits="Credit goes to original authors (see CurseForge description)"
+logoFile="icon.png"
 
 [[dependencies.origins_plus_plus]]
     modId="minecraft"
