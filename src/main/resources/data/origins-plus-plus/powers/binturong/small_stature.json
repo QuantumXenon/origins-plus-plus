@@ -1,6 +1,6 @@
 {
 	"name": "All Paws",
-	"description": "On all four legs (Crouching), these animals are smaller",
+	"description": "On all four legs (when crouching), these animals are smaller",
 		"type": "origins:action_on_callback",
 		"execute_chosen_when_orb": true,
 		"entity_action_chosen": {
