@@ -1,7 +1,0 @@
-{
-    "type": "origins:modify_player_spawn",
-    "dimension": "minecraft:overworld",
-    "biome": "minecraft:jungle",
-    "name": "Jungle Native",
-    "description": "Binturongs homeland is the jungle, therefor they spawn in one."
-  }

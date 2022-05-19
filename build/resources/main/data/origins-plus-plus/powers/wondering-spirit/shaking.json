@@ -1,9 +1,0 @@
-{
-    "name": "Shaking",
-    "description": "You are always shaking. The thought of the approaching night always on your mind.",
-    "type": "origins:shaking",
-    "condition": {
-        "type": "origins:on_fire",
-      "inverted": true
-    }
-}

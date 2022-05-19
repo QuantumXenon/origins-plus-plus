@@ -1,8 +1,0 @@
-{
-  "type": "origins:invulnerability",
-  "damage_condition": {
-    "type": "origins:fire"
-  },
-  "name": "Heat Resistance",
-  "description": "Your time in the hot desert has made you immune to fire."
-}

@@ -1,7 +1,0 @@
-{
-    "name": "walk",
-    "description": "walk",
-    "hidden": true,
-    "type": "origins:walk_on_fluid",
-    "fluid": "minecraft:water"
-}

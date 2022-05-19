@@ -1,5 +1,0 @@
-{
-    "type": "origins:disable_regen",
-	"name": "No regen",
-	"description": "You will not regenerate any health until you get a regeneration effect."
-}

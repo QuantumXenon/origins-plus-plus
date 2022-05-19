@@ -1,9 +1,0 @@
-{
-    "type": "origins:night_vision",
-    "strength": 0.4,
-    "condition": {
-      "type": "origins:power_active",
-      "power": "origins-plus-plus:stargazer/starlight_mode"
-  },
-  "hidden": true
-}

@@ -1,9 +1,0 @@
-{
-  "type": "origins:action_over_time",
-  "entity_action": {
-      "type": "origins:execute_command",
-      "command": "particle minecraft:item_snowball ~ ~ ~ 1 1 1 0.15 15"
-  },
-  "interval": 10,
-  "hidden": true
-}

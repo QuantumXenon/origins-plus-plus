@@ -1,8 +1,0 @@
-{
-    "type": "origins:prevent_item_use",
-    "item_condition":{
-        "type": "origins:food"
-    },
-    "name": "Internal Furnace",
-    "description": "Your body cannot digest any kind of food, only absorb lava."
-}

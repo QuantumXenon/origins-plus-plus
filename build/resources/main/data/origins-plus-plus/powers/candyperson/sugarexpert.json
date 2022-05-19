@@ -1,9 +1,0 @@
-{
-    "type": "origins:invulnerability",
-    "damage_condition": {
-        "type": "origins:name",
-        "name": "sweetBerryBush"
-    },
-    "name": "Sugar Expert",
-    "description": "No bush damage"
-}

@@ -1,9 +1,0 @@
-{
-    "hidden": true,
-    "type": "origins:action_over_time",
-    "interval": 1,
-    "entity_action": {
-        "type": "origins:execute_command",
-        "command": "title @s[scores={ManipCycle=5}] actionbar [\"\",{\"text\":\"Energy Shield\",\"color\":\"dark_blue\"},{\"text\":\": \",\"color\":\"gray\"},{\"score\":{\"name\":\"@s\",\"objective\":\"ManipEnShield\"},\"color\":\"red\"}]"
-    }
-}

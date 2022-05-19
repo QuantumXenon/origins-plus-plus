@@ -1,8 +1,0 @@
-{
-	"type": "origins:modify_player_spawn",
-	"dimension": "minecraft:overworld",
-	"biome": "minecraft:snowy_tundra",
-	"spawn_strategy": "default",
-	"name": "Snow Spawn",
-	"description": "Since you're made of ice you spawn in a snow biome"
-}

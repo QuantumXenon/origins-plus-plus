@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: origins_plus_plus
-Specification-Vendor: TheQuantumXenon
-Specification-Version: 1
-Implementation-Title: origins-plus-plus
-Implementation-Version: 1.5.3
-Implementation-Vendor: TheQuantumXenon
-Implementation-Timestamp: 2022-05-19T20:44:10+0100
-

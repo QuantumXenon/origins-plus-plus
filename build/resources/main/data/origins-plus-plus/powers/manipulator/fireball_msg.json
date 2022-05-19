@@ -1,9 +1,0 @@
-{
-    "hidden": true,
-    "type": "origins:action_over_time",
-    "interval": 1,
-    "entity_action": {
-        "type": "origins:execute_command",
-        "command": "title @s[scores={ManipCycle=8}] actionbar [\"\",{\"text\":\"Fireballs\",\"color\":\"gold\"},{\"text\":\": \",\"color\":\"gray\"},{\"score\":{\"name\":\"@s\",\"objective\":\"ManipBxllz\"},\"color\":\"red\"}]"
-    }
-}

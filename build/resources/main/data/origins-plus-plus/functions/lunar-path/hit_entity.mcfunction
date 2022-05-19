@@ -1,5 +1,0 @@
-scoreboard objectives add food dummy
-scoreboard players set #hit Lunar_Path 1
-summon firework_rocket ~ ~ ~ {Silent:1b,LifeTime:0,Motion:[0.0,0.0,0.0],FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:4,Colors:[I;2366492,0,1771271,1772813,786946,526344,3550766,919046,1118224],FadeColors:[I;2425860,1704450,2236705,0,328194,786946,918018,655874,2696742,2366749]},{Type:4,Colors:[I;1710361,1447189,1311234,983554,787717,918275,918018,984068,920331,920331],FadeColors:[I;1118224,986895,789516,526344,1315860,1775640,2235677,16777215,2695714,2827043]},{Type:4,Colors:[I;2234906,3815994,1114883,1709076,1707020,1442820,1443591,787717,1775383],FadeColors:[I;1115654,918532,1115911,1709847,1315346,657159,1248011,986638,1577490,1115654]}]}}}}
-summon area_effect_cloud ~ ~ ~ {NoGravity:1b,Particle:mobSpell,Radius:0.8f,RadiusOnUse:0.8f,Duration:20,Color:463123,Effects:[{Id:20,Amplifier:0,Duration:100,ShowParticles:0b}]}
-playsound minecraft:block.chain.place player @s ~ ~ ~ 30 0.3

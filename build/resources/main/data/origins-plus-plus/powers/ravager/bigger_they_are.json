@@ -1,9 +1,0 @@
-{
-    "name": "The Bigger They Are",
-    "description": "You take more 50% kinetic damage due to your weight.",
-    "type": "origins:modify_damage_taken",
-    "modifier": {
-        "value": 0.5,
-        "operation": "multiply_base"
-    }
-}
