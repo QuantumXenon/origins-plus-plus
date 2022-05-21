@@ -4,7 +4,7 @@
     "green": 0.3, 
     "blue": 0.3, 
     "alpha": 1,
-    "hidden":"true",
+    "hidden":true,
     "condition":{
 		"type": "origins:resource",
 		"resource": "origins-plus-plus:shifter/shift_bar",

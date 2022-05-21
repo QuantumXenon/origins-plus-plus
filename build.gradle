@@ -13,17 +13,18 @@ buildscript {
 apply plugin: 'eclipse'
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: "org.spongepowered.mixin"
-
-// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
-version = '1.5.3'
-group = 'com.quantumxenon.origins_plus_plus'
-archivesBaseName = 'origins-plus-plus'
-
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
+//---------------------------------------------
+version = '1.5.3'
+group = 'com.quantumxenon.origins_plus_plus'
+archivesBaseName = 'origins-plus-plus'
+//---------------------------------------------
+
 minecraft {
     mappings channel: 'official', version: '1.18.2'
+
     runs {
         client {
             workingDirectory project.file('run')
@@ -54,18 +55,9 @@ minecraft {
 }
 
 repositories {
-    maven {
-        url "https://cursemaven.com"
-        content {
-            includeGroup "curse.maven"
-        }
-    }
-    maven {
-        url = "https://jitpack.io"
-    }
-    maven {
-        url = "https://maven.theillusivec4.top"
-    }
+    maven { url = "https://cursemaven.com" }
+    maven { url = "https://jitpack.io" }
+    maven { url = "https://maven.theillusivec4.top" }
 }
 
 dependencies {

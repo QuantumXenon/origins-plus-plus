@@ -1,9 +1,9 @@
 {
     "name": "Materialize",
-    "description": "[Primary] Summon an arrow out of thin air. 3 second cooldown.",
+    "description": "[Primary] Summon an arrow out of thin air.",
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:arrow",
-    "cooldown": 60,
+    "cooldown": 140,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",

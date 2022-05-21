@@ -1,6 +1,6 @@
 {
 	"name": "Gift of Flight",
-	"description": "Every 20 seconds you can launch yourself 20 blocks into the air by pressing your active power key",
+	"description": "Every 20 seconds you can launch yourself 20 blocks into the air.",
 	"type": "origins:launch",
 	"cooldown": 400,
 	"hud_render": {

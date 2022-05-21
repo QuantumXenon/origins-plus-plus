@@ -2,9 +2,9 @@
   "type": "origins:fire_projectile",
 
   "entity_type": "minecraft:wither_skull",
-  "count": "1",
-  "speed": "1.5",
-  "divergence": "1.0",
+  "count": 1,
+  "speed": 1.5,
+  "divergence": 1.0,
 
   "cooldown": 600,
   "hud_render": {
@@ -15,5 +15,5 @@
 
   "key": "secondary",
   "name": "Wither Skull",
-  "description": "Every 30 seconds you can shoot a wither skull. Courtesy of you wither heritage"
+  "description": "Every 30 seconds you can shoot a wither skull (courtesy of you wither heritage)."
 }

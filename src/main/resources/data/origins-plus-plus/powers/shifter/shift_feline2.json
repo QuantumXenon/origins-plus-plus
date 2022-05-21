@@ -1,5 +1,5 @@
 {
-    "hidden": "true",
+    "hidden": true,
 	"cooldown": 0,
 	"hud_render": {
 		"should_render": false,

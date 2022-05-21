@@ -1,6 +1,6 @@
 {
 	"type": "origins:modify_food",
-	"hidden": "true",
+	"hidden": true,
 	"item_condition": {
 		"type": "origins:ingredient",
 		"ingredient": {

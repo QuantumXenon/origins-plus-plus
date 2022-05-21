@@ -1,6 +1,6 @@
 {
     "name": "Not Meant For Melee",
-    "description": "You have Weakness 3.",
+    "description": "You have Weakness 2.",
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
     "max_stacks": 1,

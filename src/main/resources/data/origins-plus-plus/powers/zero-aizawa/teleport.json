@@ -1,6 +1,6 @@
 {
     "type":"origins:fire_projectile",
-    "cooldown":1,
+    "cooldown":200,
     "hud_render":{
         "should_render": false,
        "sprite_location":"origins:textures/gui/resource_bar.png",
@@ -10,10 +10,7 @@
     "sound":"minecraft:entity.ender_pearl.throw",
     "speed":1.5,
     "divergence":1,
-    "key":{
-       "key":"key.origins.primary_active",
-       "continuous":false
-    },
+	"key":"key.origins.primary_active",
     "name":"Teleport",
     "description":"You can teleport as far away as you want instantaneously as long as your looking in the direction you want. [Primary]"
 }

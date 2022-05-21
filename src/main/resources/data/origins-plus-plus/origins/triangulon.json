@@ -2,21 +2,18 @@
     "name": "Triangulon",
     "description": "You are an infinite shape. That is all.",
     "powers": [
+        "origins:fall_immunity",
+        "origins:ender_particles",
+		"origins-plus-plus:triangulon/bowmaster",
         "origins-plus-plus:triangulon/gravity_manipulator",
         "origins-plus-plus:triangulon/lwalk",
+        "origins-plus-plus:triangulon/materialize",
+        "origins-plus-plus:triangulon/nmfm",
         "origins-plus-plus:triangulon/void",
         "origins-plus-plus:triangulon/walk",
-        "origins:fall_immunity",
-        "origins-plus-plus:triangulon/materialize",
-        "origins:ender_particles",
-        "origins-plus-plus:triangulon/spatial_stomach",
-        "origins-plus-plus:triangulon/warped_health",
-        "origins-plus-plus:triangulon/nmfm",
-		"origins-plus-plus:triangulon/bowmaster"
+        "origins-plus-plus:triangulon/warped_health"
     ],
-    "icon": {
-        "item": "minecraft:emerald_block"
-    },
+	"item": "minecraft:emerald_block",
     "order": 0,
     "impact": 3
 }

@@ -1,13 +1,51 @@
 {
-    "type": "origins:creative_flight",
-	"condition": {
-        "type": "origins:daytime",
-        "inverted": true
+	"name": "Moon's Grace",
+	"description": "You belong in the night time! Take a leap, grab a sword and use that moonlight to your advantage!",
+	"type": "origins:multiple",
+	"flight": {
+		"type": "origins:creative_flight",
+		"condition": {
+			"type": "origins:and",
+			"conditions":[
+				{
+				"type": "origins:resource",
+				"resource": "*:*_timer",
+				"comparison": ">",
+				"compare_to": 1
+				},
+				{
+				"type": "origins:daytime",
+				"inverted": true
+				}
+			]
+		}
 	},
-	
-		"name": "Moon's Grace",
-		"description": "You belong in the night time! Take a leap, grab a sword and use that moonlight to your advantage!"
-    
+	"timer": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 450,
+		"hud_render": {
+			"bar_index": 4
+		}
+	},
+	"countdown": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:creative_flying"
+			},
+			"if_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_timer",
+				"change": -2
+			},
+			"else_action": {
+				"type": "origins:change_resource",
+				"resource": "*:*_timer",
+				"change": 1
+			}
+		},
+		"interval": 2
+	}
 }
-
-

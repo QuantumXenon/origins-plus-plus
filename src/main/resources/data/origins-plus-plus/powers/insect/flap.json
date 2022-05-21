@@ -48,7 +48,7 @@
             "conditions":[
                 {
                     "type":"origins:resource",
-                    "resource":"insect:flap_resource",
+                    "resource":"origins-plus-plus:insect/flap_resource",
                     "comparison":">",
                     "compare_to":0
                 },
@@ -70,7 +70,7 @@
         "type":"origins:action_on_land",
         "entity_action":{
             "type":"origins:change_resource",
-            "resource":"insect:flap_resource",
+            "resource":"origins-plus-plus:insect/flap_resource",
             "change":8
         }
     },

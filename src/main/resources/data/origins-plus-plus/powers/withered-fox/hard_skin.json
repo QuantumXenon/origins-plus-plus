@@ -3,7 +3,7 @@
   "modifier": {
     "attribute": "minecraft:generic.armor",
     "operation": "addition",
-    "value": "8"
+    "value": 8
   },
     "name": "Hard Skin",
     "description": "Due to your hard skin you have natural protection"

@@ -11,7 +11,7 @@
 			}
 		]
 	},
-	"hidden": "true",
-	"name": "Short arms",
+	"hidden": true,
+	"name": "Short Arms",
 	"description": "Due to your short arms you can't pull back a bow or crossbow."
 }
