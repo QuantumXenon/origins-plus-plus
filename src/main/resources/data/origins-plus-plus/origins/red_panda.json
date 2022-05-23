@@ -1,17 +1,16 @@
 {
 	"powers": [
 		"origins-plus-plus:red-panda/cute",
-		"origins-plus-plus:red-panda/sharp_claws",
-		"origins-plus-plus:red-panda/nocturnal",
-		"origins-plus-plus:red-panda/junglenative",
-		"origins-plus-plus:red-panda/item_eater",
 		"origins-plus-plus:red-panda/diet",
+		"origins-plus-plus:red-panda/flammable",
+		"origins-plus-plus:red-panda/item_eater",
+		"origins-plus-plus:red-panda/junglenative",
 		"origins-plus-plus:red-panda/lazy",
-		"origins-plus-plus:red-panda/flammable"
+		"origins-plus-plus:red-panda/nocturnal",
+		"origins-plus-plus:red-panda/sharp_claws"
 	],
 	"icon": "minecraft:bamboo",
-	"order": 10,
 	"impact": 2,
 	"name": "Red Panda",
-	"description": "The cutest origin there is! You 'prowl' the jungle as the most adorable predator"
+	"description": "The cutest origin there is! You 'prowl' the jungle as the most adorable predator."
 }

@@ -1,17 +1,16 @@
 {
 	"powers": [
-	"origins-plus-plus:earth-spirit/backtostone",
-	"origins-plus-plus:earth-spirit/spiriteffect",
-	"origins-plus-plus:earth-spirit/invisibility",
-	"origins-plus-plus:earth-spirit/spiritvision",
-	"origins-plus-plus:earth-spirit/phasing",
-	"origins:more_exhaustion",
-	"origins-plus-plus:earth-spirit/phasetoggle"
+		"origins:more_exhaustion",
+		"origins-plus-plus:earth-spirit/backtostone",
+		"origins-plus-plus:earth-spirit/invisibility",
+		"origins-plus-plus:earth-spirit/phasetoggle",
+		"origins-plus-plus:earth-spirit/phasing",
+		"origins-plus-plus:earth-spirit/spiriteffect",
+		"origins-plus-plus:earth-spirit/spiritvision"
 	],
 	"icon": "minecraft:granite",
-	"order": 26,
 	"impact": 3,
-	"unchoosable": false,
-	"name": "Spiritual form",
-	"description": "Spiritual form of Earth Spirit."
+	"name": "Earth Spirit (Spiritual Form)",
+	"description": "The spiritual form of the earth spirit.",
+	"unchoosable": true
 }

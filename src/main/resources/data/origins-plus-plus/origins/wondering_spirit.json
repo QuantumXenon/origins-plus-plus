@@ -1,22 +1,21 @@
 {
 	"powers": [
-		"origins-plus-plus:wondering-spirit/lightning_summon",
+		"origins-plus-plus:wondering-spirit/damage_glitch",
+		"origins-plus-plus:wondering-spirit/fire",
+		"origins-plus-plus:wondering-spirit/glasses",
 		"origins-plus-plus:wondering-spirit/lightning_charge",
 		"origins-plus-plus:wondering-spirit/lightning_invulnerability",
+		"origins-plus-plus:wondering-spirit/lightning_summon",
 		"origins-plus-plus:wondering-spirit/phase",
-		"origins-plus-plus:wondering-spirit/translucent",
+		"origins-plus-plus:wondering-spirit/quick_hands_and_feet",
+		"origins-plus-plus:wondering-spirit/shaking",
 		"origins-plus-plus:wondering-spirit/size_change",
 		"origins-plus-plus:wondering-spirit/size_changer",
 		"origins-plus-plus:wondering-spirit/size_resource",
-		"origins-plus-plus:wondering-spirit/quick_hands_and_feet",
-		"origins-plus-plus:wondering-spirit/shaking",
 		"origins-plus-plus:wondering-spirit/the_darkness",
-		"origins-plus-plus:wondering-spirit/glasses",
-		"origins-plus-plus:wondering-spirit/damage_glitch",
-		"origins-plus-plus:wondering-spirit/fire"
+		"origins-plus-plus:wondering-spirit/translucent"
 	],
 	"icon": "minecraft:crimson_roots",
-	"order": 10,
 	"impact": 3,
 	"name": "Wondering Spirit",
 	"description": "You are a Spirit, lost in the overworld for reasons unknown to you. Your thoughts and memories, the only thing that linger from your past life."

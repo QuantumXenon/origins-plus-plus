@@ -2,16 +2,15 @@
 	"powers": [
 		"origins-plus-plus:candyperson/cakemaster",
 		"origins-plus-plus:candyperson/cookiemaster",
+		"origins-plus-plus:candyperson/favoritefood",
+		"origins-plus-plus:candyperson/hardsugar",
 		"origins-plus-plus:candyperson/sugaraddict",
+		"origins-plus-plus:candyperson/sugarexpert",
 		"origins-plus-plus:candyperson/sugarkit",
 		"origins-plus-plus:candyperson/sugarstomach",
-		"origins-plus-plus:candyperson/hardsugar",
-		"origins-plus-plus:candyperson/sweetrecipe",
-		"origins-plus-plus:candyperson/favoritefood",
-		"origins-plus-plus:candyperson/sugarexpert"
+		"origins-plus-plus:candyperson/sweetrecipe"
 	],
 	"icon": "minecraft:sugar",
-	"order": 11,
 	"impact": 2,
 	"name": "Candy Person",
 	"description": "A sugar-like entity that has a serius problem with sweet food!"

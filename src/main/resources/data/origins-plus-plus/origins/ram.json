@@ -5,12 +5,11 @@
 		"origins-plus-plus:ram/fall",
 		"origins-plus-plus:ram/fresh_air",
 		"origins-plus-plus:ram/jump_boost",
-		"origins-plus-plus:ram/no_food_eat",
 		"origins-plus-plus:ram/no_food",
+		"origins-plus-plus:ram/no_food_eat",
 		"origins-plus-plus:ram/ram"
 	],
-	"icon": "minecraft:rabbit_hide",
-	"order": 10,
+	"icon": "minecraft:white_wool",
 	"impact": 3,
 	"name": "Ram",
 	"description": "You can ram stuff."

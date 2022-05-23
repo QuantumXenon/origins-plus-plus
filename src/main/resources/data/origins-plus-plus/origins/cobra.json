@@ -14,8 +14,7 @@
 		"origins-plus-plus:cobra/strength_in_day",
 		"origins-plus-plus:cobra/strength_in_nether"
 	],
-	"icon": "minecraft:green_dye",
-	"order": 10,
+	"icon": "minecraft:scute",
 	"impact": 1,
 	"name": "Cobra",
 	"description": "You are a small cobra, your fangs are full of poison and you are ready to attack when you need to."

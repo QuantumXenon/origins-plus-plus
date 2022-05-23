@@ -41,7 +41,6 @@
 		"origins-plus-plus:bedrockean/weakness"
 	],
 	"icon": "minecraft:bedrock",
-	"order": 10,
 	"impact": 3,
 	"name": "Bedrockean",
 	"description": "You are bedrock."

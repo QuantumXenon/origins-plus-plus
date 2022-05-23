@@ -1,17 +1,16 @@
 {
 	"powers": [
+		"origins:more_exhaustion",
 		"origins-plus-plus:beaver/aquatic",
 		"origins-plus-plus:beaver/lazy",
 		"origins-plus-plus:beaver/logger",
 		"origins-plus-plus:beaver/nine_lives",
 		"origins-plus-plus:beaver/rage_beaver",
 		"origins-plus-plus:beaver/razor_teeth",
-		"origins-plus-plus:beaver/storage",
-		"origins:more_exhaustion"
+		"origins-plus-plus:beaver/storage"
 	],
 	"icon": "minecraft:brown_wool",
-	"order": 10,
 	"impact": 2,
 	"name": "Beaver",
-	"description": "Beavers are large, semiaquatic rodents in the genus Castor native to the temperate Northern Hemisphere."
+	"description": "Beavers are large, semi-aquatic rodents in the genus 'castor' native to the temperate northern hemisphere."
 }

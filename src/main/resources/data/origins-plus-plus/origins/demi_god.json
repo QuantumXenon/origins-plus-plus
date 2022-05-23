@@ -22,8 +22,7 @@
 		"origins-plus-plus:demi-god/raw_tropicalfish"
 	],
 	"icon": "minecraft:glowstone",
-	"order": 10,
 	"impact": 2,
 	"name": "Demi-God",
-	"description": "After training for years on end you have overworked yourself to the point of being unstoppable, the only beings that would be able to beat you are the gods themselves (the bosses)."
+	"description": "After training for years on end you have overworked yourself to the point of being unstoppable, the only beings that would be able to beat you are the bosses themselves."
 }

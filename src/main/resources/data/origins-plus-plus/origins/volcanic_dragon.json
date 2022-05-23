@@ -1,8 +1,8 @@
 {
 	"powers": [
-		"origins:fire_immunity",
 		"origins:carnivore",
 		"origins:damage_from_snowballs",
+		"origins:fire_immunity",
 		"origins-plus-plus:volcanic-dragon/fall_immunity",
 		"origins-plus-plus:volcanic-dragon/fast_metabolism",
 		"origins-plus-plus:volcanic-dragon/hot_blooded",
@@ -18,7 +18,6 @@
 		"origins-plus-plus:volcanic-dragon/wings"
 	],
 	"icon": "minecraft:lava_bucket",
-	"order": 10,
 	"impact": 3,
 	"name": "Volcanic Dragon",
 	"description": "You are a dragon born out of volcanic energy."

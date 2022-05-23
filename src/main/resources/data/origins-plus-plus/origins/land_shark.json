@@ -1,23 +1,20 @@
 {
     "name": "Land Shark",
-    "description": "A shark that can survive on land and in water.",
+    "description": "A shark that can survive both on land and in water.",
     "powers": [
-        "origins-plus-plus:land-shark/fins",
-        "origins-plus-plus:land-shark/freak_of_nature",
-        "origins-plus-plus:land-shark/gillungs",
-        "origins-plus-plus:land-shark/greedy",
-        "origins-plus-plus:land-shark/lunge",
-        "origins-plus-plus:land-shark/razor_teeth",
-        "origins-plus-plus:land-shark/speedy_boi",
-        "origins-plus-plus:land-shark/hongry",
         "origins:carnivore",
         "origins:aqua_affinity",
         "origins:like_water",
-        "origins:no_shield"
+        "origins:no_shield",
+		"origins-plus-plus:land-shark/fins",
+        "origins-plus-plus:land-shark/freak_of_nature",
+        "origins-plus-plus:land-shark/gillungs",
+        "origins-plus-plus:land-shark/greedy",
+        "origins-plus-plus:land-shark/hongry",
+        "origins-plus-plus:land-shark/lunge",
+        "origins-plus-plus:land-shark/razor_teeth",
+        "origins-plus-plus:land-shark/speedy_boi"
     ],
-    "icon": {
-        "item": "minecraft:prismarine_shard"
-    },
-    "order": 0,
+    "icon": "minecraft:prismarine_shard",
     "impact": 2
 }

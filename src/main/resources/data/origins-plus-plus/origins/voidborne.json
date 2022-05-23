@@ -1,18 +1,17 @@
 {
 	"powers":[
-	   "origins-plus-plus:voidborne/void_shield",
-	   "origins-plus-plus:voidborne/winged",
-	   "origins-plus-plus:voidborne/dive_attack",
-	   "origins-plus-plus:voidborne/void_child",
-	   "origins-plus-plus:voidborne/voidborne_form",
-	   "origins-plus-plus:voidborne/winged_limits",
 	   "origins-plus-plus:voidborne/brittle_bones",
-	   "origins-plus-plus:voidborne/low_health",
+	   "origins-plus-plus:voidborne/dive_attack",
+	   "origins-plus-plus:voidborne/field_forces",
 	   "origins-plus-plus:voidborne/large_appetite",
-	   "origins-plus-plus:voidborne/field_forces"
+	   "origins-plus-plus:voidborne/low_health",
+	   "origins-plus-plus:voidborne/void_child",
+	   "origins-plus-plus:voidborne/void_shield",
+	   "origins-plus-plus:voidborne/voidborne_form",
+	   "origins-plus-plus:voidborne/winged",
+	   "origins-plus-plus:voidborne/winged_limits"
 	],
 	"icon": "minecraft:bedrock",
-	"order": 10,
 	"impact": 3,
 	"name": "Voidborne",
 	"description": "You are a descendant of the void. You have received the gift of flight, and the ability to escape the void. But don't stray too far from home."

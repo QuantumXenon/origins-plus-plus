@@ -1,22 +1,21 @@
 {
 	"powers": [
-		"origins-plus-plus:ryu/natural_protection",
-		"origins-plus-plus:ryu/winged",
-		"origins-plus-plus:ryu/friendly_eyes",
-		"origins-plus-plus:ryu/lift_off",
+		"origins:more_exhaustion",
+		"origins:carnivore",
 		"origins-plus-plus:ryu/all_knowing",
 		"origins-plus-plus:ryu/better_odds",
 		"origins-plus-plus:ryu/big_body",
 		"origins-plus-plus:ryu/dark_color",
-		"origins-plus-plus:ryu/sparkly",
+		"origins-plus-plus:ryu/friendly_eyes",
+		"origins-plus-plus:ryu/healing_potions",
 		"origins-plus-plus:ryu/heavy_scales",
-		"origins:more_exhaustion",
-		"origins:carnivore",
+		"origins-plus-plus:ryu/lift_off",
+		"origins-plus-plus:ryu/natural_protection",
 		"origins-plus-plus:ryu/so_much_weight",
-		"origins-plus-plus:ryu/healing_potions"
+		"origins-plus-plus:ryu/sparkly",
+		"origins-plus-plus:ryu/winged"
 	],
 	"icon": "minecraft:stick",
-	"order": 10,
 	"impact": 3,
 	"name": "Ryū",
 	"description": "You are a legendary creature born from the heavens."

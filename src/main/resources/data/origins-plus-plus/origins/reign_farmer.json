@@ -10,8 +10,7 @@
 		"origins-plus-plus:reign-farmer/strength_of_crops",
 		"origins-plus-plus:reign-farmer/the_gift_of_life"
 	],
-	"icon": "minecraft:wheat",
-	"order": 10,
+	"icon": "minecraft:netherite_hoe",
 	"impact": 1,
 	"name": "Reign Farmer",
 	"description": "You have been farming for years, to the point that you've mastered every aspect of it."

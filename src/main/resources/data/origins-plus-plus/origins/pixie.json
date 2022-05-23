@@ -14,9 +14,8 @@
 		"origins-plus-plus:pixie/sound",
 		"origins-plus-plus:pixie/speed"
 	],
-	"icon":"minecraft:glowstone_dust",
-	"order":10,
-	"impact":3,
-	"name":"Pixie",
-	"description":"A fluttery pixie origin."
+	"icon": "minecraft:glowstone_dust",
+	"impact": 3,
+	"name": "Pixie",
+	"description": "You are a mischievious elf-like spirit."
 }

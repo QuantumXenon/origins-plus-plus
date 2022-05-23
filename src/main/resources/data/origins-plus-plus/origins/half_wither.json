@@ -1,14 +1,13 @@
 {
 	"powers": [
-		"origins-plus-plus:half-wither/wither_skull",
-		"origins-plus-plus:half-wither/soul_feed",
-		"origins-plus-plus:half-wither/immunity",
+		"origins:nether_spawn",
 		"origins-plus-plus:half-wither/exhaust",
-		"origins:nether_spawn"
+		"origins-plus-plus:half-wither/immunity",
+		"origins-plus-plus:half-wither/soul_feed",
+		"origins-plus-plus:half-wither/wither_skull"
 	],
 	"icon": "minecraft:wither_skeleton_skull",
-	"order": 10,
 	"impact": 3,
 	"name": "Half-Wither",
-	"description": "Half human, half wither."
+	"description": "You are half-human, half-wither."
 }

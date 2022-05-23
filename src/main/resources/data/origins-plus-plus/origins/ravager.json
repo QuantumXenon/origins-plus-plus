@@ -10,10 +10,10 @@
         "origins-plus-plus:ravager/heavy_armor",
         "origins-plus-plus:ravager/heavy_footed",
         "origins-plus-plus:ravager/immense",
+        "origins-plus-plus:ravager/ram",
         "origins-plus-plus:ravager/ram_cooldown",
         "origins-plus-plus:ravager/ram_duration",
         "origins-plus-plus:ravager/ram_knockback",
-        "origins-plus-plus:ravager/ram",
         "origins-plus-plus:ravager/ravager_attribute1",
         "origins-plus-plus:ravager/ravager_attribute2",
         "origins-plus-plus:ravager/ravager_axe",
@@ -23,9 +23,8 @@
         "origins-plus-plus:ravager/thick_skin",
         "origins-plus-plus:ravager/vexy"
     ],
-        "icon": "minecraft:saddle",
-        "impact": 2,
-        "order": 3,
-        "name": "Ravager",
-        "description": "An illager experiment, something between their normal kind and the massive illager beasts known as ravagers."
+    "icon": "minecraft:saddle",
+    "impact": 2,
+    "name": "Ravager",
+    "description": "You are an illager experiment, something between their normal kind and the massive illager beasts known as ravagers."
 }

@@ -25,7 +25,6 @@
 		"origins-plus-plus:blob/you"
 	],
 	"icon": "minecraft:popped_chorus_fruit",
-	"order": 1,
 	"impact": 2,
 	"name": "Blob",
 	"description": "You are some kind of blob, you don't know anything about yourself but you seem to know already about the world around you."

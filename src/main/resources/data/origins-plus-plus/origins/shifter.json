@@ -94,7 +94,6 @@
 		"origins-plus-plus:shifter/phantom/overlay"
 	],
 	"icon": "minecraft:magenta_glazed_terracotta",
-	"order": 10,
 	"impact": 3,
 	"name": "Shifter",
 	"description": "You were just a normal human but you stole the powers from the original 9 origins, now you can switch between weaker forms of the original 9 at will."

@@ -17,8 +17,8 @@
 		"origins-plus-plus:glacier/icy_breath",
 		"origins-plus-plus:glacier/icy_defence",
 		"origins-plus-plus:glacier/icy_spawn",
-		"origins-plus-plus:glacier/multi_snowballs_cooldown",
 		"origins-plus-plus:glacier/multi_snowballs",
+		"origins-plus-plus:glacier/multi_snowballs_cooldown",
 		"origins-plus-plus:glacier/night_person",
 		"origins-plus-plus:glacier/overheating",
 		"origins-plus-plus:glacier/snow_damper",
@@ -27,8 +27,7 @@
 		"origins-plus-plus:glacier/snowflakes_particles",
 		"origins-plus-plus:glacier/snowy_sprinter"
 	],
-	"icon": "minecraft:packed_ice",
-	"order": 10,
+	"icon": "minecraft:snow",
 	"impact": 3,
 	"name": "Glacier",
 	"description": "A mystical creature born out of snow and ice. You were created out of the cold and have lived long enough to know that the cold can kill all."

@@ -1,20 +1,19 @@
 {
 	"powers":[
+	   "origins-plus-plus:withered-skeletian/charcoal_bones",
+	   "origins-plus-plus:withered-skeletian/nether_inhabitant",
+	   "origins-plus-plus:withered-skeletian/nether_kinship",
 	   "origins-plus-plus:withered-skeletian/s_and_p/attacker",
 	   "origins-plus-plus:withered-skeletian/s_and_p/death",
 	   "origins-plus-plus:withered-skeletian/s_and_p/hit",
 	   "origins-plus-plus:withered-skeletian/s_and_p/passive",
 	   "origins-plus-plus:withered-skeletian/s_and_p/victim",
-	   "origins-plus-plus:withered-skeletian/charcoal_bones",
-	   "origins-plus-plus:withered-skeletian/unnatural_height",
-	   "origins-plus-plus:withered-skeletian/withering_presence",
+	   "origins-plus-plus:withered-skeletian/sharper_stone",
 	   "origins-plus-plus:withered-skeletian/undead_body",
-	   "origins-plus-plus:withered-skeletian/nether_inhabitant",
-	   "origins-plus-plus:withered-skeletian/nether_kinship",
-	   "origins-plus-plus:withered-skeletian/sharper_stone"
+	   "origins-plus-plus:withered-skeletian/unnatural_height",
+	   "origins-plus-plus:withered-skeletian/withering_presence"
 	],
 	"icon": "minecraft:wither_skeleton_skull",
-	"order": 10,
 	"impact": 3,
 	"name": "Withered Skeletian",
 	"description": "You are a Wither Skeleton, your body is strong and your bones rattle like those of your brothers and sisters in the underworld."

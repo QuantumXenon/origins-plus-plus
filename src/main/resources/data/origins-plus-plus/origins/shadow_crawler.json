@@ -1,17 +1,16 @@
 {
 	"powers": [
-	"origins-plus-plus:shadow-crawler/shadow_warp",
-	"origins-plus-plus:shadow-crawler/no_exhaustion",
-	"origins-plus-plus:shadow-crawler/dark_boost",
-	"origins-plus-plus:shadow-crawler/night_vision",
-	"origins-plus-plus:shadow-crawler/shadowy_form",
-	"origins-plus-plus:shadow-crawler/day_weakness",
-	"origins-plus-plus:shadow-crawler/blinding_light",
-	"origins-plus-plus:shadow-crawler/regen",
-	"origins-plus-plus:shadow-crawler/disable_regen"
+		"origins-plus-plus:shadow-crawler/blinding_light",
+		"origins-plus-plus:shadow-crawler/dark_boost",
+		"origins-plus-plus:shadow-crawler/day_weakness",
+		"origins-plus-plus:shadow-crawler/disable_regen",
+		"origins-plus-plus:shadow-crawler/night_vision",
+		"origins-plus-plus:shadow-crawler/no_exhaustion",
+		"origins-plus-plus:shadow-crawler/regen",
+		"origins-plus-plus:shadow-crawler/shadow_warp",
+		"origins-plus-plus:shadow-crawler/shadowy_form"
 	],
 	"icon": "minecraft:structure_void",
-	"order": 4,
 	"impact": 3,
 	"name": "Shadow Crawler",
 	"description": "You were once human until you were trapped in an empty, void-like dimension eventually adapting to it over hundreds of years."

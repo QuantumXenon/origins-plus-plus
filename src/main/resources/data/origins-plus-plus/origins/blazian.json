@@ -18,8 +18,7 @@
 		"origins-plus-plus:blazian/slow_fall_clear"
 	],
 	"icon": "minecraft:magma_cream",
-	"order": 10,
 	"impact": 3,
 	"name": "Blazian",
-	"description": "A better Blazeborn!"
+	"description": "A better version of the blazeborn origin!"
 }

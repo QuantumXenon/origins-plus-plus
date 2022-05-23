@@ -1,20 +1,19 @@
 {
 	"powers": [
-		"origins-plus-plus:felvaxian/unholy_aura",
+		"origins-plus-plus:felvaxian/carnivore",
+		"origins-plus-plus:felvaxian/fall_immunity",
+		"origins-plus-plus:felvaxian/feline_eyes",
+		"origins-plus-plus:felvaxian/feline_legs",
+		"origins-plus-plus:felvaxian/no_shield",
+		"origins-plus-plus:felvaxian/pounce",
+		"origins-plus-plus:felvaxian/ravens_defense",
 		"origins-plus-plus:felvaxian/scavenger_pouch",
 		"origins-plus-plus:felvaxian/soaring_wings",
-		"origins-plus-plus:felvaxian/feline_eyes",
-		"origins-plus-plus:felvaxian/pounce",
-		"origins-plus-plus:felvaxian/fall_immunity",
-		"origins-plus-plus:felvaxian/ravens_defense",
 		"origins-plus-plus:felvaxian/tigers_roar",
-		"origins-plus-plus:felvaxian/feline_legs",
-		"origins-plus-plus:felvaxian/weaker_heart",
-		"origins-plus-plus:felvaxian/carnivore",
-		"origins-plus-plus:felvaxian/no_shield"
+		"origins-plus-plus:felvaxian/unholy_aura",
+		"origins-plus-plus:felvaxian/weaker_heart"
 	],
 	"icon": "minecraft:black_dye",
-	"order": 10,
 	"impact": 2,
 	"name": "Felvaxian",
 	"description": "A feline raven that can soar and pounce. A carnivouros hunter and high flyer"

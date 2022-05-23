@@ -2,20 +2,18 @@
     "name": "Deranged",
     "description": "You are an ordinary human, but you come from a rotten and horrible family that hurt you when you were young.\n\nYou came to think that this was the norm, and then you became mentally unsound.",
     "powers": [
+        "origins-plus-plus:deranged/arroweffect",
         "origins-plus-plus:deranged/breathing",
+        "origins-plus-plus:deranged/dart",
         "origins-plus-plus:deranged/derangefiller",
         "origins-plus-plus:deranged/derangement",
         "origins-plus-plus:deranged/insane",
-        "origins-plus-plus:deranged/tranquil",
+        "origins-plus-plus:deranged/knifelove",
         "origins-plus-plus:deranged/nightmares",
         "origins-plus-plus:deranged/persuasive",
-        "origins-plus-plus:deranged/knifelove",
         "origins-plus-plus:deranged/redrage",
-        "origins-plus-plus:deranged/dart",
-        "origins-plus-plus:deranged/arroweffect"
+        "origins-plus-plus:deranged/tranquil"
     ],
-    "icon": {
-        "item": "minecraft:nether_wart_block"
-    },
+    "icon": "minecraft:nether_wart_block",
     "impact": 2
 }
