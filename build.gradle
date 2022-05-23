@@ -10,31 +10,15 @@ buildscript {
 
 apply plugin: 'eclipse'
 apply plugin: 'net.minecraftforge.gradle'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 //---------------------------------------------
 version = '1.5.3'
 group = 'com.quantumxenon.origins_plus_plus'
 //---------------------------------------------
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(17)
-sourceSets.main.resources { srcDir 'src/generated/resources' }
-
 minecraft {
     mappings channel: 'official', version: '1.18.2'
-    runs {
-        client {
-            workingDirectory project.file('run')
-            property 'forge.logging.markers', 'REGISTRIES'
-            property 'forge.logging.console.level', 'debug'
-            property 'forge.enabledGameTestNamespaces', 'origins_plus_plus'
-
-            mods {
-                origins_plus_plus {
-                    source sourceSets.main
-                }
-            }
-        }
-    }
 }
 
 dependencies {
@@ -44,9 +28,6 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "origins_plus_plus",
-                "Specification-Vendor"    : "TheQuantumXenon",
-                "Specification-Version"   : "1",
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "TheQuantumXenon",
