@@ -1,11 +1,18 @@
 {
-	"type": "origins:active_self",
-	"hidden": true,
-	"key": {
-		"key": "key.use",
-		"continuous": true
+	"type": "origins:action_over_time",
+	"name": "Excessive Power",
+	"description": "Bows and crossbows break after use",
+	"interval": 2,
+	"condition": {
+		"type": "origins:using_item",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "bow"
+			}
+		}
 	},
-	"entity_action": {
+	"falling_action": {
 		"type": "origins:if_else_list",
 		"actions": [
 		{
@@ -14,19 +21,14 @@
 				"equipment_slot": "mainhand",
 				"item_condition": {
 					"type": "origins:ingredient",
-					"ingredient": [
-					{
+					"ingredient": {
 						"item": "bow"
-					},
-					{
-						"item": "crossbow"
 					}
-					]
 				}
 			},
 			"action": {
 				"type": "origins:and",
-				"actions": [
+					"actions": [
 				{
 					"type": "origins:equipped_item_action",
 					"equipment_slot": "mainhand",
@@ -50,14 +52,9 @@
 				"equipment_slot": "offhand",
 				"item_condition": {
 					"type": "origins:ingredient",
-					"ingredient": [
-					{
+					"ingredient": {
 						"item": "bow"
-					},
-					{
-						"item": "crossbow"
 					}
-					]
 				}
 			},
 			"action": {

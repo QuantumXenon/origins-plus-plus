@@ -1,8 +1,8 @@
 {
 	"type": "origins:multiple",
 	"name": "Colossal Slam",
-	"description": "You can slam into the ground, creating a small explosion, and throwing off passengers",
-	"resource": {
+	"description": "You can slam into the ground, creating a small explosion and throwing off passengers",
+	"res": {
 		"type": "origins:resource",
 		"min": 0,
 		"max": 1,
@@ -12,7 +12,6 @@
 	},
 	"down": {
 		"type": "origins:active_self",
-		"hidden": true,
 		"key": {
 			"key": "key.origins.primary_active"
 		},
@@ -32,26 +31,33 @@
 			"actions": [
 			{
 				"type": "origins:add_velocity",
+				"set": true,
 				"y": 0.5
 			},
 			{
 				"type": "origins:delay",
 				"ticks": 5,
 				"action": {
-					"type": "origins:add_velocity",
-					"y": -0.67
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:add_velocity",
+						"set": true,
+						"y": -0.67
+					},
+					{
+						"type": "origins:passenger_action",
+						"action": {
+							"type": "origins:dismount"
+						}
+					}
+					]
 				}
 			},
 			{
 				"type": "origins:change_resource",
-				"resource": "origins-plus-plus:giant/slam_resource",
+				"resource": "origins-plus-plus:giant/slam_res",
 				"change": 1
-			},
-			{
-				"type": "origins:passenger_action",
-				"action": {
-					"type": "origins:dismount"
-				}
 			}
 			]
 		}
@@ -60,7 +66,7 @@
 		"type": "origins:action_on_land",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "origins-plus-plus:giant/slam_resource",
+			"resource": "origins-plus-plus:giant/slam_res",
 			"comparison": "==",
 			"compare_to": 1
 		},
@@ -69,7 +75,7 @@
 			"actions": [
 			{
 				"type": "origins:change_resource",
-				"resource": "origins-plus-plus:giant/slam_resource",
+				"resource": "origins-plus-plus:giant/slam_res",
 				"change": -1
 			},
 			{
@@ -101,9 +107,9 @@
 			]
 		}
 	},
-	"water": {
+	"off": {
 		"type": "origins:action_over_time",
-		"interval": 20,
+		"interval": 10,
 		"condition": {
 			"type": "origins:or",
 			"conditions": [
@@ -123,7 +129,7 @@
 		},
 		"rising_action": {
 			"type": "origins:change_resource",
-			"resource": "origins-plus-plus:giant/slam_resource",
+			"resource": "origins-plus-plus:giant/slam_res",
 			"change": -1
 		}
 	}

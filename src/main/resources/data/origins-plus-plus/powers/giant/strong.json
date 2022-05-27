@@ -1,13 +1,16 @@
 {
 	"type": "origins:multiple",
 	"name": "Gargantuan Strength",
-	"description": "You deal 33% more damage and 50% more knockback",
+	"description": "You deal 33% more melee damage and 50% more knockback",
 	"damage": {
-		"type": "origins:attribute",
+		"type": "origins:modify_damage_dealt",
 		"modifier": {
-			"attribute": "minecraft:generic.attack_damage",
-			"operation": "multiply_base",
+			"operation": "multiply_total",
 			"value": 0.33
+		},
+		"damage_condition": {
+			"type": "origins:projectile",
+			"inverted": true
 		}
 	},
 	"knockback_deal": {

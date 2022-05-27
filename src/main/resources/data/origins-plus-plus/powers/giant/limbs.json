@@ -1,7 +1,7 @@
 {
 	"type": "origins:multiple",
 	"name": "Long Limbs",
-	"description": "You have twice the normal jump height, 33% more reach, and you don't slip on ice",
+	"description": "You jump twice as high, have 33% more reach, projectiles go twice as far, and you don't slip on ice",
 	"jump": {
 		"type": "origins:modify_jump",
 		"modifier": {
@@ -20,5 +20,4 @@
 			"tag": "ice"
 		}
 	}
-}
 }

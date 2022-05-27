@@ -1,0 +1,19 @@
+{
+	"replace": false,
+	"values": [
+		"player",
+		"elder_guardian",
+		"ender_dragon",
+		"ghast",
+		"ravager",
+		"wither",
+		"#impact_projectiles",
+		"item",
+		"llama_spit",
+		"ender_pearl",
+		"end_crystal",
+		"shulker_bullet",
+		"falling_block",
+		"leash_knot"
+	]
+}

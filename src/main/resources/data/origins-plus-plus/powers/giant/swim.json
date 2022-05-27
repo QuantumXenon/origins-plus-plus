@@ -27,6 +27,7 @@
 	},
 	"speed_0": {
 		"type": "origins:conditioned_attribute",
+		"interval": 5,
 		"modifier": {
 			"attribute": "generic.movement_speed",
 			"operation": "multiply_total",

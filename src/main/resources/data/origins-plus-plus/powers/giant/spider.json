@@ -1,28 +1,14 @@
 {
-	"type": "origins:multiple",
+	"type": "origins:modify_damage_taken",
 	"name": "Arachnophobe",
-	"description": "You take triple damage from any mobs that are affected by Bane of Arthropods",
-	"from": {
-		"type": "origins:modify_damage_taken",
-		"modifier": {
-			"operation": "multiply_total",
-			"value": 2
-		},
-		"damage_condition": {
-			"type": "origins:attacker",
-			"entity_condition": {
-				"type": "origins:entity_group",
-				"group": "arthropod"
-			}
-		}
+	"description": "You take 3x damage from arthropods",
+	"modifier": {
+		"operation": "multiply_total",
+		"value": 2
 	},
-	"to": {
-		"type": "origins:modify_damage_dealt",
-		"modifier": {
-			"operation": "multiply_total",
-			"value": -0.33
-		},
-		"target_condition": {
+	"damage_condition": {
+		"type": "origins:attacker",
+		"entity_condition": {
 			"type": "origins:entity_group",
 			"group": "arthropod"
 		}
