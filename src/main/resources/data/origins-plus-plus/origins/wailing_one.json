@@ -6,7 +6,6 @@
 		"origins-plus-plus:wailing-one/deathly_diet_hunger_gain_on_kill",
 		"origins-plus-plus:wailing-one/deathly_diet_rotten_flesh_eat",
 		"origins-plus-plus:wailing-one/float",
-		"origins-plus-plus:wailing-one/friendly",
 		"origins-plus-plus:wailing-one/ghost",
 		"origins-plus-plus:wailing-one/hydrophobic",
 		"origins-plus-plus:wailing-one/particles",
@@ -21,7 +20,6 @@
 		"origins-plus-plus:wailing-one/the_shadows_are_my_home_armor",
 		"origins-plus-plus:wailing-one/touch_of_death",
 		"origins-plus-plus:wailing-one/translucent",
-		"origins-plus-plus:wailing-one/undeath",
 		"origins-plus-plus:wailing-one/wail"
 	],
 	"icon": "minecraft:ghast_tear",

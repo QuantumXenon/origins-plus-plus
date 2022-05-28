@@ -4,7 +4,7 @@
     "type": "origins:apply_effect",
     "effect": {
       "effect": "minecraft:wither",
-      "amplifier": 1,
+      "amplifier": 0,
       "duration": 100
     }
   },
@@ -19,5 +19,5 @@
     "name": "player"
   },
   "name":"Touch Of Death",
-  "description":"Applies Wither II on anyone you hit for 10 seconds."
+  "description":"Applies wither to anyone you hit."
 }

@@ -2,7 +2,8 @@
 	"type": "origins:prevent_death",
 	"entity_action": {
 		"type": "origins:and",
-		"actions": [{
+		"actions": [
+			{
 				"type": "origins:execute_command",
 				"command": "resource change @s origins-plus-plus:automaton/waterbar -750"
 			},
@@ -17,9 +18,26 @@
 			{
 				"type": "origins:execute_command",
 				"command": "playsound minecraft:entity.cat.hiss voice @a ~ ~ ~ 0.25 2"
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 6000,
+				"action": {
+					"type": "origins:if_else":,
+					"condition": {
+						"type": "origins:resource",
+						"comparison": ">",
+						"compare_to": 0
+					},
+					"if_action": {
+						"type": "origins:execute_command",
+						"command": "kill @s",
+						"permission_level": 4
+					}
+				}  
 			}
 		]
 	},
-	"name": "Deathless",
-	"description": "You do not die, but you will still power down when too low on steam."
+	"name": "Deathless*",
+	"description": "You do not die, but you will power down when too low on steam. (*You will die after 5 minutes of being powered down)"
 }

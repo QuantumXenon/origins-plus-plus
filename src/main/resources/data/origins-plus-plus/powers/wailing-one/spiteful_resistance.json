@@ -24,7 +24,7 @@
         ]
      },
      "chance": 1000,
-     "name": "Spiteful Resistance",
-     "description": "Any mobs/players that hit you with melee attacks will receive Slowness II and Weakness II for 5 seconds."
-  }
+  },
+	"name": "Spiteful Resistance",
+	"description": "Any mobs/players that hit you with melee attacks will receive Slowness II and Weakness II for 5 seconds."
 }

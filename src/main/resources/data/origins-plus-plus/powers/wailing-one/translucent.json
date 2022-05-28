@@ -4,6 +4,6 @@
   "alpha": 0.5,
   "condition": {
     "type": "origins:power_active",
-    "power": "*:phantom_walk_toggle"
+    "power": "*:phase_toggle"
   }
 }
