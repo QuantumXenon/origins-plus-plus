@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 //---------------------------------------------
-version = '1.5.3'
+version = '1.5.4'
 group = 'com.quantumxenon.origins_plus_plus'
 //---------------------------------------------
 
@@ -22,7 +22,7 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.1.23'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.1.25'
 }
 
 jar {
