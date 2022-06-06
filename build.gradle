@@ -11,18 +11,15 @@ buildscript {
 apply plugin: 'eclipse'
 apply plugin: 'net.minecraftforge.gradle'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
-
-//---------------------------------------------
 version = '1.5.4'
 group = 'com.quantumxenon.origins_plus_plus'
-//---------------------------------------------
 
 minecraft {
     mappings channel: 'official', version: '1.18.2'
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.1.25'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.1.47'
 }
 
 jar {
