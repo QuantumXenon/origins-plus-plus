@@ -23,11 +23,23 @@
 				"type": "origins:delay",
 				"ticks": 6000,
 				"action": {
-					"type": "origins:if_else":,
+					"type": "origins:if_else",
 					"condition": {
-						"type": "origins:resource",
-						"comparison": ">",
-						"compare_to": 0
+						"type": "origins:and",
+						"conditions":[
+							{
+								"type": "origins:resource",
+								"resource": "origins-plus-plus:automaton/firebar",
+								"comparison": "==",
+								"compare_to": 0
+							},
+							{
+								"type": "origins:resource",
+								"resource": "origins-plus-plus:automaton/waterbar",
+								"comparison": "==",
+								"compare_to": 0
+							}
+						]
 					},
 					"if_action": {
 						"type": "origins:execute_command",
