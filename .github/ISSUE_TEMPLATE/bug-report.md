@@ -1,11 +1,12 @@
 ---
 name: Bug Report
 about: Report a bug
-title: "[Origin] [Power]"
 labels: 'bug'
 assignees: QuantumXenon
 
 ---
+**Version**
+Forge or Fabric?
 
 **Origin**
 The origin that is affected by the problem
