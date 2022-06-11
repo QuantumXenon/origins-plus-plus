@@ -12,14 +12,14 @@ apply plugin: 'eclipse'
 apply plugin: 'net.minecraftforge.gradle'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 version = '1.6'
-group = 'com.quantumxenon.origins_plus_plus'
+group = 'com.quantumxenon.origins-plus-plus'
 
 minecraft {
-    mappings channel: 'official', version: '1.18.2'
+    mappings channel: 'official', version: '1.19'
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.1.51'
+    minecraft 'net.minecraftforge:forge:1.19-41.0.17'
 }
 
 jar {
