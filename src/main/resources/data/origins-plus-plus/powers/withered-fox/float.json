@@ -97,26 +97,22 @@
             }
         }
     },
-    "wither": {
-        "type": "origins:stacking_status_effect",
-        "min_stacks": 0,
-        "max_stacks": 1,
-        "duration_per_stack": 20,
-        "effect": {
-            "duration": 0,
-            "is_ambient": false,
-            "show_particles": false,
-            "show_icon": false,
-            "effect": "instant_damage",
-            "amplifier": 1
-        },
-        "condition": {
-            "type": "origins:resource",
-            "inverted": false,
-            "comparison": "==",
-            "resource": "*:*_resource",
-            "compare_to": 0
-        }
+    "damage": {
+		"type": "origins:damage_over_time",
+		"interval": 20,
+		"onset_delay": 1,
+		"damage": 2,
+		"damage_source": {
+			"name": "wither",
+			"unblockable": true,
+			"bypasses_armor": true
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_resource",
+			"comparison": "==",
+			"compare_to": 0
+		}
     },
 	"float": {
         "type": "origins:stacking_status_effect",
