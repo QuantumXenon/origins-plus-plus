@@ -1,6 +1,6 @@
 {
    "name":"Glasses",
-   "description":"When in dark areas your vision sucks so you get blindness, unless of course you use a torch or lighting of some kind then the Blindness goes away.",
+   "description":"When in dark areas your vision sucks so you get blindness.",
    "type":"origins:stacking_status_effect",
    "min_stacks":22,
    "max_stacks":22,

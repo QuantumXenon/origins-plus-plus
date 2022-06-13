@@ -4,7 +4,7 @@
 		"type": "origins:if_else",
 		"condition": {
 			"type": "origins:resource",
-			"resource": "origins-plus-plus:wondering-spirit/size_resource",
+			"resource": "origins-plus-plus:wandering-spirit/size_resource",
 			"comparison": "<",
 			"compare_to": 1
 		},
@@ -51,7 +51,7 @@
 			"type": "origins:if_else",
 			"condition": {
 				"type": "origins:resource",
-				"resource": "origins-plus-plus:wondering-spirit/size_resource",
+				"resource": "origins-plus-plus:wandering-spirit/size_resource",
 				"comparison": ">",
 				"compare_to": 1
 			},

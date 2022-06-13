@@ -4,6 +4,6 @@
   "alpha": 0.5,
   "condition": {
     "type": "origins:power_active",
-    "power": "origins-plus-plus:wondering-spirit/phantom_toggle"
+    "power": "origins-plus-plus:wandering-spirit/phantom_toggle"
   }
 }

@@ -4,31 +4,31 @@
 	   "type":"origins:if_else",
 	   "condition":{
 		  "type":"origins:resource",
-		  "resource":"origins-plus-plus:wondering-spirit/size_resource",
+		  "resource":"origins-plus-plus:wandering-spirit/size_resource",
 		  "comparison":"<",
 		  "compare_to":1
 	   },
 	   "if_action":{
 		  "type":"origins:change_resource",
-		  "resource":"origins-plus-plus:wondering-spirit/size_resource",
+		  "resource":"origins-plus-plus:wandering-spirit/size_resource",
 		  "change":2
 	   },
 	   "else_action":{
 		  "type":"origins:if_else",
 		  "condition":{
 			 "type":"origins:resource",
-			 "resource":"origins-plus-plus:wondering-spirit/size_resource",
+			 "resource":"origins-plus-plus:wandering-spirit/size_resource",
 			 "comparison":">",
 			 "compare_to":1
 		  },
 		  "if_action":{
 			 "type":"origins:change_resource",
-			 "resource":"origins-plus-plus:wondering-spirit/size_resource",
+			 "resource":"origins-plus-plus:wandering-spirit/size_resource",
 			 "change":-1
 		  },
 		  "else_action":{
 			 "type":"origins:change_resource",
-			 "resource":"origins-plus-plus:wondering-spirit/size_resource",
+			 "resource":"origins-plus-plus:wandering-spirit/size_resource",
 			 "change":-1
 		  }
 	   }

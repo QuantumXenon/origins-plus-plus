@@ -10,7 +10,7 @@
           },
           {
              "type":"origins:execute_command",
-             "command":"function origins-plus-plus:wondering-spirit/start_ray",
+             "command":"function origins-plus-plus:wandering-spirit/start_ray",
              "permission_level":4
           },
           {
