@@ -8,7 +8,7 @@ buildscript {
 }
 
 apply plugin: 'net.minecraftforge.gradle'
-version = '1.6'
+version = '1.6.1'
 group = 'com.quantumxenon.origins_plus_plus'
 
 minecraft {
