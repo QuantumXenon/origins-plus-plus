@@ -157,7 +157,6 @@
 			"required":false,
 			"id":"minecraft:cake"
 		},
-		"#minecraft:carpets",
 		{
 			"required":false,
 			"id":"minecraft:cauldron"
