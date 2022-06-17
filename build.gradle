@@ -16,5 +16,5 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19-41.0.35'
+    minecraft 'net.minecraftforge:forge:1.19-41.0.37'
 }
