@@ -177,7 +177,7 @@
 	},
 	"block_condition": {
 		"type": "origins:in_tag",
-		"tag": "*:stone"
+		"tag": "origins-plus-plus:stone"
 	},
 	"name": "Earth Familiarity",
 	"description": "Your familiarity with the earth allows to to find treasures others cannot."

@@ -9,6 +9,6 @@
 		"block": "minecraft:bedrock"
 	},
 	"only_when_harvested": false,
-	"name": "Bedrock collector",
+	"name": "Bedrock Collector",
 	"description": "You can collect bedrock."
 }

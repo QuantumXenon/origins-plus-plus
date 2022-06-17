@@ -7,7 +7,7 @@
 	},
 	"condition": {
 		"type": "origins:power_active",
-		"power": "*:toggle"
+		"power": "origins-plus-plus:bedrockean/toggle"
 	},
 	"hidden": true
 }
