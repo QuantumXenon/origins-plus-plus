@@ -57,6 +57,16 @@
                 "type":"origins:execute_command",
                 "command":"team join aizawa @e[type=minecraft:stray,tag=!angry]",
                 "permission_level":4
+             },
+			 {
+                "type":"origins:execute_command",
+                "command":"team join aizawa @e[type=minecraft:spider,tag=!angry]",
+                "permission_level":4
+             },
+			 {
+                "type":"origins:execute_command",
+                "command":"team join aizawa @e[type=minecraft:creeper,tag=!angry]",
+                "permission_level":4
              }
           ]
        },
@@ -74,6 +84,6 @@
           "should_render":false
        }
     },
-    "name":"Nice",
-    "description":"Because your so nice to everyone, any hostile mob won't attack you unless provoked. You also get good discounts for villager trades."
+    "name":"Very Nice",
+    "description":"Because you're so nice to everyone; creepers, spiders, skeletons (+ varients), and zombies (+ varients) won't attack you unless provoked. You also get good discounts for villager trades."
 }
