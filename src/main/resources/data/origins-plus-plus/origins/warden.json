@@ -1,14 +1,15 @@
 {
 	"powers": [
-		"origins-plus-plus:warden/warden_eye",
-		"origins-plus-plus:warden/warden_eye2",
-		"origins-plus-plus:warden/warden_eye3",
-		"origins-plus-plus:warden/warden_life",
-		"origins-plus-plus:warden/warden_scream",
-		"origins-plus-plus:warden/warden_shield"
+		"origins:no_shield",
+		"origins-plus-plus:warden/bigandstrong",
+		"origins-plus-plus:warden/blind",
+		"origins-plus-plus:warden/echolocation",
+		"origins-plus-plus:warden/phase",
+		"origins-plus-plus:warden/shader",
+		"origins-plus-plus:warden/strength"
 	],
-	"icon": "minecraft:warped_wart_block",
-	"impact": 2,
+	"icon": "minecraft:sculk_sensor",
+	"impact": 3,
 	"name": "Warden",
-	"description": "Your Warden character has certain Traits deriving from your Warden ancestry."
+	"description": "Your warden character has certain traits deriving from your ancestry."
 }
