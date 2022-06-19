@@ -1,8 +1,0 @@
-{
-	"type": "origins:invulnerability",
-	"name": "Infernal",
-	"description": "As inhabitants of Hell, Hellfire is ineffective against you. In fact, you thrive in those scorching flames.",
-	"damage_condition": {
-		"type": "origins:fire"
-	}
-}

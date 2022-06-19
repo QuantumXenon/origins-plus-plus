@@ -1,1 +1,0 @@
-summon minecraft:item

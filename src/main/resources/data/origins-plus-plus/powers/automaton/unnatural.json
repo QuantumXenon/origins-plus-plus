@@ -1,8 +1,0 @@
-{
-    "type": "origins:prevent_item_use",
-    "item_condition": {
-		"type": "origins:food"
-	},
-	"name": "Unnatural",
-	"description": "You don't need to eat. You can't regen naturally either."
-}

@@ -1,1 +1,0 @@
-give @p warped_fungus_on_a_stick{matrix:1,display:{Name:'[{"text":"Slow Motion On/Off","italic":false}]',Lore:['[{"text":"Slow motion projectiles made","italic":false,"color":"gray"}]','[{"text":"by squidgga.","italic":false,"color":"gray"}]']}} 1

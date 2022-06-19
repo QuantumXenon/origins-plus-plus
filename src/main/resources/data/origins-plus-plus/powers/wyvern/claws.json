@@ -1,9 +1,0 @@
-{
-	"type": "origins:modify_damage_dealt",
-	"modifier": {
-		"operation": "addition",
-		"value": 5
-	},
-	"name": "Claws",
-	"description": "You have large powerful claws, allowing you to do more damage to enemies"
-}

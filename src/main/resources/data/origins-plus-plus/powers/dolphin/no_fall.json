@@ -1,9 +1,0 @@
-{
-  "type": "origins:invulnerability",
-  "damage_condition": {
-    "type": "origins:name",
-    "name": "fall"
-  },
-   "name":"No Fall Damage",
-   "description":"Because you can jump really high you have also learned how to land so it doesn't do damage to you."
-}

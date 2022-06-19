@@ -1,7 +1,0 @@
-{
-	"name": "Spirit Vision",
-	"description": "Everything you see is desaturated until you take form again.",
-    "type": "origins:shader",
-	"toggleable": false,
-    "shader": "minecraft:shaders/post/desaturate.json"
-}

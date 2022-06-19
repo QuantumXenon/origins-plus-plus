@@ -1,7 +1,0 @@
-{
-    "type": "origins:exhaust",
-    "interval": 200,
-    "exhaustion": 2,
-    "name":"Exhaustion",
-    "description":"You get hungry faster."
-}

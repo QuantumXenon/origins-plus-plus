@@ -1,9 +1,0 @@
-{
-    "name": "Sheltered Villager",
-    "description": "You lived a sheltered life, as such you didn't leave the village growing up. You spawn in a village.",
-    "type": "origins:modify_player_spawn",
-    "dimension": "minecraft:overworld",
-    "structure": "minecraft:village",
-    "spawn_strategy": "center",
-    "dimension_distance_multiplier": 1
-}

@@ -1,9 +1,0 @@
-{
-    "type": "origins:invulnerability",
-    "damage_condition": {
-        "type": "origins:name",
-        "name": "fall"
-    },
-    "name": "Unbreakable Knees",
-    "description": "Your knees are so strong, that you don't take fall damage."
-}

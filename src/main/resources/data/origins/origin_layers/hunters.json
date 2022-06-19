@@ -1,0 +1,18 @@
+{
+	"order":2,
+	"replace":false,
+	"allow_random":true,
+	"origins":[
+		{
+			"condition":{
+				"type":"origins:origin",
+				"origin":"manhunt-origins:hunter",
+				"layer":"origins:origin"
+			},
+			"origins":[
+				"manhunt-origins:none"
+			]
+		}
+	],
+	"name":"hunter"
+}

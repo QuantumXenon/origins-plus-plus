@@ -1,8 +1,0 @@
-{
-  "name": "Down With The Ship",
-  "description": "You spawn near a shipwreck",
-  "type": "origins:modify_player_spawn",
-  "dimension": "minecraft:overworld",
-  "structure": "minecraft:shipwreck",
-  "spawn_strategy": "center"
-}

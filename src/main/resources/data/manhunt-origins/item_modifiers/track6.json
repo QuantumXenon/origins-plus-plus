@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:copy_nbt",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "minecraft:lode"
+  },
+  "ops": [
+    {
+      "source": "Track2.Item.tag.LodestonePos.Z",
+      "target": "LodestonePos.Z",
+      "op": "replace"
+    }
+  ]
+}
+  

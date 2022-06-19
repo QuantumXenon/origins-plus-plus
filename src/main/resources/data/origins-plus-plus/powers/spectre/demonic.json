@@ -1,8 +1,0 @@
-{
-	"type": "origins:invulnerability",
-	"name": "Demonic",
-	"description": "After millenias of fighting and the corruption of The Devil, you adapted to the flames and developed Hellfire immunity.",
-	"damage_condition": {
-		"type": "origins:fire"
-	}
-}

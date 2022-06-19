@@ -1,1 +1,0 @@
-execute as @e[type=ender_pearl,distance=..12] at @s run function origins-plus-plus:rift-mage/tech/counter

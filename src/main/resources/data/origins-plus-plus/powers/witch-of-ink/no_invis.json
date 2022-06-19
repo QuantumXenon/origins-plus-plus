@@ -1,8 +1,0 @@
-{
-    "type": "origins:effect_immunity",
-    "effects": [
-        "minecraft:invisibility"
-    ],
-    "name": "Show Off",
-    "description": "You can't stand your colorful nature being suppressed, so you're immune to Invisibility."
-}

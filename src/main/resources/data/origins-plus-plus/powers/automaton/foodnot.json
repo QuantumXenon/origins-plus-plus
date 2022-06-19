@@ -1,9 +1,0 @@
-{
-    "type": "origins:modify_exhaustion",
-    "modifier": {
-        "name": "Foodnt",
-        "operation": "multiply_total",
-        "value": -2.0
-    },
-"hidden": true
-}

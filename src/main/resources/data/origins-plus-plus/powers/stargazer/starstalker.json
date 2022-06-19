@@ -1,7 +1,0 @@
-{
-    "name": "Starstalker",
-    "description": "You get phantom phase. [Secondary]",
-    "type": "origins:toggle",
-    "key": "key.origins.secondary_active",
-    "active_by_default": false
-}

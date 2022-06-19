@@ -1,9 +1,0 @@
-{
-	"type": "origins:modify_exhaustion",
-	"modifier": {
-		"value": 1,
-		"operation": "multiply_base"
-	},
-	"name": "Hungry",
-	"description": "It is very hunger consuming to fight so much. Lose hunger faster."
-}

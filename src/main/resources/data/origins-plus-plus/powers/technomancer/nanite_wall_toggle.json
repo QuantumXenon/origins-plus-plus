@@ -1,9 +1,0 @@
-{
-    "type":"origins:toggle",
-    "active_by_default": false,
-    "key":{
-       "key":"key.origins.secondary_active",
-       "continuous":false
-    },
-  "hidden": true
-}

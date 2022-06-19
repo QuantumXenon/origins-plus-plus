@@ -1,7 +1,0 @@
-{
-    "name": "Insomnia",
-    "description": "You have horrible nightmares when you fall asleep, because of this you've stopped sleeping altogether.",
-    "type": "origins:prevent_sleep",
-    "message": "You feel a horrible sense of dread and you decide not to sleep.",
-    "set_spawn_point": true
-}

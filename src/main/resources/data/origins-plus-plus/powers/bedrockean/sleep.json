@@ -1,7 +1,0 @@
-{
-    "type": "origins:prevent_sleep",
-    "message": "You feel rested enough from your time as apart of the world.",
-	"set_spawn_point": true,
-	"name":"Rested",
-	"description":"You got plenty of rest while you sat at the bottom of the world, why would you need any more?"
-}

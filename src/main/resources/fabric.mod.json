@@ -1,20 +1,18 @@
 {
 	"schemaVersion": 1, 
-	"id": "origins-plus-plus", 
-	"name": "Origins++", 
-	"version": "1.6", 
-	"description": "A collection of 110+ origins",
+	"id": "manhunt-origins", 
+	"name": "Manhunt: Origins", 
+	"version": "1.0", 
+	"description": "Speedrunner vs Hunter, but with Origins",
 	"authors": ["TheQuantumXenon"],   
-	"contributors": ["Credit goes to original authors.",
-					"(See CurseForge Description)"], 
+	"contributors": ["ItsYoBoi#1111 (for the original idea)"]
 	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus",
-		"issues": "https://github.com/QuantumXenon/origins-plus-plus/issues"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/manhunt-origins",
+		"issues": "https://github.com/QuantumXenon/manhunt-origins/issues"
 	},
 	"icon": "icon.png",
 	"depends": {
 		"fabric-api-base": "*",
-		"origins": "*",
-	    "pehkui": "*"
+		"origins": "*"
 	}
 }

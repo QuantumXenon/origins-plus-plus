@@ -1,9 +1,0 @@
-{
-    "type": "origins:modify_projectile_damage",
-    "name": "Brawler",
-    "description": "Your proficiency in ranged weapons is significantly compromised due to your massive and clumsy arms. Ranged damage halved.",
-    "modifier": {
-        "operation": "multiply_base",
-        "value": -0.5
-    }
-}

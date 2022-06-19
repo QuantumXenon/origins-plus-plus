@@ -1,9 +1,0 @@
-{
-    "name": "Light Skin",
-    "description": "You are Translucent due to you being a Demon.",
-    "type": "origins:model_color",
-    "red": 0.9,
-    "green": 0.93,
-    "blue": 1,
-    "alpha": 0.8
-}

@@ -1,9 +1,0 @@
-{
-    "hidden": true,
-    "type": "origins:action_over_time",
-    "interval": 1,
-    "entity_action": {
-        "type": "origins:execute_command",
-        "command": "title @s[scores={ManipCycle=2}] actionbar [\"\",{\"text\":\"Spectral Energy\",\"color\":\"yellow\"},{\"text\":\": \",\"color\":\"gray\"},{\"score\":{\"name\":\"@s\",\"objective\":\"ManipEnergy\"},\"color\":\"red\"}]"
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "type": "origins:effect_immunity",
-    "effects": [
-        "minecraft:poison"
-    ],
-	"name": "Robotic Body",
-	"description": "You're immune to poison"
-}
