@@ -1,0 +1,41 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 8,
+        "block": true,
+        "entity": true,
+        "shape_type": "visual",
+        "fluid_handling": "any",
+        "command_at_hit": "function origins-plus-plus:deathsworn/summon",
+        "command_step": 0.25,
+        "command_along_ray_only_on_hit": false,
+        "command_along_ray": "particle witch ~ ~ ~"
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "origins-plus-plus:deathsworn/soul_bar",
+                "comparison": ">",
+                "compare_to": 4
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:nbt",
+                    "nbt": "{lnc:1}"
+                }
+            }
+        ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    },
+    "name": "Demonic Pact",
+    "description": "Using the power of 5 SOUL Energy and a petrified heart in your hand, resummon its bound mob to serve you. Some mobs have special abilities that can be used at will.",
+    "key": "key.use"
+}

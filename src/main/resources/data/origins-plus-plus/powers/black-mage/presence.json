@@ -1,0 +1,238 @@
+{    
+    "name": "Presence",
+	"description": "You use your presence to brainwash all nearby mobs to make them not attack you. (Range:6 Blocks)",
+	   "type": "origins:active_self",
+    "entity_action": {
+		"type": "origins:and",
+        "actions": [
+		{
+                "type": "origins:execute_command",
+                "command": "team add blackk",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "team join blackk",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "team join blackk @e[type=!minecraft:player,distance=..8]",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:dust 0 0 0 2 ~ ~ ~ 3 3 3 100 1000",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:ash ~ ~ ~ 2 2 2 2 300",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.ender_dragon.ambient player @a[distance=..20] ~ ~ ~ 100 0.5 1",
+                "permission_level": 4
+	},
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -45
+	}
+	]
+	},
+	"cooldown": 400,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": false
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:honey_bottle"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:netherite_pickaxe"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:gunpowder"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:leather"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:blaze_powder"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:ink_sac"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:bone_block"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:phantom_membrane"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:wither_rose"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:golden_apple"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:magma_block"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:glistering_melon_slice"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:dragon_breath"
+              }
+		},
+	    "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:dragon_head"
+              }
+		},
+	    "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:wooden_sword"
+              }
+          },
+		  "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:book"
+              }
+          },
+		  "inverted": true
+	}
+	]
+	},
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 0
+	}
+}

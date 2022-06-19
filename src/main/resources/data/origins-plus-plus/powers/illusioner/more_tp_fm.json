@@ -1,0 +1,149 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:choice",
+		"actions": [{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=two] at thatalloguy run tp @s ~ ~ ~-2"
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=two] at thatalloguy run tp @s ~ ~ ~2.3"
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=one] at thatalloguy run tp @s ~ ~ ~-2"
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=one] at thatalloguy run tp @s ~ ~ ~-1"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=three] at thatalloguy run tp @s ~-2.1 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=three] at thatalloguy run tp @s ~-3 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=four] at thatalloguy run tp @s ~-1 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=four] at thatalloguy run tp @s ~2.3 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+        "element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=two] at thatalloguy run tp @s ~ ~ ~-3"
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=two] at thatalloguy run tp @s ~ ~ ~1.3"
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=one] at thatalloguy run tp @s ~ ~ ~2.6"
+				},
+				"weight": 10
+			},
+			{
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=one] at thatalloguy run tp @s ~ ~ ~2.3"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=three] at thatalloguy run tp @s ~-2.6 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=three] at thatalloguy run tp @s ~-2 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=four] at thatalloguy run tp @s ~-3 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=four] at thatalloguy run tp @s ~2.3 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=five] at thatalloguy run tp @s ~-2 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=five] at thatalloguy run tp @s ~1 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=five] at thatalloguy run tp @s ~-1 ~ ~"
+				},
+				"weight": 10
+			},
+      {
+				"element": {
+					"type": "origins:execute_command",
+					"command": "/execute as @e[type=minecraft:illusioner,tag=five] at thatalloguy run tp @s ~2 ~ ~"
+				},
+				"weight": 10
+			}
+		]
+	},
+	"interval": 1.2,
+  "hidden": true
+}

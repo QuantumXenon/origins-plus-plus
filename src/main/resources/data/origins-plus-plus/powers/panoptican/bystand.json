@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "name": "no dmg",
+        "operation": "multiply_total",
+        "value": -0.8
+    },
+    "name": "Bystander",
+    "description": "To act is to interfere, and thus you deal massively reduced direct damage due to your reluctance."
+}

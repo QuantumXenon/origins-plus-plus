@@ -1,0 +1,18 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_conditon": {
+        "type": "origins:attacker",
+        "entity_condition": {
+            "type": "origins:entity_type",
+            "entity_group": "default"
+        }
+    },
+    "modifier": {
+        "name": "resilience",
+        "operation": "multiply_base",
+        "value": -0.125
+    },
+    "name": "Rough Around the Edges",
+    "description": "You naturally take slightly less damage."
+}
+

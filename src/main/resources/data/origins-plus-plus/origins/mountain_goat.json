@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"origins:fresh_air",
+		"origins:fall_immunity",
+		"origins:vegetarian",
+		"origins-plus-plus:mountain-goat/high_jump",
+		"origins-plus-plus:mountain-goat/high_jump_a",
+		"origins-plus-plus:mountain-goat/ram",
+		"origins-plus-plus:mountain-goat/ram_a",
+		"origins-plus-plus:mountain-goat/thick_coat",
+		"origins-plus-plus:mountain-goat/thick_coat_a",
+		"origins-plus-plus:mountain-goat/tough"
+	],
+	"icon": "minecraft:white_wool",
+	"impact": 1,
+	"name": "Mountain Goat",
+	"description": "Protective of their homes, they often ram unfamiliar people off cliffs where they live."
+}

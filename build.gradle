@@ -8,8 +8,8 @@ buildscript {
 }
 
 apply plugin: 'net.minecraftforge.gradle'
-version = '1.0'
-group = 'com.quantumxenon.manhunt_origins'
+version = '1.6.1'
+group = 'com.quantumxenon.origins_plus_plus'
 
 minecraft {
     mappings channel: 'official', version: '1.19'

@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "name": "More damage",
+        "operation": "addition",
+        "value": 3.0
+    },
+    "name": "Bite Force",
+    "description": "Your strong bite allows you to deal a little more damage."
+}

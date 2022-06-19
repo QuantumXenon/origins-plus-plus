@@ -1,0 +1,23 @@
+{
+    "type":"origins:damage_over_time",
+    "interval":20,
+    "onset_delay":1200,
+    "damage":2,
+    "damage_easy":1,
+    "condition":{
+       "type":"origins:or",
+       "conditions":[
+          {
+             "type":"origins:fluid_height",
+             "fluid":"minecraft:water",
+             "comparison":"<=",
+             "compare_to":0
+          },
+          {
+             "type":"origins:in_rain"
+          }
+       ]
+    },
+    "name":"Dry",
+    "description":"You'll dry out if you're to long out of water."
+}

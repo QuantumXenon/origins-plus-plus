@@ -1,0 +1,87 @@
+{
+  "name": "Sticky Grip",
+  "description": "With your sticky skin, you're able to climb walls. (Toggleable with the secondary ability key.) However, this also makes it so you can't throw tridents as effectively, and can't use bows or crossbows whatsoever.",
+  "type": "origins:multiple",
+
+  "toggle": {
+    "type": "origins:toggle",
+    "key": {
+      "key": "key.origins.secondary_active",
+      "continuous": false
+    }
+  },
+
+  "climbing": {
+    "type": "origins:climbing",
+    "hold_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:block_collision",
+              "offset_x": 0.01,
+              "offset_z": 0.01,
+              "offset_y": 0
+            },
+            {
+              "type": "origins:block_collision",
+              "offset_x": -0.01,
+              "offset_z": -0.01,
+              "offset_y": 0
+            }
+          ]
+        },
+        {
+          "type": "origins:power_active",
+          "power": "*:*_toggle"
+        }
+      ]
+      },
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:collided_horizontally"
+          },
+          {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+          }
+        ]
+      }
+  },
+
+  "bad_bow_trident": {
+		"type": "origins:modify_projectile_damage",
+		"damage_condition":	{
+			"type": "origins:projectile",
+			"projectile": "minecraft:trident"
+		},
+		"modifiers": [
+      {
+        "operation": "multiply_base",
+        "value": -0.50
+      }
+		]
+	},
+  "cannot_use_bows": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:bow"
+        }
+    }
+  },
+  "cannot_use_crossbows": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:crossbow"
+        }
+    }
+  }
+}

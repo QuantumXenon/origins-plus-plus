@@ -1,0 +1,28 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "multiply_total",
+		"value": -1,
+		"name": "Powered off"
+	},
+	"tick_rate": 1,
+	"condition": {
+		"type": "origins:or",
+		"conditions": [{
+				"type": "origins:resource",
+				"resource": "origins-plus-plus:automaton/firebar",
+				"comparison": "==",
+				"compare_to": 0
+			},
+			{
+				"type": "origins:resource",
+				"resource": "origins-plus-plus:automaton/waterbar",
+				"comparison": "==",
+				"compare_to": 0
+			}
+		]
+	},
+"name": "Power Saving Mode",
+"description": "When you run out on any bar you'll enter power saving mode."
+}

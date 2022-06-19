@@ -1,0 +1,25 @@
+{
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+	   "attribute":"minecraft:generic.attack_damage",
+	   "operation":"addition",
+	   "value":6
+	},
+	"condition":{
+	   "type":"origins:and",
+	   "conditions":[
+		  {
+			 "type":"origins:equipped_item",
+			 "equipment_slot":"mainhand",
+			 "item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+				   "tag":"origins-plus-plus:axes"
+				}
+			 }
+		  }
+	   ]
+	},
+	"name":"Ravager's Wrath",
+	"description":"You gain strength while holding an axe."
+}

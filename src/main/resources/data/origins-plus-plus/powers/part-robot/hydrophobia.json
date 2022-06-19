@@ -1,0 +1,30 @@
+{
+  "type": "origins:damage_over_time",
+  "interval": 200,
+  "onset_delay": 200,
+  "damage": 2,
+  "damage_easy": 1,
+  "damage_source": {
+    "name": "hurt_by_water",
+    "unblockable": true,
+    "bypasses_armor": true
+  },
+  "protection_enchantment": "origins:water_protection",
+  "protection_effectiveness": 1.0,
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0.0
+      },
+      {
+        "type": "origins:in_rain"
+      }
+    ]
+  },
+  "name": "Hydrophobic",
+  "description": "You're a robot and you remember how electricity gets ruined by the water so yeah, good luck! (You have 10 seconds to not take damage)."
+}

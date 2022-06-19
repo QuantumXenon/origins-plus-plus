@@ -1,0 +1,8 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:falling_honey",
+    "frequency": 12,
+    "visible_in_first_person": true,
+    "name": "Dream Body",
+    "description": "Your admit golden particles"
+}

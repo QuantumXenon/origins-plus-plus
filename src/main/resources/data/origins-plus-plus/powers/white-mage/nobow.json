@@ -1,0 +1,11 @@
+{
+    "type": "origins:prevent_item_use",
+    "hidden": true,
+    "item_condition": {
+        "type": "origins:ingredient",
+        "inverted": false,
+        "ingredient": {
+            "item": "minecraft:bow"
+        }
+    }
+}

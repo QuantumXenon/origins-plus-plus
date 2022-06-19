@@ -1,0 +1,10 @@
+{
+    "name": "Homely Forge ",
+    "description": "Spending your time on the forge you became immune to heat and fire. You still take damage in lava.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:lava"
+    },
+    "type": "origins:fire_immunity"
+}

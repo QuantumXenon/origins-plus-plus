@@ -1,0 +1,17 @@
+{
+    "name": "Deadshot",
+    "description": "You Can Shoot a Wither Skull.",
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:wither_skull",
+    "cooldown": 40,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 7
+    },
+    "count": 1,
+    "speed": 3,
+    "divergence": 1,
+    "sound": "minecraft:entity.phantom.death",
+    "key": "secondary"
+}

@@ -1,0 +1,29 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "summon area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:6f,RadiusPerTick:0f,Duration:200,Color:2723378,Effects:[{Id:19b,Amplifier:1b,Duration:100}]}",
+			"permission_level": 4
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "summon area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:6f,RadiusPerTick:0f,Duration:200,Effects:[{Id:20b,Amplifier:0b,Duration:100}]}",
+			"permission_level": 4
+		}
+		]
+	},
+
+	"key": {
+		"key": "key.origins.secondary_active"
+	},
+  "cooldown": 200,
+	"hud_render": {
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 20
+	},
+  "name": "Spore Spreader+",
+  "description": "Secondary Ability: After evolving, you spread stronger spores around you that inflict all nearby entities with poison II and wither in a 6 block radius AOE field. If they escape, lasts for an additional 5 seconds. 20 second cooldown."
+}

@@ -1,1 +1,0 @@
-execute in minecraft:the_end run summon item ~ ~ ~ {NoGravity:1b,Silent:1b,Age:-32768,PickupDelay:32767,Tags:["tracking3"],Item:{id:"minecraft:compass",Count:1b,tag:{LodestoneDimension:"minecraft:the_end",LodestoneTracked:0b,LodestonePos:{X:0,Y:0,Z:0}}}}

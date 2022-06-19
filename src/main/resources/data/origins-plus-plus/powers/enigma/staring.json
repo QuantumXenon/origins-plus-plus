@@ -1,0 +1,39 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 32,
+        "block": true,
+        "entity": true,
+        "shape_type": "visual",
+        "fluid_handling": "any",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "scoreboard players add @s Enigma 1"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "scoreboard players set @s Enigma2 20"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "kill @s[scores={Enigma=35..}]"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "effect give @s glowing 1 1 true"
+                    }
+                ]
+            }
+        },
+        "command_step": 0.25
+    },
+    "interval": 10,
+    "name": "Staring Contest",
+    "description": "Staring at an entity for a long enough time will kill it. When you begin looking at it, it'll gain slowness & weakness. Later on, your stare will inflict blindness and nausea."
+}

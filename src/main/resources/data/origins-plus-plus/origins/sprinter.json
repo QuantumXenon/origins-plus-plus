@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"origins:cat_vision",
+		"origins-plus-plus:sprinter/adrenaline_boost",
+		"origins-plus-plus:sprinter/american",
+		"origins-plus-plus:sprinter/burns",
+		"origins-plus-plus:sprinter/light_feet",
+		"origins-plus-plus:sprinter/nimble",
+		"origins-plus-plus:sprinter/skinny"
+	],
+	"icon": "minecraft:leather_boots",
+	"impact": 2,
+	"name": "Sprinter",
+	"description": "Sprinter boi go zooooom!"
+}

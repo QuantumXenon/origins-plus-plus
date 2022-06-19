@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"origins-plus-plus:hero-of-the-wild/epona",
+		"origins-plus-plus:hero-of-the-wild/wild_climb",
+		"origins-plus-plus:hero-of-the-wild/wild_dash",
+		"origins-plus-plus:hero-of-the-wild/wild_elytra",
+		"origins-plus-plus:hero-of-the-wild/wild_energy",
+		"origins-plus-plus:hero-of-the-wild/wild_food",
+		"origins-plus-plus:hero-of-the-wild/wild_sw",
+		"origins-plus-plus:hero-of-the-wild/wild_swim"
+	],
+	"icon": "minecraft:iron_sword",
+	"impact": 2,
+	"name": "Hero of The Wild",
+	"description": "Your character has many abilities that will help with exploration."
+}

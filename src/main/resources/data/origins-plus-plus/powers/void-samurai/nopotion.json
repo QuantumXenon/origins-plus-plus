@@ -1,0 +1,16 @@
+{
+	
+    "type": "origins:prevent_item_use",
+	"name":"Magicless",
+	"description":"You are unable to use potions",
+    "item_condition": 
+	{    
+            "type":"origins:ingredient",
+			"ingredient": 		
+			{
+				"item":"minecraft:potion"
+			}
+			
+    },
+    "hidden":false
+}

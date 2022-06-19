@@ -1,0 +1,2 @@
+tellraw @s [{"text":"[","color":"dark_gray","bold":false,"italic":false},{"text":"★","color":"#00E64D","bold":false,"italic":false},{"text":"] ","color":"dark_gray"},{"text":"You have leveled up! ","color":"#75E684"},{"text":"+1 Emerald","color":"#28D415","bold":false,"italic":false}]
+give @s emerald 1

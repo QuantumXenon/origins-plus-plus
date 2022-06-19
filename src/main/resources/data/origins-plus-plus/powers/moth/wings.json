@@ -1,0 +1,6 @@
+{
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+	"name": "Wings",
+	"description": "As a moth you have wings! You can fly using elytra."
+}

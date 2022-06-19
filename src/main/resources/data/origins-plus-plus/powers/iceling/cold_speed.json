@@ -1,0 +1,26 @@
+{
+    "condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:temperature",
+			"comparison": "<",
+			"compare_to": 0.15
+		}
+	},
+	"type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+      "effect": "minecraft:speed",
+      "duration": 40,
+      "amplifier": 1,
+      "is_ambient": false,
+      "show_particles": false,
+      "show_icon": true
+    },
+
+    "name": "At Home in the Tundra",
+    "description": "You Deal more damage over all in cold biomes."
+  }
+  

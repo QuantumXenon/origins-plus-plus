@@ -1,0 +1,15 @@
+{
+    "name": "Gnoll",
+    "description": "You are a strong, large, carrion eater with a temper!",
+    "powers": [
+        "origins:carnivore",
+		"origins-plus-plus:gnoll/carrioneater",
+        "origins-plus-plus:gnoll/carrionsaturation",
+        "origins-plus-plus:gnoll/largebuild",
+        "origins-plus-plus:gnoll/largehealth",
+        "origins-plus-plus:gnoll/nighteye",
+        "origins-plus-plus:gnoll/rage"
+    ],
+    "icon": "minecraft:rotten_flesh",
+    "impact": 3
+}

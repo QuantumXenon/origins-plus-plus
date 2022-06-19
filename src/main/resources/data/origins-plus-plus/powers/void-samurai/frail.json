@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+	"name":"Frail",
+	"description":"8 max hearts idiot",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.max_health",
+        "value": -4,
+        "operation": "addition"
+    }
+}

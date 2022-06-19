@@ -1,0 +1,23 @@
+{
+	"powers": [
+		"origins:climbing",
+		"origins:arthropod",
+		"origins-plus-plus:flea/antivore",
+		"origins-plus-plus:flea/bloodsucking",
+		"origins-plus-plus:flea/disable_regen",
+		"origins-plus-plus:flea/diseasedbite",
+		"origins-plus-plus:flea/inchreach",
+		"origins-plus-plus:flea/inchspeed",
+		"origins-plus-plus:flea/inchtall",
+		"origins-plus-plus:flea/jockey",
+		"origins-plus-plus:flea/jump",
+		"origins-plus-plus:flea/nimble",
+		"origins-plus-plus:flea/regen",
+		"origins-plus-plus:flea/small_heart",
+		"origins-plus-plus:flea/small_stomach"
+	],
+	"icon": "minecraft:beetroot_soup",
+	"impact": 3,
+	"name": "Flea",
+	"description": "A nasty little bloodsucking pest..."
+}

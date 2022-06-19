@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:iron_ingot"
+        }
+    }
+	
+}

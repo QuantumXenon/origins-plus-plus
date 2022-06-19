@@ -1,0 +1,13 @@
+{
+	"type": "origins:active_self",
+	"hidden":true,
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "origins-plus-plus:void-samurai/charge",
+		"change": -5
+	},
+	"cooldown": 20,
+	"hud_render": {
+		"should_render": false
+	}
+}

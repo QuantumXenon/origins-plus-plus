@@ -1,0 +1,24 @@
+{
+  "name":"No Need For Air",
+  "description":"You do not require air to survive allowing you to live under water without dying.",
+  "interval": 1,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:water_breathing",
+      "duration": 3,
+      "show_particles": false,
+      "amplifier": 0,
+      "show_icon": false
+    }
+  },
+  "condition": {
+    "type": "origins:in_block",
+    "block_condition": {
+      "type": "origins:material",
+      "material": "air",
+      "inverted": true
+  }
+  }
+}

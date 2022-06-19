@@ -1,0 +1,20 @@
+{
+    "type": "origins:action_over_time",
+    "rising_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:levitation",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": false
+        }
+    },
+    "interval": 19,
+    "condition": {
+        "type": "origins:health",
+        "comparison": "<",
+        "compare_to": 4
+    },
+    "name": "REJECT DEATH RETURN TO SPACEMANITY!",
+    "description": "You float for a while whenever you're low on health with no slow falling."
+}

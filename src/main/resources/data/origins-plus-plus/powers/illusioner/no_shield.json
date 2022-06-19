@@ -1,0 +1,11 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:shield"
+		}
+	},
+  "name": "im not made for this",
+  "description": "because you only trained with bows you cant use shields"
+}

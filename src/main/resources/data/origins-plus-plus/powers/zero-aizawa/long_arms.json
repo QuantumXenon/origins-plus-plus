@@ -1,0 +1,21 @@
+{
+	"type":"origins:action_on_callback",
+    "name": "Long Arms",
+    "description": "Your reach is increased.",
+	"execute_chosen_when_orb":true,
+	"entity_action_chosen":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:reach 2.25 @s",
+		"permission_level":4
+	},
+	"entity_action_respawned":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:reach 2.25 @s",
+		"permission_level":4
+	},
+	"entity_action_lost":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:reach 2.25 @s",
+		"permission_level":4
+	}
+}

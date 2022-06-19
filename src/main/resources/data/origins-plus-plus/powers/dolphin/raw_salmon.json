@@ -1,0 +1,18 @@
+{
+	"type": "origins:modify_food",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:salmon"
+		}
+	},
+	"food_modifier": {
+		"value": 4,
+		"operation": "addition"
+	},
+	"saturation_modifier": {
+		"value": 8.2,
+		"operation": "addition"
+	},
+	"hidden": true
+}

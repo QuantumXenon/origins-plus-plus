@@ -1,0 +1,25 @@
+{
+    "type": "origins:prevent_entity_use",
+    "bientity_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:villager"
+                }
+            },
+            {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:nbt",
+                    "nbt": "{Tags:['Tradable']}",
+                    "inverted": true
+                }
+            }
+        ]
+    },
+    "name": "Bounty Target",
+    "description": "The villagers put a bounty on you, so they won't trade with you unless you used Smooth Talk on them."
+}

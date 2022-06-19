@@ -1,0 +1,31 @@
+{
+	"powers": [
+		"origins-plus-plus:soul-seer/attackhunger",
+		"origins-plus-plus:soul-seer/attacksoul",
+		"origins-plus-plus:soul-seer/belowboost",
+		"origins-plus-plus:soul-seer/belowzero",
+		"origins-plus-plus:soul-seer/featherfall",
+		"origins-plus-plus:soul-seer/fullboost",
+		"origins-plus-plus:soul-seer/halfboost",
+		"origins-plus-plus:soul-seer/hpchange",
+		"origins-plus-plus:soul-seer/nightvision",
+		"origins-plus-plus:soul-seer/noeat_charge",
+		"origins-plus-plus:soul-seer/noeat_depleat",
+		"origins-plus-plus:soul-seer/noeat_finaly", 
+		"origins-plus-plus:soul-seer/noeat_source",
+		"origins-plus-plus:soul-seer/particle",
+		"origins-plus-plus:soul-seer/soul_depleat",
+		"origins-plus-plus:soul-seer/soul_depleat",
+		"origins-plus-plus:soul-seer/soul_depleat_time",
+		"origins-plus-plus:soul-seer/soul_shader",
+		"origins-plus-plus:soul-seer/soullight",
+		"origins-plus-plus:soul-seer/souls",
+		"origins-plus-plus:soul-seer/soulsource",
+		"origins-plus-plus:soul-seer/teleport_set",
+		"origins-plus-plus:soul-seer/transparent"
+	],
+	"icon": "minecraft:soul_sand",
+	"impact": 3,
+	"name": "Soul-Seer",
+	"description": "You are a mostly soul-like being, though you have many skills and flaws relying on a soul-well to stay in top shape."
+}

@@ -1,0 +1,21 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:base 0.4",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "scale delay set 0",
+        "permission_level": 4
+      }
+    ]
+  },
+  "interval": 1,
+  "name": "Bite Size",
+  "description": "You are the smaller than the average person due to evolution."
+}

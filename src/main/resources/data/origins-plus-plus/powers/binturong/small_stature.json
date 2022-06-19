@@ -1,0 +1,66 @@
+{
+	"name": "All Paws",
+	"description": "On all four legs (when crouching), these animals are smaller",
+		"type": "origins:action_on_callback",
+		"execute_chosen_when_orb": true,
+		"entity_action_chosen": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "scale set pehkui:width 0.8 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "scale set pehkui:height 0.8 @s"
+				}
+			]
+		},
+		"entity_action_respawned": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "scale set pehkui:width 0.8 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "scale set pehkui:height 0.8 @s"
+				}
+			]
+		},
+		"entity_action_lost": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "scale set pehkui:width 1 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "scale set pehkui:height 1 @s"
+				}
+			]
+		},
+		"entity_action_removed": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "scale set pehkui:width 1 @s"
+				},
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "scale set pehkui:height 1 @s"
+				} 
+			]
+		}
+}

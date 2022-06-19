@@ -1,0 +1,16 @@
+{
+    "type": "origins:self_action_when_hit",
+	"cooldown": 5,
+    "entity_action": {
+        "type": "origins:change_resource",
+		"resource": "origins-plus-plus:soul-seer/soulsource",
+		"change": -35
+		},
+    "damage_condition": {
+        "type": "origins:amount",
+        "comparison": ">=",
+        "compare_to": 1.0
+    },
+	"name": "Unstable Vigor",
+	"description": "Due to being a half Soul being, you are unstable by nature. When injured or sprinting you will use up your Soul-Well."
+}

@@ -1,0 +1,7 @@
+{
+    "name": "lwalk",
+    "description": "lwalk",
+    "hidden": true,
+    "type": "origins:walk_on_fluid",
+    "fluid": "minecraft:lava"
+}

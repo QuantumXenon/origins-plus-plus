@@ -1,0 +1,61 @@
+{    
+   "hidden": true,
+    "type": "origins:active_self",
+    "entity_action": {
+		"type": "origins:and",
+        "actions": [
+	{
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=1..15] minecraft:levitation 1 3",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "effect give @e[distance=1..15] minecraft:weakness 1 2",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:dust 0 0 0 2 ~ ~ ~ 5 5 5 100 30",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:ash ~ ~ ~ 4 4 4 2 20",
+                "permission_level": 4
+	},
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -1
+	}
+	]
+	},
+	"cooldown": 0,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": true
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": false
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:phantom_membrane"
+              }
+          }
+	}
+	]
+	},
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 0
+	}
+}

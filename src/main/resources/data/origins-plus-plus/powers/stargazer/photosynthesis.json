@@ -1,0 +1,10 @@
+{
+  "type": "origins:restrict_armor",
+  "head": {
+    "type": "origins:armor_value",
+    "comparison": ">",
+    "compare_to": 0
+  },
+    "name": "Photosynthesis",
+	"description": "Cannot wear a helmet."
+}

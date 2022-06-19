@@ -1,0 +1,34 @@
+{
+    "name": "Unrivaled Speed",
+    "description": "As a special ability, you gain Speed III for 10 seconds, this ability has a 1-minute cooldown. [Secondary]",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+		    {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:speed",
+                    "duration": 245,
+                    "amplifier": 2,
+                    "show_icon": true,
+                    "show_particles": true
+                }
+            },
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "particle minecraft:witch ~ ~ ~ 0 0 0 1 100"
+            }
+        ]
+    },
+    "cooldown": 1200,
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 3
+    }
+}

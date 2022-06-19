@@ -1,0 +1,139 @@
+{
+	"type": "origins:multiple",
+	"name": "Heavy",
+	"description": "You fall 50% faster than normal, can't float in water, and can't ride any animals or vehicles",
+	"fall": {
+		"type": "origins:modify_falling",
+		"velocity": 0.12,
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": "==",
+			"compare_to": 0
+		}
+	},
+	"mount_no": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:dismount"
+		},
+		"condition": {
+			"type": "origins:riding"
+		}
+	},
+	"water": {
+		"type": "origins:ignore_water"
+	},
+	"speed_0": {
+		"type": "origins:conditioned_attribute",
+		"interval": 5,
+		"modifier": {
+			"attribute": "generic.movement_speed",
+			"operation": "multiply_total",
+			"value": -0.6
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:fluid_height",
+				"fluid": "water",
+				"comparison": ">",
+				"compare_to": 0
+			},
+			{
+				"type": "origins:enchantment",
+				"enchantment": "depth_strider",
+				"calculation": "sum",
+				"comparison": "==",
+				"compare_to": 0
+			}
+			]
+		}
+	},
+	"speed_1": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "generic.movement_speed",
+			"operation": "multiply_total",
+			"value": -0.4
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:fluid_height",
+				"fluid": "water",
+				"comparison": ">",
+				"compare_to": 0
+			},
+			{
+				"type": "origins:enchantment",
+				"enchantment": "depth_strider",
+				"calculation": "sum",
+				"comparison": "==",
+				"compare_to": 1
+			}
+			]
+		}
+	},
+	"speed_2": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "generic.movement_speed",
+			"operation": "multiply_total",
+			"value": -0.2
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:fluid_height",
+				"fluid": "water",
+				"comparison": ">",
+				"compare_to": 0
+			},
+			{
+				"type": "origins:enchantment",
+				"enchantment": "depth_strider",
+				"calculation": "sum",
+				"comparison": "==",
+				"compare_to": 2
+			}
+			]
+		}
+	},
+	"fall_water": {
+		"type": "origins:modify_falling",
+		"velocity": 0.04,
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": ">",
+			"compare_to": 0
+		}
+	},
+	"fall_damage_water": {
+		"type": "origins:action_over_time",
+		"interval": 10,
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "water",
+			"comparison": ">",
+			"compare_to": 0
+		},
+		"rising_action": {
+			"type": "origins:set_fall_distance",
+			"fall_distance": 0
+		},
+		"entity_action": {
+			"type": "origins:set_fall_distance",
+			"fall_distance": 0
+		},
+		"falling_action": {
+			"type": "origins:set_fall_distance",
+			"fall_distance": 0
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_lava_speed",
+  "modifier": {
+    "name": "Additional lava speed",
+    "value": 0.42,
+    "operation": "addition"
+  },
+  "name": "Like Lava",
+  "description": "You move swiftly through lava."
+}

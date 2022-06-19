@@ -1,0 +1,26 @@
+{
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":3,
+	"duration_per_stack":10,
+	"effects":[
+	   {
+		  "effect":"minecraft:speed",
+		  "duration":100,
+		  "amplifier":1,
+		  "is_ambient":true,
+		  "show_particles":false,
+		  "show_icon":false
+	   },
+	   {
+		  "effect":"minecraft:haste",
+		  "duration":100,
+		  "amplifier":1,
+		  "is_ambient":true,
+		  "show_particles":false,
+		  "show_icon":false
+	   }
+	],
+	"name":"Quick Hands and Feet",
+	"description":"Due to your nature, you have learned to move faster than most. Allowing you to mine and move faster than others. (Permanent Haste and Speed)"
+}

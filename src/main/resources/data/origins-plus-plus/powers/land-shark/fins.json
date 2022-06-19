@@ -1,0 +1,21 @@
+{
+    "name": "Fins",
+    "description": "You get slowness 2 while on land.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:slowness",
+        "duration": 100,
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon": true
+    }
+}

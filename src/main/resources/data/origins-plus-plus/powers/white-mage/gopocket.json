@@ -1,0 +1,71 @@
+{    
+    "hidden": true,
+	   "type": "origins:active_self",
+    "entity_action": {
+		"type": "origins:and",
+        "actions": [
+	{
+                "type": "origins:execute_command",
+                "command": "forceload add ~ ~",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "summon armor_stand ~ ~ ~ {Invisible:1b,Tags:[\"back\"],Invunerable:1b,NoGravity:1b,}",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "execute in minecraft:the_nether run tp @s 777 189 777",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "effect give @s minecraft:blindness 8 1",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:dust 0 0 0 3 ~ ~ ~ 2 2 1 10 100",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.lightning_bolt.thunder player @a[distance=..20] ~ ~ ~ 100 2 1",
+                "permission_level": 4
+	},
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:white-mage/resource",
+                "change": -50
+	}
+	]
+	},
+	"cooldown": 0,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": true
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:lodestone"
+              }
+          }
+	}
+	]
+	},
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 0
+	}
+}

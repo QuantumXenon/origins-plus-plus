@@ -1,0 +1,16 @@
+{
+	"hidden": true,
+    "type": "origins:action_over_time",
+	"entity_action": {
+    "type": "origins:change_resource",
+    "resource": "origins-plus-plus:black-mage/resource",
+    "change": 1
+	},
+	"interval": 7,
+	"condition": {
+		"type": "origins:resource",
+        "resource": "origins-plus-plus:black-mage/resource",
+        "comparison": "<",
+        "compare_to": 1200
+}
+}

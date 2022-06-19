@@ -1,0 +1,16 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:potion",
+    "cooldown": 150,
+    "hud_render": {
+        "should_render": true
+    },
+    "tag": "{Item: {id: 'minecraft:lingering_potion', Count: 1b, tag: {Potion: 'minecraft:poison'}}}",
+	"sound": "minecraft:entity.ender_dragon.growl",
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": true
+    },
+	"name": "Venomous",
+	"description": "You can breath out large clouds of poison"
+}

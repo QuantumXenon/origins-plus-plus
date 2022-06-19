@@ -1,0 +1,14 @@
+{
+	"replace":false,
+	"values":[
+		"minecraft:beef",
+		"minecraft:porkchop",
+		"minecraft:chicken",
+		"minecraft:cod",
+		"minecraft:salmon",
+		"minecraft:mutton",
+		"minecraft:rabbit",
+		"minecraft:tropical_fish",
+		"minecraft:rotten_flesh"
+	]
+}

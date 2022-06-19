@@ -1,0 +1,192 @@
+{
+    "name": "Curse of Decay",
+    "description": "Wearing, holding, or being hit by anything with a curse enchantment will affect you with Wither II for 3 seconds.",
+    "type": "origins:multiple",
+    "curse_when_hit": {
+        "type": "origins:self_action_when_hit",
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:attacker",
+                    "entity_condition": {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:enchantment",
+                            "enchantment": "minecraft:vanishing_curse",
+                            "comparison": ">=",
+                            "compare_to": 1
+                        }
+                    }
+                },
+                {
+                    "type": "origins:attacker",
+                    "entity_condition": {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:enchantment",
+                            "enchantment": "minecraft:binding_curse",
+                            "comparison": ">=",
+                            "compare_to": 1
+                        }
+                    }
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "wither",
+                "duration": 60,
+                "amplifier": 1,
+                "show_particles": true,
+                "show_icon": true
+            }
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "curse_armor": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:vanishing_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:vanishing_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "head",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:vanishing_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "chest",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:vanishing_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "legs",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:vanishing_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "feet",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:vanishing_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:binding_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:binding_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "head",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:binding_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "chest",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:binding_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "legs",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:binding_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "feet",
+                    "item_condition": {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:binding_curse",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                }
+            ]
+        },
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 60,
+        "tick_rate": 10,
+        "effect": {
+            "effect": "wither",
+            "duration": 60,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": false
+        }
+    }
+}

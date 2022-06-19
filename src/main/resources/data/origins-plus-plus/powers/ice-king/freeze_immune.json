@@ -1,0 +1,9 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "freeze"
+    },
+    "name": "Freeze Immune",
+    "description": "You don't take any freezing damage."
+}

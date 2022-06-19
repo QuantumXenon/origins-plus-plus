@@ -1,0 +1,16 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "origins-plus-plus:manipulator/dirtttt"
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "scoreboard players operation @s[scores={ManipCycle=3,ManipDirt=1..}] ManipDirt -= @s ManipDummy"
+    },
+    "cooldown": 900,
+    "hud_render": {
+        "should_render": false
+    }
+}

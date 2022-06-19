@@ -1,0 +1,46 @@
+{
+	"type": "origins:target_action_on_hit",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:slowness",
+					"amplifier": 0,
+					"duration": 30
+				}
+			},
+			{
+				"type": "origins:add_velocity",
+				"y": 0.5
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:falling_water ~ ~.5 ~ 0.5 1 0.5 9 25 force"
+			},
+			{
+				"type": "origins:extinguish"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s[type=minecraft:enderman] minecraft:instant_damage"
+			}
+		]
+	},
+	"cooldown": 1,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:power_active",
+				"power": "origins-plus-plus:automaton/attacktoggle"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "origins-plus-plus:automaton/waterbar",
+				"comparison": ">",
+				"compare_to": 1499
+			}
+		]
+	},
+	"hidden": true
+}

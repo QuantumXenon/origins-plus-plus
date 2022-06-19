@@ -1,0 +1,19 @@
+{
+	"type":"origins:modify_damage_dealt",
+	"condition":{
+	   "type":"origins:equipped_item",
+	   "equipment_slot":"mainhand",
+	   "item_condition":{
+		  "type":"origins:ingredient",
+		  "ingredient":{
+			 "tag":"withered_skeletian:stone_sword"
+		  }
+	   }
+	},
+	"modifier":{
+	   "operation":"multiply_total",
+	   "value":7
+	},
+	"name":"Sharper Stone",
+	"description":"Stone Swords do as much damage as a diamond axe."
+}

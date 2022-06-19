@@ -1,0 +1,16 @@
+{
+  "name": "Name",
+  "description": "Description",
+  "hidden": true,
+  "type": "origins:active_self",
+  "entity_action": {
+      "type": "origins:add_velocity",
+      "y": 0.3,
+      "space": "world"
+  },
+  "cooldown": 10,
+  "key": {
+      "key": "key.origins.primary_active",
+      "continuous": true
+  }
+}

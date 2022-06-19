@@ -1,0 +1,33 @@
+{
+    "type": "origins:action_over_time",
+    "rising_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:area_of_effect",
+                "radius": 1.75,
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 8,
+                        "source": {
+                            "name": "onFire",
+                            "fire": true,
+                            "bypasses_armor": true
+                        }
+                    }
+                }
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 1,
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "kill @s"
+                }
+            }
+        ]
+    },
+    "interval": 1
+}

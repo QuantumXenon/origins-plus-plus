@@ -1,0 +1,62 @@
+{
+	"type": "origins:damage_over_time",
+	"interval": 40,
+	"onset_delay": 1,
+	"damage": 2,
+	"damage_easy": 1,
+	"damage_source": {
+		"name": "onFire",
+		"fire": true
+	},
+	"protection_enchantment": "minecraft:fire_protection",
+	"protection_effectivness": 1,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:biome",
+						"condition": {
+						"type": "origins:temperature",
+						"comparison": ">=",
+						"compare_to": 2.0
+						}
+					},
+					{
+						"type": "origins:or",
+						"conditions": [
+						{
+							"type": "origins:exposed_to_sun"
+						},
+						{
+							"type": "origins:dimension",
+							"dimension": "minecraft:the_nether"
+						}
+						]
+					},
+					{
+						"type": "origins:in_block",
+						"block_condition": {
+							"type": "origins:block",
+							"block": "minecraft:water"
+						},
+						"inverted": true
+					}
+				]
+			},
+			{
+				"type": "origins:status_effect",
+				"effect": "minecraft:fire_resistance",
+				"min_amplifier": 0,
+				"max_amplifier": 2147483647,
+				"min_duration": 0,
+				"max_duration": 2147483647,
+				"inverted": true
+			}
+		]
+	},
+	"name": "Cold Blooded",
+	"description": "When in hot biomes and Nether, you cannot use your special abilities."
+}

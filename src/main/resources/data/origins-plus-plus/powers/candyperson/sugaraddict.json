@@ -1,0 +1,20 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:ingredient",
+				"inverted": true,
+				"ingredient": {
+					"tag": "origins-plus-plus:sugarfoods"
+				}
+			},
+			{
+				"type": "origins:food"
+			}
+		]
+	},
+	"name": "Sugar Addict",
+	"description": "You MUST eat sweet food! (Pumpkin pie, honey, sweet berries, cookies and cake)"
+}

@@ -1,0 +1,26 @@
+{
+	"type":"origins:multiple",
+	"move":{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": -0.85,
+        "name": "No movement"
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "origins-plus-plus:bedrockean/toggle"
+    }
+	},
+	"entity":{
+		"type":"origins:prevent_entity_collision",
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:bedrockean/toggle"
+		}
+	},
+	"name": "Invincible",
+	"description":"Like your ancestors, you can be immune to all damage - however, when you do this it costs your speed, strength, and it takes much longer to heal."
+}

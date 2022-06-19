@@ -1,0 +1,38 @@
+{
+	"type":"origins:active_self",
+	"entity_action":{
+	   "type":"origins:and",
+	   "actions":[
+		  {
+			 "type":"origins:execute_command",
+			 "command":"gamerule randomTickSpeed 35000",
+			 "permission_level":4
+		  },
+		  {
+			 "type":"origins:execute_command",
+			 "command":"playsound minecraft:block.beacon.activate ambient @a[distance=..10] ~ ~ ~ 1 1",
+			 "permission_level":4
+		  },
+		  {
+			 "type":"origins:delay",
+			 "ticks":10,
+			 "action":{
+				"type":"origins:execute_command",
+				"command":"gamerule randomTickSpeed 3",
+				"permission_level":4
+			 }
+		  }
+	   ]
+	},
+	"cooldown":1000,
+	"hud_render":{
+	   "should_render":true,
+	   "sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
+	   "bar_index":8
+	},
+	"key":{
+	   "key":"key.origins.primary_active"
+	},
+	"name":"Nourish",
+	"description":"You direct the earth's nutrients toward crops. Growing them in a matter of seconds. [Primary]"
+}

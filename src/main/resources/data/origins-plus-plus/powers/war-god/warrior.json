@@ -1,0 +1,25 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:strength",
+			"duration": 200,
+			"amplifier": 0,
+			"show_particles": true,
+			"show_icon": true
+		}
+	},
+	"key": {
+		"key": "primary",
+		"continuous": false
+	},
+    "cooldown": 600,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 1
+	},
+	"name": "Warrior",
+	"description": "[PRIMARY] Adrenaline rushes through your veins when the thought of a good battle comes to mind. (Strength for 10 seconds)."
+}

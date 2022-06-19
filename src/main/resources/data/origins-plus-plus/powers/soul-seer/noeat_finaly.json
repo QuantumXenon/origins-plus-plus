@@ -1,0 +1,16 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+	"type": "origins:execute_command",
+	"command": "summon minecraft:tnt ~ ~ ~",
+	"permission_level": 4
+		},
+		"interval": 20,
+		"condition": {
+		"type": "origins:resource",
+		"resource": "origins-plus-plus:soul-seer/noeat_source",
+		"comparison": "==",
+		"compare_to": 6
+	},
+	"hidden": true
+}

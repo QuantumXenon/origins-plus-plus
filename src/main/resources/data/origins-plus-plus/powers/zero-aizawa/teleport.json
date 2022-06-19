@@ -1,0 +1,16 @@
+{
+    "type":"origins:fire_projectile",
+    "cooldown":200,
+    "hud_render":{
+        "should_render": false,
+       "sprite_location":"origins:textures/gui/resource_bar.png",
+       "bar_index":6
+    },
+    "entity_type":"origins:enderian_pearl",
+    "sound":"minecraft:entity.ender_pearl.throw",
+    "speed":1.5,
+    "divergence":1,
+	"key":"key.origins.primary_active",
+    "name":"Teleport",
+    "description":"You can teleport as far away as you want instantaneously as long as your looking in the direction you want. [Primary]"
+}

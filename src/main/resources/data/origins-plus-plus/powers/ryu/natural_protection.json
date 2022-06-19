@@ -1,0 +1,10 @@
+{
+    "name": "Natural Protection",
+    "description": "Your scales provide natural protection, giving you 2 more hearts.",
+    "type": "origins:attribute",
+    "modifier": {
+        "operation": "addition",
+        "attribute": "minecraft:generic.max_health",
+        "value": 4
+    }
+}

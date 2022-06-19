@@ -1,0 +1,13 @@
+{
+    "name": "Agility Over Defense",
+    "description": "You and your people tend to prefer being able to move around rather than wear heavy armors. You cannot wear chestplates or leggings of any kind.\n\nHowever, your base movement speed is higher than that of a normal player.",
+    "type": "origins:restrict_armor",
+    "chest": {
+        "type": "origins:constant",
+        "value": true
+    },
+    "legs": {
+        "type": "origins:constant",
+        "value": true
+    }
+}

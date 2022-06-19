@@ -1,0 +1,77 @@
+{
+	"type":"origins:multiple",
+	"modify_size":{
+		"type":"origins:action_on_callback",
+		"entity_action_chosen":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"scale set pehkui:height 0.25"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"scale set pehkui:width 0.25"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"scale persist true"
+				}
+			]
+		},
+		"entity_action_respawned":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"scale set pehkui:height 0.25"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"scale set pehkui:width 0.25"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"scale persist true"
+				}
+			]
+		},
+		"entity_action_lost":{
+			"type":"origins:execute_command",
+			"command":"scale reset"
+		}
+	},
+	"attribute_modifiers":{
+		"type":"origins:attribute",
+		"modifiers":[
+			{
+				"name":"Origin modifier",
+				"attribute":"minecraft:generic.max_health",
+				"operation":"addition",
+				"value":-10
+			},
+			{
+				"name":"Origin modifier",
+				"attribute":"minecraft:generic.attack_speed",
+				"operation":"addition",
+				"value":0.5
+			},
+			{
+				"name":"Origin modifier",
+				"attribute":"minecraft:generic.movement_speed",
+				"operation":"addition",
+				"value":-0.015
+			}
+		]
+	},
+	"jump_modifier":{
+		"type":"origins:modify_jump",
+		"modifier":{
+			"name":"Origin modifier",
+			"operation":"multiply_total",
+			"value":-0.3333
+		}
+	},
+	"name":"Bite Sized",
+	"description":"You are now four times smaller with five less hearts."
+}

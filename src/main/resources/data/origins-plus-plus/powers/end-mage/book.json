@@ -1,0 +1,67 @@
+{
+	"name": "Hidden Knowledge",
+	"description": "You can turn a book into a End Book using Shift + Primary with a book on your offhand.",
+	"type": "origins:active_self",
+	"entity_action": {
+    "type": "origins:and",
+    "actions": [
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:end-mage/resource",
+                "change": -15
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "give @p written_book{pages:['{\"text\":\"Welcome to the End Mage Origin!          There are some secrets, you can also make potions.\"}','{\"text\":\"Mana Potions: You can drink mana potions to regen mana, there are 2 types of mana potions, the basic and the super mana potion. Basic Potion: Press Shift+Primary with Honey Bottle on your offhand. (100)     Super Potion: Press Shift+Primary with Dragon Breath on your offhand. (250)\"}','{\"text\":\"Infinite Range: If you hold a ender pearl on your offhand you will be able to interact with blocks far away. (Consumes Mana)\"}','{\"text\":\"Hidden Crafts: End Stone: 7 Cobblestone 1 sand and 1 ender pearl to make 8 end stones. (Shapeless) Chorus Flower: 7 oak saplings 1 purple dye and 1 ender pearl to make 7 chorus flowers. (Shapeless)  \"}','{\"text\":\"Waypoint: You can set a waypoint using a nether star on your offhand, shift + primary to mark the place and primary to teleport back! (With the nether star on your offhand)\"}',],title:EndBook,author:EndMage}",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "clear @s minecraft:book 1",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:enchant ~ ~ ~ 2 2 2 2 1000",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:enchanted_hit ~ ~ ~ 3 3 3 3 1000",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:block.note_block.iron_xylophone player @a[distance=..20] ~ ~ ~ 100 0.9 1",
+                "permission_level": 4
+	}
+	]
+	},
+	"cooldown": 0,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": false
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:book"
+              }
+          }
+	}
+	]
+	},
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 0
+	}
+}

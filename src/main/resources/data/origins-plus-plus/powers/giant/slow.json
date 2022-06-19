@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"name": "Unwieldy Arms",
+	"description": "You attack 33% slower than most",
+	"modifier": {
+		"attribute": "minecraft:generic.attack_speed",
+		"value": -0.33,
+		"operation": "multiply_base"
+	}
+}

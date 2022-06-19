@@ -1,0 +1,7 @@
+{
+  "type": "origins:modify_player_spawn",
+  "dimension": "minecraft:overworld",
+  "biome": "minecraft:ocean",
+  "name": "Ocean Spawn",
+  "description": "Your natural spawn is in the ocean."
+}

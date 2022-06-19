@@ -1,0 +1,23 @@
+{
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:add_velocity",
+        "z": 0.75
+    },
+	"cooldown": 1,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:power_active",
+				"power": "origins-plus-plus:automaton/attacktoggle"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "origins-plus-plus:automaton/waterbar",
+				"comparison": ">",
+				"compare_to": 1499
+			}
+		]
+	},
+	"hidden": true
+}

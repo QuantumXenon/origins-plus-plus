@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"origins-plus-plus:zero-aizawa/acrobaticas",
+		"origins-plus-plus:zero-aizawa/heliophobia",
+		"origins-plus-plus:zero-aizawa/long_arms",
+		"origins-plus-plus:zero-aizawa/nice_mobs",
+		"origins-plus-plus:zero-aizawa/nice_villager_prices",
+		"origins-plus-plus:zero-aizawa/super_sane",
+		"origins-plus-plus:zero-aizawa/tall",
+		"origins-plus-plus:zero-aizawa/teleport",
+		"origins-plus-plus:zero-aizawa/weak_stature"
+	],
+	"icon": "minecraft:black_stained_glass",
+	"impact": 2,
+	"name": "Zero Aizawa",
+	"description": "An Aizawa is a powerful being, able to travel long distances and loved by everyone."
+}

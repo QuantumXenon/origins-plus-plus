@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "minecraft:generic.knockback_resistance",
+        "value": 999,
+        "operation": "addition"
+    },
+    "name": "Well-Grounded",
+    "description": "You are 100% Knockback Resistant."
+}

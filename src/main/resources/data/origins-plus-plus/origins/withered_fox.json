@@ -1,0 +1,29 @@
+{
+	"powers": [
+		"origins-plus-plus:withered-fox/berry_sat",
+		"origins-plus-plus:withered-fox/body",
+		"origins-plus-plus:withered-fox/fear",
+		"origins-plus-plus:withered-fox/fire",
+		"origins-plus-plus:withered-fox/float",
+		"origins-plus-plus:withered-fox/hard_skin",
+		"origins-plus-plus:withered-fox/hearts",
+		"origins-plus-plus:withered-fox/home",
+		"origins-plus-plus:withered-fox/immune_system",
+		"origins-plus-plus:withered-fox/lava_speed",
+		"origins-plus-plus:withered-fox/lava_swim",
+		"origins-plus-plus:withered-fox/lava_vis",
+		"origins-plus-plus:withered-fox/primary",
+		"origins-plus-plus:withered-fox/prot",
+		"origins-plus-plus:withered-fox/prot2",
+		"origins-plus-plus:withered-fox/quick",
+		"origins-plus-plus:withered-fox/secondary",
+		"origins-plus-plus:withered-fox/smol",
+		"origins-plus-plus:withered-fox/sturdy",
+		"origins-plus-plus:withered-fox/undead",
+		"origins-plus-plus:withered-fox/witheredhands"
+	],
+	"icon": "minecraft:wither_rose",
+	"impact": 3,
+	"name": "Withered Fox",
+	"description": "These strange creatures have been around for centuries and have been dying out from hunters for their hide."
+}

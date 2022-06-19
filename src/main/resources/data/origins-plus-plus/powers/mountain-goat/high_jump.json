@@ -1,0 +1,31 @@
+{
+	"type": "origins:multiple",
+	"toggle":{
+		"type": "origins:toggle",
+		"active_by_default": false,
+		"key": "secondary"
+	},
+	"jump": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"operation": "addition",
+			"value": 0.3
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:power_active",
+					"power": "origins-plus-plus:mountain-goat/high_jump_toggle"
+				},
+				{
+					"type": "origins:food_level",
+					"comparison": ">",
+					"compare_to": 6
+				}
+			]
+		}
+	},
+	"name": "High Jump",
+	"description": "You can activate a higher jump, but you'll lose hunger a lot faster. You also take extra fire damage."
+}

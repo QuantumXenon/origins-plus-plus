@@ -1,0 +1,1 @@
+scoreboard objectives add Emblazing_Warrior dummy

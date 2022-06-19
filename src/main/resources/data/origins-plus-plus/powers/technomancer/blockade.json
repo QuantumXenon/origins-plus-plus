@@ -1,0 +1,91 @@
+{
+	"name": "Blockade",
+	"description": "§aLime Conduit: §rYou trap any entity in a temporary jail cell. §6Mana Cost: 10000. §f[Primary]",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+				"type": "origins:execute_command",
+				"command": "function origins-plus-plus:technomancer/blockade_start",
+				"permission_level": 4
+            },
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:technomancer/tech_mana_resource",
+				"change":-10000
+			},
+			{
+				"type": "origins:apply_effect",
+				"effect": {
+					"effect": "minecraft:mining_fatigue",
+					"duration": 100,
+					"amplifier": 255
+				}
+			}
+        ]
+    },
+	"cooldown":1,
+	"hud_render":{
+        "should_render": false,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 11
+	},
+	"condition":{
+	   "type":"origins:and",
+	   "conditions":[
+		  {
+			 "type":"origins:equipped_item",
+			 "equipment_slot":"mainhand",
+			 "item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+				   "item":"minecraft:lime_dye"
+				}
+			 }
+		  },
+		  {
+			 "type":"origins:command",
+			 "command":"data get entity @s SelectedItem.tag.CustomModelData",
+			 "comparison":"==",
+			 "compare_to":1
+		  },
+		  {
+			 "type":"origins:equipped_item",
+			 "equipment_slot":"offhand",
+			 "item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+				   "item":"minecraft:warped_fungus_on_a_stick"
+				}
+			 }
+		  },
+		  {
+			 "type":"origins:command",
+			 "command":"data get entity @s Inventory[{Slot: -106b}].tag.CustomModelData",
+			 "comparison":"==",
+			 "compare_to":1
+		  },
+		  {
+			 "type":"origins:resource",
+			 "resource":"origins-plus-plus:technomancer/tech_mana_resource",
+			 "comparison":">=",
+			 "compare_to":10000
+		  },
+		  {
+			"type":"origins:fluid_height",
+			"fluid":"minecraft:water",
+			"comparison":"==",
+			"compare_to":0
+		 },
+		 {
+			"type":"origins:in_rain",
+			"inverted":true
+		 }
+	   ]
+	},
+	"key":{
+	   "key":"key.origins.primary_active",
+	   "continuous":false
+	}
+}

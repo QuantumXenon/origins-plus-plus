@@ -1,0 +1,18 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:arrow",
+	"tag": "{Potion:\"minecraft:slowness\"}",
+	"cooldown": 5,
+	"hud_render": {
+		"should_render": false
+	},
+	"count": 5,
+	"speed": 2,
+	"divergence": 10,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"name": "Spike Throw",
+	"description": "Fire 5 spikes that slow enemies for 5 seconds. [Primary]"
+}

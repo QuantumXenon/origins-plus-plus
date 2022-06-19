@@ -1,0 +1,16 @@
+{
+    "name": "Empowered",
+    "description": "While wearing a full set of armor with Thorns 3, you recieve 40% less damage.",
+    "condition": {
+        "type": "origins:enchantment",
+        "enchantment": "minecraft:thorns",
+        "calculation": "sum",
+        "comparison": ">=",
+        "compare_to": 12
+    },
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -0.4
+    }
+}

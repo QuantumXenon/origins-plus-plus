@@ -1,0 +1,27 @@
+{
+    "name": "§c§nNether Inhabitant",
+    "description": "§cYou deal 3 less damage unless in the nether.",
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "value": -3,
+        "operation": "addition"
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_nether",
+            "inverted": true
+            },
+            {
+                "type": "origins:resource",
+                "resource": "origins-plus-plus:shifter/shift_bar",
+                "comparison": "==",
+                "compare_to": 8
+            }
+        ]
+    }
+}

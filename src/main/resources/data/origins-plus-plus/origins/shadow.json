@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"origins-plus-plus:shadow/cloud",
+		"origins-plus-plus:shadow/echest",
+		"origins-plus-plus:shadow/hunger",
+		"origins-plus-plus:shadow/invisibility",
+		"origins-plus-plus:shadow/no_food",
+		"origins-plus-plus:shadow/sun_weakness",
+		"origins-plus-plus:shadow/weak"
+	],
+	"icon": "minecraft:black_concrete",
+	"impact": 3,
+	"name": "Shadow",
+	"description": "You are one with the shadows."
+}

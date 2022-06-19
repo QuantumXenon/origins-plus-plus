@@ -1,0 +1,11 @@
+{
+    "type": "origins:invisibility",
+	"name":"Displace",
+	"description":"You can become invisible for a short while.",
+    "render_armor": false,
+    "condition": {
+         "type": "origins:status_effect",
+    "effect": "minecraft:invisibility",
+    "min_amplifier": 1
+    }
+}

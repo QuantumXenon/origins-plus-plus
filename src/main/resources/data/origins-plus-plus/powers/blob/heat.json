@@ -1,0 +1,106 @@
+{
+	"name": "Melting Hands",
+	"description": "Your hands melt in hot biomes making you weaker in them.",
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 2,
+	"duration_per_stack": 50,
+	"effects": [{
+		"effect": "minecraft:weakness",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true
+	}],
+
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:biome",
+				"biome": "minecraft:desert"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "minecraft:savanna"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "minecraft:badlands"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "minecraft:savanna_plateau"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "minecraft:windswept_savanna"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "minecraft:eroded_badlands"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "minecraft:wooded_badlands"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:arid_highlands"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:anciend_sands"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:ashen_savanna"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:basalt_cliffs"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:desert_spires"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:fractured_savanna"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:gravel_desert"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:hot_shrubland"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:sandstone_valley"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:savanna_badlands"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:savanna_slopes"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "terralith:volcanic_crater"
+			},
+			{
+				"type": "origins:biome",
+
+				"biome": "terralith:volcanic_peaks"
+			},
+			{
+				"type": "origins:dimension",
+				"dimension": "minecraft:nether",
+				"inverted": false
+			}
+		]
+	}
+
+}

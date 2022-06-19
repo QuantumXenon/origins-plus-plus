@@ -1,0 +1,31 @@
+{
+  "type":"origins:modify_damage_taken",
+  "modifier":{
+    "value": 1.5,
+    "operation":"multiply_total"
+  },
+  "damage_condition":{
+    "type":"origins:or",
+    "conditions":[
+      {
+        "type":"origins:name",
+        "name":"lava"
+      },
+      {
+        "type":"origins:name",
+        "name":"onFire"
+      },
+      {
+        "type":"origins:name",
+        "name":"inFire"
+      },
+      {
+        "type":"origins:name",
+        "name":"hotFloor"
+      }
+    ]
+  },
+  "hidden": true,
+  "name": "Flammable Body",
+  "description": "Your body and wings are lightweight and cannot withstand scorching, you take double damage from fire sources."
+}

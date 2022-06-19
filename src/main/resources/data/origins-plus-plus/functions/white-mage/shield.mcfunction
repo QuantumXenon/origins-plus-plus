@@ -1,0 +1,7 @@
+summon minecraft:vindicator ~ ~ ~ {CustomName:"\"Johnny\"",DeathLootTable:"minecraft:empty",HandItems:[{Count:1,id:golden_axe,tag:{Enchantments:[{id:smite,lvl:2},{id:bane_of_arthropods,lvl:2}]}},{Count:1,id:shield}],ArmorItems:[{Count:1,id:iron_boots},{Count:1,id:iron_leggings},{Count:1,id:iron_chestplate},{id:"white_banner",Count:1,tag:{BlockEntityTag:{Patterns:[{Pattern:sc,Color:15},{Pattern:sc,Color:0},{Pattern:flo,Color:15},{Pattern:flo,Color:0}]}}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}
+summon minecraft:vindicator ~ ~ ~ {CustomName:"\"Johnny\"",DeathLootTable:"minecraft:empty",HandItems:[{Count:1,id:golden_sword,tag:{Enchantments:[{id:sharpness,lvl:3},{id:knockback,lvl:2}]}},{Count:1,id:shield}],ArmorItems:[{Count:1,id:iron_boots},{Count:1,id:iron_leggings},{Count:1,id:iron_chestplate},{id:"white_banner",Count:1,tag:{BlockEntityTag:{Patterns:[{Pattern:sc,Color:15},{Pattern:sc,Color:0},{Pattern:flo,Color:15},{Pattern:flo,Color:0}]}}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}
+team add johnny
+team join johnny @e[distance=..50,type=minecraft:vindicator,name=Johnny]
+team join johnny @s 
+playsound minecraft:entity.vindicator.celebrate player @a[distance=..20] ~ ~ ~ 100 0.7
+particle minecraft:end_rod ~ ~ ~ 2 2 2 2 100

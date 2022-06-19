@@ -1,0 +1,75 @@
+{
+    "name": "Weakened By All",
+    "description": "You take triple damage from all mobs.",
+    "type":"origins:multiple",
+    "more_damage_default": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 3
+        },
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:entity_group",
+                "group": "default"
+            }
+        }
+    },
+    "more_damage_undead": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 3
+        },
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:entity_group",
+                "group": "undead"
+            }
+        }
+    },
+    "more_damage_arthropod": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 3
+        },
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:entity_group",
+                "group": "arthropod"
+            }
+        }
+    },
+    "more_damage_illager": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 3
+        },
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:entity_group",
+                "group": "illager"
+            }
+        }
+    },
+    "more_damage_aquatic": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 3
+        },
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:entity_group",
+                "group": "aquatic"
+            }
+        }
+    }
+}

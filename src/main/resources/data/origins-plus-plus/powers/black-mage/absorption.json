@@ -1,0 +1,66 @@
+{    
+   "hidden": true,
+    "type": "origins:active_self",
+    "entity_action": {
+		"type": "origins:and",
+        "actions": [
+	{
+                "type": "origins:execute_command",
+                "command": "effect give @s minecraft:absorption 30 4",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "effect give @s minecraft:resistance 30 1",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:dust 1 1 0 2 ~ ~ ~ 0.3 1 0.3 1 200",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "particle minecraft:ash ~ ~ ~ 2 2 2 2 10",
+                "permission_level": 4
+	},
+	{
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:block.amethyst_block.chime player @a[distance=..20] ~ ~ ~ 100 2 1",
+                "permission_level": 4
+	},
+	{
+			    "type": "origins:change_resource",
+                "resource": "origins-plus-plus:black-mage/resource",
+                "change": -150
+	}
+	]
+	},
+	"cooldown": 0,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": true
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+		 "type": "origins:sneaking",
+		 "inverted": false
+	},
+	{
+		"type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+            "item": "minecraft:golden_apple"
+              }
+          }
+	}
+	]
+	},
+	"hud_render": {
+		"should_render": false,
+		"bar_index": 0
+	}
+}

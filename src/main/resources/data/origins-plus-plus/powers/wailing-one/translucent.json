@@ -1,0 +1,9 @@
+{
+  "hidden": true,
+  "type": "origins:model_color",
+  "alpha": 0.5,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "*:phase_toggle"
+  }
+}

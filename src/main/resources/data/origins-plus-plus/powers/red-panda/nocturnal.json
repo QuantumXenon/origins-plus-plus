@@ -1,0 +1,6 @@
+{
+    "name": "Nocturnal",
+    "description": "You spend most of your waking hours at night, allowing you to see better in the dark.",
+    "type": "origins:night_vision",
+    "strength": 0.6
+}

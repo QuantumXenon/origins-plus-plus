@@ -1,0 +1,20 @@
+	{
+		"type": "origins:fire_projectile",
+		"name": "Wither Skull",
+		"description": "Shoot wither skulls at your target.",
+		"entity_type": "minecraft:wither_skull",
+		"cooldown": 115,
+		"count": 1,
+		"speed": 0.30,
+		"divergence": 1,
+		"tag": "{pickup:0b}",
+			"key": {
+				"key": "key.origins.primary_active",
+				"continuous": false
+			},
+				"hud_render": {
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"should_render": true,
+			"bar_index": 19
+		}
+	}	

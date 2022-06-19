@@ -1,0 +1,8 @@
+{
+	"type": "origins:modify_player_spawn",
+	"dimension": "minecraft:overworld",
+	"structure": "minecraft:shipwreck",
+	"spawn_strategy": "center",
+	"name": "Ship Dweller",
+	"description": "You spawn in shipwrecks."
+}

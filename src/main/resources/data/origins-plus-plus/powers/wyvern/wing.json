@@ -1,0 +1,6 @@
+{
+  "type": "origins:elytra_flight",
+  "render_elytra": true,
+  "name": "Winged",
+  "description": "You have a large pair of feathered wings!"
+}

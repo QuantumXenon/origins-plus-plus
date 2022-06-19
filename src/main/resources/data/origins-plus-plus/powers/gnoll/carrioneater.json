@@ -1,0 +1,26 @@
+{
+    "name": "Carrion Eater",
+    "description": "You do not suffer from the hunger condition, and in fact benefit from it.",
+    "condition": {
+        "type": "origins:status_effect",
+        "effect": "minecraft:hunger"
+    },
+	"type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 3,
+    "duration_per_stack": 10,
+    "effects": [
+        {
+            "effect": "minecraft:strength",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        },
+        {
+            "effect": "minecraft:speed",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ]
+}

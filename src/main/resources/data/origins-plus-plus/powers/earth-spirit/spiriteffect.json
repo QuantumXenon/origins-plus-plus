@@ -1,0 +1,27 @@
+{
+	"name": "Spiritual Form",
+	"description": "As a spirit-being you are faster than the average person, but you deal little to no damage.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -3,
+    "max_stacks": 1,
+    "duration_per_stack": 40,
+    "tick_rate": 20,
+    "effects": [
+	{
+        "effect": "minecraft:weakness",
+		"amplifier": 2,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    },
+	{
+		"effect": "minecraft:speed",
+		"amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+	}
+	
+]
+
+}

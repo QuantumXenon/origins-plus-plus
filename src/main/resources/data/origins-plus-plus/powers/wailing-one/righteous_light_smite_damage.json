@@ -1,0 +1,6 @@
+{
+    "type": "origins:entity_group",
+    "group": "undead",
+    "name": "Wicked Spirit",
+    "description": "Smite works against you, iron and gold items deal extra damage to you, and you cannot wear iron or gold armor."
+}

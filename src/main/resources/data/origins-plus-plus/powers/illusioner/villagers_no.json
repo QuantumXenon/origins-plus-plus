@@ -1,0 +1,12 @@
+{
+    "type": "origins:prevent_entity_use",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:villager"
+        }
+    },
+    "name": "hate",
+    "description": "[DE-BUFF] because your in pillagers gang villagers wont trade with you!"
+}

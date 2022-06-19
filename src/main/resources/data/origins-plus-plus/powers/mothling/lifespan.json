@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -6.0,
+    "operation": "addition"
+  },
+  "hidden": true,
+  "name": "Lives",
+  "description": "You have less health. You're a bug, you die faster"
+}

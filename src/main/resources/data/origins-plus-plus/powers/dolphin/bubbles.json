@@ -1,0 +1,7 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:bubble_column_up",
+    "frequency": 4,
+    "name": "Water Particles",
+    "description": "Since you are in the water too much, you get bubble particles around you."
+}

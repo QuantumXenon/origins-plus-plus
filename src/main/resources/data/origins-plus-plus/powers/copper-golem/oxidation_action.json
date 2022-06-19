@@ -1,0 +1,117 @@
+{
+    "type": "origins:multiple",
+    "increase": {
+        "type": "origins:action_over_time",
+        "interval": 8400,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "origins-plus-plus:copper-golem/oxidation_resource",
+            "change": 1
+        }
+    },
+    "stage_one": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 30,
+        "effects": {
+            "effect": "minecraft:slowness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:copper-golem/oxidation_resource",
+            "comparison": "==",
+            "compare_to": 1
+        }
+    },
+    "stage_two": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 30,
+        "effects": {
+            "effect": "minecraft:slowness",
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:copper-golem/oxidation_resource",
+            "comparison": "==",
+            "compare_to": 2
+        }
+    },
+    "stage_three_one": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 30,
+        "effects": {
+            "effect": "minecraft:slowness",
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:copper-golem/oxidation_resource",
+            "comparison": "==",
+            "compare_to": 3
+        }
+    },
+    "stage_three_two": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 30,
+        "effects": {
+            "effect": "minecraft:weakness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:copper-golem/oxidation_resource",
+            "comparison": "==",
+            "compare_to": 3
+        }
+    },
+    "decrease": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function origins-plus-plus:copper-golem/decrease_oxidation"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:honeycomb"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-plus-plus:copper-golem/oxidation_resource",
+                    "comparison": ">=",
+                    "compare_to": 1
+                }
+            ]
+        }
+    },
+    "name": "Oxidation",
+    "description": "You oxidize over time in three stages. The more oxidized you are, the slower and weaker you will become. Place honeycomb in your offhand, and it will be consumed to undo oxidation."
+}

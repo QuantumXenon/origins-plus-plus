@@ -1,0 +1,12 @@
+{
+	"name": "Fast Metabolism",
+	"description": "You spend so much time running and climbing that your body exhausts faster",
+
+	"type": "origins:modify_exhaustion",
+	"modifier": {
+		"name": "Increased exhaustion",
+		"operation": "multiply_base",
+		"value": 1.5
+    }
+}
+

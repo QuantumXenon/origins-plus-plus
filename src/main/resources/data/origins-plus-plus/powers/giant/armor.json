@@ -1,0 +1,77 @@
+{
+	"type": "origins:multiple",
+	"name": "Giant Heritage",
+	"description": "Leather armor gives you as much protection as iron armor",
+	"helmet": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "generic.armor",
+			"operation": "addition",
+			"value": 1
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "head",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "leather_helmet"
+				}
+			}
+		}
+	},
+	"chestplate": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "generic.armor",
+			"operation": "addition",
+			"value": 3
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "chest",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "leather_chestplate"
+				}
+			}
+		}
+	},
+	"leggings": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "generic.armor",
+			"operation": "addition",
+			"value": 3
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "legs",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "leather_leggings"
+				}
+			}
+		}
+	},
+	"boots": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "generic.armor",
+			"operation": "addition",
+			"value": 1
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "feet",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "leather_boots"
+				}
+			}
+		}
+	}
+}

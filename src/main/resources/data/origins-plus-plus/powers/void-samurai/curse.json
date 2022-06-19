@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_over_time",
+	"name": "Curse of Tangibilty",
+	"description": "When under the effect of slowness, you get weakness 100",
+    "entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:weakness",
+			"duration": 40,
+			"amplifier": 100
+		}
+	},
+    "interval": 20,
+    "condition": {
+		"type": "origins:status_effect",
+		"effect": "minecraft:slowness",
+		"min_amplifier": 2
+    }
+}

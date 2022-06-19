@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins-plus-plus:artificial-construct/arm_long_yes",
+        "origins-plus-plus:artificial-construct/battery",
+        "origins-plus-plus:artificial-construct/battery_resource",
+        "origins-plus-plus:artificial-construct/dispenser_boi",
+        "origins-plus-plus:artificial-construct/food_unecessary",
+        "origins-plus-plus:artificial-construct/iron_nugget_heal",
+        "origins-plus-plus:artificial-construct/less_fall",
+        "origins-plus-plus:artificial-construct/metal",
+        "origins-plus-plus:artificial-construct/storage"
+    ],
+    "name": "Artificial Contruct",
+    "description": "Constructs are a combination of simple redstone components and complicated machinery to make a functional living being.",
+    "icon": "minecraft:redstone_torch",
+    "impact": 3
+}

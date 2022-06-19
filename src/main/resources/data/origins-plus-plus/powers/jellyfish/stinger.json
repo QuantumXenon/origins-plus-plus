@@ -1,0 +1,26 @@
+{
+	"type":"origins:target_action_on_hit",
+	"entity_action":{
+	   "type":"origins:apply_effect",
+	   "effects":[
+		  {
+			 "effect":"minecraft:poison",
+			 "duration":155,
+			 "amplifier":3
+		  },
+		  {
+			 "effect":"minecraft:weakness",
+			 "duration":135,
+			 "amplifier":9
+		  },
+		  {
+			 "effect":"minecraft:slowness",
+			 "duration":135,
+			 "amplifier":7
+		  }
+	   ]
+	},
+	"cooldown":1,
+	"name":"Stinger",
+	"description":"Your touch paralyzes and poisons upon contact."
+}

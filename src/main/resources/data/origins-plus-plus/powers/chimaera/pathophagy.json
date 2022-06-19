@@ -1,0 +1,32 @@
+{
+	"type": "origins:multiple",
+	"name": "Pathophagy",
+	"description": "You are made to directly absorb material to repair yourself. Hurting something will restore hunger. However, you can't eat normal food as you are a synthetic creature",
+	"pathophagy": {
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:food"
+
+		}
+	},
+	"feedonhit": {
+		"type": "origins:self_action_on_hit",
+		"cooldown": 10,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:feed",
+					"food": 1.0,
+					"saturation": 1
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "entity.slime.squish"
+				}
+			]
+
+
+
+		}
+	}
+}

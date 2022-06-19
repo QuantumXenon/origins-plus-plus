@@ -1,0 +1,60 @@
+{
+	"name": "Rage",
+	"description": "Being reduced to under half your health will send you into a rage, increasing your knockback resistance, speed, and toughness.",
+    "type": "origins:multiple",
+	"rage": {
+    "type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "addition",
+			"value": 0.025
+		},
+		"tick_rate": 5,
+		"condition": {
+			"type": "origins:health",
+			"comparison": "<=",
+			"compare_to": 12
+		}
+	},
+	"ragetwo": {
+    "type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.armor",
+			"operation": "addition",
+			"value": 10
+		},
+		"tick_rate": 5,
+		"condition": {
+			"type": "origins:health",
+			"comparison": "<=",
+			"compare_to": 12
+		}
+	},
+	"ragethree": {
+    "type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.knockback_resistance",
+			"operation": "addition",
+			"value": 0.9
+		},
+		"tick_rate": 5,
+		"condition": {
+			"type": "origins:health",
+			"comparison": "<=",
+			"compare_to": 12
+		}
+	},
+	"unrage": {
+    "type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "addition",
+			"value": -0.025
+		},
+		"condition": {
+			"type": "origins:health",
+			"comparison": ">",
+			"compare_to": 12
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+    "type": "origins:multiple",
+    "a": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "onFire"
+        },
+        "modifier": {
+            "name": "a",
+            "operation": "multiply_total",
+            "value": -0.70
+        }
+    },
+    "b": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "onFire"
+        },
+        "modifier": {
+            "name": "b",
+            "operation": "multiply_total",
+            "value": -1.0
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+            "compare_to": 3,
+            "comparison": "=="
+        }
+    },
+    "name": "Burning Blood",
+    "description": "X-Slash deals less damage to you than to other mobs. You also take less damage from being set on fire. With 3 fury, you will not take damage from X-Slash or burning."
+}

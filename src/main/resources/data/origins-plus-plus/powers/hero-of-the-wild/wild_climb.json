@@ -1,0 +1,12 @@
+{
+
+	"name": "Natural Climber",
+	"description": "You can easly climb mountains and walls",
+
+	"type": "origins:climbing",
+		"condition": {
+		
+			"type": "origins:collided_horizontally"
+			
+			}
+}

@@ -1,0 +1,27 @@
+{
+	"type":"origins:self_action_when_hit",
+	"entity_action":{
+	   "type":"origins:apply_effect",
+	   "effect":{
+		  "effect":"minecraft:instant_damage",
+		  "amplifier":0,
+		  "duration":1
+	   }
+	},
+	"damage_condition":{
+	   "type":"origins:attacker",
+	   "entity_condition":{
+		  "type":"origins:equipped_item",
+		  "equipment_slot":"mainhand",
+		  "item_condition":{
+			 "type":"origins:enchantment",
+			 "enchantment":"minecraft:bane_of_arthropods",
+			 "comparison":">=",
+			 "compare_to":1
+		  }
+	   }
+	},
+	"cooldown":80,
+	"name":"Traitor",
+	"description":"You take increased damage from weapons enchanted with Bane Of Arthropods (4 second cooldown)."
+}

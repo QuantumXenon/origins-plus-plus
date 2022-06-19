@@ -1,0 +1,9 @@
+{
+    "name": "Gooey Skin",
+    "description": "Your gooey skin makes you green and somewhat translucent.",
+    "type": "origins:model_color",
+    "green": 0.93,
+    "red": 0.73,
+    "blue": 0.51,
+    "alpha": 0.9
+}

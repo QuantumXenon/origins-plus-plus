@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+	"name": "No exhaustion from Origin power",
+	"operation": "multiply_total",
+	"value": -1
+  },
+  "name": "No exhaustion.",
+  "description": "You do not need to eat food, as after hundreds of years your body has become adept at conserving energy. You regenerate infinitely, but slower."
+}

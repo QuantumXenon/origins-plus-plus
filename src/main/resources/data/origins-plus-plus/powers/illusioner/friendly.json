@@ -1,0 +1,56 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Friendly Foes",
+    "description": "[BUFF] Pillagers, who are usually foes, are now friendly to you, as you are on of them.",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team add pillagers"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join pillagers @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join pillagers @e[type=minecraft:vindicator]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join pillagers @e[type=minecraft:pillager]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join pillagers @e[type=minecraft:evoker]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join pillagers @e[type=minecraft:evoker_fangs]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join pillagers @e[type=minecraft:illusioner]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join pillagers @e[type=minecraft:witch]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join pillagers @e[type=minecraft:vex]"
+            }
+        ]
+    }
+}

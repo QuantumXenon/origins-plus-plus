@@ -1,0 +1,12 @@
+{
+    "name": "Heavyweight",
+    "description": "Your unhealthy appetite has you move slower than usual.",
+    "hidden": false,
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_base",
+        "value": -0.15
+    },
+    "update_health": false
+}

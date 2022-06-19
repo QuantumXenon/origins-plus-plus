@@ -1,0 +1,20 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+  "type": "origins:execute_command",
+      "command": "effect give @s minecraft:regeneration 15 2 true",
+      "permission_level": 4
+},
+  "cooldown": 1200,
+  "hud_render": {
+    "should_render": true,
+	"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 9
+  },
+    "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "hidden":false,
+  "name": "Self Regenaration",
+  "description": "Activate self regeneration if you dont have enough health."
+}

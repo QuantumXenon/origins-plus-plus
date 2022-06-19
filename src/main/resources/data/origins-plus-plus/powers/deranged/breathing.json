@@ -1,0 +1,24 @@
+{
+    "name": "Breathing",
+    "description": "You calm yourself, empty your mind, and then start to breathe.\n\nBreathing decreases your derangement bar by 25. It has a cooldown of 1 second.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "origins-plus-plus:deranged/derangement",
+                "change": -25,
+                "operation": "add"
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "entity.player.breath",
+                "volume": 0.5,
+                "pitch": 1
+            }
+        ]
+    },
+    "cooldown": 20,
+    "key": "secondary"
+}

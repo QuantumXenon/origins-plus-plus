@@ -1,0 +1,35 @@
+{
+	"type": "origins:prevent_item_use",
+	"name": "Predatory",
+	"description": "As a predatory demonic being, you can only consume the flesh of your prey.",
+	"item_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:or",
+				"conditions": [
+					{
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "origins:meat"
+						}
+					},
+					{
+						"type": "origins:meat"
+					}
+				],
+				"inverted": true
+			},
+			{
+				"type": "origins:food"
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "origins:ignore_diet"
+				},
+				"inverted": true
+			}
+		]
+	}
+}

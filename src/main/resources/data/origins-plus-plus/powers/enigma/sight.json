@@ -1,0 +1,19 @@
+{
+    "type": "origins:multiple",
+    "vision": {
+        "type": "origins:entity_glow",
+        "entity_condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "player"
+        },
+        "condition": {
+            "type": "origins:sneaking"
+        }
+    },
+    "nv": {
+        "type": "origins:night_vision",
+        "strength": 1
+    },
+    "name": "Good Sight",
+    "description": "Sneak to see all players, even through walls. You also have permanent night vision."
+}

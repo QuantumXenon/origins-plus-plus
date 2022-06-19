@@ -1,0 +1,89 @@
+{
+	"type": "origins:active_self",
+	"key": {
+	  "key": "key.origins.secondary_active",
+	  "continuous": false
+	},
+	"cooldown": 7000,
+	"hud_render": {
+	  "should_render": true,
+	  "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+	  "bar_index": 23
+	},
+	"entity_action": {
+	  "type": "origins:and",
+	  "actions": [
+		{
+            "type": "origins:execute_command",
+            "command": "playsound minecraft:entity.wither.death master @e[type=minecraft:player,distance=..35]",
+            "permission_level": 4
+		},
+		{
+		  "type": "origins:delay",
+		  "ticks": 1,
+		  "action": {
+			"type": "origins:execute_command",
+			"command": "particle minecraft:ash ~ ~ ~ 8 8 8 0.55 1500"
+		  }
+		},
+		{
+		  "type": "origins:delay",
+		  "ticks": 16,
+		  "action": {
+			"type": "origins:execute_command",
+			"command": "tag @s add wailself"
+		  }
+		},
+		{
+		  "type": "origins:delay",
+		  "ticks": 18,
+		  "action": {
+			"type": "origins:execute_command",
+			"command": "execute at @e[tag=!wailself,distance=..8] run effect give @e[tag=!wailself,distance=..8] instant_damage 1 0 true"
+		  }
+		},
+		{
+		  "type": "origins:delay",
+		  "ticks": 20,
+		  "action": {
+			"type": "origins:execute_command",
+			"command": "execute at @e[tag=!wailself,distance=..8] run effect give @e[tag=!wailself,distance=..8] wither 10 2 true"
+		  }
+		},
+		{
+		  "type": "origins:delay",
+		  "ticks": 20,
+		  "action": {
+			"type": "origins:execute_command",
+			"command": "effect clear @s"
+		  }
+		},
+		{
+		  "type": "origins:delay",
+		  "ticks": 24,
+		  "action": {
+			"type": "origins:execute_command",
+			"command": "power grant @e[tag=!wailself,distance=..8] origins-plus-plus:wailing-one/wail_knockback"
+		  }
+		},
+		{
+		  "type": "origins:delay",
+		  "ticks": 25,
+		  "action": {
+			"type": "origins:execute_command",
+			"command": "power revoke @s origins-plus-plus:wailing-one/wail_knockback"
+		  }
+		},
+		{
+		  "type": "origins:delay",
+		  "ticks": 24,
+		  "action": {
+			"type": "origins:execute_command",
+			"command": "tag @s remove wailself"
+		  }
+		}
+	  ]
+    },
+    "name":"Wail",
+    "description":"Sing your Death Knell to damage and wither all who stand in front of you! [Secondary]"
+}

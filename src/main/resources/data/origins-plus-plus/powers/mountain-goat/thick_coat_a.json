@@ -1,0 +1,17 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "generic.movement_speed",
+		"operation": "addition",
+		"value": -0.02
+	},
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:temperature",
+			"comparison": ">",
+			"compare_to": 0.9
+		}
+	},
+	"hidden": true
+}

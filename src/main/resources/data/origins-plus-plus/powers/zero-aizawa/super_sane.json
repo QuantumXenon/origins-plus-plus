@@ -1,0 +1,62 @@
+{
+	"type": "origins:active_self",
+	"key": "key.origins.secondary_active",
+	"cooldown": 200,
+	"hud_render":
+	{
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index": 1
+	},
+	"entity_action": 
+	{
+		"type": "origins:and",
+		"actions":
+		[
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:resistance 10 20 false",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:strength 10 2 false",
+				"permission_level": 4
+			},
+			{
+                "type": "origins:delay",
+                "ticks": 220,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect clear @s"
+                }
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 221,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @s slowness 10 1 false"
+                }
+            },
+			{
+                "type": "origins:delay",
+                "ticks": 221,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @s weakness 10 0 false"
+                }
+            },
+			{
+                "type": "origins:delay",
+                "ticks": 221,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "effect give @s hunger 10 0 false"
+                }
+            }
+		]
+	},
+	"name": "Super Sane",
+	"description": "You go into a very resistant state that makes you invulnerable to any type of damage and you deal 2x damage, but after you use this ability you get Slowness, Weakness, and Hunger for 10 seconds. [Secondary]"
+  }

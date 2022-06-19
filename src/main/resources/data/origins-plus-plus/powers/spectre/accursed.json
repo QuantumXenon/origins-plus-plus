@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"name": "Accursed",
+	"description": "You are but a remnant of your former self. You only have 5 hearts.",
+	"modifier": {
+		"attribute": "minecraft:generic.max_health",
+		"value": -10.0,
+		"operation": "addition"
+	}
+}

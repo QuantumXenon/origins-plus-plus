@@ -1,0 +1,11 @@
+{
+    "hidden": true,
+    "name": "No Fall Damage",
+    "description": "You now take no fall damage.",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall",
+        "inverted": false
+    }
+}

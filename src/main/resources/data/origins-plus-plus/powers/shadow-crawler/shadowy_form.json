@@ -1,0 +1,17 @@
+{
+	"type": "origins:multiple",
+	"particles": {
+		"type": "origins:particle",
+		"particle": "minecraft:large_smoke",
+		"frequency": 2
+	},
+	"model_colour": {
+		"type": "origins:model_color",
+		"red": 0.05,
+		"green": 0.05,
+		"blue": 0.05,
+		"alpha": 0.8
+	},
+	"name": "Shadowy Form",
+	"description": "You are darker and more transparent than most entities."
+}

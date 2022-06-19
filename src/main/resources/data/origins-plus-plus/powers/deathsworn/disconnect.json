@@ -1,0 +1,29 @@
+{
+    "type": "origins:multiple",
+    "minionless": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "HP decrease",
+            "attribute": "minecraft:generic.max_health",
+            "value": -4,
+            "operation": "addition"
+        }
+    },
+    "nearminions": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "HP decrease 2",
+            "attribute": "minecraft:generic.max_health",
+            "value": -8,
+            "operation": "addition"
+        },
+        "condition": {
+            "type": "origins:command",
+            "command": "execute if entity @e[tag=lnc_Minion,distance=..16]",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "name": "Blood Magician",
+    "description": "Your blood sacrifices reduced your max health. Summoning minions reduces it even further, if you stay near them."
+}

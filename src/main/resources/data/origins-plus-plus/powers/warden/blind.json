@@ -1,0 +1,14 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+	    "type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:blindness",
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": false
+		}
+	},
+	"name": "Almost Blind",
+	"description": "You cannot see very well as you have evolved to live in total darkness"
+}

@@ -1,0 +1,27 @@
+{
+    "name": "§5§nHome",
+    "description": "§5While not in the end you deal 2 less damage.",
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "value": -2,
+        "operation": "addition"
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_end",
+            "inverted": true
+            },
+            {
+                "type": "origins:resource",
+                "resource": "origins-plus-plus:shifter/shift_bar",
+                "comparison": "==",
+                "compare_to": 6
+            }
+        ]
+    }
+}

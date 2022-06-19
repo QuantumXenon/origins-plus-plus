@@ -1,0 +1,105 @@
+{
+	"type": "origins:active_self",
+	"hidden": true,
+	"cooldown": 1,
+	"key": {
+		"key": "key.use",
+		"continuous": true
+	},
+	"condition": {
+		"type": "origins:or",
+		"conditions": [
+		{
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "crossbow"
+				}
+			}
+		},
+		{
+			"type": "origins:equipped_item",
+			"equipment_slot": "offhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "crossbow"
+				}
+			}
+		}
+		]
+	},
+	"entity_action": {
+		"type": "origins:if_else_list",
+		"actions": [
+		{
+			"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:nbt",
+					"nbt": "{Charged:1b}"
+				}
+			},
+			"action": {
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+								"amount": 1
+						}
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "entity.item.break",
+						"volume": 1,
+						"pitch": 1
+					}
+					]
+				}
+			}
+		},
+		{
+			"condition": {
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:nbt",
+					"nbt": "{Charged:1b}"
+				}
+			},
+			"action": {
+				"type": "origins:delay",
+				"ticks": 1,
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "offhand",
+						"action": {
+							"type": "origins:consume",
+								"amount": 1
+						}
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "entity.item.break",
+						"volume": 1,
+						"pitch": 1
+					}
+					]
+				}
+			}
+		}
+		]
+	}
+}

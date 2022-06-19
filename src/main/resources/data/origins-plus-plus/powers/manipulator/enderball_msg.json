@@ -1,0 +1,9 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "title @s[scores={ManipCycle=7}] actionbar [\"\",{\"text\":\"Enderdragon Bxllz\",\"color\":\"dark_purple\"},{\"text\":\": \",\"color\":\"gray\"},{\"score\":{\"name\":\"@s\",\"objective\":\"ManipEnder\"},\"color\":\"red\"}]"
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "origins:action_over_time",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "offhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:sugar"
+      }
+    }
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "clear @s sugar 1"
+      },
+      {
+        "type": "origins:apply_effect",
+        "effects": [
+          {
+            "effect": "minecraft:speed",
+            "duration": 90,
+            "amplifier": 2
+          },
+          {
+            "effect": "minecraft:haste",
+            "duration": 90,
+            "amplifier": 1
+          }
+        ]
+      }
+    ]
+  },
+  "interval": 80,
+  "name": "Sugar Eating",
+  "description": "When you have sugar in your offhand, you eat it and get sugar effects"
+}

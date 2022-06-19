@@ -1,0 +1,26 @@
+{
+    "type": "origins:multiple",
+    "bar": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 20,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 5
+        }
+    },
+    "recharge": {
+        "type": "origins:self_action_on_kill",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "origins-plus-plus:deathsworn/soul_bar",
+            "change": 5
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "name": "SOUL Energy",
+    "description": "Like all occultists, you use SOUL energy for your demonic rituals. Accumulate it by killing mobs."
+}

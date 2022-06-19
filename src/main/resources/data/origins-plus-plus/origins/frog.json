@@ -1,0 +1,23 @@
+{
+	"powers": [
+		"origins:aqua_affinity",
+		"origins-plus-plus:frog/frog_dash",
+		"origins-plus-plus:frog/frog_fall",
+		"origins-plus-plus:frog/frog_fire",
+		"origins-plus-plus:frog/frog_fire_bar1",
+		"origins-plus-plus:frog/frog_fire_bar2",
+		"origins-plus-plus:frog/frog_fire_bar3",
+		"origins-plus-plus:frog/frog_jump",
+		"origins-plus-plus:frog/frog_life",
+		"origins-plus-plus:frog/frog_stats",
+		"origins-plus-plus:frog/frog_swim",	
+		"origins-plus-plus:frog/frog_swim2",
+		"origins-plus-plus:frog/frog_swim3",
+		"origins-plus-plus:frog/poison"
+		
+	],
+	"icon": "minecraft:lily_pad",
+	"impact": 3,
+	"name": "Frog",
+	"description": "Your frog character has certain traits deriving from your frog ancestry."
+}

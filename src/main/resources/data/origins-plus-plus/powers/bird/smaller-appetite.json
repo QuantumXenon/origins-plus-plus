@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "name": "Decreased exhaustion",
+        "operation": "multiply_base",
+        "value": -0.25
+    },
+	"name": "Small Appetite",
+	"description": "As a small birb, you don't have to eat as much."
+}

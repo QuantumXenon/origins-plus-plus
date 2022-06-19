@@ -1,0 +1,8 @@
+{
+    "type": "origins:prevent_item_use",
+	"name":"No Food",
+	"description":"You cannot eat food",
+    "item_condition": {
+        "type": "origins:food"
+    }
+}

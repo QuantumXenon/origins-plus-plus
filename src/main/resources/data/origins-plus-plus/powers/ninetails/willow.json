@@ -1,0 +1,18 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:small_fireball",
+    "cooldown": 6,
+    "hud_render": {
+        "should_render": false
+    },
+     "condition": {
+        "type": "origins:sneaking",
+        "inverted": true
+    },
+    "key": {
+        "key": "key.saveToolbarActivator",
+        "continuous": true
+    },
+    "name": "Willow Wisp",
+    "description": "You are able to shoot fireballs."
+}

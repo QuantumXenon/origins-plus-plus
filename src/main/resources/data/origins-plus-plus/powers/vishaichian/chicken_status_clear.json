@@ -1,0 +1,7 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:hunger"
+    ],
+    "hidden": true
+}

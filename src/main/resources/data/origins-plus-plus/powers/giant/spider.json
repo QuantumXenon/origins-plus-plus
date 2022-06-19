@@ -1,0 +1,16 @@
+{
+	"type": "origins:modify_damage_taken",
+	"name": "Arachnophobe",
+	"description": "You take 3x damage from arthropods",
+	"modifier": {
+		"operation": "multiply_total",
+		"value": 2
+	},
+	"damage_condition": {
+		"type": "origins:attacker",
+		"entity_condition": {
+			"type": "origins:entity_group",
+			"group": "arthropod"
+		}
+	}
+}

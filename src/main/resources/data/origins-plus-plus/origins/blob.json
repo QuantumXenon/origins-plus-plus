@@ -1,0 +1,31 @@
+{
+	"powers": [
+		"origins-plus-plus:blob/bar",
+		"origins-plus-plus:blob/cold",
+		"origins-plus-plus:blob/dmg",
+		"origins-plus-plus:blob/electricity_immune",
+		"origins-plus-plus:blob/fixballs",
+		"origins-plus-plus:blob/health",
+		"origins-plus-plus:blob/heat",
+		"origins-plus-plus:blob/magic",
+		"origins-plus-plus:blob/magic1",
+		"origins-plus-plus:blob/nether",
+		"origins-plus-plus:blob/nodrown",
+		"origins-plus-plus:blob/noshield",
+		"origins-plus-plus:blob/purify",
+		"origins-plus-plus:blob/side_step",
+		"origins-plus-plus:blob/skintone",
+		"origins-plus-plus:blob/smol",
+		"origins-plus-plus:blob/smol_hp",
+		"origins-plus-plus:blob/speed",
+		"origins-plus-plus:blob/stone_eatermain",
+		"origins-plus-plus:blob/strength",
+		"origins-plus-plus:blob/water_effects",
+		"origins-plus-plus:blob/wisdom",
+		"origins-plus-plus:blob/you"
+	],
+	"icon": "minecraft:popped_chorus_fruit",
+	"impact": 2,
+	"name": "Blob",
+	"description": "You are some kind of blob, you don't know anything about yourself but you seem to know already about the world around you."
+}

@@ -1,0 +1,51 @@
+{
+	"key": {
+		"key": "key.saveToolbarActivator",
+		"continuous": true
+	},
+	"type": "origins:active_self",
+	"cooldown": 100,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        	"bar_index": 9
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:air"
+					}
+				}
+			},
+			{
+				"type": "origins:health",
+				"comparison": "<",
+				"compare_to": 20
+			}
+		]
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "clear @s air 1"
+			},
+			{
+				"type": "origins:heal",
+				"amount": 10
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:entity.parrot.eat player @s ~ ~ ~ 1 1"
+			}
+		]
+	},
+	"name": "Steroids",
+	"description": "If you are holding nothing in your main hand, you can restore 10 HP. [Save Toolbar Activator]"
+}

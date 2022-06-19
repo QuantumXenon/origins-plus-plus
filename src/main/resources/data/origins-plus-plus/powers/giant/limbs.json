@@ -1,0 +1,23 @@
+{
+	"type": "origins:multiple",
+	"name": "Long Limbs",
+	"description": "You jump twice as high, have 33% more reach, projectiles go twice as far, and you don't slip on ice",
+	"jump": {
+		"type": "origins:modify_jump",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.5
+		}
+	},
+	"ice_slip": {
+		"type": "origins:modify_slipperiness",
+		"modifier": {
+			"operation": "addition",
+			"value": -0.38
+		},
+		"block_condition": {
+			"type": "origins:in_tag",
+			"tag": "ice"
+		}
+	}
+}

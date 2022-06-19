@@ -1,0 +1,11 @@
+{
+    "name": "Snake",
+    "description": "You are #1 Snek now.",
+    "powers": [
+        "origins-plus-plus:snake/intimidate",
+        "origins-plus-plus:snake/snekbite",
+        "origins-plus-plus:snake/snekhealth"
+    ],
+    "icon": "minecraft:scute",
+    "impact": 2
+}

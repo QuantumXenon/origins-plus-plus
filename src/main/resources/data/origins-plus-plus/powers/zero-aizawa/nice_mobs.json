@@ -1,0 +1,89 @@
+{
+    "type":"origins:multiple",
+    "aizawa_team_joining":{
+       "type":"origins:action_on_callback",
+       "entity_action_chosen":{
+          "type":"origins:and",
+          "actions":[
+             {
+                "type":"origins:execute_command",
+                "command":"team add aizawa",
+                "permission_level":4
+             },
+             {
+                "type":"origins:execute_command",
+                "command":"team join aizawa @s",
+                "permission_level":4
+             }
+          ]
+       },
+       "entity_action_lost":{
+          "type":"origins:execute_command",
+          "command":"team leave @s",
+          "permission_level":4
+       }
+    },
+    "aizawa_team_managing":{
+       "type":"origins:action_over_time",
+       "entity_action":{
+          "type":"origins:and",
+          "actions":[
+             {
+                "type":"origins:execute_command",
+                "command":"team leave @e[tag=angry]",
+                "permission_level":4
+             },
+             {
+                "type":"origins:execute_command",
+                "command":"team join aizawa @e[type=minecraft:zombie,tag=!angry]",
+                "permission_level":4
+             },
+             {
+                "type":"origins:execute_command",
+                "command":"team join aizawa @e[type=minecraft:skeleton,tag=!angry]",
+                "permission_level":4
+             },
+             {
+                "type":"origins:execute_command",
+                "command":"team join aizawa @e[type=minecraft:husk,tag=!angry]",
+                "permission_level":4
+             },
+             {
+                "type":"origins:execute_command",
+                "command":"team join aizawa @e[type=minecraft:drowned,tag=!angry]",
+                "permission_level":4
+             },
+             {
+                "type":"origins:execute_command",
+                "command":"team join aizawa @e[type=minecraft:stray,tag=!angry]",
+                "permission_level":4
+             },
+			 {
+                "type":"origins:execute_command",
+                "command":"team join aizawa @e[type=minecraft:spider,tag=!angry]",
+                "permission_level":4
+             },
+			 {
+                "type":"origins:execute_command",
+                "command":"team join aizawa @e[type=minecraft:creeper,tag=!angry]",
+                "permission_level":4
+             }
+          ]
+       },
+       "interval":20
+    },
+    "hostility_when_hit":{
+       "type":"origins:target_action_on_hit",
+       "entity_action":{
+          "type":"origins:execute_command",
+          "command":"tag @s[team=aizawa,type=!minecraft:player] add angry",
+          "permission_level":4
+       },
+       "cooldown":0,
+       "hud_render":{
+          "should_render":false
+       }
+    },
+    "name":"Very Nice",
+    "description":"Because you're so nice to everyone; creepers, spiders, skeletons (+ variants), and zombies (+ variants) won't attack you unless provoked. You also get good discounts for villager trades."
+}

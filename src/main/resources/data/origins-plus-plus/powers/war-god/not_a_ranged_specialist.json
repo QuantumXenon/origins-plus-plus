@@ -1,0 +1,20 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "value": 1.5,
+        "operation": "multiply_total"
+    },
+    "damage_condition": {
+        "conditions": [
+            {
+                "name": "projectile",
+                "type": "origins:name",
+                "inverted": false
+            }
+        ],
+        "type": "origins:or",
+        "inverted": false
+    },
+    "name": "Not a Ranged Specialist",
+    "description": "You are more skilled using swords and axes. Bows deal more damage to you."
+}

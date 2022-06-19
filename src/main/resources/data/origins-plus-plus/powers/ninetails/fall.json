@@ -1,0 +1,9 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+	"name": "Fall Immunity",
+	"description": "Due to having the body type of a fox, you are immune to fall damage."
+}

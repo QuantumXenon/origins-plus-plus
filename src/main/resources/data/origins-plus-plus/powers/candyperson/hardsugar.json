@@ -1,0 +1,33 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    },
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 1
+    },
+    "cooldown": 300,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:resistance",
+                    "duration": 80,
+                    "amplifier": 4
+                }
+            },
+            {
+                "type": "origins:feed",
+                "food": -7,
+                "saturation": 0
+            }
+        ]
+    },
+    "name": "Hard Candy",
+    "description": "Press G to get resistence and lose some food points"
+}

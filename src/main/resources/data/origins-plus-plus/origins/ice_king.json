@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"origins-plus-plus:ice-king/blue_transparent_ski",
+		"origins-plus-plus:ice-king/cold_powr",
+		"origins-plus-plus:ice-king/combo_attack",
+		"origins-plus-plus:ice-king/freeze_immune",
+		"origins-plus-plus:ice-king/frostbreath",
+		"origins-plus-plus:ice-king/frostwalkertoggle",
+		"origins-plus-plus:ice-king/heal_near_ice",
+		"origins-plus-plus:ice-king/hot_bioe",
+		"origins-plus-plus:ice-king/pyrophobia",
+		"origins-plus-plus:ice-king/unresolved_size",
+		"origins-plus-plus:ice-king/warp"
+	],
+	"icon": "minecraft:blue_ice",
+	"impact": 3,
+	"name": "Ice King",
+	"description": "Born in the frozen north, and a descendent of the ice queen, the ice king has grown accustomed to the cold"
+}

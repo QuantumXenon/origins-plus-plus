@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:base 0.6 @s",
+        "permission_level": 4
+    },
+    "entity_action_removed": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:base 0.6 @s",
+        "permission_level": 4
+    },
+    "entity_action_respawned": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:base 0.6 @s",
+        "permission_level": 4
+    },
+    "execute_chosen_when_orb": true,
+    "name": "Small Size",
+    "description": "You one block tall but can jump and run faster and higher than most."
+}

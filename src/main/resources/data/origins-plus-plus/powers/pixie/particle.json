@@ -1,0 +1,23 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+	"type": "origins:and",
+	"actions": [
+		{
+		"type": "origins:execute_command",
+		"command": "particle minecraft:effect ~ ~ ~ 0.5 0.1 0.5 0 20 force",
+		"permission_level": 4
+		},
+		{
+		"type": "origins:execute_command",
+		"command": "particle minecraft:wax_off ~ ~1 ~ 0.1 0.3 0.1 0 20 force",
+		"permission_level": 4
+		}
+	]
+	},
+	"cooldown": 100,
+	"key": {
+		"key": "key.origins.secondary_active"
+	},
+	"hidden": true
+}
