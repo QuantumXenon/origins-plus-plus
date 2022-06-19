@@ -1,13 +1,7 @@
-buildscript {
-    repositories {
-        maven { url = 'https://maven.minecraftforge.net' }
-    }
-    dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
-    }
+plugins {
+    id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-apply plugin: 'net.minecraftforge.gradle'
 version = '1.6.1'
 group = 'com.quantumxenon.origins_plus_plus'
 
