@@ -80,29 +80,8 @@
 			},
 			{
 				"type": "origins:explode",
-				"power": 1.5,
-				"damage_self": false,
-				"indestructible": {
-					"type": "origins:or",
-					"conditions": [
-					{
-						"type": "origins:block",
-						"block": "minecraft:chest"
-					},
-					{
-						"type": "origins:block",
-						"block": "minecraft:barrel"
-					},
-					{
-						"type": "origins:block",
-						"block": "minecraft:cobweb"
-					},
-					{
-						"type": "origins:block",
-						"block": "minecraft:spawner"
-					}
-					]
-				}
+				"power": 2,
+				"damage_self": false
 			}
 			]
 		}
@@ -111,19 +90,30 @@
 		"type": "origins:action_over_time",
 		"interval": 10,
 		"condition": {
-			"type": "origins:or",
+			"type": "origins:and",
 			"conditions": [
 			{
-				"type": "origins:on_block",
-				"block_condition": {
-					"type": "origins:movement_blocking"
-				}
+				"type": "origins:resource",
+				"resource": "origins-plus-plus:giant/slam_res",
+				"comparison": "==",
+				"compare_to": 1
 			},
 			{
-				"type": "origins:fluid_height",
-				"fluid": "water",
-				"comparison": ">",
-				"compare_to": 0
+				"type": "origins:or",
+				"conditions": [
+				{
+					"type": "origins:on_block",
+					"block_condition": {
+						"type": "origins:movement_blocking"
+					}
+				},
+				{
+					"type": "origins:fluid_height",
+					"fluid": "water",
+					"comparison": ">",
+					"compare_to": 0
+				}
+				]
 			}
 			]
 		},
