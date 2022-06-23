@@ -1,0 +1,19 @@
+{
+	"type":"origins:action_on_callback",
+	"execute_chosen_when_orb":false,
+	"entity_action_respawned":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:automation/waterbar",
+				"change":5000
+			},
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:automation/firebar",
+				"change":5000
+			}
+		]
+	}
+}
