@@ -1,15 +1,12 @@
-CurseForge:
-- miniturebob
-
 Discord:
 - _Inverted#4614
 - agent#8449
 - allo#9733
-- Arctic Bonnie#7004
+- ArcticBonn#7004
 - Badaxe#2669
+- Beacon#7463
 - Bennoh01#7213
 - Bogdanasaurus#0204
-- CrysTool#0089
 - Dan's Other Clone#8773
 - Dark_Warchief#6251
 - DarkStarEch0#6328
@@ -20,38 +17,39 @@ Discord:
 - Dimsunset#7190
 - E_da_gamer#1541
 - Extratedustrial#0026
-- Ghost's Abyss#5558
+- FirTool#0089
+- Ghost Lights#5558
 - h. 🍄#9184
 - Jackspyro123#4541
 - Jakeyyy#0569
-- JumboconQueso#6969
 - Lucas22YT#1920
-- Mr. Smuggle#6067
-- MrBeacon#7463
+- miniturebob#2679
+- mushyslushie#6067
 - NABUptown#9103
 - Overgrown#5799
+- Pier#2468
 - Purple_LT#0011
+- QuackMeansQuack#3162
 - Rachelle#6666
 - Red_Amaranth#1669
+- Rezbow#6969
 - SneakyTurtle#0961
 - Stan#9651
+- Steboot#5199
+- syrup ⚛#3934
 - Tetromine#2313
 - that_vibe_dude#6352
+- The Pinky#5282
 - TrolLikesPizza#6209
-- ╲⧹The Pinky⧸╱#5282
-- ✨raincxndy✨#3934
 - 🄱🄻🄾🄲#7596
 
 Planet Minecraft:
 - AshBuny
 - DOgDemO
 - GoofySullivan
-- LakePier
 - LordEnder_Kitty
 - Luna Bold
 - PalindromeIsHere
 - PeterTP
-- QuackMeansQuack
 - Quetzalcoatll_
-- Steboot
 - TrizzyTNT
