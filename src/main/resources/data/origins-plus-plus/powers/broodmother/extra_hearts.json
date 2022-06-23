@@ -1,11 +1,11 @@
 {
     "name": "Extra Hearts",
-    "description": "Because of your ancestry, you get 20 more hearts.",
+    "description": "Because of your ancestry, you get extra hearts.",
     "type": "origins:attribute",
     "modifier": {
         "name": "Max health increase",
         "attribute": "minecraft:generic.max_health",
-        "value": 20,
+        "value": 10,
         "operation": "addition"
     }
 }
