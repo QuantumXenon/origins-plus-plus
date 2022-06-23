@@ -9,7 +9,7 @@
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "scale set pehkui:width 2"
+				"command": "scale set pehkui:width 2.5"
 			},
 			{
 				"type": "origins:execute_command",
@@ -26,7 +26,7 @@
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "scale set pehkui:width 2"
+				"command": "scale set pehkui:width 2.5"
 			},
 			{
 				"type": "origins:execute_command",
