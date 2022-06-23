@@ -1,19 +1,33 @@
 {
-    "name": "Hide",
-    "description": "Make rabbit hide out of leather!",
-    "loading_priority": 2,
-    "type": "origins:recipe",
-    "recipe": {
-        "id": "hide_recipe",
-        "type": "minecraft:crafting_shapeless",
-        "ingredients": [
-            {
-                "item": "minecraft:leather"
-            }
-        ],
-        "result": {
-            "item": "minecraft:rabbit_hide",
-            "count": 2
-        }
+	"name":"Hide",
+	"description":"Make rabbit hide out of leather by right-clicking on it with shears in your inventory.",
+	"type":"origins:item_on_item",
+	"using_item_condition":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:shears"
+		}
+	},
+	"on_item_condition":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:leather"
+		}
+	},
+	"result":{
+		"item":"minecraft:rabbit_hide",
+		"amount":2
+	},
+	"using_item_action":{
+		"type":"origins:damage",
+		"amount":1
+	},
+	"on_item_action":{
+		"type":"origins:consume",
+		"amount":1
+	},
+	"entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:block.cave_vines.pick_berries"
     }
 }
