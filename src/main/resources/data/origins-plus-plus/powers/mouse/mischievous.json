@@ -2,9 +2,8 @@
     "name": "Mischievous",
     "description": "Mouses are quick, you can travel greater distances in a short amount of time. [Primary]",
     "type":"origins:active_self",
-    "key":{
-       "key":"key.origins.primary_active"
-    },
+	"key":"key.origins.primary_active",
+	"cooldown":500,
     "hud_render":{
        "should_render":true
     },
