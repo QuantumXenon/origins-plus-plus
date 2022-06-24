@@ -1,8 +1,8 @@
 {
     "type": "origins:active_self",
     "name": "Newborn Fighters",
-    "description": "You can summon a cave spider every 10 seconds to fight for you. [Secondary]",
-    "cooldown": 200,
+    "description": "You can summon a cave spider every 30 seconds to fight for you.",
+    "cooldown": 600,
     "key": "key.origins.secondary_active",
     "entity_action": {
         "type": "origins:and",

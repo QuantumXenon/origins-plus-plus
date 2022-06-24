@@ -1,6 +1,7 @@
 {
 	"powers": [
 		"origins:no_shield",
+		"origins:master_of_webs",
 		"origins:no_cobweb_slowdown",
 		"origins-plus-plus:broodmother/climbing",
 		"origins-plus-plus:broodmother/cobweb_feed",
@@ -8,7 +9,6 @@
 		"origins-plus-plus:broodmother/exoskeleton",
 		"origins-plus-plus:broodmother/extra_hearts",
 		"origins-plus-plus:broodmother/long_jump",
-		"origins-plus-plus:broodmother/master_of_webs",
 		"origins-plus-plus:broodmother/mineshaft_spawn",
 		"origins-plus-plus:broodmother/poison_immunity",
 		"origins-plus-plus:broodmother/poison_touch",

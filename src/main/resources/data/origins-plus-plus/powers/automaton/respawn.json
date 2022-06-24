@@ -6,12 +6,12 @@
 		"actions":[
 			{
 				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:automation/waterbar",
+				"resource":"origins-plus-plus:automaton/waterbar",
 				"change":5000
 			},
 			{
 				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:automation/firebar",
+				"resource":"origins-plus-plus:automaton/firebar",
 				"change":5000
 			}
 		]

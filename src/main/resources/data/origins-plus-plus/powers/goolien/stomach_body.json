@@ -1,6 +1,6 @@
 {
     "name": "Stomach Body",
-    "description": "You have increased saturation from meats (both raw and cooked) thanks to how your body breaks down the matter, and don't get hunger or poison status effects. However, you have no regeneration, and must eat to get back hearts directly.",
+    "description": "You have increased saturation from meats thanks to how your body breaks down the matter and you don't get hunger or poison status effects. [You have no natural regeneration and you will always be at half hunger - eating food directly refills your hearts. You cannot eat when you are at full health.].",
     "type": "origins:multiple",
 
     "no_hunger": {
@@ -14,7 +14,7 @@
     {
         "type": "origins:disable_regen"
     },
-    "no_spint":
+    "no_sprint":
     {
         "type": "origins:action_over_time",
         "interval": 1,
