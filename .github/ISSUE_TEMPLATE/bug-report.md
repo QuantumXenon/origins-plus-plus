@@ -6,13 +6,13 @@ assignees: QuantumXenon
 
 ---
 **Version**
-Forge or Fabric?
+Forge/Fabric and the version number
 
 **Origin**
 The origin that is affected by the problem
 
 **Power**
-The power that is affected by the problem
+The name of the power that is affected by the problem
 
 **Notes**
 Any other information that might be useful
