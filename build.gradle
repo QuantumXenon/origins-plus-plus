@@ -2,7 +2,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.6.1'
+version = '1.6.2'
 group = 'com.quantumxenon.origins_plus_plus'
 
 minecraft {
