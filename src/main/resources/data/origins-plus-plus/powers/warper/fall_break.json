@@ -19,9 +19,7 @@
     "hud_render": {
         "should_render": false
     },
-    "key": {
-        "key": "key.sneak"
-    },
-		"name": "Teleport Clutch",
+	"key": "key.sneak",
+	"name": "Teleport Clutch",
 	"description": "Press the sneak key to stop your fall. Make sure to time it correctly."
 }

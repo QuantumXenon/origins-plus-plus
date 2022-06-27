@@ -45,5 +45,6 @@
 			"type":"origins:power_active",
 			"power":"origins-plus-plus:bedrockean/toggle"
 		}
-	}
+	},
+	"hidden":true
 }

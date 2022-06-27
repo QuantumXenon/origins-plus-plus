@@ -5,7 +5,7 @@
       "value": -0.75,
       "operation": "multiply_base"
     },
-    "name": "smaller less need for fod",
-    "description": "since you're smaller you need less food."
+    "name": "Small Appetite",
+    "description": "As you are smaller, you do not need to eat as much."
   }
   

@@ -20,6 +20,6 @@
     "comparison": ">",
     "compare_to": 1
   },
-  "name": "Weak arms",
-  "description": "Because you are a decendant of Wyverns, you have weaker arms. You cannot hold a shield"
+  "name": "Weak Body",
+  "description": "Because you are a decendant of wyverns, you have a weaker body and thus cannot wear armour with protection higher than chainmail."
 }

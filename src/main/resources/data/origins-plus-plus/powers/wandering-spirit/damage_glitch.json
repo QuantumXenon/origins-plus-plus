@@ -1,7 +1,7 @@
 {
    "type": "origins:multiple",
    "name":"Damage Glitch",
-   "description":"When critical hitting something, you have a 33% chance to accidentally deal 3 hearts of damage to yourself rather than the mob or player you're hitting.",
+   "description":"When critical hitting something, you have a 1 in 3 chance to accidentally deal 3 hearts of damage to yourself rather than the mob or player you're hitting.",
    "entity_action": {
        "type": "origins:self_action_when_hit",
        "cooldown": 200,

@@ -2,5 +2,6 @@
     "type": "origins:effect_immunity",
     "effects": [
         "minecraft:slowness"
-    ]
+    ],
+	"hidden":true
 }

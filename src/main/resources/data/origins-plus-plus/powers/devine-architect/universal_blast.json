@@ -36,9 +36,7 @@
      "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
      "bar_index":17
   },
-  "key":{
-     "key":"key.pickItem"
-  },
+  "key":"key.pickItem",
   "name":"Universal Blast",
   "description":"You can shoot a beam of condensed universal energy. [Pick Item]"
 }

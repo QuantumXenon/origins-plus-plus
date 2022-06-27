@@ -3,7 +3,5 @@
   "description": "You can access a custom ender chest to store things which don't drop on death.",
   "type": "origins:inventory",
   "drop_on_death": false,
-  "key": {
-    "key": "key.saveToolbarActivator"
-  }
+  "key": "key.saveToolbarActivator"
 }

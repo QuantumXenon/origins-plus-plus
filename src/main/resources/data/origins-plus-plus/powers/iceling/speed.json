@@ -12,5 +12,6 @@
     },
     "condition": {
         "type": "origins:living"
-    }
+    },
+	"hidden":true
 }

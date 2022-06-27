@@ -12,8 +12,7 @@
 		"origins-plus-plus:wandering-spirit/size_change",
 		"origins-plus-plus:wandering-spirit/size_changer",
 		"origins-plus-plus:wandering-spirit/size_resource",
-		"origins-plus-plus:wandering-spirit/the_darkness",
-		"origins-plus-plus:wandering-spirit/translucent"
+		"origins-plus-plus:wandering-spirit/the_darkness"
 	],
 	"icon": "minecraft:crimson_roots",
 	"impact": 3,

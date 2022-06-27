@@ -1,6 +1,6 @@
 {
-  "name": "Home Country",
-  "description": "You come from and belong to the End.",
+  "name": "End Home",
+  "description": "You come from and belong to the end.",
   "type": "origins:modify_player_spawn",
   "dimension": "minecraft:the_end",
   "biome": "minecraft:end_highlands"
