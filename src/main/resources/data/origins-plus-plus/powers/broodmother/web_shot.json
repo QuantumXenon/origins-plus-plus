@@ -1,7 +1,7 @@
 {
 	"type":"origins:fire_projectile",
 	"entity_type":"minecraft:falling_block",
-	"tag":"{BlockState:{Name:\"minecraft:cobweb\"},NoGravity:0b,Time:10,HurtEntities:1b,FallHurtMax:10,FallDistance:10f,FallHurtAmount:1f}",
+	"tag":"{BlockState:{Name:\"origins:temporary_cobweb\"},NoGravity:0b,Time:10,HurtEntities:1b,FallHurtMax:10,FallDistance:10f,FallHurtAmount:1f}",
 	"speed":1,
 	"divergence":0,
 	"cooldown":100,
