@@ -1,6 +1,6 @@
 {
 	"name":"Withered",
-	"description":"Gives Wither effect to players in a 5x5 area for 5 seconds. Kill 120 mobs to use this ability. [Save Toolbar Activator]",
+	"description":"Gives Wither effect to players in a 5x5 area for 5 seconds. Kill 120 mobs to use this ability.",
     "type": "origins:active_self",
     "key": {
         "key": "key.saveToolbarActivator"
@@ -30,7 +30,7 @@
 	},
 	"condition":{
 	   "type":"origins:resource",
-	   "resource":"origins-plus-plus:ebon_wing/blood_blood",
+	   "resource":"origins-plus-plus:ebon-wing/blood_blood",
 	   "comparison":">=",
 	   "compare_to":120
 	}

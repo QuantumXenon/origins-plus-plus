@@ -16,13 +16,13 @@
             "conditions": [
         {
             "type": "origins:resource",
-            "resource": "origins-plus-plus:ebon_wing/dodge_charges",
+            "resource": "origins-plus-plus:ebon-wing/dodge_charges",
             "comparison": "!=",
             "compare_to": 0
         },
         {
             "type":"origins:resource",
-            "resource":"origins-plus-plus:ebon_wing/blood_blood",
+            "resource":"origins-plus-plus:ebon-wing/blood_blood",
             "comparison":">=",
             "compare_to":100
         }
@@ -173,13 +173,13 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "origins-plus-plus:ebon_wing/dodge_charges",
+                    "resource": "origins-plus-plus:ebon-wing/dodge_charges",
                     "comparison": "!=",
                     "compare_to": 0
                 },
                 {
                     "type": "origins:resource",
-                    "resource": "origins-plus-plus:ebon_wing/dodge_iframecheck",
+                    "resource": "origins-plus-plus:ebon-wing/dodge_iframecheck",
                     "comparison": "==",
                     "compare_to": 0
                 },
@@ -190,7 +190,7 @@
                 },
                 {
                     "type":"origins:resource",
-                    "resource":"origins-plus-plus:ebon_wing/blood_blood",
+                    "resource":"origins-plus-plus:ebon-wing/blood_blood",
                     "comparison":">=",
                     "compare_to":100
                 }
@@ -332,7 +332,7 @@
             "actions": [
                 {
                     "type": "origins:change_resource",
-                    "resource": "origins-plus-plus:ebon_wing/dodge_iframecheck",
+                    "resource": "origins-plus-plus:ebon-wing/dodge_iframecheck",
                     "change": 1
                 },
                 {
@@ -353,11 +353,11 @@
 				},
                 {
                     "type": "origins:trigger_cooldown",
-                    "power": "origins-plus-plus:ebon_wing/dodge_cooldown"
+                    "power": "origins-plus-plus:ebon-wing/dodge_cooldown"
                 },
                 {
                     "type": "origins:change_resource",
-                    "resource": "origins-plus-plus:ebon_wing/dodge_invis_timer",
+                    "resource": "origins-plus-plus:ebon-wing/dodge_invis_timer",
                     "change": 200
                 },
                 {
@@ -366,7 +366,7 @@
                     "action":
                     {
                         "type": "origins:change_resource",
-                        "resource": "origins-plus-plus:ebon_wing/dodge_charges",
+                        "resource": "origins-plus-plus:ebon-wing/dodge_charges",
                         "change": -1
                     }
                 },
@@ -376,7 +376,7 @@
                     "action":
                     {
                         "type": "origins:change_resource",
-                        "resource": "origins-plus-plus:ebon_wing/dodge_iframecheck",
+                        "resource": "origins-plus-plus:ebon-wing/dodge_iframecheck",
                         "change": -1
                     }
                 }
@@ -413,13 +413,13 @@
         "entity_action":
         {
             "type": "origins:change_resource",
-            "resource": "origins-plus-plus:ebon_wing/dodge_charges",
+            "resource": "origins-plus-plus:ebon-wing/dodge_charges",
             "change": 20
         },
         "condition":
         {
             "type": "origins:resource",
-            "resource": "origins-plus-plus:ebon_wing/dodge_cooldown",
+            "resource": "origins-plus-plus:ebon-wing/dodge_cooldown",
             "comparison": "==",
             "compare_to": 0
         }

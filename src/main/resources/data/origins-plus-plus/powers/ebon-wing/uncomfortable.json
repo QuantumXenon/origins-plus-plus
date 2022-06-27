@@ -5,7 +5,7 @@
       "comparison": ">",
       "compare_to": -20
     },
-    "message": "You feel uncomfortable and are unable to sleep. Maybe sleeping close to Y = -20?",
+    "message": "You feel uncomfortable and are unable to sleep. Maybe try sleeping close to Y = -20?",
     "name":"Uncomfortable",
     "description":"It is impossible for you to sleep above Y = -20."
   }

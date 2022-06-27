@@ -12,12 +12,12 @@
 		  },
 		  {
 			 "type":"origins:change_resource",
-			 "resource":"origins-plus-plus:ebon_wing/last_resort_cooldown",
+			 "resource":"origins-plus-plus:ebon-wing/last_resort_cooldown",
 			 "change":-1200
 		  },
 		  {
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:ebon_wing/blood_blood",
+			"resource":"origins-plus-plus:ebon-wing/blood_blood",
 			"change":-220
 		 },
 		 {
@@ -78,7 +78,7 @@
 		  },
 		  {
 			 "type":"origins:resource",
-			 "resource":"origins-plus-plus:ebon_wing/last_resort_cooldown",
+			 "resource":"origins-plus-plus:ebon-wing/last_resort_cooldown",
 			 "comparison":"==",
 			 "compare_to":0
 		  }

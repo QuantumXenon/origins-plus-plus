@@ -8,7 +8,7 @@
     "bar_index": 14,
     "condition": {
       "type": "origins:resource",
-      "resource": "origins-plus-plus:ebon_wing/last_resort_cooldown",
+      "resource": "origins-plus-plus:ebon-wing/last_resort_cooldown",
       "comparison": "==",
       "compare_to": 0,
       "inverted": true

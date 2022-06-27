@@ -1,6 +1,6 @@
 {
     "name": "Night Strength",
-    "description": "At night-time, you Strength I.",
+    "description": "At night-time, you have strength.",
     "type": "origins:action_over_time",
     "condition": {
         "type": "origins:daytime",
@@ -16,7 +16,7 @@
                     {
                         "duration": 300,
                         "is_ambient": false,
-                        "show_particles": true,
+                        "show_particles": false,
                         "show_icon": true,
                         "effect": "minecraft:strength",
                         "amplifier": 0

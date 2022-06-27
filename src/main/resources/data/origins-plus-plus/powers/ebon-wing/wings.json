@@ -3,7 +3,7 @@
     "render_elytra":true,
     "condition":{
        "type":"origins:resource",
-       "resource":"origins-plus-plus:ebon_wing/blood_blood",
+       "resource":"origins-plus-plus:ebon-wing/blood_blood",
        "comparison":">=",
        "compare_to":100
     },

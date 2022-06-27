@@ -16,7 +16,7 @@
 	   "type":"origins:self_action_on_hit",
 	   "entity_action":{
 		  "type":"origins:change_resource",
-		  "resource":"origins-plus-plus:ebon_wing/blood_blood",
+		  "resource":"origins-plus-plus:ebon-wing/blood_blood",
 		  "change":1
 	   },
 	   "damage_condition":{
@@ -30,7 +30,7 @@
 	   "type":"origins:self_action_when_hit",
 	   "entity_action":{
 		  "type":"origins:change_resource",
-		  "resource":"origins-plus-plus:ebon_wing/blood_blood",
+		  "resource":"origins-plus-plus:ebon-wing/blood_blood",
 		  "change":-1
 	   },
 	   "damage_condition":{
@@ -45,7 +45,7 @@
 	   "cooldown":20,
 	   "entity_action":{
 		  "type":"origins:change_resource",
-		  "resource":"origins-plus-plus:ebon_wing/blood_blood",
+		  "resource":"origins-plus-plus:ebon-wing/blood_blood",
 		  "change":1
 	   }
 	},
@@ -53,7 +53,7 @@
 	   "type":"origins:action_over_time",
 	   "entity_action":{
 		  "type":"origins:change_resource",
-		  "resource":"origins-plus-plus:ebon_wing/blood_blood",
+		  "resource":"origins-plus-plus:ebon-wing/blood_blood",
 		  "change":0
 	   },
 	   "interval":100

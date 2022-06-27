@@ -8,7 +8,7 @@
             "effect": "minecraft:fire_resistance",
             "duration": 100,
             "amplifier": 0,
-            "is_ambient": true,
+            "is_ambient": false,
             "show_particles": false,
             "show_icon": false
         },
@@ -16,11 +16,11 @@
             "effect": "minecraft:speed",
             "duration":100,
             "amplifier": 1,
-            "is_ambient": true,
+            "is_ambient": false,
             "show_particles": false,
             "show_icon": false
         }
     ],
     "name": "Ebon Effects",
-    "description": "You have natural Fire Resistance and Speed II."
+    "description": "You have natural fire resistance and speed."
 }
