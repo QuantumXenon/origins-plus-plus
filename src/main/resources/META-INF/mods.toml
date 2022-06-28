@@ -45,7 +45,7 @@ logoFile="icon.png"
 [[dependencies.origins_plus_plus]]
     modId="apoli"
     mandatory=true
-    versionRange="[1.18.2-1.4.1.4-pre2,)"
+    versionRange="[1.18.2-1.4.1.4,)"
     ordering="NONE"
     side="BOTH"	
 	
