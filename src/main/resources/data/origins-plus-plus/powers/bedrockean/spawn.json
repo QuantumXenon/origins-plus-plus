@@ -3,6 +3,6 @@
 	"dimension": "the_nether",
 	"spawn_strategy": "center",
 	"dimension_distance_multiplier":0.125,
-	"name": "Deep down",
+	"name": "Deep Down",
 	"description": "You spawn in the nether where there is double the amount of bedrock."
 }
