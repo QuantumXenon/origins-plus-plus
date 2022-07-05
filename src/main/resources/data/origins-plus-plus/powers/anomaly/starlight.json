@@ -5,7 +5,6 @@
 		"command": "particle minecraft:dust 0.01960784 1 0.81960784 2 ~ ~ ~ 1 2 1 1 10",
 		"permission_level": 4
 	},
-	"interval" : 15,
-	"name": "Starlight",
-	"description": "Show them who you are - SHINE BRIGHT!"
+	"interval":15,
+	"hidden":true
 }

@@ -3,7 +3,7 @@
         "modifier": {
             "attribute": "minecraft:generic.attack_damage",
             "operation": "addition",
-            "value": 4
+            "value": 3
         },
         "name": "Spider Strength",
         "description": "Your anatomy allows you to be stronger."

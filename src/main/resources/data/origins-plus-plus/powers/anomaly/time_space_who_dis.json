@@ -1,6 +1,6 @@
 {
 	"name": "Time? Space? Who dis?",
-	"description": "Anomalies are highly unstable, but you can use this to your advantage; you go where you want to go.",
+	"description": "Anomalies are highly unstable, but you can use this to your advantage; you can teleport where you want to go.",
     "type": "origins:active_self",
     "key": {
         "key": "key.origins.primary_active"

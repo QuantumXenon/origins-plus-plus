@@ -20,7 +20,7 @@
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
 		"bar_index": 7
 	},
-	"key": "key.origins.primary_active",
+	"key": "key.origins.secondary_active",
 	"name": "Echolocation",
 	"description": "You can shriek to detect nearby mobs and cause them to glow"
 }
