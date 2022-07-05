@@ -1,6 +1,6 @@
 {
 	"name": "Mana Bar",
-	"description": "You have a mana bar if you run out of mana you die.",
+	"description": "You have a mana bar - If you run out of mana you die.",
     "type": "origins:resource",
     "min": 0,
     "max": 1000,
