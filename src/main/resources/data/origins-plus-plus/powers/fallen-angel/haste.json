@@ -1,6 +1,6 @@
 {
     "name": "Strong Fists",
-    "description": "You are very Strong, giving you Haste.",
+    "description": "You are very strong, giving you haste.",
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
     "max_stacks": 1,

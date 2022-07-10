@@ -1,6 +1,6 @@
 {
     "name": "Fragile",
-    "description": "You only have 8 Hearts from all the Torture in Hell.",
+    "description": "You only have 8 hearts from all the torture in hell.",
     "type": "origins:attribute",
     "modifier": {
         "attribute": "minecraft:generic.max_health",

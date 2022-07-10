@@ -1,6 +1,6 @@
 {
-    "name": "Presence",
-    "description": "You are Glowing due to your Immense Demonic Energy.",
+    "name": "Demonic Presence",
+    "description": "You are glowing due to your immense demonic energy.",
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
     "max_stacks": 1,

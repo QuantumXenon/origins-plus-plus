@@ -30,5 +30,6 @@
             }
         ]
     },
-	"hidden":true
+	"name": "Flesh Eater",
+    "description": "You crave flesh so you can't eat anything that isn't meat."
 }

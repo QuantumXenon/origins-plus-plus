@@ -1,6 +1,6 @@
 {
     "name": "Fall Immunity",
-    "description": "You are Immune to all Fall Damage.",
+    "description": "You are immune to fall damage.",
     "type": "origins:invulnerability",
     "damage_condition": {
         "inverted": false,

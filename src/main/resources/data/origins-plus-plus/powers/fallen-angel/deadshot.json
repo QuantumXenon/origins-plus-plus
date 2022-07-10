@@ -1,6 +1,6 @@
 {
     "name": "Deadshot",
-    "description": "You Can Shoot a Wither Skull.",
+    "description": "You can shoot a wither skull.",
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:wither_skull",
     "cooldown": 40,
@@ -13,5 +13,5 @@
     "speed": 3,
     "divergence": 1,
     "sound": "minecraft:entity.phantom.death",
-    "key": "secondary"
+    "key":"key.origins.secondary_active"
 }
