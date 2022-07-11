@@ -9,6 +9,7 @@
             "show_icon": false
 		}
 	},
+	"interval":1,
 	"name": "Almost Blind",
 	"description": "You cannot see very well as you have evolved to live in total darkness"
 }
