@@ -6,9 +6,9 @@ version = '1.7'
 group = 'com.quantumxenon.origins_plus_plus'
 
 minecraft {
-    mappings channel: 'official', version: '1.19'
+    mappings channel: 'official', version: '1.19.2'
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.2-43.0.2'
+    minecraft 'net.minecraftforge:forge:1.19.2-43.0.8'
 }
