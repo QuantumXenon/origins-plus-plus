@@ -1,21 +1,50 @@
 {
     "type":"origins:action_on_callback",
-    "entity_action_chosen":{
-       "type":"origins:execute_command",
-       "command":"scale set pehkui:base 1.3 @s",
-       "permission_level":4
-    },
-    "entity_action_removed":{
-       "type":"origins:execute_command",
-       "command":"scale set pehkui:base 1 @s",
-       "permission_level":4
-    },
-    "entity_action_respawned":{
-       "type":"origins:execute_command",
-       "command":"scale set pehkui:base 1.3 @s",
-       "permission_level":4
-    },
-    "execute_chosen_when_orb":true,
+	"entity_action_chosen":{
+	   "type":"origins:and",
+	   "actions":[
+		  {
+			 "type":"origins:execute_command",
+			 "command":"scale set pehkui:height 1.3",
+			 "permission_level":4
+		  },
+		  {
+			 "type":"origins:execute_command",
+			 "command":"scale set pehkui:width 1.3",
+			 "permission_level":4
+		  }
+	   ]
+	},
+	"entity_action_respawned":{
+	   "type":"origins:and",
+	   "actions":[
+		  {
+			 "type":"origins:execute_command",
+			 "command":"scale set pehkui:height 1.3",
+			 "permission_level":4
+		  },
+		  {
+			 "type":"origins:execute_command",
+			 "command":"scale set pehkui:width 1.3",
+			 "permission_level":4
+		  }
+	   ]
+	},
+	"entity_action_lost":{
+	   "type":"origins:and",
+	   "actions":[
+		  {
+			 "type":"origins:execute_command",
+			 "command":"scale set pehkui:height 1",
+			 "permission_level":4
+		  },
+		  {
+			 "type":"origins:execute_command",
+			 "command":"scale set pehkui:width 1",
+			 "permission_level":4
+		  }
+	   ]
+	},
     "name":"Unnatural Height",
     "description":"You are naturally three blocks tall."
 }
