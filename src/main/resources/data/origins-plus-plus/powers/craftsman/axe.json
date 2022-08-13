@@ -7,7 +7,7 @@
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "item": "minecraft:wooden_axe"
+                "item": "fabric:axes"
             }
         }
     },
@@ -15,13 +15,13 @@
     "modifier": {
         "attribute": "generic.attack_damage",
         "operation": "multiply_base",
-        "value": 1.5
+        "value": 1.25
     },
     "modifiers": [
         {
             "attribute": "generic.attack_speed",
             "operation": "addition",
-            "value": 1.5
+            "value": 1.25
         }
     ],
     "tick_rate": 20,
