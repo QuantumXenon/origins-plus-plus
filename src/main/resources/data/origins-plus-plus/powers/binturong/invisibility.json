@@ -1,9 +1,10 @@
 {
-  "hidden": true,
   "type": "origins:invisibility",
   "render_armor": false,
   "condition": {
     "type": "origins:power_active",
     "power": "*:phantomize"
-  }
+  },
+  "name":"Camouflage",
+  "description": "[Save Toolbar Activator] You can hide in your surroundings and become invisible, but use hunger doing so"
 }

@@ -1,6 +1,6 @@
 {
 	"name": "Illusion",
-	"description": "pressing the [PRIMARY] key you will spawn 4 copies of yourself in a random formation To remove the illusion press the savehotbar key",
+	"description": "Spawn 4 copies of yourself in a random formation. To remove the illusion press [Save Toolbat Activator]",
 	"badges": [{
 		"sprite": "origins:textures/gui/badge/star.png",
 		"text": "level 1 illusion power"

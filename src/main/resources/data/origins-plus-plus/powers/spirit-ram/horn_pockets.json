@@ -1,5 +1,5 @@
 {
-    "description": "You can hide 5 items in each horn (don’t lose them if you die). [Save Toolbar Activator]",
+    "description": "[Save Toolbar Activator] You can hide 5 items in each horn (don’t lose them if you die).",
     "type": "origins:inventory",
     "name": "Horn Pockets",
     "drop_on_death": false,

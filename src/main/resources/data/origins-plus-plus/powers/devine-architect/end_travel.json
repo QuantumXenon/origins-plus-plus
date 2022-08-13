@@ -1,7 +1,7 @@
 {
   "hidden": true,
   "name":"End Traveler",
-  "description":"You can teleport to the Nether and End. [Load Toolbar Activator]",
+  "description":"[Load Toolbar Activator] You can teleport to the Nether and End.",
   "type":"origins:active_self",
   "cooldown":40,
   "hud_render":{
@@ -24,7 +24,5 @@
         "permission_level":4
      }
   },
-  "key":{
-     "key":"key.loadToolbarActivator"
-  }
+	"key":"key.loadToolbarActivator"
 }

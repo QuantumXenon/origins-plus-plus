@@ -47,9 +47,7 @@
        "sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
        "bar_index":0
     },
-    "key":{
-       "key":"key.loadToolbarActivator"
-    },
+	"key":"key.loadToolbarActivator",
     "name":"Silky Composition",
-    "description":"You trap every player and mob in a 10 block radius in a cobweb. [Load Toolbar Activator]"
+    "description":"[Load Toolbar Activator] You trap every player and mob in a 10 block radius in a cobweb."
 }

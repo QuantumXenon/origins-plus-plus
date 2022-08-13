@@ -1,6 +1,6 @@
 {
     "name":"From Beyond The Grave",
-    "description":"Your inherent ability to perform necromancy allows you to call forth an armored skeleton, and an armored zombie, from beyond the grave to fight along your side. [Load Toolbar Activator]",
+    "description":"[Load Toolbar Activator] Your inherent ability to perform necromancy allows you to call forth an armored skeleton, and an armored zombie, from beyond the grave to fight along your side.",
     "type":"origins:multiple",
     "summon":{
        "type":"origins:active_self",

@@ -23,5 +23,5 @@
 	},
 	"cooldown":80,
 	"name":"Undead Body",
-	"description":"You take 12 increased damage that ignores armor from weapons enchanted with Smite (4 second cooldown)."
+	"description":"You take increased damage that ignores armor from weapons enchanted with Smite (4 second cooldown)."
 }

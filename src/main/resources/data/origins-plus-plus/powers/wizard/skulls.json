@@ -1,6 +1,6 @@
 {
     "name": "Skull Bomb Spell",
-    "description": "You summon a skull bomb",
+    "description": "[Save Toolbar Activator] You summon a skull bomb",
     "loading_priority": 10,
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:wither_skull",

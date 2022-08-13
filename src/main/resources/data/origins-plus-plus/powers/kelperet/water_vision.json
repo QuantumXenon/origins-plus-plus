@@ -1,6 +1,6 @@
 {
   "name": "Miniature Conduit",
-  "description": "With your core being a heart of the sea, you permanently have the effects of a conduit when in water. (Load Toolbar Key to toggle night vision).",
+  "description": "[Load Toolbar Activator] With your core being a heart of the sea, you permanently have the effects of a conduit when in water.",
   "type": "origins:toggle_night_vision",
   "strength": 1.0,
   "condition": {

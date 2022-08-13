@@ -1,6 +1,6 @@
 {
 	"name": "Epona",
-	"description": "You can call your loyal horse to help on your travels",
+	"description": "[Save Toolbar Activator] You can call your loyal horse to help on your travels",
 
 	"type": "origins:active_self",
 	"entity_action":{

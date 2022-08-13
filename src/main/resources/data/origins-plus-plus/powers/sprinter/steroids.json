@@ -1,8 +1,5 @@
 {
-	"key": {
-		"key": "key.saveToolbarActivator",
-		"continuous": true
-	},
+	"key": "key.saveToolbarActivator",
 	"type": "origins:active_self",
 	"cooldown": 100,
 	"hud_render": {
@@ -47,5 +44,5 @@
 		]
 	},
 	"name": "Steroids",
-	"description": "If you are holding nothing in your main hand, you can restore 10 HP. [Save Toolbar Activator]"
+	"description": "[Save Toolbar Activator] If you are holding nothing in your main hand, you can restore 10 HP."
 }

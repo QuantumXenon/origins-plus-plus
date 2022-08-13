@@ -1,13 +1,10 @@
 {
 	"type": "origins:multiple",
 	"name": "Climb",
-	"description": "You are fast and at will, you can climb blocks!",
+	"description": "[Save Toolbar Activator] You are fast and at will, you can climb blocks!",
 	"toggle": {
 		"type": "origins:toggle",
-			"key": {
-				"key": "key.saveToolbarActivator",
-				"continuous": false
-			}
+		"key": "key.saveToolbarActivator",
 	},
 	"climbing": {
 		"type": "origins:climbing",

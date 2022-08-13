@@ -1,6 +1,6 @@
 {
 	"name": "Climb",
-	"description": "You are fast at will and can climb blocks. [Save Toolbar Activator]",
+	"description": "[Save Toolbar Activator] You are fast at will and can climb blocks.",
 	"type": "origins:multiple",
 	"toggle": {
 		"type": "origins:toggle",

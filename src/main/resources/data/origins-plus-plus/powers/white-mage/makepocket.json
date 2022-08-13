@@ -51,10 +51,7 @@
 	]
 	},
 	"cooldown": 0,
-	"key": {
-		"key": "key.loadToolbarActivator",
-		"continuous": false
-	},
+	"key": "key.loadToolbarActivator",
 	"condition": {
 		"type": "origins:and",
 		"conditions": [{

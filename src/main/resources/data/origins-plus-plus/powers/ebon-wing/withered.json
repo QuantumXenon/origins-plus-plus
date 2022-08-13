@@ -1,10 +1,8 @@
 {
 	"name":"Withered",
-	"description":"Gives Wither effect to players in a 5x5 area for 5 seconds. Kill 120 mobs to use this ability.",
+	"description":"[Save Toolbar Activator] Gives Wither effect to players in a 5x5 area for 5 seconds. Kill 120 mobs to use this ability.",
     "type": "origins:active_self",
-    "key": {
-        "key": "key.saveToolbarActivator"
-    },
+	"key": "key.saveToolbarActivator",
     "entity_action": {
         "type": "origins:and",
         "actions": [

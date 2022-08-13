@@ -1,6 +1,6 @@
 {
 	"name": "Illusion",
-	"description": "After discovering things called \"armor\" so now you can make an illusion of it with the [loadhotbar] key",
+	"description": "[Load Toolbar Activator] After discovering things called \"armor\", you can make an illusion of it with the [loadhotbar] key",
 	"badges": [{
 		"sprite": "origins:textures/gui/badge/star.png",
 		"text": "level 3 illusion power"

@@ -1,6 +1,6 @@
 {
     "name": "Teleport",
-    "description": "Teleport wherever you're looking (within 64 blocks).",
+    "description": "[Load Toolbar Activator] Teleport wherever you're looking (within 64 blocks).",
 	"type": "origins:active_self",
 	"key": "key.loadToolbarActivator",
     "hud_render": {

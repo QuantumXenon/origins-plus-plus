@@ -148,5 +148,5 @@
     }
   },
   "name": "Entity Teleportation",
-  "description": "You can teleport to or teleport to you the last entity you punched. Activate without shifting to teleport it to you, and with shifting to teleport to it."
+  "description": "[Save Toolbar Activator] You can teleport to or teleport to you the last entity you punched. Activate without shifting to teleport it to you, and with shifting to teleport to it."
 }
