@@ -54,7 +54,7 @@
         "item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-            "item": "minecraft:netherite_pickaxe"
+				"item": "minecraft:netherite_pickaxe"
               }
           }
 	},
