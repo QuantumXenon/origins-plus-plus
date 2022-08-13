@@ -6,7 +6,7 @@
 	   "item_condition":{
 		  "type":"origins:ingredient",
 		  "ingredient":{
-			 "tag":"withered_skeletian:stone_sword"
+			 "minecraft:stonw_sword"
 		  }
 	   }
 	},
