@@ -1,0 +1,9 @@
+{
+    "type": "origins:starting_equipment",
+    "stack": {
+        "item": "book",
+        "tag": "{display:{Name:'[{\"text\":\"Th\",\"color\":\"#FF0000\",\"bold\":false,\"italic\":false},{\"text\":\"e C\",\"color\":\"#FF5E00\",\"bold\":false,\"italic\":false},{\"text\":\"an\",\"color\":\"#FF8800\",\"bold\":false,\"italic\":false},{\"text\":\"v\",\"color\":\"#FFD500\",\"bold\":false,\"italic\":false},{\"text\":\"a\",\"color\":\"#FFFF00\",\"bold\":false,\"italic\":false},{\"text\":\"s\",\"color\":\"#C3FF00\",\"bold\":false,\"italic\":false}]'},SomniaWOI:1}"
+    },
+    "name": "The Canvas",
+    "description": "You start with the Canvas, which must be used to unlock your abilities."
+}

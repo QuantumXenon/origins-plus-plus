@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "diamond_pickaxe",
+        "iron_pickaxe",
+        "wooden_pickaxe",
+        "stone_pickaxe",
+        "golden_pickaxe",
+        "netherite_pickaxe"
+    ]
+}

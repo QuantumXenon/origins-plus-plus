@@ -1,0 +1,22 @@
+{
+    "type": "origins:multiple",
+    "color": {
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 1,
+        "blue": 1,
+        "green": 0
+    },
+    "expire": {
+        "type": "origins:action_on_callback",
+        "entity_action_added": {
+            "type": "origins:delay",
+            "ticks": 200,
+            "action": {
+                "type": "origins:revoke_power",
+                "power": "*:*",
+                "source": "*:curse"
+            }
+        }
+    }
+}

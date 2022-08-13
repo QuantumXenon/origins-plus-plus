@@ -1,0 +1,50 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute unless score @s SomniaWOI_Color matches -5..10 run scoreboard players set @s SomniaWOI_Color 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scoreboard players add @s SomniaWOI_Color 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scoreboard players set @s[scores={SomniaWOI_Color=7..}] SomniaWOI_Color 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function origins-plus-plus:witch-of-ink/blast/color"
+                }
+            ]
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:empty",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:nbt",
+                    "nbt": "{SomniaWOI:1}"
+                }
+            ]
+        }
+    },
+    "name": "Palette of Death",
+    "description": "You can cycle through colors for your Canvas.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "%s while holding the Canvas in your main hand to execute this ability."
+        }
+    ]
+}

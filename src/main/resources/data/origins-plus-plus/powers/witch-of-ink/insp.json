@@ -1,0 +1,217 @@
+{
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "%s while holding the Canvas in your main hand to fire this ability."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "§cRed§r - Sets the target on fire\n§bBlue §r- Summons a rain cloud that chases the target for a few seconds, slowing it\n§aGreen §r- Summons a gas that attaches to the target for a few seconds, healing nearby entities\n§5Purple §r- Teleports target randomly\n§eYellow §r- Disorients target with particles and blinds for a moment\n§6Orange §r- Cuts Armor by 30% for a few seconds"
+        }
+    ],
+    "name": "Linear Mystics",
+    "description": "Cast a spell at the target point/entity, depending on your chosen Color.",
+    "type": "origins:multiple",
+    "active": {
+        "cooldown": 300,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:empty",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:nbt",
+                        "nbt": "{SomniaWOI:1}"
+                    }
+                ]
+            }
+        },
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.evoker.prepare_attack master @a[distance=..16] ~ ~ ~ 1 1"
+                },
+                {
+                    "type": "origins:exhaust",
+                    "amount": 0.25
+                },
+                {
+                    "type": "origins:if_else_list",
+                    "actions": [
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 0.75 0 0 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:target_action",
+                                    "action": {
+                                        "type": "origins:set_on_fire",
+                                        "duration": 8
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 1,
+                                "comparison": "=="
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 0 0 0.75 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:target_action",
+                                    "action": {
+                                        "type": "origins:grant_power",
+                                        "power": "*:effects/rain",
+                                        "source": "*:insp"
+                                    }
+                                },
+                                "bientity_condition": {
+                                    "type": "origins:target_condition",
+                                    "condition": {
+                                        "type": "origins:living"
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 2,
+                                "comparison": "=="
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 0 0.75 0 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:target_action",
+                                    "action": {
+                                        "type": "origins:grant_power",
+                                        "power": "*:effects/tree",
+                                        "source": "*:insp"
+                                    }
+                                },
+                                "bientity_condition": {
+                                    "type": "origins:target_condition",
+                                    "condition": {
+                                        "type": "origins:living"
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 3,
+                                "comparison": "=="
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 0.75 0 0.75 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:target_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "spreadplayers ~ ~ 3 3 false @s"
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 4,
+                                "comparison": "=="
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 0.75 0.75 0 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:target_action",
+                                    "action": {
+                                        "type": "origins:and",
+                                        "actions": [
+                                            {
+                                                "type": "origins:execute_command",
+                                                "command": "particle minecraft:firework ~ ~1.75 ~ 0.3 0.3 0.3 0 500"
+                                            },
+                                            {
+                                                "type": "origins:apply_effect",
+                                                "effect": {
+                                                    "effect": "blindness",
+                                                    "amplifier": 0,
+                                                    "duration": 40
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 5,
+                                "comparison": "=="
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 0.75 0.5 0 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:target_action",
+                                    "action": {
+                                        "type": "origins:grant_power",
+                                        "power": "*:effects/armor",
+                                        "source": "*:insp"
+                                    }
+                                },
+                                "bientity_condition": {
+                                    "type": "origins:target_condition",
+                                    "condition": {
+                                        "type": "origins:living"
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 6,
+                                "comparison": "=="
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 12,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "origins:multiple",
+    "cloud": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function origins-plus-plus:witch-of-ink/draw/cloud"
+        }
+    },
+    "slow": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "multiply_base",
+            "value": -0.2
+        }
+    },
+    "expire": {
+        "type": "origins:action_on_callback",
+        "entity_action_added": {
+            "type": "origins:delay",
+            "ticks": 120,
+            "action": {
+                "type": "origins:revoke_power",
+                "power": "*:*",
+                "source": "*:insp"
+            }
+        }
+    }
+}

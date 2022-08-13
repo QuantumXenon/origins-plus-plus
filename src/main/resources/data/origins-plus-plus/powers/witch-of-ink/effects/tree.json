@@ -1,0 +1,38 @@
+{
+    "type": "origins:multiple",
+    "particles": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "particle dust 0 1 0 1 ~ ~1 ~ 0.2 0.3 0.2 0.01 5"
+        }
+    },
+    "regen": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:area_of_effect",
+            "radius": 6,
+            "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:heal",
+                    "amount": 1
+                }
+            }
+        }
+    },
+    "expire": {
+        "type": "origins:action_on_callback",
+        "entity_action_added": {
+            "type": "origins:delay",
+            "ticks": 120,
+            "action": {
+                "type": "origins:revoke_power",
+                "power": "*:*",
+                "source": "*:insp"
+            }
+        }
+    }
+}

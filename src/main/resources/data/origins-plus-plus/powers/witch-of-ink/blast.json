@@ -1,0 +1,429 @@
+{
+    "type": "origins:multiple",
+    "name": "Perfect Strokes",
+    "description": "Your Canvas can fire a colored beam that deals damage to the first enemy it hits, doubling its damage if the opposite color was hit.",
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/star.png",
+            "text": "§6Orange §r<-> §bBlue §r| §eYellow §r<-> §dPurple§r | §cRed §r<-> §aGreen"
+        },
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "%s while holding the Canvas in your main hand to fire this ability."
+        }
+    ],
+    "blast": {
+        "cooldown": 18,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:empty",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:nbt",
+                        "nbt": "{SomniaWOI:1}"
+                    }
+                ]
+            }
+        },
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.use"
+        }, 
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:exhaust",
+                    "amount": 0.15
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.illusioner.mirror_move master @s ~ ~ ~ 1 1.42"
+                },
+                {
+                    "type": "origins:if_else_list",
+                    "actions": [
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 1 0 0 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:damage",
+                                    "amount": 6,
+                                    "source": {
+                                        "name": "indirectMagic",
+                                        "unblockable": false
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 1,
+                                "comparison": "=="
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 0 0 1 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:damage",
+                                    "amount": 6,
+                                    "source": {
+                                        "name": "indirectMagic",
+                                        "unblockable": false
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 2,
+                                "comparison": "=="
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 0 1 0 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:damage",
+                                    "amount": 6,
+                                    "source": {
+                                        "name": "indirectMagic",
+                                        "unblockable": false
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 3,
+                                "comparison": "=="
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 1 0 1 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:damage",
+                                    "amount": 6,
+                                    "source": {
+                                        "name": "indirectMagic",
+                                        "unblockable": false
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 4,
+                                "comparison": "=="
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 1 1 0 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:damage",
+                                    "amount": 6,
+                                    "source": {
+                                        "name": "indirectMagic",
+                                        "unblockable": false
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 5,
+                                "comparison": "=="
+                            }
+                        },
+                        {
+                            "action": {
+                                "type": "origins:raycast",
+                                "distance": 16,
+                                "command_along_ray": "particle minecraft:dust 1 0.5 0 1 ~ ~ ~ 0.05 0.05 0.05 15 5",
+                                "bientity_action": {
+                                    "type": "origins:damage",
+                                    "amount": 6,
+                                    "source": {
+                                        "name": "indirectMagic",
+                                        "unblockable": false
+                                    }
+                                }
+                            },
+                            "condition": {
+                                "type": "origins:scoreboard",
+                                "objective": "SomniaWOI_Color",
+                                "compare_to": 6,
+                                "comparison": "=="
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 7,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png"
+        }
+    },
+    "dmg1": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "value": 1,
+            "operation": "multiply_total"
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "indirectMagic"
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:scoreboard",
+                        "objective": "SomniaWOI_Color",
+                        "compare_to": 1,
+                        "comparison": "=="
+                    }
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:living"
+                            },
+                            {
+                                "type": "origins:power",
+                                "power": "*:colors/green"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "dmg2": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "value": 1,
+            "operation": "multiply_total"
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "indirectMagic"
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:scoreboard",
+                        "objective": "SomniaWOI_Color",
+                        "compare_to": 2,
+                        "comparison": "=="
+                    }
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:living"
+                            },
+                            {
+                                "type": "origins:power",
+                                "power": "*:colors/orange"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "dmg3": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "value": 1,
+            "operation": "multiply_total"
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "indirectMagic"
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:scoreboard",
+                        "objective": "SomniaWOI_Color",
+                        "compare_to": 3,
+                        "comparison": "=="
+                    }
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:living"
+                            },
+                            {
+                                "type": "origins:power",
+                                "power": "*:colors/red"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "dmg4": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "value": 1,
+            "operation": "multiply_total"
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "indirectMagic"
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:scoreboard",
+                        "objective": "SomniaWOI_Color",
+                        "compare_to": 4,
+                        "comparison": "=="
+                    }
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:living"
+                            },
+                            {
+                                "type": "origins:power",
+                                "power": "*:colors/yellow"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "dmg5": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "value": 1,
+            "operation": "multiply_total"
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "indirectMagic"
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:scoreboard",
+                        "objective": "SomniaWOI_Color",
+                        "compare_to": 5,
+                        "comparison": "=="
+                    }
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:living"
+                            },
+                            {
+                                "type": "origins:power",
+                                "power": "*:colors/purple"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "dmg6": {
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "value": 1,
+            "operation": "multiply_total"
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "indirectMagic"
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:scoreboard",
+                        "objective": "SomniaWOI_Color",
+                        "compare_to": 6,
+                        "comparison": "=="
+                    }
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:living"
+                            },
+                            {
+                                "type": "origins:power",
+                                "power": "*:colors/blue"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
