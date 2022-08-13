@@ -2,18 +2,17 @@
 	"type":"origins:action_on_callback",
 	"name": "Archdemon",
 	"description": "As an archdemon, you are 25% larger and have longer arms.",
-	"execute_chosen_when_orb":true,
 	"entity_action_chosen":{
 	   "type":"origins:and",
 	   "actions":[
 		  {
 			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:height 1.25 @s",
+			 "command":"scale set pehkui:height 1.25",
 			 "permission_level":4
 		  },
 		  {
 			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:width 1.25 @s",
+			 "command":"scale set pehkui:width 1.25",
 			 "permission_level":4
 		  }
 	   ]
@@ -23,12 +22,12 @@
 	   "actions":[
 		  {
 			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:height 1.25 @s",
+			 "command":"scale set pehkui:height 1.25",
 			 "permission_level":4
 		  },
 		  {
 			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:width 1.25 @s",
+			 "command":"scale set pehkui:width 1.25",
 			 "permission_level":4
 		  },
 		  {
@@ -43,12 +42,12 @@
 	   "actions":[
 		  {
 			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:height 1 @s",
+			 "command":"scale set pehkui:height 1",
 			 "permission_level":4
 		  },
 		  {
 			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:width 1 @s",
+			 "command":"scale set pehkui:width 1",
 			 "permission_level":4
 		  }
 	   ]
