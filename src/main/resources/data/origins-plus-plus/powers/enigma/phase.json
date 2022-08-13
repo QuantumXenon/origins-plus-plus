@@ -32,7 +32,7 @@
         "cooldown": 1,
         "key":
         {
-            "key": "key.loadToolbarActivator",
+            "key.origins.primary_active"
             "continuous": false
         },
         "condition":
@@ -221,5 +221,5 @@
         }
     },
     "name": "Hidden in the Shadows",
-    "description": "[Load Toolbar Activator] You can phase through blocks (but it's to unstable to stay in that form for long)."
+    "description": "You can phase through blocks (but it's to unstable to stay in that form for long)."
 }

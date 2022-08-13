@@ -28,7 +28,7 @@
       }
     ]
   },
-  "key": "key.spectatorOutlines",
+  "key": "key.saveToolbarActivator"
   "cooldown": 240,
   "hud_render": {
     "should_render": true,
@@ -37,5 +37,5 @@
   },
 
   "name": "Binturong's Leap",
-  "description": "[Spectator Outlines] Binturong's need to jump from tree to tree"
+  "description": "[Save Toolbar Activator] Binturong's need to jump from tree to tree"
 }
