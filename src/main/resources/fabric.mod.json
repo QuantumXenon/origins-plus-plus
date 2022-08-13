@@ -3,7 +3,7 @@
 	"id": "origins-plus-plus", 
 	"name": "Origins++", 
 	"version": "1.7",
-	"description": "A collection of 110+ origins",
+	"description": "A collection of 115 origins",
 	"authors": ["TheQuantumXenon"],   
 	"contributors": ["Credit goes to original authors.",
 					"(See CurseForge Description)"], 
@@ -13,7 +13,8 @@
 	},
 	"icon": "icon.png",
 	"depends": {
-		"fabric-api-base": "*",
+		"fabricloader": "*",
+		"fabric": "*",
 		"origins": "*",
 	    "pehkui": "*"
 	}
