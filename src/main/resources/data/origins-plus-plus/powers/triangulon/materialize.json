@@ -1,9 +1,9 @@
 {
     "name": "Materialize",
-    "description": "[Primary] Summon an arrow out of thin air.",
+    "description": "Summon an arrow out of thin air.",
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:arrow",
-    "cooldown": 140,
+    "cooldown": 60,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
