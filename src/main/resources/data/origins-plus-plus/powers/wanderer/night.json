@@ -6,10 +6,21 @@
         "type": "origins:daytime"
     },
     "type": "origins:multiple",
-    "cowardice_1": {
-        "name": "speed",
+    "cowardice_speed": {
         "hidden": true,
-        "condition": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 1,
+        "max_stacks": 1,
+        "duration_per_stack": 200,
+        "tick_rate": 20,
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 100,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": true
+        },
+		"condition": {
             "type": "origins:and",
             "conditions": [
                 {
@@ -17,7 +28,6 @@
                     "type": "origins:daytime"
                 },
                 {
-                    "inverted": true,
                     "type": "origins:equipped_item",
                     "equipment_slot": "offhand",
                     "item_condition": {
@@ -29,24 +39,23 @@
                     }
                 }
             ]
-        },
+        }
+    },
+    "cowardice_weakness": {
+        "hidden": true,
         "type": "origins:stacking_status_effect",
         "min_stacks": 1,
         "max_stacks": 1,
-        "duration_per_stack": 200,
-        "tick_rate": 20,
+        "duration_per_stack": 100,
+        "tick_rate": 10,
         "effect": {
-            "effect": "minecraft:speed",
+            "effect": "minecraft:weakness",
             "duration": 100,
             "amplifier": 1,
-            "show_particles": true,
+            "show_particles": false,
             "show_icon": true
-        }
-    },
-    "cowardice_2": {
-        "name": "weakness",
-        "hidden": true,
-        "condition": {
+        },
+		"condition": {
             "type": "origins:and",
             "conditions": [
                 {
@@ -66,17 +75,5 @@
                 }
             ]
         },
-        "type": "origins:stacking_status_effect",
-        "min_stacks": 1,
-        "max_stacks": 1,
-        "duration_per_stack": 100,
-        "tick_rate": 10,
-        "effect": {
-            "effect": "minecraft:weakness",
-            "duration": 100,
-            "amplifier": 1,
-            "show_particles": true,
-            "show_icon": true
-        }
     }
 }
