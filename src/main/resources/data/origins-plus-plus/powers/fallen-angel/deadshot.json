@@ -3,7 +3,7 @@
     "description": "You can shoot a wither skull.",
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:wither_skull",
-    "cooldown": 40,
+    "cooldown": 60,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/resource_bar.png",

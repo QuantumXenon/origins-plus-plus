@@ -1,5 +1,5 @@
 {
-    "name": "Noshield",
+    "name": "No Shield",
     "description": "You cannot Hold a Shield.",
     "type": "origins:prevent_item_use",
     "item_condition": {
