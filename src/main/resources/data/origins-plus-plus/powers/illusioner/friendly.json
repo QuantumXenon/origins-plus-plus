@@ -1,7 +1,7 @@
 {
     "type": "origins:action_over_time",
     "name": "Friendly Foes",
-    "description": "[BUFF] Pillagers, who are usually foes, are now friendly to you, as you are on of them.",
+    "description": "Pillagers, who are usually foes, are now friendly to you (as you are on of them).",
     "interval": 20,
     "entity_action": {
         "type": "origins:and",

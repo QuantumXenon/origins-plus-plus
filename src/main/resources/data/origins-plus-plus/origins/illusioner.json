@@ -1,5 +1,6 @@
 {
 	"powers": [
+		"origins:no_shield",
 		"origins-plus-plus:illusioner/angry_as_f",
 		"origins-plus-plus:illusioner/bow_master",
 		"origins-plus-plus:illusioner/friendly",
@@ -7,12 +8,11 @@
 		"origins-plus-plus:illusioner/illusion_despawn",
 		"origins-plus-plus:illusioner/illusion_random_fm",
 		"origins-plus-plus:illusioner/invis",
-		"origins-plus-plus:illusioner/no_shield",
 		"origins-plus-plus:illusioner/sword_bad",
 		"origins-plus-plus:illusioner/villagers_no"
 	],
 	"icon": "minecraft:potion",
 	"impact": 3,
 	"name": "Illusioner",
-	"description": "You were made but never used now its time to take revenge!"
+	"description": "You were made but never used now it's time to take revenge!"
 }

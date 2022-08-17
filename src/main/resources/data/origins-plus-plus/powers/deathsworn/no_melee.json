@@ -14,7 +14,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "tag": "fabric:swords"
+                        "tag": "origins-plus-plus:swords"
                     }
                 }
             },
@@ -24,7 +24,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "tag": "fabric:axes"
+                        "tag": "origins-plus-plus:axes"
                     }
                 }
             }

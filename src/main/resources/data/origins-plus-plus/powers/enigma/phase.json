@@ -30,11 +30,7 @@
     {
         "type": "origins:active_self",
         "cooldown": 1,
-        "key":
-        {
-            "key.origins.primary_active"
-            "continuous": false
-        },
+        "key":"key.origins.primary_active",
         "condition":
         {
             "type": "origins:sneaking",

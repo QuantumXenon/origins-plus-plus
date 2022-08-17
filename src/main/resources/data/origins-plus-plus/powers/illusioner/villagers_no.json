@@ -7,6 +7,6 @@
             "entity_type": "minecraft:villager"
         }
     },
-    "name": "hate",
-    "description": "[DE-BUFF] because your in pillagers gang villagers wont trade with you!"
+    "name": "Pillager Hate",
+    "description": "Because you are a pillager, villagers won't trade with you"
 }

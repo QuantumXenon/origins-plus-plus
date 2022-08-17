@@ -96,7 +96,7 @@
                     "item_condition": {
                         "type": "origins:ingredient",
                         "ingredient": {
-                            "tag": "fabric:axes"
+                            "tag": "origins-plus-plus:axes"
                         }
                     }
                 },
@@ -237,7 +237,7 @@
                     "item_condition": {
                         "type": "origins:ingredient",
                         "ingredient": {
-                            "tag": "fabric:axes"
+                            "tag": "origins-plus-plus:axes"
                         }
                     }
                 },

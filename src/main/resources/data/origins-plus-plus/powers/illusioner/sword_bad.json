@@ -13,7 +13,7 @@
 				"item_condition": {
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "fabric:swords"
+						"tag": "origins-plus-plus:swords"
 					}
 				}
 			},
@@ -23,12 +23,12 @@
 				"item_condition": {
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "fabric:swords"
+						"tag": "origins-plus-plus:swords"
 					}
 				}
 			}
 		]
 	},
-	"name": "not made for this",
-	"description": "[DE-BUFF]like shields you dont like swords so they do less damage"
+	"name": "Inexperienced",
+	"description": "You are inexperienced at using swords, so they do less damage"
 }

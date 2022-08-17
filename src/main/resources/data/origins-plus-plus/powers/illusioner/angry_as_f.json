@@ -1,6 +1,6 @@
 {
     "name": "Scary",
-    "description": "[DE-BUFF] Iron golems will attack you on sight, and Villagers will have significantly higher prices when traded with.",
+    "description": "Iron golems will attack you on sight, and villagers will have significantly higher prices when traded with.",
     "type": "origins:multiple",
     "illager": {
         "type": "origins:entity_group",

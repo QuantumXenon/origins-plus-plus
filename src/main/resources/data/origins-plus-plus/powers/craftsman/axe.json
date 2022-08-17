@@ -7,7 +7,7 @@
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "item": "fabric:axes"
+                "item": "origins-plus-plus:axes"
             }
         }
     },

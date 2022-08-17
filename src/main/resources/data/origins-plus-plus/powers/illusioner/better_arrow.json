@@ -2,17 +2,14 @@
 	"type": "origins:fire_projectile",
 	"entity_type": "minecraft:arrow",
 	"tag": "{CustomPotionEffects:[{Id:9,Duration:600,ShowParticles:0b}],CustomPotionColor:6564706,life:1180, pickup:0b}",
-	"key": {
-		"key": "key.origins.secondary_active",
-		"continuous": false
-	},
+	"key": "key.origins.secondary_active",
 	"cooldown": 600,
 	"hud_render": {
 		"should_render": true,
 		"sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
 		"bar_index": 19
 	},
-	"name": "Not what it seems",
-	"description": "Because you are so manipulative you can play with peoples heads Using secondary key you can shoot a purple beam out of your hand giving the target nausea 2 for 15 seconds "
+	"name": "All is Not as it Seems",
+	"description": "Because you are so manipulative, you can play with peoples heads. You can shoot a purple beam giving the target nausea for 15 seconds "
 	
 }

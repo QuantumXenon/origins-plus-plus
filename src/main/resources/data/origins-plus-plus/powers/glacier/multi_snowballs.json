@@ -12,7 +12,7 @@
 	"key": "key.use",
 	"condition":{
 		"type": "origins:sneaking"
-	}
+	},
 	"name": "Multi-Snowballs",
 	"description": "If you throw a snowball when sneaking, it is split into 10. Snowballs also do more damage to opponents."
 }

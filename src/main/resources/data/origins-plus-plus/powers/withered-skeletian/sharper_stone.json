@@ -6,7 +6,7 @@
 	   "item_condition":{
 		  "type":"origins:ingredient",
 		  "ingredient":{
-			 "minecraft:stonw_sword"
+			 "minecraft:stone_sword"
 		  }
 	   }
 	},

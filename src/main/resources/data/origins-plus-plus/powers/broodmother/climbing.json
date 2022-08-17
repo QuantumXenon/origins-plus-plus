@@ -4,7 +4,7 @@
 	"description": "[Save Toolbar Activator] You are fast and at will, you can climb blocks!",
 	"toggle": {
 		"type": "origins:toggle",
-		"key": "key.saveToolbarActivator",
+		"key": "key.saveToolbarActivator"
 	},
 	"climbing": {
 		"type": "origins:climbing",
