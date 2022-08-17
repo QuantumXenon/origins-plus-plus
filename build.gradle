@@ -10,5 +10,11 @@ minecraft {
 }
 
 dependencies {
-    minecraft "net.minecraftforge:forge:${project.forge_version}"
+    minecraft "net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}"
+}
+
+processResources {
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
 }
