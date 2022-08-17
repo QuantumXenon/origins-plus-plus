@@ -1,6 +1,6 @@
 {
 	"name": "Diminish",
-	"description": "You can cast a Debuff spell that can affect you too with your secondary. (range:80 blocks)",
+	"description": "You can cast a Debuff spell that also affects you. (Range: 80 blocks)",
 	"type": "origins:active_self",
 	"entity_action": {
 	"type": "origins:and",

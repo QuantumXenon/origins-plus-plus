@@ -5,9 +5,9 @@
 	"type": "origins:and",
     "actions": [
 	{
-			    "type": "origins:change_resource",
-                "resource": "origins-plus-plus:white-mage/resource",
-                "change": -40
+		"type": "origins:change_resource",
+        "resource": "origins-plus-plus:white-mage/resource",
+        "change": -40
 	},
 	{
     "type": "origins:raycast",

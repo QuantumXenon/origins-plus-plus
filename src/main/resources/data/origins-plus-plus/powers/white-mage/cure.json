@@ -1,6 +1,6 @@
 {
-	"name": "§aCure",
-	"description": "You can cast a healing spell that deals damage to the undead with your primary(range:80 blocks)",
+	"name": "Cure",
+	"description": "You can cast a healing spell that deals damage to the undead (Range: 80 blocks)",
 	"type": "origins:active_self",
 	"entity_action": {
 	"type": "origins:and",

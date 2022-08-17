@@ -1,7 +1,7 @@
 {    
-    "name": "§aClear",
-	"description": "You can remove effects from any entity close to you with primary + shift.(distance:12 blocks)",
-	   "type": "origins:active_self",
+    "name": "Clear",
+	"description": "You can remove effects from any entity close to you with [Primary] + [Shift]. (Range: 12 blocks)",
+	"type": "origins:active_self",
     "entity_action": {
 		"type": "origins:and",
         "actions": [

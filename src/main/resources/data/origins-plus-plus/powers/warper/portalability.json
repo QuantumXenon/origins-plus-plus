@@ -199,7 +199,7 @@
     "portal":
     {
         "type": "origins:action_over_time",
-        "interval": 40,
+        "interval": 75,
         "entity_action":
         {
             "type": "origins:if_else_list",
@@ -217,7 +217,7 @@
                     "action":
                     {
                         "type": "origins:delay",
-                        "ticks": 20,
+                        "ticks": 50,
                         "action":
                         {
                             "type": "origins:and",
@@ -260,7 +260,7 @@
                     "action":
                     {
                         "type": "origins:delay",
-                        "ticks": 20,
+                        "ticks": 50,
                         "action":
                         {
                             "type": "origins:and",
