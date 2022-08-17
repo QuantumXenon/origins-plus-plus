@@ -1,14 +1,14 @@
 plugins {
-    id 'net.minecraftforge.gradle' version '5.1.+'
+    id "net.minecraftforge.gradle" version "5.1.+"
 }
 
-version = '1.7'
-group = 'com.quantumxenon.origins_plus_plus'
+version = project.mod_version
+group = "com.quantumxenon.origins_plus_plus"
 
 minecraft {
-    mappings channel: 'official', version: '1.19.2'
+    mappings channel: "official", version: "${project.minecraft_version}"
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.2-43.0.19'
+    minecraft "net.minecraftforge:forge:${project.forge_version}"
 }
