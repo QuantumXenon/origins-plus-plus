@@ -17,5 +17,8 @@
 		"fabric": "*",
 		"origins": "*",
 	    "pehkui": "*"
+	},
+	"recommends": {
+		"xlpackets": "*"
 	}
 }
