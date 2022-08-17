@@ -1,23 +1,11 @@
-# The name and version of the mod loader (#mandatory)
 modLoader="javafml"
 loaderVersion="[40,)"
 
-# The license for your mod (#mandatory)
-license="MIT"
-
-# A list of mods (#mandatory)
-[[mods]] 
-
-# The modId of the mod (#mandatory)
+[[mods]]
 modId="origins_plus_plus"
-
-# The version number of the mod (#mandatory)
-version="${version}"
-
- # A display name for the mod (#mandatory)
+version="1.7"
+license="MIT"
 displayName="Origins++"
-
-# The description text for the mod (#mandatory)
 description='A collection of 115 origins'
 
 displayURL="https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus"
@@ -30,26 +18,18 @@ logoFile="icon.png"
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2,)"
-    ordering="NONE"
-    side="BOTH"
 	
 [[dependencies.origins_plus_plus]]
     modId="forge"
     mandatory=true
     versionRange="[40,)"
-    ordering="NONE"
-    side="BOTH"
 
 [[dependencies.origins_plus_plus]]
     modId="origins"
     mandatory=true
     versionRange="[1.18.2-1.4.1.4,)"
-    ordering="NONE"
-    side="BOTH"	
 	
 [[dependencies.origins_plus_plus]]
     modId="pehkui"
     mandatory=true
     versionRange="[3.2.0,)"
-    ordering="NONE"
-    side="BOTH"
