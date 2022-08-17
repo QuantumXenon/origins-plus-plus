@@ -1,7 +1,7 @@
 {
     "name": "Travel Pouch",
-    "description": "A wanderer always needs a trusty pouch with them. \n<primary>",
+    "description": "A wanderer always needs a trusty pouch with them.",
     "type": "origins:inventory",
     "title": "Small Pouch",
-    "key": "primary"
+    "key": "key.origins.primary_active"
 }

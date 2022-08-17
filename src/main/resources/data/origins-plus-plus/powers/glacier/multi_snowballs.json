@@ -3,7 +3,8 @@
 	"entity_type": "minecraft:snowball",
 	"cooldown": 30,
 	"hud_render": {
-		"should_render": true
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index": 5
 	},
 	"count": 10,
 	"speed": 2,
