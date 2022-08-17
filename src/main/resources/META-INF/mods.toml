@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[40,)"
+license="MIT"
 
 [[mods]]
 modId="origins_plus_plus"
 version="1.7"
-license="MIT"
 displayName="Origins++"
 description='A collection of 115 origins'
 
