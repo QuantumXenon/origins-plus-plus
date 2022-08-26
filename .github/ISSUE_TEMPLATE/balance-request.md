@@ -1,16 +1,15 @@
 ---
 name: Balance Request
-about: Request a balance
+about: Use this template to request a bnalance to an origin/power
 labels: 'balance'
 assignees: QuantumXenon
 
 ---
 **Origin**
-The origin that is affected by the problem
+What origin needs the balance?
 
-**Balance Request**
-A description of what needs to be balanced,
+**Power(s)**
+What power(s) need(s) to be balanced?
 
-**Suggestion (If Possible)**
-A suggestion of how it could be balanced
-
+**Balance Suggestion**
+Do you have any ideas about how it could be balanced?
