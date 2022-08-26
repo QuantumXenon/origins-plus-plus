@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report a bug
+about: Use this template to report a bug
 labels: 'bug'
 assignees: QuantumXenon
 
@@ -9,7 +9,8 @@ assignees: QuantumXenon
 Forge or Fabric?
 
 **Versions**
-- Loader Version
+- Minecraft Version
+- Mod Loader Version
 - Origins Version
 - Origins++ Version
 - Pehkui Version
