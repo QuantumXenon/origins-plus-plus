@@ -5,14 +5,20 @@ labels: 'bug'
 assignees: QuantumXenon
 
 ---
-**Version**
-Forge/Fabric and the version number
+**Loader**
+Forge or Fabric?
+
+**Versions**
+- Loader Version
+- Origins Version
+- Origins++ Version
+- Pehkui Version
 
 **Origin**
-The origin that is affected by the problem
+What origin is causing the problem?
 
 **Power**
-The name of the power that is affected by the problem
+What power is causing the problem?
 
 **Notes**
 Any other information that might be useful
