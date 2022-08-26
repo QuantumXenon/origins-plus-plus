@@ -1,6 +1,6 @@
 {
     "name": "Snek Health",
-    "description": "You are grown up #1 Snek, so you have more hearts than a baby Snek.",
+    "description": "You have the health of a snek.",
     "type": "origins:attribute",
     "modifier": {
         "attribute": "minecraft:generic.max_health",

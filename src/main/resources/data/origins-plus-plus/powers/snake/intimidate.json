@@ -1,6 +1,6 @@
 {
     "name": "Intimidation!",
-    "description": "You can intimidate your enemies with your seconday key.",
+    "description": "You can intimidate your enemies by hissing.",
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:play_sound",
@@ -10,6 +10,6 @@
     },
     "cooldown": 100,
     "key": {
-        "key": "key.origins.secondary_active"
+        "key": "key.origins.primary_active"
     }
 }

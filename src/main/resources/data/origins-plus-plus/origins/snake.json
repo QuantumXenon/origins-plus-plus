@@ -2,9 +2,10 @@
     "name": "Snake",
     "description": "You are #1 Snek now.",
     "powers": [
+	    "origins-plus-plus:snake/bite",
+        "origins-plus-plus:snake/health",
         "origins-plus-plus:snake/intimidate",
-        "origins-plus-plus:snake/snekbite",
-        "origins-plus-plus:snake/snekhealth"
+        "origins-plus-plus:snake/lunge"
     ],
     "icon": "minecraft:scute",
     "impact": 2
