@@ -1,7 +1,8 @@
 {
     "name": "Deadly Explusion",
-    "description": "[Primary] You can launch extremely far due to your forced conditioning in Hell, forming a withering dust cloud as you launch.",
+    "description": "You can launch extremely far due to your forced conditioning in Hell, forming a withering dust cloud as you launch.",
     "type": "origins:active_self",
+	"key":"key.origins.primary_active",
     "entity_action": {
         "type": "origins:and",
         "actions": [
@@ -28,6 +29,5 @@
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
         "bar_index": 18
-    },
-	"key":"key.origins.primary_active"
+    }
 }
