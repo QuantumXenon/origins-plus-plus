@@ -1,5 +1,4 @@
 Discord:
-- _Inverted#4614
 - agent#8449
 - allo#9733
 - ArcticBonn#7004
@@ -26,6 +25,7 @@ Discord:
 - miniturebob#2679
 - mushyslushie#6067
 - NABUptown#9103
+- operation#0001
 - Overgrown#5799
 - Pier#2468
 - Purple_LT#0011
@@ -34,14 +34,15 @@ Discord:
 - Red_Amaranth#1669
 - Rezbow#6969
 - SneakyTurtle#0961
+- somnia ✦#3934
 - Stan#9651
 - Steboot#5199
-- syrup ⚛#3934
 - Tetromine#2313
 - that_vibe_dude#6352
 - The Pinky#5282
 - TrolLikesPizza#6209
 - 🄱🄻🄾🄲#7596
+_Inverted🎗#4614
 
 Planet Minecraft:
 - AshBuny
