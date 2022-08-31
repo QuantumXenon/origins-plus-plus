@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[43,)"
 license="MIT"
 
 [[mods]]
@@ -18,11 +18,6 @@ logoFile="icon.png"
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2,)"
-	
-[[dependencies.origins_plus_plus]]
-    modId="forge"
-    mandatory=true
-    versionRange="[40,)"
 
 [[dependencies.origins_plus_plus]]
     modId="origins"
