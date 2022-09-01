@@ -3,21 +3,20 @@ plugins {
 }
 
 version = project.mod_version
-group = "com.quantumxenon.origins_plus_plus"
 
 minecraft {
-    mappings channel: "official", version: "${project.minecraft_version}"
+    mappings(channel: "official", version: "${project.minecraft_version}")
 }
 
 dependencies {
-    minecraft "net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}"
+    minecraft("net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}")
 }
 
 processResources {
-    inputs.property 'version', project.version
+    inputs.property('version', project.version)
 
     filesMatching(["fabric.mod.json","META-INF/mods.toml"]) {
-        expand "version": project.version
+        expand("version": project.version)
     }
 }
 
