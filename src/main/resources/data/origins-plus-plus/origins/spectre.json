@@ -1,5 +1,6 @@
 {
 	"powers": [
+		"origins:no_shield",
 		"origins-plus-plus:spectre/accursed",
 		"origins-plus-plus:spectre/archangel_reach",
 		"origins-plus-plus:spectre/archangel_size",
@@ -7,7 +8,6 @@
 		"origins-plus-plus:spectre/ethereal",
 		"origins-plus-plus:spectre/fallen",
 		"origins-plus-plus:spectre/flesh_craver",
-		"origins-plus-plus:spectre/no_shield",
 		"origins-plus-plus:spectre/ravenous",
 		"origins-plus-plus:spectre/rotten_flesh",
 		"origins-plus-plus:spectre/soul_devourer",

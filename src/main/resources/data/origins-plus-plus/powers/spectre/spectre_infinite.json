@@ -1,7 +1,7 @@
 {
 	"type": "origins:resource",
 	"name": "Spectre Infinite",
-	"description": "As one who dwells in both light and dark, unleash power that rivals gods. If the 'Spectre Infinite' bar is full, gain Speed 2, Resistance 2, and Haste 2.",
+	"description": "As one who dwells in both light and dark, unleash power that rivals gods. If the 'Spectre Infinite' bar is full, gain Speed, Resistance, and Haste.",
 	"min": 0,
 	"max": 1000,
 	"hud_render": {
@@ -14,19 +14,19 @@
 			{
 				"effect": "minecraft:speed",
 				"duration": 1000000,
-				"amplifier": 1,
+				"amplifier": 0,
 				"show_particles": false
 			},
 			{
 				"effect": "minecraft:resistance",
 				"duration": 1000000,
-				"amplifier": 1,
+				"amplifier": 0,
 				"show_particles": false
 			},
 			{
 				"effect": "minecraft:haste",
 				"duration": 1000000,
-				"amplifier": 1,
+				"amplifier": 0,
 				"show_particles": false
 			}
 		]

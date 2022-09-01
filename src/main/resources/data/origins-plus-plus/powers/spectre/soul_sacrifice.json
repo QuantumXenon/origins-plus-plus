@@ -1,7 +1,7 @@
 {
 	"type": "origins:multiple",
 	"name": "Soul Sacrifice",
-	"description": "10 tick cooldown. Hold to consume 1.5 hearts to fill the bar by 200 Spectre points if bar is not full.",
+	"description": "consume 1.5 hearts and fill the bar by 200 Spectre points if bar is not full.",
 	"health": {
 		"type": "origins:active_self",
 		"entity_action": {
@@ -33,7 +33,7 @@
 			"key": "key.origins.secondary_active",
 			"continuous": true
 		},
-		"cooldown": 10
+		"cooldown": 100
 	},
 	"spectre": {
 		"type": "origins:active_self",

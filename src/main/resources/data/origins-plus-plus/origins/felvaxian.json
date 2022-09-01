@@ -1,10 +1,10 @@
 {
 	"powers": [
+		"origins:no_shield",
 		"origins-plus-plus:felvaxian/carnivore",
 		"origins-plus-plus:felvaxian/fall_immunity",
 		"origins-plus-plus:felvaxian/feline_eyes",
 		"origins-plus-plus:felvaxian/feline_legs",
-		"origins-plus-plus:felvaxian/no_shield",
 		"origins-plus-plus:felvaxian/pounce",
 		"origins-plus-plus:felvaxian/ravens_defense",
 		"origins-plus-plus:felvaxian/scavenger_pouch",

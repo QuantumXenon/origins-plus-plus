@@ -2,11 +2,11 @@
 	"powers":[
 	   "origins:aqua_affinity",
 	   "origins:like_water",
+	   "origins:no_shield",
 	   "origins-plus-plus:dolphin/bubbles",
 	   "origins-plus-plus:dolphin/fish_diet",
 	   "origins-plus-plus:dolphin/fragile",
 	   "origins-plus-plus:dolphin/no_fall",
-	   "origins-plus-plus:dolphin/no_shield",
 	   "origins-plus-plus:dolphin/ocean_spawn",
 	   "origins-plus-plus:dolphin/raw_cod",
 	   "origins-plus-plus:dolphin/raw_salmon",
