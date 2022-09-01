@@ -21,7 +21,7 @@
 			},
 			{
 				"type":"origins:delay",
-				"ticks":6000,
+				"ticks":1200,
 				"action":{
 					"type":"origins:if_else",
 					"condition":{
