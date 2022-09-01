@@ -1,0 +1,33 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 16,
+        "block": true,
+        "entity": true,
+        "shape_type": "visual",
+        "fluid_handling": "any",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "function origins-plus-plus:witch-of-ink/reanimate"
+            }
+        },
+        "bientity_condition": {
+             "type": "origins:target_condition", 
+             "condition": { 
+                 "type": "origins:entity_type", "entity_type": "painting" 
+            } 
+        },
+        "command_along_ray": "particle witch ~ ~ ~",
+        "command_step": 0.25
+    },
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": "key.origins.secondary_active",
+    "name": "Fiction Realization",
+    "description": "Fire a ray that reanimates the first painting it hits, turning the entities in them alive. They will be passive to you.\n(Doesn't work for all paintings)"
+}

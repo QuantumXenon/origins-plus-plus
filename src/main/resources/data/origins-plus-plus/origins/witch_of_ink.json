@@ -1,16 +1,20 @@
 {
     "powers": [
-        "origins-plus-plus:witch-of-ink/blast",
-        "origins-plus-plus:witch-of-ink/canvas",
-        "origins-plus-plus:witch-of-ink/cost",
-        "origins-plus-plus:witch-of-ink/curse",
-        "origins-plus-plus:witch-of-ink/cycle",
-        "origins-plus-plus:witch-of-ink/insp",
-        "origins-plus-plus:witch-of-ink/only",
-        "origins-plus-plus:witch-of-ink/past"
+        "origins-plus-plus:witch-of-ink/artfinity",
+        "origins-plus-plus:witch-of-ink/artistry",
+        "origins-plus-plus:witch-of-ink/aura",
+        "origins-plus-plus:witch-of-ink/eraser",
+        "origins-plus-plus:witch-of-ink/fired",
+        "origins-plus-plus:witch-of-ink/frail",
+        "origins-plus-plus:witch-of-ink/magicbrush",
+        "origins-plus-plus:witch-of-ink/no_eat",
+        "origins-plus-plus:witch-of-ink/no_invis",
+        "origins-plus-plus:witch-of-ink/painted_armor",
+        "origins-plus-plus:witch-of-ink/reanimate",
+        "origins-plus-plus:witch-of-ink/witchy"
     ],
-    "icon": "minecraft:red_dye",
-    "impact": 3,
+    "icon": "red_dye",
+    "impact": 2,
     "name": "Witch of Ink",
-    "description": "You're a regular human who came into the possession of a reality-warping artifact that colors reality to its will."
+    "description": "You saw The Canvas: a legendary artifact that has enlightened you. Your only purpose is to create a world made entirely of paint and simple colors."
 }

@@ -4,6 +4,11 @@
         "type": "origins:name",
         "name": "onFire"
     },
+    "modifier": {
+        "name": "Fire",
+        "operation": "addition",
+        "value": 3.0
+    },
     "name": "Guertena's Curse",
-    "description": "You take 2x fire damage."
+    "description": "You take quadruple damage from burning."
 }
