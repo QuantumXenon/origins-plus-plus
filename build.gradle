@@ -13,8 +13,6 @@ dependencies {
 }
 
 processResources {
-    inputs.property('version', project.version)
-
     filesMatching(["fabric.mod.json","META-INF/mods.toml"]) {
         expand("version": project.version)
     }
