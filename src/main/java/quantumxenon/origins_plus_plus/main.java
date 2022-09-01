@@ -1,4 +1,4 @@
-package com.quantumxenon.origins_plus_plus;
+package quantumxenon.origins_plus_plus;
 
 import net.minecraftforge.fml.common.Mod;
 

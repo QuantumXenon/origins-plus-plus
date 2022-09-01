@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "quantumxenon.origins_plus_plus.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "xlpackets.refmap.json",
+  "mixins": [
+    "ClientboundCustomPayloadPacketMixin",
+    "PacketBufferMixin",
+    "PacketInflaterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
