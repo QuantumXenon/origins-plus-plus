@@ -5,8 +5,8 @@
   "refmap": "xlpackets.refmap.json",
   "mixins": [
     "ClientboundCustomPayloadPacketMixin",
-    "PacketBufferMixin",
-    "PacketInflaterMixin"
+    "CompressionDecoderMixin",
+    "FriendlyByteBufMixin"
   ],
   "injectors": {
     "defaultRequire": 0
