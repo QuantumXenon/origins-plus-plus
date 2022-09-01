@@ -152,8 +152,20 @@
 			"volume": 0.5
 		},
 		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:spectre/spectre_terror_toggle"
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "origins-plus-plus:spectre/spectre_infinite",
+					"comparison": ">",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:power_active",
+					"power": "origins-plus-plus:spectre/spectre_terror_toggle",
+					"inverted": true
+				}
+			]
 		}
 	},
 	"particlestart": {
@@ -161,17 +173,6 @@
 		"entity_action": {
 			"type": "origins:execute_command",
 			"command": "particle minecraft:enchant ~ ~2 ~ 0.2 0.4 0.2 0.5 300"
-		},
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:spectre/spectre_terror_toggle"
-		}
-	},
-	"soundend": {
-		"type": "origins:active_self",
-		"entity_action": {
-			"type": "origins:play_sound",
-			"sound": "entity.phantom.flap"
 		},
 		"condition": {
 			"type": "origins:and",
@@ -189,6 +190,18 @@
 				}
 			]
 		}
+	},
+	"soundend": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "entity.phantom.flap"
+		},
+		"condition": {
+			"type": "origins:power_active",
+			"power": "origins-plus-plus:spectre/spectre_terror_toggle"
+		}
+
 	},
 	"strength": {
 		"type": "origins:active_self",
@@ -206,20 +219,8 @@
 			}
 		},
 		"condition": {
-			"type": "origins:and",
-			"conditions": [
-				{
-					"type": "origins:resource",
-					"resource": "origins-plus-plus:spectre/spectre_infinite",
-					"comparison": ">",
-					"compare_to": 0
-				},
-				{
-					"type": "origins:power_active",
-					"power": "origins-plus-plus:spectre/spectre_terror_toggle",
-					"inverted": true
-				}
-			]
+			"type": "origins:power_active",
+			"power": "origins-plus-plus:spectre/spectre_terror_toggle"
 		}
 	},
 	"particleend": {
@@ -229,20 +230,8 @@
 			"command": "particle minecraft:squid_ink ~ ~1 ~ 0.1 0.2 0.1 0.5 50"
 		},
 		"condition": {
-			"type": "origins:and",
-			"conditions": [
-				{
-					"type": "origins:resource",
-					"resource": "origins-plus-plus:spectre/spectre_infinite",
-					"comparison": ">",
-					"compare_to": 0
-				},
-				{
-					"type": "origins:power_active",
-					"power": "origins-plus-plus:spectre/spectre_terror_toggle",
-					"inverted": true
-				}
-			]
+			"type": "origins:power_active",
+			"power": "origins-plus-plus:spectre/spectre_terror_toggle"
 		}
 	},
 	"spectre": {
@@ -250,7 +239,7 @@
 		"entity_action": {
 			"type": "origins:change_resource",
 			"resource": "origins-plus-plus:spectre/spectre_infinite",
-			"change": -2
+			"change": -4
 		},
 		"condition": {
 			"type": "origins:power_active",
