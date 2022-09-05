@@ -14,14 +14,14 @@ plugins {
 
 apply plugin: 'org.spongepowered.mixin'
 
-version = "${project.mod_version}"
+version = project.mod_version
 
 minecraft {
-    mappings channel: "official", version: "${project.minecraft_version}"
+    mappings(channel: "official", version: "${project.minecraft_version}")
 }
 
 dependencies {
-    minecraft "net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}"
+    minecraft("net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}")
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 
@@ -31,7 +31,7 @@ mixin {
 }
 
 processResources {
-    filesMatching("META-INF/mods.toml") {
+    filesMatching(["fabric.mod.json","META-INF/mods.toml"]) {
         expand("version": project.version)
     }
 }
