@@ -6,8 +6,7 @@
         "origins-plus-plus:craftsman/crafting",
         "origins-plus-plus:craftsman/fire",
         "origins-plus-plus:craftsman/pillager",
-        "origins-plus-plus:craftsman/undead",
-        "origins-plus-plus:craftsman/village"
+        "origins-plus-plus:craftsman/undead"
     ],
     "icon": "minecraft:crafting_table",
     "impact": 1
