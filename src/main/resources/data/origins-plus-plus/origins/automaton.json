@@ -37,8 +37,7 @@
 		"origins-plus-plus:automaton/water",
 		"origins-plus-plus:automaton/waterbar",
 		"origins-plus-plus:automaton/watergain",
-		"origins-plus-plus:automaton/watergain2",
-		"origins-plus-plus:automaton/watergain3"
+		"origins-plus-plus:automaton/watergain2"
 	],
 	"icon": "minecraft:weathered_copper",
 	"impact": 3,
