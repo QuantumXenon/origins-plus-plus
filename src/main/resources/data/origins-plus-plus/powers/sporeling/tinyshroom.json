@@ -1,43 +1,61 @@
 {
-	"type": "origins:action_on_callback",
-	"entity_action_chosen": {
-		"type": "origins:and",
-		"actions": [
+	"type":"origins:action_on_callback",
+	"entity_action_chosen":{
+		"type":"origins:and",
+		"actions":[
 			{
-				"type": "origins:execute_command",
-				"command": "scale set pehkui:height 0.32"
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:height 0.32"
 			},
 			{
-				"type": "origins:execute_command",
-				"command": "scale set pehkui:width 0.32"
-			},
-			{
-				"type": "origins:execute_command",
-				"command": "scale persist true"
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:width 0.32"
 			}
 		]
 	},
-	"entity_action_respawned": {
-		"type": "origins:and",
-		"actions": [
+	"entity_action_respawned":{
+		"type":"origins:and",
+		"actions":[
 			{
-				"type": "origins:execute_command",
-				"command": "scale set pehkui:height 0.32"
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:height 0.32"
 			},
 			{
-				"type": "origins:execute_command",
-				"command": "scale set pehkui:width 0.32"
-			},
-			{
-				"type": "origins:execute_command",
-				"command": "scale persist true"
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:width 0.32"
 			}
 		]
 	},
-	"entity_action_lost": {
-		"type": "origins:execute_command",
-		"command": "scale reset"
+	"entity_action_lost":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"scale set pehkui:width 1 @s"
+			},
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"scale set pehkui:height 1 @s"
+			}
+		]
 	},
-  "name": "Small",
-  "description": "You're not a spore anymore, but you're still a small mushroom."
+	"entity_action_removed":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"scale set pehkui:width 1 @s"
+			},
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"scale set pehkui:height 1 @s"
+			}
+		]
+	},
+	"name":"Small",
+	"description":"You're not a spore anymore, but you're still a small mushroom."
 }
