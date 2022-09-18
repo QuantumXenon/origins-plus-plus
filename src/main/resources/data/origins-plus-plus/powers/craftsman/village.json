@@ -1,7 +1,7 @@
 {
     "type": "origins:modify_player_spawn",
     "dimension": "minecraft:overworld",
-    "structure": "minecraft:village",
+    "structure": "minecraft:village_plains",
     "spawn_strategy": "default",
 	"name": "Sheltered Villager",
     "description": "You lived a sheltered life, as such you didn't leave the village growing up. You spawn in a village."
