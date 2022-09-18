@@ -1,8 +1,9 @@
 {
     "type": "origins:active_self",
-    "name": "Bounce",
-    "description": "Propels you the direction you're looking at with your primary key.",
-    "cooldown": 80,
+    "name": "Launch",
+	"key": "key.origins.primary_active",
+    "description": "Propel yourself in the direction you are looking.",
+	"cooldown": 500,
     "entity_action": {
         "type": "origins:and",
         "actions": [
@@ -10,13 +11,13 @@
                 "type": "origins:add_velocity",
                 "space": "local",
                 "set": false,
-                "z": 1.5
+                "z": 0.75
             },
             {
                 "type": "origins:add_velocity",
                 "space": "local",
                 "set": false,
-                "z": 1.5
+                "z": 0.75
             },
             {
                 "type": "origins:heal",
@@ -30,11 +31,7 @@
     },
     "hud_render": {
         "should_render": true,
-        "sprite_location": "origins:textures/gui/resource_bar.png",
-        "bar_index": 7
-    },
-    "key": {
-        "key": "key.origins.primary_active",
-        "continuous": false
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 16
     }
 }
