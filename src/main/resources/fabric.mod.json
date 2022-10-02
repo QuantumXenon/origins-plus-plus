@@ -1,23 +1,27 @@
 {
-	"schemaVersion": 1, 
-	"id": "origins-plus-plus", 
-	"name": "Origins++", 
-	"version": "${version}",
-	"description": "A collection of 115 origins",
-	"authors": ["TheQuantumXenon"],   
-	"contributors": ["Credit goes to original authors.",
-					"(See CurseForge Description)"], 
-	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus",
-		"issues": "https://github.com/QuantumXenon/origins-plus-plus/issues"
-	},
-	"icon": "assets/icon.png",
-	"depends": {
-		"fabric": "*",
-		"origins": "*",
-	    "pehkui": "*"
-	},
-	"recommends": {
-		"xlpackets": "*"
-	}
+  "schemaVersion": 1,
+  "id": "origins-plus-plus",
+  "name": "Origins++",
+  "version": "${version}",
+  "description": "A collection of 115 origins",
+  "authors": [
+    "TheQuantumXenon"
+  ],
+  "contributors": [
+    "Credit goes to original authors.",
+    "(See CurseForge Description)"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus",
+    "issues": "https://github.com/QuantumXenon/origins-plus-plus/issues"
+  },
+  "icon": "assets/icon.png",
+  "depends": {
+    "fabric": "*",
+    "origins": "*",
+    "pehkui": "*"
+  },
+  "recommends": {
+    "xlpackets": "*"
+  }
 }
