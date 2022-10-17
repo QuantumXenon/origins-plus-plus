@@ -35,7 +35,6 @@
 		"type": "origins:execute_command",
 		"command": "scale reset"
 	},
-    "execute_chosen_when_orb": true,
     "name": "Short",
     "description": "You are smaller than usual."
 }
