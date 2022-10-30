@@ -1,50 +1,68 @@
 {
-	"name": "Illusion",
-	"description": "You can spawn [5] copies of yourself in a random formation. To remove the illusion press [Save Toolbar Activator].",
-	"badges": [{
-		"sprite": "origins:textures/gui/badge/star.png",
-		"text": "level 3 illusion power"
-	}],
-	"key": "key.origins.primary_active",
-	"type": "origins:active_self",
-	"entity_action": {
-		"type": "origins:and",
-		"actions": [{
-				"type": "origins:execute_command",
-				"command": "/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"one\"],NoAI:1}"
+	"name":"Illusion",
+	"description":"Spawn [4] copies of yourself. To remove the illusion press [Save Toolbar Activator].",
+	"badges":[
+		{
+			"sprite":"origins:textures/gui/badge/star.png",
+			"text":"Tier 3 Primary Power"
+		}
+	],
+	"key":"key.origins.primary_active",
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"one\"],NoAI:1}"
 			},
 			{
-				"type": "origins:execute_command",
-				"command": "/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"two\"],NoAI:1}"
+				"type":"origins:execute_command",
+				"command":"/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"two\"],NoAI:1}"
 			},
-      {
-				"type": "origins:execute_command",
-				"command": "/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"three\"],NoAI:1}"
+			{
+				"type":"origins:execute_command",
+				"command":"/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"three\"],NoAI:1}"
 			},
-      {
-				"type": "origins:execute_command",
-				"command": "/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"four\"],NoAI:1}"
+			{
+				"type":"origins:execute_command",
+				"command":"/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"four\"],NoAI:1}"
 			},
-      {
-				"type": "origins:execute_command",
-				"command": "/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"five\"],NoAI:1}"
+			{
+				"type":"origins:execute_command",
+				"command":"/playsound minecraft:entity.illusioner.cast_spell player @s"
 			},
-      {
-        "type": "origins:execute_command",
-        "command": "/playsound minecraft:entity.illusioner.cast_spell player @s"
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "/effect give @s minecraft:invisibility 99999 25 true"
-      }
-
+			{
+				"type":"origins:execute_command",
+				"command":"/effect give @s minecraft:invisibility 99999 25 true"
+			},
+			{
+				"type":"origins:delay",
+				"ticks":300,
+				"action":{
+					"type":"origins:and",
+					"actions":[
+						{
+							"type":"origins:execute_command",
+							"command":"/execute at @s run kill @e[type=minecraft:illusioner,distance=..3]"
+						},
+						{
+							"type":"origins:execute_command",
+							"command":"/playsound minecraft:enchant.thorns.hit player @s"
+						},
+						{
+							"type":"origins:execute_command",
+							"command":"/effect clear @s minecraft:invisibility"
+						}
+					]
+				}
+			}
 		]
 	},
-	"cooldown": 300,
-	"hud_render": {
-		"should_render": true,
-		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-		"bar_index": 18
+	"cooldown":500,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index":18
 	}
-
 }

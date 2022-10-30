@@ -1,0 +1,13 @@
+{
+	"type":"origins:modify_damage_taken",
+	"name":"Gooey Interior",
+	"description":"Due to a lot of your insides being made of slime and honey, you take slightly less fall damage.",
+	"modifier":{
+		"operation":"addition",
+		"value":-3
+	},
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"fall"
+	}
+}

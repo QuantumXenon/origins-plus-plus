@@ -1,0 +1,27 @@
+{
+	"powers": [
+		"origins:no_shield",
+		"origins-plus-plus:illusioner/better_arrow",
+		"origins-plus-plus:illusioner/bow_apprentice",
+		"origins-plus-plus:illusioner/friendly_pillagers",
+		"origins-plus-plus:illusioner/illusion",
+		"origins-plus-plus:illusioner/illusion_despawn",
+		"origins-plus-plus:illusioner/illusion_formation",
+		"origins-plus-plus:illusioner/illusion_tp",
+		"origins-plus-plus:illusioner/scary",
+		"origins-plus-plus:illusioner/sword_bad",
+		"origins-plus-plus:illusioner/villager_hate"
+	],
+	"upgrades": [
+		{
+			"condition": "minecraft:story/enter_the_nether",
+			"origin": "origins-plus-plus:illusioner/illusioner_master",
+			"announcement": "You have unlocked your true potential ands evolved into a Master Illusioner"
+		}
+	],
+	"icon": "minecraft:potion",
+	"impact": 3,
+	"name": "Illusioner (Apprentice)",
+	"description": "After mastering the art of the bow, you have become an Illusioner Apprentice have now unlocked new powers (Evolve with 'We Need to Go Deeper')",
+	"unchoosable": true
+}

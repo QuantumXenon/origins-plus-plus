@@ -1,0 +1,25 @@
+{
+	"powers":[
+		"origins:no_shield",
+		"origins-plus-plus:illusioner/arrow",
+		"origins-plus-plus:illusioner/friendly_pillagers",
+		"origins-plus-plus:illusioner/illusion",
+		"origins-plus-plus:illusioner/illusion_despawn",
+		"origins-plus-plus:illusioner/illusion_formation",
+		"origins-plus-plus:illusioner/illusion_tp",
+		"origins-plus-plus:illusioner/scary",
+		"origins-plus-plus:illusioner/sword_bad",
+		"origins-plus-plus:illusioner/villager_hate"
+	],
+	"upgrades":[
+		{
+			"condition":"minecraft:adventure/shoot_arrow",
+			"origin":"origins-plus-plus:illusioner/illusioner_apprentice",
+			"announcement":"You have mastered the bow and have evolved into an Illusioner Apprentice"
+		}
+	],
+	"icon":"minecraft:potion",
+	"impact":3,
+	"name":"Illusioner (Novice)",
+	"description":"You were made but never used so now it's time to take revenge! (Evolve with 'Take Aim')"
+}

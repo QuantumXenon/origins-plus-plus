@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"origins:no_shield",
+		"origins-plus-plus:illusioner/better_arrow",
+		"origins-plus-plus:illusioner/better_illusion",
+		"origins-plus-plus:illusioner/better_illusion_formation",
+		"origins-plus-plus:illusioner/better_illusion_tp",
+		"origins-plus-plus:illusioner/bow_master",
+		"origins-plus-plus:illusioner/friendly_pillagers",
+		"origins-plus-plus:illusioner/illusion_despawn",
+		"origins-plus-plus:illusioner/scary",
+		"origins-plus-plus:illusioner/sword_bad",
+		"origins-plus-plus:illusioner/villager_hate"
+	],
+	"icon": "minecraft:potion",
+	"impact": 3,
+	"name": "Illusioner (Master)",
+	"description": "You have mastered the art of illusion and have unlocked your true potential",
+	"unchoosable": true
+}

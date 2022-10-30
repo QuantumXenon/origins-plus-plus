@@ -1,0 +1,12 @@
+{
+	"type":"origins:prevent_entity_use",
+	"bientity_condition":{
+		"type":"origins:target_condition",
+		"condition":{
+			"type":"origins:entity_type",
+			"entity_type":"minecraft:villager"
+		}
+	},
+	"name":"Pillager Hate",
+	"description":"Because you are a pillager, villagers won't trade with you"
+}

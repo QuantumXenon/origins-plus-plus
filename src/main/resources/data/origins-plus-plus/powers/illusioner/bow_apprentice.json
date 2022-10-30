@@ -1,17 +1,17 @@
 {
 	"type":"origins:conditioned_attribute",
-	"name":"Bow Master",
-	"description":"Because you are now a master with bows, they do even more damage",
+	"name":"Bow Apprentice",
+	"description":"Because you are trained with bows, they do more damage",
 	"badges":[
 		{
 			"sprite":"origins:textures/gui/badge/star.png",
-			"text":"Tier 3 Power"
+			"text":"Tier 2 Power"
 		}
 	],
 	"modifier":{
 		"attribute":"minecraft:generic.attack_damage",
 		"operation":"multiply_total",
-		"value":2
+		"value":1.5
 	},
 	"condition":{
 		"type":"origins:and",

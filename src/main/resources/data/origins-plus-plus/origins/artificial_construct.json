@@ -1,13 +1,13 @@
 {
     "powers": [
-        "origins-plus-plus:artificial-construct/arm_long_yes",
         "origins-plus-plus:artificial-construct/battery",
         "origins-plus-plus:artificial-construct/battery_resource",
-        "origins-plus-plus:artificial-construct/dispenser_boi",
-        "origins-plus-plus:artificial-construct/food_unecessary",
-        "origins-plus-plus:artificial-construct/iron_nugget_heal",
-        "origins-plus-plus:artificial-construct/less_fall",
-        "origins-plus-plus:artificial-construct/metal",
+        "origins-plus-plus:artificial-construct/dispenser",
+        "origins-plus-plus:artificial-construct/heal",
+        "origins-plus-plus:artificial-construct/less_fall_damage",
+        "origins-plus-plus:artificial-construct/metal_shell",
+        "origins-plus-plus:artificial-construct/no_food",
+		"origins-plus-plus:artificial-construct/reach",
         "origins-plus-plus:artificial-construct/storage"
     ],
     "name": "Artificial Contruct",
