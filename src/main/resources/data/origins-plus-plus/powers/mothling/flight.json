@@ -1,6 +1,7 @@
 {
-	"name": "Flight",
-	"description": "You can fly using a mix of gliding and wing propulsion.",
-    "type": "origins:elytra_flight",
-    "render_elytra": true
+	"type": "origins:elytra_flight",
+	"name": "Wings",
+	"description": "As a mothling you have permenant elytra wings!",
+    "render_elytra": true,
+	"texture_location": "minecraft:textures/entity/elytra.png"
 }
