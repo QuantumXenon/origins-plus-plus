@@ -29,5 +29,5 @@
     "speed": 2,
     "sound": "entity.skeleton.shoot",
     "tag": "{NoGravity:1b,damage:4.5,pickup:2b}",
-    "key": "primary"
+    "key": "key.origins.primary_active"
 }
