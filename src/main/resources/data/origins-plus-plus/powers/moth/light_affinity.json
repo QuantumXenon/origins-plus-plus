@@ -1,14 +1,16 @@
 {
   "type":"origins:action_over_time",
+  "name":"Light Affinity",
+  "description":"Due to your infatuation with light, you gain various buffs around different light sources."
   "entity_action":{
      "type":"origins:and",
      "actions":[
         {
            "type":"origins:apply_effect",
            "effect":{
-              "effect":"minecraft:strength",
+              "effect":"minecraft:speed",
               "duration":200,
-              "amplifier":1
+              "amplifier":0
            }
         }
      ]
@@ -18,13 +20,11 @@
      "type":"origins:block_in_radius",
      "block_condition":{
         "type":"origins:in_tag",
-        "tag":"origins-plus-plus:lamp"
+        "tag":"origins-plus-plus:other_light_sources"
      },
      "radius":12,
      "shape":"cube",
      "comparison":">=",
      "compare_to":1
-  },
-  "name":"Light Affinity",
-  "description":"Due to your infatuation with light, you gain various buffs around different light sources."
+  }
 }

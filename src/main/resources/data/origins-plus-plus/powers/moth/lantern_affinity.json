@@ -6,17 +6,9 @@
         {
            "type":"origins:apply_effect",
            "effect":{
-              "effect":"minecraft:dolphins_grace",
+              "effect":"minecraft:strength",
               "duration":200,
-              "amplifier":0
-           }
-        },
-        {
-           "type":"origins:apply_effect",
-           "effect":{
-              "effect":"minecraft:conduit_power",
-              "duration":200,
-              "amplifier":0
+              "amplifier":1
            }
         }
      ]
@@ -26,9 +18,9 @@
      "type":"origins:block_in_radius",
      "block_condition":{
         "type":"origins:in_tag",
-        "tag":"origins-plus-plus:sea_lamp"
+        "tag":"origins-plus-plus:lantern"
      },
-     "radius":20,
+     "radius":12,
      "shape":"cube",
      "comparison":">=",
      "compare_to":1

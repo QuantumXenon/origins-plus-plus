@@ -6,7 +6,15 @@
         {
            "type":"origins:apply_effect",
            "effect":{
-              "effect":"minecraft:haste",
+              "effect":"minecraft:resistance",
+              "duration":200,
+              "amplifier":0
+           }
+        },
+        {
+           "type":"origins:apply_effect",
+           "effect":{
+              "effect":"minecraft:speed",
               "duration":200,
               "amplifier":0
            }
@@ -18,7 +26,7 @@
      "type":"origins:block_in_radius",
      "block_condition":{
         "type":"origins:in_tag",
-        "tag":"origins-plus-plus:soultorch"
+        "tag":"origins-plus-plus:soul_lantern"
      },
      "radius":12,
      "shape":"cube",
