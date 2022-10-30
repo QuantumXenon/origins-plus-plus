@@ -17,6 +17,7 @@
   },
   "icon": "assets/icon.png",
   "depends": {
+    "minecraft": "*",
     "fabric": "*",
     "origins": "*",
     "pehkui": "*"
