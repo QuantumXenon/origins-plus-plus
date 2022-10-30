@@ -1,11 +1,13 @@
 {
 	"type":"origins:active_self",
+	"name":"Nourish",
+	"description":"You direct the earth's nutrients toward crops. Growing them in a matter of seconds.",
 	"entity_action":{
 	   "type":"origins:and",
 	   "actions":[
 		  {
 			 "type":"origins:execute_command",
-			 "command":"gamerule randomTickSpeed 35000",
+			 "command":"gamerule randomTickSpeed 20000",
 			 "permission_level":4
 		  },
 		  {
@@ -24,15 +26,11 @@
 		  }
 	   ]
 	},
-	"cooldown":1000,
+	"cooldown":1200,
 	"hud_render":{
 	   "should_render":true,
 	   "sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
 	   "bar_index":8
 	},
-	"key":{
-	   "key":"key.origins.primary_active"
-	},
-	"name":"Nourish",
-	"description":"You direct the earth's nutrients toward crops. Growing them in a matter of seconds. [Primary]"
+	"key":"key.origins.primary_active"
 }

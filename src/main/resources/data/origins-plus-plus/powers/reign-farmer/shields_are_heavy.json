@@ -6,7 +6,7 @@
        "type":"origins:ingredient",
        "ingredient":[
           {
-             "item":"shield"
+             "item":"minecraft:shield"
           }
        ]
     }

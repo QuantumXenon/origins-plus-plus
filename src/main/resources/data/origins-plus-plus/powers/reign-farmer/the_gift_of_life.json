@@ -1,8 +1,8 @@
 {
    "name":"The Gift Of Life",
-   "description":"With an empty hand, you can summon a random passive mob or a neutral mob. [Secondary]",
+   "description":"With an empty hand, you can summon a random passive mob or a neutral mob.",
    "type":"origins:active_self",
-   "cooldown":100,
+   "cooldown":250,
    "hud_render":{
       "should_render":true,
       "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
@@ -269,8 +269,5 @@
          }
       ]
    },
-   "key":{
-      "key":"key.origins.secondary_active",
-      "continuous":false
-   }
+   "key":"key.origins.secondary_active"
 }
