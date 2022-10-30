@@ -3,6 +3,7 @@
 	"values":[
 		"minecraft:glowstone",
 		"minecraft:shroomlight",
-		"minecraft:torch"
+		"minecraft:torch",
+		"minecraft:end_rod"
 	]
 }
