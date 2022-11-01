@@ -1,27 +1,38 @@
 {
-    "name": "Magic Wielder",
-    "description": "You can wield various types of magical attacks. You cycle through your different possible abilities by using your secondary, and will cycle in the opposite direction when you sneak. You use/fire your selected ability via your primary. Every ability uses up a specific ammo type, and you convert certain items into ability ammunition by right clicking while holding the item in your main hand. Your selected ability and how much ammo u have left should be shown above your hotbar as an actionbar title. Every ability's ammo item is listed below:\n\nIMPORTANT, READ CAREFULLY:\n\nOffensive Attacks:\nAnti-Gravity Arrow\n1 arrow = 2 ammo\nGhast Fireball\n1 fire charge = 2 ammo\nSpectral Energy Shot\n1 glowstone dust\nEnderdragon Fireball\n3 bottles of dragon's breath\n\nDefensive Attacks:\nDirt Enclosure:\n24 dirt\nEnergy Shield:\n1 golden apple\nResistance Buff:\n1 shield\nGolem Reinforcement:\n1 iron block\n\nSIDE NOTES:\nAbilities that place blocks in a certain formation will NOT override and replace existing blocks, other than stuff like grass.\n\nSneaking will prevent you from consuming ammo for your abilities, allowing you to use them normally without accidentally using two at once.\n\nIron Golems you summon will be willing to turn on you if you hit them, like golems made by villagers.",
-    "condition": {
-        "inverted": true,
-        "type": "origins:sneaking"
-    },
-    "type": "origins:active_self",
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:execute_command",
-                "command": "scoreboard players operation @s[scores={ManipCycle=..8}] ManipCycle += @s ManipDummy"
-            },
-            {
-                "type": "origins:execute_command",
-                "command": "execute as @s if entity @s[scores={ManipCycle=9}] run scoreboard players set @s ManipCycle 1"
-            }
-        ]
-    },
-    "cooldown": 0,
-    "hud_render": {
-        "should_render": false
-    },
-    "key": "secondary"
+	"type":"origins:active_self",
+	"name":"Magic Wielder",
+	"description":"You can wield various types of magical attacks. You cycle through your different possible abilities by using [Secondary], and will cycle in the opposite direction when you sneak. You use/fire your selected ability with [Primary]. Every ability uses up a specific ammo type, and you convert certain items into ability ammunition by right clicking while holding the item in your main hand. Your selected ability and how much ammo u have left should be shown above your hotbar as an actionbar title. Every ability's ammo item is listed below:\n\nIMPORTANT, READ CAREFULLY:\n\nOffensive Attacks:\nAnti-Gravity Arrow\n1 arrow = 2 ammo\nGhast Fireball\n1 fire charge = 2 ammo\nSpectral Energy Shot\n1 glowstone dust\nEnderdragon Fireball\n3 bottles of dragon's breath\n\nDefensive Attacks:\nDirt Enclosure:\n24 dirt\nEnergy Shield:\n1 golden apple\nResistance Buff:\n1 shield\nGolem Reinforcement:\n1 iron block\n\nSIDE NOTES:\nAbilities that place blocks in a certain formation will NOT override and replace existing blocks, other than stuff like grass.\n\nSneaking will prevent you from consuming ammo for your abilities, allowing you to use them normally without accidentally using two at once.\n\nIron Golems you summon will be willing to turn on you if you hit them, like golems made by villagers.",
+	"entity_action":{
+		"type":"origins:if_else",
+		"condition":{
+			"type":"origins:sneaking"
+		},
+		"if_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"scoreboard players operation @s[scores={ManipCycle=1..}] ManipCycle -= @s ManipDummy"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"execute as @s if entity @s[scores={ManipCycle=0}] run scoreboard players set @s ManipCycle 8"
+				}
+			]
+		},
+		"else_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"scoreboard players operation @s[scores={ManipCycle=..8}] ManipCycle += @s ManipDummy"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"execute as @s if entity @s[scores={ManipCycle=9}] run scoreboard players set @s ManipCycle 1"
+				}
+			]
+		}
+	},
+	"key": "key.origins.secondary_active"
 }
