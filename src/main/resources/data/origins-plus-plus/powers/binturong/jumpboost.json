@@ -1,9 +1,0 @@
-{
-    "type": "origins:modify_jump",
-    "modifier": {
-        "operation": "addition",
-        "value": 0.25
-     },
-  "name": "Above the Grass",
-  "description": "Binturongs wil have higher jump"
-}

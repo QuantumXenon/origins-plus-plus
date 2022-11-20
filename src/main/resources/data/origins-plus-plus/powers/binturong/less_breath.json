@@ -1,82 +1,82 @@
 {
-	"type": "origins:action_over_time",
-	"name": "Stamina Conservation",
-	"description": "Binturongs need to save energy for leaping so they can't hold their breath for long",
-	"interval": 20,
-	"condition": {
-		"type": "origins:and",
-		"conditions": [
-		{
-			"type": "origins:submerged_in",
-			"fluid": "minecraft:water"
-		},
-		{
-			"type": "origins:status_effect",
-			"effect": "minecraft:water_breathing",
-			"inverted": true
-		},
-		{
-			"type": "origins:air",
-			"comparison": ">",
-			"compare_to": 0
-		}
+	"type":"origins:action_over_time",
+	"name":"Stamina Conservation",
+	"description":"Binturongs need to save energy for leaping so they can't hold their breath for long",
+	"interval":20,
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:submerged_in",
+				"fluid":"minecraft:water"
+			},
+			{
+				"type":"origins:status_effect",
+				"effect":"minecraft:water_breathing",
+				"inverted":true
+			},
+			{
+				"type":"origins:air",
+				"comparison":">",
+				"compare_to":0
+			}
 		]
 	},
-	"entity_action": {
-		"type": "origins:if_else_list",
-		"actions": [
-		{
-			"condition": {
-				"type": "origins:enchantment",
-				"enchantment": "minecraft:respiration",
-				"calculation": "max",
-				"comparison": "==",
-				"compare_to": 0
+	"entity_action":{
+		"type":"origins:if_else_list",
+		"actions":[
+			{
+				"condition":{
+					"type":"origins:enchantment",
+					"enchantment":"minecraft:respiration",
+					"calculation":"max",
+					"comparison":"==",
+					"compare_to":0
+				},
+				"action":{
+					"type":"origins:gain_air",
+					"value":-10
+				}
 			},
-			"action": {
-				"type": "origins:gain_air",
-				"value": -10
-			}
-		},
-		{
-			"condition": {
-				"type": "origins:enchantment",
-				"enchantment": "minecraft:respiration",
-				"calculation": "max",
-				"comparison": "==",
-				"compare_to": 1
+			{
+				"condition":{
+					"type":"origins:enchantment",
+					"enchantment":"minecraft:respiration",
+					"calculation":"max",
+					"comparison":"==",
+					"compare_to":1
+				},
+				"action":{
+					"type":"origins:gain_air",
+					"value":-5
+				}
 			},
-			"action": {
-				"type": "origins:gain_air",
-				"value": -5
-			}
-		},
-		{
-			"condition": {
-				"type": "origins:enchantment",
-				"enchantment": "minecraft:respiration",
-				"calculation": "max",
-				"comparison": "==",
-				"compare_to": 2
+			{
+				"condition":{
+					"type":"origins:enchantment",
+					"enchantment":"minecraft:respiration",
+					"calculation":"max",
+					"comparison":"==",
+					"compare_to":2
+				},
+				"action":{
+					"type":"origins:gain_air",
+					"value":-3
+				}
 			},
-			"action": {
-				"type": "origins:gain_air",
-				"value": -3
+			{
+				"condition":{
+					"type":"origins:enchantment",
+					"enchantment":"minecraft:respiration",
+					"calculation":"max",
+					"comparison":"==",
+					"compare_to":3
+				},
+				"action":{
+					"type":"origins:gain_air",
+					"value":-2
+				}
 			}
-		},
-		{
-			"condition": {
-				"type": "origins:enchantment",
-				"enchantment": "minecraft:respiration",
-				"calculation": "max",
-				"comparison": "==",
-				"compare_to": 3
-			},
-			"action": {
-				"type": "origins:gain_air",
-				"value": -2
-			}
-		}
 		]
 	}
 }

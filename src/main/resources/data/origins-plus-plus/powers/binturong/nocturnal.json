@@ -1,6 +1,6 @@
 {
-    "name": "Nocturnal",
-    "description": "Binturong's can see every star in the sky",
-    "type": "origins:night_vision",
-    "strength": 0.6
+	"name":"Nocturnal",
+	"description":"Binturongs are adapted to the night, so they have permenant night vision",
+	"type":"origins:night_vision",
+	"strength":0.6
 }

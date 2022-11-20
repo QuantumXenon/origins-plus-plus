@@ -1,13 +1,13 @@
 {
-  "type": "origins:modify_damage_taken",
-  "damage_condition": {
-    "type": "origins:name",
-	"name": "explosion"
-  },
-  "modifier": {
-    "value": 2,
-    "operation": "multiply_total"
-  },
-  "name": "Weak to explosions",
-  "description": "The bear cat is still weak to explosions"
+	"type":"origins:modify_damage_taken",
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"explosion"
+	},
+	"modifier":{
+		"value":2,
+		"operation":"multiply_total"
+	},
+	"name":"Weak to Explosions",
+	"description":"Binturongs are weak to explosion damage"
 }

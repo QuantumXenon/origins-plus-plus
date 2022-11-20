@@ -1,0 +1,9 @@
+{
+	"type":"origins:modify_break_speed",
+	"modifier":{
+		"value":1.33,
+		"operation":"multiply_base"
+	},
+	"name":"Manic Miner",
+	"description":"Binturong's claws allow them break blocks faster than others."
+}

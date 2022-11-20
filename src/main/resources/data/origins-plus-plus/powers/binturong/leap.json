@@ -1,5 +1,9 @@
 {
 	"type":"origins:active_self",
+	"name":"Binturong's Leap",
+	"description":"Binturongs can leap from tree to tree with a powerful jump",
+	"key":"key.origins.secondary_active",
+	"cooldown":500,
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[
@@ -9,27 +13,24 @@
 				"permission_level":4
 			},
 			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:entity.ender_dragon.flap player @a[distance=..10] ~ ~ ~ 1 1 1",
+				"permission_level":4
+			},
+			{
 				"type":"origins:add_velocity",
-				"z":1.5,
+				"z":0.75,
 				"space":"local"
 			},
 			{
 				"type":"origins:add_velocity",
-				"y":1
-			},
-			{
-				"type":"origins:exhaust",
-				"amount":0.6
+				"y":0.25
 			}
 		]
 	},
-	"key":"key.origins.secondary_active",
-	"cooldown":500,
 	"hud_render":{
 		"should_render":true,
 		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
 		"bar_index":23
-	},
-	"name":"Tree Hop",
-	"description":"Binturongs have a pounce that can be used to attack their prey or escape danger."
+	}
 }

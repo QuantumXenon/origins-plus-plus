@@ -1,0 +1,22 @@
+{
+	"type":"origins:invulnerability",
+	"damage_condition":{
+		"type":"origins:or",
+		"conditions":[
+			{
+				"type":"origins:name",
+				"name":"cactus"
+			},
+			{
+				"type":"origins:name",
+				"name":"sweetBerryBush"
+			},
+			{
+				"type":"origins:name",
+				"name":"thorns"
+			}
+		]
+	},
+	"name":"Thick Hide",
+	"description":"A binturong's thick hide means that they are immune to all types of thorns and spikes"
+}

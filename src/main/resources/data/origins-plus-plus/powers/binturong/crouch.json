@@ -1,0 +1,42 @@
+{
+	"type":"origins:action_over_time",
+	"interval":1,
+	"entity_action":{
+		"type":"origins:if_else",
+		"condition":{
+			"type":"origins:sneaking"
+		},
+		"if_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"scale set pehkui:width 0.6 @s"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"scale set pehkui:height 0.6 @s"
+				}
+			]
+		},
+		"else_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"scale set pehkui:width 0.8 @s"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"scale set pehkui:height 0.8 @s"
+				}
+			]
+		}
+	},
+	"name":"Paws Down",
+	"description":"When crouching, binturongs are smaller"
+}

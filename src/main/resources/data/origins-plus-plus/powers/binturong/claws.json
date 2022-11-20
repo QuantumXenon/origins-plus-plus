@@ -1,13 +1,13 @@
 {
-	"type": "origins:modify_damage_dealt",
-	"modifier": {
-		"operation": "addition",
-		"value": 5.0
+	"type":"origins:modify_damage_dealt",
+	"modifier":{
+		"operation":"addition",
+		"value":3.0
 	},
-	"condition": {
-		"type": "origins:using_item",
-		"inverted": true
+	"condition":{
+		"type":"origins:using_item",
+		"inverted":true
 	},
-	"name": "Claws Out",
-	"description": "Binturongs deal 5 extra damage with their sharp claws"
+	"name":"Sharp Claws",
+	"description":"Binturongs deal extra damage with their sharp claws"
 }
