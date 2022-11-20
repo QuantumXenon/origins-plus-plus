@@ -21,7 +21,7 @@
 				"ticks":1,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect give @s minecraft:blindness 1 10",
+					"command":"effect give @s minecraft:blindness 10 10",
 					"permission_level":4
 				}
 			},
@@ -30,7 +30,7 @@
 				"ticks":1,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect give @s minecraft:slowness 1 10",
+					"command":"effect give @s minecraft:slowness 10 10",
 					"permission_level":4
 				}
 			},
