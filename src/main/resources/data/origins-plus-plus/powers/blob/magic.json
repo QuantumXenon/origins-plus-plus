@@ -12,7 +12,7 @@
 		"divergence":1.0,
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:blob/bar_resource",
+			"resource":"origins-plus-plus:blob/health_bar_resource",
 			"comparison":">=",
 			"compare_to":1
 		},
@@ -28,12 +28,12 @@
 		"cooldown":100,
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:blob/bar_resource",
+			"resource":"origins-plus-plus:blob/health_bar_resource",
 			"change":-200
 		},
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:blob/bar_resource",
+			"resource":"origins-plus-plus:blob/health_bar_resource",
 			"comparison":">=",
 			"compare_to":1
 		}

@@ -4,21 +4,6 @@
 	"key":"key.use",
 	"type":"origins:active_self",
 	"cooldown":50,
-	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"mainhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"item":"minecraft:amethyst_shard"
-					}
-				}
-			}
-		]
-	},
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[
@@ -31,7 +16,7 @@
 				"ticks":1,
 				"action":{
 					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:blob/bar_resource",
+					"resource":"origins-plus-plus:blob/health_bar_resource",
 					"change":50
 				}
 			},
@@ -41,5 +26,15 @@
 				"saturation":1.5
 			}
 		]
-	}
+	},
+	"condition":{
+		"type":"origins:equipped_item",
+		"equipment_slot":"mainhand",
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"item":"minecraft:amethyst_shard"
+			}
+		}
+	},
 }

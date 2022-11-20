@@ -15,7 +15,7 @@
 		"type":"origins:self_action_when_hit",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:blob/bar_resource",
+			"resource":"origins-plus-plus:blob/health_bar_resource",
 			"change":-100
 		}
 	},
@@ -28,7 +28,7 @@
 		},
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:blob/bar_resource",
+			"resource":"origins-plus-plus:blob/health_bar_resource",
 			"comparison":">=",
 			"compare_to":1
 		}

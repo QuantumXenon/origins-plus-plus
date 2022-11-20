@@ -5,12 +5,7 @@
 	"stack":{
 		"type":"origins:resource",
 		"min":0,
-		"max":3,
-		"hud_render":{
-			"should_render":false,
-			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-			"bar_index":2
-		}
+		"max":3
 	},
 	"cdremove":{
 		"type":"origins:action_over_time",
@@ -20,7 +15,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"/resource change @s origins-plus-plus:blob/dmg_cd -1"
+					"command":"/resource change @s origins-plus-plus:blob/stacking_attacks_cd -1"
 				}
 			]
 		}
@@ -33,7 +28,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"/resource set @s origins-plus-plus:blob/dmg_stack 0"
+					"command":"/resource set @s origins-plus-plus:blob/stacking_attacks_stack 0"
 				}
 			]
 		},
@@ -44,7 +39,7 @@
 					"type":"origins:resource",
 					"comparison":"==",
 					"compare_to":1,
-					"resource":"origins-plus-plus:blob/*_cd"
+					"resource":"*:*_cd"
 				}
 			]
 		}
@@ -52,10 +47,7 @@
 	"cd":{
 		"type":"origins:resource",
 		"min":0,
-		"max":80,
-		"hud_render":{
-			"should_render":false
-		}
+		"max":80
 	},
 	"onhitstack":{
 		"type":"origins:self_action_on_hit",
@@ -64,11 +56,11 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"/resource change @s origins-plus-plus:blob/dmg_stack 1"
+					"command":"/resource change @s origins-plus-plus:blob/stacking_attacks_stack 1"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"/resource set @s origins-plus-plus:blob/dmg_cd 80"
+					"command":"/resource set @s origins-plus-plus:blob/stacking_attacks_cd 80"
 				},
 				{
 					"type":"origins:execute_command",
@@ -83,7 +75,7 @@
 					"type":"origins:resource",
 					"comparison":"!=",
 					"compare_to":3,
-					"resource":"origins-plus-plus:blob/*_stack"
+					"resource":"*:*_stack"
 				}
 			]
 		},
@@ -96,7 +88,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"/resource set @s origins-plus-plus:blob/dmg_stack 1"
+					"command":"/resource set @s origins-plus-plus:blob/stacking_attacks_stack 1"
 				},
 				{
 					"type":"origins:execute_command",
@@ -111,7 +103,7 @@
 					"type":"origins:resource",
 					"comparison":"==",
 					"compare_to":3,
-					"resource":"origins-plus-plus:blob/*_stack"
+					"resource":"*:*_stack"
 				}
 			]
 		},
@@ -130,7 +122,7 @@
 					"type":"origins:resource",
 					"comparison":"==",
 					"compare_to":3,
-					"resource":"origins-plus-plus:blob/*_stack"
+					"resource":"*:*_stack"
 				}
 			]
 		}

@@ -14,7 +14,7 @@
 	},
 	"condition":{
 		"type":"origins:resource",
-		"resource":"origins-plus-plus:blob/bar_resource",
+		"resource":"origins-plus-plus:blob/health_bar_resource",
 		"comparison":">=",
 		"compare_to":500
 	}
