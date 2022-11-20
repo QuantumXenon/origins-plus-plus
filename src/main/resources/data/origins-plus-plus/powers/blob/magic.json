@@ -1,22 +1,41 @@
 {
-	"type": "origins:fire_projectile",
-	"entity_type": "minecraft:dragon_fireball",
-	"cooldown": 100,
-	"hud_render": {
-		"should_render": true,
-		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-		"bar_index": 19
+	"type":"origins:multiple",
+	"name":"Own Self",
+	"description":"You can shoot out a part of yourself (This uses 20% of your health bar).",
+	"fire_projectile":{
+		"type":"origins:fire_projectile",
+		"key":"key.origins.primary_active",
+		"entity_type":"minecraft:dragon_fireball",
+		"cooldown":100,
+		"count":1,
+		"speed":2,
+		"divergence":1.0,
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:blob/bar_resource",
+			"comparison":">=",
+			"compare_to":1
+		},
+		"hud_render":{
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+			"bar_index":19
+		}
 	},
-	"count": 1,
-	"speed": 2,
-	"divergence": 1.0,
-	"key": "key.origins.primary_active",
-	"condition": {
-		"type": "origins:resource",
-		"resource": "origins-plus-plus:blob/bar_resource",
-		"comparison": ">=",
-		"compare_to": 1
-	},
-	"name": "Own Self",
-	"description": "You can shoot out a part of yourself, this takes 20% of your bar."
+	"change_resource":{
+		"type":"origins:active_self",
+		"key":"key.origins.primary_active",
+		"cooldown":100,
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:blob/bar_resource",
+			"change":-200
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:blob/bar_resource",
+			"comparison":">=",
+			"compare_to":1
+		}
+	}
 }

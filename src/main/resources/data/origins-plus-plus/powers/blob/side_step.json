@@ -1,242 +1,242 @@
 {
-    "name": "Side Dash",
-    "description": "Double tapping a movement key will dash in that direction.",
-    "type": "origins:multiple",
-    "cooldown": {
-        "type": "origins:cooldown",
-        "cooldown": 20,
-        "hud_render": {
-            "should_render": true,
-            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-            "bar_index": 23
-        }
-    },
-    "forward": {
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_cooldown",
-            "comparison": "==",
-            "compare_to": 0
-        },
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:if_else",
-            "condition": {
-                "type": "origins:resource",
-                "resource": "*:*_doubleforward",
-                "comparison": "!=",
-                "compare_to": 0
-            },
-            "if_action": {
-                "type": "origins:and",
-                "actions": [
-                    {
-                        "type": "origins:add_velocity",
-                        "z": 0.75,
-                        "space": "local_horizontal_normalized",
-                        "client": true,
-                        "server": true,
-                        "set": false
-                    },
-                    {
-                        "type": "origins:trigger_cooldown",
-                        "power": "*:*_cooldown"
-                    },
-                    {
-                        "type": "origins:execute_command",
-                        "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
-                    }
-                ]
-            },
-            "else_action": {
-                "type": "origins:trigger_cooldown",
-                "power": "*:*_doubleforward"
-            }
-        },
-        "cooldown": 0,
-        "hud_render": {
-            "should_render": false
-        },
-        "key": {
-            "key": "key.forward"
-        }
-    },
-    "left": {
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_cooldown",
-            "comparison": "==",
-            "compare_to": 0
-        },
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:if_else",
-            "condition": {
-                "type": "origins:resource",
-                "resource": "*:*_doubleleft",
-                "comparison": "!=",
-                "compare_to": 0
-            },
-            "if_action": {
-                "type": "origins:and",
-                "actions": [
-                    {
-                        "type": "origins:add_velocity",
-                        "x": 0.75,
-                        "space": "local_horizontal_normalized",
-                        "client": true,
-                        "server": true,
-                        "set": false
-                    },
-                    {
-                        "type": "origins:trigger_cooldown",
-                        "power": "*:*_cooldown"
-                    },
-                    {
-                        "type": "origins:execute_command",
-                        "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
-                    }
-                ]
-            },
-            "else_action": {
-                "type": "origins:trigger_cooldown",
-                "power": "*:*_doubleleft"
-            }
-        },
-        "cooldown": 0,
-        "hud_render": {
-            "should_render": false
-        },
-        "key": {
-            "key": "key.left"
-        }
-    },
-    "back": {
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_cooldown",
-            "comparison": "==",
-            "compare_to": 0
-        },
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:if_else",
-            "condition": {
-                "type": "origins:resource",
-                "resource": "*:*_doubleback",
-                "comparison": "!=",
-                "compare_to": 0
-            },
-            "if_action": {
-                "type": "origins:and",
-                "actions": [
-                    {
-                        "type": "origins:add_velocity",
-                        "z": -0.75,
-                        "space": "local_horizontal_normalized",
-                        "client": true,
-                        "server": true,
-                        "set": false
-                    },
-                    {
-                        "type": "origins:trigger_cooldown",
-                        "power": "*:*_cooldown"
-                    },
-                    {
-                        "type": "origins:execute_command",
-                        "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
-                    }
-                ]
-            },
-            "else_action": {
-                "type": "origins:trigger_cooldown",
-                "power": "*:*_doubleback"
-            }
-        },
-        "cooldown": 0,
-        "hud_render": {
-            "should_render": false
-        },
-        "key": {
-            "key": "key.back"
-        }
-    },
-    "right": {
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_cooldown",
-            "comparison": "==",
-            "compare_to": 0
-        },
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:if_else",
-            "condition": {
-                "type": "origins:resource",
-                "resource": "*:*_doubleright",
-                "comparison": "!=",
-                "compare_to": 0
-            },
-            "if_action": {
-                "type": "origins:and",
-                "actions": [
-                    {
-                        "type": "origins:add_velocity",
-                        "x": -0.75,
-                        "space": "local_horizontal_normalized",
-                        "client": true,
-                        "server": true,
-                        "set": false
-                    },
-                    {
-                        "type": "origins:trigger_cooldown",
-                        "power": "*:*_cooldown"
-                    },
-                    {
-                        "type": "origins:execute_command",
-                        "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
-                    }
-                ]
-            },
-            "else_action": {
-                "type": "origins:trigger_cooldown",
-                "power": "*:*_doubleright"
-            }
-        },
-        "cooldown": 0,
-        "hud_render": {
-            "should_render": false
-        },
-        "key": {
-            "key": "key.right"
-        }
-    },
-    "doubleforward": {
-        "type": "origins:cooldown",
-        "cooldown": 5,
-        "hud_render": {
-            "should_render": false
-        }
-    },
-    "doubleleft": {
-        "type": "origins:cooldown",
-        "cooldown": 5,
-        "hud_render": {
-            "should_render": false
-        }
-    },
-    "doubleback": {
-        "type": "origins:cooldown",
-        "cooldown": 5,
-        "hud_render": {
-            "should_render": false
-        }
-    },
-    "doubleright": {
-        "type": "origins:cooldown",
-        "cooldown": 5,
-        "hud_render": {
-            "should_render": false
-        }
-    }
+	"name":"Side Step",
+	"description":"Double tapping a movement key will dash in that direction.",
+	"type":"origins:multiple",
+	"cooldown":{
+		"type":"origins:cooldown",
+		"cooldown":20,
+		"hud_render":{
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+			"bar_index":23
+		}
+	},
+	"forward":{
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_cooldown",
+			"comparison":"==",
+			"compare_to":0
+		},
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:resource",
+				"resource":"*:*_doubleforward",
+				"comparison":"!=",
+				"compare_to":0
+			},
+			"if_action":{
+				"type":"origins:and",
+				"actions":[
+					{
+						"type":"origins:add_velocity",
+						"z":0.75,
+						"space":"local_horizontal_normalized",
+						"client":true,
+						"server":true,
+						"set":false
+					},
+					{
+						"type":"origins:trigger_cooldown",
+						"power":"*:*_cooldown"
+					},
+					{
+						"type":"origins:execute_command",
+						"command":"playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
+					}
+				]
+			},
+			"else_action":{
+				"type":"origins:trigger_cooldown",
+				"power":"*:*_doubleforward"
+			}
+		},
+		"cooldown":0,
+		"hud_render":{
+			"should_render":false
+		},
+		"key":{
+			"key":"key.forward"
+		}
+	},
+	"left":{
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_cooldown",
+			"comparison":"==",
+			"compare_to":0
+		},
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:resource",
+				"resource":"*:*_doubleleft",
+				"comparison":"!=",
+				"compare_to":0
+			},
+			"if_action":{
+				"type":"origins:and",
+				"actions":[
+					{
+						"type":"origins:add_velocity",
+						"x":0.75,
+						"space":"local_horizontal_normalized",
+						"client":true,
+						"server":true,
+						"set":false
+					},
+					{
+						"type":"origins:trigger_cooldown",
+						"power":"*:*_cooldown"
+					},
+					{
+						"type":"origins:execute_command",
+						"command":"playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
+					}
+				]
+			},
+			"else_action":{
+				"type":"origins:trigger_cooldown",
+				"power":"*:*_doubleleft"
+			}
+		},
+		"cooldown":0,
+		"hud_render":{
+			"should_render":false
+		},
+		"key":{
+			"key":"key.left"
+		}
+	},
+	"back":{
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_cooldown",
+			"comparison":"==",
+			"compare_to":0
+		},
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:resource",
+				"resource":"*:*_doubleback",
+				"comparison":"!=",
+				"compare_to":0
+			},
+			"if_action":{
+				"type":"origins:and",
+				"actions":[
+					{
+						"type":"origins:add_velocity",
+						"z":-0.75,
+						"space":"local_horizontal_normalized",
+						"client":true,
+						"server":true,
+						"set":false
+					},
+					{
+						"type":"origins:trigger_cooldown",
+						"power":"*:*_cooldown"
+					},
+					{
+						"type":"origins:execute_command",
+						"command":"playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
+					}
+				]
+			},
+			"else_action":{
+				"type":"origins:trigger_cooldown",
+				"power":"*:*_doubleback"
+			}
+		},
+		"cooldown":0,
+		"hud_render":{
+			"should_render":false
+		},
+		"key":{
+			"key":"key.back"
+		}
+	},
+	"right":{
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_cooldown",
+			"comparison":"==",
+			"compare_to":0
+		},
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:resource",
+				"resource":"*:*_doubleright",
+				"comparison":"!=",
+				"compare_to":0
+			},
+			"if_action":{
+				"type":"origins:and",
+				"actions":[
+					{
+						"type":"origins:add_velocity",
+						"x":-0.75,
+						"space":"local_horizontal_normalized",
+						"client":true,
+						"server":true,
+						"set":false
+					},
+					{
+						"type":"origins:trigger_cooldown",
+						"power":"*:*_cooldown"
+					},
+					{
+						"type":"origins:execute_command",
+						"command":"playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
+					}
+				]
+			},
+			"else_action":{
+				"type":"origins:trigger_cooldown",
+				"power":"*:*_doubleright"
+			}
+		},
+		"cooldown":0,
+		"hud_render":{
+			"should_render":false
+		},
+		"key":{
+			"key":"key.right"
+		}
+	},
+	"doubleforward":{
+		"type":"origins:cooldown",
+		"cooldown":5,
+		"hud_render":{
+			"should_render":false
+		}
+	},
+	"doubleleft":{
+		"type":"origins:cooldown",
+		"cooldown":5,
+		"hud_render":{
+			"should_render":false
+		}
+	},
+	"doubleback":{
+		"type":"origins:cooldown",
+		"cooldown":5,
+		"hud_render":{
+			"should_render":false
+		}
+	},
+	"doubleright":{
+		"type":"origins:cooldown",
+		"cooldown":5,
+		"hud_render":{
+			"should_render":false
+		}
+	}
 }

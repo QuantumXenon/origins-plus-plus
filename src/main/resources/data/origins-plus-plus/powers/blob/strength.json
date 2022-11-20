@@ -1,22 +1,21 @@
 {
-  "name": "Survival Instinct",
-  "description": "Now you are stronger when above half your health bar.",
-  "type": "origins:stacking_status_effect",
-  "min_stacks": 0,
-  "max_stacks": 5,
-  "duration_per_stack": 100,
-  "tick_rate": 10,
-  "effect": {
-    "effect": "minecraft:strength",
-    "duration": 10,
-    "amplifier": 1,
-    "show_particles": false,
-    "show_icon": false
-  },
-	"condition": {
-			"type": "origins:resource",
-			"resource": "origins-plus-plus:blob/bar_resource",
-			"comparison": ">=",
-			"compare_to": 500
+	"name":"Survival Instinct",
+	"description":"You are stronger when your health bar is more than half full.",
+	"type":"origins:stacking_status_effect",
+	"min_stacks":-3,
+	"max_stacks":1,
+	"duration_per_stack":50,
+	"tick_rate":10,
+	"effect":{
+		"effect":"minecraft:strength",
+		"amplifier":0,
+		"show_particles":false,
+		"show_icon":false
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:blob/bar_resource",
+		"comparison":">=",
+		"compare_to":500
 	}
 }

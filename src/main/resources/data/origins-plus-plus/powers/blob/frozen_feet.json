@@ -1,0 +1,23 @@
+{
+	"name":"Frozen Feet",
+	"description":"When in cold biomes, you'll gain speed because your jelly-like skin freezes to become a lot more stable to walk with.",
+	"type":"origins:stacking_status_effect",
+	"min_stacks":-3,
+	"max_stacks":1,
+	"duration_per_stack":50,
+	"effect":{
+		"effect":"minecraft:speed",
+		"duration":10,
+		"amplifier":1,
+		"show_particles":false,
+		"show_icon":false
+	},
+	"condition":{
+		"type":"origins:biome",
+		"condition":{
+			"type":"origins:temperature",
+			"comparison":"<",
+			"compare_to":0.15
+		}
+	}
+}

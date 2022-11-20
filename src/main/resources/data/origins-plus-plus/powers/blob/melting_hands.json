@@ -1,0 +1,34 @@
+{
+	"name":"Melting Hands",
+	"description":"Your hands melt in hot biomes making you weaker.",
+	"type":"origins:stacking_status_effect",
+	"min_stacks":-3,
+	"max_stacks":1,
+	"duration_per_stack":50,
+	"effects":[
+		{
+			"effect":"minecraft:weakness",
+			"is_ambient":false,
+			"show_particles":false,
+			"show_icon":false
+		}
+	],
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:biome",
+				"condition":{
+					"type":"origins:temperature",
+					"comparison":">",
+					"compare_to":1
+				}
+			},
+			{
+				"type":"origins:dimension",
+				"dimension":"minecraft:nether",
+				"inverted":true
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"type":"origins:multiple",
+	"resource":{
+		"type":"origins:resource",
+		"min":0,
+		"max":1000,
+		"start_value":1000,
+		"hud_render":{
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+			"bar_index":15
+		}
+	},
+	"hit":{
+		"type":"origins:self_action_when_hit",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:blob/bar_resource",
+			"change":-100
+		}
+	},
+	"modify_damage":{
+		"type":"origins:modify_damage_taken",
+		"modifier":{
+			"name":"health",
+			"operation":"multiply_base",
+			"value":-0.9999
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:blob/bar_resource",
+			"comparison":">=",
+			"compare_to":1
+		}
+	},
+	"name":"Health Bar",
+	"description":"Although you still use normal hearts, your health has been replaced by a halth bar. Using abilities or getting hit causes the bar to go down a constant amount."
+}

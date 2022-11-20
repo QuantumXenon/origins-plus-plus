@@ -1,0 +1,8 @@
+{
+	"type":"origins:inventory",
+	"title":"Inside You",
+	"drop_on_death":false,
+	"name":"Strange Storage",
+	"description":"You can store things inside yourself and they don't drop on death.",
+	"key":"key.origins.secondary_active"
+}
