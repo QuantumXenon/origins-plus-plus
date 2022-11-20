@@ -1,37 +1,33 @@
 {
-    "type": "origins:active_self",
-    "name": "Gift Of The Skies",
-    "description": "You can launch yourself in the air, in the direction you are looking at. [Secondary]",
-    "cooldown": 500,
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:add_velocity",
-                "space": "local",
-                "set": false,
-                "z": 0.75
-            },
-            {
-                "type": "origins:add_velocity",
-                "space": "local",
-                "set": false,
-                "z": 0.75
-            },
-            {
-                "type": "origins:heal",
-                "amount": 0
-            },
-            {
-                "type": "origins:play_sound",
-                "sound": "minecraft:block.fire.extinguish"
-            }
-        ]
-    },
-    "hud_render": {
-        "should_render": true,
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-        "bar_index": 16
-    },
-	"key":"key.origins.secondary_active"
+	"type":"origins:active_self",
+	"name":"Gift Of The Skies",
+	"description":"You can launch yourself in the air, in the direction you are looking at.",
+	"key":"key.origins.secondary_active",
+	"cooldown":500,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:add_velocity",
+				"space":"local",
+				"set":false,
+				"z":0.75
+			},
+			{
+				"type":"origins:add_velocity",
+				"space":"local",
+				"set":false,
+				"z":0.75
+			},
+			{
+				"type":"origins:play_sound",
+				"sound":"minecraft:block.fire.extinguish"
+			}
+		]
+	},
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index":16
+	}
 }
