@@ -5,8 +5,10 @@
 		"type":"origins:equipped_item",
 		"equipment_slot":"mainhand",
 		"item_condition":{
-			"type":"origins:in_tag",
-			"tag":"origins-plus-plus:hoes"
+			"type":"origins:ingredient",
+			"ingredient":{
+				"tag":"origins-plus-plus:hoes"
+			}
 		}
 	},
 	"type":"origins:action_on_block_break",

@@ -3,5 +3,5 @@
 	"name":"Mouth Storage",
 	"description":"You can store precious items in your mouth that do not drop on death.",
 	"key":"key.origins.primary_active",
-	"drop_on_death":false,
+	"drop_on_death":false
 }
