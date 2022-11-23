@@ -1,13 +1,13 @@
 {
 	"powers": [
+		"origins-plus-plus:hero-of-the-wild/climb",
+		"origins-plus-plus:hero-of-the-wild/elytra",
+		"origins-plus-plus:hero-of-the-wild/energy_wave",
 		"origins-plus-plus:hero-of-the-wild/epona",
-		"origins-plus-plus:hero-of-the-wild/wild_climb",
-		"origins-plus-plus:hero-of-the-wild/wild_dash",
-		"origins-plus-plus:hero-of-the-wild/wild_elytra",
-		"origins-plus-plus:hero-of-the-wild/wild_energy",
-		"origins-plus-plus:hero-of-the-wild/wild_food",
-		"origins-plus-plus:hero-of-the-wild/wild_sw",
-		"origins-plus-plus:hero-of-the-wild/wild_swim"
+		"origins-plus-plus:hero-of-the-wild/exhaust",
+		"origins-plus-plus:hero-of-the-wild/roll",
+		"origins-plus-plus:hero-of-the-wild/sink",
+		"origins-plus-plus:hero-of-the-wild/sword"
 	],
 	"icon": "minecraft:iron_sword",
 	"impact": 2,

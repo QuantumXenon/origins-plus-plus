@@ -1,0 +1,5 @@
+{
+	"name":"Sink in water",
+	"description":"You never learnt how to swim",
+	"type":"origins:ignore_water"
+}

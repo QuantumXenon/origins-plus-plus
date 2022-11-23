@@ -1,8 +1,0 @@
-{
-	"name": "Glider",
-	"description": "You can glide around the skys with our fancy glider",
-
-	"type": "origins:elytra_flight",
-	"render_elytra": true
-
-}
