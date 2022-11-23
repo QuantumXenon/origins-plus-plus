@@ -1,9 +1,0 @@
-{
-    "type": "origins:invulnerability",
-    "damage_condition": {
-        "type": "origins:name",
-        "name": "fall"
-    },
-    "name": "Graceful Roll",
-    "description": "You take no fall damage."
-}
