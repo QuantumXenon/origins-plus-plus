@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[41,)"
+loaderVersion = "[40,)"
 license = "MIT"
 
 [[mods]]
@@ -17,16 +17,17 @@ logoFile = "assets/icon.png"
 [[dependencies.origins_plus_plus]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.2,)"
+versionRange = "[1.18.2,)"
 
 [[dependencies.origins_plus_plus]]
 modId = "origins"
 mandatory = true
-versionRange = "[1.19.2-1.5.0.6,)"
+versionRange = "[1.18.2-1.4.1.4,)"
 
 [[dependencies.origins_plus_plus]]
 modId = "pehkui"
 mandatory = true
+versionRange = "[3.2.0,)"
 
 [[dependencies.origins_plus_plus]]
 modId = "xl_packets_renewed"
