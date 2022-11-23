@@ -1,28 +1,27 @@
 {
-    "name": "Bunny-Hop",
-    "description": "Your natural jump is two blocks high, but is unnaffected when sprinting or sneaking.",
-    "loading_priority": 2,
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "inverted": true,
-                "type": "origins:sprinting"
-            },
-            {
-                "inverted": true,
-                "type": "origins:sneaking"
-            },
-            {
-                "inverted": true,
-                "type": "origins:collided_horizontally"
-            }
-        ]
-    },
-    "type": "origins:modify_jump",
-    "modifier": {
-        "operation": "multiply_base",
-        "value": 0.4,
-        "name": "b-hop"
-    }
+	"name":"Bunny Hop",
+	"description":"Your natural jump is two blocks high, and is unnaffected when sprinting or sneaking.",
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"inverted":true,
+				"type":"origins:sprinting"
+			},
+			{
+				"inverted":true,
+				"type":"origins:sneaking"
+			},
+			{
+				"inverted":true,
+				"type":"origins:collided_horizontally"
+			}
+		]
+	},
+	"type":"origins:modify_jump",
+	"modifier":{
+		"operation":"multiply_base",
+		"value":0.4,
+		"name":"b-hop"
+	}
 }

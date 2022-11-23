@@ -26,8 +26,8 @@
 		"type":"origins:consume",
 		"amount":1
 	},
-	"entity_action": {
-        "type": "origins:play_sound",
-        "sound": "minecraft:block.cave_vines.pick_berries"
-    }
+	"entity_action":{
+		"type":"origins:play_sound",
+		"sound":"minecraft:block.cave_vines.pick_berries"
+	}
 }

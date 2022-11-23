@@ -1,20 +1,15 @@
 {
-    "name": "Energetic",
-    "description": "You're considerably faster when above 7 full hunger bars.",
-    "hidden": false,
-    "loading_priority": 0,
-    "condition": {
-        "inverted": false,
-        "type": "origins:food_level",
-        "comparison": ">=",
-        "compare_to": 14
-    },
-    "type": "origins:conditioned_attribute",
-    "modifier": {
-        "attribute": "minecraft:generic.movement_speed",
-        "operation": "multiply_base",
-        "value": 0.35
-    },
-    "tick_rate": 1,
-    "update_health": false
+	"name":"Energetic",
+	"description":"You're considerably faster when above 7 full hunger bars.",
+	"condition":{
+		"type":"origins:food_level",
+		"comparison":">=",
+		"compare_to":14
+	},
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.movement_speed",
+		"operation":"multiply_base",
+		"value":0.35
+	}
 }
