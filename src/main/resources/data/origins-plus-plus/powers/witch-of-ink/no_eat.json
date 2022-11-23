@@ -1,15 +1,15 @@
 {
-    "type": "origins:modify_food",
-    "food_modifier": {
-        "name": "No food points",
-        "operation": "multiply_total",
-        "value": -1.0
-    },
-    "saturation_modifier": {
-        "name": "No saturation points",
-        "operation": "multiply_total",
-        "value": -1.0
-    },
-    "name": "Subficiphilia",
-    "description": "Food restores no hunger for you, as you're beyond it. Only paintings satisfy you."
+	"type":"origins:modify_food",
+	"food_modifier":{
+		"name":"No food points",
+		"operation":"multiply_total",
+		"value":-1.0
+	},
+	"saturation_modifier":{
+		"name":"No saturation points",
+		"operation":"multiply_total",
+		"value":-1.0
+	},
+	"name":"Subficiphilia",
+	"description":"Food restores no hunger for you, as you're beyond it. Only paintings satisfy you."
 }

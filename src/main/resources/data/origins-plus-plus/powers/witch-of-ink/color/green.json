@@ -1,39 +1,39 @@
 {
-    "type": "origins:multiple",
-    "color": {
-        "type": "origins:model_color",
-        "red": 0,
-        "green": 1,
-        "blue": 0,
-        "alpha": 1
-    },
-    "bluesp": {
-        "type": "origins:action_on_hit",
-        "bientity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:actor_action",
-                    "action": {
-                        "type": "origins:heal",
-                        "amount": 6
-                    }
-                },
-                {
-                    "type": "origins:target_action",
-                    "action": {
-                        "type": "origins:heal",
-                        "amount": -4
-                    }
-                }
-            ]
-        },
-        "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-                "type": "origins:power",
-                "power": "*:witch-of-ink/color/blue"
-            }
-        }
-    }
+	"type":"origins:multiple",
+	"color":{
+		"type":"origins:model_color",
+		"red":0,
+		"green":1,
+		"blue":0,
+		"alpha":1
+	},
+	"bluesp":{
+		"type":"origins:action_on_hit",
+		"bientity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:actor_action",
+					"action":{
+						"type":"origins:heal",
+						"amount":6
+					}
+				},
+				{
+					"type":"origins:target_action",
+					"action":{
+						"type":"origins:heal",
+						"amount":-4
+					}
+				}
+			]
+		},
+		"bientity_condition":{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:power",
+				"power":"*:witch-of-ink/color/blue"
+			}
+		}
+	}
 }

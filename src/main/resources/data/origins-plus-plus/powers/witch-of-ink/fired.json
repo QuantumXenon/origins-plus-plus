@@ -1,14 +1,14 @@
 {
-    "type": "origins:modify_damage_taken",
-    "damage_condition": {
-        "type": "origins:name",
-        "name": "onFire"
-    },
-    "modifier": {
-        "name": "Fire",
-        "operation": "addition",
-        "value": 3.0
-    },
-    "name": "Guertena's Curse",
-    "description": "You take quadruple damage from burning."
+	"type":"origins:modify_damage_taken",
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"onFire"
+	},
+	"modifier":{
+		"name":"Fire",
+		"operation":"addition",
+		"value":3.0
+	},
+	"name":"Guertena's Curse",
+	"description":"You take quadruple damage from burning."
 }

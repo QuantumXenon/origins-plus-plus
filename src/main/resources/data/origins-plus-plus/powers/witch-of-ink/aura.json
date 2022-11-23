@@ -1,32 +1,32 @@
 {
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:choice",
-        "actions": [
-            {
-                "element": {
-                "type": "origins:execute_command",
-                "command": "particle dust 0 0 1 1 ~ ~1 ~ 0.35 0.6 0.35 0 15"
-                },
-                "weight": 33
-            },
-            {
-                "element": {
-                "type": "origins:execute_command",
-                "command": "particle dust 1 0 0 1 ~ ~1 ~ 0.35 0.6 0.35 0 15"
-                },
-                "weight": 33
-            },
-            {
-                "element": {
-                "type": "origins:execute_command",
-                "command": "particle dust 0 1 0 1 ~ ~1 ~ 0.35 0.6 0.35 0 15"
-                },
-                "weight": 34
-            }
-        ]
-    },
-    "interval": 6,
-    "name": "Overflowing Power",
-    "description": "Colored dusts float around you."
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:choice",
+		"actions":[
+			{
+				"element":{
+					"type":"origins:execute_command",
+					"command":"particle dust 0 0 1 1 ~ ~1 ~ 0.35 0.6 0.35 0 15"
+				},
+				"weight":33
+			},
+			{
+				"element":{
+					"type":"origins:execute_command",
+					"command":"particle dust 1 0 0 1 ~ ~1 ~ 0.35 0.6 0.35 0 15"
+				},
+				"weight":33
+			},
+			{
+				"element":{
+					"type":"origins:execute_command",
+					"command":"particle dust 0 1 0 1 ~ ~1 ~ 0.35 0.6 0.35 0 15"
+				},
+				"weight":34
+			}
+		]
+	},
+	"interval":6,
+	"name":"Overflowing Power",
+	"description":"Colored dusts float around you."
 }

@@ -1,33 +1,33 @@
 {
-    "type": "origins:multiple",
-    "glow": {
-        "type": "origins:self_glow",
-        "bientity_condition": {
-            "type": "origins:can_see"
-        },
-        "use_teams": false,
-        "red": 0.2,
-        "green": 0.2,
-        "blue": 0.2
-    },
-    "armorbreak": {
-        "type": "origins:attribute",
-        "modifier": {
-            "name": "Painting armor",
-            "attribute": "minecraft:generic.armor",
-            "value": -0.7,
-            "operation": "multiply_total"
-        }
-    },
-    "yourarmor": {
-        "type": "origins:attribute",
-        "modifier": {
-            "name": "Painting armor",
-            "attribute": "minecraft:generic.armor",
-            "value": 28,
-            "operation": "addition"
-        }
-    },
-    "name": "Painted Armor",
-    "description": "One of your creations is a set of armor painted with a grey color, which grants you innate armor. However, other armor is barely effective."
+	"type":"origins:multiple",
+	"glow":{
+		"type":"origins:self_glow",
+		"bientity_condition":{
+			"type":"origins:can_see"
+		},
+		"use_teams":false,
+		"red":0.2,
+		"green":0.2,
+		"blue":0.2
+	},
+	"armorbreak":{
+		"type":"origins:attribute",
+		"modifier":{
+			"name":"Painting armor",
+			"attribute":"minecraft:generic.armor",
+			"value":-0.7,
+			"operation":"multiply_total"
+		}
+	},
+	"yourarmor":{
+		"type":"origins:attribute",
+		"modifier":{
+			"name":"Painting armor",
+			"attribute":"minecraft:generic.armor",
+			"value":28,
+			"operation":"addition"
+		}
+	},
+	"name":"Painted Armor",
+	"description":"One of your creations is a set of armor painted with a grey color, which grants you innate armor. However, other armor is barely effective."
 }
