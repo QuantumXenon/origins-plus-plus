@@ -11,7 +11,7 @@ public class LoginMessage {
     @SubscribeEvent
     public static void onPlayerLogin(PlayerEvent.PlayerLoggedInEvent event) {
         if (Integer.parseInt(ForgeVersion.getVersion().split("\\.")[0]) < 43) {
-            event.getEntity().sendSystemMessage(Component.literal("Origins (Forge)'s keybinds are broken. This has been fixed in 1.5.0.6+ (1.19.2+ only)."));
+            event.getEntity().sendSystemMessage(Component.translatable("origins-plus-plus.brokenKeybindsMessage"));
         }
     }
 }
