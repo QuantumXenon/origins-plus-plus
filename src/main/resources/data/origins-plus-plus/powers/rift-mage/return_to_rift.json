@@ -9,6 +9,10 @@
 			},
 			{
 				"type":"origins:execute_command",
+				"command":"scoreboard players set @s Rift_Mage 0"
+			},
+			{
+				"type":"origins:execute_command",
 				"command":"function origins-plus-plus:rift-mage/kill_portal"
 			},
 			{
@@ -24,7 +28,7 @@
 	},
 	"condition":{
 		"type":"origins:scoreboard",
-		"objective":"lpm_PE",
+		"objective":"Rift_Mage",
 		"comparison":">",
 		"compare_to":0
 	},

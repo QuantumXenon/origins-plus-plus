@@ -47,7 +47,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute if entity @e[tag=lpm_Portality,distance=..32] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
+			"command":"execute if entity @e[tag=lpm_Portality,distance=..22] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
 		},
 		"interval":1
 	},
@@ -55,7 +55,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute unless entity @e[tag=lpm_Portality,distance=..32] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
+			"command":"execute unless entity @e[tag=lpm_Portality,distance=..22] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
 		},
 		"interval":1
 	},
@@ -63,7 +63,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute if entity @e[tag=lpm_Portality,distance=30..32] run title @s actionbar {\"text\":\"You are venturing too far from your rift!\"}"
+			"command":"execute if entity @e[tag=lpm_Portality,distance=20..22] run title @s actionbar {\"text\":\"You are venturing too far from your rift!\"}"
 		},
 		"interval":1
 	},
@@ -81,7 +81,7 @@
 			"type":"origins:execute_command",
 			"command":"function origins-plus-plus:rift-mage/portality"
 		},
-		"cooldown":600,
+		"cooldown":3600,
 		"hud_render":{
 			"should_render":true,
 			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
