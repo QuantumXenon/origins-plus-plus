@@ -1,10 +1,7 @@
 {
-  "type": "origins:inventory",
-  "name": "Storage",
-  "description": "You can store precious items in your mouth. [Primary]",
-  "drop_on_death": false,
-  "key": {
-    "key": "key.origins.primary_active",
-    "continuous": false
-  }
+	"type":"origins:inventory",
+	"name":"Mouth Storage",
+	"description":"You can store precious items in your mouth that do not drop on death.",
+	"key":"key.origins.primary_active",
+	"drop_on_death":false,
 }

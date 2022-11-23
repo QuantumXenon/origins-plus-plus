@@ -4,19 +4,19 @@
 	"max_stacks":3,
 	"duration_per_stack":10,
 	"effects":[
-	   {
-		  "effect": "minecraft:dolphins_grace",
-		  "duration": 100,
-		  "amplifier": 2,
-		  "is_ambient": true,
-		  "show_particles": false,
-		  "show_icon": false
-	   }
+		{
+			"effect":"minecraft:dolphins_grace",
+			"duration":100,
+			"amplifier":1,
+			"is_ambient":true,
+			"show_particles":false,
+			"show_icon":false
+		}
 	],
 	"condition":{
-	   "type":"origins:submerged_in",
-	   "fluid":"minecraft:water"
+		"type":"origins:submerged_in",
+		"fluid":"minecraft:water"
 	},
 	"name":"Aquatic",
-	"description":"You have Dolphin's Grace III when underwater."
+	"description":"You have Dolphin's Grace when underwater."
 }
