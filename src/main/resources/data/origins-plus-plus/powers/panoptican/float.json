@@ -74,11 +74,8 @@
 	"float":{
 		"type":"origins:stacking_status_effect",
 		"condition":{
-			"type":"origins:resource",
-			"inverted":false,
-			"comparison":"==",
-			"resource":"*:*_toggle",
-			"compare_to":1
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
 		},
 		"duration_per_stack":20,
 		"min_stacks":0,

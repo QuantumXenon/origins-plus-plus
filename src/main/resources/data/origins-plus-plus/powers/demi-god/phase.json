@@ -2,9 +2,9 @@
 	"type":"origins:multiple",
 	"resource":{
 		"type":"origins:resource",
-		"max":400,
+		"max":300,
 		"min":0,
-		"start_value":400,
+		"start_value":300,
 		"hud_render":{
 			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
 			"should_render":true,
