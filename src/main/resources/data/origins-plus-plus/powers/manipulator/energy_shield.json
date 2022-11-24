@@ -17,8 +17,14 @@
 					}
 				},
 				{
-					"type":"origins:execute_command",
-					"command":"summon iron_golem ~ ~ ~"
+					"type":"origins:apply_effect",
+					"effect":{
+						"effect":"minecraft:absorption",
+						"duration":300,
+						"amplifier":3,
+						"show_particles":true,
+						"show_icon":true
+					}
 				}
 			]
 		},
@@ -34,7 +40,7 @@
 							{
 								"type":"origins:ingredient",
 								"ingredient":{
-									"item":"minecraft:iron_block"
+									"item":"minecraft:golden_apple"
 								}
 							},
 							{
@@ -49,7 +55,7 @@
 					"type":"origins:resource",
 					"resource":"origins-plus-plus:manipulator/cycle_active_power",
 					"comparison":"==",
-					"compare_to":8
+					"compare_to":6
 				}
 			]
 		}
@@ -60,7 +66,7 @@
 		"interval":1,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"title @s actionbar {\"text\":\"Golem\",\"color\":\"gray\"}"
+			"command":"title @s actionbar {\"text\":\"Energy Shield\",\"color\":\"dark_blue\"}"
 		}
 	}
 }

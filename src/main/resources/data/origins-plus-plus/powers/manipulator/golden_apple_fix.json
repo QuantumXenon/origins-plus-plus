@@ -1,10 +1,10 @@
 {
-    "hidden": true,
-    "type": "origins:prevent_item_use",
-    "item_condition": {
-        "type": "origins:ingredient",
-        "ingredient": {
-            "item": "minecraft:golden_apple"
-        }
-    }
+	"hidden":true,
+	"type":"origins:prevent_item_use",
+	"item_condition":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:golden_apple"
+		}
+	}
 }
