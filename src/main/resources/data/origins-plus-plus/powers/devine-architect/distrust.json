@@ -1,136 +1,136 @@
 {
-    "name": "Distrust",
-	"description": "Many attempted to take your powers by attempts at your life. You've became paranoid, unable to trade with villagers and unable to interact with some passive and neutral mobs. Iron Golems have grown wary of your presence through the years, now they attack you on sight!",
-    "type": "origins:multiple",
-    "illager": {
-        "type": "origins:entity_group",
-        "group": "illager"
-    },
-    "price": {
-        "type": "origins:action_over_time",
-        "interval": 10,
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "execute at @s as @e[type=villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_negative',Value:110}]}",
-                    "permission_level": 2
-                },
-                {
-                    "type": "origins:execute_command",
-                    "command": "execute at @s as @e[type=villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p UUID",
-                    "permission_level": 2
-                }
-            ]
-        }
-    },
-    "iron_golem": {
-        "type": "origins:action_over_time",
-        "interval": 10,
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngryAt set from entity @p UUID",
-                    "permission_level": 2
-                },
-                {
-                    "type": "origins:execute_command",
-                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngerTime set value 60",
-                    "permission_level": 2
-                }
-            ]
-        }
-    },
-    "iron_golem_no": {
-        "type": "origins:action_over_time",
-        "interval": 10,
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngryAt set from entity @s UUID",
-                    "permission_level": 2
-                },
-                {
-                    "type": "origins:execute_command",
-                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngerTime set value 0",
-                    "permission_level": 2
-                }
-            ]
-        }
-    },
-    "no_trading": {
-        "type": "origins:prevent_entity_use",
-        "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-                "type": "origins:entity_type",
-                "entity_type": "minecraft:villager"
-            }
-        }
-    },
-    "no_wolf": {
-        "type": "origins:prevent_entity_use",
-        "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-                "type": "origins:entity_type",
-                "entity_type": "minecraft:wolf"
-            }
-        }
-    },
-    "no_chicken": {
-        "type": "origins:prevent_entity_use",
-        "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-                "type": "origins:entity_type",
-                "entity_type": "minecraft:chicken"
-            }
-        }
-    },
-    "no_pig": {
-        "type": "origins:prevent_entity_use",
-        "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-                "type": "origins:entity_type",
-                "entity_type": "minecraft:pig"
-            }
-        }
-    },
-    "no_cow": {
-        "type": "origins:prevent_entity_use",
-        "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-                "type": "origins:entity_type",
-                "entity_type": "minecraft:cow"
-            }
-        }
-    },
-    "no_axolotl": {
-        "type": "origins:prevent_entity_use",
-        "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-                "type": "origins:entity_type",
-                "entity_type": "minecraft:axolotl"
-            }
-        }
-    },
-    "no_bee": {
-        "type": "origins:prevent_entity_use",
-        "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-                "type": "origins:entity_type",
-                "entity_type": "minecraft:bee"
-            }
-        }
-    }
+	"name":"Distrust",
+	"description":"Many attempted to take your powers by attempts at your life. You've became paranoid, unable to trade with villagers and unable to interact with some passive and neutral mobs. Iron Golems have grown wary of your presence through the years, now they attack you on sight!",
+	"type":"origins:multiple",
+	"illager":{
+		"type":"origins:entity_group",
+		"group":"illager"
+	},
+	"price":{
+		"type":"origins:action_over_time",
+		"interval":10,
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"execute at @s as @e[type=villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_negative',Value:110}]}",
+					"permission_level":2
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"execute at @s as @e[type=villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p UUID",
+					"permission_level":2
+				}
+			]
+		}
+	},
+	"iron_golem":{
+		"type":"origins:action_over_time",
+		"interval":10,
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngryAt set from entity @p UUID",
+					"permission_level":2
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngerTime set value 60",
+					"permission_level":2
+				}
+			]
+		}
+	},
+	"iron_golem_no":{
+		"type":"origins:action_over_time",
+		"interval":10,
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngryAt set from entity @s UUID",
+					"permission_level":2
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngerTime set value 0",
+					"permission_level":2
+				}
+			]
+		}
+	},
+	"no_trading":{
+		"type":"origins:prevent_entity_use",
+		"bientity_condition":{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:entity_type",
+				"entity_type":"minecraft:villager"
+			}
+		}
+	},
+	"no_wolf":{
+		"type":"origins:prevent_entity_use",
+		"bientity_condition":{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:entity_type",
+				"entity_type":"minecraft:wolf"
+			}
+		}
+	},
+	"no_chicken":{
+		"type":"origins:prevent_entity_use",
+		"bientity_condition":{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:entity_type",
+				"entity_type":"minecraft:chicken"
+			}
+		}
+	},
+	"no_pig":{
+		"type":"origins:prevent_entity_use",
+		"bientity_condition":{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:entity_type",
+				"entity_type":"minecraft:pig"
+			}
+		}
+	},
+	"no_cow":{
+		"type":"origins:prevent_entity_use",
+		"bientity_condition":{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:entity_type",
+				"entity_type":"minecraft:cow"
+			}
+		}
+	},
+	"no_axolotl":{
+		"type":"origins:prevent_entity_use",
+		"bientity_condition":{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:entity_type",
+				"entity_type":"minecraft:axolotl"
+			}
+		}
+	},
+	"no_bee":{
+		"type":"origins:prevent_entity_use",
+		"bientity_condition":{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:entity_type",
+				"entity_type":"minecraft:bee"
+			}
+		}
+	}
 }

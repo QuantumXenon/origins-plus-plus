@@ -3,247 +3,247 @@
 	"description":"You mine end materials faster than others, and you can always pick up end stone regardless of the tool you're using. You can also craft stone tools, brewing stands, furnaces, and levers with end stone.",
 	"type":"origins:multiple",
 	"mining_speed_boost":{
-	   "type":"origins:modify_break_speed",
-	   "block_condition":{
-		  "type":"origins:in_tag",
-		  "tag":"origins-plus-plus:end_haste"
-	   },
-	   "modifier":{
-		  "operation":"multiply_base",
-		  "value":6
-	   }
+		"type":"origins:modify_break_speed",
+		"block_condition":{
+			"type":"origins:in_tag",
+			"tag":"origins-plus-plus:end_haste"
+		},
+		"modifier":{
+			"operation":"multiply_base",
+			"value":6
+		}
 	},
 	"harvest":{
-	   "type":"origins:modify_harvest",
-	   "block_condition":{
-		  "type":"origins:block",
-		  "block":"minecraft:end_stone"
-	   },
-	   "allow":true
+		"type":"origins:modify_harvest",
+		"block_condition":{
+			"type":"origins:block",
+			"block":"minecraft:end_stone"
+		},
+		"allow":true
 	},
 	"brewing_stand":{
-	   "type":"origins:recipe",
-	   "recipe":{
-		  "type":"minecraft:crafting_shaped",
-		  "id":"origins:end_stone_brewing_stand",
-		  "pattern":[
-			 " B ",
-			 "###"
-		  ],
-		  "key":{
-			 "#":{
-				"item":"minecraft:end_stone"
-			 },
-			 "B":{
-				"item":"minecraft:blaze_rod"
-			 }
-		  },
-		  "result":{
-			 "item":"minecraft:brewing_stand"
-		  }
-	   }
+		"type":"origins:recipe",
+		"recipe":{
+			"type":"minecraft:crafting_shaped",
+			"id":"origins:end_stone_brewing_stand",
+			"pattern":[
+				" B ",
+				"###"
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:end_stone"
+				},
+				"B":{
+					"item":"minecraft:blaze_rod"
+				}
+			},
+			"result":{
+				"item":"minecraft:brewing_stand"
+			}
+		}
 	},
 	"furnace":{
-	   "type":"origins:recipe",
-	   "recipe":{
-		  "type":"minecraft:crafting_shaped",
-		  "id":"origins:end_stone_furnace",
-		  "pattern":[
-			 "###",
-			 "# #",
-			 "###"
-		  ],
-		  "key":{
-			 "#":{
-				"item":"minecraft:end_stone"
-			 }
-		  },
-		  "result":{
-			 "item":"minecraft:furnace"
-		  }
-	   }
+		"type":"origins:recipe",
+		"recipe":{
+			"type":"minecraft:crafting_shaped",
+			"id":"origins:end_stone_furnace",
+			"pattern":[
+				"###",
+				"# #",
+				"###"
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:end_stone"
+				}
+			},
+			"result":{
+				"item":"minecraft:furnace"
+			}
+		}
 	},
 	"lever":{
-	   "type":"origins:recipe",
-	   "recipe":{
-		  "type":"minecraft:crafting_shaped",
-		  "id":"origins:end_stone_lever",
-		  "pattern":[
-			 " S ",
-			 " # "
-		  ],
-		  "key":{
-			 "#":{
-				"item":"minecraft:end_stone"
-			 },
-			 "S":{
-				"item":"minecraft:stick"
-			 }
-		  },
-		  "result":{
-			 "item":"minecraft:lever"
-		  }
-	   }
+		"type":"origins:recipe",
+		"recipe":{
+			"type":"minecraft:crafting_shaped",
+			"id":"origins:end_stone_lever",
+			"pattern":[
+				" S ",
+				" # "
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:end_stone"
+				},
+				"S":{
+					"item":"minecraft:stick"
+				}
+			},
+			"result":{
+				"item":"minecraft:lever"
+			}
+		}
 	},
 	"sword":{
-	   "type":"origins:recipe",
-	   "recipe":{
-		  "type":"minecraft:crafting_shaped",
-		  "id":"origins:end_stone_sword",
-		  "pattern":[
-			 " # ",
-			 " # ",
-			 " S "
-		  ],
-		  "key":{
-			 "#":{
-				"item":"minecraft:end_stone"
-			 },
-			 "S":{
-				"item":"minecraft:stick"
-			 }
-		  },
-		  "result":{
-			 "item":"minecraft:stone_sword"
-		  }
-	   }
+		"type":"origins:recipe",
+		"recipe":{
+			"type":"minecraft:crafting_shaped",
+			"id":"origins:end_stone_sword",
+			"pattern":[
+				" # ",
+				" # ",
+				" S "
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:end_stone"
+				},
+				"S":{
+					"item":"minecraft:stick"
+				}
+			},
+			"result":{
+				"item":"minecraft:stone_sword"
+			}
+		}
 	},
 	"pickaxe":{
-	   "type":"origins:recipe",
-	   "recipe":{
-		  "type":"minecraft:crafting_shaped",
-		  "id":"origins:end_stone_pickaxe",
-		  "pattern":[
-			 "###",
-			 " S ",
-			 " S "
-		  ],
-		  "key":{
-			 "#":{
-				"item":"minecraft:end_stone"
-			 },
-			 "S":{
-				"item":"minecraft:stick"
-			 }
-		  },
-		  "result":{
-			 "item":"minecraft:stone_pickaxe"
-		  }
-	   }
+		"type":"origins:recipe",
+		"recipe":{
+			"type":"minecraft:crafting_shaped",
+			"id":"origins:end_stone_pickaxe",
+			"pattern":[
+				"###",
+				" S ",
+				" S "
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:end_stone"
+				},
+				"S":{
+					"item":"minecraft:stick"
+				}
+			},
+			"result":{
+				"item":"minecraft:stone_pickaxe"
+			}
+		}
 	},
 	"axe_1":{
-	   "type":"origins:recipe",
-	   "recipe":{
-		  "type":"minecraft:crafting_shaped",
-		  "id":"origins:end_stone_axe_l",
-		  "pattern":[
-			 "## ",
-			 "#S ",
-			 " S "
-		  ],
-		  "key":{
-			 "#":{
-				"item":"minecraft:end_stone"
-			 },
-			 "S":{
-				"item":"minecraft:stick"
-			 }
-		  },
-		  "result":{
-			 "item":"minecraft:stone_axe"
-		  }
-	   }
+		"type":"origins:recipe",
+		"recipe":{
+			"type":"minecraft:crafting_shaped",
+			"id":"origins:end_stone_axe_l",
+			"pattern":[
+				"## ",
+				"#S ",
+				" S "
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:end_stone"
+				},
+				"S":{
+					"item":"minecraft:stick"
+				}
+			},
+			"result":{
+				"item":"minecraft:stone_axe"
+			}
+		}
 	},
 	"axe_2":{
-	   "type":"origins:recipe",
-	   "recipe":{
-		  "type":"minecraft:crafting_shaped",
-		  "id":"origins:end_stone_axe_r",
-		  "pattern":[
-			 " ##",
-			 " S#",
-			 " S "
-		  ],
-		  "key":{
-			 "#":{
-				"item":"minecraft:end_stone"
-			 },
-			 "S":{
-				"item":"minecraft:stick"
-			 }
-		  },
-		  "result":{
-			 "item":"minecraft:stone_axe"
-		  }
-	   }
+		"type":"origins:recipe",
+		"recipe":{
+			"type":"minecraft:crafting_shaped",
+			"id":"origins:end_stone_axe_r",
+			"pattern":[
+				" ##",
+				" S#",
+				" S "
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:end_stone"
+				},
+				"S":{
+					"item":"minecraft:stick"
+				}
+			},
+			"result":{
+				"item":"minecraft:stone_axe"
+			}
+		}
 	},
 	"shovel":{
-	   "type":"origins:recipe",
-	   "recipe":{
-		  "type":"minecraft:crafting_shaped",
-		  "id":"origins:end_stone_shovel",
-		  "pattern":[
-			 " # ",
-			 " S ",
-			 " S "
-		  ],
-		  "key":{
-			 "#":{
-				"item":"minecraft:end_stone"
-			 },
-			 "S":{
-				"item":"minecraft:stick"
-			 }
-		  },
-		  "result":{
-			 "item":"minecraft:stone_shovel"
-		  }
-	   }
+		"type":"origins:recipe",
+		"recipe":{
+			"type":"minecraft:crafting_shaped",
+			"id":"origins:end_stone_shovel",
+			"pattern":[
+				" # ",
+				" S ",
+				" S "
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:end_stone"
+				},
+				"S":{
+					"item":"minecraft:stick"
+				}
+			},
+			"result":{
+				"item":"minecraft:stone_shovel"
+			}
+		}
 	},
 	"hoe_1":{
-	   "type":"origins:recipe",
-	   "recipe":{
-		  "type":"minecraft:crafting_shaped",
-		  "id":"origins:end_stone_hoe_l",
-		  "pattern":[
-			 "## ",
-			 " S ",
-			 " S "
-		  ],
-		  "key":{
-			 "#":{
-				"item":"minecraft:end_stone"
-			 },
-			 "S":{
-				"item":"minecraft:stick"
-			 }
-		  },
-		  "result":{
-			 "item":"minecraft:stone_hoe"
-		  }
-	   }
+		"type":"origins:recipe",
+		"recipe":{
+			"type":"minecraft:crafting_shaped",
+			"id":"origins:end_stone_hoe_l",
+			"pattern":[
+				"## ",
+				" S ",
+				" S "
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:end_stone"
+				},
+				"S":{
+					"item":"minecraft:stick"
+				}
+			},
+			"result":{
+				"item":"minecraft:stone_hoe"
+			}
+		}
 	},
 	"hoe_2":{
-	   "type":"origins:recipe",
-	   "recipe":{
-		  "type":"minecraft:crafting_shaped",
-		  "id":"origins:end_stone_hoe_r",
-		  "pattern":[
-			 " ##",
-			 " S ",
-			 " S "
-		  ],
-		  "key":{
-			 "#":{
-				"item":"minecraft:end_stone"
-			 },
-			 "S":{
-				"item":"minecraft:stick"
-			 }
-		  },
-		  "result":{
-			 "item":"minecraft:stone_hoe"
-		  }
-	   }
+		"type":"origins:recipe",
+		"recipe":{
+			"type":"minecraft:crafting_shaped",
+			"id":"origins:end_stone_hoe_r",
+			"pattern":[
+				" ##",
+				" S ",
+				" S "
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:end_stone"
+				},
+				"S":{
+					"item":"minecraft:stick"
+				}
+			},
+			"result":{
+				"item":"minecraft:stone_hoe"
+			}
+		}
 	}
 }

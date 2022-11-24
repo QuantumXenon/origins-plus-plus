@@ -1,0 +1,21 @@
+{
+	"type":"origins:multiple",
+	"name":"Unnatural Regeneration",
+	"description":"Regeneration works differently for your kind.",
+	"custom-regen":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:heal",
+			"amount":1
+		},
+		"interval":50,
+		"condition":{
+			"type":"origins:health",
+			"comparison":"<",
+			"compare_to":16
+		}
+	},
+	"disable-regen":{
+		"type":"origins:disable_regen"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:if_else",
+		"condition":{
+			"type":"origins:daytime"
+		},
+		"if_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:devine-architect/energy",
+			"change":5
+		},
+		"else_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:devine-architect/energy",
+			"change":10
+		}
+	},
+	"interval":30,
+	"hidden":true
+}
