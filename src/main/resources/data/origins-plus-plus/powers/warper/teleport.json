@@ -3,9 +3,6 @@
     "description": "[Load Toolbar Activator] Teleport wherever you're looking (within 64 blocks).",
 	"type": "origins:active_self",
 	"key": "key.loadToolbarActivator",
-    "hud_render": {
-        "should_render": true
-    },
     "entity_action": {
         "type": "origins:and",
         "actions": [
