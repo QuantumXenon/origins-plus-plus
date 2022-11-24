@@ -15,7 +15,7 @@
 		"type":"origins:toggle",
 		"key":"key.origins.secondary_active",
 		"active_by_default":false
-	}
+	},
 	"weak":{
 		"type":"origins:stacking_status_effect",
 		"condition":{
@@ -71,26 +71,26 @@
 			"power":"*:*_toggle"
 		}
 	},
-	"float": {
-        "type": "origins:stacking_status_effect",
-        "condition": {
-            "type": "origins:resource",
-            "inverted": false,
-            "comparison": "==",
-            "resource": "*:*_toggle",
-            "compare_to": 1
-        },
-        "duration_per_stack": 20,
-        "min_stacks": 0,
-        "max_stacks": 1,
-        "effect": {
-            "duration": 0,
-            "show_particles": false,
-            "show_icon": false,
-            "effect": "levitation",
-            "amplifier": 1
-        }
-    },
+	"float":{
+		"type":"origins:stacking_status_effect",
+		"condition":{
+			"type":"origins:resource",
+			"inverted":false,
+			"comparison":"==",
+			"resource":"*:*_toggle",
+			"compare_to":1
+		},
+		"duration_per_stack":20,
+		"min_stacks":0,
+		"max_stacks":1,
+		"effect":{
+			"duration":0,
+			"show_particles":false,
+			"show_icon":false,
+			"effect":"levitation",
+			"amplifier":1
+		}
+	},
 	"respawn":{
 		"type":"origins:action_on_callback",
 		"entity_action_respawned":{
@@ -99,6 +99,6 @@
 			"change":500
 		}
 	},
-    "name": "Float",
-    "description": "You can float (but it's too exhausting to fly for long)."
+	"name":"Float",
+	"description":"You can float (but it's too exhausting to fly for long)."
 }
