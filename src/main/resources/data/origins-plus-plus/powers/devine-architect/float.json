@@ -13,16 +13,9 @@
 	},
 	"toggle":{
 		"type":"origins:toggle",
-		"key":"key.origins.primary_active",
+		"key":"key.origins.secondary_active",
 		"active_by_default":false
-	},
-	"invulnerability":{
-		"type":"origins:invulnerability",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"inWall"
-		}
-	},
+	}
 	"weak":{
 		"type":"origins:stacking_status_effect",
 		"condition":{
@@ -98,7 +91,7 @@
             "amplifier": 1
         }
     },
-		"respawn":{
+	"respawn":{
 		"type":"origins:action_on_callback",
 		"entity_action_respawned":{
 			"type":"origins:change_resource",
