@@ -1,12 +1,13 @@
 {
 	"powers": [
 		"origins-plus-plus:devine-architect/charge",
-		"origins-plus-plus:devine-architect/dimensional_traveler",
 		"origins-plus-plus:devine-architect/distrust",
 		"origins-plus-plus:devine-architect/end_recipes",
+		"origins-plus-plus:devine-architect/end_traveler",
 		"origins-plus-plus:devine-architect/energy",
 		"origins-plus-plus:devine-architect/float",
 		"origins-plus-plus:devine-architect/jealousy",
+		"origins-plus-plus:devine-architect/nether_traveler",
 		"origins-plus-plus:devine-architect/night_vision",
 		"origins-plus-plus:devine-architect/phase",
 		"origins-plus-plus:devine-architect/universal_blast",

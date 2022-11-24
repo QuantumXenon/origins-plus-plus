@@ -1,0 +1,29 @@
+{
+	"name":"Dimensional Traveler (Nether)",
+	"description":"[Save Toolbar Activator] Teleport to your exact position in the nether",
+	"type":"origins:active_self",
+	"key":"key.saveToolbarActivator",
+	"cooldown":6000,
+	"hud_render":{
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"should_render":true,
+		"bar_index":7
+	},
+	"entity_action":{
+		"type":"origins:if_else",
+		"condition":{
+			"type":"origins:dimension",
+			"dimension":"minecraft:overworld"
+		},
+		"if_action":{
+			"type":"origins:execute_command",
+			"command":"execute in minecraft:the_nether run tp @s ~ ~ ~",
+			"permission_level":4
+		},
+		"else_action":{
+			"type":"origins:execute_command",
+			"command":"execute in minecraft:overworld run tp @s ~ ~ ~",
+			"permission_level":4
+		}
+	}
+}
