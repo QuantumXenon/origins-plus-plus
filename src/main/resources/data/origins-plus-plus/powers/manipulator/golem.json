@@ -5,6 +5,11 @@
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
 		"cooldown":1200,
+		"hud_render": {
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"bar_index":17
+		},
 		"entity_action":{
 			"type":"origins:and",
 			"actions":[
@@ -29,20 +34,10 @@
 					"type":"origins:equipped_item",
 					"equipment_slot":"offhand",
 					"item_condition":{
-						"type":"origins:and",
-						"conditions":[
-							{
-								"type":"origins:ingredient",
-								"ingredient":{
-									"item":"minecraft:iron_block"
-								}
-							},
-							{
-								"type":"origins:amount",
-								"comparison":">=",
-								"compare_to":1
-							}
-						]
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:iron_block"
+						}
 					}
 				},
 				{
@@ -61,6 +56,12 @@
 		"entity_action":{
 			"type":"origins:execute_command",
 			"command":"title @s actionbar {\"text\":\"Golem\",\"color\":\"gray\"}"
+		},
+		"condition": {
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:manipulator/cycle_active_power",
+			"comparison":"==",
+			"compare_to":8
 		}
 	}
 }

@@ -20,20 +20,10 @@
 					"type":"origins:equipped_item",
 					"equipment_slot":"offhand",
 					"item_condition":{
-						"type":"origins:and",
-						"conditions":[
-							{
-								"type":"origins:ingredient",
-								"ingredient":{
-									"item":"minecraft:glowstone"
-								}
-							},
-							{
-								"type":"origins:amount",
-								"comparison":">=",
-								"compare_to":1
-							}
-						]
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:glowstone"
+						}
 					}
 				},
 				{
@@ -66,20 +56,10 @@
 					"type":"origins:equipped_item",
 					"equipment_slot":"offhand",
 					"item_condition":{
-						"type":"origins:and",
-						"conditions":[
-							{
-								"type":"origins:ingredient",
-								"ingredient":{
-									"item":"minecraft:glowstone"
-								}
-							},
-							{
-								"type":"origins:amount",
-								"comparison":">=",
-								"compare_to":1
-							}
-						]
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:glowstone"
+						}
 					}
 				},
 				{
@@ -98,6 +78,12 @@
 		"entity_action":{
 			"type":"origins:execute_command",
 			"command":"title @s actionbar {\"text\":\"Spectral Energy\",\"color\":\"yellow\"}"
+		},
+		"condition": {
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:manipulator/cycle_active_power",
+			"comparison":"==",
+			"compare_to":3
 		}
 	}
 }
