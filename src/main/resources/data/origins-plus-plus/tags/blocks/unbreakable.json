@@ -1,8 +1,8 @@
 {
-	"values": [
+	"values":[
 		"minecraft:barrier",
 		"minecraft:bedrock",
-		"minecraft:command_block"
+		"minecraft:command_block",
 		"minecraft:emerald_block",
 		"minecraft:end_portal_frame",
 		"minecraft:diamond_block",
