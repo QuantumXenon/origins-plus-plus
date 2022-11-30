@@ -1,0 +1,32 @@
+{
+	"name":"Unskilled",
+	"description":"You can't use ranged weapons.",
+	"type":"origins:multiple",
+	"bow":{
+		"type":"origins:prevent_item_use",
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"item":"minecraft:bow"
+			}
+		}
+	},
+	"crossbow":{
+		"type":"origins:prevent_item_use",
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"item":"minecraft:crossbow"
+			}
+		}
+	},
+	"trident":{
+		"type":"origins:prevent_item_use",
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"item":"minecraft:trident"
+			}
+		}
+	}
+}

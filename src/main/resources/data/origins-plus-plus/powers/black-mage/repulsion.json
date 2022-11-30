@@ -1,0 +1,42 @@
+{
+	"hidden":true,
+	"type":"origins:target_action_on_hit",
+	"cooldown":100,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:add_velocity",
+				"space":"velocity_horizontal_normalized",
+				"set":false,
+				"y":1,
+				"z":3
+			},
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:black-mage/resource",
+				"change":-100
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:entity.slime.attack player @a[distance=..10] ~ ~ ~ 1 1",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:slime_ball 1",
+				"permission_level":4
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:equipped_item",
+		"equipment_slot":"offhand",
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"item":"minecraft:slime_ball"
+			}
+		}
+	}
+}

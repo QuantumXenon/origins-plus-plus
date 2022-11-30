@@ -1,25 +1,25 @@
 {
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:execute_command",
-        "command": "particle minecraft:dust 0 0 0 1 ~ ~ ~ 0.3 1 0.3 .6 30",
-        "permission_level": 4
-    },
-	"condition": {
-    "type": "origins:and",
-    "conditions": [
-        {
-            "type": "origins:time_of_day",
-            "comparison": ">=",
-            "compare_to": 13000
-        },
-        {
-            "type": "origins:time_of_day",
-            "comparison": "<=",
-            "compare_to": 23000
-        }
-    ]
-   },  
-    "interval": 6,
-    "hidden": true
+	"hidden":true,
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"particle minecraft:dust 0 0 0 1 ~ ~ ~ 0.3 1 0.3 .6 30",
+		"permission_level":4
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:time_of_day",
+				"comparison":">=",
+				"compare_to":13000
+			},
+			{
+				"type":"origins:time_of_day",
+				"comparison":"<=",
+				"compare_to":23000
+			}
+		]
+	},
+	"interval":6
 }

@@ -1,9 +1,9 @@
 {
-	"type": "origins:modify_damage_dealt",
-	"modifier": {
-		"operation": "multiply_total",
-		"value": -0.70
+	"type":"origins:modify_damage_dealt",
+	"modifier":{
+		"operation":"multiply_total",
+		"value":-0.7
 	},
-	"name": "Weak",
-	"description": "You deal 70% less physical damage."
+	"name":"Weak",
+	"description":"You deal 70% less physical damage."
 }

@@ -1,17 +1,13 @@
 {
-  "type": "origins:stacking_status_effect",
-  "name" : "Slow Mage",
-  "description": "You have permanent slowness 1.",
-  "min_stacks": -20,
-    "max_stacks": 10,
-    "duration_per_stack": 10,
-    "effect": 
-
-        {
-            "effect": "minecraft:slowness",
-			"amplifier": 0,
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": false
-		}
+	"type":"origins:stacking_status_effect",
+	"name":"Slow Mage",
+	"description":"You have permanent slowness.",
+	"min_stacks":-20,
+	"max_stacks":10,
+	"duration_per_stack":10,
+	"effect":{
+		"effect":"minecraft:slowness",
+		"show_particles":false,
+		"show_icon":false
+	}
 }

@@ -1,9 +1,8 @@
 {
-	"name":"Dislocate",
-	"description":"You can teleport wherever you want with your secondary. (25 Block Range)",
-	"key":"key.origins.secondary_active",
-	"cooldown":100,
+	"hidden":true,
 	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
+	"cooldown":100,
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[
@@ -14,15 +13,24 @@
 			},
 			{
 				"type":"origins:raycast",
-				"distance":25,
-				"block":true,
-				"entity":true,
+				"distance":32,
 				"shape_type":"outline",
 				"fluid_handling":"none",
-				"command_along_ray":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 0.3 1 0.3 0 500",
-				"command_at_hit":"function origins-plus-plus:black-mage/dislocate",
-				"command_step":1,
+				"bientity_action":{
+					"type":"origins:target_action",
+					"action":{
+						"type":"origins:set_on_fire",
+						"duration":5
+					}
+				},
+				"command_along_ray":"particle minecraft:flame ~ ~ ~ 0 0 0 0 20",
+				"command_at_hit":"function origins-plus-plus:black-mage/flame",
 				"command_along_ray_only_on_hit":true
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:blaze_powder 1",
+				"permission_level":4
 			}
 		]
 	},
@@ -30,8 +38,7 @@
 		"type":"origins:and",
 		"conditions":[
 			{
-				"type":"origins:sneaking",
-				"inverted":true
+				"type":"origins:sneaking"
 			},
 			{
 				"type":"origins:equipped_item",
@@ -39,10 +46,9 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:wooden_sword"
+						"item":"minecraft:blaze_powder"
 					}
-				},
-				"inverted":true
+				}
 			}
 		]
 	}
