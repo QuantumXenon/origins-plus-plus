@@ -50,6 +50,6 @@
 	],
 	"icon": "minecraft:white_wool",
 	"impact": 3,
-	"name": "White Mage",
-	"description": "A practitioner of healing magic, the white mage is invaluable when it comes to restoring HP or protecting your allies. Although they lack physical strength."
+	"name": "Light Mage",
+	"description": "A practitioner of healing magic, the white mage is invaluable when it comes to restoring HP or protecting your allies. However, they lack physical strength."
 }
