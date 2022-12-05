@@ -1,9 +1,9 @@
 {
 	"type":"origins:conditioned_attribute",
 	"modifier":{
-	   "attribute":"minecraft:generic.luck",
-	   "operation":"multiply_base",
-	   "value":100
+		"attribute":"minecraft:generic.luck",
+		"operation":"multiply_base",
+		"value":100
 	},
 	"name":"Great Deal",
 	"description":"Drop-rates are increased!"

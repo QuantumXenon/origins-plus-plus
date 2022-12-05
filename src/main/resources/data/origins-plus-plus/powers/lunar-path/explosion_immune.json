@@ -1,28 +1,26 @@
 {
-    "hidden": true,
-    "type":"origins:multiple",
-    "explosion_immunity": {
-        "type": "origins:invulnerability",
-        "damage_condition": {
-            "type": "origins:name",
-            "name": "explosion",
-            "inverted": false
-        },
-        "condition": {
-            "type": "origins:daytime",
-            "inverted": true
-        }
-    },
-    "explosion_immunity_player": {
-        "type": "origins:invulnerability",
-        "damage_condition": {
-            "type": "origins:name",
-            "name": "explosion.player",
-            "inverted": false
-        },
-        "condition": {
-            "type": "origins:daytime",
-            "inverted": true
-        }
-    }
+	"hidden":true,
+	"type":"origins:multiple",
+	"explosion_immunity":{
+		"type":"origins:invulnerability",
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"explosion"
+		},
+		"condition":{
+			"type":"origins:daytime",
+			"inverted":true
+		}
+	},
+	"explosion_immunity_player":{
+		"type":"origins:invulnerability",
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"explosion.player"
+		},
+		"condition":{
+			"type":"origins:daytime",
+			"inverted":true
+		}
+	}
 }
