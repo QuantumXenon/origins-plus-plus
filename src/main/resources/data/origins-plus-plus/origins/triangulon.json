@@ -13,6 +13,6 @@
         "origins-plus-plus:triangulon/walk",
         "origins-plus-plus:triangulon/warped_health"
     ],
-	"item": "minecraft:emerald_block",
+	"icon": "minecraft:emerald_block",
     "impact": 3
 }
