@@ -4,5 +4,5 @@
         "type": "origins:ignore_water"
     },
     "name": "Dense",
-	"description": "you cannot swim and sink in water"
+	"description": "You cannot swim and sink in water"
 }

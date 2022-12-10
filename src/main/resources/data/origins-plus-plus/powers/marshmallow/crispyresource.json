@@ -7,6 +7,6 @@
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
         "bar_index": 7
     },
-    "name": "Cwispy",
+    "name": "Crispy",
 	"description": "Whenever you take fire damage you gain a crispyness level, lowering your health and giving you positive buffs. However, whenever you drink a honey bottle you lose a crispyness level"
 }

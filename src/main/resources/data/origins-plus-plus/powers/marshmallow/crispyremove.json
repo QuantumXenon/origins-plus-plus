@@ -3,7 +3,7 @@
     "hidden": true,
     "entity_action": {
         "type": "origins:change_resource",
-        "resource": "origins-plus-plus:marshmellow/crispyresource",
+        "resource": "origins-plus-plus:marshmallow/crispyresource",
         "change": -1
     },
     "item_condition": {

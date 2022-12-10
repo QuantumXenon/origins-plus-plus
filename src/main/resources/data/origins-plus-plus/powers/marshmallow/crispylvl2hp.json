@@ -5,14 +5,14 @@
     "modifier": {
         "attribute": "minecraft:generic.max_health",
         "operation": "addition",
-        "value": -4,
+        "value": -6,
         "name": "Decreased Health"
     },
     "tick_rate": 20,
     "condition": {
         "type": "origins:resource",
-        "resource": "origins-plus-plus:marshmellow/crispyresource",
+        "resource": "origins-plus-plus:marshmallow/crispyresource",
         "comparison": "==",
-        "compare_to": 1
+        "compare_to": 2
     }
 }

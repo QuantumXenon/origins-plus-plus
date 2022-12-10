@@ -6,15 +6,15 @@
     "duration_per_stack": 5,
     "effect": 
         {
-            "effect": "minecraft:luck",
+            "effect": "minecraft:speed",
             "is_ambient": true,
             "show_particles": false,
             "show_icon": true
         },
     "condition": {
         "type": "origins:resource",
-        "resource": "origins-plus-plus:marshmellow/crispyresource",
+        "resource": "origins-plus-plus:marshmallow/crispyresource",
         "comparison": ">=",
-        "compare_to": 3
+        "compare_to": 2
     }
 }
