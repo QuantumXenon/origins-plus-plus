@@ -11,7 +11,5 @@
 		"origins-plus-plus:zero-aizawa/weak_stature"
 	],
 	"icon": "minecraft:black_stained_glass",
-	"impact": 2,
-	"name": "Zero Aizawa",
-	"description": "An Aizawa is a powerful being, able to travel long distances and loved by everyone."
+	"impact": 2
 }

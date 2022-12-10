@@ -15,7 +15,5 @@
 	   "origins-plus-plus:withered-skeletian/withering_presence"
 	],
 	"icon": "minecraft:wither_skeleton_skull",
-	"impact": 3,
-	"name": "Withered Skeletian",
-	"description": "You are a Wither Skeleton, your body is strong and your bones rattle like those of your brothers and sisters in the underworld."
+	"impact": 3
 }

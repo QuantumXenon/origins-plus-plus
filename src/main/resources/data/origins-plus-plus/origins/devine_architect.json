@@ -14,7 +14,5 @@
 		"origins-plus-plus:devine-architect/unnatural_regeneration"
 	],
 	"icon": "minecraft:end_crystal",
-	"impact": 3,
-	"name": "Devine Architect",
-	"description": "Long ago before the formation of the Minecraft universe there were groups of architects the construct each element of the universe. They all worked together to construct all the blocks and biomes of the universe. But eventually they all went extinct once their jobs had finished. All except for you..."
+	"impact": 3
 }

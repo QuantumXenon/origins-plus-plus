@@ -1,6 +1,4 @@
 {
-    "name": "Triangulon",
-    "description": "You are an infinite shape. That is all.",
     "powers": [
         "origins:ender_particles",
 		"origins:fall_immunity",

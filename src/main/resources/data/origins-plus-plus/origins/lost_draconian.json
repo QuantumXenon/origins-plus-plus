@@ -16,7 +16,5 @@
 		"origins-plus-plus:lost-draconian/weapon2"
 	],
 	"icon": "minecraft:chorus_fruit",
-	"impact": 3,
-	"name": "Lost Draconia",
-	"description": "You was once a strong warrior for the draconia race that lived in the end, however during a war in the overworld you were killed. Many years later you awaken to find your dead yet still alive in the form of a lost draconian spirit."
+	"impact": 3
 }

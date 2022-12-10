@@ -25,7 +25,5 @@
 		"origins-plus-plus:end-mage/waypoint"
 	],
 	"icon": "minecraft:end_crystal",
-	"impact": 3,
-	"name": "End Mage",
-	"description": "An ancient mage who studied the creatures of the end and tried to become one."
+	"impact": 3
 }

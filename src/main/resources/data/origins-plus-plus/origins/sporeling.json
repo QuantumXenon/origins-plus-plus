@@ -19,8 +19,6 @@
 	],
 	"icon": "minecraft:brown_mushroom",
 	"impact": 3,
-	"name": "Sporeling",
-	"description": "A tiny floaty mushroom-man that came out of the ground and started doing stuff.",
 	"upgrades": [
 		{
 			"condition": "minecraft:end/kill_dragon",

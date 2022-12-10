@@ -14,7 +14,5 @@
 		"origins-plus-plus:child-of-cthulhu/winged"
 	],
 	"icon": "minecraft:purple_glazed_terracotta",
-	"impact": 2,
-	"name": "Child Of Cthulhu",
-	"description": "You are descendant of Cthulhu."
+	"impact": 2
 }

@@ -40,7 +40,5 @@
 		"origins-plus-plus:automaton/watergain2"
 	],
 	"icon": "minecraft:weathered_copper",
-	"impact": 3,
-	"name": "Automaton",
-	"description": "These machines were built by a race long lost to time. Some were kept in a capsule that eroded quite recently. They now wander this earth without the fear of death."
+	"impact": 3
 }

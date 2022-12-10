@@ -1,6 +1,4 @@
 {
-    "name": "Craftsman",
-    "description": "Heir of a long lineage of craftsmen and knights you now are proficient in arts and crafts.",
     "powers": [
         "origins-plus-plus:craftsman/axe",
         "origins-plus-plus:craftsman/crafting",

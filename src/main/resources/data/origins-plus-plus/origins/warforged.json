@@ -6,7 +6,5 @@
 		"origins-plus-plus:warforged/weaponized_body"
 	],
 	"icon": "minecraft:iron_chestplate",
-	"impact": 3,
-	"name": "Warforged",
-	"description": "Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they must now find a purpose beyond war."
+	"impact": 3
 }

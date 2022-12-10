@@ -18,7 +18,5 @@
 		"origins-plus-plus:volcanic-dragon/wings"
 	],
 	"icon": "minecraft:lava_bucket",
-	"impact": 3,
-	"name": "Volcanic Dragon",
-	"description": "You are a dragon born out of volcanic energy."
+	"impact": 3
 }

@@ -49,7 +49,5 @@
 		"origins-plus-plus:white-mage/ultdiminish"
 	],
 	"icon": "minecraft:white_wool",
-	"impact": 3,
-	"name": "Light Mage",
-	"description": "A practitioner of healing magic, the white mage is invaluable when it comes to restoring HP or protecting your allies. However, they lack physical strength."
+	"impact": 3
 }

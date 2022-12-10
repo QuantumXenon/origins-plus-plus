@@ -9,7 +9,5 @@
 		"origins-plus-plus:sprinter/skinny"
 	],
 	"icon": "minecraft:leather_boots",
-	"impact": 2,
-	"name": "Sprinter",
-	"description": "Sprinter boi go zooooom!"
+	"impact": 2
 }

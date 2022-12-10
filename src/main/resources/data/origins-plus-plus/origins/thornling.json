@@ -9,7 +9,5 @@
 		"origins-plus-plus:thornling/thorns"
 	],
 	"icon": "minecraft:medium_amethyst_bud",
-	"impact": 3,
-	"name": "Thornling",
-	"description": "You're a small arcane creature, protected by a strange magical spell. You don't know where you came from, you just know you exist."
+	"impact": 3
 }

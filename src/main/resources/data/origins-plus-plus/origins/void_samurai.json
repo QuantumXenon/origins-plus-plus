@@ -21,7 +21,5 @@
 		"origins-plus-plus:void-samurai/speed"
 	],
 	"icon": "minecraft:deepslate",
-	"impact": 2,
-	"name": "Void Samurai",
-	"description": "A human traped in the void for what felt like an eternity, who has finaly returned, but only partialy"
+	"impact": 2
 }

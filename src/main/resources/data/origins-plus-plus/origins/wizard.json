@@ -25,7 +25,5 @@
 
 	],
 	"icon": "minecraft:totem_of_undying",
-	"impact": 3,
-	"name": "Wizard",
-	"description": "You used to be a normal villager but you grew wise and old and decided to use your magic for good."
+	"impact": 3
 }

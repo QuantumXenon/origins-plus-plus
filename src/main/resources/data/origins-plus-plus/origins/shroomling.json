@@ -21,8 +21,6 @@
 		"origins-plus-plus:sporeling/updraft_upgrade"
 	],
 	"icon": "minecraft:red_mushroom",
-	"impact": 3,
-	"name": "Shroomling",
-	"description": "After killing the ender dragon, you've grown to your final form: a small mushroom. Your spore count has increased dramatically, making all spore-related abilities stronger.",
+	"impact": 3
 	"unchoosable": true
 }

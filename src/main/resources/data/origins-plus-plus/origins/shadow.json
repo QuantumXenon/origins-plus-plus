@@ -9,7 +9,5 @@
 		"origins-plus-plus:shadow/weak"
 	],
 	"icon": "minecraft:black_concrete",
-	"impact": 3,
-	"name": "Shadow",
-	"description": "You are one with the shadows."
+	"impact": 3
 }

@@ -17,7 +17,5 @@
 		"origins-plus-plus:moth/wings"
 	],
 	"icon": "minecraft:lantern",
-	"impact": 2,
-	"name": "Moth",
-	"description": "The light calls to you."
+	"impact": 2
 }

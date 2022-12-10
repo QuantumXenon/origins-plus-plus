@@ -23,7 +23,5 @@
         "origins-plus-plus:ravager/vexy"
     ],
     "icon": "minecraft:saddle",
-    "impact": 2,
-    "name": "Ravager",
-    "description": "You are an illager experiment, something between their normal kind and the massive illager beasts known as ravagers."
+    "impact": 2
 }

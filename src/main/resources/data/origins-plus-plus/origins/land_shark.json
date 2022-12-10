@@ -1,6 +1,4 @@
 {
-    "name": "Land Shark",
-    "description": "A shark that can survive both on land and in water.",
     "powers": [
         "origins:carnivore",
         "origins:aqua_affinity",

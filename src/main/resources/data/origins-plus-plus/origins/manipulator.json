@@ -1,6 +1,4 @@
 {
-    "name": "Magical Manipulator",
-    "description": "These folks specialize in magics that utilize all types of various elements, some of which you can find from the creatures and environment around you, while others you create yourself.",
     "powers": [
         "origins-plus-plus:manipulator/antigravity_arrow",
 		"origins-plus-plus:manipulator/cycle",

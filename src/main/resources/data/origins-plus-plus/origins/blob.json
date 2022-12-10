@@ -21,7 +21,5 @@
 		"origins-plus-plus:blob/wisdom"
 	],
 	"icon": "minecraft:popped_chorus_fruit",
-	"impact": 2,
-	"name": "Blob",
-	"description": "You are some kind of blob, you don't know anything about yourself but you seem to know already about the world around you."
+	"impact": 2
 }

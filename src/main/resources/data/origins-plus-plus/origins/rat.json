@@ -16,7 +16,5 @@
 		"origins-plus-plus:rat/vicious_bite"
 	],
 	"icon": "minecraft:rotten_flesh",
-	"impact": 2,
-	"name": "Rat",
-	"description": "You are a small critter of the night. You hunt and are filthy to others."
+	"impact": 2
 }

@@ -20,7 +20,5 @@
 
     ],
     "icon": "minecraft:nether_wart_block",
-    "impact": 3,
-    "name": "Deathsworn",
-    "description": "You are a necromancer with control over everything belonging to the afterlife."
+    "impact": 3
 }

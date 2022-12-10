@@ -17,7 +17,5 @@
 		"origins-plus-plus:ice-porcupine/vanish"
 	],
 	"icon": "minecraft:packed_ice",
-	"impact": 3,
-	"name": "Ice Porcupine",
-	"description": "Once a natural creature, you were corrupted by demonic energies, giving you command over ice."
+	"impact": 3
 }

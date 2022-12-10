@@ -14,7 +14,5 @@
 		"origins-plus-plus:vishaichian/upgrade/upgrade_strength"
 	],
 	"icon": "minecraft:rabbit_hide",
-	"impact": 2,
-	"name": "Vishaichian",
-	"description": "An ancient warrior of great skill in combat."
+	"impact": 2
 }

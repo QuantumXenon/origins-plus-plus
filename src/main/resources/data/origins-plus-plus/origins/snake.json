@@ -1,6 +1,4 @@
 {
-    "name": "Snake",
-    "description": "You are #1 Snek now.",
     "powers": [
 	    "origins-plus-plus:snake/bite",
         "origins-plus-plus:snake/health",

@@ -21,7 +21,5 @@
 	   "origins-plus-plus:ebon-wing/withered"
 	],
 	"icon": "minecraft:amethyst_shard",
-	"impact":3,
-	"name":"Ebon-Wing",
-	"description":"Ebon-Wings are winged creatures often seen hunting for prey by themselves or with Blood-Horns."
+	"impact":3
 }

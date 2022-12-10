@@ -15,7 +15,5 @@
 		"origins-plus-plus:insect/water_slowness"
 	],
 	"icon": "minecraft:vine",
-	"impact": 2,
-	"name": "Insect",
-	"description": "The people who have evolved to live with the insects."
+	"impact": 2
 }

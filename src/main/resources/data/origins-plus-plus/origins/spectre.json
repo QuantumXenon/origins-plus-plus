@@ -21,7 +21,5 @@
 		"origins-plus-plus:spectre/weakened"
 	],
 	"icon": "minecraft:blackstone",
-	"impact": 3,
-	"name": "Spectre",
-	"description": "Archangels corrupted by the devil during the war. The curse stripped off their wings and made them ravenous for flesh. They now roam aimlessly, hoping to regain their former glory."
+	"impact": 3
 }

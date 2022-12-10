@@ -37,7 +37,5 @@
 		"origins-plus-plus:alien-axolotl/traitor"
 	],
 	"icon": "minecraft:kelp",
-	"impact": 3,
-	"name": "Alien Axolotl",
-	"description": "You are an alien that prays to the Golden Space Gods and has crash-landed onto this planet."
+	"impact": 3
 }

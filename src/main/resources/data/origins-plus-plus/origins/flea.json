@@ -17,7 +17,5 @@
 		"origins-plus-plus:flea/small_stomach"
 	],
 	"icon": "minecraft:beetroot_soup",
-	"impact": 3,
-	"name": "Flea",
-	"description": "A nasty little bloodsucking pest..."
+	"impact": 3
 }

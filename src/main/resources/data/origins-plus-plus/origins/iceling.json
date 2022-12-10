@@ -21,7 +21,5 @@
 		"origins-plus-plus:iceling/water"
 	],
 	"icon": "minecraft:ice",
-	"impact": 3,
-	"name": "Iceling",
-	"description": "An evolved form of the inchling, adapted to the cold."
+	"impact": 3
 }

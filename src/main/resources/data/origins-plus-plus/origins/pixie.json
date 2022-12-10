@@ -15,7 +15,5 @@
 		"origins-plus-plus:pixie/speed"
 	],
 	"icon": "minecraft:glowstone_dust",
-	"impact": 3,
-	"name": "Pixie",
-	"description": "You are a mischievious elf-like spirit."
+	"impact": 3
 }

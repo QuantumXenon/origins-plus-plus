@@ -16,7 +16,5 @@
 		"origins-plus-plus:ghast/tall"
 	],
 	"icon": "minecraft:fire_charge",
-	"impact": 3,
-	"name": "Ghast",
-	"description": "Ghosts of players who died in the nether, the only thing these spirits can remember is that they were trying to find a way back home."
+	"impact": 3
 }

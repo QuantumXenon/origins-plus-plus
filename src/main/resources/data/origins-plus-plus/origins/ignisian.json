@@ -23,7 +23,5 @@
 		"origins-plus-plus:ignisian/sluggish_break"
 	],
 	"icon": "minecraft:magma_block",
-	"impact": 3,
-	"name": "Ignisian",
-	"description": "Archdemons exiled after the rebellion. Weakened by the retribution, the betrayed Ignisians were driven to the shadows. Day by day, their power grows, and soon, vengeance will be theirs."
+	"impact": 3
 }

@@ -20,7 +20,5 @@
 		"origins-plus-plus:kelperet/waterbound"
 	],
 	"icon":"minecraft:kelp",
-	"impact":3,
-	"name":"Kelperet",
-	"description":"When a Heart of the Sea falls into the ocean, it can get tangled up into kelp, forming a small living being called a Kelperet."
+	"impact":3
 }

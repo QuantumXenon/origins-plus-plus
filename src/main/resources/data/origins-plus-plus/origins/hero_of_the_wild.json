@@ -10,7 +10,5 @@
 		"origins-plus-plus:hero-of-the-wild/sword"
 	],
 	"icon": "minecraft:iron_sword",
-	"impact": 2,
-	"name": "Hero of The Wild",
-	"description": "Your character has many abilities that will help with exploration."
+	"impact": 2
 }

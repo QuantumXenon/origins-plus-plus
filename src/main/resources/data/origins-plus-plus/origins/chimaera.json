@@ -12,7 +12,5 @@
 		"origins-plus-plus:chimaera/xeniteimplants"
 	],
 	"icon": "minecraft:budding_amethyst",
-	"impact": 3,
-	"name": "Chimaera",
-	"description": "Dark Inquisitors made with eldritch and draconic magic in order to hunt demons and the undead. You are what we in the biz call ''chaotic good'' However, beware that, when fighting monsters, you yourself do not become a monster..."
+	"impact": 3
 }

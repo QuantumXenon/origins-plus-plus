@@ -11,7 +11,5 @@
 		"origins-plus-plus:mouse/yoink"
 	],
 	"icon": "minecraft:beef",
-	"impact": 3,
-	"name": "Mouse",
-	"description": "A small scavenger."
+	"impact": 3
 }

@@ -19,7 +19,5 @@
 	   "origins-plus-plus:dolphin/water_vision"
 	],
 	"icon":"minecraft:prismarine_shard",
-	"impact":2,
-	"name":"Dolphin",
-	"description":"Dolphins are aquatic creatures that likes to jump out of the water, and are most likely found in the ocean."
+	"impact":2
 }

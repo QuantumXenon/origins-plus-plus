@@ -21,7 +21,5 @@
 		"origins-plus-plus:broodmother/web_shot"
 	],
 	"icon": "minecraft:spider_eye",
-	"impact": 3,
-	"name": "Broodmother",
-	"description": "The mother of the arachnid colonies, the broodmother is an elder being capable of great destruction. Often feared by those who utter the name."
+	"impact": 3
 }

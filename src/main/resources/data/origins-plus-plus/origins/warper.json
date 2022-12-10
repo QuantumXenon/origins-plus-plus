@@ -11,7 +11,5 @@
 		"origins-plus-plus:warper/weak"
 	],
 	"icon": "minecraft:end_portal_frame",
-	"impact": 3,
-	"name": "Warper",
-	"description": "Teleport to your heart's content."
+	"impact": 3
 }

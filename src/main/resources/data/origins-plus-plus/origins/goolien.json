@@ -13,7 +13,5 @@
 		"origins-plus-plus:goolien/stomach_body"
 	],
 	"icon": "minecraft:slime_block",
-	"impact": 3,
-	"name": "Goolien",
-	"description": "A gooey alien species that is often confused with their terrestrial slimey cousins."
+	"impact": 3
 }

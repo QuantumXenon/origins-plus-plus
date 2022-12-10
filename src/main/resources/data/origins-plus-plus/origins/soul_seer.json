@@ -25,7 +25,5 @@
 		"origins-plus-plus:soul-seer/transparent"
 	],
 	"icon": "minecraft:soul_sand",
-	"impact": 3,
-	"name": "Soul-Seer",
-	"description": "You are a mostly soul-like being, though you have many skills and flaws relying on a soul-well to stay in top shape."
+	"impact": 3
 }

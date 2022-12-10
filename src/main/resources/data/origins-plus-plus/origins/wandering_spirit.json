@@ -15,7 +15,5 @@
 		"origins-plus-plus:wandering-spirit/the_darkness"
 	],
 	"icon": "minecraft:crimson_roots",
-	"impact": 3,
-	"name": "Wandering Spirit",
-	"description": "You are a Spirit, lost in the overworld for reasons unknown to you. Your thoughts and memories, the only thing that linger from your past life."
+	"impact": 3
 }

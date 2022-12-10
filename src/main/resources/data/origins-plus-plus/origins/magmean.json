@@ -15,7 +15,5 @@
 		"origins-plus-plus:magmean/spicyhands"
 	],
 	"icon": "minecraft:magma_cream",
-	"impact": 3,
-	"name": "Magmean",
-	"description":"Oozey, fiery, bouncy, what's not to love?"
+	"impact": 3
 }

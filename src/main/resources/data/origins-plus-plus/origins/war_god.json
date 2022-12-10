@@ -11,7 +11,5 @@
 		"origins-plus-plus:war-god/warrior"
 	],
 	"icon": "minecraft:iron_axe",
-	"impact": 2,
-	"name": "War God",
-	"description": "Inspired by the war god in Passerine."
+	"impact": 2
 }

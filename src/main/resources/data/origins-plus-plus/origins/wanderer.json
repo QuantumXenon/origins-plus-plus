@@ -1,6 +1,4 @@
 {
-    "name": "Wanderer",
-    "description": "The sense of adventure and the excitement of new things guide you. You became a wanderer, learning many useful skills on the way.",
     "powers": [
 		"origins-plus-plus:wanderer/bag",
 		"origins-plus-plus:wanderer/cross",

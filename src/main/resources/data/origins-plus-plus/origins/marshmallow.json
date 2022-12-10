@@ -15,7 +15,5 @@
 		"origins-plus-plus:marshmallow/tiny"
 	],
 	"icon": "minecraft:quartz_block",
-	"impact": 2,
-	"name": "Marshmallow",
-	"description": "Soft, fluffy and yummy!"
+	"impact": 2
 }

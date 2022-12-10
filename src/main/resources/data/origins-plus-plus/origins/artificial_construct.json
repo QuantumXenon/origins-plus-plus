@@ -10,8 +10,6 @@
 		"origins-plus-plus:artificial-construct/reach",
         "origins-plus-plus:artificial-construct/storage"
     ],
-    "name": "Artificial Contruct",
-    "description": "Constructs are a combination of simple redstone components and complicated machinery to make a functional living being.",
     "icon": "minecraft:redstone_torch",
     "impact": 3
 }

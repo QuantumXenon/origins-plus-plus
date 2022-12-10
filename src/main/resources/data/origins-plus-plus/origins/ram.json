@@ -10,7 +10,5 @@
 		"origins-plus-plus:ram/ram"
 	],
 	"icon": "minecraft:white_wool",
-	"impact": 3,
-	"name": "Ram",
-	"description": "You can ram stuff."
+	"impact": 3
 }

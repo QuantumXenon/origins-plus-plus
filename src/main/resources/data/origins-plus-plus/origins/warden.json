@@ -10,7 +10,5 @@
 		"origins-plus-plus:warden/strength"
 	],
 	"icon": "minecraft:sculk_sensor",
-	"impact": 3,
-	"name": "Warden",
-	"description": "Your warden character has certain traits deriving from your ancestry."
+	"impact": 3
 }

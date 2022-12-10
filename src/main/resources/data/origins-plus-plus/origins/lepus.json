@@ -1,6 +1,4 @@
 {
-    "name": "Lepus",
-    "description": "An evolutionary branch of common rabbits, the Lepus love to explore and scavenge lost ruins for loot.",
     "powers": [
         "origins:fall_immunity",
         "origins-plus-plus:lepus/at_what_cost",

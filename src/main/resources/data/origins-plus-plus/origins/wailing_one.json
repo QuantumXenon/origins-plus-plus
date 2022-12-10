@@ -22,8 +22,5 @@
 		"origins-plus-plus:wailing-one/translucent",
 		"origins-plus-plus:wailing-one/wail"
 	],
-	"icon": "minecraft:ghast_tear",
-	"impact": 3,
-	"name": "Wailing One",
-	"description": "A harbinger of death, villagers fear them, pillagers respect them, Wailing Ones are banshees whose presence and eerie cries always bring death, and are a reminder that all things must eventually end."
+	"icon": "minecraft:ghast_tear"
 }

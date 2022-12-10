@@ -12,8 +12,6 @@
 		"origins-plus-plus:wyvern/wing"
 	],
 	"icon": "minecraft:ender_eye",
-	"impact": 3,
-	"name": "Wyverian",
-	"description": "A descendant from the powerful dragon called the Wyvern."
+	"impact": 3
 }
 

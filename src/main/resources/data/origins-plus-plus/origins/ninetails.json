@@ -11,7 +11,5 @@
 		"origins-plus-plus:ninetails/willow"
 	],
 	"icon": "minecraft:blaze_powder",
-	"impact": 3,
-	"name": "Ninetails",
-	"description": "Legend has it that Ninetales came into being when nine wizards possessing sacred powers merged into one."
+	"impact": 3
 }

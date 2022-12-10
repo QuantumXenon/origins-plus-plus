@@ -15,7 +15,5 @@
 		"origins-plus-plus:lunar-path/wither_immunity"
 	],
 	"icon": "minecraft:sea_lantern",
-	"impact": 3,
-	"name": "Lunar Path",
-	"description": "You are a powerful, undead being."
+	"impact": 3
 }

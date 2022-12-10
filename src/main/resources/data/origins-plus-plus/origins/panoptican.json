@@ -13,7 +13,5 @@
 		"origins-plus-plus:panoptican/raycast"
 	],
 	"icon": "minecraft:ender_eye",
-	"impact": 3,
-	"name": "Panoptican",
-	"description":"Strange airborne entities that observe, hoard, and do not interfere."
+	"impact": 3
 }

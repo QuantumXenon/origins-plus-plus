@@ -12,7 +12,5 @@
 	   "origins-plus-plus:voidborne/winged_limits"
 	],
 	"icon": "minecraft:bedrock",
-	"impact": 3,
-	"name": "Voidborne",
-	"description": "You are a descendant of the void. You have received the gift of flight, and the ability to escape the void. But don't stray too far from home."
+	"impact": 3
 }

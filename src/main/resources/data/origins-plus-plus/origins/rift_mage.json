@@ -13,7 +13,5 @@
         "origins-plus-plus:rift-mage/water_hater"
     ],
     "icon": "minecraft:purpur_block",
-    "impact": 2,
-    "name": "Rift Mage",
-    "description": "Rift Mages are known as 'The Immortals' in legends. Their control over space and time reigns supreme, able to defy even the Grim Reaper himself."
+    "impact": 2
 }

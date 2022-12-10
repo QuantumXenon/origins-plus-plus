@@ -10,7 +10,5 @@
 		"origins-plus-plus:sand-walker/worse_steak"
 	],
 	"icon": "minecraft:sand",
-	"impact": 2,
-	"name": "Sand Walker",
-	"description": "The sand walker is a creature of the desert and sand, forever walking amungst the dunes."
+	"impact": 2
 }

@@ -10,7 +10,5 @@
 		"origins-plus-plus:hellforged/water_vulnerability"
 	],
 	"icon": "minecraft:netherite_ingot",
-	"impact": 3,
-	"name": "Hellforged",
-	"description": "A being, created and forged within the darkest depths of hell. It thrives off of the heat and will freeze rapidly if not hot enough."
+	"impact": 3
 }

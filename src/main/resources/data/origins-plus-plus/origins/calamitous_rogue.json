@@ -12,7 +12,5 @@
         "origins-plus-plus:calamitous-rogue/traceless"
     ],
     "icon": "minecraft:redstone",
-    "impact": 2,
-    "name": "Calamitous Rogue",
-    "description": "You lurk in the shadows, waiting for just the right moment to strike. Luckily for you, unlike the average rogue you've learned different weapon disciplines for ambushes."
+    "impact": 2
 }

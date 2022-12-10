@@ -13,7 +13,5 @@
 		"origins-plus-plus:technomancer/vulnerable_to_water"
 	],
 	"icon": "minecraft:redstone",
-	"impact": 3,
-	"name": "Technomancer",
-	"description": "You are a powerful Technomancer. Armed with the power and knowledge of the godfathers of technomancy, you are able to create spells using conduits and your staff."
+	"impact": 3
 }

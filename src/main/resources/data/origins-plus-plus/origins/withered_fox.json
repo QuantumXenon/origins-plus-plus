@@ -23,7 +23,5 @@
 		"origins-plus-plus:withered-fox/witheredhands"
 	],
 	"icon": "minecraft:wither_rose",
-	"impact": 3,
-	"name": "Withered Fox",
-	"description": "These strange creatures have been around for centuries and have been dying out from hunters for their hide."
+	"impact": 3
 }

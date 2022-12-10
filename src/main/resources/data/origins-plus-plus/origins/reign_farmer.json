@@ -11,7 +11,5 @@
 		"origins-plus-plus:reign-farmer/the_gift_of_life"
 	],
 	"icon": "minecraft:netherite_hoe",
-	"impact": 1,
-	"name": "Reign Farmer",
-	"description": "You have been farming for years, to the point that you've mastered every aspect of it."
+	"impact": 1
 }

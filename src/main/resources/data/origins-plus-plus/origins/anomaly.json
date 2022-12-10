@@ -13,7 +13,5 @@
 		"origins-plus-plus:anomaly/unstable"
 	],
 	"icon": "minecraft:nether_star",
-	"impact": 3,
-	"name": "Anomaly",
-	"description": "Once an ancient star, now unstable energy."
+	"impact": 3
 }

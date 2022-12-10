@@ -7,7 +7,5 @@
 		"origins-plus-plus:malfunction/random_teleport"
 	],
 	"icon": "minecraft:crying_obsidian",
-	"impact": 3,
-	"name": "Malfuction",
-	"description": "A bug in the system has given you stupidly useful trolling powers."
+	"impact": 3
 }

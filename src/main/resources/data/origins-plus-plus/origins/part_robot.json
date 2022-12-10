@@ -17,7 +17,5 @@
 		"origins-plus-plus:part-robot/water_breather"
 	],
 	"icon": "minecraft:iron_block",
-	"impact": 2,
-	"name": "Part-Robot",
-	"description": "You are part-human, part-robot."
+	"impact": 2
 }

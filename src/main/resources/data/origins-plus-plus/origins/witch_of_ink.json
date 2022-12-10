@@ -14,7 +14,5 @@
         "origins-plus-plus:witch-of-ink/witchy"
     ],
     "icon": "red_dye",
-    "impact": 2,
-    "name": "Witch of Ink",
-    "description": "You saw The Canvas: a legendary artifact that has enlightened you. Your only purpose is to create a world made entirely of paint and simple colors."
+    "impact": 2
 }

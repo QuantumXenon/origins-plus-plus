@@ -10,7 +10,5 @@
 		"origins-plus-plus:red-panda/sharp_claws"
 	],
 	"icon": "minecraft:bamboo",
-	"impact": 2,
-	"name": "Red Panda",
-	"description": "The cutest origin there is! You 'prowl' the jungle as the most adorable predator."
+	"impact": 2
 }

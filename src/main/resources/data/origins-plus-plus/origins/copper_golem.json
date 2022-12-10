@@ -10,8 +10,6 @@
         "origins-plus-plus:copper-golem/smol",
         "origins-plus-plus:copper-golem/stronk"
     ],
-    "name": "Copper Golem",
-    "description": "Comprised entirely of copper, 'tis a sturdy machine.",
     "icon": "minecraft:copper_ingot",
     "impact": 3
 }

@@ -27,7 +27,5 @@
 		"origins-plus-plus:black-mage/zoglin"
 	],
 	"icon": "minecraft:black_wool",
-	"impact": 3,
-	"name": "Dark Mage",
-	"description": "A practitioner of dark magic, you are an evil being that hates happiness and all living beings."
+	"impact": 3
 }

@@ -23,7 +23,5 @@
 		"origins-plus-plus:binturong/tooheavy"
 	],
 	"icon":"minecraft:cocoa_beans",
-	"impact":2,
-	"name":"Binturong",
-	"description":"A binturong is a bear cat of the trees."
+	"impact":2
 }

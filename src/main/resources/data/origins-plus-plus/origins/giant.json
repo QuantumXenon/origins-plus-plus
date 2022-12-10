@@ -19,7 +19,5 @@
 		"origins-plus-plus:giant/swim"
 	],
 	"icon": "minecraft:leather_chestplate",
-	"impact": 3,
-	"name": "Giant",
-	"description": "The giants are an ancient race, becoming quite a rare sight in modern times. Their history remains unknown with few left to keep it alive."
+	"impact": 3
 }

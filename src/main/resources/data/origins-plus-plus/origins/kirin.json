@@ -14,7 +14,5 @@
 		"origins-plus-plus:kirin/unrivaled_speed"
 	],
 	"icon": "minecraft:cod",
-	"impact": 3,
-	"name": "Kirin",
-	"description": "Basically, like the cat and fox origins but better."
+	"impact": 3
 }

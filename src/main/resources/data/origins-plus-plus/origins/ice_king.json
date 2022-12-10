@@ -13,7 +13,5 @@
 		"origins-plus-plus:ice-king/warp"
 	],
 	"icon": "minecraft:blue_ice",
-	"impact": 3,
-	"name": "Ice King",
-	"description": "Born in the frozen north, and a descendent of the ice queen, the ice king has grown accustomed to the cold"
+	"impact": 3
 }

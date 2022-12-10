@@ -14,7 +14,5 @@
 		"origins-plus-plus:felvaxian/weaker_heart"
 	],
 	"icon": "minecraft:black_dye",
-	"impact": 2,
-	"name": "Felvaxian",
-	"description": "A feline raven that can soar and pounce. A carnivouros hunter and high flyer"
+	"impact": 2
 }

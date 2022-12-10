@@ -10,7 +10,5 @@
 		"origins-plus-plus:sunken-sailor/water_falling"
 	],
 	"icon": "minecraft:filled_map",
-	"impact": 2,
-	"name": "Sunken Sailor",
-	"description":"Legend has it that sunken sailors were cruel pirates that died in terrible shipwrecks, but now they're just hollow souls left to wonder a world they no longer fit into."
+	"impact": 2
 }

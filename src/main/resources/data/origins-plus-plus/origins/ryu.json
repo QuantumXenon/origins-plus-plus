@@ -16,7 +16,5 @@
 		"origins-plus-plus:ryu/winged"
 	],
 	"icon": "minecraft:stick",
-	"impact": 3,
-	"name": "Ryū",
-	"description": "You are a legendary creature born from the heavens."
+	"impact": 3
 }

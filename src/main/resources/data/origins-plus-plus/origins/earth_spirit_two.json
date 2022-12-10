@@ -9,8 +9,6 @@
 		"origins-plus-plus:earth-spirit/spiritvision"
 	],
 	"icon": "minecraft:granite",
-	"impact": 3,
-	"name": "Earth Spirit (Spiritual Form)",
-	"description": "The spiritual form of the earth spirit.",
+	"impact": 3
 	"unchoosable": true
 }

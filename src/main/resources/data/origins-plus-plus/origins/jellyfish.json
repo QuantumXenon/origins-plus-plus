@@ -17,7 +17,5 @@
 		"origins-plus-plus:jellyfish/water_vision"
 	],
 	"icon": "minecraft:gold_nugget",
-	"impact": 3,
-	"name": "Jellyfish",
-	"description": "Jellyfish are a creature which uses it stings to paralyze and poison its prey."
+	"impact": 3
 }

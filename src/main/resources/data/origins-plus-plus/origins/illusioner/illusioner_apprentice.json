@@ -21,7 +21,5 @@
 	],
 	"icon": "minecraft:potion",
 	"impact": 3,
-	"name": "Illusioner (Apprentice)",
-	"description": "After mastering the art of the bow, you have become an Illusioner Apprentice have now unlocked new powers (Evolve with 'We Need to Go Deeper')",
 	"unchoosable": true
 }

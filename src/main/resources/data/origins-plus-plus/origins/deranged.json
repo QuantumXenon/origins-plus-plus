@@ -1,6 +1,4 @@
 {
-    "name": "Deranged",
-    "description": "You are an ordinary human, but you come from a rotten and horrible family that hurt you when you were young.\n\nYou came to think that this was the norm, and then you became mentally unsound.",
     "powers": [
         "origins-plus-plus:deranged/arroweffect",
         "origins-plus-plus:deranged/breathing",

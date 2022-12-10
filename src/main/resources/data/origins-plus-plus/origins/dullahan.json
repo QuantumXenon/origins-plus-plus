@@ -14,7 +14,5 @@
         "origins-plus-plus:dullahan/debuffs/soul_seal"
     ],
     "icon": "minecraft:skeleton_skull",
-    "impact": 3,
-    "name": "Dullahan",
-    "description": "You are an anceint horsemen, harbringer of death and slavery using your binding chains and horse to kill your victims."
+    "impact": 3
 }

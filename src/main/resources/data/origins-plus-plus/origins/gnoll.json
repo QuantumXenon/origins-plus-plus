@@ -9,7 +9,5 @@
         "origins-plus-plus:gnoll/largehealth",
         "origins-plus-plus:gnoll/nighteye",
         "origins-plus-plus:gnoll/rage"
-    ],
-    "icon": "minecraft:rotten_flesh",
-    "impact": 3
+    ]
 }

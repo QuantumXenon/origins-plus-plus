@@ -6,7 +6,5 @@
 		"origins-plus-plus:earth-spirit/switchorigin"
 	],
 	"icon": "minecraft:stone",
-	"impact": 3,
-	"name": "Earth Spirit",
-	"description": "A spiritual being that rises from the depths of earth taking the stones and soil to make it's physical body."
+	"impact": 3
 }

@@ -12,7 +12,5 @@
         "origins-plus-plus:golden-golem/water"
     ],
     "name": "Golden Golem",
-    "description": "A golem created by the illagers with gold and totems of undying.",
-    "icon": "minecraft:totem_of_undying",
-    "impact": 3
+    "description": "A golem created by the illagers with gold and totems of undying."
 }

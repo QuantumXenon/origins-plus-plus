@@ -18,7 +18,5 @@
 		"origins-plus-plus:bird/wings"
 	],
 	"icon": "minecraft:chicken",
-	"impact": 3,
-	"name": "Bird",
-	"description": "Birds are small and very cute. They can also fly and chirp."
+	"impact": 3
 }

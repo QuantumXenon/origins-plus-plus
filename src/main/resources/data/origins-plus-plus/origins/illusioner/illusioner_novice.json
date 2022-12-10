@@ -19,7 +19,5 @@
 		}
 	],
 	"icon":"minecraft:potion",
-	"impact":3,
-	"name":"Illusioner (Novice)",
-	"description":"You were made but never used so now it's time to take revenge! (Evolve with 'Take Aim')"
+	"impact":3
 }

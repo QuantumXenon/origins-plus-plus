@@ -9,7 +9,5 @@
         "origins-plus-plus:enigma/staring"
     ],
     "icon": "minecraft:jigsaw",
-    "impact": 2,
-    "name": "Enigma",
-    "description": "Mystery... puzzles... trickery... You make people live in fear of themselves and question their own sanity."
+    "impact": 2
 }

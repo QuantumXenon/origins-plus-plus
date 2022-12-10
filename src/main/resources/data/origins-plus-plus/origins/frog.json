@@ -17,7 +17,5 @@
 		
 	],
 	"icon": "minecraft:lily_pad",
-	"impact": 3,
-	"name": "Frog",
-	"description": "Your frog character has certain traits deriving from your frog ancestry."
+	"impact": 3
 }

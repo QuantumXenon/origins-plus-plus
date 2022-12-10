@@ -11,7 +11,5 @@
 		"origins-plus-plus:shadow-crawler/shadowy_form"
 	],
 	"icon": "minecraft:structure_void",
-	"impact": 3,
-	"name": "Shadow Crawler",
-	"description": "You were once human until you were trapped in an empty, void-like dimension eventually adapting to it over hundreds of years."
+	"impact": 3
 }
