@@ -15,7 +15,7 @@
 		"interval":1,
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:black-mage/resource",
+			"resource":"origins-plus-plus:dark-mage/resource",
 			"comparison":"<",
 			"compare_to":1
 		}
@@ -24,13 +24,13 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:black-mage/resource",
+			"resource":"origins-plus-plus:dark-mage/resource",
 			"change":1
 		},
 		"interval":7,
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:black-mage/resource",
+			"resource":"origins-plus-plus:dark-mage/resource",
 			"comparison":"<",
 			"compare_to":1000
 		}
@@ -39,7 +39,7 @@
 		"type":"origins:action_on_callback",
 		"entity_action_respawned":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:black-mage/resource",
+			"resource":"origins-plus-plus:dark-mage/resource",
 			"change":200,
 			"operation":"set"
 		}

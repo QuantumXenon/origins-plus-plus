@@ -1,41 +1,45 @@
 {
-	"name":"Recover",
-	"description":"Use mana to heal yourself.",
+	"hidden":true,
 	"type":"origins:active_self",
-	"key":"key.origins.secondary_active",
+	"key":"key.origins.primary_active",
 	"cooldown":100,
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:instant_health 1 1",
+				"command":"effect give @e[distance=1..15] minecraft:blindness 40 0",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:saturation 1 1",
+				"command":"effect give @e[distance=1..15] minecraft:slowness 40 2",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:electric_spark ~ ~ ~ 0 1 0 2 1000",
+				"command":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 3 3 3 100 1000",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:explosion ~ ~ ~ 0 1 0 2 10",
+				"command":"particle minecraft:ash ~ ~ ~ 2 2 2 2 300",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.ender_eye.death player @a[distance=..10] ~ ~ ~ 10 0.3 1",
+				"command":"playsound minecraft:entity.squid.squirt player @a[distance=..10] ~ ~ ~ 100 0.5 1",
 				"permission_level":4
 			},
 			{
 				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:black-mage/resource",
+				"resource":"origins-plus-plus:dark-mage/resource",
 				"change":-100
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:ink_sac 1",
+				"permission_level":4
 			}
 		]
 	},
@@ -51,10 +55,9 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:wooden_sword"
+						"item":"minecraft:ink_sac"
 					}
-				},
-				"inverted":true
+				}
 			}
 		]
 	}

@@ -9,7 +9,7 @@
 		"actions":[
 			{
 				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:black-mage/resource",
+				"resource":"origins-plus-plus:dark-mage/resource",
 				"change":-100
 			},
 			{
@@ -28,7 +28,7 @@
 						"unblockable":true
 					}
 				},
-				"command_at_hit":"function origins-plus-plus:black-mage/disruption",
+				"command_at_hit":"function origins-plus-plus:dark-mage/disruption",
 				"command_along_ray_only_on_hit":true
 			}
 		]

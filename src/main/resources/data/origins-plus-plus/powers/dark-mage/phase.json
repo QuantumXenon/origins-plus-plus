@@ -35,7 +35,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:black-mage/resource",
+			"resource":"origins-plus-plus:dark-mage/resource",
 			"change":-33
 		},
 		"condition":{

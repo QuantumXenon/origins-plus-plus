@@ -8,37 +8,37 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..15] minecraft:blindness 40 0",
+				"command":"fill ~6 ~5 ~6 ~-6 ~-5 ~-6 air replace lava",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..15] minecraft:slowness 40 2",
+				"command":"fill ~7 ~5 ~7 ~-7 ~-5 ~-7 air replace fire",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 3 3 3 100 1000",
+				"command":"playsound minecraft:item.bucket.fill_lava player @a[distance=..10] ~ ~ ~ 1 1",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 2 2 2 2 300",
-				"permission_level":4
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.squid.squirt player @a[distance=..10] ~ ~ ~ 100 0.5 1",
+				"command":"execute as @p at @p run particle particle minecraft:flash ~ ~ ~ normal",
 				"permission_level":4
 			},
 			{
 				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:black-mage/resource",
+				"resource":"origins-plus-plus:dark-mage/resource",
 				"change":-100
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:ink_sac 1",
+				"command":"particle minecraft:lava ~ ~2 ~ 3 3 3 0 500",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:magma_block 1",
 				"permission_level":4
 			}
 		]
@@ -55,7 +55,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:ink_sac"
+						"item":"minecraft:magma_block"
 					}
 				}
 			}

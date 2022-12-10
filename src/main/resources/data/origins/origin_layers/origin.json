@@ -10,7 +10,6 @@
     "origins-plus-plus:bedrockean",
     "origins-plus-plus:binturong",
     "origins-plus-plus:bird",
-    "origins-plus-plus:black_mage",
     "origins-plus-plus:blazian",
     "origins-plus-plus:blob",
     "origins-plus-plus:boarling",
@@ -23,6 +22,7 @@
     "origins-plus-plus:copper_golem",
     "origins-plus-plus:corrupted_wither",
     "origins-plus-plus:craftsman",
+	"origins-plus-plus:dark_mage",
     "origins-plus-plus:deathsworn",
     "origins-plus-plus:demi_god",
     "origins-plus-plus:deranged",
@@ -67,7 +67,7 @@
     "origins-plus-plus:magmean",
     "origins-plus-plus:malfunction",
     "origins-plus-plus:manipulator",
-    "origins-plus-plus:marshmellow",
+    "origins-plus-plus:marshmallow",
     "origins-plus-plus:moth",
     "origins-plus-plus:mothling",
     "origins-plus-plus:mountain_goat",
@@ -116,7 +116,7 @@
     "origins-plus-plus:withered_fox",
     "origins-plus-plus:withered_skeletian",
     "origins-plus-plus:wizard",
-    "origins-plus-plus:wyvern",
+    "origins-plus-plus:wyverian",
     "origins-plus-plus:zero_aizawa"
   ]
 }

@@ -10,12 +10,12 @@
 			"actions":[
 				{
 					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:black-mage/resource",
-					"change":-100
+					"resource":"origins-plus-plus:dark-mage/resource",
+					"change":-250
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"function origins-plus-plus:black-mage/mana_potion",
+					"command":"function origins-plus-plus:dark-mage/super_mana_potion",
 					"permission_level":4
 				},
 				{
@@ -43,9 +43,9 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:black-mage/resource",
+					"resource":"origins-plus-plus:dark-mage/resource",
 					"comparison":">",
-					"compare_to":100
+					"compare_to":250
 				},
 				{
 					"type":"origins:equipped_item",
@@ -53,7 +53,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"item":"minecraft:honey_bottle"
+							"item":"minecraft:dragon_breath"
 						}
 					}
 				}
@@ -64,12 +64,12 @@
 		"type":"origins:action_on_item_use",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:black-mage/resource",
-			"change":100
+			"resource":"origins-plus-plus:dark-mage/resource",
+			"change":250
 		},
 		"item_condition":{
 			"type":"origins:nbt",
-			"nbt":"{tag:\"empty\"}"
+			"nbt":"{tag:\"superempty\"}"
 		}
 	}
 }

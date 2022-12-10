@@ -8,7 +8,7 @@
 		"actions":[
 			{
 				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:black-mage/resource",
+				"resource":"origins-plus-plus:dark-mage/resource",
 				"change":-100
 			},
 			{
@@ -16,7 +16,7 @@
 				"distance":16,
 				"shape_type":"outline",
 				"fluid_handling":"none",
-				"command_at_hit":"function origins-plus-plus:black-mage/wolf",
+				"command_at_hit":"function origins-plus-plus:dark-mage/wolf",
 				"command_along_ray_only_on_hit":false
 			},
 			{
