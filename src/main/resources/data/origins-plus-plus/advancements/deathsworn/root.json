@@ -1,11 +1,11 @@
 {
 	"display":{
 		"title":{
-			"text":"An Eulogy for the Dead",
+			"translate":"origins-plus-plus.advancements.root.name",
 			"color":"dark_red"
 		},
 		"description":{
-			"text":"Choose the deathsworn origin."
+			"translate":"origins-plus-plus.advancements.root.description"
 		},
 		"icon":{
 			"item":"minecraft:zombie_head"

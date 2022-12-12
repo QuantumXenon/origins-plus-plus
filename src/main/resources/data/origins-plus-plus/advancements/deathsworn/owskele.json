@@ -1,10 +1,10 @@
 {
 	"display":{
 		"title":{
-			"text":"The Skeleton Appears"
+			"translate":"origins-plus-plus.advancements.owskele.name"
 		},
 		"description":{
-			"text":"Summon a skeleton.\n§cSubmit! will deal 6 damage, overriding lower damage upgrades."
+			"translate":"origins-plus-plus.advancements.owskele.description"
 		},
 		"icon":{
 			"item":"minecraft:bone"

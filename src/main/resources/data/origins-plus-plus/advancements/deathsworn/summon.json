@@ -1,10 +1,10 @@
 {
 	"display":{
 		"title":{
-			"text":"[Silly Strings]"
+			"translate":"origins-plus-plus.advancements.summon.name"
 		},
 		"description":{
-			"text":"Summon a mob to serve you!"
+			"translate":"origins-plus-plus.advancements.summon.description"
 		},
 		"icon":{
 			"item":"minecraft:zombie_spawn_egg"

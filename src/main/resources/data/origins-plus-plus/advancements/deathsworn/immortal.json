@@ -1,10 +1,10 @@
 {
 	"display":{
 		"title":{
-			"text":"Determination"
+			"translate":"origins-plus-plus.advancements.immortal.name"
 		},
 		"description":{
-			"text":"Revive yourself with Power Siphon."
+			"translate":"origins-plus-plus.advancements.immortal.description"
 		},
 		"icon":{
 			"item":"minecraft:totem_of_undying"

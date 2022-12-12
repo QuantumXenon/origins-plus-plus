@@ -1,11 +1,10 @@
 {
 	"display":{
 		"title":{
-			"text":"§d[HEART §6SHAPED §dOBJECT]",
-			"color":"gold"
+			"translate":"origins-plus-plus.advancements.petri.name"
 		},
 		"description":{
-			"text":"Obtain your first petrified heart from a hostile mob."
+			"translate":"origins-plus-plus.advancements.petri.description"
 		},
 		"icon":{
 			"item":"minecraft:heart_of_the_sea"

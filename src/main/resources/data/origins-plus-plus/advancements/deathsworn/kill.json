@@ -1,10 +1,10 @@
 {
 	"display":{
 		"title":{
-			"text":"Getting Stronger"
+			"translate":"origins-plus-plus.advancements.kill.name"
 		},
 		"description":{
-			"text":"Let your minion score a kill."
+			"translate":"origins-plus-plus.advancements.kill.description"
 		},
 		"icon":{
 			"item":"minecraft:spider_eye"
