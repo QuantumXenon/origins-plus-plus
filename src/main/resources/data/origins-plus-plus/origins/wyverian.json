@@ -1,15 +1,15 @@
 {
 	"powers": [
-		"origins-plus-plus:wyvern/carnivore",
-		"origins-plus-plus:wyvern/claws",
-		"origins-plus-plus:wyvern/nightv",
-		"origins-plus-plus:wyvern/poisonimmune",
-		"origins-plus-plus:wyvern/projectile",
-		"origins-plus-plus:wyvern/shield",
-		"origins-plus-plus:wyvern/size",
-		"origins-plus-plus:wyvern/water",
-		"origins-plus-plus:wyvern/wind",
-		"origins-plus-plus:wyvern/wing"
+		"origins-plus-plus:wyverian/carnivore",
+		"origins-plus-plus:wyverian/claws",
+		"origins-plus-plus:wyverian/nightv",
+		"origins-plus-plus:wyverian/poisonimmune",
+		"origins-plus-plus:wyverian/projectile",
+		"origins-plus-plus:wyverian/shield",
+		"origins-plus-plus:wyverian/size",
+		"origins-plus-plus:wyverian/water",
+		"origins-plus-plus:wyverian/wind",
+		"origins-plus-plus:wyverian/wing"
 	],
 	"icon": "minecraft:ender_eye",
 	"impact": 3

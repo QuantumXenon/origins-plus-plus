@@ -9,6 +9,6 @@
 		"origins-plus-plus:earth-spirit/spiritvision"
 	],
 	"icon": "minecraft:granite",
-	"impact": 3
+	"impact": 3,
 	"unchoosable": true
 }

@@ -21,6 +21,6 @@
 		"origins-plus-plus:sporeling/updraft_upgrade"
 	],
 	"icon": "minecraft:red_mushroom",
-	"impact": 3
+	"impact": 3,
 	"unchoosable": true
 }
