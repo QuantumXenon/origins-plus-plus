@@ -1,5 +1,5 @@
 {
-    "replace": false,
+	"replace":false,
 	"values":[
 		"#minecraft:arrows",
 		"#minecraft:impact_projectiles",
@@ -12,5 +12,5 @@
 		"minecraft:ender_pearl",
 		"minecraft:eye_of_ender",
 		"minecraft:wither_skull"
-  ]
+	]
 }

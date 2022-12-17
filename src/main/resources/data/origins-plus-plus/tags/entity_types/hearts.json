@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values":[
+	"replace":false,
+	"values":[
 		"minecraft:wither_skeleton",
 		"minecraft:skeleton",
 		"minecraft:husk",
@@ -18,5 +18,5 @@
 		"minecraft:witch",
 		"minecraft:zombified_piglin",
 		"minecraft:piglin_brute"
-    ]
+	]
 }
