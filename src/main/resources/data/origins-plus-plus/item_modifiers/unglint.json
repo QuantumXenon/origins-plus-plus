@@ -1,4 +1,4 @@
 {
-    "function": "set_nbt",
-    "tag": "{Enchantments:[]}"
+	"function":"set_nbt",
+	"tag":"{Enchantments:[]}"
 }
