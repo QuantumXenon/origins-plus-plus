@@ -35,6 +35,11 @@
 				"type":"origins:change_resource",
 				"resource":"origins-plus-plus:dark-mage/resource",
 				"change":-100
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:golden_apple 1",
+				"permission_level":4
 			}
 		]
 	},
