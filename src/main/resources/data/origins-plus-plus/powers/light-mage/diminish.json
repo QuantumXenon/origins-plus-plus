@@ -1,0 +1,43 @@
+{
+	"type":"origins:active_self",
+	"key":"key.origins.secondary_active",
+	"cooldown":100,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:light-mage/resource",
+				"change":-100
+			},
+			{
+				"type":"origins:raycast",
+				"distance":80,
+				"shape_type":"outline",
+				"fluid_handling":"none",
+				"command_at_hit":"function origins-plus-plus:light-mage/diminish",
+				"command_along_ray":"particle minecraft:enchant"
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking",
+				"inverted":true
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:lodestone"
+					}
+				},
+				"inverted":true
+			}
+		]
+	}
+}

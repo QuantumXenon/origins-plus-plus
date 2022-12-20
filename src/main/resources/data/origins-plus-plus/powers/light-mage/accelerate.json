@@ -1,0 +1,59 @@
+{
+	"hidden":true,
+	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
+	"cooldown":100,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"effect give @e[distance=..6] minecraft:haste 120 1",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"effect give @e[distance=..6] minecraft:speed 120 1",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"particle minecraft:dust 1 1 0 3 ~ ~ ~ 2 2 1 10 100",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:entity.lightning_bolt.impact player @a[distance=..20] ~ ~ ~ 100 2 1",
+				"permission_level":4
+			},
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:light-mage/resource",
+				"change":-100
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:clock 1",
+				"permission_level":4
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking"
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:clock"
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"hidden":true,
+	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
+	"cooldown":20,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:light-mage/resource",
+				"change":-10
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:experience_orb ~ ~ ~ {Value:15}",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:quartz 1",
+				"permission_level":4
+			}
+			},
+			"condition"
+			:
+			{
+				"type":"origins:and",
+				"conditions":[
+					{
+						"type":"origins:sneaking"
+					},
+					{
+						"type":"origins:equipped_item",
+						"equipment_slot":"offhand",
+						"item_condition":{
+							"type":"origins:ingredient",
+							"ingredient":{
+								"item":"minecraft:quartz"
+							}
+						}
+					}
+				]
+			}
+			}

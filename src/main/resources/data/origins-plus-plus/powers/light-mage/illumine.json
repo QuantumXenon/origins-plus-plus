@@ -1,0 +1,60 @@
+{
+	"hidden":true,
+	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
+	"cooldown":100,
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"effect give @e[distance=..50] minecraft:glowing 20 0",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"effect give @e[distance=..8] minecraft:night_vision 220 0",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"particle minecraft:end_rod ~ ~ ~ 2 2 2 10 100",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:block.note_block.chime player @a[distance=..20] ~ ~ ~ 100 2 1",
+				"permission_level":4
+			},
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:light-mage/resource",
+				"change":-100
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:glowstone_dust 1",
+				"permission_level":4
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking"
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:glowstone_dust"
+					}
+				}
+			}
+		]
+	}
+}

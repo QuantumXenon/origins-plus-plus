@@ -1,0 +1,16 @@
+{
+	"hidden":true,
+	"type":"origins:lava_vision",
+	"s":0,
+	"v":55,
+	"condition":{
+		"type":"origins:equipped_item",
+		"equipment_slot":"offhand",
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"item":"minecraft:magma_cream"
+			}
+		}
+	}
+}

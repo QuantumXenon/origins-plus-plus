@@ -1,0 +1,11 @@
+{
+	"type":"origins:resource",
+	"min":0,
+	"max":1000,
+	"start_value":200,
+	"hud_render":{
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"should_render":true,
+		"bar_index":9
+	}
+}

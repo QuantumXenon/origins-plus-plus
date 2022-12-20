@@ -1,0 +1,44 @@
+{
+	"hidden":true,
+	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
+	"cooldown":100,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:light-mage/resource",
+				"change":-100
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"function origins-plus-plus:light-mage/fireball",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:blaze_rod 1",
+				"permission_level":4
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking"
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:blaze_rod"
+					}
+				}
+			}
+		]
+	}
+}

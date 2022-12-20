@@ -1,0 +1,70 @@
+{
+	"type":"origins:active_self",
+	"key":"key.origins.secondary_active",
+	"cooldown":100,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"effect give @e[distance=..6] minecraft:saturation 10 0",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"effect give @e[distance=..6] minecraft:resistance 60 1",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"effect give @e[distance=..6] minecraft:regeneration 10 0",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"particle minecraft:end_rod ~ ~ ~ 2 2 2 0 100",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:block.beacon.power_select player @a[distance=..20] ~ ~ ~ 100 0.7 1",
+				"permission_level":4
+			},
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:light-mage/resource",
+				"change":-100
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking"
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:wooden_sword"
+					}
+				},
+				"inverted":true
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:lodestone"
+					}
+				},
+				"inverted":true
+			}
+		]
+	}
+}

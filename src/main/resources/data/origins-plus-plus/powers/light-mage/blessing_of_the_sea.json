@@ -1,0 +1,59 @@
+{
+	"hidden":true,
+	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
+	"cooldown":100,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"effect give @e[distance=..6] minecraft:water_breathing 120 0",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"effect give @e[distance=..6] minecraft:dolphins_grace 30 0",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"particle minecraft:dust 0 0 1 2 ~ ~ ~ 2 2 2 10 100",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:block.conduit.activate player @a[distance=..20] ~ ~ ~ 100 2 1",
+				"permission_level":4
+			},
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:light-mage/resource",
+				"change":-100
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:heart_of_the_sea 1",
+				"permission_level":4
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking"
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:heart_of_the_sea"
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type":"origins:multiple",
+	"hidden":true,
+	"magic":{
+		"type":"origins:modify_damage_taken",
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"magic"
+		},
+		"modifier":{
+			"operation":"multiply_base",
+			"value":-0.6
+		}
+	},
+	"glowing":{
+		"type":"origins:effect_immunity",
+		"effect":[
+			"minecraft:glowing"
+		]
+	}
+}

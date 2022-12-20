@@ -1,0 +1,7 @@
+{
+	"type":"origins:modify_damage_dealt",
+	"modifier":{
+		"operation":"multiply_total",
+		"value":-0.50
+	}
+}

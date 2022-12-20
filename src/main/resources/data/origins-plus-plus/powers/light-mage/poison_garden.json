@@ -1,0 +1,47 @@
+{
+	"hidden":true,
+	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
+	"cooldown":100,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:light-mage/resource",
+				"change":-100
+			},
+			{
+				"type":"origins:raycast",
+				"distance":80,
+				"shape_type":"outline",
+				"fluid_handling":"none",
+				"command_along_ray":"particle minecraft:spore_blossom_air",
+				"command_at_hit":"function origins-plus-plus:light-mage/brick"
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:flowering_azalea 1",
+				"permission_level":4
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking"
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:flowering_azalea"
+					}
+				}
+			}
+		]
+	}
+}
