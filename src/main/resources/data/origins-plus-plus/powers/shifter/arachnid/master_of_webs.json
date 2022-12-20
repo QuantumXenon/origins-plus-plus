@@ -9,7 +9,7 @@
 		"block_action":{
 			"type":"origins:if_else",
 			"condition":{
-				"type":"origins:replaceable"
+				"type":"origins:replacable"
 			},
 			"if_action":{
 				"type":"origins:set_block",

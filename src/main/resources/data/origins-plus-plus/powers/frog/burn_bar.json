@@ -14,7 +14,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"*:*_resource"
+			"resource":"*:*_resource",
 			"change":1
 		},
 		"interval":50,
@@ -27,7 +27,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"*:*_resource"
+			"resource":"*:*_resource",
 			"change":-3
 		},
 		"interval":50,

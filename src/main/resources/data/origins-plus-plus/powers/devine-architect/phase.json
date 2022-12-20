@@ -79,7 +79,7 @@
 	"phase":{
 		"type":"origins:phasing",
 		"blacklist":true,
-		"render_type":"minecraft:blindness",
+		"render_type":"blindness",
 		"view_distance":20,
 		"condition":{
 			"type":"origins:power_active",

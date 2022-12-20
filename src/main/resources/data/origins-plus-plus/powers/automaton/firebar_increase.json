@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"hidden"true,
+	"hidden":true,
 	"coal":{
 		"type":"origins:active_self",
 		"entity_action":{

@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:elytra",
 		"origins-plus-plus:lost-draconian/hydrophobia",
 		"origins-plus-plus:lost-draconian/launch_into_air",
@@ -12,8 +12,8 @@
 		"origins-plus-plus:lost-draconian/unknown_fire",
 		"origins-plus-plus:lost-draconian/warrior",
 		"origins-plus-plus:lost-draconian/weakened",
-		"origins-plus-plus:lost-draconian/weapon",
+		"origins-plus-plus:lost-draconian/weapon"
 	],
-	"icon": "minecraft:chorus_fruit",
-	"impact": 3
+	"icon":"minecraft:chorus_fruit",
+	"impact":3
 }
