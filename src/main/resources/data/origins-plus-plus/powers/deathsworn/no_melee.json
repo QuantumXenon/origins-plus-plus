@@ -1,35 +1,33 @@
 {
-    "type": "origins:modify_damage_dealt",
-    "modifier": {
-        "name": "no dmg",
-        "operation": "addition",
-        "value": -0.9
-    },
-    "condition": {
-        "type": "origins:or",
-        "conditions": [
-            {
-                "type": "origins:equipped_item",
-                "equipment_slot": "mainhand",
-                "item_condition": {
-                    "type": "origins:ingredient",
-                    "ingredient": {
-                        "tag": "origins-plus-plus:swords"
-                    }
-                }
-            },
-            {
-                "type": "origins:equipped_item",
-                "equipment_slot": "mainhand",
-                "item_condition": {
-                    "type": "origins:ingredient",
-                    "ingredient": {
-                        "tag": "origins-plus-plus:axes"
-                    }
-                }
-            }
-        ]
-    },
-    "name": "Wrong Class",
-    "description": "You barely deal any damage with swords and axes."
+	"type":"origins:modify_damage_dealt",
+	"modifier":{
+		"name":"no dmg",
+		"operation":"addition",
+		"value":-0.9
+	},
+	"condition":{
+		"type":"origins:or",
+		"conditions":[
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"mainhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"tag":"origins-plus-plus:swords"
+					}
+				}
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"mainhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"tag":"origins-plus-plus:axes"
+					}
+				}
+			}
+		]
+	}
 }

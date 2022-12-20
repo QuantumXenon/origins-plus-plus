@@ -1,85 +1,69 @@
 {
-    "type": "origins:multiple",
-    "name": "Hades Hopper",
-    "description": "Launch your self into the air with a cooldown of 10 seconds. While you are in Wrath mode, a seperate cooldown of 2 seconds is used instead.",
-    "nowrath": {
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:add_velocity",
-            "x": 0.0,
-            "y": 1.5,
-            "z": 0.0,
-            "space": "world",
-            "set": true
-        },
-        "cooldown": 200,
-        "hud_render": {
-            "bar_index": 4
-        },
-        "condition": {
-            "type": "origins:power_active",
-            "power": "origins-plus-plus:ignisian/ignisian_wrath_toggle",
-            "inverted": true
-        },
-        "key": {
-            "key": "key.origins.secondary_active",
-            "continuous": true
-        }
-    },
-    "wrath": {
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:add_velocity",
-            "x": 0.0,
-            "y": 2.0,
-            "z": 0.0,
-            "space": "world",
-            "set": true
-        },
-        "cooldown": 40,
-        "hud_render": {
-            "bar_index": 5
-        },
-        "condition": {
-            "type": "origins:power_active",
-            "power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
-        },
-        "key": {
-            "key": "key.origins.secondary_active",
-            "continuous": true
-        }
-    },
-    "soundnowrath": {
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:play_sound",
-            "sound": "entity.ravager.step"
-        },
-        "cooldown": 200,
-        "condition": {
-            "type": "origins:power_active",
-            "power": "origins-plus-plus:ignisian/ignisian_wrath_toggle",
-            "inverted": true
-        },
-        "key": {
-            "key": "key.origins.secondary_active",
-            "continuous": true
-        }
-    },
-    "soundwrath": {
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:play_sound",
-            "sound": "entity.ravager.step"
-        },
-        "cooldown": 40,
-        "condition": {
-            "type": "origins:power_active",
-            "power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
-        },
-        "key": {
-            "key": "key.origins.secondary_active",
-            "continuous": true
-        }
-    }
+	"type":"origins:multiple",
+	"nowrath":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:add_velocity",
+			"x":0.0,
+			"y":1.5,
+			"z":0.0,
+			"set":true
+		},
+		"cooldown":200,
+		"hud_render":{
+			"bar_index":4
+		},
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle",
+			"inverted":true
+		},
+		"key":"key.origins.secondary_active"
+	},
+	"wrath":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:add_velocity",
+			"x":0.0,
+			"y":2.0,
+			"z":0.0,
+			"set":true
+		},
+		"cooldown":40,
+		"hud_render":{
+			"bar_index":5
+		},
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		},
+		"key":"key.origins.secondary_active"
+	},
+	"soundnowrath":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:play_sound",
+			"sound":"entity.ravager.step"
+		},
+		"cooldown":200,
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle",
+			"inverted":true
+		},
+		"key":"key.origins.secondary_active"
+	},
+	"soundwrath":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:play_sound",
+			"sound":"entity.ravager.step"
+		},
+		"cooldown":40,
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		},
+		"key":"key.origins.secondary_active"
+	}
 }

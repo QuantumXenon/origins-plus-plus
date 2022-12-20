@@ -1,24 +1,22 @@
 {
-	"type": "origins:action_over_time",
-	"entity_action": {
-		"type": "origins:execute_command",
-		"command": "fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 minecraft:frosted_ice replace minecraft:water"
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 minecraft:frosted_ice replace minecraft:water"
 	},
-	"condition": {
-		"type": "origins:and",
-		"conditions": [
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
 			{
-				"type": "origins:sneaking",
-				"inverted": true
+				"type":"origins:sneaking",
+				"inverted":true
 			},
 			{
-				"type": "origins:submerged_in",
-				"fluid": "minecraft:water",
-				"inverted": true
+				"type":"origins:submerged_in",
+				"fluid":"minecraft:water",
+				"inverted":true
 			}
 		]
 	},
-	"interval": 1,
-	"name": "Cold Feet",
-	"description": "You are able to walk on water by turning it into ice."
+	"interval":1
 }

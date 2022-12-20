@@ -1,28 +1,23 @@
 {
-  "type": "origins:stacking_status_effect",
-  "min_stacks": 0,
-  "max_stacks": 1,
-  "duration_per_stack": 40,
-  "effects": [
-    {
-      "effect": "minecraft:speed",
-      "is_ambient": true,
-      "show_particles": false,
-      "show_icon": true,
-      "amplifier": 1
-    },
-    {
-      "effect": "minecraft:strength",
-      "is_ambient": true,
-      "show_particles": false,
-      "show_icon": true,
-      "amplifier": 0
-    }
-  ],
-  "condition": {
-    "type": "origins:dimension",
-    "dimension": "minecraft:the_nether"
-  },
-  "name": "No Place Like Home",
-  "description": "When in the Nether you have Speed II, Strength, and no mobs will attack you."
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":40,
+	"effects":[
+		{
+			"effect":"minecraft:speed",
+			"show_particles":false,
+			"show_icon":false,
+			"amplifier":1
+		},
+		{
+			"effect":"minecraft:strength",
+			"show_particles":false,
+			"show_icon":false
+		}
+	],
+	"condition":{
+		"type":"origins:dimension",
+		"dimension":"minecraft:the_nether"
+	}
 }

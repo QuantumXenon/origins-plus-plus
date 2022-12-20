@@ -1,15 +1,10 @@
 {
-  "name":"Lift Off",
-  "description":"You're able to launch yourself into the air [Primary]",
-  "type":"origins:launch",
-  "cooldown":600,
-  "hud_render":{
-     "bar_index":4
-  },
-  "sound":"entity.ender_dragon.flap",
-  "speed":2,
-  "key":{
-     "key":"key.origins.primary_active",
-     "continuous":true
-  }
+	"type":"origins:launch",
+	"cooldown":600,
+	"hud_render":{
+		"bar_index":4
+	},
+	"sound":"entity.ender_dragon.flap",
+	"speed":2,
+	"key":"key.origins.primary_active"
 }

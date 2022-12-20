@@ -2,15 +2,15 @@
 	"powers": [
 		"origins:extra_reach",
 		"origins-plus-plus:panoptican/air_speed_boost",
-		"origins-plus-plus:panoptican/bystand",
+		"origins-plus-plus:panoptican/bystander",
 		"origins-plus-plus:panoptican/entity_glow",
 		"origins-plus-plus:panoptican/fire",
 		"origins-plus-plus:panoptican/float",
 		"origins-plus-plus:panoptican/fragile",
-		"origins-plus-plus:panoptican/glowtoggle",
 		"origins-plus-plus:panoptican/night_vision",
 		"origins-plus-plus:panoptican/particles",
-		"origins-plus-plus:panoptican/raycast"
+		"origins-plus-plus:panoptican/raycast",
+		"origins-plus-plus:panoptican/toggle"
 	],
 	"icon": "minecraft:ender_eye",
 	"impact": 3

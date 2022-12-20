@@ -1,15 +1,12 @@
 {
-    "type": "origins:resource",
-	"name":"Channel Divnity",
-	"description":"When shifted you regain divinity, used to use your abilities and enchanced attacks. Note: You cannot attack during this time",
-    "min": 0,
-    "max": 20,
-    "hud_render": {
-		"should_render": true,
-		"bar_index": 5
+	"min":0,
+	"max":20,
+	"hud_render":{
+		"should_render":true,
+		"bar_index":5
 	},
-    "min_action": {
-        "type": "origins:heal",
-        "amount": 1
-    }
+	"min_action":{
+		"type":"origins:heal",
+		"amount":1
+	}
 }

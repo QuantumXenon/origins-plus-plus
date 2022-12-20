@@ -1,10 +1,10 @@
 {
-  "type": "origins:cooldown",
-  "cooldown": 100,
-  "hud_render": {
-    "should_render": true,
-    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-    "bar_index": 8
-  },
-  "hidden": true
+	"type":"origins:cooldown",
+	"cooldown":100,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index":8
+	},
+	"hidden":true
 }

@@ -1,10 +1,8 @@
 {
-  "type": "origins:effect_immunity",
-  "effects": [
-    "minecraft:nausea",
-    "minecraft:wither",
-    "minecraft:blindness"
-  ],
-    "name": "Resistance",
-    "description": "Due to the nature of your abilities, you've grown immune to the effects of wither, nausea, and blindness."
+	"type":"origins:effect_immunity",
+	"effects":[
+		"minecraft:nausea",
+		"minecraft:wither",
+		"minecraft:blindness"
+	]
 }

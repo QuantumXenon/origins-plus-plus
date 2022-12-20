@@ -51,7 +51,5 @@
 				"type":"origins:empty"
 			}
 		}
-	},
-	"name":"Aurophilia",
-	"description":"You love shinies so much, you can mine gold/diamond without a pickaxe. You will also mine them way faster than usual if you aren't wielding anything.\nTakes 3 times to break diamond ore, 1 time to break gold ore."
+	}
 }

@@ -1,0 +1,14 @@
+{
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:shifter/slowfall"
+	},
+	"interval":20,
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:shifter/shift_bar",
+		"comparison":"==",
+		"compare_to":0
+	}
+}

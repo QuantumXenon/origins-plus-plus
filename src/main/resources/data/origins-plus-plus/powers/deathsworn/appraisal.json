@@ -1,34 +1,34 @@
 {
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:execute_command",
-        "command": "title @s actionbar [{\"text\":\"Health: \",\"color\":\"#FF0000\",\"bold\":false,\"italic\":false},{\"nbt\":\"SelectedItem.tag.Health\",\"entity\":\"@s\",\"color\":\"#DB251F\"},{\"text\":\" | \",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"Armor: \",\"color\":\"#FF0000\",\"bold\":false,\"italic\":false},{\"nbt\":\"SelectedItem.tag.Armor\",\"entity\":\"@s\",\"color\":\"#D11B1B\"},{\"text\":\" | \",\"color\":\"white\"},{\"text\":\"Attack Damage: \",\"color\":\"#FF0000\"},{\"nbt\":\"SelectedItem.tag.AD\",\"entity\":\"@s\",\"interpret\":false,\"color\":\"#DB251F\"},{\"text\":\" | \",\"color\":\"white\"},{\"text\":\"Mob: \",\"color\":\"#FF0000\"},{\"nbt\":\"SelectedItem.tag.mob\",\"entity\":\"@s\"}]"
-    },
-    "falling_action": {
-        "type": "origins:execute_command",
-        "command": "title @p actionbar \"\""
-    },
-    "interval": 5,
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:equipped_item",
-                "equipment_slot": "mainhand",
-                "item_condition": {
-                    "type": "origins:nbt",
-                    "nbt": "{lnc:1}"
-                }
-            },
-            {
-                "type": "origins:equipped_item",
-                "equipment_slot": "mainhand",
-                "item_condition": {
-                    "type": "origins:empty",
-                    "inverted": true
-                }
-            }
-        ]
-    },
-    "hidden": true
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"title @s actionbar [{\"text\":\"Health: \",\"color\":\"#FF0000\",\"bold\":false,\"italic\":false},{\"nbt\":\"SelectedItem.tag.Health\",\"entity\":\"@s\",\"color\":\"#DB251F\"},{\"text\":\" | \",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"text\":\"Armor: \",\"color\":\"#FF0000\",\"bold\":false,\"italic\":false},{\"nbt\":\"SelectedItem.tag.Armor\",\"entity\":\"@s\",\"color\":\"#D11B1B\"},{\"text\":\" | \",\"color\":\"white\"},{\"text\":\"Attack Damage: \",\"color\":\"#FF0000\"},{\"nbt\":\"SelectedItem.tag.AD\",\"entity\":\"@s\",\"interpret\":false,\"color\":\"#DB251F\"},{\"text\":\" | \",\"color\":\"white\"},{\"text\":\"Mob: \",\"color\":\"#FF0000\"},{\"nbt\":\"SelectedItem.tag.mob\",\"entity\":\"@s\"}]"
+	},
+	"falling_action":{
+		"type":"origins:execute_command",
+		"command":"title @p actionbar \"\""
+	},
+	"interval":5,
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"mainhand",
+				"item_condition":{
+					"type":"origins:nbt",
+					"nbt":"{lnc:1}"
+				}
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"mainhand",
+				"item_condition":{
+					"type":"origins:empty",
+					"inverted":true
+				}
+			}
+		]
+	},
+	"hidden":true
 }

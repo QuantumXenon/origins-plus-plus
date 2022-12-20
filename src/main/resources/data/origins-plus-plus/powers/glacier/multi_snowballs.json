@@ -1,19 +1,17 @@
 {
-	"type": "origins:fire_projectile",
-	"entity_type": "minecraft:snowball",
-	"cooldown": 30,
-	"hud_render": {
-		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
-		"bar_index": 4
+	"type":"origins:fire_projectile",
+	"entity_type":"minecraft:snowball",
+	"cooldown":30,
+	"hud_render":{
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index":4
 	},
-	"count": 10,
-	"speed": 2,
-	"divergence": 10,
-	"sound": "minecraft:entity.snowball.throw",
-	"key": "key.use",
+	"count":10,
+	"speed":2,
+	"divergence":10,
+	"sound":"minecraft:entity.snowball.throw",
+	"key":"key.use",
 	"condition":{
-		"type": "origins:sneaking"
-	},
-	"name": "Multi-Snowballs",
-	"description": "If you throw a snowball when sneaking, it is split into 10. Snowballs also do more damage to opponents."
+		"type":"origins:sneaking"
+	}
 }

@@ -1,438 +1,407 @@
 {
-    "name": "Good Reflexes",
-    "description": "You are able to dodge and teleport back every 8 seconds. Kill 100 mobs to use this ability.",
-    "type": "origins:multiple",
-    "iframes":
-    {
-        "type": "origins:modify_damage_taken",
-        "modifier":
-        {
-            "operation": "multiply_total",
-            "value": -1
-        },
-        "condition":
-        {
-            "type": "origins:and",
-            "conditions": [
-        {
-            "type": "origins:resource",
-            "resource": "origins-plus-plus:ebon-wing/dodge_charges",
-            "comparison": "!=",
-            "compare_to": 0
-        },
-        {
-            "type":"origins:resource",
-            "resource":"origins-plus-plus:ebon-wing/blood_blood",
-            "comparison":">=",
-            "compare_to":100
-        }
-    ]
-},
-        "damage_condition":
-        {
-            "type": "origins:or",
-            "conditions": [
-                {
-                    "type": "origins:name",
-                    "name": "inFire"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "lightningBolt"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "onFire"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "lava"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "hotFloor"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "inWall"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "cramming"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "drown"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "cactus"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "fall"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "flyIntoWall"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "generic"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "magic"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "wither"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "anvil"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "fallingBlock"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "dragonBreath"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "sweetBerryBush"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "sting"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "mob"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "player"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "arrow"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "trident"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "fireworks"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "witherSkull"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "thrown"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "indirectMagic"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "thorns"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "explosion.player"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "explosion"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "badRespawnPoint"
-                }
-            ]
-        }
-    },
-    "dodge":
-    {
-        "type": "origins:modify_damage_taken",
-        "modifier":
-        {
-            "operation": "multiply_total",
-            "value": 0
-        },
-        "condition":
-        {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:resource",
-                    "resource": "origins-plus-plus:ebon-wing/dodge_charges",
-                    "comparison": "!=",
-                    "compare_to": 0
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "origins-plus-plus:ebon-wing/dodge_iframecheck",
-                    "comparison": "==",
-                    "compare_to": 0
-                },
-                {
-                    "type": "origins:health",
-                    "comparison": "!=",
-                    "compare_to": 0
-                },
-                {
-                    "type":"origins:resource",
-                    "resource":"origins-plus-plus:ebon-wing/blood_blood",
-                    "comparison":">=",
-                    "compare_to":100
-                }
-            ]
-        },
-        "damage_condition":
-        {
-            "type": "origins:or",
-            "conditions": [
-                {
-                    "type": "origins:name",
-                    "name": "inFire"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "lightningBolt"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "onFire"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "lava"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "hotFloor"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "inWall"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "cramming"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "drown"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "cactus"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "fall"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "flyIntoWall"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "generic"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "magic"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "wither"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "anvil"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "fallingBlock"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "dragonBreath"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "sweetBerryBush"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "sting"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "mob"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "player"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "arrow"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "trident"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "fireworks"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "witherSkull"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "thrown"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "indirectMagic"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "thorns"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "explosion.player"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "explosion"
-                },
-                {
-                    "type": "origins:name",
-                    "name": "badRespawnPoint"
-                }
-            ]
-        },
-        "self_action":
-        {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:change_resource",
-                    "resource": "origins-plus-plus:ebon-wing/dodge_iframecheck",
-                    "change": 1
-                },
-                {
-                    "type": "origins:execute_command",
-                    "command": "tp @s ^ ^1 ^-7",
-                    "permission_level": 5
-                },
+	"type":"origins:multiple",
+	"iframes":{
+		"type":"origins:modify_damage_taken",
+		"modifier":{
+			"operation":"multiply_total",
+			"value":-1
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
 				{
-					"type": "origins:execute_command",
-					"command": "execute at @s run particle minecraft:witch ~ ~1 ~ .4 .4 .4 0 1000 normal",
-					"permission_level": 5
-					
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:ebon-wing/dodge_charges",
+					"comparison":"!=",
+					"compare_to":0
 				},
 				{
-					"type": "origins:execute_command",
-					"command": "execute at @s run playsound minecraft:block.beacon.deactivate ambient @s",
-					"permission_level": 5
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:ebon-wing/blood_blood",
+					"comparison":">=",
+					"compare_to":100
+				}
+			]
+		},
+		"damage_condition":{
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:name",
+					"name":"inFire"
 				},
-                {
-                    "type": "origins:trigger_cooldown",
-                    "power": "origins-plus-plus:ebon-wing/dodge_cooldown"
-                },
-                {
-                    "type": "origins:change_resource",
-                    "resource": "origins-plus-plus:ebon-wing/dodge_invis_timer",
-                    "change": 200
-                },
-                {
-                    "type": "origins:delay",
-                    "ticks": 10,
-                    "action":
-                    {
-                        "type": "origins:change_resource",
-                        "resource": "origins-plus-plus:ebon-wing/dodge_charges",
-                        "change": -1
-                    }
-                },
-                {
-                    "type": "origins:delay",
-                    "ticks": 10,
-                    "action":
-                    {
-                        "type": "origins:change_resource",
-                        "resource": "origins-plus-plus:ebon-wing/dodge_iframecheck",
-                        "change": -1
-                    }
-                }
-            ]
-        }
-    },
-    "cooldown":
-    {
-        "type": "origins:cooldown",
-        "cooldown": 80,
-        "hud_render":
-        {
-            "should_render": true,
-            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-            "bar_index": 6
-        }
-    },
-    "charges":
-    {
-        "type": "origins:resource",
-        "min": 0,
-        "max": 1,
-        "hud_render":
-        {
-            "should_render": false,
-            "bar_index": 4
-        },
-        "start_value": 1
-    },
-    "restore_charges":
-    {
-        "type": "origins:action_over_time",
-        "interval": 2,
-        "entity_action":
-        {
-            "type": "origins:change_resource",
-            "resource": "origins-plus-plus:ebon-wing/dodge_charges",
-            "change": 20
-        },
-        "condition":
-        {
-            "type": "origins:resource",
-            "resource": "origins-plus-plus:ebon-wing/dodge_cooldown",
-            "comparison": "==",
-            "compare_to": 0
-        }
-    },
-    "iframecheck":
-    {
-        "type": "origins:resource",
-        "min": 0,
-        "max": 1,
-        "hud_render":
-        {
-            "should_render": false
-        },
-        "start_value": 0
-    }
+				{
+					"type":"origins:name",
+					"name":"lightningBolt"
+				},
+				{
+					"type":"origins:name",
+					"name":"onFire"
+				},
+				{
+					"type":"origins:name",
+					"name":"lava"
+				},
+				{
+					"type":"origins:name",
+					"name":"hotFloor"
+				},
+				{
+					"type":"origins:name",
+					"name":"inWall"
+				},
+				{
+					"type":"origins:name",
+					"name":"cramming"
+				},
+				{
+					"type":"origins:name",
+					"name":"drown"
+				},
+				{
+					"type":"origins:name",
+					"name":"cactus"
+				},
+				{
+					"type":"origins:name",
+					"name":"fall"
+				},
+				{
+					"type":"origins:name",
+					"name":"flyIntoWall"
+				},
+				{
+					"type":"origins:name",
+					"name":"generic"
+				},
+				{
+					"type":"origins:name",
+					"name":"magic"
+				},
+				{
+					"type":"origins:name",
+					"name":"wither"
+				},
+				{
+					"type":"origins:name",
+					"name":"anvil"
+				},
+				{
+					"type":"origins:name",
+					"name":"fallingBlock"
+				},
+				{
+					"type":"origins:name",
+					"name":"dragonBreath"
+				},
+				{
+					"type":"origins:name",
+					"name":"sweetBerryBush"
+				},
+				{
+					"type":"origins:name",
+					"name":"sting"
+				},
+				{
+					"type":"origins:name",
+					"name":"mob"
+				},
+				{
+					"type":"origins:name",
+					"name":"player"
+				},
+				{
+					"type":"origins:name",
+					"name":"arrow"
+				},
+				{
+					"type":"origins:name",
+					"name":"trident"
+				},
+				{
+					"type":"origins:name",
+					"name":"fireworks"
+				},
+				{
+					"type":"origins:name",
+					"name":"witherSkull"
+				},
+				{
+					"type":"origins:name",
+					"name":"thrown"
+				},
+				{
+					"type":"origins:name",
+					"name":"indirectMagic"
+				},
+				{
+					"type":"origins:name",
+					"name":"thorns"
+				},
+				{
+					"type":"origins:name",
+					"name":"explosion.player"
+				},
+				{
+					"type":"origins:name",
+					"name":"explosion"
+				},
+				{
+					"type":"origins:name",
+					"name":"badRespawnPoint"
+				}
+			]
+		}
+	},
+	"dodge":{
+		"type":"origins:modify_damage_taken",
+		"modifier":{
+			"operation":"multiply_total",
+			"value":0
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:ebon-wing/dodge_charges",
+					"comparison":"!=",
+					"compare_to":0
+				},
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:ebon-wing/dodge_iframecheck",
+					"comparison":"==",
+					"compare_to":0
+				},
+				{
+					"type":"origins:health",
+					"comparison":"!=",
+					"compare_to":0
+				},
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:ebon-wing/blood_blood",
+					"comparison":">=",
+					"compare_to":100
+				}
+			]
+		},
+		"damage_condition":{
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:name",
+					"name":"inFire"
+				},
+				{
+					"type":"origins:name",
+					"name":"lightningBolt"
+				},
+				{
+					"type":"origins:name",
+					"name":"onFire"
+				},
+				{
+					"type":"origins:name",
+					"name":"lava"
+				},
+				{
+					"type":"origins:name",
+					"name":"hotFloor"
+				},
+				{
+					"type":"origins:name",
+					"name":"inWall"
+				},
+				{
+					"type":"origins:name",
+					"name":"cramming"
+				},
+				{
+					"type":"origins:name",
+					"name":"drown"
+				},
+				{
+					"type":"origins:name",
+					"name":"cactus"
+				},
+				{
+					"type":"origins:name",
+					"name":"fall"
+				},
+				{
+					"type":"origins:name",
+					"name":"flyIntoWall"
+				},
+				{
+					"type":"origins:name",
+					"name":"generic"
+				},
+				{
+					"type":"origins:name",
+					"name":"magic"
+				},
+				{
+					"type":"origins:name",
+					"name":"wither"
+				},
+				{
+					"type":"origins:name",
+					"name":"anvil"
+				},
+				{
+					"type":"origins:name",
+					"name":"fallingBlock"
+				},
+				{
+					"type":"origins:name",
+					"name":"dragonBreath"
+				},
+				{
+					"type":"origins:name",
+					"name":"sweetBerryBush"
+				},
+				{
+					"type":"origins:name",
+					"name":"sting"
+				},
+				{
+					"type":"origins:name",
+					"name":"mob"
+				},
+				{
+					"type":"origins:name",
+					"name":"player"
+				},
+				{
+					"type":"origins:name",
+					"name":"arrow"
+				},
+				{
+					"type":"origins:name",
+					"name":"trident"
+				},
+				{
+					"type":"origins:name",
+					"name":"fireworks"
+				},
+				{
+					"type":"origins:name",
+					"name":"witherSkull"
+				},
+				{
+					"type":"origins:name",
+					"name":"thrown"
+				},
+				{
+					"type":"origins:name",
+					"name":"indirectMagic"
+				},
+				{
+					"type":"origins:name",
+					"name":"thorns"
+				},
+				{
+					"type":"origins:name",
+					"name":"explosion.player"
+				},
+				{
+					"type":"origins:name",
+					"name":"explosion"
+				},
+				{
+					"type":"origins:name",
+					"name":"badRespawnPoint"
+				}
+			]
+		},
+		"self_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:change_resource",
+					"resource":"origins-plus-plus:ebon-wing/dodge_iframecheck",
+					"change":1
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"tp @s ^ ^1 ^-7",
+					"permission_level":5
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"execute at @s run particle minecraft:witch ~ ~1 ~ .4 .4 .4 0 1000 normal",
+					"permission_level":5
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"execute at @s run playsound minecraft:block.beacon.deactivate ambient @s",
+					"permission_level":5
+				},
+				{
+					"type":"origins:trigger_cooldown",
+					"power":"origins-plus-plus:ebon-wing/dodge_cooldown"
+				},
+				{
+					"type":"origins:change_resource",
+					"resource":"origins-plus-plus:ebon-wing/dodge_invis_timer",
+					"change":200
+				},
+				{
+					"type":"origins:delay",
+					"ticks":10,
+					"action":{
+						"type":"origins:change_resource",
+						"resource":"origins-plus-plus:ebon-wing/dodge_charges",
+						"change":-1
+					}
+				},
+				{
+					"type":"origins:delay",
+					"ticks":10,
+					"action":{
+						"type":"origins:change_resource",
+						"resource":"origins-plus-plus:ebon-wing/dodge_iframecheck",
+						"change":-1
+					}
+				}
+			]
+		}
+	},
+	"cooldown":{
+		"type":"origins:cooldown",
+		"cooldown":80,
+		"hud_render":{
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"bar_index":6
+		}
+	},
+	"charges":{
+		"type":"origins:resource",
+		"min":0,
+		"max":1,
+		"start_value":1
+	},
+	"restore_charges":{
+		"type":"origins:action_over_time",
+		"interval":2,
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:ebon-wing/dodge_charges",
+			"change":20
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:ebon-wing/dodge_cooldown",
+			"comparison":"==",
+			"compare_to":0
+		}
+	},
+	"iframecheck":{
+		"type":"origins:resource",
+		"min":0,
+		"max":1
+	}
 }

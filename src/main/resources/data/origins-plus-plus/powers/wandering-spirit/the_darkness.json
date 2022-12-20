@@ -1,47 +1,42 @@
 {
-    "name": "The Darkness",
-    "description": "At night you are afraid of the dark, so you get slowness and weakness. (Unless you have night vision)",
-    "type": "origins:action_over_time",
-    "condition": {
+	"type":"origins:action_over_time",
+	"condition":{
 		"type":"origins:and",
-		"conditions": [
+		"conditions":[
 			{
-				"type": "origins:daytime",
-				"inverted": true
+				"type":"origins:daytime",
+				"inverted":true
 			},
 			{
-				"type": "origins:status_effect",
-				"effect": "minecraft:night_vision",
-				"inverted": true
+				"type":"origins:status_effect",
+				"effect":"minecraft:night_vision",
+				"inverted":true
 			}
 		]
-
-    },
-    "interval": 20,
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:apply_effect",
-                "effects": [
-                    {
-                        "duration": 300,
-                        "is_ambient": false,
-                        "show_particles": true,
-                        "show_icon": true,
-                        "effect": "minecraft:weakness",
-                        "amplifier": 1
-                    },
-                    {
-                        "duration": 300,
-                        "is_ambient": false,
-                        "show_particles": true,
-                        "show_icon": true,
-                        "effect": "minecraft:slowness",
-                        "amplifier": 1
-                    }
-                ]
-            }
-        ]
-    }
+	},
+	"interval":20,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:apply_effect",
+				"effects":[
+					{
+						"effect":"minecraft:weakness",
+						"duration":300,
+						"show_particles":false,
+						"show_icon":false,
+						"amplifier":1
+					},
+					{
+						"effect":"minecraft:slowness",
+						"duration":300,
+						"show_particles":false,
+						"show_icon":false,
+						"amplifier":1
+					}
+				]
+			}
+		]
+	}
 }

@@ -1,27 +1,25 @@
 {
 	"type":"origins:self_action_when_hit",
 	"entity_action":{
-	   "type":"origins:apply_effect",
-	   "effect":{
-		  "effect":"minecraft:instant_damage",
-		  "amplifier":1,
-		  "duration":1
-	   }
+		"type":"origins:apply_effect",
+		"effect":{
+			"effect":"minecraft:instant_damage",
+			"amplifier":1,
+			"duration":1
+		}
 	},
 	"damage_condition":{
-	   "type":"origins:attacker",
-	   "entity_condition":{
-		  "type":"origins:equipped_item",
-		  "equipment_slot":"mainhand",
-		  "item_condition":{
-			 "type":"origins:enchantment",
-			 "enchantment":"minecraft:smite",
-			 "comparison":">=",
-			 "compare_to":1
-		  }
-	   }
+		"type":"origins:attacker",
+		"entity_condition":{
+			"type":"origins:equipped_item",
+			"equipment_slot":"mainhand",
+			"item_condition":{
+				"type":"origins:enchantment",
+				"enchantment":"minecraft:smite",
+				"comparison":">=",
+				"compare_to":1
+			}
+		}
 	},
-	"cooldown":80,
-	"name":"Undead Body",
-	"description":"You take increased damage that ignores armor from weapons enchanted with Smite (4 second cooldown)."
+	"cooldown":80
 }

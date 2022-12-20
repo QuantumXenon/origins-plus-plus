@@ -1,34 +1,31 @@
 {
-   "name":"Need Glasses",
-   "description":"When in dark areas your vision sucks, so you get blindness (unless you have night vision).",
-   "type":"origins:stacking_status_effect",
-    "min_stacks": -3,
-    "max_stacks": 1,
-    "duration_per_stack": 100,
-   "effects":[
-      {
-         "effect":"minecraft:blindness",
-         "is_ambient":true,
-         "show_particles":false,
-         "show_icon":false
-      }
-   ],
-   "condition":{
+	"type":"origins:stacking_status_effect",
+	"min_stacks":-3,
+	"max_stacks":1,
+	"duration_per_stack":100,
+	"effects":[
+		{
+			"effect":"minecraft:blindness",
+			"show_particles":false,
+			"show_icon":false
+		}
+	],
+	"condition":{
 		"type":"origins:and",
-		"conditions": [
+		"conditions":[
 			{
 				"type":"origins:in_block",
-				"block_condition": {
-					"type": "origins:light_level",
-					"comparison": "<=",
-					"compare_to": 5
+				"block_condition":{
+					"type":"origins:light_level",
+					"comparison":"<=",
+					"compare_to":5
 				}
 			},
 			{
-				"type": "origins:status_effect",
-				"effect": "minecraft:night_vision",
-				"inverted": true
+				"type":"origins:status_effect",
+				"effect":"minecraft:night_vision",
+				"inverted":true
 			}
 		]
-    }
+	}
 }

@@ -1,33 +1,27 @@
 {
-    "name": "Camouflage",
-    "description": "You change the color of your skin if you are in water or on land.",
-    "type": "origins:multiple",
-    "red_on_land":
-    {
-        "type": "origins:model_color",
-        "red": 3,
-        "green": 0,
-        "blue": 0,
-        "alpha": 1,
-        "condition":
-        {
-            "type": "origins:fluid_height",
-            "fluid": "minecraft:water",
-            "comparison": "==",
-            "compare_to": 0
-        }
-    },
-    "green_in_water":
-    {
-        "type": "origins:model_color",
-        "red": 0.5,
-        "green": 0.75,
-        "blue": 0,
-        "alpha": 1,
-        "condition":
-        {
-            "type": "origins:submerged_in",
-            "fluid": "minecraft:water"
-        }
-    }
+	"type":"origins:multiple",
+	"red_on_land":{
+		"type":"origins:model_color",
+		"red":3,
+		"green":0,
+		"blue":0,
+		"alpha":1,
+		"condition":{
+			"type":"origins:fluid_height",
+			"fluid":"minecraft:water",
+			"comparison":"==",
+			"compare_to":0
+		}
+	},
+	"green_in_water":{
+		"type":"origins:model_color",
+		"red":0.5,
+		"green":0.75,
+		"blue":0,
+		"alpha":1,
+		"condition":{
+			"type":"origins:submerged_in",
+			"fluid":"minecraft:water"
+		}
+	}
 }

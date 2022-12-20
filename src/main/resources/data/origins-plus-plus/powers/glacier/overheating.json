@@ -1,51 +1,46 @@
 {
-	"type": "origins:stacking_status_effect",
-	"min_stacks": 0,
-	"max_stacks": 2,
-	"duration_per_stack": 20,
-	"effects": [
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":2,
+	"duration_per_stack":20,
+	"effects":[
 		{
-			"effect": "minecraft:slowness",
-			"duration": 100,
-			"amplifier": 1,
-			"is_ambient": true,
-			"show_particles": false,
-			"show_icon": false
+			"effect":"minecraft:slowness",
+			"duration":100,
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":false
 		},
 		{
-			"effect": "minecraft:weakness",
-			"duration": 100,
-			"amplifier": 0,
-			"is_ambient": true,
-			"show_particles": false,
-			"show_icon": false
+			"effect":"minecraft:weakness",
+			"duration":100,
+			"show_particles":false,
+			"show_icon":false
 		}
 	],
-	"condition": {
-		"type": "origins:and",
-		"conditions": [
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
 			{
-				"type": "origins:biome",
-				"condition": {
-					"type": "origins:temperature",
-					"comparison": ">=",
-					"compare_to": 2.0
+				"type":"origins:biome",
+				"condition":{
+					"type":"origins:temperature",
+					"comparison":">=",
+					"compare_to":2.0
 				}
 			},
 			{
-				"type": "origins:or",
-				"conditions": [
+				"type":"origins:or",
+				"conditions":[
 					{
-						"type": "origins:exposed_to_sun"
+						"type":"origins:exposed_to_sun"
 					},
 					{
-						"type": "origins:dimension",
-						"dimension": "minecraft:the_nether"
+						"type":"origins:dimension",
+						"dimension":"minecraft:the_nether"
 					}
 				]
 			}
 		]
-	},
-	"name": "Overheating",
-	"description": "When in hot biome, you're getting slower, weaker and you start dying. You can prevent this by getting inside powder snow, drinking a fire resistance potion or staying in water, but you're still slow and weak."
+	}
 }

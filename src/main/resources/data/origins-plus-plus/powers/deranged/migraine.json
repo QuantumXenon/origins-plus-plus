@@ -1,0 +1,9 @@
+{
+	"condition":{
+		"type":"origins:power_active",
+		"power":"origins-plus-plus:deranged/insane"
+	},
+	"type":"origins:shader",
+	"shader":"minecraft:shaders/post/deconverge.json",
+	"toggleable":true
+}

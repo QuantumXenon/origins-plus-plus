@@ -1,0 +1,20 @@
+{
+	"type":"origins:action_on_callback",
+	"entity_action_chosen":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:reach 8"
+	},
+	"entity_action_respawned":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:reach 8"
+	},
+	"entity_action_lost":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:reach 1"
+	},
+	"entity_action_removed":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:reach 1"
+	},
+	"hidden":true
+}

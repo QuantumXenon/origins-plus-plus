@@ -1,13 +1,9 @@
 {
-    "name": "Kelpic Body",
-    "description": "With all the random items floating around in the waters, you got used to picking up random things near you (pickup range doubled). You also sink to the bottom of bodies of water due to not knowing how to actually swim (speed affected by depth strider).",
-    "type": "origins:action_over_time",
-    "interval": 1,
-    "entity_action":
-    {
-        "type": "origins:execute_command",
-        "permission_level": 4,
-        "command": "tp @e[type=minecraft:item,distance=..2.85,nbt={PickupDelay:0s}] @s"
-    },
-    "hidden": false
+	"type":"origins:action_over_time",
+	"interval":1,
+	"entity_action":{
+		"type":"origins:execute_command",
+		"permission_level":4,
+		"command":"tp @e[type=minecraft:item,distance=..2.85,nbt={PickupDelay:0s}] @s"
+	}
 }

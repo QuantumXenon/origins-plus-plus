@@ -1,9 +1,7 @@
 {
-    "type": "origins:modify_jump",
-    "modifier": {
-        "operation": "addition",
-        "value": 0.19
-	},
-	"name":"Jump",
-	"description":"You jump higher."
+	"type":"origins:modify_jump",
+	"modifier":{
+		"operation":"addition",
+		"value":0.19
+	}
 }

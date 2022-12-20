@@ -1,6 +1,7 @@
 {
 	"powers": [
 		"origins:more_kinetic_damage",
+		"origins:no_shield",
 		"origins-plus-plus:bird/almost_no_armor",
 		"origins-plus-plus:bird/feather_grip",
 		"origins-plus-plus:bird/feather_grip_spectral",
@@ -9,11 +10,10 @@
 		"origins-plus-plus:bird/launch",
 		"origins-plus-plus:bird/love_air",
 		"origins-plus-plus:bird/more_air_damage",
-		"origins-plus-plus:bird/no-food",
-		"origins-plus-plus:bird/no-shield",
-		"origins-plus-plus:bird/smaller-appetite",
+		"origins-plus-plus:bird/no_food",
+		"origins-plus-plus:bird/small",
+		"origins-plus-plus:bird/smaller_appetite",
 		"origins-plus-plus:bird/smaller_body",
-		"origins-plus-plus:bird/smol_birb",
 		"origins-plus-plus:bird/tweet",
 		"origins-plus-plus:bird/wings"
 	],

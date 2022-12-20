@@ -1,20 +1,18 @@
 {
-	"type": "origins:multiple",
-	"swim": {
-		"type": "origins:swimming",
-		"condition": {
-			"type": "origins:in_block",
-			"block_condition": {
-				"type": "origins:block",
-				"block": "minecraft:lava"
+	"type":"origins:multiple",
+	"swim":{
+		"type":"origins:swimming",
+		"condition":{
+			"type":"origins:in_block",
+			"block_condition":{
+				"type":"origins:block",
+				"block":"minecraft:lava"
 			}
 		}
 	},
-	"vision": {
-		"type": "origins:lava_vision",
-		"s": 1,
-		"v": 7
-	},
-	"name": "Pool Party",
-	"description": "You can swim through lava."
+	"vision":{
+		"type":"origins:lava_vision",
+		"s":1,
+		"v":7
+	}
 }

@@ -1,52 +1,49 @@
 {
-	"hidden": true,
-	"type": "origins:active_self",
-	"entity_action": {
-	"type": "origins:and",
-    "actions": [
-	{
-			    "type": "origins:change_resource",
-                "resource": "origins-plus-plus:white-mage/resource",
-                "change": -20
+	"hidden":true,
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:white-mage/resource",
+				"change":-20
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"summon minecraft:experience_orb ~ ~ ~ {Value:15}",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:quartz 1",
+				"permission_level":4
+			}
+		]
 	},
-    {
-                "type": "origins:execute_command",
-                "command": "summon minecraft:experience_orb ~ ~ ~ {Value:15}",
-                "permission_level": 4
-   },
-   {
-                "type": "origins:execute_command",
-                "command": "clear @s minecraft:quartz 1",
-                "permission_level": 4
-   }
-   ]
-  },
-	"condition": {
-		"type": "origins:and",
-		"conditions": [{
-		 "type": "origins:sneaking",
-		 "inverted": false
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking",
+				"inverted":false
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:quartz"
+					}
+				}
+			}
+		]
 	},
-	{
-		"type": "origins:equipped_item",
-        "equipment_slot": "offhand",
-        "item_condition": {
-			"type": "origins:ingredient",
-			"ingredient": {
-            "item": "minecraft:quartz"
-              }
-          }
+	"key":"key.origins.primary_active",
+	"hud_render":{
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"should_render":true,
+		"bar_index":7
 	}
-	]
-	},
-		"cooldown": 0,
-		"key": {
-			"key": "key.origins.primary_active",
-			"continuous": false
-		},
-		"hud_render": {
-			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-			"should_render": false,
-			"bar_index": 7
-		}
 }

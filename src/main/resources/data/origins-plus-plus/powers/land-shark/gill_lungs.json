@@ -1,0 +1,11 @@
+{
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"effect":{
+		"effect":"minecraft:water_breathing",
+		"duration":100,
+		"show_particles":false,
+		"show_icon":false
+	}
+}

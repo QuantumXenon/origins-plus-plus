@@ -1,20 +1,15 @@
 {
-    "type": "origins:fire_projectile",
-    "entity_type": "minecraft:arrow",
-	"tag": "{life:1000,pickup:0b,CustomPotionColor:3702861,CustomPotionEffects:[{Id:19,Duration:100,Amplifier:1,Ambient:1},{Id:18,Duration:100,Amplifier:0,Ambient:1}],display:{Name:'[{\"text\":\"Cobra Venom\"}]'}}",
-    "cooldown": 100,
-    "hud_render": {
-        "should_render": true,
-		"bar_index": 8
-    },
-	"count": 1,
-	"speed": 2.5,
-	"divergence": 1.0,
-	"sound": "minecraft:entity.player.hurt_sweet_berry_bush",
-	"key": {
-		"key": "key.origins.primary_active",
-		"continuous": false
+	"type":"origins:fire_projectile",
+	"entity_type":"minecraft:arrow",
+	"tag":"{life:1000,pickup:0b,CustomPotionColor:3702861,CustomPotionEffects:[{Id:19,Duration:100,Amplifier:1,Ambient:1},{Id:18,Duration:100,Amplifier:0,Ambient:1}],display:{Name:'[{\"text\":\"Cobra Venom\"}]'}}",
+	"cooldown":100,
+	"hud_render":{
+		"should_render":true,
+		"bar_index":8
 	},
-	"name": "Poison Shot",
-	"description": "Shoots a Poison Arrow wherever you are looking at. 5 second cooldown. [Primary]"
+	"count":1,
+	"speed":2.5,
+	"divergence":1.0,
+	"sound":"minecraft:entity.player.hurt_sweet_berry_bush",
+	"key":"key.origins.primary_active"
 }

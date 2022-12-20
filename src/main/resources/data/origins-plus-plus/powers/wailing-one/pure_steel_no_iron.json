@@ -1,28 +1,28 @@
 {
-    "hidden": true,
-    "type": "origins:restrict_armor",
-    "head": {
-        "type": "origins:ingredient",
-            "ingredient":{
-            "item": "minecraft:iron_helmet"
+	"hidden":true,
+	"type":"origins:restrict_armor",
+	"head":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:iron_helmet"
+		}
+	},
+	"chest":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:iron_chestplate"
+		}
+	},
+	"legs":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:iron_leggings"
+		}
+	},
+	"feet":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:iron_boots"
+		}
 	}
-    },
-    "chest": {
-        "type": "origins:ingredient",
-            "ingredient":{
-            "item": "minecraft:iron_chestplate"
-	}
-    },
-    "legs": {
-        "type": "origins:ingredient",
-            "ingredient":{
-            "item": "minecraft:iron_leggings"
-	}
-    },
-    "feet": {
-        "type": "origins:ingredient",
-            "ingredient":{
-            "item": "minecraft:iron_boots"
-	}		
-    }
 }

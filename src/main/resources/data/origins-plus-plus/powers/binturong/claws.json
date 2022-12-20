@@ -7,7 +7,5 @@
 	"condition":{
 		"type":"origins:using_item",
 		"inverted":true
-	},
-	"name":"Sharp Claws",
-	"description":"Binturongs deal extra damage with their sharp claws"
+	}
 }

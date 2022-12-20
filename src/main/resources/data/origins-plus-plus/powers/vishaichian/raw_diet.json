@@ -1,20 +1,18 @@
 {
-    "type":"origins:prevent_item_use",
-    "item_condition":{
-       "type":"origins:and",
-       "conditions":[
-          {
-             "type":"origins:food"
-          },
-          {
-             "type":"origins:ingredient",
-             "ingredient":{
-                "tag":"origins-plus-plus:raw"
-             },
-             "inverted":true
-          }
-       ]
-    },
-    "name":"Raw Diet",
-    "description":"You can only properly process raw meat."
+	"type":"origins:prevent_item_use",
+	"item_condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:food"
+			},
+			{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"tag":"origins-plus-plus:raw"
+				},
+				"inverted":true
+			}
+		]
+	}
 }

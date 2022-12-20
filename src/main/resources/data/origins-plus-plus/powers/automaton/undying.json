@@ -49,7 +49,5 @@
 				}
 			}
 		]
-	},
-	"name":"Deathless*",
-	"description":"You do not die, but you will power down when too low on steam. (*You will die after 5 minutes of being powered down)"
+	}
 }

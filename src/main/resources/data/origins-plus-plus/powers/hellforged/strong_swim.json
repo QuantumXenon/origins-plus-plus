@@ -1,37 +1,27 @@
 {
-    "type": "origins:multiple",
-    "name": "Strong Swim",
-    "description": "Because of your powerful metal arms, you can swim through lava with ease.",
-        "speed": {
-            "type": "origins:modify_swim_speed",
-            "hidden": true,
-            "modifier": {
-              "name": "Additional swim speed",
-              "value": 0.5,
-              "operation": "multiply_base"
-            }
-          },
-          "swim": {
-            "type": "origins:swimming",
-            "condition": {
-                "type": "origins:fluid_height",
-                "fluid": "minecraft:lava",
-                "comparison": ">",
-                "compare_to": 0.0,
-                "inverted": false
-            },
-            "hidden": true
-        },
-        "immune": {
-            "type": "origins:invulnerability",
-            "name": "name here",
-            "description": "description here.",
-            "damage_condition": {
-              "type": "origins:fire"
-            }
-          },
-          "invul":{
-            "type": "origins:fire_immunity",
-            "hidden": true
-          }
+	"type":"origins:multiple",
+	"hidden":true,
+	"swim_speed":{
+		"type":"origins:modify_swim_speed",
+		"modifier":{
+			"name":"Additional swim speed",
+			"value":0.5,
+			"operation":"multiply_base"
+		}
+	},
+	"lava_swim":{
+		"type":"origins:swimming",
+		"condition":{
+			"type":"origins:fluid_height",
+			"fluid":"minecraft:lava",
+			"comparison":">",
+			"compare_to":0.0
+		}
+	},
+	"fire_invulnerability":{
+		"type":"origins:invulnerability",
+		"damage_condition":{
+			"type":"origins:fire"
+		}
+	}
 }

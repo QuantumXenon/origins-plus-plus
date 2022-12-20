@@ -1,15 +1,15 @@
 {
-	"type": "origins:action_over_time",
-	"interval": 5,
-	"entity_action": {
-		"type": "origins:execute_command",
-		"command": "resource change @s origins-plus-plus:automaton/firebar -1"
+	"type":"origins:action_over_time",
+	"interval":5,
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"resource change @s origins-plus-plus:automaton/firebar -1"
 	},
-	"condition": {
-		"type": "origins:biome",
-		"condition": {
-			"type": "origins:high_humidity"
+	"condition":{
+		"type":"origins:biome",
+		"condition":{
+			"type":"origins:high_humidity"
 		}
 	},
-	"hidden": true
+	"hidden":true
 }

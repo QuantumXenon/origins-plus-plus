@@ -1,10 +1,8 @@
 {
-    "name": "Strong Arms",
-    "description": "You have strong arms and can mine stone with your fist.",
-    "type": "origins:modify_harvest",
-    "block_condition": {
-        "type": "origins:in_tag",
-        "tag": "origins:natural_stone"
-    },
-    "allow": true
+	"type":"origins:modify_harvest",
+	"block_condition":{
+		"type":"origins:in_tag",
+		"tag":"origins:natural_stone"
+	},
+	"allow":true
 }

@@ -1,6 +1,4 @@
 {
-	"name":"Camouflage",
-	"description":"[Save Toolbar Activator] You can camouflage into your surroundings to become invisible, but use hunger doing so",
 	"type":"origins:multiple",
 	"toggle":{
 		"type":"origins:toggle",

@@ -1,0 +1,33 @@
+{
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:delay",
+				"ticks":1,
+				"action":{
+					"type":"origins:if_else",
+					"condition":{
+						"type":"origins:power_active",
+						"power":"origins-plus-plus:automaton/toggle"
+					},
+					"if_action":{
+						"type":"origins:execute_command",
+						"command":"title @s actionbar {\"color\": \"blue\", \"text\": \"Water\"}"
+					},
+					"else_action":{
+						"type":"origins:execute_command",
+						"command":"title @s actionbar {\"color\": \"red\", \"text\": \"Fire\"}"
+					}
+				}
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:block.end_portal_frame.fill voice @a ~ ~ ~ 0.25 2"
+			}
+		]
+	},
+	"key":"key.origins.secondary_active",
+	"hidden":true
+}

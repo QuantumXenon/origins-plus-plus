@@ -1,110 +1,108 @@
 {
-	"type": "origins:multiple",
-	"cold_slow": {
-		"type": "origins:stacking_status_effect",
-		"min_stacks": 0,
-		"max_stacks": 2,
-		"duration_per_stack": 20,
-		"effect": {
-			"effect": "minecraft:slowness",
-			"duration": 20,
-			"amplifier": 1,
-			"is_ambient": true,
-			"show_particles": false,
-			"show_icon": false
+	"type":"origins:multiple",
+	"cold_slow":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":2,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:slowness",
+			"duration":20,
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":false
 		},
-		"condition": {
-			"type": "origins:and",
-			"conditions": [
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
 				{
-					"type": "origins:resource",
-					"resource": "origins-plus-plus:cobra/cold_resource",
-					"comparison": ">",
-					"compare_to": 0
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:cobra/cold_resource",
+					"comparison":">",
+					"compare_to":0
 				},
 				{
-					"type": "origins:resource",
-					"resource": "origins-plus-plus:cobra/cold_resource",
-					"comparison": "<",
-					"compare_to": 200
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:cobra/cold_resource",
+					"comparison":"<",
+					"compare_to":200
 				}
 			]
 		}
 	},
-	"freeze_slow": {
-		"type": "origins:stacking_status_effect",
-		"min_stacks": 0,
-		"max_stacks": 2,
-		"duration_per_stack": 20,
-		"effect": {
-			"effect": "minecraft:slowness",
-			"duration": 20,
-			"amplifier": 2,
-			"is_ambient": true,
-			"show_particles": false,
-			"show_icon": false
+	"freeze_slow":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":2,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:slowness",
+			"duration":20,
+			"amplifier":2,
+			"show_particles":false,
+			"show_icon":false
 		},
-		"condition": {
-			"type": "origins:resource",
-			"resource": "origins-plus-plus:cobra/cold_resource",
-			"comparison": "==",
-			"compare_to": 200
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:cobra/cold_resource",
+			"comparison":"==",
+			"compare_to":200
 		}
 	},
-	"cold_damage": {
-		"type": "origins:damage_over_time",
-		"interval": 24,
-		"onset_delay": 1,
-		"damage": 2,
-		"damage_easy": 1,
-		"source": {
-			"name": "generic",
-			"unblockable": true,
-			"bypasses_armor": true
+	"cold_damage":{
+		"type":"origins:damage_over_time",
+		"interval":24,
+		"onset_delay":1,
+		"damage":2,
+		"damage_easy":1,
+		"source":{
+			"name":"generic",
+			"unblockable":true,
+			"bypasses_armor":true
 		},
-		"condition": {
-			"type": "origins:resource",
-			"resource": "origins-plus-plus:cobra/cold_resource",
-			"comparison": "==",
-			"compare_to": 200
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:cobra/cold_resource",
+			"comparison":"==",
+			"compare_to":200
 		}
 	},
-	"cold_skin": {
-		"type": "origins:model_color",
-		"red": 0.7,
-		"green": 0.7,
-		"blue": 1,
-		"alpha": 1,
-		"condition": {
-			"type": "origins:and",
-			"conditions": [
+	"cold_skin":{
+		"type":"origins:model_color",
+		"red":0.7,
+		"green":0.7,
+		"blue":1,
+		"alpha":1,
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
 				{
-					"type": "origins:resource",
-					"resource": "origins-plus-plus:cobra/cold_resource",
-					"comparison": ">",
-					"compare_to": 0
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:cobra/cold_resource",
+					"comparison":">",
+					"compare_to":0
 				},
 				{
-					"type": "origins:resource",
-					"resource": "origins-plus-plus:cobra/cold_resource",
-					"comparison": "<",
-					"compare_to": 200
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:cobra/cold_resource",
+					"comparison":"<",
+					"compare_to":200
 				}
 			]
 		}
 	},
-	"freezed_skin": {
-		"type": "origins:model_color",
-		"red": 0.5,
-		"green": 0.5,
-		"blue": 1,
-		"alpha": 1,
-		"condition": {
-			"type": "origins:resource",
-			"resource": "origins-plus-plus:cobra/cold_resource",
-			"comparison": "==",
-			"compare_to": 200
+	"freezed_skin":{
+		"type":"origins:model_color",
+		"red":0.5,
+		"green":0.5,
+		"blue":1,
+		"alpha":1,
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:cobra/cold_resource",
+			"comparison":"==",
+			"compare_to":200
 		}
 	},
-	"hidden": true
+	"hidden":true
 }

@@ -1,6 +1,4 @@
 {
-	"name":"Jealousy",
-	"description":"The Bosses are jealous of your abilities and wish to obtain them - even if they have to kill you to do so... (Bosses do more damage to you)",
 	"type":"origins:multiple",
 	"ender_dragon":{
 		"type":"origins:modify_damage_taken",

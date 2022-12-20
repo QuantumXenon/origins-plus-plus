@@ -1,11 +1,8 @@
 {
-	"type": "origins:self_action_on_kill",
-		"entity_action": {
-			"type": "origins:feed",
-			"food": 3,
-			"saturation": 0
-		},
-    "cooldown": 1,
-	"name": "Hungry",
-	"description": "You feed off the souls of those you kill."
+	"type":"origins:self_action_on_kill",
+	"entity_action":{
+		"type":"origins:feed",
+		"food":3,
+		"saturation":0
+	}
 }

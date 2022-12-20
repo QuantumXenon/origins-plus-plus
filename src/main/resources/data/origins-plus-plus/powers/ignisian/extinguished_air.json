@@ -1,14 +1,14 @@
 {
-    "type": "origins:modify_air_speed",
-    "hidden": true,
-    "modifier": {
-        "operation": "multiply_base",
-        "value": -0.5
-    },
-    "condition": {
-		"type": "origins:fluid_height",
-		"fluid": "minecraft:water",
-		"comparison": "!=",
-		"compare_to": 0
+	"type":"origins:modify_air_speed",
+	"hidden":true,
+	"modifier":{
+		"operation":"multiply_base",
+		"value":-0.5
+	},
+	"condition":{
+		"type":"origins:fluid_height",
+		"fluid":"minecraft:water",
+		"comparison":"!=",
+		"compare_to":0
 	}
 }

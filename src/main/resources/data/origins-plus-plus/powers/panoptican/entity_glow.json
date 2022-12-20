@@ -1,10 +1,9 @@
 {
-    "type": "origins:entity_glow",
-        "inverted": true,
-        "condition": {
-            "type": "origins:power_active",
-            "power": "*:glowtoggle"
-         
-    },
-    "hidden": true
+	"type":"origins:entity_glow",
+	"inverted":true,
+	"condition":{
+		"type":"origins:power_active",
+		"power":"origins-plus-plus:panoptican/toggle"
+	},
+	"hidden":true
 }

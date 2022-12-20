@@ -1,29 +1,25 @@
 {
-    "name": "Axe Wielder",
-    "description": "Learning from your family, you learned how to use axes more proficiently than others.",
-    "condition": {
-        "type": "origins:equipped_item",
-        "equipment_slot": "mainhand",
-        "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-                "tag": "origins-plus-plus:axes"
-            }
-        }
-    },
-    "type": "origins:conditioned_attribute",
-    "modifier": {
-        "attribute": "generic.attack_damage",
-        "operation": "multiply_base",
-        "value": 1.25
-    },
-    "modifiers": [
-        {
-            "attribute": "generic.attack_speed",
-            "operation": "addition",
-            "value": 1.25
-        }
-    ],
-    "tick_rate": 20,
-    "update_health": false
+	"condition":{
+		"type":"origins:equipped_item",
+		"equipment_slot":"mainhand",
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"tag":"origins-plus-plus:axes"
+			}
+		}
+	},
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"generic.attack_damage",
+		"operation":"multiply_base",
+		"value":1.25
+	},
+	"modifiers":[
+		{
+			"attribute":"generic.attack_speed",
+			"operation":"addition",
+			"value":1.25
+		}
+	]
 }

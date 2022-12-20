@@ -1,10 +1,8 @@
 {
-    "type": "origins:attribute",
-        "modifier": {
-            "attribute": "minecraft:generic.attack_damage",
-            "operation": "addition",
-            "value": 4
-        },
-        "name": "Extra Strength",
-        "description": "You are a skilled warrior, and therefore you possess abilities that increase your melee attack damage +4."
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.attack_damage",
+		"operation":"addition",
+		"value":4
+	}
 }

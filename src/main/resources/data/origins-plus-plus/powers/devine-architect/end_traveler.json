@@ -1,6 +1,4 @@
 {
-	"name":"Dimensional Traveler (End)",
-	"description":"[Load Toolbar Activator] Teleport to your exact position in the end",
 	"type":"origins:active_self",
 	"key":"key.loadToolbarActivator",
 	"cooldown":6000,

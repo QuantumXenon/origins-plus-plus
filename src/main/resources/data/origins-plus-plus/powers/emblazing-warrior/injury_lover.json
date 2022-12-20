@@ -1,19 +1,17 @@
 {
-    "type": "origins:modify_damage_taken",
-    "bientity_condition": {
-        "type": "origins:target_condition",
-        "condition": {
-            "type": "origins:resource",
-            "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
-            "compare_to": 2,
-            "comparison": "<"
-        }
-    },
-    "modifier": {
-        "name": "Masochism",
-        "operation": "addition",
-        "value": 1
-    },
-    "name": "Uncontrollable",
-    "description": "You take +1♥ damage from entities if you have less than 2 Fury."
+	"type":"origins:modify_damage_taken",
+	"bientity_condition":{
+		"type":"origins:target_condition",
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:emblazing-warrior/fury_bar",
+			"compare_to":2,
+			"comparison":"<"
+		}
+	},
+	"modifier":{
+		"name":"Masochism",
+		"operation":"addition",
+		"value":1
+	}
 }

@@ -1,6 +1,4 @@
 {
-	"name":"Chains Of Death",
-	"description":"Shoot chains in the directions you are looking at. They will penetrate through all mobs in their path. All mobs affected will get the wither effect. If this chain comes in contact with the ground, it will cause an explosion. [Secondary]",
 	"type":"origins:active_self",
 	"entity_action":{
 		"type":"origins:execute_command",

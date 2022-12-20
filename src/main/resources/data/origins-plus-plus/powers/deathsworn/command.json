@@ -1,37 +1,35 @@
 {
-    "type": "origins:active_self",
-    "entity_action": {
-        "type": "origins:raycast",
-        "distance": 16,
-        "block": true,
-        "entity": true,
-        "shape_type": "visual",
-        "fluid_handling": "any",
-        "bientity_action": {
-            "type": "origins:target_action",
-            "action": {
-                "type": "origins:execute_command",
-                "command": "power grant @s origins-plus-plus:deathsworn/one_off/draw_aggro"
-            }
-        },
-        "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-                "type": "origins:nbt",
-                "nbt": "{Tags:['lnc_Minion']}",
-                "inverted": true
-            }
-        },
-        "command_along_ray": "particle minecraft:soul_fire_flame",
-        "command_step": 0.25,
-        "command_along_ray_only_on_hit": false
-    },
-    "cooldown": 100,
-    "hud_render": {
-        "should_render": true,
-        "bar_index": 1,
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png"
-    },
-    "name": "Execute Order",
-    "description": "Your primary ability singles out a mob for all of your minions to target."
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:raycast",
+		"distance":16,
+		"block":true,
+		"entity":true,
+		"shape_type":"visual",
+		"fluid_handling":"any",
+		"bientity_action":{
+			"type":"origins:target_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"power grant @s origins-plus-plus:deathsworn/one_off/draw_aggro"
+			}
+		},
+		"bientity_condition":{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:nbt",
+				"nbt":"{Tags:['lnc_Minion']}",
+				"inverted":true
+			}
+		},
+		"command_along_ray":"particle minecraft:soul_fire_flame",
+		"command_step":0.25,
+		"command_along_ray_only_on_hit":false
+	},
+	"cooldown":100,
+	"hud_render":{
+		"should_render":true,
+		"bar_index":1,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png"
+	}
 }

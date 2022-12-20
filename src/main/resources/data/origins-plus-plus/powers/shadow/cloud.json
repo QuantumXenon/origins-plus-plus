@@ -1,258 +1,191 @@
 {
-    "type": "origins:multiple",
-    "resource":
-    {
-        "type": "origins:resource",
-        "max": 500,
-        "min": 0,
-        "start_value": 500,
-        "hud_render":
-        {
-            "should_render": true,
-            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
-            "bar_index": 24
-        }
-    },
-    "toggle":
-    {
-        "type": "origins:resource",
-        "max": 1,
-        "min": 0,
-        "start_value": 0,
-        "hud_render":
-        {
-            "should_render": false,
-            "sprite_location": "origins:textures/gui/resource_bar.png",
-            "bar_index": 0
-        }
-    },
-    "active_toggle":
-    {
-        "type": "origins:active_self",
-        "cooldown": 1,
-        "key":
-        {
-            "key": "key.origins.primary_active",
-            "continuous": false
-        },
-        "condition":
-        {
-            "type": "origins:sneaking",
-            "inverted": true
-        },
-        "entity_action":
-        {
-            "type": "origins:if_else",
-            "condition":
-            {
-                "type": "origins:resource",
-                "inverted": false,
-                "comparison": "==",
-                "resource": "*:*_toggle",
-                "compare_to": 1
-            },
-            "if_action":
-            {
-                "type": "origins:change_resource",
-                "resource": "*:*_toggle",
-                "change": -1
-            },
-            "else_action":
-            {
-                "type": "origins:change_resource",
-                "resource": "*:*_toggle",
-                "change": 1
-            }
-        },
-        "hud_render":
-        {
-            "should_render": false,
-            "sprite_location": "origins:textures/gui/resource_bar.png",
-            "bar_index": 1
-        }
-    },
-    "invis":
-    {
-        "type": "origins:invisibility",
-        "render_armor": false,
-        "condition":
-        {
-            "type": "origins:resource",
-            "inverted": false,
-            "comparison": "==",
-            "resource": "*:*_toggle",
-            "compare_to": 1
-        }
-    },
-    "invin":
-    {
-        "type": "origins:invulnerability",
-		"damage_condition": {
-			"type": "origins:name",
-			"name": "inWall"
+	"type":"origins:multiple",
+	"resource":{
+		"type":"origins:resource",
+		"max":500,
+		"min":0,
+		"start_value":500,
+		"hud_render":{
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+			"bar_index":24
 		}
-    },
-    "weak":
-    {
-        "type": "origins:stacking_status_effect",
-        "condition":
-        {
-            "type": "origins:resource",
-            "inverted": false,
-            "comparison": "==",
-            "resource": "*:*_toggle",
-            "compare_to": 1
-        },
-        "duration_per_stack": 20,
-        "min_stacks": 0,
-        "max_stacks": 1,
-        "effect":
-        {
-            "duration": 0,
-            "is_ambient": false,
-            "show_particles": false,
-            "show_icon": true,
-            "effect": "weakness",
-            "amplifier": 100
-        }
-    },
-    "particle":
-    {
-        "type": "origins:action_over_time",
-        "interval": 1,
-        "entity_action":
-        {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:if_else",
-                    "condition":
-                    {
-                        "type": "origins:resource",
-                        "inverted": false,
-                        "comparison": "==",
-                        "resource": "*:*_toggle",
-                        "compare_to": 1
-                    },
-                    "if_action":
-                    {
-                        "type": "origins:and",
-                        "actions": [
-                            {
-                                "type": "origins:execute_command",
-                                "permission_level": 4,
-                                "command": "particle minecraft:large_smoke ~ ~1 ~ .2 .2 .2 .05 5 normal"
-                            },
-                            {
-                                "type": "origins:change_resource",
-                                "resource": "*:*_resource",
-                                "change": -1
-                            }
-                        ]
-                    },
-                    "else_action":
-                    {
-                        "type": "origins:change_resource",
-                        "resource": "*:*_resource",
-                        "change": 1
-                    }
-                }
-            ]
-        }
-    },
-    "wither":
-    {
-        "type": "origins:stacking_status_effect",
-        "min_stacks": 0,
-        "max_stacks": 1,
-        "duration_per_stack": 20,
-        "effect":
-        {
-            "duration": 0,
-            "is_ambient": false,
-            "show_particles": true,
-            "show_icon": true,
-            "effect": "wither",
-            "amplifier": 1
-        },
-        "condition":
-        {
-            "type": "origins:resource",
-            "inverted": false,
-            "comparison": "==",
-            "resource": "*:*_resource",
-            "compare_to": 0
-        }
-    },
-    "phase":
-    {
-        "type": "origins:phasing",
-        "blacklist": true,
-        "render_type": "blindness",
-        "view_distance": 20,
-        "condition":
-        {
-            "type": "origins:resource",
-            "inverted": false,
-            "comparison": "==",
-            "resource": "*:*_toggle",
-            "compare_to": 1
-        },
-        "block_condition":
-        {
-            "type": "origins:in_tag",
-            "inverted": false,
-            "tag": "origins:unphasable"
-        },
-        "phase_down_condition":
-        {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:resource",
-                    "inverted": false,
-                    "comparison": "==",
-                    "resource": "*:*_toggle",
-                    "compare_to": 1
-                },
-                {
-                    "type": "origins:or",
-                    "inverted": false,
-                    "conditions": [
-                        {
-                            "type": "origins:swimming",
-                            "inverted": false
-                        },
-                        {
-                            "type": "origins:sneaking",
-                            "inverted": false
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "respawn":
-    {
-        "type": "origins:action_on_callback",
-        "execute_chosen_when_orb": false,
-        "entity_action_respawned":
-        {
-            "type": "origins:change_resource",
-            "resource": "*:*_resource",
-            "change": 500
-        }
-    },
-    "flight": {
-        "type": "origins:creative_flight",
-        "condition": {
-            "type": "origins:resource",
-            "inverted": false,
-            "comparison": "==",
-            "resource": "*:*_toggle",
-            "compare_to": 1
-        }
-    },
-    "name": "Shadow Form",
-    "description": "You can transform yourself into dark energy with your primary, but it's to unstable to stay in that form for long. (You can also go through blocks)"
+	},
+	"toggle":{
+		"type":"origins:resource",
+		"max":1,
+		"min":0
+	},
+	"active_toggle":{
+		"type":"origins:active_self",
+		"key":"key.origins.primary_active",
+		"condition":{
+			"type":"origins:sneaking"
+		},
+		"entity_action":{
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:resource",
+				"comparison":"==",
+				"resource":"*:*_toggle",
+				"compare_to":1
+			},
+			"if_action":{
+				"type":"origins:change_resource",
+				"resource":"*:*_toggle",
+				"change":-1
+			},
+			"else_action":{
+				"type":"origins:change_resource",
+				"resource":"*:*_toggle",
+				"change":1
+			}
+		}
+	},
+	"invis":{
+		"type":"origins:invisibility",
+		"render_armor":false,
+		"condition":{
+			"type":"origins:resource",
+			"comparison":"==",
+			"resource":"*:*_toggle",
+			"compare_to":1
+		}
+	},
+	"invin":{
+		"type":"origins:invulnerability",
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"inWall"
+		}
+	},
+	"weak":{
+		"type":"origins:stacking_status_effect",
+		"condition":{
+			"type":"origins:resource",
+			"comparison":"==",
+			"resource":"*:*_toggle",
+			"compare_to":1
+		},
+		"duration_per_stack":20,
+		"min_stacks":0,
+		"max_stacks":1,
+		"effect":{
+			"show_particles":false,
+			"show_icon":false,
+			"effect":"minecraft:weakness",
+			"amplifier":100
+		}
+	},
+	"particle":{
+		"type":"origins:action_over_time",
+		"interval":1,
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:if_else",
+					"condition":{
+						"type":"origins:resource",
+						"comparison":"==",
+						"resource":"*:*_toggle",
+						"compare_to":1
+					},
+					"if_action":{
+						"type":"origins:and",
+						"actions":[
+							{
+								"type":"origins:execute_command",
+								"permission_level":4,
+								"command":"particle minecraft:large_smoke ~ ~1 ~ .2 .2 .2 .05 5 normal"
+							},
+							{
+								"type":"origins:change_resource",
+								"resource":"*:*_resource",
+								"change":-1
+							}
+						]
+					},
+					"else_action":{
+						"type":"origins:change_resource",
+						"resource":"*:*_resource",
+						"change":1
+					}
+				}
+			]
+		}
+	},
+	"wither":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effect":{
+			"show_particles":false,
+			"show_icon":false,
+			"effect":"minecraft:wither",
+			"amplifier":1
+		},
+		"condition":{
+			"type":"origins:resource",
+			"comparison":"==",
+			"resource":"*:*_resource",
+			"compare_to":0
+		}
+	},
+	"phase":{
+		"type":"origins:phasing",
+		"blacklist":true,
+		"render_type":"blindness",
+		"view_distance":20,
+		"condition":{
+			"type":"origins:resource",
+			"comparison":"==",
+			"resource":"*:*_toggle",
+			"compare_to":1
+		},
+		"block_condition":{
+			"type":"origins:in_tag",
+			"tag":"origins:unphasable"
+		},
+		"phase_down_condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:resource",
+					"comparison":"==",
+					"resource":"*:*_toggle",
+					"compare_to":1
+				},
+				{
+					"type":"origins:or",
+					"conditions":[
+						{
+							"type":"origins:swimming"
+						},
+						{
+							"type":"origins:sneaking"
+						}
+					]
+				}
+			]
+		}
+	},
+	"respawn":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+			"type":"origins:change_resource",
+			"resource":"*:*_resource",
+			"change":500
+		}
+	},
+	"flight":{
+		"type":"origins:creative_flight",
+		"condition":{
+			"type":"origins:resource",
+			"comparison":"==",
+			"resource":"*:*_toggle",
+			"compare_to":1
+		}
+	}
 }

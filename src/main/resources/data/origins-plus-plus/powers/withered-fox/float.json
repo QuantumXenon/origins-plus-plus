@@ -26,10 +26,9 @@
 		"min_stacks":0,
 		"max_stacks":1,
 		"effect":{
-			"duration":0,
 			"show_particles":false,
 			"show_icon":false,
-			"effect":"weakness",
+			"effect":"minecraft:weakness",
 			"amplifier":100
 		}
 	},
@@ -60,10 +59,9 @@
 		"max_stacks":1,
 		"duration_per_stack":20,
 		"effect":{
-			"duration":0,
 			"show_particles":false,
 			"show_icon":false,
-			"effect":"wither",
+			"effect":"minecraft:wither",
 			"amplifier":1
 		},
 		"condition":{
@@ -81,10 +79,9 @@
 		"min_stacks":0,
 		"max_stacks":1,
 		"effect":{
-			"duration":0,
 			"show_particles":false,
 			"show_icon":false,
-			"effect":"levitation",
+			"effect":"minecraft:levitation",
 			"amplifier":1
 		}
 	},
@@ -95,7 +92,5 @@
 			"resource":"*:*_resource",
 			"change":500
 		}
-	},
-	"name":"Float",
-	"description":"You float instead of jumping (but it's too exhausting to fly for long)."
+	}
 }

@@ -1,25 +1,22 @@
 {
-    "name": "Hydrophobic",
-    "description": "You are very small, water slows you down.",
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:in_rain"
-            }
-        ]
-    },
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
-    "max_stacks": 30,
-    "duration_per_stack": 20,
-    "effects": [
-        {
-            "effect": "minecraft:slowness",
-            "duration": 100,
-            "amplifier": 0,
-            "show_particles": false,
-            "show_icon": true
-        }
-    ]
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:in_rain"
+			}
+		]
+	},
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":30,
+	"duration_per_stack":20,
+	"effects":[
+		{
+			"effect":"minecraft:slowness",
+			"duration":100,
+			"show_particles":false,
+			"show_icon":false
+		}
+	]
 }

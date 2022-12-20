@@ -1,35 +1,33 @@
 {
-    "type": "origins:prevent_item_use",
-    "item_condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "inverted": true,
-                "type": "origins:or",
-                "conditions": [
-                    {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "tag": "origins:meat"
-                        }
-                    },
-                    {
-                        "type": "origins:meat"
-                    }
-                ]
-            },
-            {
-                "type": "origins:food"
-            },
-            {
-                "inverted": true,
-                "type": "origins:ingredient",
-                "ingredient": {
-                    "tag": "origins:ignore_diet"
-                }
-            }
-        ]
-    },
-	"name": "Flesh Eater",
-    "description": "You crave flesh so you can't eat anything that isn't meat."
+	"type":"origins:prevent_item_use",
+	"item_condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"inverted":true,
+				"type":"origins:or",
+				"conditions":[
+					{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"tag":"origins:meat"
+						}
+					},
+					{
+						"type":"origins:meat"
+					}
+				]
+			},
+			{
+				"type":"origins:food"
+			},
+			{
+				"inverted":true,
+				"type":"origins:ingredient",
+				"ingredient":{
+					"tag":"origins:ignore_diet"
+				}
+			}
+		]
+	}
 }

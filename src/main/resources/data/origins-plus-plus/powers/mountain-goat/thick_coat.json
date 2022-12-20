@@ -1,18 +1,16 @@
 {
-	"type": "origins:conditioned_attribute",
-	"modifier": {
-		"attribute": "generic.movement_speed",
-		"operation": "addition",
-		"value": 0.02
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"generic.movement_speed",
+		"operation":"addition",
+		"value":0.02
 	},
-	"condition": {
-		"type": "origins:biome",
-		"condition": {
-			"type": "origins:temperature",
-			"comparison": "<",
-			"compare_to": 0.26
+	"condition":{
+		"type":"origins:biome",
+		"condition":{
+			"type":"origins:temperature",
+			"comparison":"<",
+			"compare_to":0.26
 		}
-	},
-	"name": "Thick Coat",
-	"description": "It's easier to live in colder biomes with your thick wool coat, making you faster. In hot biomes however, you overheat and become slower."
+	}
 }

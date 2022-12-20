@@ -1,17 +1,14 @@
 {
-    "cooldown":100,
-    "type":"origins:active_self",
-    "entity_action":{
-       "type":"origins:add_velocity",
-       "y":1.5,
-       "space":"world"
-    },
-    "key":"key.origins.secondary_active",
-    "hud_render":{
-       "should_render":true,
-       "sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
-       "bar_index":1
-    },
-    "name":"Energy Jump",
-    "description":"You can charge up your energy and distribute it to jump really high, on cooldown. [Secondary]"
+	"cooldown":100,
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:add_velocity",
+		"y":1.5
+	},
+	"key":"key.origins.secondary_active",
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index":1
+	}
 }

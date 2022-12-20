@@ -1,11 +1,9 @@
 {
-  "name":"Field Forces",
-  "description":"Due to the nature of the Void Shield, you no longer feel a need to use a regular shield.",
-  "type":"origins:prevent_item_use",
-  "item_condition":{
-     "type":"origins:ingredient",
-     "ingredient":{
-        "tag":"origins:shields"
-     }
-  }
+	"type":"origins:prevent_item_use",
+	"item_condition":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"tag":"origins:shields"
+		}
+	}
 }

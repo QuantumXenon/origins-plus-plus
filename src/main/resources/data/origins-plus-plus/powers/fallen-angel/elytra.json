@@ -1,6 +1,4 @@
 {
-    "name": "Demonic Flight",
-    "description": "After you died, you lost your wings but you will soon find out that you won't need them... (Invisible Elytra)",
-    "type": "origins:elytra_flight",
-    "render_elytra": false
+	"type":"origins:elytra_flight",
+	"render_elytra":false
 }

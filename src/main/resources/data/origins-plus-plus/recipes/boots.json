@@ -1,5 +1,6 @@
 {
 	"type":"minecraft:crafting_shaped",
+	"id":"origins-plus-plus:golden_boots",
 	"pattern":[
 		"# #",
 		"# #"
@@ -10,7 +11,6 @@
 		}
 	},
 	"result":{
-		"item":"minecraft:golden_boots",
-		"count":1
+		"item":"minecraft:golden_boots"
 	}
 }

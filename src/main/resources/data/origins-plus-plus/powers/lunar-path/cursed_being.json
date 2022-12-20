@@ -20,8 +20,5 @@
 				"compare_to":1
 			}
 		}
-	},
-	"cooldown":1,
-	"name":"Cursed Being",
-	"description":"You take increased damage that ignores armor from weapons enchanted with Smite."
+	}
 }

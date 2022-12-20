@@ -1,10 +1,10 @@
 {
-	"hidden": true,
-    "type": "origins:action_on_callback",
-	"entity_action_respawned": {
-		"type": "origins:change_resource",
-        "resource": "origins-plus-plus:end-mage/resource",
-        "change": 210,
-		"operation": "set"
- }
+	"hidden":true,
+	"type":"origins:action_on_callback",
+	"entity_action_respawned":{
+		"type":"origins:change_resource",
+		"resource":"origins-plus-plus:end-mage/resource",
+		"change":210,
+		"operation":"set"
+	}
 }

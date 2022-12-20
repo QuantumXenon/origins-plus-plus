@@ -1,10 +1,7 @@
 {
-	"name":"Logger",
-	"description":"You gain haste when near logs and stripped logs.",
 	"type":"origins:action_over_time",
 	"condition":{
 		"type":"origins:block_in_radius",
-		"inverted":false,
 		"radius":9,
 		"shape":"cube",
 		"comparison":">=",
@@ -21,9 +18,8 @@
 				"type":"origins:apply_effect",
 				"effect":{
 					"duration":200,
-					"is_ambient":false,
-					"show_particles":true,
-					"show_icon":true,
+					"show_particles":false,
+					"show_icon":false,
 					"effect":"minecraft:haste"
 				}
 			}

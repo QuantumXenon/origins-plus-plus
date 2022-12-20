@@ -1,0 +1,27 @@
+{
+	"condition":{
+		"type":"origins:health",
+		"comparison":"<=",
+		"compare_to":10
+	},
+	"type":"origins:action_over_time",
+	"interval":200,
+	"entity_action":{
+		"type":"origins:play_sound",
+		"sound":"minecraft:entity.piglin.angry",
+		"volume":0.5,
+		"pitch":0.8
+	},
+	"rising_action":{
+		"type":"origins:play_sound",
+		"sound":"minecraft:entity.piglin.death",
+		"volume":1,
+		"pitch":0.7
+	},
+	"falling_action":{
+		"type":"origins:play_sound",
+		"sound":"minecraft:entity.piglin.admiring_item",
+		"volume":1,
+		"pitch":0.8
+	}
+}

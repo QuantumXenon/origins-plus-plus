@@ -22,17 +22,12 @@
 			}
 		]
 	},
-	"cooldown":0,
-	"key":{
-		"key":"key.origins.primary_active",
-		"continuous":false
-	},
+	"key":"key.origins.primary_active",
 	"condition":{
 		"type":"origins:and",
 		"conditions":[
 			{
-				"type":"origins:sneaking",
-				"inverted":false
+				"type":"origins:sneaking"
 			},
 			{
 				"type":"origins:equipped_item",
@@ -45,9 +40,5 @@
 				}
 			}
 		]
-	},
-	"hud_render":{
-		"should_render":false,
-		"bar_index":0
 	}
 }

@@ -1,15 +1,13 @@
 {
-    "name": "Cursed Nights",
-    "description": "Your SOUL bar regenerates slowly at night.",
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:change_resource",
-        "resource": "origins-plus-plus:deathsworn/soul_bar",
-        "change": 1
-    },
-    "interval": 100,
-    "condition": {
-        "type": "origins:daytime",
-        "inverted": true
-    }
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:change_resource",
+		"resource":"origins-plus-plus:deathsworn/soul_bar",
+		"change":1
+	},
+	"interval":100,
+	"condition":{
+		"type":"origins:daytime",
+		"inverted":true
+	}
 }

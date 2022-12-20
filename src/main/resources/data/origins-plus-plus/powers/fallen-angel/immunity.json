@@ -1,11 +1,9 @@
 {
-    "name": "Effect Immunity",
-    "description": "You are immune to Wither, Poison, Nausea, and Instant Damage from enduring so much Pain in Hell.",
-    "type": "origins:effect_immunity",
-    "effects": [
-        "minecraft:wither",
-        "minecraft:poison",
-        "minecraft:instant_damage",
-        "minecraft:nausea"
-    ]
+	"type":"origins:effect_immunity",
+	"effects":[
+		"minecraft:wither",
+		"minecraft:poison",
+		"minecraft:instant_damage",
+		"minecraft:nausea"
+	]
 }

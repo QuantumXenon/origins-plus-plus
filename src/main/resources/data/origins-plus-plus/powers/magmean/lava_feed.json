@@ -1,0 +1,13 @@
+{
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:feed",
+		"food":2,
+		"saturation":0.5
+	},
+	"interval":30,
+	"condition":{
+		"type":"origins:submerged_in",
+		"fluid":"minecraft:lava"
+	}
+}

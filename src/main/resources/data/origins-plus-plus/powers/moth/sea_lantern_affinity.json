@@ -7,16 +7,14 @@
 				"type":"origins:apply_effect",
 				"effect":{
 					"effect":"minecraft:dolphins_grace",
-					"duration":200,
-					"amplifier":0
+					"duration":200
 				}
 			},
 			{
 				"type":"origins:apply_effect",
 				"effect":{
 					"effect":"minecraft:conduit_power",
-					"duration":200,
-					"amplifier":0
+					"duration":200
 				}
 			}
 		]

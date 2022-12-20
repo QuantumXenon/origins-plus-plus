@@ -1,42 +1,39 @@
 {
-    "name": "§0§nCarnivore",
-    "description": "§0You can only eat meat.",
-        "type": "origins:prevent_item_use",
-        "item_condition": {
-          "type": "origins:and",
-          "conditions": [
-            {
-              "type": "origins:or",
-              "conditions": [
-                {
-                  "type": "origins:ingredient",
-                  "ingredient": {
-                    "tag": "origins:meat"
-                  }
-                },
-                {
-                  "type": "origins:meat"
-                }
-              ],
-              "inverted": true
-            },
-            {
-              "type": "origins:food"
-            },
-            {
-              "type": "origins:ingredient",
-              "ingredient": {
-                "tag": "origins:ignore_diet"
-              },
-              "inverted": true
-            }
-          ]
-      },
-    "tick_rate": 20,
-    "condition":{
-		"type": "origins:resource",
-		"resource": "origins-plus-plus:shifter/shift_bar",
-		"comparison": "==",
-		"compare_to": 2
+	"type":"origins:prevent_item_use",
+	"item_condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:or",
+				"conditions":[
+					{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"tag":"origins:meat"
+						}
+					},
+					{
+						"type":"origins:meat"
+					}
+				],
+				"inverted":true
+			},
+			{
+				"type":"origins:food"
+			},
+			{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"tag":"origins:ignore_diet"
+				},
+				"inverted":true
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:shifter/shift_bar",
+		"comparison":"==",
+		"compare_to":2
 	}
-  }
+}

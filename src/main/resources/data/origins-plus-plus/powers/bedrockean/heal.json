@@ -1,11 +1,8 @@
 {
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:heal",
-        "amount": 1
-    },
-    "interval": 40,
-	"name": "Bedrockean Heal",
-	"description": "You heal diffently than most, so you have a constant heal, but half a heart each second and a half."
-
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:heal",
+		"amount":1
+	},
+	"interval":40
 }

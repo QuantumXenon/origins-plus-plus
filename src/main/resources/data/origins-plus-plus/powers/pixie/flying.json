@@ -1,18 +1,13 @@
 {
-	"type": "origins:active_self",
-	"entity_action": {
-		"type": "origins:add_velocity",
-		"y": 1
-},
-	"cooldown": 100,
-	"hud_render": {
-		"sprite_location": "origins:textures/gui/resource_bar.png",
-		"bar_index": 4
- },
-	"key": {
-    "key": "key.origins.secondary_active",
-    "continuous": false
-  },
-	"name": "Boost",
-	"description": "Pressing the secondary ability gives you a small boost upwards."
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:add_velocity",
+		"y":1
+	},
+	"cooldown":100,
+	"hud_render":{
+		"sprite_location":"origins:textures/gui/resource_bar.png",
+		"bar_index":4
+	},
+	"key":"key.origins.secondary_active"
 }

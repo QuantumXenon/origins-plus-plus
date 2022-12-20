@@ -1,6 +1,4 @@
 {
-	"name":"Forager",
-	"description":"Breaking grass with hoes has a small chance to give carrots or potatoes.",
 	"condition":{
 		"type":"origins:equipped_item",
 		"equipment_slot":"mainhand",

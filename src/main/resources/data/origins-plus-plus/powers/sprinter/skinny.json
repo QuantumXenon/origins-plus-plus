@@ -1,12 +1,8 @@
-  
 {
-  "type": "origins:attribute",
-  "modifier": {
-    "name": "Fragile health reduction",
-    "attribute": "minecraft:generic.max_health",
-    "value": -4.0,
-    "operation": "addition"
-  },
-  "name": "Skinny",
-  "description": "You have two less hearts than normal."
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.max_health",
+		"value":-4.0,
+		"operation":"addition"
+	}
 }

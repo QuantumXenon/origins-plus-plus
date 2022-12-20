@@ -1,6 +1,4 @@
 {
-	"name":"Blob Creature",
-	"description":"You are as tall as a husk, but you have fewer hearts.",
 	"type":"origins:multiple",
 	"size":{
 		"type":"origins:action_on_callback",

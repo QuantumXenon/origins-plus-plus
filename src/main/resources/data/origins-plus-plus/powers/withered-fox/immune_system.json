@@ -1,11 +1,9 @@
 {
-        "type": "origins:effect_immunity",
-        "effects": [
-          "minecraft:poison",
-          "minecraft:wither",
-          "minecraft:hunger",
-          "minecraft:weakness"
-        ],
-		"name": "Immune System",
-		"description": "Due to living in the nether you have grown an immunity to poison, hunger, wither, nausea, and weakness."
+	"type":"origins:effect_immunity",
+	"effects":[
+		"minecraft:poison",
+		"minecraft:wither",
+		"minecraft:hunger",
+		"minecraft:weakness"
+	]
 }

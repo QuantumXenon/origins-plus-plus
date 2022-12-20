@@ -6,13 +6,13 @@
 		"origins:light_armor",
 		"origins-plus-plus:magmean/antivore",
 		"origins-plus-plus:magmean/bouncy",
-		"origins-plus-plus:magmean/disable_regen",
-		"origins-plus-plus:magmean/droploot",
-		"origins-plus-plus:magmean/lavafeed",
-		"origins-plus-plus:magmean/lavaspeed",
-		"origins-plus-plus:magmean/nofall",
-		"origins-plus-plus:magmean/regen",
-		"origins-plus-plus:magmean/spicyhands"
+		"origins-plus-plus:magmean/disable_regeneration",
+		"origins-plus-plus:magmean/drop_loot",
+		"origins-plus-plus:magmean/lava_feed",
+		"origins-plus-plus:magmean/lava_speed",
+		"origins-plus-plus:magmean/no_fall_damage",
+		"origins-plus-plus:magmean/regeneration",
+		"origins-plus-plus:magmean/spicy_hands"
 	],
 	"icon": "minecraft:magma_cream",
 	"impact": 3

@@ -1,7 +1,5 @@
 {
-  "type": "origins:elytra_flight",
-  "render_elytra": true,
-  "texture_location": "minecraft:textures/entity/elytra.png",
-  "name": "Dragon Wings",
-  "description": "Your draconic ancestry has granted you wings."
+	"type":"origins:elytra_flight",
+	"render_elytra":true,
+	"texture_location":"minecraft:textures/entity/elytra.png"
 }

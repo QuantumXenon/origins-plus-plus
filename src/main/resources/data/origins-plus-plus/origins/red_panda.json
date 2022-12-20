@@ -1,10 +1,10 @@
 {
 	"powers": [
+		"origins-plus-plus:red-panda/bamboo_eater",
 		"origins-plus-plus:red-panda/cute",
 		"origins-plus-plus:red-panda/diet",
 		"origins-plus-plus:red-panda/flammable",
-		"origins-plus-plus:red-panda/item_eater",
-		"origins-plus-plus:red-panda/junglenative",
+		"origins-plus-plus:red-panda/jungle_native",
 		"origins-plus-plus:red-panda/lazy",
 		"origins-plus-plus:red-panda/nocturnal",
 		"origins-plus-plus:red-panda/sharp_claws"

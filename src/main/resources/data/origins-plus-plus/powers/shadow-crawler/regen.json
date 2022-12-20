@@ -1,61 +1,60 @@
 {
-    "type": "origins:multiple",
-
-    "bright":{
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-        "type": "origins:heal",
-        "amount": 1
-            }
-        ]
-    },
-    "interval": 50,
-    "condition": {
-    "type": "origins:and",
-    "conditions": [
-        {
-            "type": "origins:brightness",
-            "comparison": ">=",
-            "compare_to": 0.5
-        },
-        {
-            "type": "origins:health",
-            "comparison": "<",
-            "compare_to": 16
-        }
-    ]
-}
-},
-"dark":{
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-        "type": "origins:heal",
-        "amount": 1
-            }
-        ]
-    },
-    "interval": 50,
-    "condition": {
-    "type": "origins:and",
-    "conditions": [
-        {
-            "type": "origins:brightness",
-            "comparison": "<=",
-            "compare_to": 0.4
-        },
-        {
-            "type": "origins:health",
-            "comparison": "<",
-            "compare_to": 28
-        }
-    ]
-}
-},
-"hidden": true
+	"type":"origins:multiple",
+	"bright":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:heal",
+					"amount":1
+				}
+			]
+		},
+		"interval":50,
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:brightness",
+					"comparison":">=",
+					"compare_to":0.5
+				},
+				{
+					"type":"origins:health",
+					"comparison":"<",
+					"compare_to":16
+				}
+			]
+		}
+	},
+	"dark":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:heal",
+					"amount":1
+				}
+			]
+		},
+		"interval":50,
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:brightness",
+					"comparison":"<=",
+					"compare_to":0.4
+				},
+				{
+					"type":"origins:health",
+					"comparison":"<",
+					"compare_to":28
+				}
+			]
+		}
+	},
+	"hidden":true
 }

@@ -2,13 +2,13 @@
 	"powers": [
 		"origins-plus-plus:mothling/boost",
 		"origins-plus-plus:mothling/flight",
-		"origins-plus-plus:mothling/hidediet",
+		"origins-plus-plus:mothling/hide_diet",
 		"origins-plus-plus:mothling/lantern",
-		"origins-plus-plus:mothling/leatherdiet",
+		"origins-plus-plus:mothling/leather_diet",
 		"origins-plus-plus:mothling/lifespan",
-		"origins-plus-plus:mothling/nofood",
+		"origins-plus-plus:mothling/no_food",
 		"origins-plus-plus:mothling/small",
-		"origins-plus-plus:mothling/soundeffect",
+		"origins-plus-plus:mothling/sound_effect",
 		"origins-plus-plus:mothling/weight",
 		"origins-plus-plus:mothling/zapper"
 	],

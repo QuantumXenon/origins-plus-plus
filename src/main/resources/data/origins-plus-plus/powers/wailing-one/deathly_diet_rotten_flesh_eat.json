@@ -1,18 +1,18 @@
 {
-  "hidden": true,
-  "type": "origins:modify_food",
-  "item_condition": {
-    "type": "origins:ingredient",
-    "ingredient": {
-      "item": "minecraft:rotten_flesh"
-    }
-  },
-  "food_modifier": {
-    "operation": "addition",
-    "value": 5.0
-  },
-  "saturation_modifier": {
-    "operation": "addition",
-    "value": 1.5
-  }
+	"hidden":true,
+	"type":"origins:modify_food",
+	"item_condition":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:rotten_flesh"
+		}
+	},
+	"food_modifier":{
+		"operation":"addition",
+		"value":5.0
+	},
+	"saturation_modifier":{
+		"operation":"addition",
+		"value":1.5
+	}
 }

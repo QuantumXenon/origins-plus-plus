@@ -7,16 +7,14 @@
 				"type":"origins:apply_effect",
 				"effect":{
 					"effect":"minecraft:resistance",
-					"duration":200,
-					"amplifier":0
+					"duration":200
 				}
 			},
 			{
 				"type":"origins:apply_effect",
 				"effect":{
 					"effect":"minecraft:speed",
-					"duration":200,
-					"amplifier":0
+					"duration":200
 				}
 			}
 		]
@@ -25,8 +23,8 @@
 	"condition":{
 		"type":"origins:block_in_radius",
 		"block_condition":{
-			"type":"origins:in_tag",
-			"tag":"origins-plus-plus:soul_lantern"
+			"type":"origins:block",
+			"block":"minecraft:soul_lantern"
 		},
 		"radius":12,
 		"shape":"cube",

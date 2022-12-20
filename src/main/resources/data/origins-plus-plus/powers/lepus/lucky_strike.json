@@ -1,6 +1,4 @@
 {
-	"name":"Lucky Strike",
-	"description":"Melee hits have a 1/7 chance to deal 2x damage.",
 	"condition":{
 		"type":"origins:predicate",
 		"predicate":"origins-plus-plus:seventh"

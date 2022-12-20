@@ -1,6 +1,4 @@
 {
-	"name":"Amethyst Eater",
-	"description":"You can eat amethyst shards due to thinking they are a part of you.",
 	"key":"key.use",
 	"type":"origins:active_self",
 	"cooldown":50,

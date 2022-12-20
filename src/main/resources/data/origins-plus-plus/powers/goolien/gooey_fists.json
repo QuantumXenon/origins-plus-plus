@@ -1,12 +1,10 @@
-{  
-    "name": "Gooey Fists",
-    "description": "Because you are not entirely solid, you deal reduced damage.",
-    "type": "origins:multiple",
-    "less_damage_dealt": {
-        "type": "origins:modify_damage_dealt",
-        "modifier": {
-            "operation": "multiply_base",
-            "value": -0.25
-        }
-    }
+{
+	"type":"origins:multiple",
+	"less_damage_dealt":{
+		"type":"origins:modify_damage_dealt",
+		"modifier":{
+			"operation":"multiply_base",
+			"value":-0.25
+		}
+	}
 }

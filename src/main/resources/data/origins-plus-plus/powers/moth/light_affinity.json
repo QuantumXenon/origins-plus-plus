@@ -1,7 +1,5 @@
 {
 	"type":"origins:action_over_time",
-	"name":"Light Affinity",
-	"description":"Due to your infatuation with light, you gain various buffs around different light sources.",
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[
@@ -9,8 +7,7 @@
 				"type":"origins:apply_effect",
 				"effect":{
 					"effect":"minecraft:speed",
-					"duration":200,
-					"amplifier":0
+					"duration":200
 				}
 			}
 		]

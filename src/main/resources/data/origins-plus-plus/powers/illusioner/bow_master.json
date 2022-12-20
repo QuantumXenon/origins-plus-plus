@@ -1,7 +1,5 @@
 {
 	"type":"origins:conditioned_attribute",
-	"name":"Bow Master",
-	"description":"Because you are now a master with bows, they do even more damage",
 	"badges":[
 		{
 			"sprite":"origins:textures/gui/badge/star.png",

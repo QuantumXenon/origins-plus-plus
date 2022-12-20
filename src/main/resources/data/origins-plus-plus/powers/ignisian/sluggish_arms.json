@@ -1,10 +1,8 @@
 {
-	"type": "origins:attribute",
-	"name": "Sluggish Arms",
-	"description": "Your sluggish arms affect your break speed and attack speed by 25%",
-	"modifier": {
-		"attribute": "minecraft:generic.attack_speed",
-		"operation": "multiply_base",
-		"value": -0.25
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.attack_speed",
+		"operation":"multiply_base",
+		"value":-0.25
 	}
 }

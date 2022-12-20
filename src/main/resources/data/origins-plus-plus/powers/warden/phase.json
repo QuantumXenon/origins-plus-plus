@@ -33,10 +33,9 @@
 		"min_stacks":0,
 		"max_stacks":1,
 		"effect":{
-			"duration":0,
 			"show_particles":false,
 			"show_icon":false,
-			"effect":"weakness",
+			"effect":"minecraft:weakness",
 			"amplifier":100
 		}
 	},
@@ -67,10 +66,9 @@
 		"max_stacks":1,
 		"duration_per_stack":20,
 		"effect":{
-			"duration":0,
 			"show_particles":false,
 			"show_icon":false,
-			"effect":"wither",
+			"effect":"minecraft:wither",
 			"amplifier":1
 		},
 		"condition":{
@@ -119,7 +117,5 @@
 			"resource":"*:*_resource",
 			"change":500
 		}
-	},
-	"name":"Phase",
-	"description":"You can pass through blocks (but it's too unstable to phase for long)."
+	}
 }

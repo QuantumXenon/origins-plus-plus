@@ -1,10 +1,7 @@
 {
-  "type":"origins:modify_exhaustion",
-  "modifier":{
-     "name":"Extra exhaustion from large appetite",
-     "value":0.6,
-     "operation":"multiply_base"
-  },
-  "name": "Large Appetite",
-  "description": "Because your body now requires more energy, causing you to eat more often."
+	"type":"origins:modify_exhaustion",
+	"modifier":{
+		"value":0.6,
+		"operation":"multiply_base"
+	}
 }

@@ -1,20 +1,16 @@
 {
-    "name": "Miniature Conduit",
-    "description": "With your core being a heart of the sea, you permanently have the effects of a conduit when in water.",
-    "condition": {
-        "type": "origins:submerged_in",
-        "fluid": "water"
-    },
-    "type": "origins:stacking_status_effect",
-    "min_stacks": -8,
-    "max_stacks": 20,
-    "duration_per_stack": 40,
-    "tick_rate": 10,
-    "effect": {
-        "effect": "minecraft:conduit_power",
-        "duration": 100,
-        "amplifier": 0,
-        "show_particles": false,
-        "show_icon": false
-    }
+	"condition":{
+		"type":"origins:submerged_in",
+		"fluid":"water"
+	},
+	"type":"origins:stacking_status_effect",
+	"min_stacks":-8,
+	"max_stacks":20,
+	"duration_per_stack":40,
+	"effect":{
+		"effect":"minecraft:conduit_power",
+		"duration":100,
+		"show_particles":false,
+		"show_icon":false
+	}
 }

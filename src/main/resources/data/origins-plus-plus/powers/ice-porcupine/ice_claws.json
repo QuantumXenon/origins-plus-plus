@@ -1,10 +1,8 @@
 {
-    "type": "origins:attribute",
-        "modifier": {
-            "attribute": "minecraft:generic.attack_damage",
-            "operation": "addition",
-            "value": 2
-        },
-        "name": "Ice Claws",
-        "description": "You deal slightly more damage when hitting with an empty hand."
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.attack_damage",
+		"operation":"addition",
+		"value":2
+	}
 }

@@ -1,7 +1,5 @@
 {
 	"type":"origins:multiple",
-	"name":"Damage Glitch",
-	"description":"When critical hitting something, you have 25% chance to accidentally deal 3 hearts of damage to yourself instead.",
 	"entity_action":{
 		"type":"origins:self_action_when_hit",
 		"cooldown":200,
@@ -12,7 +10,6 @@
 	},
 	"power":{
 		"type":"origins:self_action_on_hit",
-		"cooldown":1,
 		"entity_action":{
 			"type":"origins:chance",
 			"chance":0.25,

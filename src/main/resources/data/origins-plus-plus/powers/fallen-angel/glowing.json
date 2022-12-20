@@ -1,16 +1,12 @@
 {
-    "name": "Demonic Presence",
-    "description": "You are glowing due to your immense demonic energy.",
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
-    "max_stacks": 1,
-    "duration_per_stack": 20,
-    "effect": {
-        "effect": "minecraft:glowing",
-        "duration": 100,
-        "amplifier": 0,
-        "is_ambient": false,
-        "show_particles": false,
-        "show_icon": false
-    }
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effect":{
+		"effect":"minecraft:glowing",
+		"duration":100,
+		"show_particles":false,
+		"show_icon":false
+	}
 }

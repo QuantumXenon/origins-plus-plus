@@ -1,20 +1,18 @@
 {
 	"type":"origins:prevent_item_use",
 	"item_condition":{
-	   "type":"origins:and",
-	   "conditions":[
-		  {
-			 "type":"origins:ingredient",
-			 "ingredient":{
-				"tag":"origins-plus-plus:edible"
-			 },
-			 "inverted":true
-		  },
-		  {
-			 "type":"origins:food"
-		  }
-	   ]
-	},
-	"name":"No Food",
-	"description":"You can only eat flowers, leaves, grass, hay, hay blocks for saturation."
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"tag":"origins-plus-plus:edible"
+				},
+				"inverted":true
+			},
+			{
+				"type":"origins:food"
+			}
+		]
+	}
 }

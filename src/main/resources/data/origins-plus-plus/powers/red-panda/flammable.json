@@ -1,14 +1,10 @@
 {
-  "type": "origins:modify_damage_taken",
-  "modifier": {
-	"name": "Origin modifier",
-	"value": 0.5,
-	"operation": "multiply_base"
-  },
-  "damage_condition": {
-	"type": "origins:fire"
-  },
-  "hidden": false,
-  "name": "Fur",
-  "description": "Your fur makes you so fluffy! but it also means you take 50% more fire damage"
+	"type":"origins:modify_damage_taken",
+	"modifier":{
+		"value":0.5,
+		"operation":"multiply_base"
+	},
+	"damage_condition":{
+		"type":"origins:fire"
+	}
 }

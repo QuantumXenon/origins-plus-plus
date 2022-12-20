@@ -1,6 +1,4 @@
 {
-	"name": "Finally, Some Good Freaking Food",
-	"description": "Dried Kelp gives more hunger.",
 	"type": "origins:multiple",
 	"fish_1": {
 	  "type": "origins:modify_food",

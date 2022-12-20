@@ -1,27 +1,24 @@
 {
-	"name":"Bunny Hop",
-	"description":"Your natural jump is two blocks high, and is unnaffected when sprinting or sneaking.",
+	"type":"origins:modify_jump",
+	"modifier":{
+		"operation":"multiply_base",
+		"value":0.4
+	},
 	"condition":{
 		"type":"origins:and",
 		"conditions":[
 			{
-				"inverted":true,
-				"type":"origins:sprinting"
+				"type":"origins:sprinting",
+				"inverted":true
 			},
 			{
-				"inverted":true,
-				"type":"origins:sneaking"
+				"type":"origins:sneaking",
+				"inverted":true
 			},
 			{
-				"inverted":true,
-				"type":"origins:collided_horizontally"
+				"type":"origins:collided_horizontally",
+				"inverted":true
 			}
 		]
-	},
-	"type":"origins:modify_jump",
-	"modifier":{
-		"operation":"multiply_base",
-		"value":0.4,
-		"name":"b-hop"
 	}
 }

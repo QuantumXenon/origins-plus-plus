@@ -1,0 +1,7 @@
+{
+	"type":"origins:night_vision",
+	"strength":1,
+	"condition":{
+		"type":"origins:exposed_to_sky"
+	}
+}

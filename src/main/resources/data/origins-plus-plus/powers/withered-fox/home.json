@@ -1,8 +1,6 @@
 {
-    "type": "origins:modify_player_spawn",
-    "dimension": "minecraft:the_nether",
-    "structure": "minecraft:fortress",
-    "spawn_strategy": "center",
-    "name": "Home",
-    "description": "Your natural spawn is the nether."
+	"type":"origins:modify_player_spawn",
+	"dimension":"minecraft:the_nether",
+	"structure":"minecraft:fortress",
+	"spawn_strategy":"center"
 }

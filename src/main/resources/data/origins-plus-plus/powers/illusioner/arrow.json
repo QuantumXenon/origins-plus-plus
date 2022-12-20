@@ -1,7 +1,5 @@
 {
 	"type":"origins:fire_projectile",
-	"name":"All is Not as it Seems",
-	"description":"You can shoot a blindness arrow",
 	"badges":[
 		{
 			"sprite":"origins:textures/gui/badge/star.png",

@@ -1,27 +1,25 @@
 {
-    "type": "origins:active_self",
-    "entity_action": {
-        "type": "origins:execute_command",
-        "command": "function origins-plus-plus:deathsworn/unleash"
-    },
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:resource",
-                "resource": "origins-plus-plus:deathsworn/soul_bar",
-                "comparison": ">",
-                "compare_to": 9
-            }
-        ]
-    },
-    "cooldown": 40,
-    "hud_render": {
-        "should_render": true,
-        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-        "bar_index": 5
-    },
-    "name": "Unleash Potential",
-    "description": "Sacrifice your vitality to unleash a special ability of all your minions within 8 blocks. You will receive a book detailing each.\nRequires your SOUL to be higher than 50%, but doesn't consume SOUL.",
-    "key": "key.origins.secondary_active"
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:deathsworn/unleash"
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:resource",
+				"resource":"origins-plus-plus:deathsworn/soul_bar",
+				"comparison":">",
+				"compare_to":9
+			}
+		]
+	},
+	"cooldown":40,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index":5
+	},
+	"key":"key.origins.secondary_active"
 }

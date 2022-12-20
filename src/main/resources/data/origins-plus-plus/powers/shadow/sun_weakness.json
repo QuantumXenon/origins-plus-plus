@@ -1,27 +1,24 @@
 {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
-    "max_stacks": 1,
-    "duration_per_stack": 20,
-    "effects": [{
-            "effect": "minecraft:weakness",
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": false
-        },
-        {
-            "effect": "minecraft:slowness",
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": false
-        }
-    ],
-    "condition": {
-        "type": "origins:exposed_to_sun",
-		"block_condition": {
-			"type": "origins:exposed_to_sky"
-        }
-    },
-     "name": "The Weakness of the Sun",
-    "description": "The Sun produces a lot of light, meaning you are weak to it. You gain slowness and weakness when exposed to the harsh rays of the Sun."
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effects":[
+		{
+			"effect":"minecraft:weakness",
+			"show_particles":false,
+			"show_icon":false
+		},
+		{
+			"effect":"minecraft:slowness",
+			"show_particles":false,
+			"show_icon":false
+		}
+	],
+	"condition":{
+		"type":"origins:exposed_to_sun",
+		"block_condition":{
+			"type":"origins:exposed_to_sky"
+		}
+	}
 }

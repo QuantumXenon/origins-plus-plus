@@ -1,9 +1,7 @@
 {
-	"type": "origins:modify_swim_speed",
-	"name": "Water Loathing",
-	"description": "The density of water restricts your movements. You swim three times slower.",
-	"modifier": {
-		"operation": "multiply_base",
-		"value": -0.667
+	"type":"origins:modify_swim_speed",
+	"modifier":{
+		"operation":"multiply_base",
+		"value":-0.667
 	}
 }

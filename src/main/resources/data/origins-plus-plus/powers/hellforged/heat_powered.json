@@ -1,31 +1,29 @@
 {
-	"name": "Heat Powered",
-	"description": "You take damage if you aren’t on fire or submerged in lava.",
-	 "type": "origins:damage_over_time",
-    "interval": 35,
-    "onset_delay": 100,
-    "damage": 2,
-    "damage_easy": 1,
-    "damage_source": {
-        "name": "froze to death",
-        "unblockable": true,
-        "bypasses_armor": true
-    },
-    "protection_enchantment": "origins:water_protection",
-    "protection_effectiveness": 1.0,
-    "condition": {
-        "type": "origins:or",
-        "conditions": [
-            {
-                "type": "origins:fluid_height",
-                "fluid": "minecraft:lava",
-                "comparison": ">",
-                "compare_to": 0.0,
-				"inverted": true
-            },
-            {
-                "type": "origins:in_rain"
-            }
-        ]
-    }
+	"type":"origins:damage_over_time",
+	"interval":35,
+	"onset_delay":100,
+	"damage":2,
+	"damage_easy":1,
+	"damage_source":{
+		"name":"froze to death",
+		"unblockable":true,
+		"bypasses_armor":true
+	},
+	"protection_enchantment":"origins:water_protection",
+	"protection_effectiveness":1.0,
+	"condition":{
+		"type":"origins:or",
+		"conditions":[
+			{
+				"type":"origins:fluid_height",
+				"fluid":"minecraft:lava",
+				"comparison":">",
+				"compare_to":0.0,
+				"inverted":true
+			},
+			{
+				"type":"origins:in_rain"
+			}
+		]
+	}
 }

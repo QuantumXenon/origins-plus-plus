@@ -1,0 +1,60 @@
+{
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:if_else_list",
+		"actions":[
+			{
+				"condition":{
+					"type":"origins:equipped_item",
+					"equipment_slot":"mainhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"red_dye"
+						}
+					}
+				},
+				"action":{
+					"type":"origins:raycast",
+					"distance":16,
+					"command_at_hit":"function origins-plus-plus:witch-of-ink/brush/red"
+				}
+			},
+			{
+				"condition":{
+					"type":"origins:equipped_item",
+					"equipment_slot":"mainhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"blue_dye"
+						}
+					}
+				},
+				"action":{
+					"type":"origins:raycast",
+					"distance":16,
+					"command_at_hit":"function origins-plus-plus:witch-of-ink/brush/blue"
+				}
+			},
+			{
+				"condition":{
+					"type":"origins:equipped_item",
+					"equipment_slot":"mainhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"green_dye"
+						}
+					}
+				},
+				"action":{
+					"type":"origins:raycast",
+					"distance":16,
+					"command_at_hit":"function origins-plus-plus:witch-of-ink/brush/green"
+				}
+			}
+		]
+	},
+	"key":"key.use"
+}

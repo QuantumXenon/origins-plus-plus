@@ -1,12 +1,10 @@
 {
-	"type": "origins:modify_damage_taken",
-	"damage_condition": {
-		"type": "origins:fire"
+	"type":"origins:modify_damage_taken",
+	"damage_condition":{
+		"type":"origins:fire"
 	},
-	"modifier": {
-		"operation": "multiply_base",
-		"value": 2
-	},
-	"name": "Fire Damage",
-	"description": "You take 2x more fire damage."
+	"modifier":{
+		"operation":"multiply_base",
+		"value":2
+	}
 }

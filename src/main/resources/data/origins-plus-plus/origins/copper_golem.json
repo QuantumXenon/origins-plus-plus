@@ -7,8 +7,8 @@
         "origins-plus-plus:copper-golem/no_food",
         "origins-plus-plus:copper-golem/oxidation_action",
         "origins-plus-plus:copper-golem/oxidation_resource",
-        "origins-plus-plus:copper-golem/smol",
-        "origins-plus-plus:copper-golem/stronk"
+        "origins-plus-plus:copper-golem/small",
+        "origins-plus-plus:copper-golem/strong"
     ],
     "icon": "minecraft:copper_ingot",
     "impact": 3

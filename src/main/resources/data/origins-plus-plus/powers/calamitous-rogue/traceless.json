@@ -1,18 +1,12 @@
 {
-    "type": "origins:self_action_on_kill",
-    "entity_action": {
-        "type": "origins:delay",
-        "ticks": 2,
-        "action": {
-            "type": "origins:change_resource",
-            "resource": "*:stealth_bar",
-            "change": 5
-        }
-    },
-    "cooldown": 0,
-    "hud_render": {
-        "should_render": false
-    },
-    "name": "Without a Trace",
-    "description": "Your Stealth bar refills instantly after scoring a kill."
+	"type":"origins:self_action_on_kill",
+	"entity_action":{
+		"type":"origins:delay",
+		"ticks":2,
+		"action":{
+			"type":"origins:change_resource",
+			"resource":"*:stealth_bar",
+			"change":5
+		}
+	}
 }

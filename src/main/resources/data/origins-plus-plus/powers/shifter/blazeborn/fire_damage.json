@@ -1,0 +1,21 @@
+{
+	"type":"origins:modify_damage_dealt",
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:on_fire"
+			},
+			{
+				"type":"origins:resource",
+				"resource":"origins-plus-plus:shifter/shift_bar",
+				"comparison":"==",
+				"compare_to":8
+			}
+		]
+	},
+	"modifier":{
+		"value":1.5,
+		"operation":"addition"
+	}
+}

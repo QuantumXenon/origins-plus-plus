@@ -1,7 +1,5 @@
 {
 	"type":"origins:fire_projectile",
-	"name":"All is Not as it Seems",
-	"description":"Because you are so manipulative, you can play with peoples heads. You can shoot a beam giving the target nausea.",
 	"badges":[
 		{
 			"sprite":"origins:textures/gui/badge/star.png",

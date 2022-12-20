@@ -1,7 +1,5 @@
 {
-	"type": "origins:lava_vision",
-	"s": 0.0,
-	"v": 50.0,
-	"name": "Lava Vision",
-	"description": "Since you are most of the time covered in lava you have adjusted to see in it."
+	"type":"origins:lava_vision",
+	"s":0.0,
+	"v":50.0
 }

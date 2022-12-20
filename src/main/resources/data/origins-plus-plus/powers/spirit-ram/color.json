@@ -1,9 +1,7 @@
 {
-    "type": "origins:model_color",
-    "red": 1,
-    "green": 1,
-    "blue": 1,
-    "alpha": 0.5,
-    "name": "Spirit Being",
-    "description": "Your skin is slightly transparent."
+	"type":"origins:model_color",
+	"red":1,
+	"green":1,
+	"blue":1,
+	"alpha":0.5
 }

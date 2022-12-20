@@ -1,0 +1,44 @@
+{
+	"type":"origins:active_self",
+	"cooldown":10,
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"mainhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:rabbit_hide"
+					}
+				}
+			},
+			{
+				"type":"origins:food_level",
+				"comparison":"<",
+				"compare_to":20
+			}
+		]
+	},
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"clear @s minecraft:rabbit_hide 1"
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:entity.dolphin.eat player @s ~ ~ ~ 1 1"
+			},
+			{
+				"type":"origins:feed",
+				"food":2,
+				"saturation":0.2
+			}
+		]
+	},
+	"key":"key.use",
+	"hidden":true
+}

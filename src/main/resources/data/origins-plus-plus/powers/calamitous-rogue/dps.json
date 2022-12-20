@@ -1,5 +1,3 @@
 {
-    "type": "origins:simple",
-    "name": "Bad DPS",
-    "description": "As an assassin, you suffer from reduced damage if your Stealth bar isn't full."
+	"type":"origins:simple"
 }

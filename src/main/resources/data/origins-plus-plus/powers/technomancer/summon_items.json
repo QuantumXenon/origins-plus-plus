@@ -1,16 +1,14 @@
 {
-    "type": "origins:action_on_callback",
-    "entity_action_chosen": {
-        "type":"origins:execute_command",
-        "command":"execute as @s run function origins-plus-plus:technomancer/technomancer_items_give",
-        "permission_level":4
-    },
-    "entity_action_respawned": {
-        "type": "origins:execute_command",
-        "command": "execute as @s run function origins-plus-plus:technomancer/technomancer_items_give",
-        "permission_level": 4
-    },
-    "execute_chosen_when_orb": true,
-    "name":"Items",
-    "description":"As a Technomancer, your powers are bound to the \"Staff of Aldo\", a powerful mancer staff first designed by the Godfather of Technomancy, Aldo Aarif. Use the staff in your offhand and hold the Conduits in your mainhand to cast spells."
+	"type":"origins:action_on_callback",
+	"entity_action_chosen":{
+		"type":"origins:execute_command",
+		"command":"execute as @s run function origins-plus-plus:technomancer/technomancer_items_give",
+		"permission_level":4
+	},
+	"entity_action_respawned":{
+		"type":"origins:execute_command",
+		"command":"execute as @s run function origins-plus-plus:technomancer/technomancer_items_give",
+		"permission_level":4
+	},
+	"execute_chosen_when_orb":true
 }

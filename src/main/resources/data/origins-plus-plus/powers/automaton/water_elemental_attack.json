@@ -1,0 +1,109 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:area_of_effect",
+				"radius": 5,
+				"bientity_action": {
+					"type": "origins:target_action",
+					"action": {
+						"type": "origins:and",
+						"actions": [{
+								"type": "origins:gain_air",
+								"value": -400
+							},
+							{
+								"type": "origins:damage",
+								"amount": 8,
+								"source": {
+									"name": "hurt_by_water",
+									"unblockable": false,
+									"bypasses_armor": false
+								}
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "particle minecraft:falling_water ~ ~.5 ~ 1 1 1 9 25 force"
+							},
+							{
+								"type": "origins:extinguish"
+							},
+							{
+								"type": "origins:apply_effect",
+								"effect": {
+									"effect": "minecraft:slowness",
+									"amplifier": 2,
+									"duration": 100
+								}
+							}
+						]
+					}
+				}
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:falling_water ~ ~ ~ 1 0.5 1 0 999"
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 2,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "particle minecraft:falling_water ~ ~ ~ 3 0.5 3 0 999"
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 5,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "particle minecraft:falling_water ~ ~ ~ 5 0.5 5 0 999"
+				}
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:entity.player.splash.high_speed voice @a ~ ~ ~ 9 0.5"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "kill @e[type=enderman,distance=..5]"
+			},
+			{
+				"type": "origins:area_of_effect",
+				"radius": 5,
+				"bientity_action": {
+					"type": "origins:add_velocity",
+					"z": 2,
+					"y": 2
+				}
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "resource change @s origins-plus-plus:automaton/waterbar -5000"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:falling_water ~ ~.5 ~ 0.5 1 0.5 9 25 force"
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:power_active",
+				"power": "origins-plus-plus:automaton/toggle"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "origins-plus-plus:automaton/waterbar",
+				"comparison": ">",
+				"compare_to": 4999
+			}
+		]
+	},
+	"key": "key.origins.primary_active",
+	"cooldown": 500,
+	"name": "Strong Elemental Attacks",
+	"description": "Be warned! This uses a lot of steam!"
+}

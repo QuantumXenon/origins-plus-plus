@@ -1,6 +1,6 @@
 {
-    "type": "origins:model_color",
-    "blue": 0.7,
-    "green": 0.7,
-    "hidden": true
+	"type":"origins:model_color",
+	"blue":0.7,
+	"green":0.7,
+	"hidden":true
 }

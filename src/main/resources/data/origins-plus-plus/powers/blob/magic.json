@@ -1,7 +1,5 @@
 {
 	"type":"origins:multiple",
-	"name":"Own Self",
-	"description":"You can shoot out a part of yourself (This uses 20% of your health bar).",
 	"fire_projectile":{
 		"type":"origins:fire_projectile",
 		"key":"key.origins.primary_active",

@@ -1,98 +1,88 @@
 {
-    "type": "origins:multiple",
-    "increase": {
-        "type": "origins:action_over_time",
-        "interval": 200,
-        "entity_action": {
-            "type": "origins:change_resource",
-            "resource": "origins-plus-plus:golden-golem/gold_resource",
-            "change": 1
-        }
-    },
-    "ability_one": {
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "function origins-plus-plus:golden-golem/speed_up"
-                },
-                {
-                    "type": "origins:change_resource",
-                    "resource": "origins-plus-plus:golden-golem/gold_resource",
-                    "change": -3
-                }
-            ]
-        },
-        "cooldown": 0,
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:resource",
-                    "resource": "origins-plus-plus:golden-golem/gold_resource",
-                    "comparison": ">=",
-                    "compare_to": 3
-                },
-                {
-                    "type": "origins:sneaking",
-                    "inverted": true
-                }
-            ]
-        },
-        "hud_render": {
-            "should_render": false
-        }
-    },
-    "ability_two": {
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "function origins-plus-plus:golden-golem/strength_up"
-                },
-                {
-                    "type": "origins:change_resource",
-                    "resource": "origins-plus-plus:golden-golem/gold_resource",
-                    "change": -5
-                }
-            ]
-        },
-        "cooldown": 0,
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:resource",
-                    "resource": "origins-plus-plus:golden-golem/gold_resource",
-                    "comparison": ">=",
-                    "compare_to": 5
-                },
-                {
-                    "type": "origins:sneaking"
-                }
-            ]
-        },
-        "hud_render": {
-            "should_render": false
-        }
-    },
-    "totem_power": {
-        "type": "origins:prevent_death",
-        "entity_action": {
-            "type": "origins:execute_command",
-            "command": "function origins-plus-plus:golden-golem/resurrect"
-        },
-        "condition": {
-            "type": "origins:resource",
-            "resource": "origins-plus-plus:golden-golem/gold_resource",
-            "comparison": "==",
-            "compare_to": 10
-        }
-    },
-    "name": "Golem's Light",
-    "description": "You have a power bar that goes up to ten. You can use three to increase speed temporarily(primary key). You can also use five to increase strength(primary key while crouching). If the bar is max, it is like holding a totem of undying."
+	"type":"origins:multiple",
+	"increase":{
+		"type":"origins:action_over_time",
+		"interval":200,
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:golden-golem/gold_resource",
+			"change":1
+		}
+	},
+	"ability_one":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:golden-golem/speed_up"
+				},
+				{
+					"type":"origins:change_resource",
+					"resource":"origins-plus-plus:golden-golem/gold_resource",
+					"change":-3
+				}
+			]
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:golden-golem/gold_resource",
+					"comparison":">=",
+					"compare_to":3
+				},
+				{
+					"type":"origins:sneaking",
+					"inverted":true
+				}
+			]
+		}
+	},
+	"ability_two":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:golden-golem/strength_up"
+				},
+				{
+					"type":"origins:change_resource",
+					"resource":"origins-plus-plus:golden-golem/gold_resource",
+					"change":-5
+				}
+			]
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:golden-golem/gold_resource",
+					"comparison":">=",
+					"compare_to":5
+				},
+				{
+					"type":"origins:sneaking"
+				}
+			]
+		}
+	},
+	"totem_power":{
+		"type":"origins:prevent_death",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:golden-golem/resurrect"
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:golden-golem/gold_resource",
+			"comparison":"==",
+			"compare_to":10
+		}
+	}
 }

@@ -1,0 +1,28 @@
+{
+	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index":1
+	},
+	"cooldown":300,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:apply_effect",
+				"effect":{
+					"effect":"minecraft:resistance",
+					"duration":80,
+					"amplifier":4
+				}
+			},
+			{
+				"type":"origins:feed",
+				"food":-7,
+				"saturation":0
+			}
+		]
+	}
+}

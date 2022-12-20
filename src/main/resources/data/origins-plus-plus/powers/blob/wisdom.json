@@ -1,6 +1,4 @@
 {
-	"name":"Wisdom",
-	"description":"You recieve 175% more xp from all sources. Right clicking a book gives you 20 experience points.",
 	"type":"origins:multiple",
 	"xp":{
 		"type":"origins:modify_xp_gain",

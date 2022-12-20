@@ -1,11 +1,8 @@
 {
 	"type":"origins:attribute",
 	"modifier":{
-		"name":"Max health decrease",
 		"attribute":"minecraft:generic.max_health",
 		"value":-10,
 		"operation":"addition"
-	},
-	"name":"Traveler's Curse",
-	"description":"One can only pass through the fabric of space so many times before it takes a toll on their body. You have far less hearts than the average human."
+	}
 }

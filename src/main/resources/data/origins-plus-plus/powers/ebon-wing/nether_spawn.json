@@ -1,8 +1,6 @@
 {
-	"type": "origins:modify_player_spawn",
-	"dimension": "minecraft:the_nether",
-	"biome": "minecraft:crimson_forest",
-	"spawn_strategy": "default",
-	"name": "Banished",
-	"description": "As you feel more at home in the crimson forest, your natural spawn becomes the underworld." 
+	"type":"origins:modify_player_spawn",
+	"dimension":"minecraft:the_nether",
+	"biome":"minecraft:crimson_forest",
+	"spawn_strategy":"default"
 }

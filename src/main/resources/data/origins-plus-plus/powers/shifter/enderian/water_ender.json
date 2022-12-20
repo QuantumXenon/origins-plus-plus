@@ -1,33 +1,30 @@
 {
-    "name": "§5§nHydrophobia",
-    "description": "§5You take damage while in contact with water.",
-    "type": "origins:damage_over_time",
-    "interval": 20,
-    "onset_delay": 1,
-    "damage": 2,
-    "damage_easy": 1,
-    "damage_source": {
-      "name": "hurt_by_water",
-      "unblockable": true,
-      "bypasses_armor": true
-    },
-    "protection_enchantment": "origins:water_protection",
-    "protection_effectiveness": 1.0,
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:fluid_height",
-          "fluid": "minecraft:water",
-          "comparison": ">",
-          "compare_to": 0.0
-        },
-        {
-          "type": "origins:resource",
-          "resource": "origins-plus-plus:shifter/shift_bar",
-          "comparison": "==",
-          "compare_to": 6
-        }
-      ]
-    }
-  }
+	"type":"origins:damage_over_time",
+	"interval":20,
+	"onset_delay":1,
+	"damage":2,
+	"damage_source":{
+		"name":"hurt_by_water",
+		"unblockable":true,
+		"bypasses_armor":true
+	},
+	"protection_enchantment":"origins:water_protection",
+	"protection_effectiveness":1.0,
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:fluid_height",
+				"fluid":"minecraft:water",
+				"comparison":">",
+				"compare_to":0.0
+			},
+			{
+				"type":"origins:resource",
+				"resource":"origins-plus-plus:shifter/shift_bar",
+				"comparison":"==",
+				"compare_to":6
+			}
+		]
+	}
+}

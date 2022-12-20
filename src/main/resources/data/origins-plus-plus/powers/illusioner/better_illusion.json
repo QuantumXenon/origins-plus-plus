@@ -1,6 +1,4 @@
 {
-	"name":"Illusion",
-	"description":"Spawn [4] copies of yourself. To remove the illusion press [Save Toolbar Activator].",
 	"badges":[
 		{
 			"sprite":"origins:textures/gui/badge/star.png",

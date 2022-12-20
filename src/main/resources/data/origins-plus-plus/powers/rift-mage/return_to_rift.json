@@ -31,7 +31,5 @@
 		"objective":"Rift_Mage",
 		"comparison":">",
 		"compare_to":0
-	},
-	"name":"Charon's Boat",
-	"description":"Upon receiving a fatal blow, prevent it and return to your active rift."
+	}
 }

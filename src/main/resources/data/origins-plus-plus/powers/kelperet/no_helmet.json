@@ -1,25 +1,23 @@
 {
-    "type": "origins:restrict_armor",
-    "head": {
-        "type": "origins:armor_value",
-        "comparison": ">=",
-        "compare_to": 0
-    },
-    "chest": {
-        "type": "origins:armor_value",
-        "comparison": "<",
-        "compare_to": 0
-    },
-    "legs": {
-        "type": "origins:armor_value",
-        "comparison": "<",
-        "compare_to": 0
-    },
-    "feet": {
-        "type": "origins:armor_value",
-        "comparison": "<",
-        "compare_to": 0
-    },
-	"name": "Frills",
-	"description": "You can't wear helmets Due to your kelp frills and your heart of the sea core needing to be exposed on your head. You also need to have your bed near water to be able to sleep without going dry."
+	"type":"origins:restrict_armor",
+	"head":{
+		"type":"origins:armor_value",
+		"comparison":">=",
+		"compare_to":0
+	},
+	"chest":{
+		"type":"origins:armor_value",
+		"comparison":"<",
+		"compare_to":0
+	},
+	"legs":{
+		"type":"origins:armor_value",
+		"comparison":"<",
+		"compare_to":0
+	},
+	"feet":{
+		"type":"origins:armor_value",
+		"comparison":"<",
+		"compare_to":0
+	}
 }

@@ -1,10 +1,8 @@
 {
-  "type":"origins:effect_immunity",
-  "effects":[
-     "minecraft:instant_health",
-     "minecraft:regeneration",
-     "minecraft:health_boost"
-  ],
-  "name":"Healing Potions?",
-  "description":"You're only used to potions that cause damage; healing potions won't affect you."
+	"type":"origins:effect_immunity",
+	"effects":[
+		"minecraft:instant_health",
+		"minecraft:regeneration",
+		"minecraft:health_boost"
+	]
 }

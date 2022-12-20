@@ -1,7 +1,5 @@
 {
 	"type":"origins:multiple",
-	"name":"Metal Shell",
-	"description":"Your outer shell is made of metal, so you have some armor and a gray-ish tint.",
 	"gray":{
 		"type":"origins:model_color",
 		"blue":0.6,

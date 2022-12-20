@@ -1,6 +1,4 @@
 {
-	"name":"Weakened By All",
-	"description":"You take triple damage from all mobs.",
 	"type":"origins:multiple",
 	"more_damage_default":{
 		"type":"origins:modify_damage_taken",

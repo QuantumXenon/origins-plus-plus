@@ -1,6 +1,4 @@
 {
-	"name":"Recover",
-	"description":"Use mana to heal yourself.",
 	"type":"origins:active_self",
 	"key":"key.origins.secondary_active",
 	"cooldown":100,

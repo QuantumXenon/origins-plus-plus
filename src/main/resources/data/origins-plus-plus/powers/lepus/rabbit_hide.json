@@ -1,6 +1,4 @@
 {
-	"name":"Hide",
-	"description":"Make rabbit hide out of leather by right-clicking on it with shears in your inventory.",
 	"type":"origins:item_on_item",
 	"using_item_condition":{
 		"type":"origins:ingredient",

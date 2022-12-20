@@ -7,10 +7,7 @@
   },
   "sound": "entity.pig.saddle",
   "speed": 2,
-  "key": {
-    "key": "key.origins.primary_active",
-    "continuous": true
-  },
+  "key": "key.origins.primary_active",
   "name":"Updraft+",
   "description":"Primary Ability: Blast more spores into your cap to launch you higher upwards. 4 second cooldown."
 }

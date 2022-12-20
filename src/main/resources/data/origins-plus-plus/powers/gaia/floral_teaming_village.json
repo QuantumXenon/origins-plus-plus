@@ -1,0 +1,24 @@
+{
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:apply_effect",
+		"effect":{
+			"effect":"minecraft:hero_of_the_village",
+			"duration":200,
+			"amplifier":1
+		}
+	},
+	"interval":40,
+	"condition":{
+		"type":"origins:block_in_radius",
+		"block_condition":{
+			"type":"origins:block",
+			"block":"minecraft:sunflower"
+		},
+		"radius":5,
+		"shape":"cube",
+		"comparison":">",
+		"compare_to":9
+	},
+	"hidden":true
+}

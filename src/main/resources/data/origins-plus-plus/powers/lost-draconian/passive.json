@@ -1,18 +1,16 @@
 {
-	"name": "Dragon Attributes",
-	"description": "Due to you being an old draconia you maintained the attributes you had when you was alive.",
-    "type": "origins:multiple",
-    "slowhunger": {
-        "type": "origins:modify_exhaustion",
-        "modifier": {
-            "operation": "multiply_base",
-            "value": -0.10
-        }
-    },
-	"modifier": {
-		"type": "origins:attribute",
-		"attribute": "minecraft:generic.movement_speed",
-		"value": 0.35,
-		"operation": "addition"
+	"type":"origins:multiple",
+	"slowhunger":{
+		"type":"origins:modify_exhaustion",
+		"modifier":{
+			"operation":"multiply_base",
+			"value":-0.10
+		}
+	},
+	"modifier":{
+		"type":"origins:attribute",
+		"attribute":"minecraft:generic.movement_speed",
+		"value":0.35,
+		"operation":"addition"
 	}
 }

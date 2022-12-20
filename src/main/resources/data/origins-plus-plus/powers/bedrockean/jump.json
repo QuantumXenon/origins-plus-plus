@@ -1,12 +1,12 @@
 {
-	"type": "origins:modify_jump",
-	"modifier": {
-		"operation": "addition",
-		"value": -10
+	"type":"origins:modify_jump",
+	"modifier":{
+		"operation":"addition",
+		"value":-10
 	},
-	"condition": {
-		"type": "origins:power_active",
-		"power": "*:toggle"
+	"condition":{
+		"type":"origins:power_active",
+		"power":"*:toggle"
 	},
-	"hidden": true
+	"hidden":true
 }

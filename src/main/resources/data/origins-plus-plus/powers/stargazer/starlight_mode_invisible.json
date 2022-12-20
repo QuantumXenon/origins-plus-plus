@@ -1,9 +1,9 @@
 {
-    "type": "origins:invisibility",
-    "render_armor": true,
-    "condition": {
-        "type": "origins:power_active",
-        "power": "origins-plus-plus:stargazer/starlight_mode"
-    },
-    "hidden": true
+	"type":"origins:invisibility",
+	"render_armor":true,
+	"condition":{
+		"type":"origins:power_active",
+		"power":"origins-plus-plus:stargazer/starlight_mode"
+	},
+	"hidden":true
 }

@@ -1,13 +1,11 @@
 {
-    "name":"Shields Are Heavy",
-    "description":"You refuse to wield a shield.",
-    "type":"origins:prevent_item_use",
-    "item_condition":{
-       "type":"origins:ingredient",
-       "ingredient":[
-          {
-             "item":"minecraft:shield"
-          }
-       ]
-    }
+	"type":"origins:prevent_item_use",
+	"item_condition":{
+		"type":"origins:ingredient",
+		"ingredient":[
+			{
+				"item":"minecraft:shield"
+			}
+		]
+	}
 }

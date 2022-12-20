@@ -1,8 +1,8 @@
 {
-	"type": "origins:modify_break_speed",
-	"hidden": true,
-	"modifier": {
-		"operation": "multiply_total",
-		"value": -0.25
+	"type":"origins:modify_break_speed",
+	"hidden":true,
+	"modifier":{
+		"operation":"multiply_total",
+		"value":-0.25
 	}
 }

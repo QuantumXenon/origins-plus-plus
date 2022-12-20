@@ -1,9 +1,7 @@
 {
-    "name": "Razor Teeth",
-    "description": "You do +3 attack damage.",
-    "type": "origins:modify_damage_dealt",
-    "modifier": {
-        "operation": "addition",
-        "value": 3
-    }
+	"type":"origins:modify_damage_dealt",
+	"modifier":{
+		"operation":"addition",
+		"value":3
+	}
 }

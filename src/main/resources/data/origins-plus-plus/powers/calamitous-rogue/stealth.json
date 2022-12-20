@@ -1,144 +1,141 @@
 {
-    "type": "origins:multiple",
-    "bar": {
-        "type": "origins:resource",
-        "min": 0,
-        "max": 5,
-        "hud_render": {
-            "should_render": true,
-            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-            "bar_index": 5
-        }
-    },
-    "bad_dmg": {
-        "type": "origins:modify_damage_dealt",
-        "bientity_condition": {
-            "type": "origins:actor_condition",
-            "condition": {
-                "type": "origins:resource",
-                "resource": "*:stealth_bar",
-                "comparison": "<",
-                "compare_to": 5
-            }
-        },
-        "modifier": {
-            "operation": "multiply_total",
-            "value": -0.5
-        }
-    },
-    "fade": {
-        "type": "origins:action_over_time",
-        "entity_action": {
-            "type": "origins:change_resource",
-            "resource": "*:*_bar",
-            "change": 1
-        },
-        "interval": 20
-    },
-    "break": {
-        "type": "origins:self_action_on_hit",
-        "entity_action": {
-            "type": "origins:delay",
-            "ticks": 1,
-            "action": {
-                "type": "origins:change_resource",
-                "resource": "*:*_bar",
-                "change": -5
-            }
-        },
-        "cooldown": 1,
-        "damage_condition": {
-            "type": "origins:name",
-            "name": "aggro",
-            "inverted": true
-        }
-    },
-    "break2": {
-        "type": "origins:self_action_when_hit",
-        "entity_action": {
-            "type": "origins:change_resource",
-            "resource": "*:*_bar",
-            "change": -5
-        },
-        "cooldown": 1
-    },
-    "fade1": {
-        "type": "origins:model_color",
-        "alpha": 0.7,
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_bar",
-            "compare_to": 1,
-            "comparison": "=="
-        }
-    },
-    "fade2": {
-        "type": "origins:model_color",
-        "alpha": 0.5,
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_bar",
-            "compare_to": 2,
-            "comparison": "=="
-        }
-    },
-    "fade3": {
-        "type": "origins:model_color",
-        "alpha": 0.3,
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_bar",
-            "compare_to": 3,
-            "comparison": "=="
-        }
-    },
-    "fade4": {
-        "type": "origins:model_color",
-        "alpha": 0.1,
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_bar",
-            "compare_to": 4,
-            "comparison": "=="
-        }
-    },
-    "invis": {
-        "type": "origins:invisibility",
-        "render_armor": false,
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_bar",
-            "compare_to": 5,
-            "comparison": "=="
-        }
-    },
-    "deaggro": {
-        "type": "origins:action_over_time",
-        "rising_action": {
-            "type": "origins:area_of_effect",
-            "radius": 32,
-            "bientity_action": {
-                "type": "origins:target_action",
-                "action": {
-                    "type": "origins:execute_command",
-                    "command": "power grant @s[type=!player,type=!#origins-plus-plus:untargetable] origins-plus-plus:calamitous-rogue/eff/deaggro"
-                }
-            },
-            "bientity_condition": {
-                "type": "origins:invert",
-                "condition": {
-                    "type": "origins:attack_target"
-                }
-            }
-        },
-        "interval": 1,
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_bar",
-            "compare_to": 5,
-            "comparison": "=="
-        }
-    },
-    "name": "Stealth",
-    "description": "When not attacking or taking damage, you slowly fade into shadows, eventually becoming invisible."
+	"type":"origins:multiple",
+	"bar":{
+		"type":"origins:resource",
+		"min":0,
+		"max":5,
+		"hud_render":{
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+			"bar_index":5
+		}
+	},
+	"bad_dmg":{
+		"type":"origins:modify_damage_dealt",
+		"bientity_condition":{
+			"type":"origins:actor_condition",
+			"condition":{
+				"type":"origins:resource",
+				"resource":"*:stealth_bar",
+				"comparison":"<",
+				"compare_to":5
+			}
+		},
+		"modifier":{
+			"operation":"multiply_total",
+			"value":-0.5
+		}
+	},
+	"fade":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"*:*_bar",
+			"change":1
+		},
+		"interval":20
+	},
+	"break":{
+		"type":"origins:self_action_on_hit",
+		"entity_action":{
+			"type":"origins:delay",
+			"ticks":1,
+			"action":{
+				"type":"origins:change_resource",
+				"resource":"*:*_bar",
+				"change":-5
+			}
+		},
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"aggro",
+			"inverted":true
+		}
+	},
+	"break2":{
+		"type":"origins:self_action_when_hit",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"*:*_bar",
+			"change":-5
+		},
+		"cooldown":1
+	},
+	"fade1":{
+		"type":"origins:model_color",
+		"alpha":0.7,
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_bar",
+			"compare_to":1,
+			"comparison":"=="
+		}
+	},
+	"fade2":{
+		"type":"origins:model_color",
+		"alpha":0.5,
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_bar",
+			"compare_to":2,
+			"comparison":"=="
+		}
+	},
+	"fade3":{
+		"type":"origins:model_color",
+		"alpha":0.3,
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_bar",
+			"compare_to":3,
+			"comparison":"=="
+		}
+	},
+	"fade4":{
+		"type":"origins:model_color",
+		"alpha":0.1,
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_bar",
+			"compare_to":4,
+			"comparison":"=="
+		}
+	},
+	"invis":{
+		"type":"origins:invisibility",
+		"render_armor":false,
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_bar",
+			"compare_to":5,
+			"comparison":"=="
+		}
+	},
+	"deaggro":{
+		"type":"origins:action_over_time",
+		"rising_action":{
+			"type":"origins:area_of_effect",
+			"radius":32,
+			"bientity_action":{
+				"type":"origins:target_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"power grant @s[type=!player,type=!#origins-plus-plus:untargetable] origins-plus-plus:calamitous-rogue/eff/deaggro"
+				}
+			},
+			"bientity_condition":{
+				"type":"origins:invert",
+				"condition":{
+					"type":"origins:attack_target"
+				}
+			}
+		},
+		"interval":1,
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_bar",
+			"compare_to":5,
+			"comparison":"=="
+		}
+	}
 }

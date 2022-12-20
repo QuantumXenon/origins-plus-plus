@@ -1,7 +1,7 @@
 {
-  "type": "origins:elytra_flight",
-  "name": "Feathered Wings",
-  "description": "Birbs can fly with their amazing feathery wings.",
-  "render_elytra": true,
-    "hidden": true
+	"type":"origins:elytra_flight",
+	"name":"Feathered Wings",
+	"description":"Birbs can fly with their amazing feathery wings.",
+	"render_elytra":true,
+	"hidden":true
 }

@@ -36,13 +36,7 @@
 			]
 		},
 		"cooldown":50,
-		"hud_render":{
-			"should_render":false
-		},
-		"key":{
-			"key":"key.use",
-			"continuous":true
-		},
+		"key":"key.use",
 		"condition":{
 			"type":"origins:equipped_item",
 			"equipment_slot":"mainhand",
@@ -53,7 +47,5 @@
 				}
 			}
 		}
-	},
-	"name":"Picky",
-	"description":"You can only eat ender pearls, as a half-Enderman being."
+	}
 }

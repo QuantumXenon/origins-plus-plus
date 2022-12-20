@@ -3,10 +3,8 @@
 	"modifier":{
 		"attribute":"minecraft:generic.armor",
 		"operation":"multiply_total",
-		"value":0.4,
-		"name":"Increased armor"
+		"value":0.4
 	},
-	"tick_rate":20,
 	"condition":{
 		"type":"origins:block_in_radius",
 		"block_condition":{
@@ -17,7 +15,5 @@
 		"shape":"cube",
 		"comparison":">=",
 		"compare_to":1
-	},
-	"name":"Remembrance",
-	"description":"Walking on purpur blocks will increase your armor as memories of your home come back."
+	}
 }

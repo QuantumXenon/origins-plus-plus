@@ -1,0 +1,18 @@
+{
+	"type":"origins:active_self",
+	"cooldown":80,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index":16
+	},
+	"key":"key.origins.primary_active",
+	"entity_action":{
+		"type":"origins:add_velocity",
+		"z":1.50,
+		"space":"local",
+		"set":true
+	}
+}
+
+

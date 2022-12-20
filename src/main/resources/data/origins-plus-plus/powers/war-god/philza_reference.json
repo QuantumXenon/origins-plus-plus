@@ -1,5 +1,3 @@
 {
-    "name": "Philza Reference",
-    "description": "Elytrians deals double damage when attacking you.",
-    "type": "origins:simple"
+	"type":"origins:simple"
 }

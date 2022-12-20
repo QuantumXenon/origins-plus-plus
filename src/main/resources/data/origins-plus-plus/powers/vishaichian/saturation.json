@@ -1,12 +1,11 @@
 {
-    "type": "origins:modify_food",
-    "item_condition": {
-        "inverted": false,
-        "type": "origins:food"
-    },
-    "saturation_modifier": {
-        "operation": "multiply_base",
-        "value": 0.5
-    },
-	"hidden": true
+	"type":"origins:modify_food",
+	"item_condition":{
+		"type":"origins:food"
+	},
+	"saturation_modifier":{
+		"operation":"multiply_base",
+		"value":0.5
+	},
+	"hidden":true
 }

@@ -1,29 +1,25 @@
 {
 	"type":"origins:active_self",
-	"key":{
-	   "key":"key.origins.secondary_active"
-	},
+	"key":"key.origins.secondary_active",
 	"cooldown":100,
 	"hud_render":{
-	   "should_render":true,
-	   "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
-	   "bar_index":5
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index":5
 	},
 	"entity_action":{
-	   "type":"origins:and",
-	   "actions":[
-		  {
-			 "type":"origins:execute_command",
-			 "command":"effect give @s minecraft:invisibility 6 0 false",
-			 "permission_level":4
-		  },
-		  {
-			 "type":"origins:execute_command",
-			 "command":"playsound minecraft:entity.illusioner.cast_spell master @s ~ ~ ~ 20 1.25",
-			 "permission_level":4
-		  }
-	   ]
-	},
-	"name":"Vanish",
-	"description":"Using your demonic powers, you manipulate your ice to bend light around you, going invisible for five seconds, on a cooldown. [Secondary]"
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"effect give @s minecraft:invisibility 6 0 false",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:entity.illusioner.cast_spell master @s ~ ~ ~ 20 1.25",
+				"permission_level":4
+			}
+		]
+	}
 }

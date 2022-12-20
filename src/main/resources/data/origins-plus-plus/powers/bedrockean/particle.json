@@ -1,12 +1,12 @@
 {
 	"type":"origins:multiple",
 	"sum":{
-		"type": "origins:active_self",
+		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:if_else",
 			"condition":{
-			"type":"origins:power_active",
-			"power":"origins-plus-plus:bedrockean/toggle"
+				"type":"origins:power_active",
+				"power":"origins-plus-plus:bedrockean/toggle"
 			},
 			"if_action":{
 				"type":"origins:execute_command",
@@ -16,10 +16,6 @@
 				"type":"origins:execute_command",
 				"command":"execute at @s run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:\"minecraft:bedrock\"},Time:1,Tags:[\"Bed\"],NoGravity:1b,DropItem:0b}"
 			}
-		},
-		"cooldown":1,
-		"hud_render":{
-			"should_render":false
 		}
 	},
 	"spaw":{

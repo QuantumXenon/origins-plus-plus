@@ -1,34 +1,32 @@
 {
-	"type": "origins:prevent_item_use",
-	"name": "Flesh Craver",
-	"description": "You abhor any food that touches no blood. Only meat can be consumed. Human flesh also satiates your hunger more, even if it is rotten.",
-	"item_condition": {
-		"type": "origins:and",
-		"conditions": [
+	"type":"origins:prevent_item_use",
+	"item_condition":{
+		"type":"origins:and",
+		"conditions":[
 			{
-				"type": "origins:or",
-				"conditions": [
+				"type":"origins:or",
+				"conditions":[
 					{
-						"type": "origins:ingredient",
-						"ingredient": {
-							"tag": "origins:meat"
+						"type":"origins:ingredient",
+						"ingredient":{
+							"tag":"origins:meat"
 						}
 					},
 					{
-						"type": "origins:meat"
+						"type":"origins:meat"
 					}
 				],
-				"inverted": true
+				"inverted":true
 			},
 			{
-				"type": "origins:food"
+				"type":"origins:food"
 			},
 			{
-				"type": "origins:ingredient",
-				"ingredient": {
-					"tag": "origins:ignore_diet"
+				"type":"origins:ingredient",
+				"ingredient":{
+					"tag":"origins:ignore_diet"
 				},
-				"inverted": true
+				"inverted":true
 			}
 		]
 	}

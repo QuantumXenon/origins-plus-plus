@@ -1,57 +1,50 @@
 {
-  "name": "Sharp Claws",
-  "description": "Your claws and agility allow you to scale and climb blocks. This ability is toggleable by secondary key.",
-  "hidden": false,
-  "type": "origins:multiple",
-  "toggle": {
-      "type": "origins:toggle",
-      "active_by_default": true,
-      "key": {
-          "key": "key.origins.secondary_active",
-          "continuous": false
-      },
-      "retain_state": true
-  },
-  "climbing": {
-      "condition": {
-          "type": "origins:and",
-          "conditions": [
-              {
-                  "type": "origins:collided_horizontally"
-              },
-              {
-                  "type": "origins:power_active",
-                  "power": "*:*_toggle"
-              }
-          ]
-      },
-      "type": "origins:climbing",
-      "allow_holding": true,
-      "hold_condition": {
-          "type": "origins:and",
-          "conditions": [
-              {
-                  "type": "origins:or",
-                  "conditions": [
-                      {
-                          "type": "origins:block_collision",
-                          "offset_x": 0.01,
-                          "offset_y": 0,
-                          "offset_z": 0.01
-                      },
-                      {
-                          "type": "origins:block_collision",
-                          "offset_x": -0.01,
-                          "offset_y": 0,
-                          "offset_z": -0.01
-                      }
-                  ]
-              },
-              {
-                  "type": "origins:power_active",
-                  "power": "*:*_toggle"
-              }
-          ]
-      }
-  }
+	"type":"origins:multiple",
+	"toggle":{
+		"type":"origins:toggle",
+		"active_by_default":true,
+		"key":"key.origins.secondary_active"
+	},
+	"climbing":{
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:collided_horizontally"
+				},
+				{
+					"type":"origins:power_active",
+					"power":"*:*_toggle"
+				}
+			]
+		},
+		"type":"origins:climbing",
+		"allow_holding":true,
+		"hold_condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:or",
+					"conditions":[
+						{
+							"type":"origins:block_collision",
+							"offset_x":0.01,
+							"offset_y":0,
+							"offset_z":0.01
+						},
+						{
+							"type":"origins:block_collision",
+							"offset_x":-0.01,
+							"offset_y":0,
+							"offset_z":-0.01
+						}
+					]
+				},
+				{
+					"type":"origins:power_active",
+					"power":"*:*_toggle"
+				}
+			]
+		}
+	}
 }

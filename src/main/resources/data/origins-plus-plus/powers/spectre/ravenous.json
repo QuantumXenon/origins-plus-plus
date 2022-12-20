@@ -1,9 +1,7 @@
 {
-	"type": "origins:modify_exhaustion",
-	"name": "Ravenous",
-	"description": "Your hunger grows. You are thrice as hungry.",
-	"modifier": {
-		"operation": "multiply_base",
-		"value": 2.0
+	"type":"origins:modify_exhaustion",
+	"modifier":{
+		"operation":"multiply_base",
+		"value":2.0
 	}
 }

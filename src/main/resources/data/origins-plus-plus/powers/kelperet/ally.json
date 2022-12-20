@@ -1,116 +1,102 @@
 {
-    "name": "Dolphin Whisperer",
-    "description": "Dolphins will protect you if you are attacked and don't attack you if you hit them.",
-	"hidden": false,
-    "type": "origins:multiple",
-    "create_team":
-    {
-        "type": "origins:action_on_callback",
-        "execute_chosen_when_orb": true,
-        "entity_action_added":
-        {
-            "type": "origins:execute_command",
-            "permission_level": 4,
-            "command": "team add fight"
-        },
-        "entity_action_removed":
-        {
-            "type": "origins:execute_command",
-            "permission_level": 4,
-            "command": "team leave @s"
-        }
-    },
-    "join_team":
-    {
-        "type": "origins:action_over_time",
-        "interval": 20,
-        "entity_action":
-        {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "team join fight @s"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "team join fight @e[type=dolphin,distance=..64]"
-                }
-            ]
-        }
-    },
-    "target":
-    {
-        "type": "origins:target_action_on_hit",
-        "cooldown": 1,
-        "entity_action":
-        {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "tag @s add self"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "execute at @e[type=!player,team=fight,distance=..20] run summon snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "tag @s remove self"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "tag @e remove aggro.init"
-                }
-            ]
-        }
-    },
-    "attacker":
-    {
-        "type": "origins:attacker_action_when_hit",
-        "cooldown": 1,
-        "entity_action":
-        {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "tag @s add self"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "execute at @e[type=!player,team=fight,distance=..20] run summon snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "tag @s remove self"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "permission_level": 4,
-                    "command": "tag @e remove aggro.init"
-                }
-            ]
-        }
-    }
+	"type":"origins:multiple",
+	"create_team":{
+		"type":"origins:action_on_callback",
+		"execute_chosen_when_orb":true,
+		"entity_action_added":{
+			"type":"origins:execute_command",
+			"permission_level":4,
+			"command":"team add fight"
+		},
+		"entity_action_removed":{
+			"type":"origins:execute_command",
+			"permission_level":4,
+			"command":"team leave @s"
+		}
+	},
+	"join_team":{
+		"type":"origins:action_over_time",
+		"interval":20,
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"team join fight @s"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"team join fight @e[type=dolphin,distance=..64]"
+				}
+			]
+		}
+	},
+	"target":{
+		"type":"origins:target_action_on_hit",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"tag @s add self"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"execute at @e[type=!player,team=fight,distance=..20] run summon snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"tag @s remove self"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"tag @e remove aggro.init"
+				}
+			]
+		}
+	},
+	"attacker":{
+		"type":"origins:attacker_action_when_hit",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"tag @s add self"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"execute at @e[type=!player,team=fight,distance=..20] run summon snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"tag @s remove self"
+				},
+				{
+					"type":"origins:execute_command",
+					"permission_level":4,
+					"command":"tag @e remove aggro.init"
+				}
+			]
+		}
+	}
 }

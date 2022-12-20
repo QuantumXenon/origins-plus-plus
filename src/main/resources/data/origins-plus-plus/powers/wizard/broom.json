@@ -1,36 +1,33 @@
 {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 2,
-    "max_stacks": 2,
-    "duration_per_stack": 10,
-    "effects": [
-        {
-            "effect": "minecraft:slow_falling",
-            "is_ambient": true,
-            "amplifier": 1,
-            "show_particles": false,
-            "show_icon": false
-        }
-    ],
-    "condition": {
-    "type": "origins:and",
-    "conditions": [
-    {
-      "type": "origins:equipped_item",
-            "equipment_slot": "mainhand",
-            "item_condition": {
-                "type": "origins:ingredient",
-                "ingredient": {
-                    "item": "minecraft:stick"
-                }
-            }
-    },
-    {
-      "type": "origins:sneaking",
-      "inverted": true
-    }
-  ]
-},
-    "name": "Witch's Broom",
-    "description": "When holding a stick you get slowfalling"
+	"type":"origins:stacking_status_effect",
+	"min_stacks":2,
+	"max_stacks":2,
+	"duration_per_stack":10,
+	"effects":[
+		{
+			"effect":"minecraft:slow_falling",
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":false
+		}
+	],
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"mainhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:stick"
+					}
+				}
+			},
+			{
+				"type":"origins:sneaking",
+				"inverted":true
+			}
+		]
+	}
 }

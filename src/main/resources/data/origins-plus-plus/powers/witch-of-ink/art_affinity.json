@@ -1,0 +1,15 @@
+{
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:feed",
+		"food":1,
+		"saturation":0
+	},
+	"interval":40,
+	"condition":{
+		"type":"origins:command",
+		"command":"execute if entity @e[type=painting,distance=..8]",
+		"comparison":">=",
+		"compare_to":1
+	}
+}

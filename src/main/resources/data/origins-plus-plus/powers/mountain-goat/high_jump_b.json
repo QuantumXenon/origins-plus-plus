@@ -1,11 +1,11 @@
 {
-	"type": "origins:modify_damage_taken",
-	"modifier": {
-		"value": 1,
-		"operation": "addition"
+	"type":"origins:modify_damage_taken",
+	"modifier":{
+		"value":1,
+		"operation":"addition"
 	},
-	"damage_condition": {
-		"type": "origins:fire"
+	"damage_condition":{
+		"type":"origins:fire"
 	},
-	"hidden": true
+	"hidden":true
 }

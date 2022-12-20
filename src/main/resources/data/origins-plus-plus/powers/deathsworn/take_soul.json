@@ -1,31 +1,29 @@
 {
-    "type": "origins:prevent_death",
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:clear_effect"
-            },
-            {
-                "type": "origins:heal",
-                "amount": 3.0
-            },
-            {
-                "type": "origins:execute_command",
-                "command": "tp @e[tag=lnc_Minion,sort=nearest,limit=2,distance=..10] 0 -999 -0"
-            },
-            {
-                "type": "origins:execute_command",
-                "command": "advancement grant @s only origins-plus-plus:deathsworn/immortal"
-            }
-        ]
-    },
-    "condition": {
-        "type": "origins:command",
-        "command": "execute if entity @e[tag=lnc_Minion,distance=..10]",
-        "comparison": ">=",
-        "compare_to": 2
-    },
-    "name": "Power Siphon",
-    "description": "When at least 2 minions are nearby, they will sacrifice themselves to protect you from a fatal hit, dying to do so."
+	"type":"origins:prevent_death",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:clear_effect"
+			},
+			{
+				"type":"origins:heal",
+				"amount":3.0
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"tp @e[tag=lnc_Minion,sort=nearest,limit=2,distance=..10] 0 -999 -0"
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"advancement grant @s only origins-plus-plus:deathsworn/immortal"
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:command",
+		"command":"execute if entity @e[tag=lnc_Minion,distance=..10]",
+		"comparison":">=",
+		"compare_to":2
+	}
 }

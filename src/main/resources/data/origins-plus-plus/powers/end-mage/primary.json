@@ -1,55 +1,46 @@
 {
-	"name": "Self Teleportation",
-	"description": "You can teleport wherever you want with your primary.(90 Blocks Range)",
-	"type": "origins:active_self",
-	"entity_action": {
-	"type": "origins:and",
-    "actions": [
-	{
-			    "type": "origins:change_resource",
-                "resource": "origins-plus-plus:end-mage/resource",
-                "change": -30
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:end-mage/resource",
+				"change":-30
+			},
+			{
+				"type":"origins:raycast",
+				"distance":60,
+				"block":true,
+				"entity":true,
+				"shape_type":"outline",
+				"fluid_handling":"none",
+				"command_at_hit":"function origins-plus-plus:end-mage/selftp",
+				"command_step":1,
+				"command_along_ray_only_on_hit":true
+			}
+		]
 	},
-	{
-    "type": "origins:raycast",
-    "distance": 60,
-    "block": true,
-    "entity": true,
-    "shape_type": "outline",
-    "fluid_handling": "none",
-    "command_at_hit": "function origins-plus-plus:end-mage/selftp",
-    "command_step": 1,
-    "command_along_ray_only_on_hit": true
-    }
-   ]
-  },
-	"condition": {
-		"type": "origins:and",
-		"conditions": [{
-		 "type": "origins:sneaking",
-		 "inverted": true
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking",
+				"inverted":true
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:nether_star"
+					}
+				},
+				"inverted":true
+			}
+		]
 	},
-	{
-		"type": "origins:equipped_item",
-        "equipment_slot": "offhand",
-        "item_condition": {
-			"type": "origins:ingredient",
-			"ingredient": {
-            "item": "minecraft:nether_star"
-              }
-          },
-		  "inverted": true
-	}
-	]
-	},
-		"cooldown": 60,
-		"key": {
-			"key": "key.origins.primary_active",
-			"continuous": false
-		},
-		"hud_render": {
-			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-			"should_render": false,
-			"bar_index": 7
-		}
+	"cooldown":60,
+	"key":"key.origins.primary_active"
 }

@@ -2,6 +2,7 @@
     "powers": [
         "origins:water_vulnerability",
         "origins:natural_armor",
+		"origins:no_shield",
         "origins-plus-plus:fallen-angel/arms",
         "origins-plus-plus:fallen-angel/bloodthirsty",
         "origins-plus-plus:fallen-angel/carnivore",
@@ -13,7 +14,6 @@
         "origins-plus-plus:fallen-angel/glowing",
         "origins-plus-plus:fallen-angel/haste",
         "origins-plus-plus:fallen-angel/immunity",
-        "origins-plus-plus:fallen-angel/noshield",
         "origins-plus-plus:fallen-angel/roof",
         "origins-plus-plus:fallen-angel/translucent",
         "origins-plus-plus:fallen-angel/velocity"

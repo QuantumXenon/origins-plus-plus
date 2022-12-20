@@ -1,6 +1,4 @@
 {
-    "name": "Winged",
-    "description": "Being the child of Cthulhu, you've been granted wings.",
-    "type": "origins:elytra_flight",
-    "render_elytra": true
+	"type":"origins:elytra_flight",
+	"render_elytra":true
 }

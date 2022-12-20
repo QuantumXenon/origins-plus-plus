@@ -1,25 +1,23 @@
 {
-    "name": "Lightly Armored",
-    "description": "Your need for agile movements while working with crops, is harder when wearing heavy armor. You prefer only to use leather armor.",
-    "type": "origins:restrict_armor",
-    "head": {
-        "type": "origins:armor_value",
-        "comparison": ">",
-        "compare_to": 1
-    },
-    "chest": {
-        "type": "origins:armor_value",
-        "comparison": ">",
-        "compare_to": 3
-    },
-    "legs": {
-        "type": "origins:armor_value",
-        "comparison": ">",
-        "compare_to": 2
-    },
-    "feet": {
-        "type": "origins:armor_value",
-        "comparison": ">",
-        "compare_to": 1
-    }
+	"type":"origins:restrict_armor",
+	"head":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":1
+	},
+	"chest":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":3
+	},
+	"legs":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":2
+	},
+	"feet":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":1
+	}
 }

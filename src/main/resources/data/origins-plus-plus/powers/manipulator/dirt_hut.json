@@ -1,11 +1,11 @@
 {
-	"hidden":true,
 	"type":"origins:multiple",
+	"hidden":true,
 	"power":{
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
 		"cooldown":1200,
-		"hud_render": {
+		"hud_render":{
 			"should_render":true,
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
 			"bar_index":21
@@ -60,14 +60,13 @@
 		}
 	},
 	"message":{
-		"hidden":true,
 		"type":"origins:action_over_time",
 		"interval":1,
 		"entity_action":{
 			"type":"origins:execute_command",
 			"command":"title @s actionbar {\"text\":\"Dirt Enclosure\",\"color\":\"#673B29\"}"
 		},
-		"condition": {
+		"condition":{
 			"type":"origins:resource",
 			"resource":"origins-plus-plus:manipulator/cycle_active_power",
 			"comparison":"==",

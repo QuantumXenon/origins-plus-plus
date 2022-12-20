@@ -1,15 +1,11 @@
 {
-	"type": "origins:modify_damage_taken",
-	"hidden": false,
-	"name": "Magic Weakness",
-	"description": "You take extra magic damage,",
-	"damage_condition": {
-		"type": "origins:name",
+	"type":"origins:modify_damage_taken",
+	"damage_condition":{
+		"type":"origins:name",
 		"name":"indirectMagic"
 	},
-	"modifier": {
-		"name": "magic res",
-		"operation": "multiply_base",
-		"value": 1
+	"modifier":{
+		"operation":"multiply_base",
+		"value":1
 	}
 }

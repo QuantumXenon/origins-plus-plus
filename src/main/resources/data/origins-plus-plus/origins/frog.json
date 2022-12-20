@@ -1,20 +1,15 @@
 {
 	"powers": [
 		"origins:aqua_affinity",
-		"origins-plus-plus:frog/frog_dash",
-		"origins-plus-plus:frog/frog_fall",
-		"origins-plus-plus:frog/frog_fire",
-		"origins-plus-plus:frog/frog_fire_bar1",
-		"origins-plus-plus:frog/frog_fire_bar2",
-		"origins-plus-plus:frog/frog_fire_bar3",
-		"origins-plus-plus:frog/frog_jump",
-		"origins-plus-plus:frog/frog_life",
-		"origins-plus-plus:frog/frog_stats",
-		"origins-plus-plus:frog/frog_swim",	
-		"origins-plus-plus:frog/frog_swim2",
-		"origins-plus-plus:frog/frog_swim3",
-		"origins-plus-plus:frog/poison"
-		
+		"origins-plus-plus:frog/burn",
+		"origins-plus-plus:frog/dash",
+		"origins-plus-plus:frog/fall_invulnerability",
+		"origins-plus-plus:frog/burn_bar",
+		"origins-plus-plus:frog/health",
+		"origins-plus-plus:frog/jump",
+		"origins-plus-plus:frog/poison",
+		"origins-plus-plus:frog/swim",
+		"origins-plus-plus:frog/water_breathing"
 	],
 	"icon": "minecraft:lily_pad",
 	"impact": 3

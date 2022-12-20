@@ -1,7 +1,5 @@
 {
 	"type":"origins:multiple",
-	"name":"Unnatural Regeneration",
-	"description":"Regeneration works differently for your kind.",
 	"custom-regen":{
 		"type":"origins:action_over_time",
 		"entity_action":{

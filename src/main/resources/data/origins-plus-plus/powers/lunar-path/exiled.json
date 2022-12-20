@@ -1,6 +1,4 @@
 {
-	"name":"Exiled",
-	"description":"Villagers prices are heightened and iron golems attack you on sight.",
 	"type":"origins:multiple",
 	"undead":{
 		"type":"origins:entity_group",

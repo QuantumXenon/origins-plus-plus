@@ -1,0 +1,20 @@
+{
+	"type":"origins:self_action_on_kill",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:deranged/derangement",
+				"change":25,
+				"operation":"add"
+			},
+			{
+				"type":"origins:play_sound",
+				"sound":"block.bell.resonate",
+				"volume":0.5,
+				"pitch":1
+			}
+		]
+	}
+}

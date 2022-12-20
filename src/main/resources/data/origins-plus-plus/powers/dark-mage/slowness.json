@@ -1,7 +1,5 @@
 {
 	"type":"origins:stacking_status_effect",
-	"name":"Slow Mage",
-	"description":"You have permanent slowness.",
 	"min_stacks":-20,
 	"max_stacks":10,
 	"duration_per_stack":10,

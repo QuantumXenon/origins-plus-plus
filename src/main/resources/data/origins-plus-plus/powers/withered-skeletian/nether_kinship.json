@@ -1,36 +1,34 @@
 {
-    "type":"origins:action_over_time",
-    "name":"Nether Kinship",
-    "description":"Blazes, Wither Skeletons, and Skeletons are all your allies and will not attack you.",
-    "interval":20,
-    "entity_action":{
-       "type":"origins:and",
-       "actions":[
-          {
-             "type":"origins:execute_command",
-             "permission_level":4,
-             "command":"team add skeletian"
-          },
-          {
-             "type":"origins:execute_command",
-             "permission_level":4,
-             "command":"team join skeletian @s"
-          },
-          {
-             "type":"origins:execute_command",
-             "permission_level":4,
-             "command":"team join skeletian @e[type=minecraft:blaze]"
-          },
-          {
-             "type":"origins:execute_command",
-             "permission_level":4,
-             "command":"team join skeletian @e[type=minecraft:wither_skeleton]"
-          },
-          {
-             "type":"origins:execute_command",
-             "permission_level":4,
-             "command":"team join skeletian @e[type=minecraft:skeleton]"
-          }
-       ]
-    }
+	"type":"origins:action_over_time",
+	"interval":20,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"team add withered_skeletian"
+			},
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"team join withered_skeletian @s"
+			},
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"team join withered_skeletian @e[type=minecraft:blaze]"
+			},
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"team join withered_skeletian @e[type=minecraft:wither_skeleton]"
+			},
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"team join withered_skeletian @e[type=minecraft:skeleton]"
+			}
+		]
+	}
 }

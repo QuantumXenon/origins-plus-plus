@@ -1,7 +1,5 @@
 {
-    "type": "origins:modify_player_spawn",
-    "dimension": "minecraft:the_nether",
-    "structure": "minecraft:fortress",
-    "name": "Wow! This place sucks...",
-    "description": "You spawn in a Nether Fortress."
+    "type":"origins:modify_player_spawn",
+    "dimension":"minecraft:the_nether",
+    "structure":"minecraft:fortress"
 }

@@ -1,12 +1,10 @@
 {
-  "type": "origins:modify_damage_taken",
-  "damage_condition": {
-    "type": "origins:fire"
-  },
-  "modifier": {
-    "operation": "multiply_base",
-    "value": 2
-  },
-  "name": "Fire Weakness",
-  "description": "Fire represents demons (your adverseries), so you take extra fire damage."
+	"type":"origins:modify_damage_taken",
+	"damage_condition":{
+		"type":"origins:fire"
+	},
+	"modifier":{
+		"operation":"multiply_base",
+		"value":2
+	}
 }

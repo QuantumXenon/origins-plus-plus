@@ -1,6 +1,4 @@
 {
-    "type": "origins:night_vision",
-    "strength": 0.5,
-	"name": "Scotopic vision",
-	"description": "You have night vision, allowing you to see in the dark"
+	"type":"origins:night_vision",
+	"strength":0.5
 }

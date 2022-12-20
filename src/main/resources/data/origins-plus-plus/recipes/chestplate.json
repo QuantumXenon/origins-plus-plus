@@ -1,5 +1,6 @@
 {
 	"type":"minecraft:crafting_shaped",
+	"id":"origins-plus-plus:golden_chestplate",
 	"pattern":[
 		"# #",
 		"###",
@@ -11,7 +12,6 @@
 		}
 	},
 	"result":{
-		"item":"minecraft:golden_chestplate",
-		"count":1
+		"item":"minecraft:golden_chestplate"
 	}
 }

@@ -1,6 +1,4 @@
 {
-	"name":"Scary",
-	"description":"Iron golems will attack you on sight, and villagers will have significantly higher prices when traded with.",
 	"type":"origins:multiple",
 	"illager":{
 		"type":"origins:entity_group",

@@ -1,0 +1,36 @@
+{
+	"type":"origins:multiple",
+	"hidden":true,
+	"effects":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":-10,
+		"max_stacks":10,
+		"duration_per_stack":5,
+		"effect":{
+			"effect":"minecraft:speed",
+			"show_particles":false,
+			"show_icon":false
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:marshmallow/resource",
+			"comparison":">=",
+			"compare_to":2
+		}
+	},
+	"health":{
+		"type":"origins:conditioned_attribute",
+		"update_health":true,
+		"modifier":{
+			"attribute":"minecraft:generic.max_health",
+			"operation":"addition",
+			"value":-6
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:marshmallow/resource",
+			"comparison":"==",
+			"compare_to":2
+		}
+	}
+}

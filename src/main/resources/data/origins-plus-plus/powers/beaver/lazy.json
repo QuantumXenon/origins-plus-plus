@@ -1,6 +1,4 @@
 {
-	"name":"Lazy",
-	"description":"You gain Mining Fatigue when you have more than a stack of any log in your inventory.",
 	"type":"origins:action_over_time",
 	"interval":1,
 	"entity_action":{

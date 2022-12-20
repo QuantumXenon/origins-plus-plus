@@ -1,5 +1,5 @@
 {
-    "type": "origins:model_color",
-    "alpha": 0.30,
-    "hidden": true
+	"type":"origins:model_color",
+	"alpha":0.30,
+	"hidden":true
 }

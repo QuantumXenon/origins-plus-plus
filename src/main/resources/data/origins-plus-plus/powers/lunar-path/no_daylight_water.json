@@ -1,6 +1,4 @@
 {
-	"name":"No Daylight Water",
-	"description":"You take damage from water but only during the day.",
 	"type":"origins:damage_over_time",
 	"interval":20,
 	"onset_delay":1,

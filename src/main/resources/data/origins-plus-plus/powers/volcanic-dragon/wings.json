@@ -1,6 +1,4 @@
 {
-    "name": "Volcanic Flight",
-    "description": "You have natural wings.",
-    "type": "origins:elytra_flight",
-    "render_elytra": true
+	"type":"origins:elytra_flight",
+	"render_elytra":true
 }

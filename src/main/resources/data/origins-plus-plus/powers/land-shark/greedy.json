@@ -1,9 +1,7 @@
 {
-    "name": "Greedy",
-    "description": "You get hungry 1.5x faster, and get the hunger effect on land.",
-    "type": "origins:modify_exhaustion",
-    "modifier": {
-        "operation": "multiply_total",
-        "value": 1.5
-    }
+	"type":"origins:modify_exhaustion",
+	"modifier":{
+		"operation":"multiply_total",
+		"value":1.5
+	}
 }

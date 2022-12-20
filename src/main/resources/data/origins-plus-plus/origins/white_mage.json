@@ -32,7 +32,6 @@
 		"origins-plus-plus:white-mage/makingsuperpotion",
 		"origins-plus-plus:white-mage/manapotion",
 		"origins-plus-plus:white-mage/nobow",
-		"origins-plus-plus:white-mage/nocross",
 		"origins-plus-plus:white-mage/notrident",
 		"origins-plus-plus:white-mage/repulsion",
 		"origins-plus-plus:white-mage/resource",
@@ -46,7 +45,8 @@
 		"origins-plus-plus:white-mage/teamremove",
 		"origins-plus-plus:white-mage/ultallay",
 		"origins-plus-plus:white-mage/ultarmy",
-		"origins-plus-plus:white-mage/ultdiminish"
+		"origins-plus-plus:white-mage/ultdiminish",
+		"origins-plus-plus:white-mage/unskilled"
 	],
 	"icon": "minecraft:white_wool",
 	"impact": 3

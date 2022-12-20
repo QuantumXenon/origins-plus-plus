@@ -53,7 +53,5 @@
 				}
 			]
 		}
-	},
-	"name":"Dissolving Skin",
-	"description":"Water breaks your skin, making you go hungry very fast. When there is no hunger to deplete, health will be taken instead."
+	}
 }

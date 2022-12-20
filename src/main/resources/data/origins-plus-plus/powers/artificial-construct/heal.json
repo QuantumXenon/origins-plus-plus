@@ -1,7 +1,5 @@
 {
 	"type":"origins:action_over_time",
-	"name":"Inorganic",
-	"description":"Since you are a machine, you cannot heal naturally, but you can heal your self with iron nuggets (put an iron nugget in your offhand to consume it).",
 	"interval":50,
 	"entity_action":{
 		"type":"origins:and",

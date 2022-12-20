@@ -1,0 +1,20 @@
+{
+	"condition":{
+		"type":"origins:health",
+		"comparison":"<=",
+		"compare_to":10
+	},
+	"type":"origins:conditioned_attribute",
+	"modifiers":[
+		{
+			"attribute":"minecraft:generic.movement_speed",
+			"operation":"multiply_base",
+			"value":0.15
+		},
+		{
+			"attribute":"minecraft:generic.attack_damage",
+			"operation":"multiply_base",
+			"value":0.25
+		}
+	]
+}

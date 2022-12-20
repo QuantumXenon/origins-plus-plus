@@ -1,12 +1,10 @@
 {
-    "type": "origins:modify_damage_taken",
-    "damage_condition": {
-        "type": "origins:fire"
+    "type":"origins:modify_damage_taken",
+    "damage_condition":{
+        "type":"origins:fire"
     },
-    "modifier": {
-        "operation": "multiply_base",
-        "value": 2
-    },
-    "name": "Overheat",
-    "description": "You overheat easily as a robot so you take extra fire and lava damage."
+    "modifier":{
+        "operation":"multiply_base",
+        "value":2
+    }
 }

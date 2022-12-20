@@ -6,7 +6,5 @@
 			"type":"origins:entity_type",
 			"entity_type":"minecraft:villager"
 		}
-	},
-	"name":"Pillager Hate",
-	"description":"Because you are a pillager, villagers won't trade with you"
+	}
 }

@@ -1,7 +1,5 @@
 {
 	"type":"origins:action_over_time",
-	"name":"Friendly Foes",
-	"description":"Pillagers, who are usually foes, are now friendly to you (as you are one of them).",
 	"interval":20,
 	"entity_action":{
 		"type":"origins:and",

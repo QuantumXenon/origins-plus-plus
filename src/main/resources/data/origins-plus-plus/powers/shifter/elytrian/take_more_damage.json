@@ -1,0 +1,13 @@
+{
+	"type":"origins:modify_damage_taken",
+	"modifier":{
+		"operation":"multiply_total",
+		"value":0.5
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:shifter/shift_bar",
+		"comparison":"==",
+		"compare_to":3
+	}
+}

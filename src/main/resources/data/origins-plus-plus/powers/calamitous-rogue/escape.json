@@ -1,72 +1,63 @@
 {
-    "type": "origins:multiple",
-    "active": {
-        "type": "origins:active_self",
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "function origins-plus-plus:calamitous-rogue/if_point"
-                },
-                {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:command",
-                        "command": "execute if entity @s[tag=Return]",
-                        "comparison": "==",
-                        "compare_to": 1
-                    },
-                    "if_action": {
-                        "type": "origins:nothing"
-                    },
-                    "else_action": {
-                        "type": "origins:execute_command",
-                        "command": "function origins-plus-plus:calamitous-rogue/make_point"
-                    }
-                }
-            ]
-        },
-        "cooldown": 20,
-        "hud_render": {
-            "should_render": false
-        }
-    },
-    "tp_to": {
-        "type": "origins:self_action_on_kill",
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "function origins-plus-plus:calamitous-rogue/if_point"
-                },
-                {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:command",
-                        "command": "execute if entity @s[tag=Return]",
-                        "comparison": "==",
-                        "compare_to": 1
-                    },
-                    "else_action": {
-                        "type": "origins:nothing"
-                    },
-                    "if_action": {
-                        "type": "origins:execute_command",
-                        "command": "function origins-plus-plus:calamitous-rogue/tp_point"
-                    }
-                }
-            ]
-        },
-        "cooldown": 0,
-        "hud_render": {
-            "should_render": false
-        },
-        "condition": {
-            "type": "origins:sneaking"
-        }
-    },
-    "name": "Secrets of the Trade",
-    "description": "Place a marker at your feet. If you get a kill on anything while sneaking, teleport back instantly."
+	"type":"origins:multiple",
+	"active":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:calamitous-rogue/if_point"
+				},
+				{
+					"type":"origins:if_else",
+					"condition":{
+						"type":"origins:command",
+						"command":"execute if entity @s[tag=Return]",
+						"comparison":"==",
+						"compare_to":1
+					},
+					"if_action":{
+						"type":"origins:nothing"
+					},
+					"else_action":{
+						"type":"origins:execute_command",
+						"command":"function origins-plus-plus:calamitous-rogue/make_point"
+					}
+				}
+			]
+		},
+		"cooldown":20
+	},
+	"tp_to":{
+		"type":"origins:self_action_on_kill",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:calamitous-rogue/if_point"
+				},
+				{
+					"type":"origins:if_else",
+					"condition":{
+						"type":"origins:command",
+						"command":"execute if entity @s[tag=Return]",
+						"comparison":"==",
+						"compare_to":1
+					},
+					"else_action":{
+						"type":"origins:nothing"
+					},
+					"if_action":{
+						"type":"origins:execute_command",
+						"command":"function origins-plus-plus:calamitous-rogue/tp_point"
+					}
+				}
+			]
+		},
+		"condition":{
+			"type":"origins:sneaking"
+		}
+	}
 }

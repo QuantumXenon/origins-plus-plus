@@ -1,17 +1,14 @@
 {
-    "name": "§9§nFish Like",
-    "description": "§9You are slightly smaller than normal, you’re blue, have 6 hearts and take more damage from impaling.",
-    "type": "origins:conditioned_attribute",
-    "modifier": {
-        "attribute": "minecraft:generic.max_health",
-        "value": -8.0,
-        "operation": "addition"
-    },
-    "tick_rate": 20,
-    "condition":{
-		"type": "origins:resource",
-		"resource": "origins-plus-plus:shifter/shift_bar",
-		"comparison": "==",
-		"compare_to": 7
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.max_health",
+		"value":-8.0,
+		"operation":"addition"
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:shifter/shift_bar",
+		"comparison":"==",
+		"compare_to":7
 	}
-  }
+}

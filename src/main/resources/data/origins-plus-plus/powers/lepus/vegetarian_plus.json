@@ -1,6 +1,4 @@
 {
-	"name":"Vegetarian+",
-	"description":"You can't eat meat, but all other foods have increased saturation!",
 	"type":"origins:multiple",
 	"prevent_meat":{
 		"type":"origins:prevent_item_use",

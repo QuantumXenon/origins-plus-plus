@@ -3,7 +3,5 @@
 	"modifier":{
 		"operation":"addition",
 		"value":0.175
-	},
-	"name":"Above the Grass",
-	"description":"Binturongs can jump higher than average"
+	}
 }

@@ -1,0 +1,24 @@
+{
+	"type":"origins:stacking_status_effect",
+	"min_stacks":-3,
+	"max_stacks":1,
+	"duration_per_stack":40,
+	"effects":[
+		{
+			"effect":"minecraft:strength",
+			"show_particles":false,
+			"show_icon":false
+		},
+		{
+			"effect":"minecraft:slowness",
+			"show_particles":false,
+			"show_icon":false
+		},
+		{
+			"effect":"minecraft:resistance",
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":false
+		}
+	]
+}

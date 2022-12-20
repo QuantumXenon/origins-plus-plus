@@ -1,6 +1,4 @@
 {
-	"name":"Untrained Warrior",
-	"description":"You're not very good with physical weapons so you have permanent weakness 2 when using swords or axes",
 	"condition":{
 		"type":"origins:or",
 		"conditions":[
@@ -32,11 +30,11 @@
 		"type":"origins:apply_effect",
 		"effects":[
 			{
-				"effect":"weakness",
+				"effect":"minecraft:weakness",
 				"duration":2,
 				"amplifier":1,
 				"show_particles":false,
-				"show_icon":true
+				"show_icon":false
 			}
 		]
 	}

@@ -1,17 +1,15 @@
 {
-    "name": "Stolen Ability",
-    "description": "Shoot a barrage of shulker bullets.",
-    "type": "origins:fire_projectile",
-    "entity_type": "shulker_bullet",
-    "cooldown": 500,
-    "hud_render": {
-        "should_render": true,
-        "sprite_location": "origins:textures/gui/resource_bar.png",
-        "bar_index": 3
-    },
-    "count": 30,
-    "interval": 1,
-    "speed": 0.75,
-    "divergence": 30,
-    "key": "key.origins.secondary_active"
+	"type":"origins:fire_projectile",
+	"entity_type":"shulker_bullet",
+	"cooldown":500,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/resource_bar.png",
+		"bar_index":3
+	},
+	"count":30,
+	"interval":1,
+	"speed":0.75,
+	"divergence":30,
+	"key":"key.origins.secondary_active"
 }

@@ -1,25 +1,23 @@
 {
-  "type": "origins:restrict_armor",
-  "head": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 2
-  },
-  "chest": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 5
-  },
-  "legs": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 4
-  },
-  "feet": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 1
-  },
-  "name": "Weak Body",
-  "description": "Because you are a decendant of wyverns, you have a weaker body and thus cannot wear armour with protection higher than chainmail."
+	"type":"origins:restrict_armor",
+	"head":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":2
+	},
+	"chest":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":5
+	},
+	"legs":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":4
+	},
+	"feet":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":1
+	}
 }

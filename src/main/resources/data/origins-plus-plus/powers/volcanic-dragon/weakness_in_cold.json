@@ -4,26 +4,24 @@
 	"max_stacks":1,
 	"duration_per_stack":30,
 	"effects":[
-	   {
-		  "effect":"weakness",
-		  "amplifier":0,
-		  "is_ambient":true,
-		  "show_particles":false,
-		  "show_icon":true
-	   }
+		{
+			"effect":"minecraft:weakness",
+			"show_particles":false,
+			"show_icon":false
+		}
 	],
 	"condition":{
-	   "type":"origins:biome",
-	   "condition":{
-		  "type":"origins:or",
-		  "conditions":[
-			 {
-				"type":"origins:temperature",
-				"comparison":"<=",
-				"compare_to":0.2
-			 }
-		  ]
-	   }
+		"type":"origins:biome",
+		"condition":{
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:temperature",
+					"comparison":"<=",
+					"compare_to":0.2
+				}
+			]
+		}
 	},
 	"hidden":true
 }

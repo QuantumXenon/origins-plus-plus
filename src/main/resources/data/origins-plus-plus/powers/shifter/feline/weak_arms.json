@@ -1,0 +1,25 @@
+{
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.attack_damage",
+		"value":-9999,
+		"operation":"addition"
+	},
+	"interval":20,
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:resource",
+				"resource":"origins-plus-plus:shifter/shift_bar",
+				"comparison":"==",
+				"compare_to":5
+			},
+			{
+				"type":"origins:status_effect",
+				"effect":"minecraft:strength",
+				"inverted":true
+			}
+		]
+	}
+}

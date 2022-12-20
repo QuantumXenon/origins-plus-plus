@@ -1,10 +1,10 @@
 {
-	"type": "origins:night_vision",
-	"strength": 1.0,
-	"condition": {
-		"type": "origins:brightness",
-		"comparison": "<=",
-		"compare_to": 0.4
+	"type":"origins:night_vision",
+	"strength":1.0,
+	"condition":{
+		"type":"origins:brightness",
+		"comparison":"<=",
+		"compare_to":0.4
 	},
-	"hidden": true
+	"hidden":true
 }

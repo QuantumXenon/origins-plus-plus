@@ -1,14 +1,10 @@
 {
-	"name":"Survival Instinct",
-	"description":"You are stronger when your health bar is more than half full.",
 	"type":"origins:stacking_status_effect",
 	"min_stacks":-3,
 	"max_stacks":1,
 	"duration_per_stack":50,
-	"tick_rate":10,
 	"effect":{
 		"effect":"minecraft:strength",
-		"amplifier":0,
 		"show_particles":false,
 		"show_icon":false
 	},

@@ -1,6 +1,4 @@
 {
-	"name":"Roll",
-	"description":"You can roll to escape enemies.",
 	"type":"origins:active_self",
 	"cooldown":600,
 	"hud_render":{

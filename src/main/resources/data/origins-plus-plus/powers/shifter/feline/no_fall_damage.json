@@ -1,0 +1,13 @@
+{
+	"type":"origins:invulnerability",
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"fall"
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:shifter/shift_bar",
+		"comparison":"==",
+		"compare_to":5
+	}
+}

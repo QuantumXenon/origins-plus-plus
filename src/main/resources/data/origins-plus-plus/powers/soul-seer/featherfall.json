@@ -1,23 +1,22 @@
 {
-	"type": "origins:stacking_status_effect",
-	"min_stacks": 0,
-	"max_stacks": 2,
-	"duration_per_stack": 25,
-	"effects": [
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":2,
+	"duration_per_stack":25,
+	"effects":[
 		{
-			"effect": "minecraft:slow_falling",
-			"is_ambient": false,
-			"show_particles": false,
-			"show_icon": false
+			"effect":"minecraft:slow_falling",
+			"show_particles":false,
+			"show_icon":false
 		}
 	],
-	"condition": {
-    "type": "origins:resource",
-	"resource": "origins-plus-plus:soul-seer/soulsource",
-	"comparison": ">=",
-	"compare_to": 1
-},
-"name": "Light Weight",
-"description": "Due to being half physical, your weight is much lesser compared to living, this means gravity and laws of the world don't effect you as much as those with flesh."
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:soul-seer/soulsource",
+		"comparison":">=",
+		"compare_to":1
+	},
+	"name":"Light Weight",
+	"description":"Due to being half physical, your weight is much lesser compared to living, this means gravity and laws of the world don't effect you as much as those with flesh."
 }
 	

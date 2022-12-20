@@ -1,31 +1,29 @@
 {
-	"type": "origins:action_on_land",
-	"entity_action": {
-		"type": "origins:execute_command",
-		"command": "fill ~ ~-1 ~ ~ ~ ~ minecraft:air destroy"
+	"type":"origins:action_on_land",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"fill ~ ~-1 ~ ~ ~ ~ minecraft:air destroy"
 	},
-	"condition": {
-		"type": "origins:and",
-		"conditions": [
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
 			{
-				"type": "origins:fall_distance",
-				"comparison": ">",
-				"compare_to": 4
+				"type":"origins:fall_distance",
+				"comparison":">",
+				"compare_to":4
 			},
 			{
-				"type": "origins:in_block",
-				"block_condition": {
-					"type": "origins:offset",
-					"condition": {
-						"type": "origins:in_tag",
-						"tag": "origins-plus-plus:unbreakable",
-						"inverted": true
+				"type":"origins:in_block",
+				"block_condition":{
+					"type":"origins:offset",
+					"condition":{
+						"type":"origins:in_tag",
+						"tag":"origins-plus-plus:unbreakable",
+						"inverted":true
 					},
-					"y": -1
+					"y":-1
 				}
 			}
 		]
-	},
-	"name": "Dense II",
-	"description": "You are so dense and heavy that when you fall greater than four blocks, you break the block you fall on (except for some strong blocks)."
+	}
 }

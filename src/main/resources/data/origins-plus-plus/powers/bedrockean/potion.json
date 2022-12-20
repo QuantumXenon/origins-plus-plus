@@ -1,8 +1,6 @@
 {
-	"name": "Potion Immune",
-	"description": "Your skin is too hard for potions to get through and effect you",
-	"type": "origins:effect_immunity",
-	"effects": [
+	"type":"origins:effect_immunity",
+	"effects":[
 		"minecraft:strength",
 		"minecraft:speed",
 		"minecraft:haste",

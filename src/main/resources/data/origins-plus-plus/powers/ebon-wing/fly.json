@@ -1,21 +1,16 @@
 {
-    "type": "origins:launch",
-    "cooldown": 800,
-    "hud_render": {
-        "bar_index": 4
-    },
-    "sound": "minecraft:entity.ender_dragon.flap",
-    "speed": 3,
-    "key": {
-        "key": "key.origins.primary_active",
-        "continuous": true
-    },
-    "condition":{
-        "type":"origins:resource",
-        "resource":"origins-plus-plus:ebon-wing/blood_blood",
-        "comparison":">=",
-        "compare_to":100
-     },
-	"name": "Fly",
-	"description": "You can launch yourself into the sky. Kill 100 mobs to use this ability."
+	"type":"origins:launch",
+	"cooldown":800,
+	"hud_render":{
+		"bar_index":4
+	},
+	"sound":"minecraft:entity.ender_dragon.flap",
+	"speed":3,
+	"key":"key.origins.primary_active",
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:ebon-wing/blood_blood",
+		"comparison":">=",
+		"compare_to":100
+	}
 }

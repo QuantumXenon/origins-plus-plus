@@ -6,7 +6,5 @@
 		"should_render":true,
 		"sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
 		"bar_index":0
-	},
-	"name":"Energy",
-	"description":"Your energy is shown. You use this to activate the Universal Blast. This fills faster at night than at day."
+	}
 }

@@ -1,16 +1,12 @@
 {
-    "name": "Strong Fists",
-    "description": "You are very strong, giving you haste.",
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
-    "max_stacks": 1,
-    "duration_per_stack": 20,
-    "effect": {
-        "effect": "minecraft:haste",
-        "duration": 100,
-        "amplifier": 0,
-        "is_ambient": false,
-        "show_particles": false,
-        "show_icon": false
-    }
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effect":{
+		"effect":"minecraft:haste",
+		"duration":100,
+		"show_particles":false,
+		"show_icon":false
+	}
 }

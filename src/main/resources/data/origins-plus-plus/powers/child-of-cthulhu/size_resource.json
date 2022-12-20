@@ -1,11 +1,7 @@
 {
-	"type": "origins:resource",
-	"min": 0,
-	"max": 2,
-	"start_value": 1,
-	"hud_render":
-	{
-		"should_render": false
-	},
-	"hidden": true
+	"type":"origins:resource",
+	"min":0,
+	"max":2,
+	"start_value":1,
+	"hidden":true
 }

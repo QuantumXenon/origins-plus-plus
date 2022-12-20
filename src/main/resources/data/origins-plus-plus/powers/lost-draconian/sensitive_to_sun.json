@@ -1,0 +1,16 @@
+{
+	"type":"origins:stacking_status_effect",
+	"min_stacks":-20,
+	"max_stacks":20,
+	"duration_per_stack":10,
+	"effects":[
+		{
+			"effect":"minecraft:slowness",
+			"show_particles":false,
+			"show_icon":false
+		}
+	],
+	"condition":{
+		"type":"origins:exposed_to_sun"
+	}
+}

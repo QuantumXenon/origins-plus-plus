@@ -1,7 +1,5 @@
 {
-  "type": "origins:modify_player_spawn",
-  "dimension": "minecraft:overworld",
-  "biome": "minecraft:ice_spikes",
-  "name": "Icy Spawn",
-  "description": "You spawn in a Ice Spikes biome."
+  "type":"origins:modify_player_spawn",
+  "dimension":"minecraft:overworld",
+  "biome":"minecraft:ice_spikes"
 }

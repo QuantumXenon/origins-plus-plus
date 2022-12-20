@@ -4,18 +4,14 @@
 	"max_stacks":1,
 	"duration_per_stack":20,
 	"effect":{
-	   "effect":"minecraft:water_breathing",
-	   "duration":99999,
-	   "amplifier":1,
-	   "is_ambient":true,
-	   "show_particles":false,
-	   "show_icon":false
+		"effect":"minecraft:water_breathing",
+		"duration":99999,
+		"amplifier":1,
+		"show_particles":false,
+		"show_icon":false
 	},
 	"condition":{
-	   "type":"origins:submerged_in",
-	   "fluid":"minecraft:water",
-	   "inverted":false
-	},
-	"name":"Water Breathing",
-	"description":"Due to the way your lungs are formed you can hold your breath underwater permanently."
+		"type":"origins:submerged_in",
+		"fluid":"minecraft:water"
+	}
 }

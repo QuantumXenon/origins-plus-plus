@@ -24,7 +24,5 @@
 				"type":"origins:in_rain"
 			}
 		]
-	},
-	"name":"Hydrophobic",
-	"description":"Due to being a fire type, you're hurt by water."
+	}
 }

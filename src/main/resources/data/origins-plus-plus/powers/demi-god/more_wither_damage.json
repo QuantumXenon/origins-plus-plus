@@ -1,15 +1,15 @@
 {
-	"type": "origins:modify_damage_taken",
-    "hidden": true,
-	"damage_condition": {
-		"type": "origins:attacker",
-		"entity_condition": {
-			"type": "origins:entity_type",
-			"entity_type": "minecraft:wither"
+	"type":"origins:modify_damage_taken",
+	"hidden":true,
+	"damage_condition":{
+		"type":"origins:attacker",
+		"entity_condition":{
+			"type":"origins:entity_type",
+			"entity_type":"minecraft:wither"
 		}
 	},
-	"modifier": {
-		"operation": "addition",
-		"value": 8
+	"modifier":{
+		"operation":"addition",
+		"value":8
 	}
 }

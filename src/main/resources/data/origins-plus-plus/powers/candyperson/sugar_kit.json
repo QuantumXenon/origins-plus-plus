@@ -1,0 +1,25 @@
+{
+	"type":"origins:starting_equipment",
+	"stacks":[
+		{
+			"item":"minecraft:sugar",
+			"amount":10
+		},
+		{
+			"item":"minecraft:sugar_cane",
+			"amount":4
+		},
+		{
+			"item":"minecraft:sweet_berries",
+			"amount":8
+		},
+		{
+			"item":"minecraft:honey_bottle",
+			"amount":3
+		},
+		{
+			"item":"minecraft:cake",
+			"amount":1
+		}
+	]
+}

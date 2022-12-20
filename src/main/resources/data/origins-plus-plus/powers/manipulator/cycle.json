@@ -1,6 +1,4 @@
 {
-	"name":"Magic Wielder",
-	"description":"You can wield various types of magical attacks. Cycle through the different abilities by using [Secondary], and use [Sneak] too to cycle in the opposite direction. Use [Primary] to activate an ability. Every ability uses up a specific ammo type (see below) - put items in your offhand to be use as ammo.\n\nOFFENSIVE ABILITIES:\nAnti-Gravity Arrow\n(Ammo: 1 Arrow)\nGhast Fireball\n(Ammo: 1 Fire Charge)\nSpectral Energy Shot\n(Ammo: 1 Block Glowstone)\nEnderdragon Fireball\n(Ammo: 3 Dragon’s Breath)\n\nDEFENSIVE ABILITIES:\nDirt Enclosure:\n(Ammo: 16 Dirt)\nEnergy Shield:\n(Ammo: 1 Golden Apple)\nResistance Buff:\n(Ammo: 1 Shield)\nGolem Reinforcement:\n(Ammo: 1 Iron Block)\n\nNOTE:\nIron Golems you summon will be willing to turn on you if you hit them, like golems made by villagers.",
 	"type":"origins:multiple",
 	"counter":{
 		"type":"origins:resource",
@@ -19,13 +17,13 @@
 				"type":"origins:if_else",
 				"condition":{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:manipulator/cycle_counter",
+					"resource":"*:*_counter",
 					"comparison":"<=",
 					"compare_to":1
 				},
 				"if_action":{
 					"type":"origins:modify_resource",
-					"resource":"origins-plus-plus:manipulator/cycle_counter",
+					"resource":"*:*_counter",
 					"modifier":{
 						"operation":"set_total",
 						"value":8
@@ -33,7 +31,7 @@
 				},
 				"else_action":{
 					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:manipulator/cycle_counter",
+					"resource":"*:*_counter",
 					"change":-1
 				}
 			},
@@ -41,13 +39,13 @@
 				"type":"origins:if_else",
 				"condition":{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:manipulator/cycle_counter",
+					"resource":"*:*_counter",
 					"comparison":">=",
 					"compare_to":8
 				},
 				"if_action":{
 					"type":"origins:modify_resource",
-					"resource":"origins-plus-plus:manipulator/cycle_counter",
+					"resource":"*:*_counter",
 					"modifier":{
 						"operation":"set_total",
 						"value":1
@@ -55,7 +53,7 @@
 				},
 				"else_action":{
 					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:manipulator/cycle_counter",
+					"resource":"*:*_counter",
 					"change":1
 				}
 			}

@@ -1,11 +1,8 @@
 {
-  "type": "origins:attribute",
-  "modifier": {
-    "name": "Natural Armor health bonus",
-    "attribute": "minecraft:generic.armor",
-    "value": 4.0,
-    "operation": "addition"
-  },
-  "name": "Scale Armor",
-  "description": "Your scales are hard and tough to cut through, giving you 2 natural armor bars."
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.armor",
+		"value":4.0,
+		"operation":"addition"
+	}
 }

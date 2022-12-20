@@ -4,29 +4,24 @@
 	"max_stacks":3,
 	"duration_per_stack":10,
 	"effects":[
-	   {
-		  "effect":"minecraft:water_breathing",
-		  "is_ambient":false,
-		  "show_particles":false,
-		  "show_icon":false
-	   },
-	   {
-		  "effect":"minecraft:strength",
-		  "is_ambient":false,
-		  "show_particles":false,
-		  "show_icon":false
-	   },
-	   {
-		  "effect":"minecraft:dolphins_grace",
-		  "is_ambient":false,
-		  "show_particles":false,
-		  "show_icon":false
-	   }
+		{
+			"effect":"minecraft:water_breathing",
+			"show_particles":false,
+			"show_icon":false
+		},
+		{
+			"effect":"minecraft:strength",
+			"show_particles":false,
+			"show_icon":false
+		},
+		{
+			"effect":"minecraft:dolphins_grace",
+			"show_particles":false,
+			"show_icon":false
+		}
 	],
 	"condition":{
-	   "type":"origins:submerged_in",
-	   "fluid":"minecraft:water"
-	},
-	"name":"Adapted Oceaner",
-	"description":"You can naturally breathe underwater."
+		"type":"origins:submerged_in",
+		"fluid":"minecraft:water"
+	}
 }

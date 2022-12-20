@@ -1,26 +1,24 @@
 {
-    "name": "Flammable",
-    "description": "Your chemical composition makes you extremely flammable, and thus you take increased fire damage, and can only be put out with water or powder snow.",
-    "type": "origins:multiple",
-    "never_extinguish": {
-      "type": "origins:action_over_time",
-      "entity_action": {
-          "type": "origins:set_on_fire",
-          "duration": 3
-      },
-      "interval": 20,
-      "condition": {
-          "type": "origins:on_fire"
-      }
-  },
-  "more_fire_damage": {
-    "type": "origins:modify_damage_taken",
-    "damage_condition": {
-      "type": "origins:fire"
-    },
-    "modifier": {
-      "operation": "addition",
-      "value": 3
-    }
-  }
+	"type":"origins:multiple",
+	"never_extinguish":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:set_on_fire",
+			"duration":3
+		},
+		"interval":20,
+		"condition":{
+			"type":"origins:on_fire"
+		}
+	},
+	"more_fire_damage":{
+		"type":"origins:modify_damage_taken",
+		"damage_condition":{
+			"type":"origins:fire"
+		},
+		"modifier":{
+			"operation":"addition",
+			"value":3
+		}
+	}
 }

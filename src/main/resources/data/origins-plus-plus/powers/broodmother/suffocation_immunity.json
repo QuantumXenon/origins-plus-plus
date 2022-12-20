@@ -1,8 +1,8 @@
 {
-  "type": "origins:invulnerability",
-  "hidden": true,
-  "damage_condition": {
-    "type": "origins:name",
-    "name": "inWall"
+	"type":"origins:invulnerability",
+	"hidden":true,
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"inWall"
 	}
 }

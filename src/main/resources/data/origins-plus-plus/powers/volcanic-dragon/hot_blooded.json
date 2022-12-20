@@ -1,9 +1,7 @@
 {
-  "type": "origins:effect_immunity",
-  "effects": [
-    "minecraft:poison",
-    "minecraft:wither"
-  ],
-    "name": "Hot Blooded",
-    "description": "Immune to Wither & Poison Effects."
+	"type":"origins:effect_immunity",
+	"effects":[
+		"minecraft:poison",
+		"minecraft:wither"
+	]
 }

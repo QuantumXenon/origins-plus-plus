@@ -1,25 +1,21 @@
 {
-  "type": "origins:phasing",
-  "blacklist": true,
-  "render_type": "blindness",
-  "view_distance": 100,
-  "block_condition": {
-    "type": "origins:in_tag",
-    "tag": "origins:unphasable"
-  },
-  "phase_down_condition": {
-    "type": "origins:and",
-    "conditions": [
-      {
-        "type": "origins:sneaking"
-      },
-      {
-        "type": "origins:on_block"
-      }
-    ]
-  },
-
-  "name": "Phasing Spirit",
-  "description": "You are in your spiritual form. You can phase through blocks at anytime!"
-
+	"type":"origins:phasing",
+	"blacklist":true,
+	"render_type":"blindness",
+	"view_distance":16,
+	"block_condition":{
+		"type":"origins:in_tag",
+		"tag":"origins:unphasable"
+	},
+	"phase_down_condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking"
+			},
+			{
+				"type":"origins:on_block"
+			}
+		]
+	}
 }

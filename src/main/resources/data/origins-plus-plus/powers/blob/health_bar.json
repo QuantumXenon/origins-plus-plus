@@ -32,7 +32,5 @@
 			"comparison":">=",
 			"compare_to":1
 		}
-	},
-	"name":"Health Bar",
-	"description":"Although you still use normal hearts, your health has been replaced by a halth bar. Using abilities or getting hit causes the bar to go down a constant amount."
+	}
 }

@@ -1,0 +1,20 @@
+{
+	"type":"origins:model_color",
+	"alpha":0.5,
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:power_active",
+				"power":"origins-plus-plus:shifter/phantom/phasing_toggle",
+				"inverted":true
+			},
+			{
+				"type":"origins:resource",
+				"resource":"origins-plus-plus:shifter/shift_bar",
+				"comparison":"==",
+				"compare_to":9
+			}
+		]
+	}
+}

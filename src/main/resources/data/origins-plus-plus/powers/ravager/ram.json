@@ -1,42 +1,36 @@
 {
-  "type": "origins:active_self",
-  "condition": {
-    "type": "origins:resource",
-    "resource": "origins-plus-plus:ravager/ram_cooldown",
-    "comparison": "<=",
-    "compare_to": 0
-  },
-  "entity_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:and",
-        "actions": [
-          {
-            "type": "origins:trigger_cooldown",
-            "power": "origins-plus-plus:ravager/ram_duration"
-          },
-          {
-            "type": "origins:execute_command",
-            "command": "playsound minecraft:entity.ravager.roar master @a[distance=..20] ~ ~ ~ 1 1",
-            "permission_level": 4
-          }
-        ]
-      },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:trigger_cooldown",
-          "power": "origins-plus-plus:ravager/ram_cooldown"
-        },
-        "ticks": 60
-      }
-    ]
-  },
-  "cooldown": 0,
-  "hud_render": {
-    "should_render": false
-  },
-  "name": "Ram",
-  "description": "You are able to give your attacks extreme knockback for a few seconds."
+	"type":"origins:active_self",
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:ravager/ram_cooldown",
+		"comparison":"<=",
+		"compare_to":0
+	},
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:and",
+				"actions":[
+					{
+						"type":"origins:trigger_cooldown",
+						"power":"origins-plus-plus:ravager/ram_duration"
+					},
+					{
+						"type":"origins:execute_command",
+						"command":"playsound minecraft:entity.ravager.roar master @a[distance=..20] ~ ~ ~ 1 1",
+						"permission_level":4
+					}
+				]
+			},
+			{
+				"type":"origins:delay",
+				"action":{
+					"type":"origins:trigger_cooldown",
+					"power":"origins-plus-plus:ravager/ram_cooldown"
+				},
+				"ticks":60
+			}
+		]
+	}
 }

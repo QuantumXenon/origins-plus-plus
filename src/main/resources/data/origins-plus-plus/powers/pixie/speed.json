@@ -1,14 +1,13 @@
 {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 22,
-    "max_stacks": 22,
-    "duration_per_stack": 5,
+	"type":"origins:stacking_status_effect",
+	"min_stacks":22,
+	"max_stacks":22,
+	"duration_per_stack":5,
 	"effect":{
-		"effect": "minecraft:speed",
-		"is_ambient": false,
-		"show_particles": false,
-		"show_icon": false,
-		"amplifier": 1
+		"effect":"minecraft:speed",
+		"show_particles":false,
+		"show_icon":false,
+		"amplifier":1
 	},
-	"hidden": true
+	"hidden":true
 }

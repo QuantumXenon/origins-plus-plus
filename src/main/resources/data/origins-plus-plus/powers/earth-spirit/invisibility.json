@@ -1,9 +1,7 @@
 {
-	"name": "Spirit Skin",
-	"description": "You are close to invisible to the human eye.",
-    "type": "origins:model_color",
-    "red": 20,
-    "green": 20,
-	"blue": 20,
-    "alpha": 0.26
+	"type":"origins:model_color",
+	"red":20,
+	"green":20,
+	"blue":20,
+	"alpha":0.26
 }

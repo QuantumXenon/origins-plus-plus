@@ -1,6 +1,4 @@
 {
-	"name":"Portality",
-	"description":"You are able to rip space and time apart to create a rift. Entering it will let you fly and phase through blocks around the rift. You can only own one rift at a time.",
 	"type":"origins:multiple",
 	"toggle":{
 		"type":"origins:resource",

@@ -13,7 +13,5 @@
 				"type":"origins:collided_horizontally"
 			}
 		]
-	},
-	"name":"Crawler",
-	"description":"You can crawl up surfaces and ceilings like a moth."
+	}
 }

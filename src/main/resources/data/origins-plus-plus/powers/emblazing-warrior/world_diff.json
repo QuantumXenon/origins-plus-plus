@@ -1,53 +1,51 @@
 {
-    "name": "Different World",
-    "description": "In the world you came from, you never earned EXP from killing mobs. You gain coins instead; after you gain enough coins, you can get an emerald.",
-    "type": "origins:multiple",
-    "bar": {
-        "type": "origins:resource",
-        "min": 0,
-        "max": 60,
-        "hud_render": {
-            "should_render": true,
-            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
-            "bar_index": 0
-        },
-        "max_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:change_resource",
-                    "change": 0,
-                    "operation": "set",
-                    "resource": "*:*_bar"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "command": "function origins-plus-plus:emblazing-warrior/powers/emerald"
-                }
-            ]
-        }
-    },
-    "xp_convert": {
-        "type": "origins:action_over_time",
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:change_resource",
-                    "change": 1,
-                    "resource": "*:*_bar"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "command": "xp add @s -1 points"
-                }
-            ]
-        },
-        "interval": 1,
-        "condition": {
-            "type": "origins:xp_points",
-            "comparison": ">=",
-            "compare_to": 1
-        }
-    }
+	"type":"origins:multiple",
+	"bar":{
+		"type":"origins:resource",
+		"min":0,
+		"max":60,
+		"hud_render":{
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+			"bar_index":0
+		},
+		"max_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:change_resource",
+					"change":0,
+					"operation":"set",
+					"resource":"*:*_bar"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:emblazing-warrior/powers/emerald"
+				}
+			]
+		}
+	},
+	"xp_convert":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:change_resource",
+					"change":1,
+					"resource":"*:*_bar"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"xp add @s -1 points"
+				}
+			]
+		},
+		"interval":1,
+		"condition":{
+			"type":"origins:xp_points",
+			"comparison":">=",
+			"compare_to":1
+		}
+	}
 }

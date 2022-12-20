@@ -1,0 +1,8 @@
+{
+	"type":"origins:self_action_on_hit",
+	"cooldown":100,
+	"entity_action":{
+		"type":"origins:heal",
+		"amount":2
+	}
+}

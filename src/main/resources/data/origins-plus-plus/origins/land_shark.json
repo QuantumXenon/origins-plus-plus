@@ -6,12 +6,12 @@
         "origins:no_shield",
 		"origins-plus-plus:land-shark/fins",
         "origins-plus-plus:land-shark/freak_of_nature",
-        "origins-plus-plus:land-shark/gillungs",
+        "origins-plus-plus:land-shark/gill_lungs",
         "origins-plus-plus:land-shark/greedy",
-        "origins-plus-plus:land-shark/hongry",
+        "origins-plus-plus:land-shark/hungry",
         "origins-plus-plus:land-shark/lunge",
         "origins-plus-plus:land-shark/razor_teeth",
-        "origins-plus-plus:land-shark/speedy_boi"
+        "origins-plus-plus:land-shark/speedy"
     ],
     "icon": "minecraft:prismarine_shard",
     "impact": 2

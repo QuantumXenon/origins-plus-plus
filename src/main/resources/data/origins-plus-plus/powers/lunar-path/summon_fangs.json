@@ -1,6 +1,4 @@
 {
-	"name":"Evoker Fangs",
-	"description":"You summon up to 3 evoker fangs on enemies around you, but only at night! [Primary]",
 	"type":"origins:active_self",
 	"entity_action":{
 		"type":"origins:and",

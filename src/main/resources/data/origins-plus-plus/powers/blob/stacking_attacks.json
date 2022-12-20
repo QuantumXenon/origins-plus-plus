@@ -1,7 +1,5 @@
 {
 	"type":"origins:multiple",
-	"name":"Little Trick",
-	"description":"Your attack will give a stack, up to 3 times, at 3 stacks, Your next attack deal more damage and set to one stack, it will reset after some times not attacking.",
 	"stack":{
 		"type":"origins:resource",
 		"min":0,

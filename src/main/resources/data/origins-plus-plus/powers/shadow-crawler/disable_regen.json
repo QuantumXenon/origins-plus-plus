@@ -1,8 +1,7 @@
 {
-    "type":"origins:multiple",
-    "regen":
-    { 
-        "type": "origins:disable_regen"
-    },
-        "hidden": true
+	"type":"origins:multiple",
+	"regen":{
+		"type":"origins:disable_regen"
+	},
+	"hidden":true
 }

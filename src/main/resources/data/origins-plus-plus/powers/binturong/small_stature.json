@@ -1,6 +1,4 @@
 {
-	"name":"On All Fours",
-	"description":"Being a quadruped, binturongs are smaller than average",
 	"type":"origins:action_on_callback",
 	"execute_chosen_when_orb":true,
 	"entity_action_chosen":{

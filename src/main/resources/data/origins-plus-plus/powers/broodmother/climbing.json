@@ -1,58 +1,56 @@
 {
-	"type": "origins:multiple",
-	"name": "Climb",
-	"description": "[Save Toolbar Activator] You are fast and at will, you can climb blocks!",
-	"toggle": {
-		"type": "origins:toggle",
-		"key": "key.saveToolbarActivator"
+	"type":"origins:multiple",
+	"toggle":{
+		"type":"origins:toggle",
+		"key":"key.saveToolbarActivator"
 	},
-	"climbing": {
-		"type": "origins:climbing",
-		"hold_condition": {
-			"type": "origins:and",
-			"conditions": [
+	"climbing":{
+		"type":"origins:climbing",
+		"hold_condition":{
+			"type":"origins:and",
+			"conditions":[
 				{
-				"type": "origins:or",
-				"conditions": [
-					{
-						"type": "origins:block_collision",
-						"offset_x": 0.01,
-						"offset_z": 0.01,
-						"offset_y": 0
-					},
-					{
-						"type": "origins:block_collision",
-						"offset_x": -0.01,
-						"offset_z": -0.01,
-						"offset_y": 0
-					}
-				]
+					"type":"origins:or",
+					"conditions":[
+						{
+							"type":"origins:block_collision",
+							"offset_x":0.01,
+							"offset_z":0.01,
+							"offset_y":0
+						},
+						{
+							"type":"origins:block_collision",
+							"offset_x":-0.01,
+							"offset_z":-0.01,
+							"offset_y":0
+						}
+					]
 				},
-					{
-						"type": "origins:power_active",
-						"power": "*:*_toggle"
-					}
+				{
+					"type":"origins:power_active",
+					"power":"*:*_toggle"
+				}
 			]
 		},
-		"condition": {
-			"type": "origins:and",
-			"conditions": [
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
 				{
-					"type": "origins:collided_horizontally"
+					"type":"origins:collided_horizontally"
 				},
 				{
-					"type": "origins:power_active",
-					"power": "*:*_toggle"
+					"type":"origins:power_active",
+					"power":"*:*_toggle"
 				}
 			]
 		}
 	},
-	"speedy": {
-		"type": "origins:attribute",
-		"modifier": {
-			"attribute": "minecraft:generic.movement_speed",
-			"value": 0.05,
-			"operation": "addition"
+	"speedy":{
+		"type":"origins:attribute",
+		"modifier":{
+			"attribute":"minecraft:generic.movement_speed",
+			"value":0.05,
+			"operation":"addition"
 		}
 	}
 }

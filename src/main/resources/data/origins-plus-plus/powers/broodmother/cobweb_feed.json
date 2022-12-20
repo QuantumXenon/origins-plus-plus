@@ -1,41 +1,39 @@
 {
-    "type": "origins:self_action_on_hit",
-    "name": "Prey",
-    "description": "Attack a target in a cobweb, using your fist to feed yourself.",
-    "cooldown": 40,
-    "entity_action": {
-        "type": "origins:feed",
-        "food": 1,
-        "saturation": 1
-    },
-    "damage_condition": {
-        "type":"origins:attacker",
-        "entity_condition": {
-            "type":"origins:equipped_item",
-            "equipment_slot": "mainhand",
-            "item_condition": {
-                "type":"origins:ingredient",
-                "ingredient": {
-                    "item": "minecraft:air"
-                }
-            }
-        }
-    },
-    "target_condition": {
-        "type": "origins:and",
-        "conditions": [
-          {
-            "type": "origins:in_block_anywhere",
-            "block_condition": {
-              "type": "origins:in_tag",
-              "tag": "origins:cobwebs"
-            }
-          },
-          {
-            "type": "origins:entity_group",
-            "group": "arthropod",
-            "inverted": true
-          }
-        ]
-      }
+	"type":"origins:self_action_on_hit",
+	"cooldown":40,
+	"entity_action":{
+		"type":"origins:feed",
+		"food":1,
+		"saturation":1
+	},
+	"damage_condition":{
+		"type":"origins:attacker",
+		"entity_condition":{
+			"type":"origins:equipped_item",
+			"equipment_slot":"mainhand",
+			"item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"item":"minecraft:air"
+				}
+			}
+		}
+	},
+	"target_condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:in_block_anywhere",
+				"block_condition":{
+					"type":"origins:in_tag",
+					"tag":"origins:cobwebs"
+				}
+			},
+			{
+				"type":"origins:entity_group",
+				"group":"arthropod",
+				"inverted":true
+			}
+		]
+	}
 }

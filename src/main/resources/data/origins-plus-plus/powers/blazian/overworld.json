@@ -1,21 +1,17 @@
 {
-  "type": "origins:stacking_status_effect",
-  "min_stacks": 0,
-  "max_stacks": 1,
-  "duration_per_stack": 40,
-  "effects": [
-    {
-      "effect": "minecraft:weakness",
-      "is_ambient": true,
-      "show_particles": false,
-      "show_icon": true,
-      "amplifier": 0
-    }
-  ],
-  "condition": {
-    "type": "origins:dimension",
-    "dimension": "minecraft:overworld"
-  },
-  "name": "It Sucks Up Here!",
-  "description": "You gain Weakness when you are in the Overworld."
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":40,
+	"effects":[
+		{
+			"effect":"minecraft:weakness",
+			"show_particles":false,
+			"show_icon":false
+		}
+	],
+	"condition":{
+		"type":"origins:dimension",
+		"dimension":"minecraft:overworld"
+	}
 }

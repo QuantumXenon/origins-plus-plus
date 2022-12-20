@@ -1,300 +1,280 @@
 {
-    "type": "origins:multiple",
-    "glowup": {
-        "type": "origins:target_action_on_hit",
-        "entity_action": {
-            "type": "origins:apply_effect",
-            "effect": {
-                "effect": "minecraft:glowing",
-                "duration": 400,
-                "amplifier": 0
-            }
-        },
-        "cooldown": 0,
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:stealth_bar",
-            "compare_to": 5,
-            "comparison": "=="
-        },
-        "damage_condition": {
-            "type": "origins:name",
-            "name": "aggro",
-            "inverted": true
-        }
-    },
-    "axe_strike": {
-        "type": "origins:target_action_on_hit",
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
-                },
-                {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:equipped_item",
-                        "equipment_slot": "mainhand",
-                        "item_condition": {
-                            "type": "origins:ingredient",
-                            "ingredient": {
-                                "item": "minecraft:shield"
-                            }
-                        }
-                    },
-                    "if_action": {
-                        "type": "origins:equipped_item_action",
-                        "equipment_slot": "mainhand",
-                        "action": {
-                            "type": "origins:damage",
-                            "amount": 60,
-                            "ignore_unbreaking": true
-                        }
-                    }
-                },
-                {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:equipped_item",
-                        "equipment_slot": "offhand",
-                        "item_condition": {
-                            "type": "origins:ingredient",
-                            "ingredient": {
-                                "item": "minecraft:shield"
-                            }
-                        }
-                    },
-                    "if_action": {
-                        "type": "origins:equipped_item_action",
-                        "equipment_slot": "offhand",
-                        "action": {
-                            "type": "origins:damage",
-                            "amount": 60,
-                            "ignore_unbreaking": true
-                        }
-                    }
-                }
-            ]
-        },
-        "cooldown": 1,
-        "hud_render": {
-            "should_render": false
-        },
-        "damage_condition": {
-            "type": "origins:name",
-            "name": "aggro",
-            "inverted": true
-        },
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "tag": "origins-plus-plus:axes"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "*:stealth_bar",
-                    "compare_to": 5,
-                    "comparison": "=="
-                }
-            ]
-        },
-        "target_condition": {
-            "type": "origins:or",
-            "conditions": [
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:shield"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "offhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:shield"
-                        }
-                    }
-                }
-            ]
-        }
-    },
-    "shield_bash": {
-        "type": "origins:target_action_on_hit",
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
-                },
-                {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:slowness",
-                        "duration": 80,
-                        "amplifier": 3
-                    }
-                },
-                {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:mining_fatigue",
-                        "duration": 80,
-                        "amplifier": 3
-                    }
-                },
-                {
-                    "type": "origins:add_velocity",
-                    "y": -3
-                }
-            ]
-        },
-        "cooldown": 1,
-        "hud_render": {
-            "should_render": false
-        },
-        "damage_condition": {
-            "type": "origins:name",
-            "name": "aggro",
-            "inverted": true
-        },
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "shield"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "*:stealth_bar",
-                    "compare_to": 5,
-                    "comparison": "=="
-                }
-            ]
-        }
-    },
-    "sword_cut": {
-        "type": "origins:target_action_on_hit",
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
-                },
-                {
-                    "type": "origins:clear_effect",
-                    "effect": "minecraft:regeneration"
-                },
-                {
-                    "type": "origins:clear_effect",
-                    "effect": "minecraft:absorption"
-                },
-                {
-                    "type": "origins:clear_effect",
-                    "effect": "minecraft:health_boost"
-                }
-            ]
-        },
-        "cooldown": 1,
-        "hud_render": {
-            "should_render": false
-        },
-        "damage_condition": {
-            "type": "origins:name",
-            "name": "aggro",
-            "inverted": true
-        },
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "tag": "origins-plus-plus:axes"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "*:stealth_bar",
-                    "compare_to": 5,
-                    "comparison": "=="
-                }
-            ]
-        }
-    },
-    "trident_stab": {
-        "type": "origins:action_on_hit",
-        "bientity_action": {
-            "type": "origins:delay",
-            "ticks": 16,
-            "action": {
-                "type": "origins:damage",
-                "amount": 4,
-                "source": {
-                    "name": "drowning",
-                    "bypasses_armor": true
-                }
-            }
-        },
-        "cooldown": 1,
-        "hud_render": {
-            "should_render": false
-        },
-        "damage_condition": {
-            "type": "origins:name",
-            "name": "aggro",
-            "inverted": true
-        },
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "mainhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "trident"
-                        }
-                    }
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "*:stealth_bar",
-                    "compare_to": 5,
-                    "comparison": "=="
-                }
-            ]
-        }
-    },
-    "name": "Ambush",
-    "description": "Strikes while in Stealth reset your bar, but gain an extra effect based on your held item.\n- Axes shatter shields, dealing heavy damage to the item.\n- Shields stun the victim for a short time and breaks their flight if any.\n- Swords cut any health-increasing status effects on the target.\n- Melee trident hits deal drowning damage after a short delay."
+	"type":"origins:multiple",
+	"glowup":{
+		"type":"origins:target_action_on_hit",
+		"entity_action":{
+			"type":"origins:apply_effect",
+			"effect":{
+				"effect":"minecraft:glowing",
+				"duration":400
+			}
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:stealth_bar",
+			"compare_to":5,
+			"comparison":"=="
+		},
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"aggro",
+			"inverted":true
+		}
+	},
+	"axe_strike":{
+		"type":"origins:target_action_on_hit",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
+				},
+				{
+					"type":"origins:if_else",
+					"condition":{
+						"type":"origins:equipped_item",
+						"equipment_slot":"mainhand",
+						"item_condition":{
+							"type":"origins:ingredient",
+							"ingredient":{
+								"item":"minecraft:shield"
+							}
+						}
+					},
+					"if_action":{
+						"type":"origins:equipped_item_action",
+						"equipment_slot":"mainhand",
+						"action":{
+							"type":"origins:damage",
+							"amount":60,
+							"ignore_unbreaking":true
+						}
+					}
+				},
+				{
+					"type":"origins:if_else",
+					"condition":{
+						"type":"origins:equipped_item",
+						"equipment_slot":"offhand",
+						"item_condition":{
+							"type":"origins:ingredient",
+							"ingredient":{
+								"item":"minecraft:shield"
+							}
+						}
+					},
+					"if_action":{
+						"type":"origins:equipped_item_action",
+						"equipment_slot":"offhand",
+						"action":{
+							"type":"origins:damage",
+							"amount":60,
+							"ignore_unbreaking":true
+						}
+					}
+				}
+			]
+		},
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"aggro",
+			"inverted":true
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"mainhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"tag":"origins-plus-plus:axes"
+						}
+					}
+				},
+				{
+					"type":"origins:resource",
+					"resource":"*:stealth_bar",
+					"compare_to":5,
+					"comparison":"=="
+				}
+			]
+		},
+		"target_condition":{
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"mainhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:shield"
+						}
+					}
+				},
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"offhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:shield"
+						}
+					}
+				}
+			]
+		}
+	},
+	"shield_bash":{
+		"type":"origins:target_action_on_hit",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
+				},
+				{
+					"type":"origins:apply_effect",
+					"effect":{
+						"effect":"minecraft:slowness",
+						"duration":80,
+						"amplifier":3
+					}
+				},
+				{
+					"type":"origins:apply_effect",
+					"effect":{
+						"effect":"minecraft:mining_fatigue",
+						"duration":80,
+						"amplifier":3
+					}
+				},
+				{
+					"type":"origins:add_velocity",
+					"y":-3
+				}
+			]
+		},
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"aggro",
+			"inverted":true
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"mainhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"shield"
+						}
+					}
+				},
+				{
+					"type":"origins:resource",
+					"resource":"*:stealth_bar",
+					"compare_to":5,
+					"comparison":"=="
+				}
+			]
+		}
+	},
+	"sword_cut":{
+		"type":"origins:target_action_on_hit",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
+				},
+				{
+					"type":"origins:clear_effect",
+					"effect":"minecraft:regeneration"
+				},
+				{
+					"type":"origins:clear_effect",
+					"effect":"minecraft:absorption"
+				},
+				{
+					"type":"origins:clear_effect",
+					"effect":"minecraft:health_boost"
+				}
+			]
+		},
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"aggro",
+			"inverted":true
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"mainhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"tag":"origins-plus-plus:axes"
+						}
+					}
+				},
+				{
+					"type":"origins:resource",
+					"resource":"*:stealth_bar",
+					"compare_to":5,
+					"comparison":"=="
+				}
+			]
+		}
+	},
+	"trident_stab":{
+		"type":"origins:action_on_hit",
+		"bientity_action":{
+			"type":"origins:delay",
+			"ticks":16,
+			"action":{
+				"type":"origins:damage",
+				"amount":4,
+				"source":{
+					"name":"drowning",
+					"bypasses_armor":true
+				}
+			}
+		},
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"aggro",
+			"inverted":true
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"mainhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"trident"
+						}
+					}
+				},
+				{
+					"type":"origins:resource",
+					"resource":"*:stealth_bar",
+					"compare_to":5,
+					"comparison":"=="
+				}
+			]
+		}
+	}
 }

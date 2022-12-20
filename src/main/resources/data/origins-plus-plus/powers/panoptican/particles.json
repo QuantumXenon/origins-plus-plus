@@ -1,10 +1,10 @@
 {
-   "type":"origins:action_over_time",
-   "entity_action":{
-      "type":"origins:execute_command",
-      "command":"particle minecraft:falling_obsidian_tear ~ ~ ~ .3 .9 .3 0 1 normal",
-      "permission_level":4
-   },
-   "interval":10,
-   "hidden":true
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"particle minecraft:falling_obsidian_tear ~ ~ ~ .3 .9 .3 0 1 normal",
+		"permission_level":4
+	},
+	"interval":10,
+	"hidden":true
 }

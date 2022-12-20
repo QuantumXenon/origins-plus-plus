@@ -8,7 +8,6 @@
 			"effect":"minecraft:dolphins_grace",
 			"duration":100,
 			"amplifier":1,
-			"is_ambient":true,
 			"show_particles":false,
 			"show_icon":false
 		}
@@ -16,7 +15,5 @@
 	"condition":{
 		"type":"origins:submerged_in",
 		"fluid":"minecraft:water"
-	},
-	"name":"Aquatic",
-	"description":"You have Dolphin's Grace when underwater."
+	}
 }

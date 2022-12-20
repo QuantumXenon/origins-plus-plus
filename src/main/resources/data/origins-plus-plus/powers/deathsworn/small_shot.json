@@ -1,85 +1,80 @@
 {
-    "type": "origins:active_self",
-    "entity_action": {
-        "type": "origins:raycast",
-        "distance": 16,
-        "block": true,
-        "entity": true,
-        "shape_type": "visual",
-        "fluid_handling": "any",
-        "bientity_action": {
-            "type": "origins:if_else_list",
-            "actions": [
-                {
-                    "condition": {
-                        "type": "origins:actor_condition",
-                        "condition": {
-                            "type": "origins:advancement",
-                            "advancement": "origins-plus-plus:deathsworn/brute"
-                        }
-                    },
-                    "action": {
-                        "type": "origins:damage",
-                        "amount": 9,
-                        "source": {
-                            "name": "magic",
-                            "bypasses_armor": true
-                        }
-                    }
-                },
-                {
-                    "condition": {
-                        "type": "origins:actor_condition",
-                        "condition": {
-                            "type": "origins:advancement",
-                            "advancement": "origins-plus-plus:deathsworn/owskele"
-                        }
-                    },
-                    "action": {
-                        "type": "origins:damage",
-                        "amount": 6,
-                        "source": {
-                            "name": "magic",
-                            "bypasses_armor": true
-                        }
-                    }
-                },
-                {
-                    "condition": {
-                        "type": "origins:actor_condition",
-                        "condition": {
-                            "type": "origins:advancement",
-                            "advancement": "origins-plus-plus:deathsworn/root"
-                        }
-                    },
-                    "action": {
-                        "type": "origins:damage",
-                        "amount": 5,
-                        "source": {
-                            "name": "magic",
-                            "bypasses_armor": true
-                        }
-                    }
-                }
-        ]            
-        },
-        "bientity_condition": {
-            "type": "origins:target_condition",
-            "condition": {
-                "type": "origins:nbt",
-                "nbt": "{Tags:['lnc_Minion']}",
-                "inverted": true
-            }
-        },
-        "command_along_ray": "particle minecraft:witch",
-        "command_step": 0.25,
-        "command_along_ray_only_on_hit": false
-    },
-    "cooldown": 40,
-    "hud_render": {
-        "should_render": false
-    },
-    "key": "key.saveToolbarActivator",
-    "name": "Submit!",
-    "description": "[Save Toolbar Activator] You can fire a ray of dark energy at will with a small cooldown to deal light magic damage. The damage increases as your expertise in necromancy increases."
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:raycast",
+		"distance":16,
+		"block":true,
+		"entity":true,
+		"shape_type":"visual",
+		"fluid_handling":"any",
+		"bientity_action":{
+			"type":"origins:if_else_list",
+			"actions":[
+				{
+					"condition":{
+						"type":"origins:actor_condition",
+						"condition":{
+							"type":"origins:advancement",
+							"advancement":"origins-plus-plus:deathsworn/brute"
+						}
+					},
+					"action":{
+						"type":"origins:damage",
+						"amount":9,
+						"source":{
+							"name":"magic",
+							"bypasses_armor":true
+						}
+					}
+				},
+				{
+					"condition":{
+						"type":"origins:actor_condition",
+						"condition":{
+							"type":"origins:advancement",
+							"advancement":"origins-plus-plus:deathsworn/skeleton"
+						}
+					},
+					"action":{
+						"type":"origins:damage",
+						"amount":6,
+						"source":{
+							"name":"magic",
+							"bypasses_armor":true
+						}
+					}
+				},
+				{
+					"condition":{
+						"type":"origins:actor_condition",
+						"condition":{
+							"type":"origins:advancement",
+							"advancement":"origins-plus-plus:deathsworn/root"
+						}
+					},
+					"action":{
+						"type":"origins:damage",
+						"amount":5,
+						"source":{
+							"name":"magic",
+							"bypasses_armor":true
+						}
+					}
+				}
+			]
+		},
+		"bientity_condition":{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:nbt",
+				"nbt":"{Tags:['lnc_Minion']}",
+				"inverted":true
+			}
+		},
+		"command_along_ray":"particle minecraft:witch",
+		"command_step":0.25,
+		"command_along_ray_only_on_hit":false
+	},
+	"cooldown":40,
+	"key":"key.saveToolbarActivator"
 }

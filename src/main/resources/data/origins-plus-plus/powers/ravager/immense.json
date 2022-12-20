@@ -1,18 +1,16 @@
 {
-    "name": "Immense",
-    "description": "You are larger than the average person.",
-    "type": "origins:action_on_callback",
-    "entity_action_chosen": {
-        "type": "origins:execute_command",
-        "command": "scale set pehkui:base 1.25"
-    },
-    "entity_action_respawned": {
-        "type": "origins:execute_command",
-        "command": "scale set pehkui:base 1.25"
-    },
-    "entity_action_lost": {
-        "type": "origins:execute_command",
-        "command": "scale set pehkui:base 1"
-    },
-    "execute_chosen_when_orb": true
+	"type":"origins:action_on_callback",
+	"entity_action_chosen":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:base 1.25"
+	},
+	"entity_action_respawned":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:base 1.25"
+	},
+	"entity_action_lost":{
+		"type":"origins:execute_command",
+		"command":"scale set pehkui:base 1"
+	},
+	"execute_chosen_when_orb":true
 }

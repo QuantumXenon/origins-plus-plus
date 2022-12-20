@@ -1,8 +1,6 @@
 {
-	"type": "origins:prevent_item_use",
-    "item_condition": {
-        "type": "origins:food"
-    },
-    "name": "No Food",
-    "description": "You're a shadow, so you can't eat food."
+	"type":"origins:prevent_item_use",
+	"item_condition":{
+		"type":"origins:food"
+	}
 }

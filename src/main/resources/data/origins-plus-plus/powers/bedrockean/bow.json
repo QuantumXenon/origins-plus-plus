@@ -1,17 +1,15 @@
 {
-	"type": "origins:prevent_item_use",
-	"item_condition": {
-		"type": "origins:ingredient",
-		"ingredient": [
+	"type":"origins:prevent_item_use",
+	"item_condition":{
+		"type":"origins:ingredient",
+		"ingredient":[
 			{
-				"item": "bow"
+				"item":"bow"
 			},
 			{
-				"item": "crossbow"
+				"item":"crossbow"
 			}
 		]
 	},
-	"hidden": true,
-	"name": "Short Arms",
-	"description": "Due to your short arms you can't pull back a bow or crossbow."
+	"hidden":true
 }

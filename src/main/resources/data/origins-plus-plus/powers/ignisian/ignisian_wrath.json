@@ -1,181 +1,174 @@
 {
-	"type": "origins:multiple",
-	"name": "Wrath of the Ignisian",
-	"description": "Unleash the power that the gods once feared. Rampage through your enemies and gain a separate 2 second cooldown for the 'Hades Hopper' ability. All attackers get hit by guaranteed thorns (can stack with normal thorns) and burned for 15 seconds. Take 80% less damage, move 50% faster and resist knockback. Consumes 100 Zenith points when hit and 4 Zenith points every tick while active.",
-	"damage": {
-		"type": "origins:action_over_time",
-		"entity_action": {
-			"type": "origins:area_of_effect",
-			"radius": 1,
-			"bientity_action": {
-				"type": "origins:damage",
-				"amount": 4,
-				"source": {
-					"name": "generic",
-					"bypasses_armor": true
+	"type":"origins:multiple",
+	"damage":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:area_of_effect",
+			"radius":1,
+			"bientity_action":{
+				"type":"origins:damage",
+				"amount":4,
+				"source":{
+					"name":"generic",
+					"bypasses_armor":true
 				}
 			},
-			"bientity_condition": {
-				"type": "origins:can_see"
+			"bientity_condition":{
+				"type":"origins:can_see"
 			}
 		},
-		"interval": 1,
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"interval":1,
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	},
-	"tank": {
-		"type": "origins:modify_damage_taken",
-		"modifier": {
-			"operation": "multiply_total",
-			"value": -0.8
+	"tank":{
+		"type":"origins:modify_damage_taken",
+		"modifier":{
+			"operation":"multiply_total",
+			"value":-0.8
 		},
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	},
-	"speed": {
-		"type": "origins:conditioned_attribute",
-		"modifier": {
-			"attribute": "minecraft:generic.movement_speed",
-			"operation": "multiply_base",
-			"value": 0.5
+	"speed":{
+		"type":"origins:conditioned_attribute",
+		"modifier":{
+			"attribute":"minecraft:generic.movement_speed",
+			"operation":"multiply_base",
+			"value":0.5
 		},
-		"tick_rate": 1,
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	},
-	"noknockback": {
-		"type": "origins:attribute",
-		"modifier": {
-			"attribute": "minecraft:generic.knockback_resistance",
-			"operation": "addition",
-			"value": 1.0
+	"noknockback":{
+		"type":"origins:attribute",
+		"modifier":{
+			"attribute":"minecraft:generic.knockback_resistance",
+			"operation":"addition",
+			"value":1.0
 		},
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	},
-	"soundstart": {
-		"type": "origins:active_self",
-		"entity_action": {
-			"type": "origins:play_sound",
-			"sound": "item.firecharge.use"
+	"soundstart":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:play_sound",
+			"sound":"item.firecharge.use"
 		},
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	},
-	"particles": {
-		"type": "origins:action_over_time",
-		"entity_action": {
-			"type": "origins:execute_command",
-			"command": "particle minecraft:flame ~ ~ ~ 0.8 0.4 0.8 0.01 2"
+	"particles":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"particle minecraft:flame ~ ~ ~ 0.8 0.4 0.8 0.01 2"
 		},
-		"interval": 1,
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"interval":1,
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	},
-	"attackerdamage": {
-		"type": "origins:attacker_action_when_hit",
-		"entity_action": {
-			"type": "origins:damage",
-			"amount": 4,
-			"source": {
-				"name": "thorns",
-				"bypasses_armor": true
+	"attackerdamage":{
+		"type":"origins:attacker_action_when_hit",
+		"entity_action":{
+			"type":"origins:damage",
+			"amount":4,
+			"source":{
+				"name":"thorns",
+				"bypasses_armor":true
 			}
 		},
-		"cooldown": 1,
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	},
-	"attackerfire": {
-		"type": "origins:attacker_action_when_hit",
-		"entity_action": {
-			"type": "origins:set_on_fire",
-			"duration": 10
+	"attackerfire":{
+		"type":"origins:attacker_action_when_hit",
+		"entity_action":{
+			"type":"origins:set_on_fire",
+			"duration":10
 		},
-		"cooldown": 1,
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	},
-	"attackerknockback": {
-		"type": "origins:attacker_action_when_hit",
-		"entity_action": {
-			"type": "origins:add_velocity",
-			"x": 0.0,
-			"y": 0.5,
-			"z": -0.5,
-			"space": "local",
-			"set": true
+	"attackerknockback":{
+		"type":"origins:attacker_action_when_hit",
+		"entity_action":{
+			"type":"origins:add_velocity",
+			"x":0.0,
+			"y":0.5,
+			"z":-0.5,
+			"space":"local",
+			"set":true
 		},
-		"cooldown": 1,
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	},
-	"zenithhit": {
-		"type": "origins:self_action_when_hit",
-		"entity_action": {
-			"type": "origins:change_resource",
-			"resource": "origins-plus-plus:ignisian/ignisian_zenith",
-			"change": -200
+	"zenithhit":{
+		"type":"origins:self_action_when_hit",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:ignisian/ignisian_zenith",
+			"change":-200
 		},
-		"cooldown": 1,
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	},
-	"soundend": {
-		"type": "origins:active_self",
-		"entity_action": {
-			"type": "origins:play_sound",
-			"sound": "block.fire.extinguish",
-			"volume": 0.1
+	"soundend":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:play_sound",
+			"sound":"block.fire.extinguish",
+			"volume":0.1
 		},
-		"condition": {
-			"type": "origins:and",
-			"conditions": [
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
 				{
-					"type": "origins:power_active",
-					"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle",
-					"inverted": true
+					"type":"origins:power_active",
+					"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle",
+					"inverted":true
 				},
 				{
-					"type": "origins:resource",
-					"resource": "origins-plus-plus:ignisian/ignisian_zenith",
-					"comparison": ">",
-					"compare_to": 0
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:ignisian/ignisian_zenith",
+					"comparison":">",
+					"compare_to":0
 				}
 			]
 		}
 	},
-	"zenith": {
-		"type": "origins:action_over_time",
-		"entity_action": {
-			"type": "origins:change_resource",
-			"resource": "origins-plus-plus:ignisian/ignisian_zenith",
-			"change": -10
+	"zenith":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:ignisian/ignisian_zenith",
+			"change":-10
 		},
-		"interval": 1,
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins-plus-plus:ignisian/ignisian_wrath_toggle"
+		"interval":1,
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		}
 	}
 }

@@ -1,37 +1,33 @@
 {
-    "type": "origins:active_self",
-    "name": "Launch",
-	"key": "key.origins.primary_active",
-    "description": "Propel yourself in the direction you are looking.",
-	"cooldown": 500,
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:add_velocity",
-                "space": "local",
-                "set": false,
-                "z": 0.75
-            },
-            {
-                "type": "origins:add_velocity",
-                "space": "local",
-                "set": false,
-                "z": 0.75
-            },
-            {
-                "type": "origins:heal",
-                "amount": 0
-            },
-            {
-                "type": "origins:play_sound",
-                "sound": "minecraft:entity.blaze.shoot"
-            }
-        ]
-    },
-    "hud_render": {
-        "should_render": true,
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-        "bar_index": 16
-    }
+	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
+	"cooldown":500,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:add_velocity",
+				"space":"local",
+				"z":0.75
+			},
+			{
+				"type":"origins:add_velocity",
+				"space":"local",
+				"z":0.75
+			},
+			{
+				"type":"origins:heal",
+				"amount":0
+			},
+			{
+				"type":"origins:play_sound",
+				"sound":"minecraft:entity.blaze.shoot"
+			}
+		]
+	},
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index":16
+	}
 }

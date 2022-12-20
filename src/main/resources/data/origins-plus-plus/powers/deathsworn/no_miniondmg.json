@@ -1,16 +1,16 @@
 {
-    "type": "origins:modify_damage_taken",
-    "damage_condition": {
-        "type": "origins:attacker",
-        "entity_condition": {
-            "type": "origins:nbt",
-            "nbt": "{Tags:['lnc_Minion']}"
-        }
-    },
-    "modifier": {
-        "name": "Immune to minions",
-        "operation": "multiply_total",
-        "value": -1
-    },
-    "hidden": true
+	"type":"origins:modify_damage_taken",
+	"damage_condition":{
+		"type":"origins:attacker",
+		"entity_condition":{
+			"type":"origins:nbt",
+			"nbt":"{Tags:['lnc_Minion']}"
+		}
+	},
+	"modifier":{
+		"name":"Immune to minions",
+		"operation":"multiply_total",
+		"value":-1
+	},
+	"hidden":true
 }

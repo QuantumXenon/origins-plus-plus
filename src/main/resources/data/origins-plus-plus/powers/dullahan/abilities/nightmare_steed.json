@@ -1,74 +1,71 @@
 {
-    "type": "origins:multiple",
-    "resource": {
-        "type": "origins:resource",
-        "min": 0,
-        "max": 1,
-        "hud_render": {
-            "should_render": false
-        }
-    },
-    "if_died": {
-        "type": "origins:action_on_callback",
-        "entity_action_respawned": {
-            "type": "origins:execute_command",
-            "command": "execute as @s at @s run function origins-plus-plus:dullahan/kill_steed",
-            "permission_level": 4
-        },
-        "condition": {
-            "type": "origins:resource",
-            "resource": "*:abilities/nightmare_steed_resource",
-            "comparison": ">=",
-            "compare_to": 1
-        }
-    },
-    "activate": {
-        "type": "origins:active_self",
-        "hud_render": {
-            "should_render": true,
-            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-            "bar_index": 17
-        },
-        "key": "key.origins.secondary_active",
-        "cooldown": 5000,
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [{
-                    "type": "origins:execute_command",
-                    "command": "execute as @s run function origins-plus-plus:dullahan/summon_steed",
-                    "permission_level": 4
-                },
-                {
-                    "type": "origins:change_resource",
-                    "resource": "*:abilities/nightmare_steed_resource",
-                    "change": 1
-                },
-                {
-                    "type": "origins:play_sound",
-                    "sound": "block.beacon.power_select",
-                    "pitch": 0.7
-                },
-                {
-                    "type": "origins:delay",
-                    "ticks": 2400,
-                    "action": {
-                        "type": "origins:and",
-                        "actions": [{
-                                "type": "origins:execute_command",
-                                "command": "execute as @s at @s run function origins-plus-plus:dullahan/kill_steed",
-                                "permission_level": 4
-                            },
-                            {
-                                "type": "origins:change_resource",
-                                "resource": "*:abilities/nightmare_steed_resource",
-                                "change": -1
-                            }
-                        ]
-                    }
-                }
-            ]
-        }
-    },
-    "name": "Nightmare Steed",
-    "description": "Conjure a speedy nightmare steed that will either last 2 minutes or dies when you die."
+	"type":"origins:multiple",
+	"resource":{
+		"type":"origins:resource",
+		"min":0,
+		"max":1
+	},
+	"if_died":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+			"type":"origins:execute_command",
+			"command":"execute as @s at @s run function origins-plus-plus:dullahan/kill_steed",
+			"permission_level":4
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:abilities/nightmare_steed_resource",
+			"comparison":">=",
+			"compare_to":1
+		}
+	},
+	"activate":{
+		"type":"origins:active_self",
+		"hud_render":{
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"bar_index":17
+		},
+		"key":"key.origins.secondary_active",
+		"cooldown":5000,
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"execute as @s run function origins-plus-plus:dullahan/summon_steed",
+					"permission_level":4
+				},
+				{
+					"type":"origins:change_resource",
+					"resource":"*:abilities/nightmare_steed_resource",
+					"change":1
+				},
+				{
+					"type":"origins:play_sound",
+					"sound":"block.beacon.power_select",
+					"pitch":0.7
+				},
+				{
+					"type":"origins:delay",
+					"ticks":2400,
+					"action":{
+						"type":"origins:and",
+						"actions":[
+							{
+								"type":"origins:execute_command",
+								"command":"execute as @s at @s run function origins-plus-plus:dullahan/kill_steed",
+								"permission_level":4
+							},
+							{
+								"type":"origins:change_resource",
+								"resource":"*:abilities/nightmare_steed_resource",
+								"change":-1
+							}
+						]
+					}
+				}
+			]
+		}
+	}
 }

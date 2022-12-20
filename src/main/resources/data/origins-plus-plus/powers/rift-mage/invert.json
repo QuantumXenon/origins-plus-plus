@@ -1,7 +1,5 @@
 {
 	"type":"origins:active_self",
-	"name":"Counter",
-	"description":"Warp the essence of nearby ender pearls, making their wielder instantly teleport to them.",
 	"key":"key.origins.secondary_active",
 	"entity_action":{
 		"type":"origins:execute_command",

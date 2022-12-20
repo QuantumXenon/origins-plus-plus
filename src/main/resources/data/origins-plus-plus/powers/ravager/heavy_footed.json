@@ -1,33 +1,31 @@
 {
-    "name":"Heavy Footed",
-    "description":"You trample farmland unless you are sneaking.",
-    "type": "origins:action_over_time",
-    "interval":1,
-    "entity_action" : {
-        "type":"origins:block_action_at",
-        "block_action": {
-            "type":"origins:offset",
-            "y": -1,
-            "action": {
-                "type": "origins:set_block",
-                "block": "minecraft:dirt"
-            }
-        }
-    },
-    "condition": {
-        "type":"origins:and",
-            "conditions": [
-            {
-                "type": "origins:on_block",
-                "block_condition": {
-                    "type":"origins:block",
-                    "block":"minecraft:farmland"
-                }
-            },
-            {
-                "type":"origins:sneaking",
-                "inverted":true
-            }
-        ]
-    }
+	"type":"origins:action_over_time",
+	"interval":1,
+	"entity_action":{
+		"type":"origins:block_action_at",
+		"block_action":{
+			"type":"origins:offset",
+			"y":-1,
+			"action":{
+				"type":"origins:set_block",
+				"block":"minecraft:dirt"
+			}
+		}
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:on_block",
+				"block_condition":{
+					"type":"origins:block",
+					"block":"minecraft:farmland"
+				}
+			},
+			{
+				"type":"origins:sneaking",
+				"inverted":true
+			}
+		]
+	}
 }

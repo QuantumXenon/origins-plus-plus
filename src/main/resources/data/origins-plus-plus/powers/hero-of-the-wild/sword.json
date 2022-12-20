@@ -1,6 +1,4 @@
 {
-	"name":"The Sword of Evil's Bane",
-	"description":"You wield a magic sword forged to destroy evil",
 	"type":"origins:action_on_callback",
 	"entity_action_chosen":{
 		"type":"origins:execute_command",

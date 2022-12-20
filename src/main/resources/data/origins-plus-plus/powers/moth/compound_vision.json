@@ -1,6 +1,4 @@
 {
 	"type":"origins:night_vision",
-	"strength":1,
-	"name":"Compound Vision",
-	"description":"Your big eyes have adapted to see within dark spaces."
+	"strength":1
 }

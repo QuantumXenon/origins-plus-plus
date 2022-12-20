@@ -1,9 +1,7 @@
 {
-    "name": "Raven's Defense",
-    "description": "Your raven heart allows you to camouflage and become invisble to do this you must shift",
-    "condition": {
-        "type": "origins:sneaking"
-    },
-    "type": "origins:invisibility",
-    "render_armor": false
+	"condition":{
+		"type":"origins:sneaking"
+	},
+	"type":"origins:invisibility",
+	"render_armor":false
 }

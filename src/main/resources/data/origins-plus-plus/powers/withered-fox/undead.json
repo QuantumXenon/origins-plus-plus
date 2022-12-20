@@ -1,6 +1,4 @@
 {
-    "type": "origins:entity_group",
-    "group": "undead",
-    "name": "Undead",
-    "description": "You count as an undead mob"
+	"type":"origins:entity_group",
+	"group":"undead"
 }

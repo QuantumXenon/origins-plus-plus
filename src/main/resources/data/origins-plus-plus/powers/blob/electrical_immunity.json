@@ -1,10 +1,7 @@
 {
-    "type": "origins:invulnerability",
-    "damage_condition": {
-        "type": "origins:name",
-        "inverted": false,
-        "name": "lightningBolt"
-    },
-    "name": "Electrical Immunity",
-    "description": "Somehow, lightning goes right through you without dealing any damage."
+	"type":"origins:invulnerability",
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"lightningBolt"
+	}
 }

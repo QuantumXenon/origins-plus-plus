@@ -1,7 +1,5 @@
 {
 	"type":"origins:active_self",
-	"name":"Heal",
-	"description":"[Save Toolbar Activator] Increase your health bar by gaining temporary blindness + slowness.",
 	"key":"key.saveToolbarActivator",
 	"cooldown":1000,
 	"entity_action":{

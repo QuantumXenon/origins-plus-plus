@@ -1,6 +1,4 @@
 {
-	"name":"Hidden Knowledge",
-	"description":"[Primary] + [Shift] You can turn a book in your offhand into a Mage Spell Book.",
 	"type":"origins:active_self",
 	"key":"key.origins.primary_active",
 	"cooldown":100,

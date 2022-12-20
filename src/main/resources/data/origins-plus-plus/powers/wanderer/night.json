@@ -1,79 +1,75 @@
 {
-    "name": "Cowardice",
-    "description": "During the night you become faster but also weaker. Weakness can be combated by holding a shield at the expense of losing your speed boost.",
-    "condition": {
-        "inverted": true,
-        "type": "origins:daytime"
-    },
-    "type": "origins:multiple",
-    "cowardice_speed": {
-        "hidden": true,
-        "type": "origins:stacking_status_effect",
-        "min_stacks": 1,
-        "max_stacks": 1,
-        "duration_per_stack": 200,
-        "tick_rate": 20,
-        "effect": {
-            "effect": "minecraft:speed",
-            "duration": 100,
-            "amplifier": 1,
-            "show_particles": false,
-            "show_icon": true
-        },
-		"condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "inverted": true,
-                    "type": "origins:daytime"
-                },
-                {
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "offhand",
-                    "item_condition": {
-                        "inverted": true,
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:shield"
-                        }
-                    }
-                }
-            ]
-        }
-    },
-    "cowardice_weakness": {
-        "hidden": true,
-        "type": "origins:stacking_status_effect",
-        "min_stacks": 1,
-        "max_stacks": 1,
-        "duration_per_stack": 100,
-        "tick_rate": 10,
-        "effect": {
-            "effect": "minecraft:weakness",
-            "duration": 100,
-            "amplifier": 1,
-            "show_particles": false,
-            "show_icon": true
-        },
-		"condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "inverted": true,
-                    "type": "origins:equipped_item",
-                    "equipment_slot": "offhand",
-                    "item_condition": {
-                        "type": "origins:ingredient",
-                        "ingredient": {
-                            "item": "minecraft:shield"
-                        }
-                    }
-                },
-                {
-                    "inverted": true,
-                    "type": "origins:daytime"
-                }
-            ]
-        }
-    }
+	"condition":{
+		"inverted":true,
+		"type":"origins:daytime"
+	},
+	"type":"origins:multiple",
+	"cowardice_speed":{
+		"hidden":true,
+		"type":"origins:stacking_status_effect",
+		"min_stacks":1,
+		"max_stacks":1,
+		"duration_per_stack":200,
+		"effect":{
+			"effect":"minecraft:speed",
+			"duration":100,
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":true
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"inverted":true,
+					"type":"origins:daytime"
+				},
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"offhand",
+					"item_condition":{
+						"inverted":true,
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:shield"
+						}
+					}
+				}
+			]
+		}
+	},
+	"cowardice_weakness":{
+		"hidden":true,
+		"type":"origins:stacking_status_effect",
+		"min_stacks":1,
+		"max_stacks":1,
+		"duration_per_stack":100,
+		"effect":{
+			"effect":"minecraft:weakness",
+			"duration":100,
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":true
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"inverted":true,
+					"type":"origins:equipped_item",
+					"equipment_slot":"offhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:shield"
+						}
+					}
+				},
+				{
+					"inverted":true,
+					"type":"origins:daytime"
+				}
+			]
+		}
+	}
 }

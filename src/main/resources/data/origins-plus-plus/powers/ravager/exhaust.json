@@ -1,10 +1,7 @@
 {
-    "type": "origins:modify_exhaustion",
-    "modifier": {
-        "name": "Increased exhaustion",
-        "operation": "multiply_base",
-        "value": 1.7
-    },
-    "name": "Exhausted",
-    "description": "You get tired faster than normal due to your size."
+	"type":"origins:modify_exhaustion",
+	"modifier":{
+		"operation":"multiply_base",
+		"value":1.7
+	}
 }

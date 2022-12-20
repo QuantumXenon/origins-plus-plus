@@ -1,7 +1,5 @@
 {
 	"type":"origins:action_over_time",
-	"name":"Stamina Conservation",
-	"description":"Binturongs need to save energy for leaping so they can't hold their breath for long",
 	"interval":20,
 	"condition":{
 		"type":"origins:and",

@@ -1,25 +1,23 @@
 {
-  "type": "origins:restrict_armor",
-  "head": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 0
-  },
-  "chest": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 6
-  },
-  "legs": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 0
-  },
-  "feet": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 0
-  },
-  "name": "Extreme Need for Mobility",
-  "description": "Birb is very tiny which makes it hard for it to wear any armor apart from leather, gold, chainmail, and iron chestplates."
+	"type":"origins:restrict_armor",
+	"head":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":0
+	},
+	"chest":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":6
+	},
+	"legs":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":0
+	},
+	"feet":{
+		"type":"origins:armor_value",
+		"comparison":">",
+		"compare_to":0
+	}
 }

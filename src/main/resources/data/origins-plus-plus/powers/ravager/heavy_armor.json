@@ -1,25 +1,23 @@
 {
-	"type": "origins:restrict_armor",
-	"head": {
-		"type": "origins:armor_value",
-		"comparison": "<=",
-		"compare_to": 2
+	"type":"origins:restrict_armor",
+	"head":{
+		"type":"origins:armor_value",
+		"comparison":"<=",
+		"compare_to":2
 	},
-	  "chest": {
-		"type": "origins:armor_value",
-		"comparison": "<=",
-		"compare_to": 6
+	"chest":{
+		"type":"origins:armor_value",
+		"comparison":"<=",
+		"compare_to":6
 	},
-	"legs": {
-		"type": "origins:armor_value",
-		"comparison": "<=",
-		"compare_to": 5
+	"legs":{
+		"type":"origins:armor_value",
+		"comparison":"<=",
+		"compare_to":5
 	},
-	"feet": {
-		"type": "origins:armor_value",
-		"comparison": "<=",
-		"compare_to": 2
-	 },
-	"name": "Ravager's Weight",
-	"description": "You can't wear any armor below diamond."
+	"feet":{
+		"type":"origins:armor_value",
+		"comparison":"<=",
+		"compare_to":2
+	}
 }

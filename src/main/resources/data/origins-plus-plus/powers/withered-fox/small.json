@@ -1,0 +1,37 @@
+{
+	"type":"origins:action_on_callback",
+	"entity_action_chosen":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"scale set pehkui:base 0.75"
+			},
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"scale set pehkui:step_height 1.15"
+			}
+		]
+	},
+	"entity_action_respawned":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"scale set pehkui:base 0.75"
+			},
+			{
+				"type":"origins:execute_command",
+				"permission_level":4,
+				"command":"scale set pehkui:step_height 1.15"
+			}
+		]
+	},
+	"entity_action_lost":{
+		"type":"origins:execute_command",
+		"command":"scale reset"
+	}
+}

@@ -1,17 +1,14 @@
 {
-    "name": "§5§nEndermen Like",
-    "description": "§5You skin is darker than most, you have 8 hearts, you are slightly taller than normal and are slightly thinner than normal.",
-    "type": "origins:conditioned_attribute",
-    "modifier": {
-        "attribute": "minecraft:generic.max_health",
-        "value": -4.0,
-        "operation": "addition"
-    },
-    "tick_rate": 20,
-    "condition":{
-		"type": "origins:resource",
-		"resource": "origins-plus-plus:shifter/shift_bar",
-		"comparison": "==",
-		"compare_to": 6
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.max_health",
+		"value":-4.0,
+		"operation":"addition"
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:shifter/shift_bar",
+		"comparison":"==",
+		"compare_to":6
 	}
-  }
+}

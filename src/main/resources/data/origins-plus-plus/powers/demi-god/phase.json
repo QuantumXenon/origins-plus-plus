@@ -33,7 +33,6 @@
 		"min_stacks":0,
 		"max_stacks":1,
 		"effect":{
-			"duration":0,
 			"show_particles":false,
 			"show_icon":false,
 			"effect":"weakness",
@@ -67,7 +66,6 @@
 		"max_stacks":1,
 		"duration_per_stack":20,
 		"effect":{
-			"duration":0,
 			"show_particles":false,
 			"show_icon":false,
 			"effect":"wither",
@@ -119,7 +117,5 @@
 			"resource":"*:*_resource",
 			"change":500
 		}
-	},
-	"name":"Phase",
-	"description":"You can pass through blocks (but it's too unstable to phase for long)."
+	}
 }

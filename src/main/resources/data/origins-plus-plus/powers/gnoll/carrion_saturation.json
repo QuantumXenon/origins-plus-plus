@@ -1,0 +1,14 @@
+{
+	"hidden":true,
+	"condition":{
+		"type":"origins:status_effect",
+		"effect":"minecraft:hunger"
+	},
+	"type":"origins:action_over_time",
+	"interval":5,
+	"entity_action":{
+		"type":"origins:feed",
+		"food":0,
+		"saturation":2
+	}
+}

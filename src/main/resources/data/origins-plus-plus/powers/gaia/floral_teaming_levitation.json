@@ -1,0 +1,23 @@
+{
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:apply_effect",
+		"effect":{
+			"effect":"minecraft:levitation",
+			"duration":200
+		}
+	},
+	"interval":40,
+	"condition":{
+		"type":"origins:block_in_radius",
+		"block_condition":{
+			"type":"origins:block",
+			"block":"minecraft:allium"
+		},
+		"radius":5,
+		"shape":"cube",
+		"comparison":">",
+		"compare_to":3
+	},
+	"hidden":true
+}

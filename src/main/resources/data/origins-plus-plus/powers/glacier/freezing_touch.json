@@ -1,119 +1,115 @@
 {
-	"type": "origins:target_action_on_hit",
-	"entity_action": {
-		"type": "origins:if_else",
-		"condition": {
-			"type": "origins:or",
-			"conditions": [
+	"type":"origins:target_action_on_hit",
+	"entity_action":{
+		"type":"origins:if_else",
+		"condition":{
+			"type":"origins:or",
+			"conditions":[
 				{
-					"type": "origins:entity_type",
-					"entity_type": "minecraft:blaze"
+					"type":"origins:entity_type",
+					"entity_type":"minecraft:blaze"
 				},
 				{
-					"type": "origins:entity_type",
-					"entity_type": "minecraft:magma_cube"
+					"type":"origins:entity_type",
+					"entity_type":"minecraft:magma_cube"
 				},
 				{
-					"type": "origins:entity_type",
-					"entity_type": "minecraft:ghast"
+					"type":"origins:entity_type",
+					"entity_type":"minecraft:ghast"
 				},
 				{
-					"type": "origins:entity_type",
-					"entity_type": "minecraft:strider"
+					"type":"origins:entity_type",
+					"entity_type":"minecraft:strider"
 				},
 				{
-					"type": "origins:and",
-					"conditions": [
+					"type":"origins:and",
+					"conditions":[
 						{
-							"type": "origins:entity_type",
-							"entity_type": "minecraft:player"
+							"type":"origins:entity_type",
+							"entity_type":"minecraft:player"
 						},
 						{
-							"type": "origins:power",
-							"power": "origins:fire_immunity"
+							"type":"origins:power",
+							"power":"origins:fire_immunity"
 						}
 					]
 				}
 			],
-			"inverted": true
+			"inverted":true
 		},
-		"if_action": {
-			"type": "origins:apply_effect",
-			"effect": {
+		"if_action":{
+			"type":"origins:apply_effect",
+			"effect":{
 				"effect":"minecraft:slowness",
-				"duration": 60,
-				"amplifier": 20,
-				"is_ambient": true,
-				"show_particles": false,
-				"show_icon": false
+				"duration":60,
+				"amplifier":20,
+				"show_particles":false,
+				"show_icon":false
 			}
 		},
-		"else_action": {
-			"type": "origins:damage",
-			"amount": 5,
-			"source": {
-				"name": "player"
+		"else_action":{
+			"type":"origins:damage",
+			"amount":5,
+			"source":{
+				"name":"player"
 			}
 		}
 	},
-	"cooldown": 100,
-	"hud_render": {
-		"should_render": true,
-		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-		"bar_index": 8
+	"cooldown":100,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index":8
 	},
-	"damage_condition": {
-		"type": "origins:and",
-		"conditions": [
+	"damage_condition":{
+		"type":"origins:and",
+		"conditions":[
 			{
-				"type": "origins:attacker",
-				"entity_condition": {
-					"type": "origins:and",
-					"conditions": [
-					{
-						"type": "origins:fall_distance",
-						"comparison": ">",
-						"compare_to": 0
-					},
-					{
-						"type": "origins:status_effect",
-						"effect": "minecraft:weakness",
-						"min_amplifier": 0,
-						"max_amplifier": 2147483647,
-						"min_duration": 0,
-						"max_duration": 2147483647,
-						"inverted": true
-					}
+				"type":"origins:attacker",
+				"entity_condition":{
+					"type":"origins:and",
+					"conditions":[
+						{
+							"type":"origins:fall_distance",
+							"comparison":">",
+							"compare_to":0
+						},
+						{
+							"type":"origins:status_effect",
+							"effect":"minecraft:weakness",
+							"min_amplifier":0,
+							"max_amplifier":2147483647,
+							"min_duration":0,
+							"max_duration":2147483647,
+							"inverted":true
+						}
 					]
 				}
 			},
 			{
-				"type": "origins:projectile",
-				"inverted": true
-			}
-		]
-		
-	},
-	"target_condition": {
-		"type": "origins:and",
-		"conditions": [
-			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:stray",
-				"inverted": true
-			},
-			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:snow_golem",
-				"inverted": true
-			},
-			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:polar_bear",
-				"inverted": true
+				"type":"origins:projectile",
+				"inverted":true
 			}
 		]
 	},
-	"name": "Freezing Touch",
-	"description": "When you deal critical damage, your touch freezes the target for 3 seconds. If the target is resistant to fire, it takes 2.5 hearts from it."
+	"target_condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:entity_type",
+				"entity_type":"minecraft:stray",
+				"inverted":true
+			},
+			{
+				"type":"origins:entity_type",
+				"entity_type":"minecraft:snow_golem",
+				"inverted":true
+			},
+			{
+				"type":"origins:entity_type",
+				"entity_type":"minecraft:polar_bear",
+				"inverted":true
+			}
+		]
+	}
 }

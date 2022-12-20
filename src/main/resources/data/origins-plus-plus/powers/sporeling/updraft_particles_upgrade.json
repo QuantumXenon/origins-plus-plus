@@ -10,12 +10,7 @@
 		}
 		]
 	},
-	"key": {
-		"key": "key.origins.primary_active"
-    },
+	"key": "key.origins.primary_active",
 	"cooldown": 80,
-    "hud_render": {
-        "should_render": false
-    },
 	"hidden": true
 }

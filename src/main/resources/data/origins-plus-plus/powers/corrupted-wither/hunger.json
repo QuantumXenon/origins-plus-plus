@@ -1,10 +1,8 @@
 {
-  "type": "origins:modify_exhaustion",
-  "modifier": {
-    "name": "Extra exhaustion from large appetite",
-    "value": 0.8,
-    "operation": "multiply_base"
-  },
-  "name": "Hungry",
-  "description": "Even thought you are a skeleton you still need food and need it often... (somehow)"
+	"type":"origins:modify_exhaustion",
+	"modifier":{
+		"name":"Extra exhaustion from large appetite",
+		"value":0.8,
+		"operation":"multiply_base"
+	}
 }

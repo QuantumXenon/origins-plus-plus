@@ -1,7 +1,5 @@
 {
 	"type":"origins:active_self",
-	"name":"Beaver Rage",
-	"description":"You get Speed and Regeneration for 30 seconds (5 min cooldown).",
 	"key":"key.origins.secondary_active",
 	"cooldown":6000,
 	"hud_render":{

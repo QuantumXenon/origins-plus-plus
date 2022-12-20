@@ -1,18 +1,14 @@
 {
-  "type": "origins:fire_projectile",
-  "entity_type": "minecraft:fireball",
-  "count": 1,
-  "speed": 1.5,
-  "divergence": 1.0,
-
-  "cooldown": 60,
-    "hud_render": {
-      "should_render": true,
-      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-      "bar_index": 7
-    },
-
-  "key": "key.origins.secondary_active",
-  "name": "Fireball Spell",
-  "description": "With your magic you summon a fireball."
+  "type":"origins:fire_projectile",
+  "entity_type":"minecraft:fireball",
+  "count":1,
+  "speed":1.5,
+  "divergence":1.0,
+  "cooldown":60,
+  "hud_render":{
+    "should_render":true,
+    "sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index":7
+  },
+  "key":"key.origins.secondary_active"
 }

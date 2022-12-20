@@ -1,34 +1,32 @@
 {
-    "type": "origins:modify_damage_taken",
-    "name": "Punished",
-    "description": "The retribution has weakened you greatly. Explosions, magic and lightning bolts deal 3x damage to you.",
-    "damage_condition": {
-        "type": "origins:or",
-        "conditions": [
-            {
-                "type": "origins:name",
-                "name": "explosion.player"
-            },
-            {
-                "type": "origins:name",
-                "name": "explosion"
-            },
-            {
-                "type": "origins:name",
-                "name": "magic"
-            },
-            {
-                "type": "origins:name",
-                "name": "indirectMagic"
-            },
-            {
-                "type": "origins:name",
-                "name": "lightningBolt"
-            }
-        ]
-    },
-    "modifier": {
-        "operation": "multiply_base",
-        "value": 2.0
-    }
+	"type":"origins:modify_damage_taken",
+	"damage_condition":{
+		"type":"origins:or",
+		"conditions":[
+			{
+				"type":"origins:name",
+				"name":"explosion.player"
+			},
+			{
+				"type":"origins:name",
+				"name":"explosion"
+			},
+			{
+				"type":"origins:name",
+				"name":"magic"
+			},
+			{
+				"type":"origins:name",
+				"name":"indirectMagic"
+			},
+			{
+				"type":"origins:name",
+				"name":"lightningBolt"
+			}
+		]
+	},
+	"modifier":{
+		"operation":"multiply_base",
+		"value":2.0
+	}
 }

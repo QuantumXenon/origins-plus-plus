@@ -7,7 +7,5 @@
 	"modifier":{
 		"value":2,
 		"operation":"multiply_total"
-	},
-	"name":"Weak to Explosions",
-	"description":"Binturongs are weak to explosion damage"
+	}
 }

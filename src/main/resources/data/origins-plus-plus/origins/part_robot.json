@@ -1,14 +1,14 @@
 {
 	"powers": [
-		"origins-plus-plus:part-robot/alreadyiron",
+		"origins-plus-plus:part-robot/already_iron",
 		"origins-plus-plus:part-robot/boiling",
-		"origins-plus-plus:part-robot/effectimmune",
+		"origins-plus-plus:part-robot/effect_immune",
 		"origins-plus-plus:part-robot/heavy",
 		"origins-plus-plus:part-robot/hydrophobia",
 		"origins-plus-plus:part-robot/laser",
-		"origins-plus-plus:part-robot/noregen",
+		"origins-plus-plus:part-robot/no_regeneration",
 		"origins-plus-plus:part-robot/overheat",
-		"origins-plus-plus:part-robot/rapidlaser",
+		"origins-plus-plus:part-robot/rapid_laser",
 		"origins-plus-plus:part-robot/regenerate",
 		"origins-plus-plus:part-robot/steel_skin",
 		"origins-plus-plus:part-robot/strong_arms",

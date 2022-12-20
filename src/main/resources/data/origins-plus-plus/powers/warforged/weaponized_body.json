@@ -1,9 +1,7 @@
 {
-	"type": "origins:modify_damage_dealt",
-	"modifier": {
-		"operation": "addition",
-		"value": 5
-	},
-	"name": "Weaponized body",
-	"description": "Your body is a weapon, allowing you to do more damage to enemies"
+	"type":"origins:modify_damage_dealt",
+	"modifier":{
+		"operation":"addition",
+		"value":5
+	}
 }

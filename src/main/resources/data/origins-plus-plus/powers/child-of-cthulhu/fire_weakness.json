@@ -1,12 +1,10 @@
 {
-  "type": "origins:modify_damage_taken",
-  "damage_condition": {
-    "type": "origins:fire"
-  },
-  "modifier": {
-    "operation": "multiply_base",
-    "value": 3
-  },
-  "name": "Fire Weakness",
-  "description": "Fire represents everything you are against for, so it deals triple damage to you."
+	"type":"origins:modify_damage_taken",
+	"damage_condition":{
+		"type":"origins:fire"
+	},
+	"modifier":{
+		"operation":"multiply_base",
+		"value":3
+	}
 }

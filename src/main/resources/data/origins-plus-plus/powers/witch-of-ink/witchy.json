@@ -7,8 +7,5 @@
 	"entity_action_lost":{
 		"type":"origins:execute_command",
 		"command":"team leave lwi_Witch @s"
-	},
-	"execute_chosen_when_orb":true,
-	"name":"Coven of Witches",
-	"description":"Witches are passive to you."
+	}
 }

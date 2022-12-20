@@ -1,18 +1,15 @@
 {
-    "name": "Spectre's Dismay",
-    "description": "[Primary] You can shoot the skulls of your enemies laced with the soul of a creeper.",
-    "loading_priority": 10,
-    "type": "origins:fire_projectile",
-    "entity_type": "minecraft:wither_skull",
-    "cooldown": 600,
-    "hud_render": {
-        "should_render": true,
-        "sprite_location": "origins:textures/gui/resource_bar.png",
-        "bar_index": 5
-    },
-    "count": 1,
-    "speed": 3,
-    "divergence": 1,
-    "sound": "minecraft:entity.phantom.death",
-    "key": "primary"
+	"type":"origins:fire_projectile",
+	"entity_type":"minecraft:wither_skull",
+	"cooldown":600,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/resource_bar.png",
+		"bar_index":5
+	},
+	"count":1,
+	"speed":3,
+	"divergence":1,
+	"sound":"minecraft:entity.phantom.death",
+	"key":"key.origins.primary_active"
 }

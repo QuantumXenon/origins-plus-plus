@@ -1,0 +1,24 @@
+{
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.attack_damage",
+		"value":-3,
+		"operation":"addition"
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:dimension",
+				"dimension":"minecraft:the_nether",
+				"inverted":true
+			},
+			{
+				"type":"origins:resource",
+				"resource":"origins-plus-plus:shifter/shift_bar",
+				"comparison":"==",
+				"compare_to":8
+			}
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type":"origins:multiple",
+	"hidden":true,
+	"speed":{
+		"type":"origins:modify_swim_speed",
+		"modifier":{
+			"operation":"addition",
+			"value":0.030
+		}
+	},
+	"night_vision":{
+		"type":"origins:night_vision",
+		"strength":0.5,
+		"condition":{
+			"type":"origins:submerged_in",
+			"fluid":"minecraft:water"
+		}
+	}
+}

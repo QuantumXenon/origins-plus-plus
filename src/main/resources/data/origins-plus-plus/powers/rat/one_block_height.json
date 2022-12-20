@@ -1,51 +1,49 @@
 {
 	"type":"origins:action_on_callback",
 	"entity_action_chosen":{
-	   "type":"origins:and",
-	   "actions":[
-		  {
-			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:height 0.50 @s",
-			 "permission_level":4
-		  },
-		  {
-			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:width 0.50 @s",
-			 "permission_level":4
-		  }
-	   ]
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:height 0.50 @s",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:width 0.50 @s",
+				"permission_level":4
+			}
+		]
 	},
 	"entity_action_respawned":{
-	   "type":"origins:and",
-	   "actions":[
-		  {
-			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:height 0.50 @s",
-			 "permission_level":4
-		  },
-		  {
-			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:width 0.50 @s",
-			 "permission_level":4
-		  }
-	   ]
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:height 0.50 @s",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:width 0.50 @s",
+				"permission_level":4
+			}
+		]
 	},
 	"entity_action_lost":{
-	   "type":"origins:and",
-	   "actions":[
-		  {
-			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:height 1 @s",
-			 "permission_level":4
-		  },
-		  {
-			 "type":"origins:execute_command",
-			 "command":"scale set pehkui:width 1 @s",
-			 "permission_level":4
-		  }
-	   ]
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:height 1 @s",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:width 1 @s",
+				"permission_level":4
+			}
+		]
 	},
-	"execute_chosen_when_orb":true,
-	"name":"Small Boi",
-	"description":"You are one block tall and can climb on blocks but have only seven hearts."
+	"execute_chosen_when_orb":true
 }

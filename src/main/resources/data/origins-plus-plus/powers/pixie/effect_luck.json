@@ -1,14 +1,12 @@
 {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": -3,
-    "max_stacks": 1,
-    "duration_per_stack": 200,
-    "tick_rate": 20,
-    "effect": {
-        "effect": "minecraft:luck",
-        "is_ambient": true,
-        "show_particles": false,
-        "show_icon": false
-    },
-	"hidden": true
+	"type":"origins:stacking_status_effect",
+	"min_stacks":-3,
+	"max_stacks":1,
+	"duration_per_stack":200,
+	"effect":{
+		"effect":"minecraft:luck",
+		"show_particles":false,
+		"show_icon":false
+	},
+	"hidden":true
 }

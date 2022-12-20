@@ -1,0 +1,8 @@
+{
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:gain_air",
+		"value":20
+	},
+	"interval":20
+}

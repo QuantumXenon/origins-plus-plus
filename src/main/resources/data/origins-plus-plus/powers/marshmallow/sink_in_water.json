@@ -1,8 +1,6 @@
 {
-    "type": "origins:multiple",
-    "ignore_water": {
-        "type": "origins:ignore_water"
-    },
-    "name": "Dense",
-	"description": "You cannot swim and sink in water"
+    "type":"origins:multiple",
+    "ignore_water":{
+        "type":"origins:ignore_water"
+    }
 }

@@ -1,50 +1,52 @@
 {
-	"type": "origins:multiple",
-	"callback": {
-		"type": "origins:action_on_callback",
-		"entity_action_added": {
-			"type": "origins:execute_command",
-			"command": "team add wiz"
+	"type":"origins:multiple",
+	"callback":{
+		"type":"origins:action_on_callback",
+		"entity_action_added":{
+			"type":"origins:execute_command",
+			"command":"team add wizard"
 		},
-		"entity_action_removed": {
-			"type": "origins:execute_command",
-			"command": "team leave @s"
+		"entity_action_removed":{
+			"type":"origins:execute_command",
+			"command":"team leave @s"
 		}
 	},
-	"team": {
-		"type": "origins:action_over_time",
-		"entity_action": {
-			"type": "origins:and",
-			"actions": [{
-				"type": "origins:execute_command",
-				"command": "team join wiz @s"
-			}, {
-				"type": "origins:execute_command",
-				"command": "execute at @s as @e[distance=..64,type=minecraft:vex,tag=!aggressed] run team join wiz @s"
-			}]
+	"team":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"team join wizard @s"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"execute at @s as @e[distance=..64,type=minecraft:vex,tag=!aggressed] run team join wizard @s"
+				}
+			]
 		},
-		"interval": 20
+		"interval":20
 	},
-	"aggress": {
-		"type": "origins:target_action_on_hit",
-		"entity_action": {
-			"type": "origins:and",
-			"actions": [{
-				"type": "origins:execute_command",
-				"command": "tag @s add aggressed"
-			}, {
-				"type": "origins:execute_command",
-				"command": "team leave @s"
-			}]
+	"aggress":{
+		"type":"origins:target_action_on_hit",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"tag @s add aggressed"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"team leave @s"
+				}
+			]
 		},
-		"target_condition": {
-			"type": "origins:entity_type",
-			"entity_type": "minecraft:vex"
-		},
-		"cooldown": 0,
-		"hud_render": {
-			"should_render": false
+		"target_condition":{
+			"type":"origins:entity_type",
+			"entity_type":"minecraft:vex"
 		}
 	},
-	"hidden": true
+	"hidden":true
 }

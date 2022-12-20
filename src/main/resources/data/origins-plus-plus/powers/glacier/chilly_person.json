@@ -1,9 +1,7 @@
 {
-	"type": "origins:invulnerability",
-	"damage_condition": {
-		"type": "origins:name",
-		"name": "freeze"
-	},
-	"name": "Chilly Person",
-	"description": "If you're inside the powder snow block, you don't take freezing damage."
+	"type":"origins:invulnerability",
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"freeze"
+	}
 }

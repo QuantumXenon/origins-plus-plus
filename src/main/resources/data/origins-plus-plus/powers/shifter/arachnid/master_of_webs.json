@@ -1,0 +1,26 @@
+{
+	"type":"origins:target_action_on_hit",
+	"cooldown":600,
+	"hud_render":{
+		"bar_index":5
+	},
+	"entity_action":{
+		"type":"origins:block_action_at",
+		"block_action":{
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:replaceable"
+			},
+			"if_action":{
+				"type":"origins:set_block",
+				"block":"origins:temporary_cobweb"
+			}
+		}
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:shifter/shift_bar",
+		"comparison":"==",
+		"compare_to":2
+	}
+}

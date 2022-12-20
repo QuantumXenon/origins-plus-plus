@@ -1,31 +1,29 @@
 {
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:apply_effect",
-        "effects": [
-            {
-                "effect": "minecraft:strength",
-                "duration": 99999,
-				"show_particles": false,
-				"amplifier": 1
-            }
-            
-        ]
-    },
-    "falling_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:clear_effect",
-                "effect": "minecraft:strength"
-            }
-        ]
-    },
-    "condition": {
-        "type": "origins:daytime",
-		"inverted": true
-    },
-	"interval" : 1,
-	"hidden": true
-
-} 
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:apply_effect",
+		"effects":[
+			{
+				"effect":"minecraft:strength",
+				"duration":99999,
+				"show_particles":false,
+				"amplifier":1
+			}
+		]
+	},
+	"falling_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:clear_effect",
+				"effect":"minecraft:strength"
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:daytime",
+		"inverted":true
+	},
+	"interval":1,
+	"hidden":true
+}

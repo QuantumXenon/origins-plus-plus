@@ -1,7 +1,5 @@
 {
-    "type": "origins:toggle",
-    "key": "key.origins.primary_active",
-    "name": "Starlight Mode",
-    "description": "You gain immunity to daytime debuffs and gives invisibility and night vision, but armor shows and you can't attack. [Primary]",
-    "active_by_default": false
+	"type":"origins:toggle",
+	"key":"key.origins.primary_active",
+	"active_by_default":false
 }

@@ -1,7 +1,5 @@
 {
 	"type":"origins:multiple",
-	"name":"Redstone Powered",
-	"description":"You are unable to eat, but your hunger will never reach zero. You are also immune to poison.",
 	"food":{
 		"type":"origins:prevent_item_use",
 		"item_condition":{

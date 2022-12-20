@@ -1,7 +1,5 @@
 {
 	"type":"origins:multiple",
-	"name":"Artificial Consciousness",
-	"description":"You are a battery powered machine. This battery slowly runs our over time. As the battery decreases, you will start to move slower until you cannot move at all. You can refill this battery by placing coal in your offhand.",
 	"regenerate":{
 		"type":"origins:action_over_time",
 		"interval":20,
@@ -46,7 +44,6 @@
 		"duration_per_stack":30,
 		"effects":{
 			"effect":"minecraft:slowness",
-			"is_ambient":false,
 			"show_particles":false,
 			"show_icon":false
 		},
@@ -65,7 +62,6 @@
 		"effects":{
 			"effect":"minecraft:slowness",
 			"amplifier":1,
-			"is_ambient":false,
 			"show_particles":false,
 			"show_icon":false
 		},
@@ -84,7 +80,6 @@
 		"effects":{
 			"effect":"minecraft:slowness",
 			"amplifier":2,
-			"is_ambient":false,
 			"show_particles":false,
 			"show_icon":false
 		},
@@ -103,7 +98,6 @@
 		"effects":{
 			"effect":"minecraft:slowness",
 			"amplifier":200,
-			"is_ambient":false,
 			"show_particles":false,
 			"show_icon":false
 		},

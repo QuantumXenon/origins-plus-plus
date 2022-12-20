@@ -13,7 +13,5 @@
 	"modifier":{
 		"operation":"multiply_total",
 		"value":1.5
-	},
-	"name":"Sharper Stone",
-	"description":"Stone Swords do similar damage to diamond axes."
+	}
 }

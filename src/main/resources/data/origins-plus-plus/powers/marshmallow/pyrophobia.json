@@ -1,53 +1,47 @@
 {
-	"name": "Flammable",
-	"description": "You take 1.5x fire damage",
-	
-	"type": "origins:multiple",
-	
-	"more_infire_damage": {
-		"type": "origins:modify_damage_taken",
-		"damage_condition": {
-			"type": "origins:name",
-			"name": "inFire"
+	"type":"origins:multiple",
+	"more_infire_damage":{
+		"type":"origins:modify_damage_taken",
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"inFire"
 		},
-		"modifier": {
-			"operation": "multiply_total",
-			"value": 1.5
+		"modifier":{
+			"operation":"multiply_total",
+			"value":1.5
 		}
 	},
-	
-	"more_onfire_damage": {
-		"type": "origins:modify_damage_taken",
-		"damage_condition": {
-			"type": "origins:name",
-			"name": "onFire"
+	"more_onfire_damage":{
+		"type":"origins:modify_damage_taken",
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"onFire"
 		},
-		"modifier": {
-			"operation": "multiply_total",
-			"value": 1.5
-		}
-	},	
-	"more_lava_damage": {
-		"type": "origins:modify_damage_taken",
-		"damage_condition": {
-			"type": "origins:name",
-			"name": "lava"
-		},
-		"modifier": {
-			"operation": "multiply_total",
-			"value": 1.5
+		"modifier":{
+			"operation":"multiply_total",
+			"value":1.5
 		}
 	},
-	
-	"more_magmablock_damage": {
-		"type": "origins:modify_damage_taken",
-		"damage_condition": {
-			"type": "origins:name",
-			"name": "hotFloor"
+	"more_lava_damage":{
+		"type":"origins:modify_damage_taken",
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"lava"
 		},
-		"modifier": {
-			"operation": "multiply_total",
-			"value": 1.5
+		"modifier":{
+			"operation":"multiply_total",
+			"value":1.5
+		}
+	},
+	"more_magmablock_damage":{
+		"type":"origins:modify_damage_taken",
+		"damage_condition":{
+			"type":"origins:name",
+			"name":"hotFloor"
+		},
+		"modifier":{
+			"operation":"multiply_total",
+			"value":1.5
 		}
 	}
 }

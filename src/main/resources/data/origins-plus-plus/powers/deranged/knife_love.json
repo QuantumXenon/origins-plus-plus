@@ -1,0 +1,18 @@
+{
+	"condition":{
+		"type":"origins:equipped_item",
+		"equipment_slot":"mainhand",
+		"item_condition":{
+			"ingredient":{
+				"tag":"origins-plus-plus:swords"
+			}
+		}
+	},
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"generic.attack_damage",
+		"operation":"addition",
+		"value":2,
+		"name":"ATK Increase"
+	}
+}

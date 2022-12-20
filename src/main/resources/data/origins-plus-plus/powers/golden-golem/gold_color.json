@@ -1,6 +1,4 @@
 {
-    "type": "origins:model_color",
-    "blue": 0.0,
-    "name": "Gilded",
-    "description": "You take on a gold-like color."
+	"type":"origins:model_color",
+	"blue":0.0
 }

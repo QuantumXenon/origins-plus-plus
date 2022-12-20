@@ -1,0 +1,33 @@
+{
+	"type":"origins:multiple",
+	"hide_armour":{
+		"type":"origins:invisibility",
+		"render_armor":false,
+		"condition":{
+			"type":"origins:status_effect",
+			"effect":"minecraft:invisibility",
+			"min_amplifier":1
+		}
+	},
+	"invisibility":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:apply_effect",
+			"effect":{
+				"effect":"minecraft:invisibility",
+				"amplifier":1,
+				"duration":250
+			}
+		},
+		"cooldown":1200
+	},
+	"change_resource":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:void-samurai/charge",
+			"change":-5
+		},
+		"cooldown":20
+	}
+}

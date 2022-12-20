@@ -1,16 +1,11 @@
-{ 
-	"type": "origins:fire_projectile",
-	"cooldown": 80,
-    "hud_render": {
-        "should_render": false
-    },
-	"key": {
-		"key": "primary"
-    },
-	"entity_type": "minecraft:lightning_bolt",
-	"sound": "entity.skeleton_horse.jump_water",
-	"speed": 1,
-	"divergence": 30,
-	"count": 0,
-	"hidden": true
+{
+	"type":"origins:fire_projectile",
+	"cooldown":80,
+	"key":"key.origins.primary_active",
+	"entity_type":"minecraft:lightning_bolt",
+	"sound":"entity.skeleton_horse.jump_water",
+	"speed":1,
+	"divergence":30,
+	"count":0,
+	"hidden":true
 }

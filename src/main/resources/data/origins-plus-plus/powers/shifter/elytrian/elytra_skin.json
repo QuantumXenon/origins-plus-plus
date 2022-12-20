@@ -1,0 +1,14 @@
+{
+	"type":"origins:model_color",
+	"red":0.5,
+	"green":0.5,
+	"blue":0.5,
+	"alpha":1,
+	"hidden":true,
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:shifter/shift_bar",
+		"comparison":"==",
+		"compare_to":3
+	}
+}

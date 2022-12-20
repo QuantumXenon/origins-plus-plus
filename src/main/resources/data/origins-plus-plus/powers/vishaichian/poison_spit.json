@@ -3,30 +3,15 @@
 	"description":"Spit a poison at your enemies. [Primary]",
 	"type":"origins:active_self",
 	"entity_action":{
-	   "type":"origins:and",
-	   "actions":[
-		  {
-			 "type":"origins:damage",
-			 "amount":0,
-			 "source":{
-				"name":"temp",
-				"bypasses_armor":true
-			 }
-		  },
-		  {
-			 "type":"origins:execute_command",
-			 "command":"function origins-plus-plus:vishaichian/start_ray",
-			 "permission_level":4
-		  }
-	   ]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:vishaichian/start_ray",
+		"permission_level":4
 	},
 	"cooldown":140,
 	"hud_render":{
-	   "should_render":true,
-	   "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-	   "bar_index":21
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index":21
 	},
-	"key":{
-	   "key":"key.origins.primary_active"
-	}
+	"key":"key.origins.primary_active"
 }

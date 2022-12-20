@@ -1,51 +1,44 @@
 {
-	"type": "origins:multiple",
-	"timer": {
-		"type": "origins:cooldown",
-		"cooldown": 200,
-		"hud_render": {
-			"should_render": false
-		}
+	"type":"origins:multiple",
+	"timer":{
+		"type":"origins:cooldown",
+		"cooldown":200
 	},
-	"trigger": {
-		"type": "origins:active_self",
-		"entity_action": {
-			"type": "origins:and",
-			"actions": [
+	"trigger":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
 				{
-					"type": "origins:trigger_cooldown",
-					"power": "*:*_timer"
+					"type":"origins:trigger_cooldown",
+					"power":"*:*_timer"
 				},
 				{
-					"type": "origins:play_sound",
-					"sound": "entity.parrot.ambient"
+					"type":"origins:play_sound",
+					"sound":"entity.parrot.ambient"
 				}
 			]
 		},
-		"cooldown": 600,
-		"hud_render": {
-			"should_render": true,
-			"sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-			"bar_index": 0
+		"cooldown":600,
+		"hud_render":{
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
+			"bar_index":0
 		},
-		"key": {
-			"key": "key.saveToolbarActivator"
-		}
+		"key":"key.saveToolbarActivator"
 	},
-	"glowing": {
-		"type": "origins:entity_glow",
-		"bientity_condition": {
-			"type": "origins:distance",
-			"comparison": "<=",
-			"compare_to": 20
+	"glowing":{
+		"type":"origins:entity_glow",
+		"bientity_condition":{
+			"type":"origins:distance",
+			"comparison":"<=",
+			"compare_to":20
 		},
-		"condition": {
-			"type": "origins:resource",
-			"resource": "*:*_timer",
-			"comparison": ">",
-			"compare_to": 0
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_timer",
+			"comparison":">",
+			"compare_to":0
 		}
-	},
-	"name": "Tweet",
-	"description": "[Save Toolbar Activator] Birbs love to repeat what other things near them say, and now with that ability, they can find where the sound is coming from to know where things are nearby!"
+	}
 }

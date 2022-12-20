@@ -1,6 +1,4 @@
 {
-	"name":"Dimensional Traveler (Nether)",
-	"description":"[Save Toolbar Activator] Teleport to your exact position in the nether",
 	"type":"origins:active_self",
 	"key":"key.saveToolbarActivator",
 	"cooldown":6000,

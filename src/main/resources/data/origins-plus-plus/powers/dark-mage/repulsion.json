@@ -8,7 +8,6 @@
 			{
 				"type":"origins:add_velocity",
 				"space":"velocity_horizontal_normalized",
-				"set":false,
 				"y":1,
 				"z":3
 			},

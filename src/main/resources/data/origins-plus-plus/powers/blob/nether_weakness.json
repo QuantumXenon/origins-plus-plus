@@ -1,15 +1,11 @@
 {
 	"type":"origins:stacking_status_effect",
-	"name":"New World",
-	"description":"The nether is a new place for you, so your hands get a bit weaker from the stress that it gives you.",
 	"min_stacks":-3,
 	"max_stacks":1,
 	"duration_per_stack":50,
 	"effect":{
 		"effect":"minecraft:weakness",
 		"duration":20,
-		"amplifier":0,
-		"is_ambient":false,
 		"show_particles":false,
 		"show_icon":false
 	},

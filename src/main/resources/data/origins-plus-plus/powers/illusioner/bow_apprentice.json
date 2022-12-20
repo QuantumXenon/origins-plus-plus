@@ -1,7 +1,5 @@
 {
 	"type":"origins:conditioned_attribute",
-	"name":"Bow Apprentice",
-	"description":"Because you are trained with bows, they do more damage",
 	"badges":[
 		{
 			"sprite":"origins:textures/gui/badge/star.png",

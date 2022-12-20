@@ -1,11 +1,8 @@
 {
 	"type":"origins:attribute",
 	"modifier":{
-		"name":"Fragile health reduction",
 		"attribute":"minecraft:generic.max_health",
 		"value":-6.0,
 		"operation":"addition"
-	},
-	"name":"Frail",
-	"description":"Binturongs are small so their health is reduced"
+	}
 }

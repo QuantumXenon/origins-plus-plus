@@ -1,0 +1,34 @@
+{
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"particle minecraft:electric_spark ~ ~ ~ 0.5 0 0.5 0.2 20 normal",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"particle minecraft:electric_spark ~ ~ ~ 0.5 0 0.5 0.2 20 normal",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"particle minecraft:electric_spark ~ ~ ~ 0.5 0 0.5 0.2 20 normal",
+				"permission_level":4
+			},
+			{
+				"type":"origins:add_velocity",
+				"z":2,
+				"space":"local"
+			}
+		]
+	},
+	"key":"key.origins.primary_active",
+	"cooldown":100,
+	"hud_render":{
+		"should_render":true,
+		"bar_index":2
+	}
+}

@@ -1,6 +1,4 @@
 {
-	"name":"Night Boost",
-	"description":"At night-time you get buffs.",
 	"type":"origins:action_over_time",
 	"condition":{
 		"type":"origins:daytime",

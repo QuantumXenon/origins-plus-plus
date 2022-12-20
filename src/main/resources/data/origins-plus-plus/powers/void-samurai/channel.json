@@ -1,17 +1,40 @@
 {
-    "type": "origins:active_self",
+	"type":"origins:multiple",
 	"hidden":true,
-    "entity_action": {
-        "type": "origins:change_resource",
-    "resource": "origins-plus-plus:void-samurai/charge",
-    "change": 3
-    },
-	"key": {
-    "key": "key.sneak",
-    "continuous": true
-},
-    "cooldown": 20,
-    "hud_render": {
-        "should_render": false
-    }
+	"resource":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:void-samurai/charge",
+			"change":3
+		},
+		"key":"key.sneak",
+		"cooldown":20
+	},
+	"weakness":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:apply_effect",
+			"effect":{
+				"effect":"minecraft:weakness",
+				"duration":40,
+				"amplifier":100
+			}
+		},
+		"key":"key.sneak",
+		"cooldown":20
+	},
+	"saturation":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:apply_effect",
+			"effect":{
+				"effect":"minecraft:saturation",
+				"duration":40,
+				"amplifier":5
+			}
+		},
+		"key":"key.sneak",
+		"cooldown":20
+	}
 }

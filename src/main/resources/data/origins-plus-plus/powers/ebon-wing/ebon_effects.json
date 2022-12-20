@@ -1,26 +1,21 @@
 {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
-    "max_stacks": 10,
-    "duration_per_stack": 20,
-    "effects": [
-        {
-            "effect": "minecraft:fire_resistance",
-            "duration": 100,
-            "amplifier": 0,
-            "is_ambient": false,
-            "show_particles": false,
-            "show_icon": false
-        },
-        {
-            "effect": "minecraft:speed",
-            "duration":100,
-            "amplifier": 1,
-            "is_ambient": false,
-            "show_particles": false,
-            "show_icon": false
-        }
-    ],
-    "name": "Ebon Effects",
-    "description": "You have natural fire resistance and speed."
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":10,
+	"duration_per_stack":20,
+	"effects":[
+		{
+			"effect":"minecraft:fire_resistance",
+			"duration":100,
+			"show_particles":false,
+			"show_icon":false
+		},
+		{
+			"effect":"minecraft:speed",
+			"duration":100,
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":false
+		}
+	]
 }

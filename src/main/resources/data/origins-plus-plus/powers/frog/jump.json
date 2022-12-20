@@ -1,0 +1,8 @@
+{
+	"type":"origins:modify_jump",
+	"modifier":{
+		"operation":"addition",
+		"value":0.3
+	},
+	"hidden":true
+}

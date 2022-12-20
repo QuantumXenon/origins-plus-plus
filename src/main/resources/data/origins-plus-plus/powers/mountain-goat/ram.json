@@ -1,29 +1,27 @@
 {
-	"type": "origins:active_self",
-	"entity_action": {
-		"type": "origins:and",
-		"actions": [
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
 			{
-				"type": "origins:add_velocity",
-				"z": 1,
-				"space": "local"
+				"type":"origins:add_velocity",
+				"z":1,
+				"space":"local"
 			},
 			{
-				"type": "origins:apply_effect",
-				"effect": {
-					"effect": "minecraft:strength",
-					"duration": 20,
-					"amplifier": 2
+				"type":"origins:apply_effect",
+				"effect":{
+					"effect":"minecraft:strength",
+					"duration":20,
+					"amplifier":2
 				}
 			}
 		]
 	},
-	"cooldown": 1200,
-	"hud_render": {
-		"should_render": true,
-		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-		"bar_index": 20
-	},
-	"name": "Ram",
-	"description": "You're able to lunge forward at a high speed. Attacking something while lunging at it will deal extra damage and knock it into the air."
+	"cooldown":1200,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index":20
+	}
 }

@@ -3,7 +3,5 @@
 	"modifier":{
 		"operation":"multiply_total",
 		"value":-0.7
-	},
-	"name":"Weak",
-	"description":"You deal 70% less physical damage."
+	}
 }

@@ -1,15 +1,14 @@
 {
-	"type": "origins:action_over_time",
-	"entity_action": {
-	    "type": "origins:apply_effect",
-		"effect": {
-			"effect": "minecraft:strength",
-			"amplifier": 1,
-            "is_ambient": false,
-            "show_particles": false,
-            "show_icon": false
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:apply_effect",
+		"effect":{
+			"effect":"minecraft:strength",
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":false
 		}
 	},
 	"interval":1,
-	"hidden": true
+	"hidden":true
 }

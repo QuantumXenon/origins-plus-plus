@@ -1,10 +1,8 @@
 {
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:execute_command",
-        "command": "particle minecraft:end_rod ~ ~ ~ 1 1 1 0.15 15"
-    },
-    "interval": 17,
-    "name": "Sparkly",
-    "description": "Your scales reflect in the light."
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"particle minecraft:end_rod ~ ~ ~ 1 1 1 0.15 15"
+	},
+	"interval":17
 }

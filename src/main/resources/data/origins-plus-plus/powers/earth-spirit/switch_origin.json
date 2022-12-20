@@ -1,0 +1,18 @@
+{
+	"type":"origins:active_self",
+	"cooldown":100,
+	"key":"key.loadToolbarActivator",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:ambient.underwater.enter ambient @s"
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"origin set @s origins:origin origins-plus-plus:earth_spirit_two"
+			}
+		]
+	}
+}

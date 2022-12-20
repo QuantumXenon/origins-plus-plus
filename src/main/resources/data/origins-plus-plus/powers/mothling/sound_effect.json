@@ -1,0 +1,10 @@
+{
+	"hidden":true,
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:play_sound",
+		"sound":"minecraft:entity.parrot.fly"
+	},
+	"cooldown":10,
+	"key":"key.origins.primary_active"
+}

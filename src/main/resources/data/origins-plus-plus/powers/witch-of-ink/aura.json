@@ -26,7 +26,5 @@
 			}
 		]
 	},
-	"interval":6,
-	"name":"Overflowing Power",
-	"description":"Colored dusts float around you."
+	"interval":6
 }

@@ -1,13 +1,11 @@
 {
-    "type": "origins:modify_damage_dealt",
-    "condition":{
-		"type": "origins:on_block"
-		},
-		"modifier": {
-        "name": "Less damage while not flying",
-        "operation": "addition",
-        "value": -10
-    },
-   "name":"Love Air",
-   "description": "You love flying so much that you learned how to use it to your full potential, you deal twice the damage while flying, however you deal very little damage while on the ground."
+	"type":"origins:modify_damage_dealt",
+	"condition":{
+		"type":"origins:on_block"
+	},
+	"modifier":{
+		"name":"Less damage while not flying",
+		"operation":"addition",
+		"value":-10
+	}
 }

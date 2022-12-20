@@ -1,6 +1,4 @@
 {
-	"name":"Distrust",
-	"description":"Many attempted to take your powers by attempts at your life. You've became paranoid, unable to trade with villagers and unable to interact with some passive and neutral mobs. Iron Golems have grown wary of your presence through the years, now they attack you on sight!",
 	"type":"origins:multiple",
 	"illager":{
 		"type":"origins:entity_group",

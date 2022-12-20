@@ -1,13 +1,13 @@
 {
-	"hidden": true,
-    "type": "origins:action_on_item_use",
-	"entity_action": {
-    "type": "origins:change_resource",
-    "resource": "origins-plus-plus:end-mage/resource",
-    "change": 250
+	"hidden":true,
+	"type":"origins:action_on_item_use",
+	"entity_action":{
+		"type":"origins:change_resource",
+		"resource":"origins-plus-plus:end-mage/resource",
+		"change":250
 	},
-	 "item_condition": {
-        "type": "origins:nbt",
-        "nbt": "{tag:\"superempty\"}"
-        }
+	"item_condition":{
+		"type":"origins:nbt",
+		"nbt":"{tag:\"superempty\"}"
+	}
 }

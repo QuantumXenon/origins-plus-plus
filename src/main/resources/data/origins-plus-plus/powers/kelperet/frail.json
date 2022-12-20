@@ -1,11 +1,8 @@
 {
-	"type": "origins:attribute",
-	"modifier": {
-		"name": "Fragile health reduction",
-		"attribute": "minecraft:generic.max_health",
-		"value": -8.0,
-		"operation": "addition"
-	},
-	"name": "Frail",
-	"description": "Since you're made of kelp, you only have six hearts."
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.max_health",
+		"value":-8.0,
+		"operation":"addition"
+	}
 }

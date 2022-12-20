@@ -1,18 +1,15 @@
 {
-    "name": "Skull Bomb Spell",
-    "description": "[Save Toolbar Activator] You summon a skull bomb",
-    "loading_priority": 10,
-    "type": "origins:fire_projectile",
-    "entity_type": "minecraft:wither_skull",
-    "cooldown": 100,
-    "hud_render": {
-        "should_render": true,
-        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-        "bar_index": 15
-    },
-    "count": 2,
-    "speed": 3,
-    "divergence": 1,
-    "sound": "minecraft:entity.phantom.death",
-    "key": "key.saveToolbarActivator"
+	"type":"origins:fire_projectile",
+	"entity_type":"minecraft:wither_skull",
+	"cooldown":100,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index":15
+	},
+	"count":2,
+	"speed":3,
+	"divergence":1,
+	"sound":"minecraft:entity.phantom.death",
+	"key":"key.saveToolbarActivator"
 }

@@ -1,6 +1,4 @@
 {
-	"name":"Flammable Fur",
-	"description":"Binturongs hide is very flammable, so it causes them extra damage",
 	"type":"origins:modify_damage_taken",
 	"damage_condition":{
 		"type":"origins:or",

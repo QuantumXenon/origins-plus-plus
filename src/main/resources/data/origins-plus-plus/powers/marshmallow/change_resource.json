@@ -1,0 +1,30 @@
+{
+	"type":"origins:multiple",
+	"hidden":true,
+	"add":{
+		"type":"origins:action_when_damage_taken",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:marshmallow/resource",
+			"change":1
+		},
+		"damage_condition":{
+			"type":"origins:fire"
+		},
+		"cooldown":300
+	},
+	"remove":{
+		"type":"origins:action_on_item_use",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:marshmallow/resource",
+			"change":-1
+		},
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"item":"minecraft:honey_bottle"
+			}
+		}
+	}
+}

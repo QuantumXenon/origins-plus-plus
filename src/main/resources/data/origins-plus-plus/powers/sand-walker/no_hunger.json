@@ -1,8 +1,6 @@
 {
-  "type": "origins:effect_immunity",
-  "effects": [
-    "minecraft:hunger"
-  ],
-  "name": "No Hunger",
-  "description": "From you times in the desert and living with husks, you have gained immunity to hunger."
+	"type":"origins:effect_immunity",
+	"effects":[
+		"minecraft:hunger"
+	]
 }

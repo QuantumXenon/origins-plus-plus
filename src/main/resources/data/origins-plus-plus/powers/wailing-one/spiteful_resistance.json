@@ -1,30 +1,26 @@
 {
 	"type":"origins:attacker_action_when_hit",
-	"cooldown": 250,
+	"cooldown":250,
 	"entity_action":{
 		"type":"origins:chance",
-		"action":
-		{
+		"action":{
 			"type":"origins:apply_effect",
 			"effects":[
 				{
 					"effect":"minecraft:slowness",
-					"amplifier": 1,
-					"duration": 60,
-					"show_icon": true,
-					"show_particles": false
+					"amplifier":1,
+					"duration":60,
+					"show_icon":false,
+					"show_particles":false
 				},
-			    {
-				    "effect":"minecraft:weakness",
-				    "amplifier": 0,
-				    "duration": 60,
-				    "show_icon": true,
-				    "show_particles": false
-			    }
+				{
+					"effect":"minecraft:weakness",
+					"duration":60,
+					"show_icon":false,
+					"show_particles":false
+				}
 			]
 		},
-		"chance": 1000
-	},
-	"name": "Spiteful Resistance",
-	"description": "Any mobs/players that hit you with melee attacks will receive slowness and weakness."
+		"chance":1000
+	}
 }

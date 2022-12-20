@@ -1,7 +1,5 @@
 {
-    "type": "origins:elytra_flight",
-	"name": "Wings",
-	"description": "As a moth you have permenant elytra wings!",
-	"render_elytra": true,
-	"texture_location": "minecraft:textures/entity/elytra.png"
+	"type":"origins:elytra_flight",
+	"render_elytra":true,
+	"texture_location":"minecraft:textures/entity/elytra.png"
 }

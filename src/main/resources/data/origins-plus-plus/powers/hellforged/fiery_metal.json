@@ -1,5 +1,3 @@
 {
-	"type": "origins:fire_immunity",
-	"name": "Fiery Metal",
-	"description": "Lava, fire, and magma don’t deal damage to you, and lava source blocks don’t set you on fire."
+	"type":"origins:fire_immunity"
 }

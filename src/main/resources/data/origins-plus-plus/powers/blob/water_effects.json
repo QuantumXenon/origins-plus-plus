@@ -1,7 +1,5 @@
 {
 	"type":"origins:stacking_status_effect",
-	"name":"Puddle",
-	"description":"When wet, you start transforming into some kind of puddle making you slower and hungrier.",
 	"min_stacks":-3,
 	"max_stacks":1,
 	"duration_per_stack":50,
@@ -9,15 +7,13 @@
 		{
 			"effect":"minecraft:slowness",
 			"amplifier":1,
-			"is_ambient":true,
 			"show_particles":false,
-			"show_icon":true
+			"show_icon":false
 		},
 		{
 			"effect":"minecraft:hunger",
-			"is_ambient":true,
 			"show_particles":false,
-			"show_icon":true
+			"show_icon":false
 		}
 	],
 	"condition":{

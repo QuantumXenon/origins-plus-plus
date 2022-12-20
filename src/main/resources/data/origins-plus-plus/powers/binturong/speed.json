@@ -4,8 +4,6 @@
 		"type":"origins:apply_effect",
 		"effect":{
 			"effect":"minecraft:speed",
-			"amplifier":0,
-			"is_ambient":false,
 			"show_particles":false,
 			"show_icon":false
 		}
@@ -13,7 +11,5 @@
 	"condition":{
 		"type":"origins:sprinting"
 	},
-	"interval":1,
-	"name":"Need for Speed",
-	"description":"Binturongs have a need for speed"
+	"interval":1
 }

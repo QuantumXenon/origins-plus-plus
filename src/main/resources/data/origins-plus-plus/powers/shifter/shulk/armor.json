@@ -1,17 +1,14 @@
 {
-    "name": "Sturdy Skin",
-    "description": "Even without wearing armor, your skin provides 2 natural armor bars.",
-    "type": "origins:conditioned_attribute",
-    "modifier": {
-      "attribute": "minecraft:generic.armor",
-      "value": 4.0,
-      "operation": "addition"
-    },
-    "tick_rate": 20,
-    "condition":{
-		"type": "origins:resource",
-		"resource": "origins-plus-plus:shifter/shift_bar",
-		"comparison": "==",
-		"compare_to": 4
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.armor",
+		"value":4.0,
+		"operation":"addition"
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:shifter/shift_bar",
+		"comparison":"==",
+		"compare_to":4
 	}
-  }
+}

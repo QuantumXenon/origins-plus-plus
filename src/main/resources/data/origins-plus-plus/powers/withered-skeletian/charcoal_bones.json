@@ -1,5 +1,3 @@
 {
-	"type": "origins:fire_immunity",
-	"name": "Charcoal Bones",
-	"description": "Your body is made up of decaying bones and due to the conditions of the Nether, it makes you immune to fire and lava."
+	"type":"origins:fire_immunity"
 }

@@ -1,6 +1,6 @@
 {
-	"hidden":true,
 	"type":"origins:multiple",
+	"hidden":true,
 	"power":{
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
@@ -72,14 +72,13 @@
 		}
 	},
 	"message":{
-		"hidden":true,
 		"type":"origins:action_over_time",
 		"interval":1,
 		"entity_action":{
 			"type":"origins:execute_command",
 			"command":"title @s actionbar {\"text\":\"Spectral Energy\",\"color\":\"yellow\"}"
 		},
-		"condition": {
+		"condition":{
 			"type":"origins:resource",
 			"resource":"origins-plus-plus:manipulator/cycle_active_power",
 			"comparison":"==",

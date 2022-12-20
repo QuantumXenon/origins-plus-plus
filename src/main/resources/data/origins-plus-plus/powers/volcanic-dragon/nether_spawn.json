@@ -1,8 +1,6 @@
 {
-    "name": "Volcanic Spawn",
-    "description": "Your natural home is near lava. So, you spawn in the Nether.",
-    "type": "origins:modify_player_spawn",
-    "dimension": "minecraft:the_nether",
-    "dimension_distance_multiplier": 0.125,
-    "spawn_strategy": "default"
-  }
+	"type":"origins:modify_player_spawn",
+	"dimension":"minecraft:the_nether",
+	"dimension_distance_multiplier":0.125,
+	"spawn_strategy":"default"
+}

@@ -1,10 +1,8 @@
 {
-	"type": "origins:restrict_armor",
-	"chest": {
-		"type": "origins:armor_value",
-		"comparison": "<",
-		"compare_to": 3
-	},
-	"name": "No Elytra",
-	"description": "Due to your great density you could not ever fly."
+	"type":"origins:restrict_armor",
+	"chest":{
+		"type":"origins:armor_value",
+		"comparison":"<",
+		"compare_to":3
+	}
 }

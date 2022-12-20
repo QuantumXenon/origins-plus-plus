@@ -1,0 +1,38 @@
+{
+	"type":"origins:multiple",
+	"set_height":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:gnoll/size"
+		},
+		"interval":20,
+		"condition":{
+			"type":"origins:constant",
+			"value":true
+		}
+	},
+	"no_armour":{
+		"type":"origins:conditioned_restrict_armor",
+		"head":{
+			"type":"origins:armor_value",
+			"comparison":">",
+			"compare_to":0.5
+		},
+		"chest":{
+			"type":"origins:armor_value",
+			"comparison":">",
+			"compare_to":0.5
+		},
+		"legs":{
+			"type":"origins:armor_value",
+			"comparison":">",
+			"compare_to":0.5
+		},
+		"feet":{
+			"type":"origins:armor_value",
+			"comparison":">",
+			"compare_to":0.5
+		},
+	}
+}

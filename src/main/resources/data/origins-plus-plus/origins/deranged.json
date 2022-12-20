@@ -1,15 +1,15 @@
 {
     "powers": [
-        "origins-plus-plus:deranged/arroweffect",
+        "origins-plus-plus:deranged/arrow_effect",
         "origins-plus-plus:deranged/breathing",
         "origins-plus-plus:deranged/dart",
-        "origins-plus-plus:deranged/derangefiller",
+        "origins-plus-plus:deranged/derange_filler",
         "origins-plus-plus:deranged/derangement",
         "origins-plus-plus:deranged/insane",
-        "origins-plus-plus:deranged/knifelove",
+        "origins-plus-plus:deranged/knife_love",
+		"origins-plus-plus:deranged/migraine",
         "origins-plus-plus:deranged/nightmares",
         "origins-plus-plus:deranged/persuasive",
-        "origins-plus-plus:deranged/redrage",
         "origins-plus-plus:deranged/tranquil"
     ],
     "icon": "minecraft:nether_wart_block",

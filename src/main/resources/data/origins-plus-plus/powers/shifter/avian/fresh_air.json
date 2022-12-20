@@ -1,0 +1,27 @@
+{
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.attack_damage",
+		"value":-3,
+		"operation":"addition"
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:in_block",
+				"block_condition":{
+					"type":"origins:height",
+					"comparison":"<",
+					"compare_to":86
+				}
+			},
+			{
+				"type":"origins:resource",
+				"resource":"origins-plus-plus:shifter/shift_bar",
+				"comparison":"==",
+				"compare_to":0
+			}
+		]
+	}
+}

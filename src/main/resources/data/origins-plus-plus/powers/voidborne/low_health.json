@@ -1,11 +1,8 @@
 {
-    "name": "Low Health",
-    "description": "As a Voidborne, your adaptability in the skies have weakened you to the dangers below, you have 8 hearts.",
-    "type": "origins:attribute",
-    "modifier": {
-        "name": "Fragile health reduction",
-        "attribute": "minecraft:generic.max_health",
-        "value": -4.0,
-        "operation": "addition"
-    }
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.max_health",
+		"value":-4.0,
+		"operation":"addition"
+	}
 }

@@ -1,89 +1,87 @@
 {
-	"type": "origins:self_action_on_hit",
-	"entity_action": {
-		"type": "origins:chance",
-		"chance": 0.99,
-		"action": {
-			"type": "origins:choice",
-			"actions": [
+	"type":"origins:self_action_on_hit",
+	"entity_action":{
+		"type":"origins:chance",
+		"chance":0.99,
+		"action":{
+			"type":"origins:choice",
+			"actions":[
 				{
-					"element": {
-						"type": "origins:apply_effect",
-						"effect": {
-							"effect": "minecraft:strength",
-							"amplifier": 5,
-							"duration": 60
+					"element":{
+						"type":"origins:apply_effect",
+						"effect":{
+							"effect":"minecraft:strength",
+							"amplifier":5,
+							"duration":60
 						}
 					},
-					"weight": 6
+					"weight":6
 				},
 				{
-					"element": {
-						"type": "origins:apply_effect",
-						"effect": {
-							"effect": "minecraft:haste",
-							"amplifier": 5,
-							"duration": 100
+					"element":{
+						"type":"origins:apply_effect",
+						"effect":{
+							"effect":"minecraft:haste",
+							"amplifier":5,
+							"duration":100
 						}
 					},
-					"weight": 9
+					"weight":9
 				},
 				{
-					"element": {
-						"type": "origins:apply_effect",
-						"effect": {
-							"effect": "minecraft:resistance",
-							"amplifier": 2,
-							"duration": 400
+					"element":{
+						"type":"origins:apply_effect",
+						"effect":{
+							"effect":"minecraft:resistance",
+							"amplifier":2,
+							"duration":400
 						}
 					},
-					"weight": 5
+					"weight":5
 				},
 				{
-					"element": {
-						"type": "origins:apply_effect",
-						"effect": {
-							"effect": "minecraft:regeneration",
-							"amplifier": 1,
-							"duration": 100
+					"element":{
+						"type":"origins:apply_effect",
+						"effect":{
+							"effect":"minecraft:regeneration",
+							"amplifier":1,
+							"duration":100
 						}
 					},
-					"weight": 10
+					"weight":10
 				},
 				{
-					"element": {
-						"type": "origins:apply_effect",
-						"effect": {
-							"effect": "minecraft:saturation",
-							"amplifier": 1,
-							"duration": 240
+					"element":{
+						"type":"origins:apply_effect",
+						"effect":{
+							"effect":"minecraft:saturation",
+							"amplifier":1,
+							"duration":240
 						}
 					},
-					"weight": 20
+					"weight":20
 				},
 				{
-					"element": {
-						"type": "origins:apply_effect",
-						"effect": {
-							"effect": "minecraft:speed",
-							"amplifier": 5,
-							"duration": 300
+					"element":{
+						"type":"origins:apply_effect",
+						"effect":{
+							"effect":"minecraft:speed",
+							"amplifier":5,
+							"duration":300
 						}
 					},
-					"weight": 3
+					"weight":3
 				}
 			]
 		}
 	},
-	"cooldown": 120,
-	"hud_render": {
-		"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
-		"bar_index": 4
+	"cooldown":120,
+	"hud_render":{
+		"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index":4
 	},
-	"name": "Bloodsucking",
-	"description": "By punching your victims while NOT crouched, you can drain their blood and receive healing, saturation, or a small buff. This is your only way to feed.",
-	"condition": {
-		"type": "origins:sneaking",
-		"inverted": true
+	"condition":{
+		"type":"origins:sneaking",
+		"inverted":true
 	}
 }

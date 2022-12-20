@@ -1,36 +1,32 @@
 {
-    "name": "Equinox",
-    "description": "During the night time, you gain Speed II and Strength II.",
-    "type": "origins:action_over_time",
-    "condition": {
-        "type": "origins:daytime",
-        "inverted": true
-    },
-    "interval": 20,
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:apply_effect",
-                "effects": [
-                    {
-                        "duration": 300,
-                        "is_ambient": false,
-                        "show_particles": true,
-                        "show_icon": true,
-                        "effect": "minecraft:speed",
-                        "amplifier": 1
-                    },
-                    {
-                        "duration": 300,
-                        "is_ambient": false,
-                        "show_particles": true,
-                        "show_icon": true,
-                        "effect": "minecraft:strength",
-                        "amplifier": 1
-                    }
-                ]
-            }
-        ]
-    }
+	"type":"origins:action_over_time",
+	"condition":{
+		"type":"origins:daytime",
+		"inverted":true
+	},
+	"interval":20,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:apply_effect",
+				"effects":[
+					{
+						"effect":"minecraft:speed",
+						"duration":300,
+						"show_particles":false,
+						"show_icon":false,
+						"amplifier":1
+					},
+					{
+						"effect":"minecraft:strength",
+						"duration":300,
+						"show_particles":false,
+						"show_icon":false,
+						"amplifier":1
+					}
+				]
+			}
+		]
+	}
 }

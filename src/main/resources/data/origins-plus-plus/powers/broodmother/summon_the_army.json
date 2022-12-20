@@ -1,18 +1,15 @@
 {
-    "type": "origins:active_self",
-    "name": "Newborn Fighters",
-    "description": "You can summon cave spiders to fight for you.",
-    "cooldown": 600,
-    "key": "key.origins.secondary_active",
-    "entity_action": {
-        "type": "origins:execute_command",
-        "permission_level": 4,
-        "command": "function origins-plus-plus:broodmother/army"
-    },
-    "hud_render": {
-        "should_render": true,
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-        "bar_index": 17
-    },
-	"hidden":true
+	"type":"origins:active_self",
+	"cooldown":600,
+	"key":"key.origins.secondary_active",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"permission_level":4,
+		"command":"function origins-plus-plus:broodmother/army"
+	},
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index":17
+	}
 }

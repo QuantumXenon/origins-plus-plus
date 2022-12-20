@@ -1,5 +1,5 @@
 {
-	"type": "origins:toggle",
-	"active_by_default": false,
-	"hidden": true
+	"type":"origins:toggle",
+	"active_by_default":false,
+	"hidden":true
 }

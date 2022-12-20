@@ -1,36 +1,34 @@
 {
-    "type": "origins:self_action_when_hit",
-    "name": "Unstable",
-    "description": "When you take damage from anything other than water, you'll randomly teleport.",
-    "entity_action": {
-        "type": "origins:chance",
-        "action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "particle minecraft:portal ~ ~ ~ 0.5 0.5 0.7 5 100 force @a"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "command": "spreadplayers ~ ~ 1 15 under 127 false @s"
-                },
-                {
-                    "type": "origins:execute_command",
-                    "command": "particle minecraft:reverse_portal ~ ~ ~ 0.3 0.3 0.5 5 100 force @a"
-                },
-                {
-                    "type": "origins:play_sound",
-                    "sound": "minecraft:entity.enderman.teleport"
-                }
-            ]
-        },
-        "chance": 1
-    },
-    "damage_condition": {
-        "type": "origins:name",
-        "name": "hurt_by_water",
-        "inverted": true
-    },
-    "cooldown": 60
+	"type":"origins:self_action_when_hit",
+	"entity_action":{
+		"type":"origins:chance",
+		"action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"particle minecraft:portal ~ ~ ~ 0.5 0.5 0.7 5 100 force @a"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"spreadplayers ~ ~ 1 15 under 127 false @s"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"particle minecraft:reverse_portal ~ ~ ~ 0.3 0.3 0.5 5 100 force @a"
+				},
+				{
+					"type":"origins:play_sound",
+					"sound":"minecraft:entity.enderman.teleport"
+				}
+			]
+		},
+		"chance":1
+	},
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"hurt_by_water",
+		"inverted":true
+	},
+	"cooldown":60
 }

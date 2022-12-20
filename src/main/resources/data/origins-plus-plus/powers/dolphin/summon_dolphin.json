@@ -1,17 +1,13 @@
 {
-  "type":"origins:active_self",
-  "entity_action":{
-     "type":"origins:spawn_entity",
-     "entity_type":"minecraft:dolphin"
-  },
-  "cooldown":1200,
-  "hud_render":{
-     "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-     "bar_index":15
-  },
-  "key":{
-     "key":"key.origins.secondary_active"
-  },
-  "name":"Dolphin Wrangler",
-  "description":"Dolphins usually travel in groups, causing you to be able to spawn a dolphin. [Secondary]"
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:spawn_entity",
+		"entity_type":"minecraft:dolphin"
+	},
+	"cooldown":1200,
+	"hud_render":{
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index":15
+	},
+	"key":"key.origins.secondary_active"
 }

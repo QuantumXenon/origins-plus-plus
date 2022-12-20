@@ -3,7 +3,6 @@
     "name": "I Need More HP!",
     "description": "You only have 6 hearts.",
     "modifier": {
-        "name": "Max health increase",
         "attribute": "minecraft:generic.max_health",
         "value": -8,
         "operation": "addition"

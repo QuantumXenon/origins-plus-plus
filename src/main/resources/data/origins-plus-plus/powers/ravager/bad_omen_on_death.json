@@ -1,13 +1,7 @@
 {
-    "name": "Omen's Death",
-    "description": "Whenever a player kills you, they get the Bad Omen effect.",
-    "type": "origins:self_action_on_kill",
-    "entity_action": {
-      "type": "origins:execute_command",
-      "command": "execute as @s run effect give @e[type=minecraft:player,distance=..25] minecraft:bad_omen 10000"
-    },
-    "cooldown": 1,
-    "hud_render": {
-      "should_render": false
-    }
-  }
+	"type":"origins:self_action_on_kill",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"execute as @s run effect give @e[type=minecraft:player,distance=..25] minecraft:bad_omen 10000"
+	}
+}

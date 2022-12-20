@@ -1,11 +1,8 @@
 {
-    "name": "Strong",
-    "description": "Your base attack damage is much higher than average.",
-    "type": "origins:attribute",
-    "modifier": {
-        "attribute": "minecraft:generic.attack_damage",
-        "operation": "multiply_base",
-        "value": 0.25
-    },
-    "update_health": false
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.attack_damage",
+		"operation":"multiply_base",
+		"value":0.25
+	}
 }

@@ -1,0 +1,11 @@
+{
+	"type":"origins:burn",
+	"interval":60,
+	"burn_duration":5,
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:frog/burn_bar_resource",
+		"comparison":">",
+		"compare_to":49
+	}
+}

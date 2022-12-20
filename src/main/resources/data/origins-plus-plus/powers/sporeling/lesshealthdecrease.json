@@ -1,7 +1,6 @@
 {
 	"type": "origins:attribute",
 	"modifier": {
-		"name": "Max health decrease",
 		"attribute": "minecraft:generic.max_health",
 		"value": -6,
 		"operation": "addition"

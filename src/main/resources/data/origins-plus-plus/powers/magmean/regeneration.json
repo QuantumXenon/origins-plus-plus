@@ -1,0 +1,22 @@
+{
+	"type":"origins:multiple",
+	"hidden":true,
+	"regen":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:heal",
+					"amount":1
+				}
+			]
+		},
+		"interval":50,
+		"condition":{
+			"type":"origins:health",
+			"comparison":"<",
+			"compare_to":16
+		}
+	}
+}

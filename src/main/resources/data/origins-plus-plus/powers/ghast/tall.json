@@ -1,19 +1,17 @@
 {
-	"type": "origins:action_over_time",
-	"entity_action": {
-		"type": "origins:and",
-		"actions": [
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
 			{
-				"type": "origins:execute_command",
-				"command": "scale set pehkui:width 1.2 @s"
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:width 1.2 @s"
 			},
 			{
-				"type": "origins:execute_command",
-				"command": "scale set pehkui:height 1.2 @s"
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:height 1.2 @s"
 			}
 		]
 	},
-	"interval": 1,
-	"name": "Tall",
-	"description": "You are slightly taller than the average player."
+	"interval":1
 }

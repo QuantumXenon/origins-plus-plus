@@ -1,6 +1,4 @@
 {
-	"name":"Side Step",
-	"description":"Double tapping a movement key will dash in that direction.",
 	"type":"origins:multiple",
 	"cooldown":{
 		"type":"origins:cooldown",
@@ -33,10 +31,7 @@
 					{
 						"type":"origins:add_velocity",
 						"z":0.75,
-						"space":"local_horizontal_normalized",
-						"client":true,
-						"server":true,
-						"set":false
+						"space":"local_horizontal_normalized"
 					},
 					{
 						"type":"origins:trigger_cooldown",
@@ -53,13 +48,7 @@
 				"power":"*:*_doubleforward"
 			}
 		},
-		"cooldown":0,
-		"hud_render":{
-			"should_render":false
-		},
-		"key":{
-			"key":"key.forward"
-		}
+		"key":"key.forward"
 	},
 	"left":{
 		"condition":{
@@ -83,10 +72,7 @@
 					{
 						"type":"origins:add_velocity",
 						"x":0.75,
-						"space":"local_horizontal_normalized",
-						"client":true,
-						"server":true,
-						"set":false
+						"space":"local_horizontal_normalized"
 					},
 					{
 						"type":"origins:trigger_cooldown",
@@ -103,13 +89,7 @@
 				"power":"*:*_doubleleft"
 			}
 		},
-		"cooldown":0,
-		"hud_render":{
-			"should_render":false
-		},
-		"key":{
-			"key":"key.left"
-		}
+		"key":"key.left"
 	},
 	"back":{
 		"condition":{
@@ -133,10 +113,7 @@
 					{
 						"type":"origins:add_velocity",
 						"z":-0.75,
-						"space":"local_horizontal_normalized",
-						"client":true,
-						"server":true,
-						"set":false
+						"space":"local_horizontal_normalized"
 					},
 					{
 						"type":"origins:trigger_cooldown",
@@ -153,13 +130,7 @@
 				"power":"*:*_doubleback"
 			}
 		},
-		"cooldown":0,
-		"hud_render":{
-			"should_render":false
-		},
-		"key":{
-			"key":"key.back"
-		}
+		"key":"key.back"
 	},
 	"right":{
 		"condition":{
@@ -183,10 +154,7 @@
 					{
 						"type":"origins:add_velocity",
 						"x":-0.75,
-						"space":"local_horizontal_normalized",
-						"client":true,
-						"server":true,
-						"set":false
+						"space":"local_horizontal_normalized"
 					},
 					{
 						"type":"origins:trigger_cooldown",
@@ -203,40 +171,22 @@
 				"power":"*:*_doubleright"
 			}
 		},
-		"cooldown":0,
-		"hud_render":{
-			"should_render":false
-		},
-		"key":{
-			"key":"key.right"
-		}
+		"key":"key.right"
 	},
 	"doubleforward":{
 		"type":"origins:cooldown",
-		"cooldown":5,
-		"hud_render":{
-			"should_render":false
-		}
+		"cooldown":5
 	},
 	"doubleleft":{
 		"type":"origins:cooldown",
-		"cooldown":5,
-		"hud_render":{
-			"should_render":false
-		}
+		"cooldown":5
 	},
 	"doubleback":{
 		"type":"origins:cooldown",
-		"cooldown":5,
-		"hud_render":{
-			"should_render":false
-		}
+		"cooldown":5
 	},
 	"doubleright":{
 		"type":"origins:cooldown",
-		"cooldown":5,
-		"hud_render":{
-			"should_render":false
-		}
+		"cooldown":5
 	}
 }

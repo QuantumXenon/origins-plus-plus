@@ -1,36 +1,29 @@
 {
-    "name": "Tough",
-    "description": "Your thick skin and weight reduces any received knockback or projectile damage.",
-    "hidden": false,
-    "type": "origins:multiple",
-    "thicc": {
-        "name": "Thick Skin",
-        "description": "projectile damage is lessened. It also plays a sound to remind you as well.",
-        "type": "origins:modify_damage_taken",
-        "damage_condition": {
-            "inverted": false,
-            "type": "origins:projectile"
-        },
-        "modifier": {
-            "operation": "multiply_total",
-            "value": -0.5
-        },
-        "self_action": {
-            "type": "origins:play_sound",
-            "sound": "minecraft:entity.hoglin.step",
-            "volume": 1,
-            "pitch": 1
-        }
-    },
-    "weight": {
-        "name": "Heavy",
-        "description": "less knockback",
-        "type": "origins:attribute",
-        "modifier": {
-            "attribute": "minecraft:generic.knockback_resistance",
-            "operation": "addition",
-            "value": 0.85
-        },
-        "update_health": false
-    }
+	"type":"origins:multiple",
+	"thick_skin":{
+		"type":"origins:modify_damage_taken",
+		"damage_condition":{
+			"type":"origins:projectile"
+		},
+		"modifier":{
+			"operation":"multiply_total",
+			"value":-0.5
+		},
+		"self_action":{
+			"type":"origins:play_sound",
+			"sound":"minecraft:entity.hoglin.step",
+			"volume":1,
+			"pitch":1
+		}
+	},
+	"weight":{
+		"name":"Heavy",
+		"description":"less knockback",
+		"type":"origins:attribute",
+		"modifier":{
+			"attribute":"minecraft:generic.knockback_resistance",
+			"operation":"addition",
+			"value":0.85
+		}
+	}
 }

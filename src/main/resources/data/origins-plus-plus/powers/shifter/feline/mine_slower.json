@@ -1,24 +1,24 @@
 {
-    "hidden": true,
-    "type": "origins:modify_break_speed",
-    "modifier": {
-      "operation": "multiply_total",
-      "value": -0.75
-    },
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-            "type": "origins:resource",
-            "resource": "origins-plus-plus:shifter/shift_bar",
-            "comparison": "==",
-            "compare_to": 5
-                },
-                {
-                "type": "origins:status_effect",
-                "effect": "minecraft:strength",
-                "inverted": true
-                }
-            ]
-        }
-    }
+	"hidden":true,
+	"type":"origins:modify_break_speed",
+	"modifier":{
+		"operation":"multiply_total",
+		"value":-0.75
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:resource",
+				"resource":"origins-plus-plus:shifter/shift_bar",
+				"comparison":"==",
+				"compare_to":5
+			},
+			{
+				"type":"origins:status_effect",
+				"effect":"minecraft:strength",
+				"inverted":true
+			}
+		]
+	}
+}

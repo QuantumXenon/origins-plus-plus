@@ -1,8 +1,6 @@
 {
-  "type": "origins:effect_immunity",
-  "effects": [
-    "minecraft:wither"
-  ],
-  "name": "Wither_Immunity",
-  "description": "You are immune to the wither effect."
+	"type":"origins:effect_immunity",
+	"effects":[
+		"minecraft:wither"
+	]
 }

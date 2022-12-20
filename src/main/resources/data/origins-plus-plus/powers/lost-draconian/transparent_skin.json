@@ -1,9 +1,7 @@
 {
-	"type": "origins:model_color",
-	"red": 0.85,
+	"type":"origins:model_color",
+	"red":0.85,
 	"green":0.28,
-	"blue": 0.85,
-	"alpha": 0.7,
-	"name": "Ghost Skin",
-	"description": "Your skin is translucent due to you being a spirit and slightly purple"
+	"blue":0.85,
+	"alpha":0.7
 }

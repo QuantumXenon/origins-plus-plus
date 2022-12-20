@@ -6,10 +6,10 @@
 		"origins-plus-plus:chimaera/chimeric",
 		"origins-plus-plus:chimaera/miasma",
 		"origins-plus-plus:chimaera/pathophagy",
-		"origins-plus-plus:chimaera/phaseshift",
-		"origins-plus-plus:chimaera/shrodingervitality",
+		"origins-plus-plus:chimaera/phase_shift",
+		"origins-plus-plus:chimaera/schrodinger_vitality",
 		"origins-plus-plus:chimaera/unstable",
-		"origins-plus-plus:chimaera/xeniteimplants"
+		"origins-plus-plus:chimaera/xenite_implants"
 	],
 	"icon": "minecraft:budding_amethyst",
 	"impact": 3

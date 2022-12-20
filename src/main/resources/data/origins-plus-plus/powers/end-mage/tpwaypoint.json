@@ -1,62 +1,54 @@
-{    
-       "hidden": true,
-	   "type": "origins:active_self",
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:execute_command",
-                "command": "tp @s @e[type=armor_stand,tag=tp,sort=nearest,limit=1]",
-                "permission_level": 4
-            },
+{
+	"hidden":true,
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
 			{
-                "type": "origins:execute_command",
-                "command": "kill @e[distance=..2,type=minecraft:armor_stand]",
-                "permission_level": 4
-            },
-			{
-                "type": "origins:execute_command",
-                "command": "forceload remove ~ ~",
-                "permission_level": 4
-            },
-			{ 
-			    "type": "origins:execute_command",
-                "command":"playsound minecraft:block.beacon.deactivate player @a[distance=..20] ~ ~ ~ 100 2",
-				"permission_level": 4
+				"type":"origins:execute_command",
+				"command":"tp @s @e[type=armor_stand,tag=tp,sort=nearest,limit=1]",
+				"permission_level":4
 			},
 			{
-				"type": "origins:change_resource",
-				"resource": "origins-plus-plus:end-mage/resource",
-				"change": -50
+				"type":"origins:execute_command",
+				"command":"kill @e[distance=..2,type=minecraft:armor_stand]",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"forceload remove ~ ~",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:block.beacon.deactivate player @a[distance=..20] ~ ~ ~ 100 2",
+				"permission_level":4
+			},
+			{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:end-mage/resource",
+				"change":-50
 			}
-			]
+		]
 	},
-	"cooldown": 0,
-	"key": {
-		"key": "key.origins.primary_active",
-		"continuous": false
-	},
-		"condition": {
-		"type": "origins:and",
-		"conditions": [{
-		 "type": "origins:sneaking",
-		 "inverted": true
-	},
-	{
-		"type": "origins:equipped_item",
-        "equipment_slot": "offhand",
-        "item_condition": {
-			"type": "origins:ingredient",
-			"ingredient": {
-            "item": "minecraft:nether_star"
-              }
-          }
-	}
-	]
-	},
-	"hud_render": {
-		 "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-		"should_render": false,
-		"bar_index": 7
+	"key":"key.origins.primary_active",
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:sneaking",
+				"inverted":true
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:nether_star"
+					}
+				}
+			}
+		]
 	}
 }

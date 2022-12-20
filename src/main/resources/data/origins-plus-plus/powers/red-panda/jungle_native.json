@@ -1,0 +1,5 @@
+{
+	"type":"origins:modify_player_spawn",
+	"dimension":"minecraft:overworld",
+	"biome":"minecraft:jungle"
+}

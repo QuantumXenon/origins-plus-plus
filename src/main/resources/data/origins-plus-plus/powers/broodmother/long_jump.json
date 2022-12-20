@@ -1,12 +1,10 @@
 {
-    "type": "origins:modify_jump",
-    "modifier": {
-        "operation": "addition",
-        "value": 0.18
-    },
-	"condition": {
-    "type": "origins:sprinting"
+	"type":"origins:modify_jump",
+	"modifier":{
+		"operation":"addition",
+		"value":0.18
 	},
-	"name":"Long Jump",
-	"description":"Spiders can modify their speed and with their powerful legs, they increase the distance they can jump. While sprinting, you jump higher."
+	"condition":{
+		"type":"origins:sprinting"
+	}
 }

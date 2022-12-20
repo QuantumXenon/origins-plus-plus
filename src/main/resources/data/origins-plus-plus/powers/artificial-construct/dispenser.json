@@ -1,6 +1,4 @@
 {
-	"name":"Built-In Dispenser",
-	"description":"You can shoot arrows from your offhand.",
 	"type":"origins:multiple",
 	"arrow":{
 		"type":"origins:fire_projectile",

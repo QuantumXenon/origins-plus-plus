@@ -1,6 +1,4 @@
 {
-	"name":"Dislocate",
-	"description":"You can teleport wherever you want with your secondary. (25 Block Range)",
 	"key":"key.origins.secondary_active",
 	"cooldown":100,
 	"type":"origins:active_self",

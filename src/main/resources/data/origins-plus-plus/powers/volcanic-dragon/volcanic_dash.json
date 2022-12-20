@@ -1,37 +1,33 @@
 {
-    "type":"origins:active_self",
-    "entity_action":{
-       "type":"origins:and",
-       "actions":[
-          {
-             "type":"origins:add_velocity",
-             "z":2,
-             "space":"local"
-          },
-          {
-             "type":"origins:execute_command",
-             "command":"playsound minecraft:entity.blaze.shoot master @s ~ ~ ~ 10 0.18",
-             "permission_level":4
-          },
-          {
-             "type":"origins:execute_command",
-             "command":"particle minecraft:flame ~ ~ ~ 1 1 1 0.15 100",
-             "permission_level":4
-          }
-       ]
-    },
-    "condition":{
-       "type":"origins:sneaking",
-       "inverted":true
-    },
-    "cooldown":100,
-    "hud_render":{
-       "should_render":true,
-       "bar_index":7
-    },
-    "key":{
-       "key":"key.origins.primary_active"
-    },
-    "name":"Volcanic Dash",
-    "description":"You are able to boost with the flames that surround you. [Primary]"
+	"type":"origins:active_self",
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:add_velocity",
+				"z":2,
+				"space":"local"
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:entity.blaze.shoot master @s ~ ~ ~ 10 0.18",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"particle minecraft:flame ~ ~ ~ 1 1 1 0.15 100",
+				"permission_level":4
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:sneaking",
+		"inverted":true
+	},
+	"cooldown":100,
+	"hud_render":{
+		"should_render":true,
+		"bar_index":7
+	},
+	"key":"key.origins.primary_active"
 }

@@ -3,11 +3,11 @@
     "description": "You are a strong, large, carrion eater with a temper!",
     "powers": [
         "origins:carnivore",
-		"origins-plus-plus:gnoll/carrioneater",
-        "origins-plus-plus:gnoll/carrionsaturation",
-        "origins-plus-plus:gnoll/largebuild",
-        "origins-plus-plus:gnoll/largehealth",
-        "origins-plus-plus:gnoll/nighteye",
+		"origins-plus-plus:gnoll/carrion_eater",
+        "origins-plus-plus:gnoll/carrion_saturation",
+        "origins-plus-plus:gnoll/large_build",
+        "origins-plus-plus:gnoll/large_health",
+        "origins-plus-plus:gnoll/night_vision",
         "origins-plus-plus:gnoll/rage"
     ]
 }
