@@ -19,25 +19,24 @@
 				"command_at_hit":"function origins-plus-plus:light-mage/devour",
 				"command_along_ray":"particle minecraft:end_rod"
 			}
-			},
-			"condition"
-			:
+		]
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
 			{
-				"type":"origins:and",
-				"conditions":[
-					{
-						"type":"origins:sneaking"
-					},
-					{
-						"type":"origins:equipped_item",
-						"equipment_slot":"offhand",
-						"item_condition":{
-							"type":"origins:ingredient",
-							"ingredient":{
-								"item":"minecraft:totem_of_undying"
-							}
-						}
+				"type":"origins:sneaking"
+			},
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:totem_of_undying"
 					}
-				]
+				}
 			}
-			}
+		]
+	}
+}
