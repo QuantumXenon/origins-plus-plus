@@ -1,8 +1,8 @@
 {
 	"powers":[
 		"origins:carnivore",
+		"origins:elytra",
 		"origins:ender_particles",
-		"origins-plus-plus:drakonwither/dragon_wings",
 		"origins-plus-plus:drakonwither/launch_into_air",
 		"origins-plus-plus:drakonwither/parent_skull",
 		"origins-plus-plus:drakonwither/wither_immunity",

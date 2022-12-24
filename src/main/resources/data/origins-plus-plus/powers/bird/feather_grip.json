@@ -6,6 +6,6 @@
     },
     "modifier":{
         "operation":"addition",
-        "value":-10.0
+        "value":-10
     }
 }

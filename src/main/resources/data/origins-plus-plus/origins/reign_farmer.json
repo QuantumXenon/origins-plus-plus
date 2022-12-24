@@ -1,12 +1,12 @@
 {
 	"powers":[
+		"origins:no_shield",
 		"origins:vegetarian",
 		"origins-plus-plus:reign-farmer/lightly_armored",
 		"origins-plus-plus:reign-farmer/nimble",
 		"origins-plus-plus:reign-farmer/nourish",
 		"origins-plus-plus:reign-farmer/pacifist",
 		"origins-plus-plus:reign-farmer/photosynthesis",
-		"origins-plus-plus:reign-farmer/shields_are_heavy",
 		"origins-plus-plus:reign-farmer/strength_of_crops",
 		"origins-plus-plus:reign-farmer/the_gift_of_life"
 	],

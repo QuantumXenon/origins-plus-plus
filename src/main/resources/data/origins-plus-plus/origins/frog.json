@@ -1,11 +1,11 @@
 {
 	"powers":[
 		"origins:aqua_affinity",
+		"origins:fall_immunity",
+		"origins:fragile",
 		"origins-plus-plus:frog/burn",
 		"origins-plus-plus:frog/dash",
-		"origins-plus-plus:frog/fall_invulnerability",
 		"origins-plus-plus:frog/burn_bar",
-		"origins-plus-plus:frog/health",
 		"origins-plus-plus:frog/jump",
 		"origins-plus-plus:frog/poison",
 		"origins-plus-plus:frog/swim",

@@ -7,7 +7,7 @@
 		"cooldown":100,
 		"count":1,
 		"speed":2,
-		"divergence":1.0,
+		"divergence":1,
 		"condition":{
 			"type":"origins:resource",
 			"resource":"origins-plus-plus:blob/health_bar_resource",

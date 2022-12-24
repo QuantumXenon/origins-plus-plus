@@ -2,10 +2,10 @@
 	"type":"origins:modify_food",
 	"food_modifier":{
 		"operation":"multiply_total",
-		"value":-1.0
+		"value":-1
 	},
 	"saturation_modifier":{
 		"operation":"multiply_total",
-		"value":-1.0
+		"value":-1
 	}
 }

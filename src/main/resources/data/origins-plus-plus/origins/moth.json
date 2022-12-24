@@ -1,5 +1,8 @@
 {
 	"powers":[
+		"origins:climbing",
+		"origins:nine_lives",
+		"origins:elytra",
 		"origins-plus-plus:moth/climbing",
 		"origins-plus-plus:moth/compound_vision",
 		"origins-plus-plus:moth/easy_evasion",
@@ -8,13 +11,11 @@
 		"origins-plus-plus:moth/jackolantern_affinity",
 		"origins-plus-plus:moth/lantern_affinity",
 		"origins-plus-plus:moth/light_affinity",
-		"origins-plus-plus:moth/lightweight",
 		"origins-plus-plus:moth/overwhelming_light",
 		"origins-plus-plus:moth/sea_lantern_affinity",
 		"origins-plus-plus:moth/short",
 		"origins-plus-plus:moth/soul_lantern_affinity",
-		"origins-plus-plus:moth/soul_torch_affinity",
-		"origins-plus-plus:moth/wings"
+		"origins-plus-plus:moth/soul_torch_affinity"
 	],
 	"icon":"minecraft:lantern",
 	"impact":2

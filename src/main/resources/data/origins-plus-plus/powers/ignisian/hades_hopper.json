@@ -4,9 +4,9 @@
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:add_velocity",
-			"x":0.0,
+			"x":0,
 			"y":1.5,
-			"z":0.0,
+			"z":0,
 			"set":true
 		},
 		"cooldown":200,
@@ -24,7 +24,9 @@
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:add_velocity",
-			"y":2.0,
+			"x": 0,
+			"y": 2,
+			"z": 0,
 			"set":true
 		},
 		"cooldown":40,

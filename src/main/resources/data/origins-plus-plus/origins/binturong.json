@@ -1,5 +1,6 @@
 {
 	"powers":[
+		"origins:fragile",
 		"origins:climbing",
 		"origins:fall_immunity",
 		"origins:scare_creepers",
@@ -8,7 +9,6 @@
 		"origins-plus-plus:binturong/claws",
 		"origins-plus-plus:binturong/crouch",
 		"origins-plus-plus:binturong/flammable_fur",
-		"origins-plus-plus:binturong/frail",
 		"origins-plus-plus:binturong/jockey",
 		"origins-plus-plus:binturong/jump_boost",
 		"origins-plus-plus:binturong/leap",

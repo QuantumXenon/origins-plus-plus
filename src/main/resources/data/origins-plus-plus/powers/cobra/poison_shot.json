@@ -9,7 +9,7 @@
 	},
 	"count":1,
 	"speed":2.5,
-	"divergence":1.0,
+	"divergence":1,
 	"sound":"minecraft:entity.player.hurt_sweet_berry_bush",
 	"key":"key.origins.primary_active"
 }

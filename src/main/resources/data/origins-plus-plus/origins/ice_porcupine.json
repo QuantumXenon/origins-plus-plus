@@ -1,6 +1,7 @@
 {
 	"powers":[
-		"origins-plus-plus:ice-porcupine/carnivorous",
+		"origins:carnivore",
+		"origins:fragile",
 		"origins-plus-plus:ice-porcupine/cold_adapted_cold_biomes",
 		"origins-plus-plus:ice-porcupine/cold_adapted_hot_biomes",
 		"origins-plus-plus:ice-porcupine/cold_aura",

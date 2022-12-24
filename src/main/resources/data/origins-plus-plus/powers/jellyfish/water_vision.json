@@ -1,6 +1,6 @@
 {
 	"type":"origins:night_vision",
-	"strength":1.0,
+	"strength":1,
 	"condition":{
 		"type":"origins:submerged_in",
 		"fluid":"minecraft:water"

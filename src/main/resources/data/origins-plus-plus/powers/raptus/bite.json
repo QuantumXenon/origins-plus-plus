@@ -2,6 +2,6 @@
 	"type":"origins:modify_damage_dealt",
 	"modifier":{
 		"operation":"addition",
-		"value":3.0
+		"value":3
 	}
 }

@@ -12,7 +12,7 @@
 	},
 	"entity_action_removed":{
 		"type":"origins:execute_command",
-		"command":"scale set 1.0 @s",
+		"command":"scale set 1 @s",
 		"permission_level":4
 	}
 }

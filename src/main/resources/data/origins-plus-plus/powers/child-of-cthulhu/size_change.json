@@ -96,17 +96,17 @@
 				"actions":[
 					{
 						"type":"origins:execute_command",
-						"command":"scale set pehkui:height 1.00 @s",
+						"command":"scale set pehkui:height 1 @s",
 						"permission_level":4
 					},
 					{
 						"type":"origins:execute_command",
-						"command":"scale set pehkui:width 1.00 @s",
+						"command":"scale set pehkui:width 1 @s",
 						"permission_level":4
 					},
 					{
 						"type":"origins:execute_command",
-						"command":"scale set pehkui:motion 1.00 @s",
+						"command":"scale set pehkui:motion 1 @s",
 						"permission_level":4
 					},
 					{

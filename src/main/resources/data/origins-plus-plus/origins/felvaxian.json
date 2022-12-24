@@ -1,8 +1,10 @@
 {
 	"powers":[
+		"origins:nine_lives",
 		"origins:no_shield",
-		"origins-plus-plus:felvaxian/carnivore",
-		"origins-plus-plus:felvaxian/fall_immunity",
+		"origins:fall_immunity",
+		"origins:cat_vision",
+		"origins:carnivore",
 		"origins-plus-plus:felvaxian/feline_eyes",
 		"origins-plus-plus:felvaxian/feline_legs",
 		"origins-plus-plus:felvaxian/pounce",
@@ -10,8 +12,7 @@
 		"origins-plus-plus:felvaxian/scavenger_pouch",
 		"origins-plus-plus:felvaxian/soaring_wings",
 		"origins-plus-plus:felvaxian/tigers_roar",
-		"origins-plus-plus:felvaxian/unholy_aura",
-		"origins-plus-plus:felvaxian/weaker_heart"
+		"origins-plus-plus:felvaxian/unholy_aura"
 	],
 	"icon":"minecraft:black_dye",
 	"impact":2

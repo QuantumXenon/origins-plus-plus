@@ -1,9 +1,9 @@
 {
 	"powers":[
+		"origins:fall_immunity",
 		"origins-plus-plus:copper-golem/copper_colour",
 		"origins-plus-plus:copper-golem/defense",
 		"origins-plus-plus:copper-golem/extra_health",
-		"origins-plus-plus:copper-golem/immune_to_fall_damage",
 		"origins-plus-plus:copper-golem/no_food",
 		"origins-plus-plus:copper-golem/oxidation_action",
 		"origins-plus-plus:copper-golem/oxidation_resource",

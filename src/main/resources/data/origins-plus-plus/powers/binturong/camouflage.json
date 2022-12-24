@@ -16,7 +16,7 @@
 	"hunger":{
 		"type":"origins:exhaust",
 		"interval":20,
-		"exhaustion":4.0,
+		"exhaustion":4,
 		"condition":{
 			"type":"origins:power_active",
 			"power":"*:*_toggle"

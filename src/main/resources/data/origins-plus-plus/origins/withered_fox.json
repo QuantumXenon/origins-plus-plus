@@ -1,9 +1,9 @@
 {
 	"powers":[
+		"origins:slow_falling",
+		"origins:fire_immunity",
 		"origins-plus-plus:withered-fox/berry_sat",
-		"origins-plus-plus:withered-fox/body",
 		"origins-plus-plus:withered-fox/fear",
-		"origins-plus-plus:withered-fox/fire",
 		"origins-plus-plus:withered-fox/float",
 		"origins-plus-plus:withered-fox/hard_skin",
 		"origins-plus-plus:withered-fox/hearts",

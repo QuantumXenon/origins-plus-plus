@@ -9,7 +9,7 @@
 	},
 	"food_modifier":{
 		"operation":"addition",
-		"value":5.0
+		"value":5
 	},
 	"saturation_modifier":{
 		"operation":"addition",

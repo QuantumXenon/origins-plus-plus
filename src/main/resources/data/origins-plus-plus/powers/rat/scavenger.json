@@ -3,6 +3,6 @@
 	"modifier":{
 		"attribute":"minecraft:generic.luck",
 		"operation":"multiply_base",
-		"value":3.0
+		"value":3
 	}
 }

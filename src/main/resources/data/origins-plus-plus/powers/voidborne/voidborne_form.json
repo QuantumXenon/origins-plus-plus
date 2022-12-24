@@ -68,7 +68,7 @@
 	},
 	"visibility_under_32":{
 		"type":"origins:model_color",
-		"alpha":1.0,
+		"alpha":1,
 		"condition":{
 			"type":"origins:and",
 			"conditions":[

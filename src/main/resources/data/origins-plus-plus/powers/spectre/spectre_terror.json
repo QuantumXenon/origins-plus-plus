@@ -38,7 +38,7 @@
 		"type":"origins:modify_air_speed",
 		"modifier":{
 			"operation":"multiply_total",
-			"value":1.0
+			"value":1
 		},
 		"condition":{
 			"type":"origins:power_active",
@@ -73,7 +73,7 @@
 	"hover":{
 		"type":"origins:modify_falling",
 		"hidden":true,
-		"velocity":0.0,
+		"velocity":0,
 		"take_fall_damage":false,
 		"condition":{
 			"type":"origins:power_active",

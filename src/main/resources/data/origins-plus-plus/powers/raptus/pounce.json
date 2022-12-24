@@ -3,7 +3,7 @@
 	"entity_action":{
 		"type":"origins:add_velocity",
 		"space":"local",
-		"z":1.0,
+		"z":1,
 		"y":0.5
 	},
 	"key":"key.origins.primary_active",

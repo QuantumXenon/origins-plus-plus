@@ -2,7 +2,7 @@
 	"type":"origins:conditioned_attribute",
 	"modifier":{
 		"attribute":"minecraft:generic.max_health",
-		"value":-8.0,
+		"value":-8,
 		"operation":"addition"
 	},
 	"update_health":true,

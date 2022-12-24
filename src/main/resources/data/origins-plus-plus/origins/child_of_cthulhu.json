@@ -1,5 +1,6 @@
 {
 	"powers":[
+		"origins:elytra",
 		"origins-plus-plus:child-of-cthulhu/camouflage",
 		"origins-plus-plus:child-of-cthulhu/exhaust",
 		"origins-plus-plus:child-of-cthulhu/fire_weakness",
@@ -10,8 +11,7 @@
 		"origins-plus-plus:child-of-cthulhu/size_resource",
 		"origins-plus-plus:child-of-cthulhu/slowness_on_land",
 		"origins-plus-plus:child-of-cthulhu/water_lungs",
-		"origins-plus-plus:child-of-cthulhu/water_vision",
-		"origins-plus-plus:child-of-cthulhu/winged"
+		"origins-plus-plus:child-of-cthulhu/water_vision"
 	],
 	"icon":"minecraft:purple_glazed_terracotta",
 	"impact":2

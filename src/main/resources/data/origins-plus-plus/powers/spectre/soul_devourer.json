@@ -2,7 +2,7 @@
 	"type":"origins:self_action_on_hit",
 	"entity_action":{
 		"type":"origins:heal",
-		"amount":1.0
+		"amount":1
 	},
 	"cooldown":1
 }

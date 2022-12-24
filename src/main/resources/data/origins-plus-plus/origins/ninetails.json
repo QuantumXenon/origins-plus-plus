@@ -1,8 +1,8 @@
 {
 	"powers":[
-		"origins-plus-plus:ninetails/fall",
+		"origins:fall_immunity",
+		"origins:fire_immunity",
 		"origins-plus-plus:ninetails/fire_particles",
-		"origins-plus-plus:ninetails/fire_resistance",
 		"origins-plus-plus:ninetails/firebody",
 		"origins-plus-plus:ninetails/hydrophobic",
 		"origins-plus-plus:ninetails/launch",

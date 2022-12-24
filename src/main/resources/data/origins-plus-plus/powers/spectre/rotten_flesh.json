@@ -9,11 +9,11 @@
 	},
 	"food_modifier":{
 		"operation":"addition",
-		"value":4.0
+		"value":4
 	},
 	"saturation_modifier":{
 		"operation":"addition",
-		"value":12.0
+		"value":12
 	},
 	"always_edible":true
 }

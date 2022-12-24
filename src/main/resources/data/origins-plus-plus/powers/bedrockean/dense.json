@@ -4,7 +4,7 @@
 		{
 			"attribute":"generic.max_health",
 			"operation":"addition",
-			"value":10.0
+			"value":10
 		},
 		{
 			"attribute":"generic.movement_speed",

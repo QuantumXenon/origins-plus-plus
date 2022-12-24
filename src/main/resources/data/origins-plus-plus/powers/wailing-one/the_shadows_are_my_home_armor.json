@@ -2,7 +2,7 @@
   "type":"origins:attribute",
   "modifier":{
     "attribute":"minecraft:generic.armor",
-    "value":5.0,
+    "value":5,
     "operation":"addition"
   },
   "hidden":true

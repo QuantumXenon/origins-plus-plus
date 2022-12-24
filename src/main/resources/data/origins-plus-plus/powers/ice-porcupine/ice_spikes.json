@@ -2,7 +2,7 @@
 	"type":"origins:attacker_action_when_hit",
 	"entity_action":{
 		"type":"origins:damage",
-		"amount":10.0,
+		"amount":10,
 		"source":{
 			"name":"cactus",
 			"bypasses_armor":true

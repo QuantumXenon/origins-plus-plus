@@ -3,7 +3,6 @@
 	"interval":40,
 	"onset_delay":1,
 	"damage":2,
-	"damage_easy":1,
 	"damage_source":{
 		"name":"onFire",
 		"fire":true
@@ -21,7 +20,7 @@
 						"condition":{
 							"type":"origins:temperature",
 							"comparison":">=",
-							"compare_to":2.0
+							"compare_to":2
 						}
 					},
 					{

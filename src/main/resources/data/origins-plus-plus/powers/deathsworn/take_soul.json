@@ -8,7 +8,7 @@
 			},
 			{
 				"type":"origins:heal",
-				"amount":3.0
+				"amount":3
 			},
 			{
 				"type":"origins:execute_command",

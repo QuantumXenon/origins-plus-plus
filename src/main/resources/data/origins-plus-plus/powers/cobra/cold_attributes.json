@@ -54,7 +54,6 @@
 		"interval":24,
 		"onset_delay":1,
 		"damage":2,
-		"damage_easy":1,
 		"source":{
 			"name":"generic",
 			"unblockable":true,

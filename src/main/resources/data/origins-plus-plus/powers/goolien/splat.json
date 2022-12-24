@@ -19,7 +19,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":3.0
+					"compare_to":3
 				}
 			]
 		},
@@ -44,7 +44,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":3.0
+					"compare_to":3
 				}
 			]
 		},
@@ -70,7 +70,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":6.0
+					"compare_to":6
 				}
 			]
 		},
@@ -96,7 +96,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":6.0
+					"compare_to":6
 				}
 			]
 		},
@@ -122,7 +122,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":10.0
+					"compare_to":10
 				}
 			]
 		},
@@ -148,7 +148,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":10.0
+					"compare_to":10
 				}
 			]
 		},
@@ -174,7 +174,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":14.0
+					"compare_to":14
 				}
 			]
 		},
@@ -200,7 +200,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":14.0
+					"compare_to":14
 				}
 			]
 		},
@@ -226,7 +226,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":18.0
+					"compare_to":18
 				}
 			]
 		},
@@ -252,7 +252,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":18.0
+					"compare_to":18
 				}
 			]
 		},
@@ -278,7 +278,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":20.0
+					"compare_to":20
 				}
 			]
 		},
@@ -304,7 +304,7 @@
 				{
 					"type":"origins:amount",
 					"comparison":">=",
-					"compare_to":20.0
+					"compare_to":20
 				}
 			]
 		},

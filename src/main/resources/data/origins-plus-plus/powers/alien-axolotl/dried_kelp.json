@@ -10,7 +10,7 @@
 		},
 		"food_modifier":{
 			"operation":"multiply_total",
-			"value":1.0
+			"value":1
 		},
 		"saturation_modifier":{
 			"operation":"multiply_total",
@@ -54,11 +54,11 @@
 		},
 		"food_modifier":{
 			"operation":"multiply_total",
-			"value":1.0
+			"value":1
 		},
 		"saturation_modifier":{
 			"operation":"multiply_total",
-			"value":1.0
+			"value":1
 		},
 		"entity_action":{
 			"type":"origins:delay",
@@ -79,7 +79,7 @@
 		},
 		"food_modifier":{
 			"operation":"multiply_total",
-			"value":1.0
+			"value":1
 		},
 		"saturation_modifier":{
 			"operation":"multiply_total",

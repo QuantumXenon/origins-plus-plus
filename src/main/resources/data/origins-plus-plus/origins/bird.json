@@ -1,5 +1,6 @@
 {
 	"powers":[
+		"origins:elytra",
 		"origins:more_kinetic_damage",
 		"origins:no_shield",
 		"origins-plus-plus:bird/almost_no_armor",
@@ -14,8 +15,7 @@
 		"origins-plus-plus:bird/small",
 		"origins-plus-plus:bird/smaller_appetite",
 		"origins-plus-plus:bird/smaller_body",
-		"origins-plus-plus:bird/tweet",
-		"origins-plus-plus:bird/wings"
+		"origins-plus-plus:bird/tweet"
 	],
 	"icon":"minecraft:chicken",
 	"impact":3

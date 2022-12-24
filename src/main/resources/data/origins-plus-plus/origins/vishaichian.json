@@ -1,8 +1,8 @@
 {
 	"powers":[
 		"origins:no_cobweb_slowdown",
+		"origins:fall_immunity",
 		"origins-plus-plus:vishaichian/chicken_status_clear",
-		"origins-plus-plus:vishaichian/fall",
 		"origins-plus-plus:vishaichian/fire_weakness",
 		"origins-plus-plus:vishaichian/high_prices",
 		"origins-plus-plus:vishaichian/poison_spit",

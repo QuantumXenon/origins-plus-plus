@@ -1,7 +1,7 @@
 {
 	"powers":[
 		"origins:nether_spawn",
-		"origins-plus-plus:hellforged/fiery_metal",
+		"origins:fire_immunity",
 		"origins-plus-plus:hellforged/heat_powered",
 		"origins-plus-plus:hellforged/impervious_eyes",
 		"origins-plus-plus:hellforged/slow_swim",

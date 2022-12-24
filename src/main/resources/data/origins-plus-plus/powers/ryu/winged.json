@@ -1,9 +1,5 @@
 {
 	"type":"origins:multiple",
-	"elytra":{
-		"type":"origins:elytra_flight",
-		"render_elytra":true
-	},
 	"velocity_boost_normal":{
 		"type":"origins:active_self",
 		"entity_action":{

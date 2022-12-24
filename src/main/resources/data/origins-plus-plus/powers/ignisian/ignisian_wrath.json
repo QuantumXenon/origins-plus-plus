@@ -51,7 +51,7 @@
 		"modifier":{
 			"attribute":"minecraft:generic.knockback_resistance",
 			"operation":"addition",
-			"value":1.0
+			"value":1
 		},
 		"condition":{
 			"type":"origins:power_active",
@@ -111,7 +111,7 @@
 		"type":"origins:attacker_action_when_hit",
 		"entity_action":{
 			"type":"origins:add_velocity",
-			"x":0.0,
+			"x":0,
 			"y":0.5,
 			"z":-0.5,
 			"space":"local",

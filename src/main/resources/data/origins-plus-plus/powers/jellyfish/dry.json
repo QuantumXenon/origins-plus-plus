@@ -3,9 +3,8 @@
 	"interval":20,
 	"onset_delay":1200,
 	"damage":2,
-	"damage_easy":1,
 	"condition":{
-		"type":"origins:or",
+		"type":"origins:and",
 		"conditions":[
 			{
 				"type":"origins:fluid_height",
@@ -14,7 +13,8 @@
 				"compare_to":0
 			},
 			{
-				"type":"origins:in_rain"
+				"type":"origins:in_rain",
+				"inverted": true
 			}
 		]
 	}

@@ -1,6 +1,6 @@
 {
 	"type":"origins:fire_projectile",
-	"entity_type":"shulker_bullet",
+	"entity_type":"minecraft:shulker_bullet",
 	"cooldown":500,
 	"hud_render":{
 		"should_render":true,

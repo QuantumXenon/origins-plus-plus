@@ -1,7 +1,7 @@
 {
 	"powers":[
+		"origins:fall_immunity",
 		"origins-plus-plus:anomaly/blinding_light",
-		"origins-plus-plus:anomaly/energetic_ionization",
 		"origins-plus-plus:anomaly/eternity",
 		"origins-plus-plus:anomaly/moons_grace",
 		"origins-plus-plus:anomaly/night_vision",

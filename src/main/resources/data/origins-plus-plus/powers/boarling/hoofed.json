@@ -2,19 +2,6 @@
 	"type":"origins:prevent_item_use",
 	"item_condition":{
 		"type":"origins:ingredient",
-		"ingredient":[
-			{
-				"item":"minecraft:bow"
-			},
-			{
-				"item":"minecraft:crossbow"
-			},
-			{
-				"item":"minecraft:trident"
-			},
-			{
-				"item":"minecraft:shield"
-			}
-		]
+		"tag": "origins-plus-plus:unwieldy"
 	}
 }

@@ -1,5 +1,6 @@
 {
 	"powers":[
+		"origins:throw_ender_pearl",
 		"origins-plus-plus:zero-aizawa/acrobatics",
 		"origins-plus-plus:zero-aizawa/heliophobia",
 		"origins-plus-plus:zero-aizawa/long_arms",
@@ -7,7 +8,6 @@
 		"origins-plus-plus:zero-aizawa/nice_villager_prices",
 		"origins-plus-plus:zero-aizawa/super_sane",
 		"origins-plus-plus:zero-aizawa/tall",
-		"origins-plus-plus:zero-aizawa/teleport",
 		"origins-plus-plus:zero-aizawa/weak_stature"
 	],
 	"icon":"minecraft:black_stained_glass",

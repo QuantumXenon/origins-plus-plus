@@ -27,6 +27,6 @@
 	},
 	"modifier":{
 		"operation":"multiply_base",
-		"value":2.0
+		"value":2
 	}
 }

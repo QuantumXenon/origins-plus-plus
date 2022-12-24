@@ -1,5 +1,6 @@
 {
 	"powers":[
+		"origins:slow_falling",
 		"origins-plus-plus:gaia/floral_superiority",
 		"origins-plus-plus:gaia/floral_teaming",
 		"origins-plus-plus:gaia/floral_teaming_absorbtion",
@@ -22,7 +23,6 @@
 		"origins-plus-plus:gaia/fungal_enemy_crimson",
 		"origins-plus-plus:gaia/fungal_enemy_red",
 		"origins-plus-plus:gaia/fungal_enemy_warped",
-		"origins-plus-plus:gaia/light_as_a_flower",
 		"origins-plus-plus:gaia/natures_danger",
 		"origins-plus-plus:gaia/photosynthesis",
 		"origins-plus-plus:gaia/plant_based",

@@ -14,7 +14,7 @@
 			"type":"origins:fluid_height",
 			"fluid":"minecraft:lava",
 			"comparison":">",
-			"compare_to":0.0
+			"compare_to":0
 		}
 	},
 	"fire_invulnerability":{

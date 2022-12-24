@@ -19,7 +19,7 @@
 		},
 		"modifier":{
 			"operation":"multiply_total",
-			"value":-1.0
+			"value":-1
 		},
 		"condition":{
 			"type":"origins:resource",
