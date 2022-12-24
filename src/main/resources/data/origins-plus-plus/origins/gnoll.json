@@ -7,5 +7,7 @@
 		"origins-plus-plus:gnoll/large_health",
 		"origins-plus-plus:gnoll/night_vision",
 		"origins-plus-plus:gnoll/rage"
-	]
+	],
+	"icon":"minecraft:rotten_flesh",
+	"impact":3
 }

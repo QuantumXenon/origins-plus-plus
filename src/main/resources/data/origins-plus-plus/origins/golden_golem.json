@@ -10,5 +10,7 @@
 		"origins-plus-plus:golden-golem/health_resource_items",
 		"origins-plus-plus:golden-golem/slower",
 		"origins-plus-plus:golden-golem/water"
-	]
+	],
+	"icon":"minecraft:totem_of_undying",
+	"impact":3
 }

@@ -22,5 +22,6 @@
 		"origins-plus-plus:wailing-one/translucent",
 		"origins-plus-plus:wailing-one/wail"
 	],
-	"icon":"minecraft:ghast_tear"
+	"icon":"minecraft:ghast_tear",
+	"impact":3
 }
