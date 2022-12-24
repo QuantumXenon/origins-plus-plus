@@ -2,7 +2,7 @@
 	"values":[
 		"minecraft:bow",
 		"minecraft:crossbow",
-		"minecraft:trident",
-		"minecraft:shield"
+		"minecraft:shield",
+		"minecraft:trident"
 	]
 }

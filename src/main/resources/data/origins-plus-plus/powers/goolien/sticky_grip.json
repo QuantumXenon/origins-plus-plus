@@ -45,34 +45,12 @@
 			]
 		}
 	},
-	"bad_bow_trident":{
-		"type":"origins:modify_projectile_damage",
-		"damage_condition":{
-			"type":"origins:projectile",
-			"projectile":"minecraft:trident"
-		},
-		"modifiers":[
-			{
-				"operation":"multiply_base",
-				"value":-0.50
-			}
-		]
-	},
-	"cannot_use_bows":{
+	"prevent_use":{
 		"type":"origins:prevent_item_use",
 		"item_condition":{
 			"type":"origins:ingredient",
 			"ingredient":{
-				"item":"minecraft:bow"
-			}
-		}
-	},
-	"cannot_use_crossbows":{
-		"type":"origins:prevent_item_use",
-		"item_condition":{
-			"type":"origins:ingredient",
-			"ingredient":{
-				"item":"minecraft:crossbow"
+				"tag":"origins-plus-plus:unwieldy"
 			}
 		}
 	}

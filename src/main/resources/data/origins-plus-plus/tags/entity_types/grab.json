@@ -1,19 +1,19 @@
 {
 	"values":[
-		"player",
-		"elder_guardian",
-		"ender_dragon",
-		"ghast",
-		"ravager",
-		"warden",
-		"wither",
-		"#impact_projectiles",
-		"item",
-		"llama_spit",
-		"ender_pearl",
-		"end_crystal",
-		"shulker_bullet",
-		"falling_block",
-		"leash_knot"
+		"#minecraft:impact_projectiles",
+		"minecraft:elder_guardian",
+		"minecraft:end_crystal",
+		"minecraft:ender_dragon",
+		"minecraft:ender_pearl",
+		"minecraft:falling_block",
+		"minecraft:ghast",
+		"minecraft:item",
+		"minecraft:leash_knot",
+		"minecraft:llama_spit",
+		"minecraft:player",
+		"minecraft:ravager",
+		"minecraft:shulker_bullet",
+		"minecraft:warden",
+		"minecraft:wither"
 	]
 }

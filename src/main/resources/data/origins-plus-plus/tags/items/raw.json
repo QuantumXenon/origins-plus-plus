@@ -1,13 +1,13 @@
 {
 	"values":[
 		"minecraft:beef",
-		"minecraft:porkchop",
 		"minecraft:chicken",
 		"minecraft:cod",
-		"minecraft:salmon",
 		"minecraft:mutton",
+		"minecraft:porkchop",
 		"minecraft:rabbit",
-		"minecraft:tropical_fish",
-		"minecraft:rotten_flesh"
+		"minecraft:rotten_flesh",
+		"minecraft:salmon",
+		"minecraft:tropical_fish"
 	]
 }

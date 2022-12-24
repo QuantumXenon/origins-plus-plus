@@ -1,10 +1,10 @@
 {
 	"values":[
-		"eye_of_ender",
-		"firework_rocket",
-		"fishing_bobber",
-		"painting",
-		"item_frame",
-		"glow_item_frame"
+		"minecraft:eye_of_ender",
+		"minecraft:firework_rocket",
+		"minecraft:fishing_bobber",
+		"minecraft:glow_item_frame",
+		"minecraft:item_frame",
+		"minecraft:painting"
 	]
 }

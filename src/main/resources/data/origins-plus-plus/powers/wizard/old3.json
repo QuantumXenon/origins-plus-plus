@@ -3,7 +3,7 @@
 	"item_condition":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"tag":"origins:shields"
+			"item":"minecraft:shield"
 		}
 	},
 	"hidden":true

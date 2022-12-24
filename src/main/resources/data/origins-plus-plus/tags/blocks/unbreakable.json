@@ -1,16 +1,16 @@
 {
 	"values":[
+		"minecraft:ancient_debris",
 		"minecraft:barrier",
 		"minecraft:bedrock",
 		"minecraft:command_block",
-		"minecraft:emerald_block",
-		"minecraft:end_portal_frame",
 		"minecraft:diamond_block",
-		"minecraft:iron_block",
-		"minecraft:gold_block",
-		"minecraft:obsidian",
+		"minecraft:emerald_block",
 		"minecraft:enchanting_table",
-		"minecraft:ancient_debris",
-		"minecraft:netherite_block"
+		"minecraft:end_portal_frame",
+		"minecraft:gold_block",
+		"minecraft:iron_block",
+		"minecraft:netherite_block",
+		"minecraft:obsidian"
 	]
 }

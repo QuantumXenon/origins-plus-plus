@@ -1,12 +1,8 @@
 {
 	"values":[
-		"minecraft:pillager",
 		"minecraft:evoker",
-		"minecraft:vindicator",
+		"minecraft:pillager",
 		"minecraft:ravager",
-		"minecraft:iron_golem",
-		"minecraft:villager",
-		"minecraft:wither",
-		"minecraft:ender_dragon"
+		"minecraft:vindicator"
 	]
 }

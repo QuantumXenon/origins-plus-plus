@@ -2,14 +2,14 @@
 	"values":[
 		"#minecraft:arrows",
 		"#minecraft:impact_projectiles",
-		"minecraft:fireball",
-		"minecraft:small_fireball",
 		"minecraft:dragon_fireball",
-		"minecraft:firework_rocket",
-		"minecraft:snowball",
-		"minecraft:potion",
 		"minecraft:ender_pearl",
 		"minecraft:eye_of_ender",
+		"minecraft:fireball",
+		"minecraft:firework_rocket",
+		"minecraft:potion",
+		"minecraft:small_fireball",
+		"minecraft:snowball",
 		"minecraft:wither_skull"
 	]
 }
