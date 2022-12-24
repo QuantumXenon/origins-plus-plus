@@ -11,7 +11,7 @@
 			},
 			"if_action":{
 				"type":"origins:execute_command",
-				"command":"loot spawn ~ ~ ~ loot origins-plus-plus:cash_in"
+				"command":"loot spawn ~ ~ ~ loot origins-plus-plus:calamitous-rogue/cash_in"
 			}
 		},
 		"target_condition":{
