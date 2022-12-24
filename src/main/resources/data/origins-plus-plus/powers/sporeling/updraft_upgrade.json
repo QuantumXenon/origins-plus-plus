@@ -1,13 +1,29 @@
 {
-  "type": "origins:launch",
-  "cooldown": 80,
-  "hud_render": {
-    "sprite_location": "origins:textures/gui/resource_bar.png",
-    "bar_index": 4
-  },
-  "sound": "entity.pig.saddle",
-  "speed": 2,
-  "key": "key.origins.primary_active",
-  "name":"Updraft+",
-  "description":"Primary Ability: Blast more spores into your cap to launch you higher upwards. 4 second cooldown."
+	"type":"origins:multiple",
+	"launch":{
+		"type":"origins:launch",
+		"cooldown":100,
+		"hud_render":{
+			"sprite_location":"origins:textures/gui/resource_bar.png",
+			"bar_index":4
+		},
+		"sound":"entity.pig.saddle",
+		"speed":2,
+		"key":"key.origins.primary_active"
+	},
+	"particles":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"execute at @s run particle minecraft:sneeze ~.1 ~1 ~ 1 1 1 0 200",
+					"permission_level":4
+				}
+			]
+		},
+		"key":"key.origins.primary_active",
+		"cooldown":100
+	}
 }

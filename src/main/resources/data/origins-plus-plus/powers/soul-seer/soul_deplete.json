@@ -1,0 +1,29 @@
+{
+	"type":"origins:multiple",
+	"damage":{
+		"type":"origins:self_action_when_hit",
+		"cooldown":5,
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:soul-seer/resource",
+			"change":-35
+		},
+		"damage_condition":{
+			"type":"origins:amount",
+			"comparison":">=",
+			"compare_to":1.0
+		}
+	},
+	"sprint":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:soul-seer/resource",
+			"change":-5
+		},
+		"interval":20,
+		"condition":{
+			"type":"origins:sprinting"
+		}
+	}
+}

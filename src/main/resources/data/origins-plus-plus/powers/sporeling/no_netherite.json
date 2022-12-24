@@ -1,0 +1,28 @@
+{
+	"type":"origins:restrict_armor",
+	"head":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:netherite_helmet"
+		}
+	},
+	"chest":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:netherite_chestplate"
+		}
+	},
+	"legs":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:netherite_leggings"
+		}
+	},
+	"feet":{
+		"type":"origins:ingredient",
+		"ingredient":{
+			"item":"minecraft:netherite_boots"
+		}
+	},
+	"hidden":true
+}

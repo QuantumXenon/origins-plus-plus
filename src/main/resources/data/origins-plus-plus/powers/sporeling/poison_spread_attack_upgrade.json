@@ -1,27 +1,67 @@
 {
-	"type": "origins:active_self",
-	"entity_action": {
-		"type": "origins:and",
-		"actions": [
-		{
-			"type": "origins:execute_command",
-			"command": "summon area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:6f,RadiusPerTick:0f,Duration:200,Color:2723378,Effects:[{Id:19b,Amplifier:1b,Duration:100}]}",
-			"permission_level": 4
+	"type":"origins:multiple",
+	"cloud":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"summon area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:6f,RadiusPerTick:0f,Duration:200,Color:2723378,Effects:[{Id:19b,Amplifier:1b,Duration:100}]}",
+					"permission_level":4
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"summon area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:6f,RadiusPerTick:0f,Duration:200,Effects:[{Id:20b,Amplifier:0b,Duration:100}]}",
+					"permission_level":4
+				}
+			]
 		},
-		{
-			"type": "origins:execute_command",
-			"command": "summon area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:6f,RadiusPerTick:0f,Duration:200,Effects:[{Id:20b,Amplifier:0b,Duration:100}]}",
-			"permission_level": 4
+		"key":"key.origins.secondary_active",
+		"cooldown":200,
+		"hud_render":{
+			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"bar_index":20
 		}
-		]
 	},
-
-	"key": "key.origins.secondary_active",
-  "cooldown": 200,
-	"hud_render": {
-		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-		"bar_index": 20
+	"particles":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"execute at @s run particle minecraft:sneeze ~.1 ~1 ~ 1 1 1 0 200",
+			"permission_level":4
+		},
+		"key":"key.origins.secondary_active",
+		"cooldown":200
 	},
-  "name": "Spore Spreader+",
-  "description": "Secondary Ability: After evolving, you spread stronger spores around you that inflict all nearby entities with poison II and wither in a 6 block radius AOE field. If they escape, lasts for an additional 5 seconds. 20 second cooldown."
+	"sound-1":{
+		"type":"origins:fire_projectile",
+		"cooldown":200,
+		"key":"key.origins.secondary_active",
+		"entity_type":"minecraft:lightning_bolt",
+		"sound":"entity.generic.swim",
+		"speed":1,
+		"divergence":30,
+		"count":0
+	},
+	"sound-2":{
+		"type":"origins:fire_projectile",
+		"cooldown":200,
+		"key":"key.origins.secondary_active",
+		"entity_type":"minecraft:lightning_bolt",
+		"sound":"entity.parrot.imitate.witch",
+		"speed":1,
+		"divergence":30,
+		"count":0
+	},
+	"sound-3":{
+		"type":"origins:fire_projectile",
+		"cooldown":200,
+		"key":"key.origins.primary_active",
+		"entity_type":"minecraft:lightning_bolt",
+		"sound":"entity.skeleton_horse.jump_water",
+		"speed":1,
+		"divergence":30,
+		"count":0
+	}
 }

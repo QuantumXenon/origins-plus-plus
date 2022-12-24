@@ -10,7 +10,7 @@
 			},
 			{
 				"type": "origins:change_resource",
-				"resource": "origins-plus-plus:soul-seer/soulsource",
+				"resource": "origins-plus-plus:soul-seer/resource",
 				"change": -25
 			},
 			{
@@ -25,10 +25,8 @@
 	},
 	"condition": {
 		"type": "origins:resource",
-		"resource": "origins-plus-plus:soul-seer/soulsource",
+		"resource": "origins-plus-plus:soul-seer/resource",
 		"comparison": ">=",
 		"compare_to": 25
-	},
-	"name": "Spirit Walk",
-	"description": "Due to your Soul-Like body, you can instantly travel through the world towards any entity you can see."
+	}
 }

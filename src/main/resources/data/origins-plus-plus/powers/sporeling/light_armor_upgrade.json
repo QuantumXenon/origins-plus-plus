@@ -3,21 +3,21 @@
 	"head":{
 		"type":"origins:armor_value",
 		"comparison":">",
-		"compare_to":2
+		"compare_to":3
 	},
 	"chest":{
 		"type":"origins:armor_value",
 		"comparison":">",
-		"compare_to":6
+		"compare_to":8
 	},
 	"legs":{
 		"type":"origins:armor_value",
 		"comparison":">",
-		"compare_to":5
+		"compare_to":6
 	},
 	"feet":{
 		"type":"origins:armor_value",
 		"comparison":">",
-		"compare_to":2
+		"compare_to":3
 	}
 }

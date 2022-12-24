@@ -1,0 +1,31 @@
+{
+	"type":"origins:multiple",
+	"hunger":{
+		"type":"origins:self_action_on_hit",
+		"entity_action":{
+			"type":"origins:feed",
+			"food":1,
+			"saturation":0.5
+		},
+		"damage_condition":{
+			"type":"origins:amount",
+			"comparison":">=",
+			"compare_to":1.0
+		},
+		"cooldown":5
+	},
+	"soul":{
+		"type":"origins:self_action_on_hit",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:soul-seer/resource",
+			"change":10
+		},
+		"damage_condition":{
+			"type":"origins:amount",
+			"comparison":">=",
+			"compare_to":1.0
+		},
+		"cooldown":5
+	}
+}

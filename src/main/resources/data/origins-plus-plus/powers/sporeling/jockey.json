@@ -15,7 +15,5 @@
 		}
 	},
 	"cooldown":10,
-	"key":"key.use",
-	"name":"Jockey",
-	"description":"You can ride on other players."
+	"key":"key.use"
 }

@@ -1,26 +1,20 @@
 {
-	"powers": [
+	"powers":[
 		"origins:tailwind",
 		"origins:slow_falling",
 		"origins-plus-plus:sporeling/decay",
-		"origins-plus-plus:sporeling/decay_sound",
 		"origins-plus-plus:sporeling/decomposer",
-		"origins-plus-plus:sporeling/firedamage",
+		"origins-plus-plus:sporeling/fire_damage",
+		"origins-plus-plus:sporeling/health_upgrade",
 		"origins-plus-plus:sporeling/jockey",
-		"origins-plus-plus:sporeling/lesshealthdecrease",
-		"origins-plus-plus:sporeling/lesslight_armor",
-		"origins-plus-plus:sporeling/nonetherite",
-		"origins-plus-plus:sporeling/poison_spread_attack_particles_up",
-		"origins-plus-plus:sporeling/poison_spread_attack_sound",
-		"origins-plus-plus:sporeling/poison_spread_attack_sound_additional_extra_up",
-		"origins-plus-plus:sporeling/poison_spread_attack_sound_additional_up",
+		"origins-plus-plus:sporeling/light_armor_upgrade",
+		"origins-plus-plus:sporeling/no_netherite",
 		"origins-plus-plus:sporeling/poison_spread_attack_upgrade",
-		"origins-plus-plus:sporeling/smallspeed",
-		"origins-plus-plus:sporeling/tinyshroom",
-		"origins-plus-plus:sporeling/updraft_particles_upgrade",
+		"origins-plus-plus:sporeling/small_upgrade",
+		"origins-plus-plus:sporeling/speed",
 		"origins-plus-plus:sporeling/updraft_upgrade"
 	],
-	"icon": "minecraft:red_mushroom",
-	"impact": 3,
-	"unchoosable": true
+	"icon":"minecraft:red_mushroom",
+	"impact":3,
+	"unchoosable":true
 }

@@ -55,7 +55,5 @@
 				"command":"scale set pehkui:height 1 @s"
 			}
 		]
-	},
-	"name":"Small",
-	"description":"You're not a spore anymore, but you're still a small mushroom."
+	}
 }
