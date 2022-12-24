@@ -6,6 +6,7 @@
 		"max":6
 	},
 	"charge":{
+		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"*:*_resource",

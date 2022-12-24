@@ -6,11 +6,11 @@
 			"value":10.0,
 			"operation":"addition"
 		},
-		"update_health":true,
 		{
 			"attribute":"minecraft:generic.armor",
 			"value":6,
 			"operation":"addition"
 		}
-	]
+	],
+	"update_health":true
 }

@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"25%":{
+	"quarter":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
 		"max_stacks":2,
@@ -30,7 +30,7 @@
 			"compare_to":24
 		}
 	},
-	"0%":{
+	"empty":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
 		"max_stacks":2,
