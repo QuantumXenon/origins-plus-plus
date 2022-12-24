@@ -297,7 +297,7 @@
 	"power.origins-plus-plus.artificial-construct/battery.name":"Artificial Consciousness",
 	"power.origins-plus-plus.artificial-construct/battery.description":"You are a battery powered machine. This battery slowly runs our over time. As the battery decreases, you will start to move slower until you cannot move at all. You can refill this battery by placing coal in your offhand.",
 	"power.origins-plus-plus.artificial-construct/dispenser.name":"Built-In Dispenser",
-	"power.origins-plus-plus.artificial-construct/dispenser.descripton":"You can shoot arrows from your offhand.",
+	"power.origins-plus-plus.artificial-construct/dispenser.description":"You can shoot arrows from your offhand.",
 	"power.origins-plus-plus.artificial-construct/heal.name":"Inorganic",
 	"power.origins-plus-plus.artificial-construct/heal.description":"Since you are a machine, you cannot heal naturally, but you can heal your self with iron nuggets (put an iron nugget in your offhand to consume it).",
 	"power.origins-plus-plus.artificial-construct/less_fall_damage.name":"Gooey Interior",
