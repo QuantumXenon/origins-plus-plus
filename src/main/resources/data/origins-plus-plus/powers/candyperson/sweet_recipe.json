@@ -1,40 +1,21 @@
 {
 	"type":"origins:recipe",
 	"recipe":{
-		"id":"origins-plus-plus:cookie",
-		"type":"minecraft:crafting_shapeless",
-		"ingredients":[
-			{
-				"item":"minecraft:sweet_berries"
-			},
-			{
-				"item":"minecraft:sweet_berries"
-			},
-			{
-				"item":"minecraft:sweet_berries"
-			},
-			{
-				"item":"minecraft:sweet_berries"
-			},
-			{
-				"item":"minecraft:sweet_berries"
-			},
-			{
-				"item":"minecraft:sweet_berries"
-			},
-			{
-				"item":"minecraft:sweet_berries"
-			},
-			{
-				"item":"minecraft:sweet_berries"
-			},
-			{
+		"id":"origins-plus-plus:sugar",
+		"type":"minecraft:crafting_shaped",
+		"pattern":[
+			"###",
+			"###",
+			"###"
+		],
+		"key":{
+			"#":{
 				"item":"minecraft:sweet_berries"
 			}
-		],
+		},
 		"result":{
 			"item":"minecraft:sugar",
-			"count":9
+			"count": 9
 		}
 	}
 }

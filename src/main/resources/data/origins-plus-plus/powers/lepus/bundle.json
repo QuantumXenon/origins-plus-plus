@@ -9,11 +9,11 @@
 			"###"
 		],
 		"key":{
-			"S":{
-				"item":"minecraft:string"
-			},
 			"#":{
 				"item":"minecraft:rabbit_hide"
+			},
+			"S":{
+				"item":"minecraft:string"
 			}
 		},
 		"result":{

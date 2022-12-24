@@ -1,7 +1,7 @@
 {
 	"type":"origins:recipe",
 	"recipe":{
-		"id":"origins-plus-plus:wool",
+		"id":"origins-plus-plus:white_wool",
 		"type":"minecraft:crafting_shapeless",
 		"ingredients":[
 			{

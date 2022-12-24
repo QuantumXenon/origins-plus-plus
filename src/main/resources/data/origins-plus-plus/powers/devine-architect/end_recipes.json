@@ -133,7 +133,7 @@
 		"type":"origins:recipe",
 		"recipe":{
 			"type":"minecraft:crafting_shaped",
-			"id":"origins-plus-plus:stone_axe_L",
+			"id":"origins-plus-plus:stone_axe_l",
 			"pattern":[
 				"## ",
 				"#S ",
@@ -156,7 +156,7 @@
 		"type":"origins:recipe",
 		"recipe":{
 			"type":"minecraft:crafting_shaped",
-			"id":"origins-plus-plus:stone_axe_R",
+			"id":"origins-plus-plus:stone_axe_r",
 			"pattern":[
 				" ##",
 				" S#",
@@ -202,7 +202,7 @@
 		"type":"origins:recipe",
 		"recipe":{
 			"type":"minecraft:crafting_shaped",
-			"id":"origins-plus-plus:stone_hoe_L",
+			"id":"origins-plus-plus:stone_hoe_l",
 			"pattern":[
 				"## ",
 				" S ",
@@ -225,7 +225,7 @@
 		"type":"origins:recipe",
 		"recipe":{
 			"type":"minecraft:crafting_shaped",
-			"id":"origins-plus-plus:stone_hoe_R",
+			"id":"origins-plus-plus:stone_hoe_r",
 			"pattern":[
 				" ##",
 				" S ",

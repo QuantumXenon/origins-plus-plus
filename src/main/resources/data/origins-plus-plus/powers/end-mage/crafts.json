@@ -3,7 +3,7 @@
 	"type":"origins:recipe",
 	"recipe":{
 		"type":"minecraft:crafting_shapeless",
-		"id":"origins-plus-plus:mana_potion",
+		"id":"origins-plus-plus:mana_potion_2",
 		"ingredients":[
 			{
 				"item":"minecraft:oak_sapling"
