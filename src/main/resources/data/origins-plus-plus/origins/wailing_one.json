@@ -1,6 +1,7 @@
 {
 	"powers":[
 		"origins:ender_particles",
+		"origins:burn_in_daylight",
 		"origins:water_vulnerability",
 		"origins-plus-plus:wailing-one/as_soft_as_a_wisp",
 		"origins-plus-plus:wailing-one/deathly_diet_health_gain_on_hit",
@@ -10,7 +11,6 @@
 		"origins-plus-plus:wailing-one/ghost",
 		"origins-plus-plus:wailing-one/particles",
 		"origins-plus-plus:wailing-one/phase",
-		"origins-plus-plus:wailing-one/photoallergic",
 		"origins-plus-plus:wailing-one/pure_steel_no_gold",
 		"origins-plus-plus:wailing-one/pure_steel_no_iron",
 		"origins-plus-plus:wailing-one/righteous_light_smite_damage",

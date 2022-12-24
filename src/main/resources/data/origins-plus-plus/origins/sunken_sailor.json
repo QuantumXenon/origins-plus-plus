@@ -1,7 +1,7 @@
 {
 	"powers":[
 		"origins:aqua_affinity",
-		"origins-plus-plus:sunken-sailor/burn_in_daylight",
+		"origins:burn_in_daylight",
 		"origins-plus-plus:sunken-sailor/ignore_water",
 		"origins-plus-plus:sunken-sailor/shipwreck_spawn",
 		"origins-plus-plus:sunken-sailor/skin_tone",
