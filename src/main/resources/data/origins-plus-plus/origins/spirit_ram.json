@@ -1,10 +1,10 @@
 {
 	"powers":[
+		"origins:water_vulnerability",
 		"origins-plus-plus:spirit-ram/color",
 		"origins-plus-plus:spirit-ram/hearts",
 		"origins-plus-plus:spirit-ram/high_sleep",
 		"origins-plus-plus:spirit-ram/horn_pockets",
-		"origins-plus-plus:spirit-ram/hydrophobic",
 		"origins-plus-plus:spirit-ram/mist_protection",
 		"origins-plus-plus:spirit-ram/mist_protection_trigger",
 		"origins-plus-plus:spirit-ram/no_water",

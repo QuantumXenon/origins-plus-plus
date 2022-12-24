@@ -1,7 +1,7 @@
 {
 	"powers":[
+		"origins:water_vulnerability",
 		"origins:elytra",
-		"origins-plus-plus:lost-draconian/hydrophobia",
 		"origins-plus-plus:lost-draconian/launch_into_air",
 		"origins-plus-plus:lost-draconian/passive",
 		"origins-plus-plus:lost-draconian/runt",

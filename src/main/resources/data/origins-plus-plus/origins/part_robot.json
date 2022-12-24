@@ -1,10 +1,10 @@
 {
 	"powers":[
+		"origins:water_vulnerability",
 		"origins-plus-plus:part-robot/already_iron",
 		"origins-plus-plus:part-robot/boiling",
 		"origins-plus-plus:part-robot/effect_immune",
 		"origins-plus-plus:part-robot/heavy",
-		"origins-plus-plus:part-robot/hydrophobia",
 		"origins-plus-plus:part-robot/laser",
 		"origins-plus-plus:part-robot/no_regeneration",
 		"origins-plus-plus:part-robot/overheat",

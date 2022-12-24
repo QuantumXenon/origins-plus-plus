@@ -1,11 +1,11 @@
 {
 	"powers":[
+		"origins:water_vulnerability",
 		"origins:carnivore",
 		"origins:fragile",
 		"origins-plus-plus:ice-porcupine/cold_adapted_cold_biomes",
 		"origins-plus-plus:ice-porcupine/cold_adapted_hot_biomes",
 		"origins-plus-plus:ice-porcupine/cold_aura",
-		"origins-plus-plus:ice-porcupine/hydrophobic",
 		"origins-plus-plus:ice-porcupine/ice_body_fire_damage",
 		"origins-plus-plus:ice-porcupine/ice_body_hearts",
 		"origins-plus-plus:ice-porcupine/ice_claws",

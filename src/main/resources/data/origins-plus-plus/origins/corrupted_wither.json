@@ -1,8 +1,8 @@
 {
 	"powers":[
+		"origins:water_vulnerability",
 		"origins:no_shield",
 		"origins-plus-plus:corrupted-wither/hunger",
-		"origins-plus-plus:corrupted-wither/hydrophobia",
 		"origins-plus-plus:corrupted-wither/skirmish",
 		"origins-plus-plus:corrupted-wither/warp",
 		"origins-plus-plus:corrupted-wither/wieldy"

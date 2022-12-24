@@ -1,6 +1,7 @@
 {
 	"powers":[
 		"origins:no_shield",
+		"origins:water_vulnerability",
 		"origins-plus-plus:technomancer/blockade",
 		"origins-plus-plus:technomancer/grappling_hook",
 		"origins-plus-plus:technomancer/healing_aura",
@@ -9,8 +10,7 @@
 		"origins-plus-plus:technomancer/nanite_wall_toggle",
 		"origins-plus-plus:technomancer/summon_items",
 		"origins-plus-plus:technomancer/tech_mana",
-		"origins-plus-plus:technomancer/technomancers_curse",
-		"origins-plus-plus:technomancer/vulnerable_to_water"
+		"origins-plus-plus:technomancer/technomancers_curse"
 	],
 	"icon":"minecraft:redstone",
 	"impact":3

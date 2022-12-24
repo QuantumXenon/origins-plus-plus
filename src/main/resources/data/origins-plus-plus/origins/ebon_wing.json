@@ -1,5 +1,6 @@
 {
 	"powers":[
+		"origins:water_vulnerability",
 		"origins:carnivore",
 		"origins:fall_immunity",
 		"origins:more_exhaustion",
@@ -9,7 +10,6 @@
 		"origins-plus-plus:ebon-wing/dodge",
 		"origins-plus-plus:ebon-wing/ebon_effects",
 		"origins-plus-plus:ebon-wing/fly",
-		"origins-plus-plus:ebon-wing/hydrophobic",
 		"origins-plus-plus:ebon-wing/last_resort",
 		"origins-plus-plus:ebon-wing/last_resort_cooldown",
 		"origins-plus-plus:ebon-wing/nether_spawn",

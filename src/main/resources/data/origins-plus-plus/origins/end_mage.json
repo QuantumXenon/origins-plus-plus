@@ -1,5 +1,6 @@
 {
 	"powers":[
+		"origins:water_vulnerability",
 		"origins:pumpkin_hate",
 		"origins-plus-plus:end-mage/book",
 		"origins-plus-plus:end-mage/craft",
@@ -21,7 +22,6 @@
 		"origins-plus-plus:end-mage/secondary",
 		"origins-plus-plus:end-mage/supermanapotion",
 		"origins-plus-plus:end-mage/tpwaypoint",
-		"origins-plus-plus:end-mage/water_damage",
 		"origins-plus-plus:end-mage/waypoint"
 	],
 	"icon":"minecraft:end_crystal",
