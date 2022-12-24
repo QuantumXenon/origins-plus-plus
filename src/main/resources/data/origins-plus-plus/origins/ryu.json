@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:more_exhaustion",
 		"origins:carnivore",
 		"origins-plus-plus:ryu/all_knowing",
@@ -15,6 +15,6 @@
 		"origins-plus-plus:ryu/sparkly",
 		"origins-plus-plus:ryu/winged"
 	],
-	"icon": "minecraft:stick",
-	"impact": 3
+	"icon":"minecraft:stick",
+	"impact":3
 }

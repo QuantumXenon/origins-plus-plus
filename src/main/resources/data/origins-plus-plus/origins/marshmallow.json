@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:marshmallow/change_resource",
 		"origins-plus-plus:marshmallow/crispy_level_1",
 		"origins-plus-plus:marshmallow/crispy_level_2",
@@ -10,6 +10,6 @@
 		"origins-plus-plus:marshmallow/sink_in_water",
 		"origins-plus-plus:marshmallow/tiny"
 	],
-	"icon": "minecraft:quartz_block",
-	"impact": 2
+	"icon":"minecraft:quartz_block",
+	"impact":2
 }

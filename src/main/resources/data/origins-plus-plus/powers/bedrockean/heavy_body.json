@@ -1,7 +1,6 @@
 {
 	"type":"origins:modify_jump",
 	"modifier":{
-		"name":"Heavy Body jump force penalty",
 		"value":-0.05,
 		"operation":"addition"
 	}

@@ -13,8 +13,6 @@
 			{
 				"type":"origins:raycast",
 				"distance":32,
-				"block":true,
-				"entity":true,
 				"shape_type":"outline",
 				"fluid_handling":"none",
 				"bientity_action":{

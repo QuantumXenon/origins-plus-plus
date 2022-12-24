@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:carnivore",
 		"origins:damage_from_snowballs",
 		"origins:fire_immunity",
@@ -17,6 +17,6 @@
 		"origins-plus-plus:volcanic-dragon/weakness_in_cold",
 		"origins-plus-plus:volcanic-dragon/wings"
 	],
-	"icon": "minecraft:lava_bucket",
-	"impact": 3
+	"icon":"minecraft:lava_bucket",
+	"impact":3
 }

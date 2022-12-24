@@ -202,8 +202,7 @@
 			"type":"origins:and",
 			"conditions":[
 				{
-					"type":"origins:sneaking",
-					"inverted":false
+					"type":"origins:sneaking"
 				},
 				{
 					"type":"origins:equipped_item",

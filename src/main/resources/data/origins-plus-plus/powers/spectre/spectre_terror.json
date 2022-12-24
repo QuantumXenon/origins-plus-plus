@@ -4,7 +4,6 @@
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:add_velocity",
-			"x":0.0,
 			"y":0.5,
 			"z":0.5,
 			"space":"local",

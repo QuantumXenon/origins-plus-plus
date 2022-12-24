@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:mothling/boost",
 		"origins-plus-plus:mothling/flight",
 		"origins-plus-plus:mothling/hide_diet",
@@ -12,6 +12,6 @@
 		"origins-plus-plus:mothling/weight",
 		"origins-plus-plus:mothling/zapper"
 	],
-	"icon": "minecraft:rabbit_hide",
-	"impact": 3
+	"icon":"minecraft:rabbit_hide",
+	"impact":3
 }

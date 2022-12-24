@@ -4,7 +4,7 @@
 		"type":"origins:damage",
 		"amount":3,
 		"source":{
-			"name":"minecraft:player"
+			"name":"player"
 		}
 	},
 	"cooldown":5,

@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:aqua_affinity",
 		"origins-plus-plus:frog/burn",
 		"origins-plus-plus:frog/dash",
@@ -11,6 +11,6 @@
 		"origins-plus-plus:frog/swim",
 		"origins-plus-plus:frog/water_breathing"
 	],
-	"icon": "minecraft:lily_pad",
-	"impact": 3
+	"icon":"minecraft:lily_pad",
+	"impact":3
 }

@@ -14,6 +14,5 @@
 		"type":"origins:execute_command",
 		"command":"scale set pehkui:base 1.3 @s",
 		"permission_level":4
-	},
-	"execute_chosen_when_orb":true
+	}
 }

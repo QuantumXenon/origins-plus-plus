@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:ender_particles",
 		"origins-plus-plus:wailing-one/as_soft_as_a_wisp",
 		"origins-plus-plus:wailing-one/deathly_diet_health_gain_on_hit",
@@ -22,5 +22,5 @@
 		"origins-plus-plus:wailing-one/translucent",
 		"origins-plus-plus:wailing-one/wail"
 	],
-	"icon": "minecraft:ghast_tear"
+	"icon":"minecraft:ghast_tear"
 }

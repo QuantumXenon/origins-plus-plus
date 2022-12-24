@@ -20,12 +20,12 @@
 	},
 	"health":{
 		"type":"origins:conditioned_attribute",
-		"update_health":true,
 		"modifier":{
 			"attribute":"minecraft:generic.max_health",
 			"operation":"addition",
 			"value":-4
 		},
+		"update_health":true,
 		"condition":{
 			"type":"origins:resource",
 			"resource":"origins-plus-plus:marshmallow/resource",

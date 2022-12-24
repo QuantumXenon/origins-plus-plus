@@ -1,11 +1,11 @@
 {
-	"powers": [
+	"powers":[
 		"origins:nether_spawn",
 		"origins-plus-plus:half-wither/exhaust",
 		"origins-plus-plus:half-wither/immunity",
 		"origins-plus-plus:half-wither/soul_feed",
 		"origins-plus-plus:half-wither/wither_skull"
 	],
-	"icon": "minecraft:wither_skeleton_skull",
-	"impact": 3
+	"icon":"minecraft:wither_skeleton_skull",
+	"impact":3
 }

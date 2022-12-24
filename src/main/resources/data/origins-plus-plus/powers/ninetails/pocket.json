@@ -1,7 +1,6 @@
 {
-    "type":"origins:inventory",
-    "name":"Pocket",
-    "drop_on_death":false,
-    "size":9,
-    "key":"key.origins.secondary_active"
+	"type":"origins:inventory",
+	"drop_on_death":false,
+	"size":9,
+	"key":"key.origins.secondary_active"
 }

@@ -24,9 +24,7 @@
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:add_velocity",
-			"x":0.0,
 			"y":2.0,
-			"z":0.0,
 			"set":true
 		},
 		"cooldown":40,

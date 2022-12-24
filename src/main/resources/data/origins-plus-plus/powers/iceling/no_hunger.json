@@ -1,9 +1,8 @@
 {
- "type":"origins:modify_exhaustion",
- "modifier":{
-  "name":"Origin modifier",
-  "value":-0.75,
-  "operation":"multiply_base"
- }
+	"type":"origins:modify_exhaustion",
+	"modifier":{
+		"value":-0.75,
+		"operation":"multiply_base"
+	}
 }
   

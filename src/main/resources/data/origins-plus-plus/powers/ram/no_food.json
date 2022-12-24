@@ -6,7 +6,7 @@
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"tag":"origins-plus-plus:edible"
+					"tag":"origins-plus-plus:edible_plants"
 				},
 				"inverted":true
 			},

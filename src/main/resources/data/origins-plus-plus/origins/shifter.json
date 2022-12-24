@@ -1,8 +1,7 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:shifter/shift_bar",
 		"origins-plus-plus:shifter/no_elytra",
-		
 		"origins-plus-plus:shifter/shift_avian",
 		"origins-plus-plus:shifter/avian/tailwind",
 		"origins-plus-plus:shifter/avian/chicken_health",
@@ -10,7 +9,6 @@
 		"origins-plus-plus:shifter/avian/slow_falling",
 		"origins-plus-plus:shifter/avian/fresh_air",
 		"origins-plus-plus:shifter/avian/vegetarian",
-
 		"origins-plus-plus:shifter/shift_arachnid",
 		"origins-plus-plus:shifter/shift_arachnid2",
 		"origins-plus-plus:shifter/arachnid/climbing",
@@ -20,7 +18,6 @@
 		"origins-plus-plus:shifter/arachnid/spider_health",
 		"origins-plus-plus:shifter/arachnid/bane",
 		"origins-plus-plus:shifter/arachnid/carnivore",
-
 		"origins-plus-plus:shifter/shift_elytrian",
 		"origins-plus-plus:shifter/elytrian/elytra_size",
 		"origins-plus-plus:shifter/elytrian/winged",
@@ -32,7 +29,6 @@
 		"origins-plus-plus:shifter/elytrian/take_more_damage",
 		"origins-plus-plus:shifter/elytrian/claustrophobia",
 		"origins-plus-plus:shifter/elytrian/fall_damage",
-
 		"origins-plus-plus:shifter/shift_shulk",
 		"origins-plus-plus:shifter/shulk/armor",
 		"origins-plus-plus:shifter/shulk/more_dmg",
@@ -41,7 +37,6 @@
 		"origins-plus-plus:shifter/shulk/shulk_colour",
 		"origins-plus-plus:shifter/shulk/eat",
 		"origins-plus-plus:shifter/shulk/no_shield",
-
 		"origins-plus-plus:shifter/shift_feline",
 		"origins-plus-plus:shifter/shift_feline2",
 		"origins-plus-plus:shifter/feline/no_fall_damage",
@@ -51,7 +46,6 @@
 		"origins-plus-plus:shifter/feline/cat_size",
 		"origins-plus-plus:shifter/feline/weak_arms",
 		"origins-plus-plus:shifter/feline/mine_slower",
-
 		"origins-plus-plus:shifter/shift_enderian",
 		"origins-plus-plus:shifter/enderian/pearl",
 		"origins-plus-plus:shifter/enderian/reach",
@@ -60,7 +54,6 @@
 		"origins-plus-plus:shifter/enderian/endermen_size",
 		"origins-plus-plus:shifter/enderian/home",
 		"origins-plus-plus:shifter/enderian/water_ender",
-
 		"origins-plus-plus:shifter/shift_merling",
 		"origins-plus-plus:shifter/shift_merling2",
 		"origins-plus-plus:shifter/merling/see_water",
@@ -72,7 +65,6 @@
 		"origins-plus-plus:shifter/merling/impaling",
 		"origins-plus-plus:shifter/merling/gills",
 		"origins-plus-plus:shifter/merling/weak_lungs",
-
 		"origins-plus-plus:shifter/shift_blazeborn",
 		"origins-plus-plus:shifter/blazeborn/fire_immune",
 		"origins-plus-plus:shifter/blazeborn/fire_damage",
@@ -81,7 +73,6 @@
 		"origins-plus-plus:shifter/blazeborn/water_blaze",
 		"origins-plus-plus:shifter/blazeborn/blaze_size",
 		"origins-plus-plus:shifter/blazeborn/blaze_colour",
-
 		"origins-plus-plus:shifter/shift_phantom",
 		"origins-plus-plus:shifter/phantom/phasing",
 		"origins-plus-plus:shifter/phantom/phantom_size",
@@ -93,6 +84,6 @@
 		"origins-plus-plus:shifter/phantom/phase_miner",
 		"origins-plus-plus:shifter/phantom/overlay"
 	],
-	"icon": "minecraft:magenta_glazed_terracotta",
-	"impact": 3
+	"icon":"minecraft:magenta_glazed_terracotta",
+	"impact":3
 }

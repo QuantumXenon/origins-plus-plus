@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:warper/ender_chest",
 		"origins-plus-plus:warper/fall_break",
 		"origins-plus-plus:warper/food",
@@ -10,6 +10,6 @@
 		"origins-plus-plus:warper/teleport",
 		"origins-plus-plus:warper/weak"
 	],
-	"icon": "minecraft:end_portal_frame",
-	"impact": 3
+	"icon":"minecraft:end_portal_frame",
+	"impact":3
 }

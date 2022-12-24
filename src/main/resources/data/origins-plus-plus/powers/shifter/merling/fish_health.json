@@ -5,6 +5,7 @@
 		"value":-8.0,
 		"operation":"addition"
 	},
+	"update_health":true,
 	"condition":{
 		"type":"origins:resource",
 		"resource":"origins-plus-plus:shifter/shift_bar",

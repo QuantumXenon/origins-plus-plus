@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:aqua_affinity",
 		"origins-plus-plus:sunken-sailor/burn_in_daylight",
 		"origins-plus-plus:sunken-sailor/ignore_water",
@@ -9,6 +9,6 @@
 		"origins-plus-plus:sunken-sailor/water_breathing",
 		"origins-plus-plus:sunken-sailor/water_falling"
 	],
-	"icon": "minecraft:filled_map",
-	"impact": 2
+	"icon":"minecraft:filled_map",
+	"impact":2
 }

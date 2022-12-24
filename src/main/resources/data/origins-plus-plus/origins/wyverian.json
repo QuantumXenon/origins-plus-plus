@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:wyverian/carnivore",
 		"origins-plus-plus:wyverian/claws",
 		"origins-plus-plus:wyverian/night_vision",
@@ -11,7 +11,7 @@
 		"origins-plus-plus:wyverian/wind",
 		"origins-plus-plus:wyverian/wing"
 	],
-	"icon": "minecraft:ender_eye",
-	"impact": 3
+	"icon":"minecraft:ender_eye",
+	"impact":3
 }
 

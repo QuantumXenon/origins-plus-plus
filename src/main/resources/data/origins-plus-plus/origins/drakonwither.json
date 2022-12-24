@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:carnivore",
 		"origins:ender_particles",
 		"origins-plus-plus:drakonwither/dragon_wings",
@@ -8,6 +8,6 @@
 		"origins-plus-plus:drakonwither/wither_immunity",
 		"origins-plus-plus:drakonwither/wither_skull"
 	],
-	"icon": "minecraft:wither_skeleton_skull",
-	"impact": 2
+	"icon":"minecraft:wither_skeleton_skull",
+	"impact":2
 }

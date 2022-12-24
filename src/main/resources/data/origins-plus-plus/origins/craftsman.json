@@ -1,12 +1,12 @@
 {
-    "powers": [
-        "origins-plus-plus:craftsman/axe",
-        "origins-plus-plus:craftsman/crafting",
-        "origins-plus-plus:craftsman/fire",
-        "origins-plus-plus:craftsman/pillager",
-        "origins-plus-plus:craftsman/undead",
+	"powers":[
+		"origins-plus-plus:craftsman/axe",
+		"origins-plus-plus:craftsman/crafting",
+		"origins-plus-plus:craftsman/fire",
+		"origins-plus-plus:craftsman/pillager",
+		"origins-plus-plus:craftsman/undead",
 		"origins-plus-plus:craftsman/village"
-    ],
-    "icon": "minecraft:crafting_table",
-    "impact": 1
+	],
+	"icon":"minecraft:crafting_table",
+	"impact":1
 }

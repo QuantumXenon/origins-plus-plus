@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:ram/dash",
 		"origins-plus-plus:ram/energy_jump",
 		"origins-plus-plus:ram/fall",
@@ -9,6 +9,6 @@
 		"origins-plus-plus:ram/no_food_eat",
 		"origins-plus-plus:ram/ram"
 	],
-	"icon": "minecraft:white_wool",
-	"impact": 3
+	"icon":"minecraft:white_wool",
+	"impact":3
 }

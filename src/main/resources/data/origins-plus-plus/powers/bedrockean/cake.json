@@ -1,8 +1,8 @@
 {
-	"type": "origins:prevent_block_use",
-	"block_condition": {
-		"type": "origins:block",
-		"block": "minecraft:cake"
+	"type":"origins:prevent_block_use",
+	"block_condition":{
+		"type":"origins:block",
+		"block":"minecraft:cake"
 	},
-	"hidden": true
+	"hidden":true
 }

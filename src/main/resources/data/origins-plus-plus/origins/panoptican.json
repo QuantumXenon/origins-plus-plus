@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:extra_reach",
 		"origins-plus-plus:panoptican/air_speed_boost",
 		"origins-plus-plus:panoptican/bystander",
@@ -12,6 +12,6 @@
 		"origins-plus-plus:panoptican/raycast",
 		"origins-plus-plus:panoptican/toggle"
 	],
-	"icon": "minecraft:ender_eye",
-	"impact": 3
+	"icon":"minecraft:ender_eye",
+	"impact":3
 }

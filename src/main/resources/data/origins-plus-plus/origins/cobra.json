@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:carnivore",
 		"origins:nine_lives",
 		"origins:no_shield",
@@ -14,6 +14,6 @@
 		"origins-plus-plus:cobra/strength_in_day",
 		"origins-plus-plus:cobra/strength_in_nether"
 	],
-	"icon": "minecraft:scute",
-	"impact": 1
+	"icon":"minecraft:scute",
+	"impact":1
 }

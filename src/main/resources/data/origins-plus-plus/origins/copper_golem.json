@@ -1,15 +1,15 @@
 {
-    "powers": [
-        "origins-plus-plus:copper-golem/copper_colour",
-        "origins-plus-plus:copper-golem/defense",
-        "origins-plus-plus:copper-golem/extra_health",
-        "origins-plus-plus:copper-golem/immune_to_fall_damage",
-        "origins-plus-plus:copper-golem/no_food",
-        "origins-plus-plus:copper-golem/oxidation_action",
-        "origins-plus-plus:copper-golem/oxidation_resource",
-        "origins-plus-plus:copper-golem/small",
-        "origins-plus-plus:copper-golem/strong"
-    ],
-    "icon": "minecraft:copper_ingot",
-    "impact": 3
+	"powers":[
+		"origins-plus-plus:copper-golem/copper_colour",
+		"origins-plus-plus:copper-golem/defense",
+		"origins-plus-plus:copper-golem/extra_health",
+		"origins-plus-plus:copper-golem/immune_to_fall_damage",
+		"origins-plus-plus:copper-golem/no_food",
+		"origins-plus-plus:copper-golem/oxidation_action",
+		"origins-plus-plus:copper-golem/oxidation_resource",
+		"origins-plus-plus:copper-golem/small",
+		"origins-plus-plus:copper-golem/strong"
+	],
+	"icon":"minecraft:copper_ingot",
+	"impact":3
 }

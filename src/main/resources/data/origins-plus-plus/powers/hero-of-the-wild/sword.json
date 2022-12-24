@@ -7,6 +7,5 @@
 	"entity_action_respawned":{
 		"type":"origins:execute_command",
 		"command":"give @s minecraft:iron_sword{display:{Name:'[{\"text\":\"Master Sword\"}]'},Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:15},{id:sharpness,lvl:3},{id:vanishing_curse,lvl:1}]}"
-	},
-	"execute_chosen_when_orb":true
+	}
 }

@@ -1,6 +1,5 @@
 {
 	"type":"origins:action_on_callback",
-	"execute_chosen_when_orb":true,
 	"hidden":true,
 	"entity_action_chosen":{
 		"type":"origins:execute_command",

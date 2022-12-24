@@ -19,7 +19,6 @@
 		}
 	},
 	"modifier":{
-		"name":"Weak to cursed items",
 		"operation":"addition",
 		"value":5
 	}

@@ -6,7 +6,8 @@
 			"attribute":"minecraft:generic.max_health",
 			"value":-4,
 			"operation":"addition"
-		}
+		},
+		"update_health":true
 	},
 	"nearminions":{
 		"type":"origins:conditioned_attribute",
@@ -15,6 +16,7 @@
 			"value":-8,
 			"operation":"addition"
 		},
+		"update_health":true,
 		"condition":{
 			"type":"origins:command",
 			"command":"execute if entity @e[tag=lnc_Minion,distance=..16]",

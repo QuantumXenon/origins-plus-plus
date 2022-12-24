@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:light-mage/accelerate",
 		"origins-plus-plus:light-mage/ally",
 		"origins-plus-plus:light-mage/army",
@@ -32,6 +32,6 @@
 		"origins-plus-plus:light-mage/super_mana_potion",
 		"origins-plus-plus:light-mage/team"
 	],
-	"icon": "minecraft:white_wool",
-	"impact": 3
+	"icon":"minecraft:white_wool",
+	"impact":3
 }

@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:devine-architect/charge",
 		"origins-plus-plus:devine-architect/distrust",
 		"origins-plus-plus:devine-architect/end_recipes",
@@ -13,6 +13,6 @@
 		"origins-plus-plus:devine-architect/universal_blast",
 		"origins-plus-plus:devine-architect/unnatural_regeneration"
 	],
-	"icon": "minecraft:end_crystal",
-	"impact": 3
+	"icon":"minecraft:end_crystal",
+	"impact":3
 }

@@ -1,5 +1,5 @@
- {
-	"powers": [
+{
+	"powers":[
 		"origins:climbing",
 		"origins:fragile",
 		"origins:more_kinetic_damage",
@@ -21,6 +21,6 @@
 		"origins-plus-plus:iceling/speed",
 		"origins-plus-plus:iceling/water"
 	],
-	"icon": "minecraft:ice",
-	"impact": 3
+	"icon":"minecraft:ice",
+	"impact":3
 }

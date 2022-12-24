@@ -1,8 +1,7 @@
 {
-  "type":"origins:modify_swim_speed",
-  "modifier":{
-    "name":"Additional swim speed",
-    "value":2,
-    "operation":"multiply_base"
-  }
+	"type":"origins:modify_swim_speed",
+	"modifier":{
+		"value":2,
+		"operation":"multiply_base"
+	}
 }

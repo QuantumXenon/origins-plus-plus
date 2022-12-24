@@ -15,8 +15,6 @@
 				{
 					"type":"origins:raycast",
 					"distance":500,
-					"block":true,
-					"entity":true,
 					"shape_type":"collider",
 					"fluid_handling":"none",
 					"bientity_action":{

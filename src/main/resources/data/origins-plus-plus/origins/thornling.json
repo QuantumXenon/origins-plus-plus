@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:thornling/bag",
 		"origins-plus-plus:thornling/conductor",
 		"origins-plus-plus:thornling/decay",
@@ -8,6 +8,6 @@
 		"origins-plus-plus:thornling/sounds",
 		"origins-plus-plus:thornling/thorns"
 	],
-	"icon": "minecraft:medium_amethyst_bud",
-	"impact": 3
+	"icon":"minecraft:medium_amethyst_bud",
+	"impact":3
 }

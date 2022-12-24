@@ -1,6 +1,6 @@
 {
-    "powers": [
-        "origins-plus-plus:manipulator/antigravity_arrow",
+	"powers":[
+		"origins-plus-plus:manipulator/antigravity_arrow",
 		"origins-plus-plus:manipulator/cycle",
 		"origins-plus-plus:manipulator/dirt_hut",
 		"origins-plus-plus:manipulator/enderdragon_fireball",
@@ -12,7 +12,7 @@
 		"origins-plus-plus:manipulator/no_weapons",
 		"origins-plus-plus:manipulator/resistance_buff",
 		"origins-plus-plus:manipulator/spectral_energy_shot"
-    ],
-    "icon": "minecraft:end_crystal",
-    "impact": 3
+	],
+	"icon":"minecraft:end_crystal",
+	"impact":3
 }

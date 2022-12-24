@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:wandering-spirit/damage_glitch",
 		"origins-plus-plus:wandering-spirit/fire",
 		"origins-plus-plus:wandering-spirit/glasses",
@@ -14,6 +14,6 @@
 		"origins-plus-plus:wandering-spirit/size_resource",
 		"origins-plus-plus:wandering-spirit/the_darkness"
 	],
-	"icon": "minecraft:crimson_roots",
-	"impact": 3
+	"icon":"minecraft:crimson_roots",
+	"impact":3
 }

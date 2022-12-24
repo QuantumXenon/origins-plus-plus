@@ -17,6 +17,7 @@
 			"value":8
 		}
 	],
+	"update_health":true,
 	"condition":{
 		"type":"origins:brightness",
 		"comparison":"<=",

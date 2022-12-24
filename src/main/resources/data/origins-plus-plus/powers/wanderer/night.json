@@ -15,7 +15,7 @@
 			"duration":100,
 			"amplifier":1,
 			"show_particles":false,
-			"show_icon":true
+			"show_icon":false
 		},
 		"condition":{
 			"type":"origins:and",
@@ -49,7 +49,7 @@
 			"duration":100,
 			"amplifier":1,
 			"show_particles":false,
-			"show_icon":true
+			"show_icon":false
 		},
 		"condition":{
 			"type":"origins:and",

@@ -3,7 +3,7 @@
 	"item_condition":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"tag":"origins-plus-plus:golden_carrot"
+			"item":"minecraft:golden_carrot"
 		}
 	},
 	"entity_action":{

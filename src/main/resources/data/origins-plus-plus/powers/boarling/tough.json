@@ -17,8 +17,6 @@
 		}
 	},
 	"weight":{
-		"name":"Heavy",
-		"description":"less knockback",
 		"type":"origins:attribute",
 		"modifier":{
 			"attribute":"minecraft:generic.knockback_resistance",

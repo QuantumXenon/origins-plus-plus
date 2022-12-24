@@ -10,14 +10,12 @@
 		{
 			"attribute":"generic.attack_damage",
 			"operation":"addition",
-			"value":4,
-			"name":"ATK Damage Increase"
+			"value":4
 		},
 		{
 			"attribute":"generic.max_health",
 			"operation":"addition",
-			"value":-12,
-			"name":"HP Decrease"
+			"value":-12
 		}
 	],
 	"update_health":true

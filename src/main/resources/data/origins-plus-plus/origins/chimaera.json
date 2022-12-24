@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:climbing",
 		"origins-plus-plus:chimaera/aggression",
 		"origins-plus-plus:chimaera/anoxic",
@@ -11,6 +11,6 @@
 		"origins-plus-plus:chimaera/unstable",
 		"origins-plus-plus:chimaera/xenite_implants"
 	],
-	"icon": "minecraft:budding_amethyst",
-	"impact": 3
+	"icon":"minecraft:budding_amethyst",
+	"impact":3
 }

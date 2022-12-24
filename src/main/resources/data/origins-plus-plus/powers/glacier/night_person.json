@@ -1,13 +1,12 @@
 {
-    "type":"origins:conditioned_attribute",
-    "modifier":{
-        "attribute":"minecraft:generic.attack_damage",
-        "operation":"addition",
-        "value":2,
-        "name":"Increased_attack_damage"
-    },
-    "condition":{
-        "type":"origins:daytime",
-        "inverted":true
-    }
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.attack_damage",
+		"operation":"addition",
+		"value":2
+	},
+	"condition":{
+		"type":"origins:daytime",
+		"inverted":true
+	}
 }

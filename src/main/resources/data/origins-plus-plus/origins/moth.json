@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:moth/climbing",
 		"origins-plus-plus:moth/compound_vision",
 		"origins-plus-plus:moth/easy_evasion",
@@ -16,6 +16,6 @@
 		"origins-plus-plus:moth/soul_torch_affinity",
 		"origins-plus-plus:moth/wings"
 	],
-	"icon": "minecraft:lantern",
-	"impact": 2
+	"icon":"minecraft:lantern",
+	"impact":2
 }

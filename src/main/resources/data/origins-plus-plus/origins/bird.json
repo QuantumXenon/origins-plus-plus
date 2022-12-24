@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:more_kinetic_damage",
 		"origins:no_shield",
 		"origins-plus-plus:bird/almost_no_armor",
@@ -17,6 +17,6 @@
 		"origins-plus-plus:bird/tweet",
 		"origins-plus-plus:bird/wings"
 	],
-	"icon": "minecraft:chicken",
-	"impact": 3
+	"icon":"minecraft:chicken",
+	"impact":3
 }

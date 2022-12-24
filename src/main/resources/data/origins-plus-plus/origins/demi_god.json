@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:demi-god/cake",
 		"origins-plus-plus:demi-god/cursed",
 		"origins-plus-plus:demi-god/fire",
@@ -21,6 +21,6 @@
 		"origins-plus-plus:demi-god/raw_salmon",
 		"origins-plus-plus:demi-god/raw_tropicalfish"
 	],
-	"icon": "minecraft:glowstone",
-	"impact": 2
+	"icon":"minecraft:glowstone",
+	"impact":2
 }

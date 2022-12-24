@@ -13,8 +13,6 @@
 			{
 				"type":"origins:raycast",
 				"distance":25,
-				"block":true,
-				"entity":true,
 				"shape_type":"outline",
 				"fluid_handling":"none",
 				"command_along_ray":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 0.3 1 0.3 0 500",

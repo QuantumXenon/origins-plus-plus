@@ -1,10 +1,10 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:earth-spirit/ignore_water",
 		"origins-plus-plus:earth-spirit/rock_skin",
 		"origins-plus-plus:earth-spirit/stone_power",
 		"origins-plus-plus:earth-spirit/switch_origin"
 	],
-	"icon": "minecraft:stone",
-	"impact": 3
+	"icon":"minecraft:stone",
+	"impact":3
 }

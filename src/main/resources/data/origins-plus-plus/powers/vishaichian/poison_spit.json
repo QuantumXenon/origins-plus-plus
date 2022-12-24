@@ -1,6 +1,4 @@
 {
-	"name":"Poison Spit",
-	"description":"Spit a poison at your enemies. [Primary]",
 	"type":"origins:active_self",
 	"entity_action":{
 		"type":"origins:execute_command",

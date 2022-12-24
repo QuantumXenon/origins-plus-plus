@@ -6,10 +6,7 @@
 			"type":"origins:add_velocity",
 			"y":-1.0
 		},
-		"key":{
-			"key":"key.sneak",
-			"continuous":true
-		}
+		"key":"key.sneak"
 	},
 	"quake":{
 		"type":"origins:action_on_land",

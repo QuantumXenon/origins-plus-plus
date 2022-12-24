@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:pumpkin_hate",
 		"origins-plus-plus:end-mage/book",
 		"origins-plus-plus:end-mage/craft",
@@ -24,6 +24,6 @@
 		"origins-plus-plus:end-mage/water_damage",
 		"origins-plus-plus:end-mage/waypoint"
 	],
-	"icon": "minecraft:end_crystal",
-	"impact": 3
+	"icon":"minecraft:end_crystal",
+	"impact":3
 }

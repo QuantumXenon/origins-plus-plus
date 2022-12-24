@@ -9,6 +9,5 @@
 		"type":"origins:execute_command",
 		"command":"execute as @s run function origins-plus-plus:technomancer/technomancer_items_give",
 		"permission_level":4
-	},
-	"execute_chosen_when_orb":true
+	}
 }

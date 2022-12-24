@@ -1,6 +1,5 @@
 {
 	"type":"origins:action_on_callback",
-	"execute_chosen_when_orb":true,
 	"entity_action_chosen":{
 		"type":"origins:execute_command",
 		"command":"scale set pehkui:reach 1.1875 @s",

@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:no_shield",
 		"origins-plus-plus:felvaxian/carnivore",
 		"origins-plus-plus:felvaxian/fall_immunity",
@@ -13,6 +13,6 @@
 		"origins-plus-plus:felvaxian/unholy_aura",
 		"origins-plus-plus:felvaxian/weaker_heart"
 	],
-	"icon": "minecraft:black_dye",
-	"impact": 2
+	"icon":"minecraft:black_dye",
+	"impact":2
 }

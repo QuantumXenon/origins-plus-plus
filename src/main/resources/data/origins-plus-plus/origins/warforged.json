@@ -1,10 +1,10 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:warforged/robotic_body",
 		"origins-plus-plus:warforged/rust",
 		"origins-plus-plus:warforged/scotopic_vision",
 		"origins-plus-plus:warforged/weaponized_body"
 	],
-	"icon": "minecraft:iron_chestplate",
-	"impact": 3
+	"icon":"minecraft:iron_chestplate",
+	"impact":3
 }

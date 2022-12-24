@@ -1,11 +1,11 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:malfunction/callback_pursuit",
 		"origins-plus-plus:malfunction/float",
 		"origins-plus-plus:malfunction/particles",
 		"origins-plus-plus:malfunction/phase",
 		"origins-plus-plus:malfunction/random_teleport"
 	],
-	"icon": "minecraft:crying_obsidian",
-	"impact": 3
+	"icon":"minecraft:crying_obsidian",
+	"impact":3
 }

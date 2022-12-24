@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:no_shield",
 		"origins-plus-plus:illusioner/better_arrow",
 		"origins-plus-plus:illusioner/bow_apprentice",
@@ -12,14 +12,14 @@
 		"origins-plus-plus:illusioner/sword_bad",
 		"origins-plus-plus:illusioner/villager_hate"
 	],
-	"upgrades": [
+	"upgrades":[
 		{
-			"condition": "minecraft:story/enter_the_nether",
-			"origin": "origins-plus-plus:illusioner/illusioner_master",
-			"announcement": "You have unlocked your true potential ands evolved into a Master Illusioner"
+			"condition":"minecraft:story/enter_the_nether",
+			"origin":"origins-plus-plus:illusioner/illusioner_master",
+			"announcement":"You have unlocked your true potential ands evolved into a Master Illusioner"
 		}
 	],
-	"icon": "minecraft:potion",
-	"impact": 3,
-	"unchoosable": true
+	"icon":"minecraft:potion",
+	"impact":3,
+	"unchoosable":true
 }

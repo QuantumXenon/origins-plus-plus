@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:ice-porcupine/carnivorous",
 		"origins-plus-plus:ice-porcupine/cold_adapted_cold_biomes",
 		"origins-plus-plus:ice-porcupine/cold_adapted_hot_biomes",
@@ -16,6 +16,6 @@
 		"origins-plus-plus:ice-porcupine/small_size_speed",
 		"origins-plus-plus:ice-porcupine/vanish"
 	],
-	"icon": "minecraft:packed_ice",
-	"impact": 3
+	"icon":"minecraft:packed_ice",
+	"impact":3
 }

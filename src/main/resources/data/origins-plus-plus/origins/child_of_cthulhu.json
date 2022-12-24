@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:child-of-cthulhu/camouflage",
 		"origins-plus-plus:child-of-cthulhu/exhaust",
 		"origins-plus-plus:child-of-cthulhu/fire_weakness",
@@ -13,6 +13,6 @@
 		"origins-plus-plus:child-of-cthulhu/water_vision",
 		"origins-plus-plus:child-of-cthulhu/winged"
 	],
-	"icon": "minecraft:purple_glazed_terracotta",
-	"impact": 2
+	"icon":"minecraft:purple_glazed_terracotta",
+	"impact":2
 }

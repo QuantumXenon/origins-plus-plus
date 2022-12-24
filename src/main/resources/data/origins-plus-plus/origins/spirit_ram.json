@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:spirit-ram/color",
 		"origins-plus-plus:spirit-ram/hearts",
 		"origins-plus-plus:spirit-ram/high_sleep",
@@ -10,6 +10,6 @@
 		"origins-plus-plus:spirit-ram/no_water",
 		"origins-plus-plus:spirit-ram/phase"
 	],
-	"icon": "minecraft:white_wool",
-	"impact": 3
+	"icon":"minecraft:white_wool",
+	"impact":3
 }

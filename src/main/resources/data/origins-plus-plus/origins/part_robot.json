@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:part-robot/already_iron",
 		"origins-plus-plus:part-robot/boiling",
 		"origins-plus-plus:part-robot/effect_immune",
@@ -16,6 +16,6 @@
 		"origins-plus-plus:part-robot/unexhausted",
 		"origins-plus-plus:part-robot/water_breather"
 	],
-	"icon": "minecraft:iron_block",
-	"impact": 2
+	"icon":"minecraft:iron_block",
+	"impact":2
 }

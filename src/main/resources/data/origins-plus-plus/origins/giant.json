@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:giant/armor",
 		"origins-plus-plus:giant/big",
 		"origins-plus-plus:giant/bow",
@@ -18,6 +18,6 @@
 		"origins-plus-plus:giant/sturdy",
 		"origins-plus-plus:giant/swim"
 	],
-	"icon": "minecraft:leather_chestplate",
-	"impact": 3
+	"icon":"minecraft:leather_chestplate",
+	"impact":3
 }

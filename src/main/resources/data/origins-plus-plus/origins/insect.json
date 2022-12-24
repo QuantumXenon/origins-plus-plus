@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:insect/ankle_bite",
 		"origins-plus-plus:insect/climbing",
 		"origins-plus-plus:insect/fall_damage",
@@ -14,6 +14,6 @@
 		"origins-plus-plus:insect/water",
 		"origins-plus-plus:insect/water_slowness"
 	],
-	"icon": "minecraft:vine",
-	"impact": 2
+	"icon":"minecraft:vine",
+	"impact":2
 }

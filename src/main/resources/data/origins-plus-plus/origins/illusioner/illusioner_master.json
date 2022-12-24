@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:no_shield",
 		"origins-plus-plus:illusioner/better_arrow",
 		"origins-plus-plus:illusioner/better_illusion",
@@ -12,7 +12,7 @@
 		"origins-plus-plus:illusioner/sword_bad",
 		"origins-plus-plus:illusioner/villager_hate"
 	],
-	"icon": "minecraft:potion",
-	"impact": 3,
-	"unchoosable": true
+	"icon":"minecraft:potion",
+	"impact":3,
+	"unchoosable":true
 }

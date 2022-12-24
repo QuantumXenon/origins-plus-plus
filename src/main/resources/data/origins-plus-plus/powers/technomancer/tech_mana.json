@@ -145,7 +145,6 @@
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:technomancer/tech_mana_resource",
 			"change":-20000
-		},
-		"execute_chosen_when_orb":true
+		}
 	}
 }

@@ -4,5 +4,6 @@
 		"attribute":"minecraft:generic.max_health",
 		"value":20,
 		"operation":"addition"
-	}
+	},
+	"update_health":true
 }

@@ -1,13 +1,11 @@
 {
-    "name": "Gnoll",
-    "description": "You are a strong, large, carrion eater with a temper!",
-    "powers": [
-        "origins:carnivore",
+	"powers":[
+		"origins:carnivore",
 		"origins-plus-plus:gnoll/carrion_eater",
-        "origins-plus-plus:gnoll/carrion_saturation",
-        "origins-plus-plus:gnoll/large_build",
-        "origins-plus-plus:gnoll/large_health",
-        "origins-plus-plus:gnoll/night_vision",
-        "origins-plus-plus:gnoll/rage"
-    ]
+		"origins-plus-plus:gnoll/carrion_saturation",
+		"origins-plus-plus:gnoll/large_build",
+		"origins-plus-plus:gnoll/large_health",
+		"origins-plus-plus:gnoll/night_vision",
+		"origins-plus-plus:gnoll/rage"
+	]
 }

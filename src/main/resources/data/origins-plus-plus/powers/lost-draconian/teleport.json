@@ -1,6 +1,4 @@
 {
-	"name":"Teleportation",
-	"description":"The draconian race was the smaller cousins of the enderians, they both could teleport short distances",
 	"type":"origins:active_self",
 	"key":"key.origins.secondary_active",
 	"cooldown":60,

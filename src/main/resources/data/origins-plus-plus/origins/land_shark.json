@@ -1,18 +1,18 @@
 {
-    "powers": [
-        "origins:carnivore",
-        "origins:aqua_affinity",
-        "origins:like_water",
-        "origins:no_shield",
+	"powers":[
+		"origins:carnivore",
+		"origins:aqua_affinity",
+		"origins:like_water",
+		"origins:no_shield",
 		"origins-plus-plus:land-shark/fins",
-        "origins-plus-plus:land-shark/freak_of_nature",
-        "origins-plus-plus:land-shark/gill_lungs",
-        "origins-plus-plus:land-shark/greedy",
-        "origins-plus-plus:land-shark/hungry",
-        "origins-plus-plus:land-shark/lunge",
-        "origins-plus-plus:land-shark/razor_teeth",
-        "origins-plus-plus:land-shark/speedy"
-    ],
-    "icon": "minecraft:prismarine_shard",
-    "impact": 2
+		"origins-plus-plus:land-shark/freak_of_nature",
+		"origins-plus-plus:land-shark/gill_lungs",
+		"origins-plus-plus:land-shark/greedy",
+		"origins-plus-plus:land-shark/hungry",
+		"origins-plus-plus:land-shark/lunge",
+		"origins-plus-plus:land-shark/razor_teeth",
+		"origins-plus-plus:land-shark/speedy"
+	],
+	"icon":"minecraft:prismarine_shard",
+	"impact":2
 }

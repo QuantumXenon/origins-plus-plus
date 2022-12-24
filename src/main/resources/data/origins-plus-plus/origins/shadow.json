@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:shadow/cloud",
 		"origins-plus-plus:shadow/hunger",
 		"origins-plus-plus:shadow/invisibility",
@@ -8,6 +8,6 @@
 		"origins-plus-plus:shadow/sun_weakness",
 		"origins-plus-plus:shadow/weak"
 	],
-	"icon": "minecraft:black_concrete",
-	"impact": 3
+	"icon":"minecraft:black_concrete",
+	"impact":3
 }

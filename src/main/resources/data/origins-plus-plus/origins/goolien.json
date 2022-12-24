@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:goolien/absorbent",
 		"origins-plus-plus:goolien/condensing",
 		"origins-plus-plus:goolien/flammable",
@@ -12,6 +12,6 @@
 		"origins-plus-plus:goolien/sticky_grip",
 		"origins-plus-plus:goolien/stomach_body"
 	],
-	"icon": "minecraft:slime_block",
-	"impact": 3
+	"icon":"minecraft:slime_block",
+	"impact":3
 }

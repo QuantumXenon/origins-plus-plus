@@ -4,7 +4,6 @@
 		"type":"origins:on_block"
 	},
 	"modifier":{
-		"name":"Less damage while not flying",
 		"operation":"addition",
 		"value":-10
 	}

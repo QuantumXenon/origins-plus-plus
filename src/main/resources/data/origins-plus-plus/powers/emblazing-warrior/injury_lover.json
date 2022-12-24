@@ -10,7 +10,6 @@
 		}
 	},
 	"modifier":{
-		"name":"Masochism",
 		"operation":"addition",
 		"value":1
 	}

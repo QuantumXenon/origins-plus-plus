@@ -1,7 +1,6 @@
 {
 	"type":"origins:modify_damage_taken",
 	"modifier":{
-		"name":"More kinetic damage taken",
 		"value":0.5,
 		"operation":"multiply_base"
 	},

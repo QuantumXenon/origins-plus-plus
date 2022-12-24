@@ -8,7 +8,6 @@
 		}
 	},
 	"modifier":{
-		"name":"resilience",
 		"operation":"multiply_base",
 		"value":-0.125
 	}

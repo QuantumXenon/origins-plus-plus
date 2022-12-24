@@ -1,7 +1,6 @@
 {
 	"type":"origins:modify_damage_dealt",
 	"modifier":{
-		"name":"no dmg",
 		"operation":"addition",
 		"value":-0.9
 	},

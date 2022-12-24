@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:carnivore",
 		"origins:cat_vision",
 		"origins:fall_immunity",
@@ -13,6 +13,6 @@
 		"origins-plus-plus:kirin/modify_player_speed",
 		"origins-plus-plus:kirin/unrivaled_speed"
 	],
-	"icon": "minecraft:cod",
-	"impact": 3
+	"icon":"minecraft:cod",
+	"impact":3
 }

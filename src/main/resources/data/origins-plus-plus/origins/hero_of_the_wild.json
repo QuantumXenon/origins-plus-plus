@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:hero-of-the-wild/climb",
 		"origins-plus-plus:hero-of-the-wild/elytra",
 		"origins-plus-plus:hero-of-the-wild/energy_wave",
@@ -9,6 +9,6 @@
 		"origins-plus-plus:hero-of-the-wild/sink",
 		"origins-plus-plus:hero-of-the-wild/sword"
 	],
-	"icon": "minecraft:iron_sword",
-	"impact": 2
+	"icon":"minecraft:iron_sword",
+	"impact":2
 }

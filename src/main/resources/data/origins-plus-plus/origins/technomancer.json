@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:no_shield",
 		"origins-plus-plus:technomancer/blockade",
 		"origins-plus-plus:technomancer/grappling_hook",
@@ -12,6 +12,6 @@
 		"origins-plus-plus:technomancer/technomancers_curse",
 		"origins-plus-plus:technomancer/vulnerable_to_water"
 	],
-	"icon": "minecraft:redstone",
-	"impact": 3
+	"icon":"minecraft:redstone",
+	"impact":3
 }

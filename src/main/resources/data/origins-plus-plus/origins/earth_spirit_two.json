@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:more_exhaustion",
 		"origins-plus-plus:earth-spirit/back_to_stone",
 		"origins-plus-plus:earth-spirit/invisibility",
@@ -8,7 +8,7 @@
 		"origins-plus-plus:earth-spirit/spirit_effect",
 		"origins-plus-plus:earth-spirit/spirit_vision"
 	],
-	"icon": "minecraft:granite",
-	"impact": 3,
-	"unchoosable": true
+	"icon":"minecraft:granite",
+	"impact":3,
+	"unchoosable":true
 }

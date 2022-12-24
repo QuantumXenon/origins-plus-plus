@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:aqua_affinity",
 		"origins:aquatic",
 		"origins:conduit_power_on_land",
@@ -16,6 +16,6 @@
 		"origins-plus-plus:jellyfish/stinger",
 		"origins-plus-plus:jellyfish/water_vision"
 	],
-	"icon": "minecraft:gold_nugget",
-	"impact": 3
+	"icon":"minecraft:gold_nugget",
+	"impact":3
 }

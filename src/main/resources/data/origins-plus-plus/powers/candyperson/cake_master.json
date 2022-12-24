@@ -35,7 +35,5 @@
 		"result":{
 			"item":"minecraft:cake"
 		}
-	},
-	"name":"Cake Master",
-	"description":"You are able to craft a cake with 9 sugars in a crafting table"
+	}
 }

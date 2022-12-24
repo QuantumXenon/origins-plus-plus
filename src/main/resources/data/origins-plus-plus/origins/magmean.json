@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:nether_spawn",
 		"origins:water_vulnerability",
 		"origins:fire_immunity",
@@ -14,6 +14,6 @@
 		"origins-plus-plus:magmean/regeneration",
 		"origins-plus-plus:magmean/spicy_hands"
 	],
-	"icon": "minecraft:magma_cream",
-	"impact": 3
+	"icon":"minecraft:magma_cream",
+	"impact":3
 }

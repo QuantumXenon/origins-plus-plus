@@ -5,7 +5,7 @@
 		"type":"origins:damage",
 		"amount":60,
 		"source":{
-			"name":"minecraft:wither",
+			"name":"wither",
 			"bypasses_armor":true,
 			"unblockable":true
 		}

@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:zero-aizawa/acrobatics",
 		"origins-plus-plus:zero-aizawa/heliophobia",
 		"origins-plus-plus:zero-aizawa/long_arms",
@@ -10,6 +10,6 @@
 		"origins-plus-plus:zero-aizawa/teleport",
 		"origins-plus-plus:zero-aizawa/weak_stature"
 	],
-	"icon": "minecraft:black_stained_glass",
-	"impact": 2
+	"icon":"minecraft:black_stained_glass",
+	"impact":2
 }

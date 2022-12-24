@@ -6,7 +6,6 @@
 	"no_depth_strider":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"name":"Slowness in water",
 			"attribute":"minecraft:generic.movement_speed",
 			"value":-0.2,
 			"operation":"multiply_total"
@@ -20,24 +19,8 @@
 						"type":"origins:or",
 						"conditions":[
 							{
-								"type":"origins:block",
-								"block":"minecraft:water"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:kelp"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:kelp_plant"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:seagrass"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:tall_seagrass"
+								"type":"origins:in_tag",
+								"tag":"origins-plus-plus:water_blocks"
 							},
 							{
 								"type":"origins:block_state",
@@ -60,7 +43,6 @@
 	"depth_strider_1":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"name":"Slowness in water",
 			"attribute":"minecraft:generic.movement_speed",
 			"value":-0.1,
 			"operation":"multiply_total"
@@ -74,24 +56,8 @@
 						"type":"origins:or",
 						"conditions":[
 							{
-								"type":"origins:block",
-								"block":"minecraft:water"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:kelp"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:kelp_plant"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:seagrass"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:tall_seagrass"
+								"type":"origins:in_tag",
+								"tag":"origins-plus-plus:water_blocks"
 							},
 							{
 								"type":"origins:block_state",
@@ -114,7 +80,6 @@
 	"depth_strider_2":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"name":"Slowness in water",
 			"attribute":"minecraft:generic.movement_speed",
 			"value":0,
 			"operation":"multiply_total"
@@ -128,24 +93,8 @@
 						"type":"origins:or",
 						"conditions":[
 							{
-								"type":"origins:block",
-								"block":"minecraft:water"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:kelp"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:kelp_plant"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:seagrass"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:tall_seagrass"
+								"type":"origins:in_tag",
+								"tag":"origins-plus-plus:water_blocks"
 							},
 							{
 								"type":"origins:block_state",
@@ -174,24 +123,8 @@
 				"type":"origins:or",
 				"conditions":[
 					{
-						"type":"origins:block",
-						"block":"minecraft:water"
-					},
-					{
-						"type":"origins:block",
-						"block":"minecraft:kelp"
-					},
-					{
-						"type":"origins:block",
-						"block":"minecraft:kelp_plant"
-					},
-					{
-						"type":"origins:block",
-						"block":"minecraft:seagrass"
-					},
-					{
-						"type":"origins:block",
-						"block":"minecraft:tall_seagrass"
+						"type":"origins:in_tag",
+						"tag":"origins-plus-plus:water_blocks"
 					},
 					{
 						"type":"origins:block_state",

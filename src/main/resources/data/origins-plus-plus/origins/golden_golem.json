@@ -1,16 +1,14 @@
 {
-    "powers": [
-        "origins-plus-plus:golden-golem/armor_restriction",
-        "origins-plus-plus:golden-golem/extra_damage",
-        "origins-plus-plus:golden-golem/gold_color",
-        "origins-plus-plus:golden-golem/gold_resource",
-        "origins-plus-plus:golden-golem/gold_resource_extras",
-        "origins-plus-plus:golden-golem/golem_power",
-        "origins-plus-plus:golden-golem/health_resource",
-        "origins-plus-plus:golden-golem/health_resource_items",
-        "origins-plus-plus:golden-golem/slower",
-        "origins-plus-plus:golden-golem/water"
-    ],
-    "name": "Golden Golem",
-    "description": "A golem created by the illagers with gold and totems of undying."
+	"powers":[
+		"origins-plus-plus:golden-golem/armor_restriction",
+		"origins-plus-plus:golden-golem/extra_damage",
+		"origins-plus-plus:golden-golem/gold_color",
+		"origins-plus-plus:golden-golem/gold_resource",
+		"origins-plus-plus:golden-golem/gold_resource_extras",
+		"origins-plus-plus:golden-golem/golem_power",
+		"origins-plus-plus:golden-golem/health_resource",
+		"origins-plus-plus:golden-golem/health_resource_items",
+		"origins-plus-plus:golden-golem/slower",
+		"origins-plus-plus:golden-golem/water"
+	]
 }

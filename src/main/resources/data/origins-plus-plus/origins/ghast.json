@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:fire_immunity",
 		"origins:fragile",
 		"origins:nether_spawn",
@@ -15,6 +15,6 @@
 		"origins-plus-plus:ghast/red_nether_phasing",
 		"origins-plus-plus:ghast/tall"
 	],
-	"icon": "minecraft:fire_charge",
-	"impact": 3
+	"icon":"minecraft:fire_charge",
+	"impact":3
 }

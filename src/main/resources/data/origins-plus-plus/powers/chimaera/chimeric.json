@@ -26,7 +26,7 @@
 		"type":"origins:modify_damage_taken",
 		"damage_condition":{
 			"type":"origins:name",
-			"name":"olightningBolt"
+			"name":"lightningBolt"
 		},
 		"modifier":{
 			"operation":"multiply_total",

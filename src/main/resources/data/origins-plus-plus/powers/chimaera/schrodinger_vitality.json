@@ -5,6 +5,7 @@
 		"value":-10,
 		"operation":"addition"
 	},
+	"update_health":true,
 	"condition":{
 		"type":"origins:exposed_to_sun"
 	}

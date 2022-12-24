@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:withered-fox/berry_sat",
 		"origins-plus-plus:withered-fox/body",
 		"origins-plus-plus:withered-fox/fear",
@@ -21,6 +21,6 @@
 		"origins-plus-plus:withered-fox/undead",
 		"origins-plus-plus:withered-fox/withered_hands"
 	],
-	"icon": "minecraft:wither_rose",
-	"impact": 3
+	"icon":"minecraft:wither_rose",
+	"impact":3
 }

@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:ice-king/blue_transparent_ski",
 		"origins-plus-plus:ice-king/cold_power",
 		"origins-plus-plus:ice-king/combo_attack",
@@ -12,6 +12,6 @@
 		"origins-plus-plus:ice-king/unresolved_size",
 		"origins-plus-plus:ice-king/warp"
 	],
-	"icon": "minecraft:blue_ice",
-	"impact": 3
+	"icon":"minecraft:blue_ice",
+	"impact":3
 }

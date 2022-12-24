@@ -5,7 +5,7 @@
 	"damage":2,
 	"damage_easy":1,
 	"damage_source":{
-		"name":"froze to death",
+		"name":"freeze",
 		"unblockable":true,
 		"bypasses_armor":true
 	},

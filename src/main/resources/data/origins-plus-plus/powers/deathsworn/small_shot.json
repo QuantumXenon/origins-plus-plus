@@ -3,10 +3,6 @@
 	"entity_action":{
 		"type":"origins:raycast",
 		"distance":16,
-		"block":true,
-		"entity":true,
-		"shape_type":"visual",
-		"fluid_handling":"any",
 		"bientity_action":{
 			"type":"origins:if_else_list",
 			"actions":[

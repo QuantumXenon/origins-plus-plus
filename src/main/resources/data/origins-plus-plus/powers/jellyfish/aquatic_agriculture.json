@@ -8,12 +8,10 @@
 	},
 	"food_modifier":{
 		"operation":"addition",
-		"value":4,
-		"name":"Food value gained from eating dried kelp."
+		"value":4
 	},
 	"saturation_modifier":{
 		"operation":"addition",
-		"value":6,
-		"name":"Saturation value gained from eating dried kelp."
+		"value":6
 	}
 }

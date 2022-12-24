@@ -5,8 +5,7 @@
 		"modifier":{
 			"attribute":"minecraft:generic.movement_speed",
 			"operation":"multiply_total",
-			"value":-1,
-			"name":"Powered off"
+			"value":-1
 		},
 		"condition":{
 			"type":"origins:or",

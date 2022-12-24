@@ -16,6 +16,5 @@
 	"entity_action_lost":{
 		"type":"origins:execute_command",
 		"command":"team leave @s"
-	},
-	"execute_chosen_when_orb":true
+	}
 }

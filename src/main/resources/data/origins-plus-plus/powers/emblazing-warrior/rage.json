@@ -5,8 +5,7 @@
 		"modifier":{
 			"attribute":"minecraft:generic.attack_damage",
 			"operation":"addition",
-			"value":1,
-			"name":"Fury"
+			"value":1
 		},
 		"condition":{
 			"type":"origins:resource",
@@ -20,8 +19,7 @@
 		"modifier":{
 			"attribute":"minecraft:generic.attack_damage",
 			"operation":"addition",
-			"value":2,
-			"name":"Fury"
+			"value":2
 		},
 		"condition":{
 			"type":"origins:resource",
@@ -35,8 +33,7 @@
 		"modifier":{
 			"attribute":"minecraft:generic.attack_damage",
 			"operation":"addition",
-			"value":4,
-			"name":"Fury"
+			"value":4
 		},
 		"condition":{
 			"type":"origins:resource",

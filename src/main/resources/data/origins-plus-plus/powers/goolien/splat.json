@@ -313,7 +313,6 @@
 	"reduced_kinetic_damage":{
 		"type":"origins:modify_damage_taken",
 		"modifier":{
-			"name":"More kinetic damage taken",
 			"value":-0.85,
 			"operation":"multiply_base"
 		},

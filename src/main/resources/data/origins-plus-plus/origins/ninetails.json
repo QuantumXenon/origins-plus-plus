@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:ninetails/fall",
 		"origins-plus-plus:ninetails/fire_particles",
 		"origins-plus-plus:ninetails/fire_resistance",
@@ -10,6 +10,6 @@
 		"origins-plus-plus:ninetails/weak",
 		"origins-plus-plus:ninetails/willow"
 	],
-	"icon": "minecraft:blaze_powder",
-	"impact": 3
+	"icon":"minecraft:blaze_powder",
+	"impact":3
 }

@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:mouse/a_mouses_lifespan",
 		"origins-plus-plus:mouse/little_jump",
 		"origins-plus-plus:mouse/mischievous",
@@ -10,6 +10,6 @@
 		"origins-plus-plus:mouse/ride",
 		"origins-plus-plus:mouse/yoink"
 	],
-	"icon": "minecraft:beef",
-	"impact": 3
+	"icon":"minecraft:beef",
+	"impact":3
 }

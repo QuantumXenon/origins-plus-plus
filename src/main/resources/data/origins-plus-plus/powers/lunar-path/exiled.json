@@ -2,8 +2,7 @@
 	"type":"origins:multiple",
 	"undead":{
 		"type":"origins:entity_group",
-		"group":"undead",
-		"name":"Undead"
+		"group":"undead"
 	},
 	"price":{
 		"type":"origins:action_over_time",

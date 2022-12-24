@@ -5,8 +5,7 @@
 		"modifier":{
 			"attribute":"minecraft:generic.movement_speed",
 			"operation":"addition",
-			"value":-0.85,
-			"name":"No movement"
+			"value":-0.85
 		},
 		"condition":{
 			"type":"origins:power_active",

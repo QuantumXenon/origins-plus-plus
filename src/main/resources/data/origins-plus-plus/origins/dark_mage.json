@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:dark-mage/absorption",
 		"origins-plus-plus:dark-mage/damage",
 		"origins-plus-plus:dark-mage/darkness",
@@ -26,6 +26,6 @@
 		"origins-plus-plus:dark-mage/super_mana_potion",
 		"origins-plus-plus:dark-mage/zoglin"
 	],
-	"icon": "minecraft:black_wool",
-	"impact": 3
+	"icon":"minecraft:black_wool",
+	"impact":3
 }

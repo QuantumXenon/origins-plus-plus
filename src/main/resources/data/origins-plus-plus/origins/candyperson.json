@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:candyperson/cake_master",
 		"origins-plus-plus:candyperson/cookie_master",
 		"origins-plus-plus:candyperson/favorite_food",
@@ -10,6 +10,6 @@
 		"origins-plus-plus:candyperson/sugar_stomach",
 		"origins-plus-plus:candyperson/sweet_recipe"
 	],
-	"icon": "minecraft:sugar",
-	"impact": 2
+	"icon":"minecraft:sugar",
+	"impact":2
 }

@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins:tailwind",
 		"origins:fall_immunity",
 		"origins:carnivore",
@@ -10,6 +10,6 @@
 		"origins-plus-plus:raptus/small",
 		"origins-plus-plus:raptus/smaller_body"
 	],
-	"icon": "minecraft:lime_dye",
-	"impact": 2
+	"icon":"minecraft:lime_dye",
+	"impact":2
 }

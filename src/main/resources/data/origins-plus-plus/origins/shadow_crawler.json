@@ -1,5 +1,5 @@
 {
-	"powers": [
+	"powers":[
 		"origins-plus-plus:shadow-crawler/blinding_light",
 		"origins-plus-plus:shadow-crawler/dark_boost",
 		"origins-plus-plus:shadow-crawler/day_weakness",
@@ -10,6 +10,6 @@
 		"origins-plus-plus:shadow-crawler/shadow_warp",
 		"origins-plus-plus:shadow-crawler/shadowy_form"
 	],
-	"icon": "minecraft:structure_void",
-	"impact": 3
+	"icon":"minecraft:structure_void",
+	"impact":3
 }

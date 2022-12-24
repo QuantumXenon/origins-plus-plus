@@ -67,5 +67,6 @@
 			"operation":"multiply_total",
 			"value":-0.3333
 		}
-	}
+	},
+	"update_health":true
 }
