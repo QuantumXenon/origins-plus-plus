@@ -7,8 +7,8 @@
 		"origins-plus-plus:candyperson/sugar_addict",
 		"origins-plus-plus:candyperson/sugar_expert",
 		"origins-plus-plus:candyperson/sugar_kit",
-		"origins-plus-plus:candyperson/sugar_stomach",
-		"origins-plus-plus:candyperson/sweet_recipe"
+		"origins-plus-plus:candyperson/sugar_recipe",
+		"origins-plus-plus:candyperson/sugar_stomach"
 	],
 	"icon":"minecraft:sugar",
 	"impact":2

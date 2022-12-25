@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"crime":{
+	"emerald":{
 		"type":"origins:target_action_on_hit",
 		"entity_action":{
 			"type":"origins:if_else",
@@ -11,15 +11,15 @@
 			},
 			"if_action":{
 				"type":"origins:execute_command",
-				"command":"loot spawn ~ ~ ~ loot origins-plus-plus:calamitous-rogue/cash_in"
+				"command":"loot spawn ~ ~ ~ loot origins-plus-plus:assassin"
 			}
 		},
 		"target_condition":{
 			"type":"origins:in_tag",
-			"tag":"minecraft:raiders"
+			"tag":"origins-plus-plus:big_game"
 		}
 	},
-	"and_punishment":{
+	"no_drops":{
 		"type":"origins:target_action_on_hit",
 		"entity_action":{
 			"type":"origins:if_else",
@@ -43,7 +43,7 @@
 		},
 		"target_condition":{
 			"type":"origins:in_tag",
-			"tag":"minecraft:raiders",
+			"tag":"origins-plus-plus:big_game",
 			"inverted":true
 		}
 	}
