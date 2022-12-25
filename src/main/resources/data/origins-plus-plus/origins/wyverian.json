@@ -8,8 +8,7 @@
 		"origins-plus-plus:wyverian/shield",
 		"origins-plus-plus:wyverian/size",
 		"origins-plus-plus:wyverian/water",
-		"origins-plus-plus:wyverian/wind",
-		"origins-plus-plus:wyverian/wing"
+		"origins-plus-plus:wyverian/wind"
 	],
 	"icon":"minecraft:ender_eye",
 	"impact":3

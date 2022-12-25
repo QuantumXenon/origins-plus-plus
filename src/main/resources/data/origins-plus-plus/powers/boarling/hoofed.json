@@ -2,6 +2,8 @@
 	"type":"origins:prevent_item_use",
 	"item_condition":{
 		"type":"origins:ingredient",
-		"tag": "origins-plus-plus:unwieldy"
+		"ingredient":{
+			"tag":"origins-plus-plus:unwieldy"
+		}
 	}
 }
