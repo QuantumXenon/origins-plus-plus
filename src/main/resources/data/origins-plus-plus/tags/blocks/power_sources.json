@@ -1,8 +1,7 @@
 {
 	"values":[
-		"minecraft:deepslate_redstone_ore",
+		"#minecraft:redstone_ores",
 		"minecraft:redstone_block",
-		"minecraft:redstone_ore",
 		"minecraft:redstone_torch",
 		"minecraft:redstone_wire"
 	]

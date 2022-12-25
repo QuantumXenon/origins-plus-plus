@@ -1,34 +1,13 @@
 {
 	"values":[
-		"minecraft:acacia_leaves",
-		"minecraft:allium",
-		"minecraft:azalea_leaves",
-		"minecraft:azure_bluet",
-		"minecraft:birch_leaves",
-		"minecraft:blue_orchid",
-		"minecraft:cornflower",
-		"minecraft:dandelion",
-		"minecraft:dark_oak_leaves",
+		"#minecraft:flowers",
+		"#minecraft:leaves",
+		"#minecraft:saplings",
 		"minecraft:fern",
-		"minecraft:flowering_azalea_leaves",
 		"minecraft:grass",
 		"minecraft:hay_block",
-		"minecraft:jungle_leaves",
 		"minecraft:large_fern",
-		"minecraft:lilac",
-		"minecraft:lily_of_the_valley",
-		"minecraft:oak_leaves",
-		"minecraft:orange_tulip",
-		"minecraft:oxeye_daisy",
-		"minecraft:peony",
-		"minecraft:pink_tulip",
-		"minecraft:poppy",
-		"minecraft:red_tulip",
-		"minecraft:rose_bush",
-		"minecraft:spruce_leaves",
-		"minecraft:sunflower",
 		"minecraft:tall_grass",
-		"minecraft:wheat",
-		"minecraft:white_tulip"
+		"minecraft:wheat"
 	]
 }

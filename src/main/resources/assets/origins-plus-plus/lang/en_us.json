@@ -1550,7 +1550,7 @@
 	"power.origins-plus-plus.ram/jump_boost.name":"Jump Boost",
 	"power.origins-plus-plus.ram/jump_boost.description":"You have a permanent Jump Boost & Slow Falling.",
 	"power.origins-plus-plus.ram/no_food.name":"No Food",
-	"power.origins-plus-plus.ram/no_food.description":"You can only eat flowers, leaves, grass, hay, hay blocks for saturation.",
+	"power.origins-plus-plus.ram/no_food.description":"You can only eat flowers, leaves, grass, saplings, wheat, and hay bales for saturation.",
 	"power.origins-plus-plus.ram/ram.name":"Ram",
 	"power.origins-plus-plus.ram/ram.description":"If you attack someone while sprinting, you ram them giving you bonus knockback on that attack.",
 	"power.origins-plus-plus.raptus/bite.name":"Bite Force",

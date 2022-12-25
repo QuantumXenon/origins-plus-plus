@@ -1,6 +1,6 @@
 {
 	"values":[
-		"minecraft:sand",
+		"#minecraft:sand",
 		"minecraft:sandstone"
 	]
 }

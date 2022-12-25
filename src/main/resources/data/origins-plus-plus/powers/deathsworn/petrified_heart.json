@@ -21,7 +21,7 @@
   "conditions":[
    {
     "type":"origins:in_tag",
-    "tag":"origins-plus-plus:hearts"
+    "tag":"origins-plus-plus:petrified_hearts"
    },
    {
     "type":"origins:nbt",

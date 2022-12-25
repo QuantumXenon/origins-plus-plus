@@ -1,15 +1,6 @@
 {
 	"values":[
-		"minecraft:andesite",
-		"minecraft:basalt",
-		"minecraft:blackstone",
-		"minecraft:cobbled_deepslate",
-		"minecraft:cobblestone",
-		"minecraft:deepslate",
-		"minecraft:diorite",
-		"minecraft:granite",
-		"minecraft:netherrack",
-		"minecraft:stone",
-		"minecraft:tuff"
+		"#minecraft:base_stone_overworld",
+		"#minecraft:base_stone_nether"
 	]
 }

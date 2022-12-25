@@ -16,7 +16,7 @@
 		},
 		"target_condition":{
 			"type":"origins:in_tag",
-			"tag":"origins-plus-plus:illagers"
+			"tag":"minecraft:raiders"
 		}
 	},
 	"and_punishment":{
@@ -43,7 +43,7 @@
 		},
 		"target_condition":{
 			"type":"origins:in_tag",
-			"tag":"origins-plus-plus:illagers",
+			"tag":"minecraft:raiders",
 			"inverted":true
 		}
 	}
