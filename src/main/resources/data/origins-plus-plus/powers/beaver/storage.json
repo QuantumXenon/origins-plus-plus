@@ -1,5 +1,6 @@
 {
 	"type":"origins:inventory",
+	"title":"Mouth Storage",
 	"key":"key.origins.primary_active",
 	"drop_on_death":false
 }

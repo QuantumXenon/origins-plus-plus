@@ -34,6 +34,5 @@
 		}
 	},
 	"cooldown":5,
-	"key":"key.origins.primary_active",
-	"hidden":true
+	"key":"key.origins.primary_active"
 }

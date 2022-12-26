@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"cd":{
+	"cooldown":{
 		"type":"origins:resource",
 		"min":0,
 		"max":5,
@@ -13,10 +13,10 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"*:*_cd",
+			"resource":"*:*_cooldown",
 			"change":-1
 		},
-		"interval":20
+		"interval":40
 	},
 	"if_clone":{
 		"type":"origins:active_self",
@@ -52,7 +52,7 @@
 						"type":"origins:if_else",
 						"condition":{
 							"type":"origins:resource",
-							"resource":"*:*_cd",
+							"resource":"*:*_cooldown",
 							"comparison":"==",
 							"compare_to":0
 						},

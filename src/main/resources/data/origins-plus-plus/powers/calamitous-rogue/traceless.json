@@ -5,7 +5,7 @@
 		"ticks":2,
 		"action":{
 			"type":"origins:change_resource",
-			"resource":"*:stealth_bar",
+			"resource":"origins-plus-plus:calamitous_rogue/stealth_bar",
 			"change":5
 		}
 	}

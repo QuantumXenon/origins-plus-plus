@@ -11,7 +11,7 @@
 		},
 		"condition":{
 			"type":"origins:resource",
-			"resource":"*:stealth_bar",
+			"resource":"origins-plus-plus:calamitous_rogue/stealth_bar",
 			"compare_to":5,
 			"comparison":"=="
 		},
@@ -173,13 +173,13 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"item":"shield"
+							"item":"minecraft:shield"
 						}
 					}
 				},
 				{
 					"type":"origins:resource",
-					"resource":"*:stealth_bar",
+					"resource":"origins-plus-plus:calamitous_rogue/stealth_bar",
 					"compare_to":5,
 					"comparison":"=="
 				}
@@ -229,7 +229,7 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"*:stealth_bar",
+					"resource":"origins-plus-plus:calamitous_rogue/stealth_bar",
 					"compare_to":5,
 					"comparison":"=="
 				}
@@ -264,13 +264,13 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"item":"trident"
+							"item":"minecraft:trident"
 						}
 					}
 				},
 				{
 					"type":"origins:resource",
-					"resource":"*:stealth_bar",
+					"resource":"origins-plus-plus:calamitous_rogue/stealth_bar",
 					"compare_to":5,
 					"comparison":"=="
 				}

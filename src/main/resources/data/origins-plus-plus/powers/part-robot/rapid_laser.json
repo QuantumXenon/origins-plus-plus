@@ -1,8 +1,8 @@
 {
 	"type":"origins:fire_projectile",
 	"entity_type":"minecraft:arrow",
-	"cooldown":2450,
-	"count":100,
+	"cooldown":1500,
+	"count":50,
 	"interval":4,
 	"speed":8,
 	"divergence":1,

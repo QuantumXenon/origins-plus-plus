@@ -1,7 +1,7 @@
 {
 	"type":"origins:active_self",
 	"key":"key.origins.secondary_active",
-	"cooldown":1800,
+	"cooldown":1500,
 	"hud_render":{
 		"should_render":true,
 		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
@@ -12,25 +12,25 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:strength 30 0 false",
+				"command":"effect give @s minecraft:strength 20 0 false",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:speed 30 2 false",
+				"command":"effect give @s minecraft:speed 20 2 false",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:regeneration 30 0 false",
+				"command":"effect give @s minecraft:regeneration 20 0 false",
 				"permission_level":4
 			},
 			{
 				"type":"origins:delay",
-				"ticks":600,
+				"ticks":400,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect give @s instant_damage 1 0 false"
+					"command":"effect give @s instant_damage 1 1 false"
 				}
 			}
 		]

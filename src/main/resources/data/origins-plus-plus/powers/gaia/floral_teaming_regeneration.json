@@ -5,7 +5,9 @@
 		"effect":{
 			"effect":"minecraft:regeneration",
 			"duration":200,
-			"amplifier":2
+			"amplifier":2,
+			"show_particles":false,
+			"show_icon":false
 		}
 	},
 	"interval":40,

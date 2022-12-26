@@ -8,6 +8,8 @@
 				"type":"origins:apply_effect",
 				"effect":{
 					"effect":"minecraft:mining_fatigue",
+					"show_icon": false,
+					"show_particles": false,
 					"duration":30,
 					"amplifier":2
 				}

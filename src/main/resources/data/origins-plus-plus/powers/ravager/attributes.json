@@ -1,0 +1,25 @@
+{
+	"attack_damage":{
+		"type":"origins:modify_damage_taken",
+		"damage_condition":{
+			"type":"origins:attacker",
+			"entity_condition":{
+				"type":"origins:entity_type",
+				"entity_group":"default"
+			}
+		},
+		"modifier":{
+			"operation":"multiply_base",
+			"value":-0.125
+		}
+	},
+	"knockback_resistance":{
+		"type":"origins:attribute",
+		"modifier":{
+			"attribute":"minecraft:generic.knockback_resistance",
+			"value":999,
+			"operation":"addition"
+		}
+	}
+}
+

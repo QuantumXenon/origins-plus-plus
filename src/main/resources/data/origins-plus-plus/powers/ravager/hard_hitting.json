@@ -5,13 +5,14 @@
 		"actions":[
 			{
 				"type":"origins:add_velocity",
-				"y":1
+				"y":0.5
 			}
 		]
 	},
 	"cooldown":300,
 	"hud_render":{
 		"should_render":true,
-		"bar_index":0
+		"sprite_location":"origins:textures/gui/resource_bar.png",
+		"bar_index":4
 	}
 }

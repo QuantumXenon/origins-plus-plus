@@ -19,8 +19,21 @@
 	"invulnerability":{
 		"type":"origins:invulnerability",
 		"damage_condition":{
-			"type":"origins:name",
-			"name":"inWall"
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:name",
+					"name":"inWall"
+				},
+				{
+					"type":"origins:name",
+					"name":"fall"
+				}
+			]
+		},
+		"condition":{
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
 		}
 	},
 	"weak":{
@@ -72,8 +85,10 @@
 			"amplifier":1
 		},
 		"condition":{
-			"type":"origins:power_active",
-			"power":"*:*_toggle"
+			"type": "origins:resource",
+			"comparison": "==",
+			"resource": "*:*_resource",
+			"compare_to": 0
 		}
 	},
 	"phase":{

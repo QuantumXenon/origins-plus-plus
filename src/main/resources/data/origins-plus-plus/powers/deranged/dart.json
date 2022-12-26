@@ -1,6 +1,7 @@
 {
 	"type":"origins:fire_projectile",
-	"entity_type":"arrow",
+	"entity_type":"minecraft:arrow",
+	"tag":"{pickup:0b}",
 	"cooldown":800,
 	"hud_render":{
 		"should_render":true,

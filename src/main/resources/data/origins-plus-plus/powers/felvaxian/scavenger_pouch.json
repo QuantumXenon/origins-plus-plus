@@ -1,5 +1,6 @@
 {
 	"type":"origins:inventory",
+	"title":"Scavenger Pouch",
 	"drop_on_death":false,
 	"drop_on_death_filter":{
 		"type":"origins:food",

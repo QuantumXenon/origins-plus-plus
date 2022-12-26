@@ -1,10 +1,10 @@
 {
 	"powers":[
 		"origins:carnivore",
+		"origins:launch_into_air",
 		"origins:elytra",
 		"origins:ender_particles",
-		"origins-plus-plus:drakonwither/launch_into_air",
-		"origins-plus-plus:drakonwither/parent_skull",
+		"origins-plus-plus:drakonwither/skulls",
 		"origins-plus-plus:drakonwither/wither_immunity",
 		"origins-plus-plus:drakonwither/wither_skull"
 	],

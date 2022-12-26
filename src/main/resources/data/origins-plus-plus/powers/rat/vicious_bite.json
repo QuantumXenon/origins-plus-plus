@@ -8,18 +8,8 @@
 		"bar_index":5
 	},
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:strength 6 0 false",
-				"permission_level":4
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"execute as @s run function origins-plus-plus:rat/vicious_bite_message",
-				"permission_level":4
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"effect give @s minecraft:strength 6 0 false",
+		"permission_level":4
 	}
 }

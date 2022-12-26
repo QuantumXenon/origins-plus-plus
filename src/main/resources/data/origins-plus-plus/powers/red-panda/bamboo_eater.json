@@ -44,6 +44,6 @@
 			}
 		]
 	},
-	"cooldown":20,
+	"cooldown":30,
 	"key":"key.use"
 }

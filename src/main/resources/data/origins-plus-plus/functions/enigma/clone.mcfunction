@@ -10,7 +10,7 @@ data modify entity @e[tag=ljs_Clone,limit=1,sort=nearest] ArmorItems[2] set from
 data modify entity @e[tag=ljs_Clone,limit=1,sort=nearest] ArmorItems[1] set from entity @s Inventory[{Slot:101b}]
 data modify entity @e[tag=ljs_Clone,limit=1,sort=nearest] ArmorItems[0] set from entity @s Inventory[{Slot:100b}]
 
-resource set @s origins-plus-plus:enigma/clone_cd 5
+resource set @s origins-plus-plus:enigma/clone_cooldown 5
 
 effect give @s invisibility 10000 0
 effect give @e[tag=ljs_Clone] invisibility 10000 0

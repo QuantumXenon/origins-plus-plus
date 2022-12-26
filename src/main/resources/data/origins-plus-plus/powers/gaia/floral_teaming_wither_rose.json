@@ -5,7 +5,9 @@
 		"effect":{
 			"effect":"minecraft:strength",
 			"duration":200,
-			"amplifier":4
+			"amplifier":4,
+			"show_particles":false,
+			"show_icon":false
 		}
 	},
 	"interval":40,

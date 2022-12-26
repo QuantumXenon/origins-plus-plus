@@ -1,8 +1,20 @@
 {
-	"type":"origins:attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.movement_speed",
-		"value":0.6,
-		"operation":"multiply_total"
+	"type":"origins:multiple",
+	"hidden":true,
+	"attack_speed":{
+		"type":"origins:attribute",
+		"modifier":{
+			"attribute":"minecraft:generic.attack_speed",
+			"value":15,
+			"operation":"addition"
+		}
+	},
+	"movement_speed":{
+		"type":"origins:attribute",
+		"modifier":{
+			"attribute":"minecraft:generic.movement_speed",
+			"value":0.6,
+			"operation":"multiply_total"
+		}
 	}
 }

@@ -1,5 +1,6 @@
 {
 	"type":"origins:inventory",
-	"title":"Small Pouch",
-	"key":"key.origins.primary_active"
+	"title":"Travel Pouch",
+	"key":"key.origins.primary_active",
+	"drop_on_death": false
 }

@@ -55,7 +55,7 @@
 		"onset_delay":1,
 		"damage":2,
 		"source":{
-			"name":"generic",
+			"name":"freeze",
 			"unblockable":true,
 			"bypasses_armor":true
 		},
@@ -90,7 +90,7 @@
 			]
 		}
 	},
-	"freezed_skin":{
+	"frozen_skin":{
 		"type":"origins:model_color",
 		"red":0.5,
 		"green":0.5,

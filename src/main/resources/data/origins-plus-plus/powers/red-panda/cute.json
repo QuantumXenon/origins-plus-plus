@@ -16,5 +16,5 @@
 		"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
 		"bar_index":4
 	},
-	"key":"key.origins.primary_active"
+	"key":"key.origins.secondary_active"
 }

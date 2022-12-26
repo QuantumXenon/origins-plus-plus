@@ -9,7 +9,7 @@
 			"change":3
 		},
 		"key":"key.sneak",
-		"cooldown":20
+		"cooldown":100
 	},
 	"weakness":{
 		"type":"origins:active_self",

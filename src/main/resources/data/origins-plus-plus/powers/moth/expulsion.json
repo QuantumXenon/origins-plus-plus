@@ -25,7 +25,7 @@
 			}
 		]
 	},
-	"key":"key.origins.primary_active",
+	"key":"key.origins.secondary_active",
 	"cooldown":100,
 	"hud_render":{
 		"should_render":true,

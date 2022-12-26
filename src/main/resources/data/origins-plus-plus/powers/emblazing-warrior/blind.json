@@ -1,6 +1,6 @@
 {
 	"type":"origins:status_bar_texture",
-	"texture":"origins-plus-plus:angry_bar.png",
+	"texture":"origins-plus-plus:textures/gui/bar.png",
 	"condition":{
 		"type":"origins:resource",
 		"resource":"origins-plus-plus:emblazing-warrior/fury_bar",

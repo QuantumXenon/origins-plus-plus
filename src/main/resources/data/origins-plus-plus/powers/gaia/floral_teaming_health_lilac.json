@@ -5,7 +5,9 @@
 		"effect":{
 			"effect":"minecraft:health_boost",
 			"duration":1000,
-			"amplifier":2
+			"amplifier":2,
+			"show_particles":false,
+			"show_icon":false
 		}
 	},
 	"interval":1000,

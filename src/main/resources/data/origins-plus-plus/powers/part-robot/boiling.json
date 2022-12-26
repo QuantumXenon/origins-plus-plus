@@ -4,7 +4,7 @@
 		"type":"origins:set_on_fire",
 		"duration":5
 	},
-	"interval":999,
+	"interval":100,
 	"condition":{
 		"type":"origins:and",
 		"conditions":[
