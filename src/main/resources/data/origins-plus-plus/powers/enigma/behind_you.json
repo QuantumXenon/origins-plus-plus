@@ -1,5 +1,6 @@
 {
 	"type":"origins:active_self",
+	"key":"key.saveToolbarActivator",
 	"entity_action":{
 		"type":"origins:raycast",
 		"distance":64,
