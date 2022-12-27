@@ -1,0 +1,75 @@
+{
+	"type":"origins:multiple",
+	"hidden":true,
+	"make":{
+		"type":"origins:active_self",
+		"key":"key.origins.primary_active",
+		"cooldown":100,
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:change_resource",
+					"resource":"origins-plus-plus:end-mage/resource",
+					"change":-250
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:end-mage/super_mana_potion",
+					"permission_level":4
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"particle minecraft:enchant ~ ~ ~ 2 2 2 2 1000",
+					"permission_level":4
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"particle minecraft:enchanted_hit ~ ~ ~ 3 3 3 3 1000",
+					"permission_level":4
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"playsound minecraft:block.brewing_stand.brew player @a[distance=..10] ~ ~ ~ 100 0.9 1",
+					"permission_level":4
+				}
+			]
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:sneaking"
+				},
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:end-mage/resource",
+					"comparison":">",
+					"compare_to":250
+				},
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"offhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:dragon_breath"
+						}
+					}
+				}
+			]
+		}
+	},
+	"use":{
+		"type":"origins:action_on_item_use",
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:end-mage/resource",
+			"change":250
+		},
+		"item_condition":{
+			"type":"origins:nbt",
+			"nbt":"{tag:\"superempty\"}"
+		}
+	}
+}

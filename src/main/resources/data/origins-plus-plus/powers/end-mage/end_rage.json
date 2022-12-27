@@ -1,5 +1,7 @@
 {
 	"type":"origins:active_self",
+	"key":"key.origins.secondary_active",
+	"cooldown":100,
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[
@@ -46,12 +48,10 @@
 			{
 				"type":"origins:change_resource",
 				"resource":"origins-plus-plus:end-mage/resource",
-				"change":-120
+				"change":-100
 			}
 		]
 	},
-	"cooldown":100,
-	"key":"key.origins.secondary_active",
 	"condition":{
 		"type":"origins:sneaking"
 	}
