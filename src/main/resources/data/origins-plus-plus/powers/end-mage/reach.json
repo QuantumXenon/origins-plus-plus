@@ -2,39 +2,38 @@
 	"type":"origins:multiple",
 	"hidden":true,
 	"modify_reach":{
-		"type":"origins:action_on_callback",
-		"entity_action_chosen":{
-			"type":"origins:execute_command",
-			"command":"scale set pehkui:reach 26 @s",
-			"permission_level":4
-		},
-		"entity_action_respawned":{
-			"type":"origins:execute_command",
-			"command":"scale set pehkui:reach 26 @s",
-			"permission_level":4
-		},
-		"entity_action_lost":{
-			"type":"origins:execute_command",
-			"command":"scale set pehkui:reach 26 @s",
-			"permission_level":4
-		},
-		"condition":{
-			"type":"origins:equipped_item",
-			"equipment_slot":"offhand",
-			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"item":"minecraft:ender_pearl"
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:ender_pearl"
+					}
 				}
+			},
+			"if_action":{
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:reach 26 @s",
+				"permission_level":4
+			},
+			"else_action":{
+				"type":"origins:execute_command",
+				"command":"scale set pehkui:reach 1 @s",
+				"permission_level":4
 			}
-		}
+		},
+		"interval":1
 	},
 	"change_resource":{
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:end-mage/resource",
-			"change":-1
+			"change":-2
 		},
 		"condition":{
 			"type":"origins:equipped_item",
@@ -46,6 +45,6 @@
 				}
 			}
 		},
-		"interval":2
+		"interval":1
 	}
 }
