@@ -76,7 +76,7 @@
 		},
 		"entity_action":{
 			"type":"origins:add_velocity",
-			"z":1.25,
+			"z":1.66,
 			"space":"velocity_horizontal_normalized"
 		}
 	}
