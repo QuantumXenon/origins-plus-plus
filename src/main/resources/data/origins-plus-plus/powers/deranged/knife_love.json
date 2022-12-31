@@ -1,7 +1,7 @@
 {
 	"type":"origins:conditioned_attribute",
 	"modifier":{
-		"attribute":"generic.attack_damage",
+		"attribute":"minecraft:generic.attack_damage",
 		"operation":"addition",
 		"value":2
 	},

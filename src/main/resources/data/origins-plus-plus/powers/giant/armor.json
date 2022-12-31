@@ -3,7 +3,7 @@
 	"helmet":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"attribute":"generic.armor",
+			"attribute":"minecraft:generic.armor",
 			"operation":"addition",
 			"value":1
 		},
@@ -13,7 +13,7 @@
 			"item_condition":{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"leather_helmet"
+					"item":"minecraft:leather_helmet"
 				}
 			}
 		}
@@ -21,7 +21,7 @@
 	"chestplate":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"attribute":"generic.armor",
+			"attribute":"minecraft:generic.armor",
 			"operation":"addition",
 			"value":3
 		},
@@ -31,7 +31,7 @@
 			"item_condition":{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"leather_chestplate"
+					"item":"minecraft:leather_chestplate"
 				}
 			}
 		}
@@ -39,7 +39,7 @@
 	"leggings":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"attribute":"generic.armor",
+			"attribute":"minecraft:generic.armor",
 			"operation":"addition",
 			"value":3
 		},
@@ -49,7 +49,7 @@
 			"item_condition":{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"leather_leggings"
+					"item":"minecraft:leather_leggings"
 				}
 			}
 		}
@@ -57,7 +57,7 @@
 	"boots":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"attribute":"generic.armor",
+			"attribute":"minecraft:generic.armor",
 			"operation":"addition",
 			"value":1
 		},
@@ -67,7 +67,7 @@
 			"item_condition":{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"leather_boots"
+					"item":"minecraft:leather_boots"
 				}
 			}
 		}

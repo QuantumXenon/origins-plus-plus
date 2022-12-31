@@ -1,10 +1,11 @@
 {
 	"powers":[
-		"origins-plus-plus:thornling/bag",
+		"origins:fragile",
 		"origins-plus-plus:thornling/conductor",
 		"origins-plus-plus:thornling/decay",
 		"origins-plus-plus:thornling/dwarf",
 		"origins-plus-plus:thornling/empowered",
+		"origins-plus-plus:thornling/punching_bag",
 		"origins-plus-plus:thornling/sounds",
 		"origins-plus-plus:thornling/thorns"
 	],

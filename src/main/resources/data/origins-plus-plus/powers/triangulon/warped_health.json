@@ -1,9 +1,0 @@
-{
-	"type":"origins:attribute",
-	"modifier":{
-		"attribute":"generic.max_health",
-		"operation":"addition",
-		"value":-6
-	},
-	"update_health":true
-}

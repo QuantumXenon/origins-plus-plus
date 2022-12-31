@@ -46,18 +46,18 @@
 	},
 	"type":"origins:conditioned_attribute",
 	"modifier":{
-		"attribute":"generic.armor",
+		"attribute":"minecraft:generic.armor",
 		"operation":"multiply_total",
 		"value":1.05
 	},
 	"modifiers":[
 		{
-			"attribute":"generic.movement_speed",
+			"attribute":"minecraft:generic.movement_speed",
 			"operation":"addition",
 			"value":0.0125
 		},
 		{
-			"attribute":"generic.attack_damage",
+			"attribute":"minecraft:generic.attack_damage",
 			"operation":"multiply_base",
 			"value":2
 		}

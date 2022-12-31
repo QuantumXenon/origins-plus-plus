@@ -11,13 +11,13 @@
 	},
 	"type":"origins:conditioned_attribute",
 	"modifier":{
-		"attribute":"generic.attack_damage",
+		"attribute":"minecraft:generic.attack_damage",
 		"operation":"multiply_base",
 		"value":1.25
 	},
 	"modifiers":[
 		{
-			"attribute":"generic.attack_speed",
+			"attribute":"minecraft:generic.attack_speed",
 			"operation":"addition",
 			"value":1.25
 		}

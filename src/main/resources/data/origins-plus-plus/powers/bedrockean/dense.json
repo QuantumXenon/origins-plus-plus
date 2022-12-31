@@ -2,12 +2,12 @@
 	"type":"origins:attribute",
 	"modifiers":[
 		{
-			"attribute":"generic.max_health",
+			"attribute":"minecraft:generic.max_health",
 			"operation":"addition",
 			"value":10
 		},
 		{
-			"attribute":"generic.movement_speed",
+			"attribute":"minecraft:generic.movement_speed",
 			"operation":"addition",
 			"value":-0.05
 		}

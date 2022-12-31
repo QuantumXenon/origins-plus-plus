@@ -21,7 +21,7 @@
 	"golden_helmet_boost":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"attribute":"generic.armor",
+			"attribute":"minecraft:generic.armor",
 			"operation":"addition",
 			"value":1
 		},
@@ -39,7 +39,7 @@
 	"golden_chestplate_boost":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"attribute":"generic.armor",
+			"attribute":"minecraft:generic.armor",
 			"operation":"addition",
 			"value":2
 		},
@@ -57,7 +57,7 @@
 	"golden_leggings_boost":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"attribute":"generic.armor",
+			"attribute":"minecraft:generic.armor",
 			"operation":"addition",
 			"value":2
 		},
@@ -75,7 +75,7 @@
 	"golden_boots_boost":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"attribute":"generic.armor",
+			"attribute":"minecraft:generic.armor",
 			"operation":"addition",
 			"value":1
 		},

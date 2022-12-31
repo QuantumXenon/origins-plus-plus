@@ -1,0 +1,9 @@
+{
+	"type":"origins:attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.attack_damage",
+		"operation":"multiply_total",
+		"value":-0.4
+	},
+	"update_health":true
+}

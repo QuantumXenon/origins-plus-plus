@@ -1,6 +1,7 @@
 {
 	"powers":[
 		"origins:ender_particles",
+		"origins:fragile",
 		"origins:fall_immunity",
 		"origins-plus-plus:triangulon/bowmaster",
 		"origins-plus-plus:triangulon/gravity_manipulator",
@@ -8,8 +9,7 @@
 		"origins-plus-plus:triangulon/materialize",
 		"origins-plus-plus:triangulon/no_melee",
 		"origins-plus-plus:triangulon/void",
-		"origins-plus-plus:triangulon/walk",
-		"origins-plus-plus:triangulon/warped_health"
+		"origins-plus-plus:triangulon/walk"
 	],
 	"icon":"minecraft:emerald_block",
 	"impact":3

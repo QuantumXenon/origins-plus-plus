@@ -3,7 +3,7 @@
 	"modifier":{
 		"operation":"addition",
 		"value":2,
-		"attribute":"generic.attack_damage"
+		"attribute":"minecraft:generic.attack_damage"
 	},
 	"condition":{
 		"type":"origins:equipped_item",

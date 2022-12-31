@@ -27,7 +27,7 @@
 		"type":"origins:conditioned_attribute",
 		"interval":5,
 		"modifier":{
-			"attribute":"generic.movement_speed",
+			"attribute":"minecraft:generic.movement_speed",
 			"operation":"multiply_total",
 			"value":-0.6
 		},
@@ -53,7 +53,7 @@
 	"speed_1":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"attribute":"generic.movement_speed",
+			"attribute":"minecraft:generic.movement_speed",
 			"operation":"multiply_total",
 			"value":-0.4
 		},
@@ -79,7 +79,7 @@
 	"speed_2":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
-			"attribute":"generic.movement_speed",
+			"attribute":"minecraft:generic.movement_speed",
 			"operation":"multiply_total",
 			"value":-0.2
 		},

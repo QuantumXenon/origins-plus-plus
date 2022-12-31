@@ -3,7 +3,7 @@
 	"knockback":{
 		"type":"origins:attribute",
 		"modifier":{
-			"attribute":"generic.knockback_resistance",
+			"attribute":"minecraft:generic.knockback_resistance",
 			"operation":"addition",
 			"value":0.33
 		}

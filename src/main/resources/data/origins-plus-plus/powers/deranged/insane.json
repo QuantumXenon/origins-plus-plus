@@ -8,12 +8,12 @@
 	"type":"origins:conditioned_attribute",
 	"modifiers":[
 		{
-			"attribute":"generic.attack_damage",
+			"attribute":"minecraft:generic.attack_damage",
 			"operation":"addition",
 			"value":4
 		},
 		{
-			"attribute":"generic.max_health",
+			"attribute":"minecraft:generic.max_health",
 			"operation":"addition",
 			"value":-12
 		}
