@@ -17,7 +17,7 @@
 				"fluid_handling":"none",
 				"bientity_action":{
 					"type":"origins:damage",
-					"amount":6,
+					"amount":3,
 					"source":{
 						"name":"cramming.player",
 						"bypasses_armor":true,

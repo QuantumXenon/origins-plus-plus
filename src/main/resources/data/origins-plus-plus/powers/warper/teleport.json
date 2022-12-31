@@ -6,7 +6,7 @@
 		"actions":[
 			{
 				"type":"origins:raycast",
-				"distance":64,
+				"distance":32,
 				"entity":false,
 				"before_action":{
 					"type":"origins:and",
@@ -15,7 +15,6 @@
 						"command":"tag @s add tping"
 					}
 				},
-				"command_step":1,
 				"command_along_ray":"execute positioned ~ ~ ~ if block ~ ~ ~ air run tp @e[tag=tping,sort=nearest] ~ ~ ~",
 				"miss_action":{
 					"type":"origins:and",
@@ -45,10 +44,20 @@
 						}
 					]
 				}
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:entity.enderman.teleport master @s ~ ~ ~ 10 0.18",
+				"permission_level":4
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"particle minecraft:portal~ ~ ~ 2 2 2 0 100",
+				"permission_level":4
 			}
 		]
 	},
-	"cooldown":1200,
+	"cooldown":200,
 	"hud_render":{
 		"should_render":true,
 		"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
