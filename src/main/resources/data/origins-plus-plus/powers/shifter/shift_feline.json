@@ -1,5 +1,5 @@
 {
-	"type":"origins:multile",
+	"type":"origins:multiple",
 	"string":{
 		"type":"origins:active_self",
 		"entity_action":{
