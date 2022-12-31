@@ -17,7 +17,6 @@
 				"fluid_handling":"none",
 				"command_along_ray":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 0.3 1 0.3 0 500",
 				"command_at_hit":"function origins-plus-plus:dark-mage/dislocate",
-				"command_step":1,
 				"command_along_ray_only_on_hit":true
 			}
 		]

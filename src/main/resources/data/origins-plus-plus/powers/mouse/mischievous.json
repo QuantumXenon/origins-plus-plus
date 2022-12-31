@@ -19,7 +19,6 @@
 						"command":"tag @s add tping"
 					}
 				},
-				"command_step":1,
 				"command_along_ray":"execute positioned ~ ~ ~ if block ~ ~ ~ air run tp @e[tag=tping,sort=nearest] ~ ~ ~",
 				"miss_action":{
 					"type":"origins:and",

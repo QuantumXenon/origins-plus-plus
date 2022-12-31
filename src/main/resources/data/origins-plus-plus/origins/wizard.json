@@ -1,5 +1,6 @@
 {
 	"powers":[
+		"origins:no_shield",
 		"origins-plus-plus:wizard/ball",
 		"origins-plus-plus:wizard/broom",
 		"origins-plus-plus:wizard/flight_kinda",
@@ -11,7 +12,6 @@
 		"origins-plus-plus:wizard/melee",
 		"origins-plus-plus:wizard/old",
 		"origins-plus-plus:wizard/old2",
-		"origins-plus-plus:wizard/old3",
 		"origins-plus-plus:wizard/pill",
 		"origins-plus-plus:wizard/respect",
 		"origins-plus-plus:wizard/respect2",

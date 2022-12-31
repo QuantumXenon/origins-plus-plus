@@ -23,8 +23,7 @@
 							"type":"origins:execute_command",
 							"command":"tag @s add warptarget"
 						}
-					},
-					"command_step":1
+					}
 				},
 				{
 					"type":"origins:execute_command",

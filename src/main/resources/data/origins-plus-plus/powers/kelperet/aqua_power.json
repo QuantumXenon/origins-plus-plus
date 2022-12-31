@@ -7,7 +7,7 @@
 			"item_condition":{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"nautilus_shell"
+					"item":"minecraft:nautilus_shell"
 				}
 			}
 		},
@@ -16,7 +16,7 @@
 		"max_stacks":1,
 		"duration_per_stack":20,
 		"effect":{
-			"effect":"water_breathing",
+			"effect":"minecraft:water_breathing",
 			"duration":100,
 			"show_particles":false,
 			"show_icon":false
@@ -29,7 +29,7 @@
 			"item_condition":{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"sea_pickle"
+					"item":"minecraft:sea_pickle"
 				}
 			}
 		},
@@ -37,7 +37,7 @@
 		"entity_action":{
 			"type":"origins:apply_effect",
 			"effect":{
-				"effect":"glowing",
+				"effect":"minecraft:glowing",
 				"duration":100,
 				"show_particles":false,
 				"show_icon":false

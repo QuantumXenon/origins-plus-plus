@@ -6,7 +6,7 @@
 			"type":"origins:if_else",
 			"condition":{
 				"type":"origins:status_effect",
-				"effect":"slowness"
+				"effect":"minecraft:slowness"
 			},
 			"else_action":{
 				"type":"origins:execute_command",
