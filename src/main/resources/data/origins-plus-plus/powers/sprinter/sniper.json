@@ -6,7 +6,7 @@
 		"item_condition":{
 			"type":"origins:ingredient",
 			"ingredient":{
-				"tag":"origins-plus-plus:ranged"
+				"tag":"origins:ranged_weapons"
 			}
 		}
 	},
