@@ -6,19 +6,14 @@
 		"permission_level":4
 	},
 	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"mainhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"item":"minecraft:elytra"
-					}
-				}
+		"type":"origins:equipped_item",
+		"equipment_slot":"mainhand",
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"item":"minecraft:elytra"
 			}
-		]
+		}
 	},
 	"key":"key.origins.secondary_active"
 }

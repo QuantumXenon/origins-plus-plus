@@ -1,0 +1,46 @@
+{
+	"type": "origins:multiple",
+	"increase_damage_when_flying":{
+		"type":"origins:modify_damage_dealt",
+		"modifier":{
+			"value":0.5,
+			"operation":"multiply_base"
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:fall_flying"
+				},
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:shifter/shift_bar",
+					"comparison":"==",
+					"compare_to":3
+				}
+			]
+		}
+	},
+	"decrease_damage_when_not_flying":{
+		"type":"origins:modify_damage_dealt",
+		"modifier":{
+			"value":-0.5,
+			"operation":"multiply_base"
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:fall_flying",
+					"inverted":true
+				},
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:shifter/shift_bar",
+					"comparison":"==",
+					"compare_to":3
+				}
+			]
+		}
+	}
+}

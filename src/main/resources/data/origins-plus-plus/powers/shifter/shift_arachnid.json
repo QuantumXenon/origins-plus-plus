@@ -1,24 +1,41 @@
 {
-	"type":"origins:active_self",
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"resource set @s origins-plus-plus:shifter/shift_bar 2",
-		"permission_level":4
-	},
-	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"mainhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"item":"minecraft:spider_eye"
-					}
+	"type":"origins:multiple",
+	"spider_eye":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"resource set @s origins-plus-plus:shifter/shift_bar 2",
+			"permission_level":4
+		},
+		"condition":{
+			"type":"origins:equipped_item",
+			"equipment_slot":"mainhand",
+			"item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"item":"minecraft:spider_eye"
 				}
 			}
-		]
+		},
+		"key":"key.origins.secondary_active"
 	},
-	"key":"key.origins.secondary_active"
+	"cobweb":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"resource set @s origins-plus-plus:shifter/shift_bar 2",
+			"permission_level":4
+		},
+		"condition":{
+			"type":"origins:equipped_item",
+			"equipment_slot":"mainhand",
+			"item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"item":"minecraft:cobweb"
+				}
+			}
+		},
+		"key":"key.origins.secondary_active"
+	}
 }
