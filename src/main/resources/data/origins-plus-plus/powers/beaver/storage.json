@@ -1,6 +1,6 @@
 {
 	"type":"origins:inventory",
-	"title":"container.beaver.name",
+	"title":"container.beaver.title",
 	"key":"key.origins.primary_active",
 	"drop_on_death":false
 }

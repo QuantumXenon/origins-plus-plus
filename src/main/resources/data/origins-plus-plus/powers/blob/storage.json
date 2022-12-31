@@ -1,6 +1,6 @@
 {
 	"type":"origins:inventory",
-	"title":"container.blob.name",
+	"title":"container.blob.title",
 	"drop_on_death":false,
 	"key":"key.origins.secondary_active"
 }

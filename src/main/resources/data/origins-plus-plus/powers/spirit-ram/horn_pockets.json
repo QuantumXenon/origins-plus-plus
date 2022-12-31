@@ -1,6 +1,6 @@
 {
 	"type":"origins:inventory",
-	"title":"container.spirit-ram.name",
+	"title":"container.spirit-ram.title",
 	"drop_on_death":false,
 	"key":"key.saveToolbarActivator"
 }
