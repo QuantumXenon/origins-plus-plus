@@ -1,5 +1,7 @@
 {
 	"powers":[
+		"origins:strong_arms",
+		"origins:strong_arms_break_speed",
 		"origins:water_vulnerability",
 		"origins-plus-plus:part-robot/already_iron",
 		"origins-plus-plus:part-robot/boiling",
@@ -11,7 +13,6 @@
 		"origins-plus-plus:part-robot/rapid_laser",
 		"origins-plus-plus:part-robot/regenerate",
 		"origins-plus-plus:part-robot/steel_skin",
-		"origins-plus-plus:part-robot/strong_arms",
 		"origins-plus-plus:part-robot/tank_skin",
 		"origins-plus-plus:part-robot/unexhausted",
 		"origins-plus-plus:part-robot/water_breather"

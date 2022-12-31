@@ -38,19 +38,9 @@
 						"bientity_condition":{
 							"type":"origins:target_condition",
 							"condition":{
-								"type":"origins:and",
-								"conditions":[
-									{
-										"type":"origins:in_tag",
-										"tag":"origins-plus-plus:grab",
-										"inverted":true
-									},
-									{
-										"type":"origins:in_tag",
-										"tag":"origins-plus-plus:grab2",
-										"inverted":true
-									}
-								]
+								"type":"origins:in_tag",
+								"tag":"origins-plus-plus:grab",
+								"inverted":true
 							}
 						}
 					}

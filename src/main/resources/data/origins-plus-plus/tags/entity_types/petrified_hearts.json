@@ -1,5 +1,6 @@
 {
 	"values":[
+		"#minecraft:skeletons",
 		"minecraft:cave_spider",
 		"minecraft:creeper",
 		"minecraft:drowned",
@@ -9,12 +10,9 @@
 		"minecraft:magma_cube",
 		"minecraft:piglin_brute",
 		"minecraft:pillager",
-		"minecraft:skeleton",
 		"minecraft:spider",
-		"minecraft:stray",
 		"minecraft:vindicator",
 		"minecraft:witch",
-		"minecraft:wither_skeleton",
 		"minecraft:zombie",
 		"minecraft:zombified_piglin"
 	]

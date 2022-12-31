@@ -9,7 +9,7 @@
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"tag":"origins-plus-plus:fish"
+					"tag":"origins-plus-plus:raw_fish"
 				},
 				"inverted":true
 			}
