@@ -1,6 +1,6 @@
 {
 	"type":"origins:inventory",
-	"title":"Travel Pouch",
+	"title":"container.wanderer.name",
 	"key":"key.origins.primary_active",
 	"drop_on_death": false
 }

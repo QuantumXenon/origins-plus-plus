@@ -1,6 +1,6 @@
 {
 	"type":"origins:inventory",
-	"title":"Internal Compartment",
+	"title":"container.artificial-construct.name",
 	"drop_on_death":false,
 	"key":"key.origins.secondary_active"
 }

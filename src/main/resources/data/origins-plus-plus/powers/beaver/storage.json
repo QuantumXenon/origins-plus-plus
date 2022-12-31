@@ -1,6 +1,6 @@
 {
 	"type":"origins:inventory",
-	"title":"Mouth Storage",
+	"title":"container.beaver.name",
 	"key":"key.origins.primary_active",
 	"drop_on_death":false
 }
