@@ -1,6 +1,6 @@
 {
 	"type":"origins:inventory",
-	"title":"container.felvaxian.name",
+	"title":"container.felvaxian.title",
 	"drop_on_death":false,
 	"drop_on_death_filter":{
 		"type":"origins:food",

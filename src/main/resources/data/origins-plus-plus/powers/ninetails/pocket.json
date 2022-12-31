@@ -1,6 +1,6 @@
 {
 	"type":"origins:inventory",
-	"title":"container.ninetails.name",
+	"title":"container.ninetails.title",
 	"drop_on_death":false,
 	"key":"key.origins.secondary_active"
 }
