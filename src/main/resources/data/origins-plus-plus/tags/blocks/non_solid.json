@@ -8,6 +8,8 @@
 		"#minecraft:rails",
 		"#minecraft:saplings",
 		"#minecraft:underwater_bonemeals",
+		"#minecraft:lava",
+		"#minecraft:water",
 		"minecraft:air",
 		"minecraft:bamboo_sapling",
 		"minecraft:brown_mushroom",
@@ -37,7 +39,6 @@
 		"minecraft:grass",
 		"minecraft:kelp_plant",
 		"minecraft:large_fern",
-		"minecraft:lava",
 		"minecraft:lever",
 		"minecraft:nether_portal",
 		"minecraft:nether_sprouts",
@@ -57,7 +58,6 @@
 		"minecraft:tripwire_hook",
 		"minecraft:wall_torch",
 		"minecraft:warped_fungus",
-		"minecraft:warped_roots",
-		"minecraft:water"
+		"minecraft:warped_roots"
 	]
 }
