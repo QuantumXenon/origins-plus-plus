@@ -1,6 +1,6 @@
 Alien Axolotl - Overgrown#5799
 Anomaly - Lucas22YT#1920
-Artificial Construct - DOgDemO (PMC)
+Artificial Construct - DOgDemO#3383
 Automaton - Sealey#0001
 Beaver - Overgrown#5799
 Bedrockean - DarkStarEch0#6328
@@ -15,7 +15,7 @@ Candyperson - Nugget#2961
 Child Of Cthulhu - Overgrown#5799
 Chimaera - Dark_Warchief#6251
 Cobra - Overgrown#5799
-Copper Golem - DOgDemO (PMC)
+Copper Golem - DOgDemO#3383
 Corrupted Wither - Badaxe#2669
 Craftsman - AshBuny (PMC)
 Dark Mage - Amaranth_Red#1669
@@ -34,17 +34,17 @@ Enigma - somnia ✦#3934
 Fallen Angel - 🎷Snail🎷#6132
 Felvaxian - TrizzyTNT#6112
 Flea - agent#8449
-Frog - GoofySullivan (PMC)
+Frog - GoofySullivan#9434
 Gaia - Overgrown#5799
 Ghast - SneakyTurtle#0961
 Giant - miniturebob#2679
 Glacier - Overgrown#5799
 Gnoll - Luna Bold (PMC)
-Golden Golem - DOgDemO (PMC)
+Golden Golem - DOgDemO#3383
 Goolien - GooeyGummi#0026
 Half Wither - TrolLikesPizza#6209
 Hellforged - that_vibe_dude#1364
-Hero Of The Wild - GoofySullivan (PMC)
+Hero Of The Wild - GoofySullivan#9434
 Ice King - E_da_gamer#1541
 Ice Porcupine - Overgrown#5799
 Iceling - ArcticBonn#0648
