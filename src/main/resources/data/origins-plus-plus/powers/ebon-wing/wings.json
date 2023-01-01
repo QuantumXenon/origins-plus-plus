@@ -1,6 +1,7 @@
 {
 	"type":"origins:elytra_flight",
 	"render_elytra":true,
+	"texture_location": "origins-plus-plus:textures/entity/ebon_wing_elytra.png",
 	"condition":{
 		"type":"origins:resource",
 		"resource":"origins-plus-plus:ebon-wing/blood_blood",
