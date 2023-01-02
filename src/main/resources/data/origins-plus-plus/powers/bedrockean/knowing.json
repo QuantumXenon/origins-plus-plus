@@ -163,7 +163,7 @@
 					"actions":[
 						{
 							"type":"origins:execute_command",
-							"command":"/give @s totem_of_undying{display:{Name:'[{\"text\":\"Dusty idol\",\"italic\":true,\"color\":\"#ffffcc\"}]',Lore:['[{\"text\":\"A dusty miniature statue made\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"of \",\"italic\":false,\"color\":\"white\"},{\"text\":\"gold\",\"color\":\"yellow\"},{\"text\":\" with \"},{\"text\":\"emerald eyes\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"white\"}]','[{\"text\":\"Something tells you this\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"should stay with you.\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{}]} 1"
+							"command":"give @s totem_of_undying{display:{Name:'[{\"text\":\"Dusty Idol\",\"italic\":true,\"color\":\"#ffffcc\"}]',Lore:['[{\"text\":\"A dusty miniature statue made\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"of \",\"italic\":false,\"color\":\"white\"},{\"text\":\"gold\",\"color\":\"yellow\"},{\"text\":\" with \"},{\"text\":\"emerald eyes\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"white\"}]','[{\"text\":\"Something tells you this\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"should stay with you.\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{}]} 1"
 						},
 						{
 							"type":"origins:execute_command",
