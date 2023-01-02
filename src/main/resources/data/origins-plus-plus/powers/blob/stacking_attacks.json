@@ -13,7 +13,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"/resource change @s origins-plus-plus:blob/stacking_attacks_cd -1"
+					"command":"resource change @s origins-plus-plus:blob/stacking_attacks_cd -1"
 				}
 			]
 		}
@@ -26,7 +26,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"/resource set @s origins-plus-plus:blob/stacking_attacks_stack 0"
+					"command":"resource set @s origins-plus-plus:blob/stacking_attacks_stack 0"
 				}
 			]
 		},
@@ -54,15 +54,15 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"/resource change @s origins-plus-plus:blob/stacking_attacks_stack 1"
+					"command":"resource change @s origins-plus-plus:blob/stacking_attacks_stack 1"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"/resource set @s origins-plus-plus:blob/stacking_attacks_cd 80"
+					"command":"resource set @s origins-plus-plus:blob/stacking_attacks_cd 80"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"/playsound minecraft:entity.player.attack.strong ambient @a ~ ~ ~ 5 1"
+					"command":"playsound minecraft:entity.player.attack.strong ambient @a ~ ~ ~ 5 1"
 				}
 			]
 		},
@@ -86,11 +86,11 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"/resource set @s origins-plus-plus:blob/stacking_attacks_stack 1"
+					"command":"resource set @s origins-plus-plus:blob/stacking_attacks_stack 1"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"/playsound minecraft:entity.iron_golem.hurt ambient @a ~ ~ ~ 10 1"
+					"command":"playsound minecraft:entity.iron_golem.hurt ambient @a ~ ~ ~ 10 1"
 				}
 			]
 		},

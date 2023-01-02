@@ -5,7 +5,7 @@
 		"entity_action_lost":{
 			"type":"origins:execute_command",
 			"permission_level":4,
-			"command":"/scale reset @s"
+			"command":"scale reset @s"
 		},
 		"entity_action_respawned":{
 			"type":"origins:and",
@@ -13,12 +13,12 @@
 				{
 					"type":"origins:execute_command",
 					"permission_level":4,
-					"command":"/scale set pehkui:height 1.11 @s"
+					"command":"scale set pehkui:height 1.11 @s"
 				},
 				{
 					"type":"origins:execute_command",
 					"permission_level":4,
-					"command":"/scale set pehkui:width 1.11 @s"
+					"command":"scale set pehkui:width 1.11 @s"
 				}
 			]
 		},
@@ -28,12 +28,12 @@
 				{
 					"type":"origins:execute_command",
 					"permission_level":4,
-					"command":"/scale set pehkui:height 1.11 @s"
+					"command":"scale set pehkui:height 1.11 @s"
 				},
 				{
 					"type":"origins:execute_command",
 					"permission_level":4,
-					"command":"/scale set pehkui:width 1.11 @s"
+					"command":"scale set pehkui:width 1.11 @s"
 				}
 			]
 		},
@@ -43,12 +43,12 @@
 				{
 					"type":"origins:execute_command",
 					"permission_level":4,
-					"command":"/scale set pehkui:height 1.11 @s"
+					"command":"scale set pehkui:height 1.11 @s"
 				},
 				{
 					"type":"origins:execute_command",
 					"permission_level":4,
-					"command":"/scale set pehkui:width 1.11 @s"
+					"command":"scale set pehkui:width 1.11 @s"
 				}
 			]
 		}

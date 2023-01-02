@@ -6,112 +6,112 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=two] at @s run tp @s ~ ~ ~-2"
+					"command":"execute as @e[type=minecraft:illusioner,tag=two] at @s run tp @s ~ ~ ~-2"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=two] at @s run tp @s ~ ~ ~2.3"
+					"command":"execute as @e[type=minecraft:illusioner,tag=two] at @s run tp @s ~ ~ ~2.3"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=one] at @s run tp @s ~ ~ ~-2"
+					"command":"execute as @e[type=minecraft:illusioner,tag=one] at @s run tp @s ~ ~ ~-2"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=one] at @s run tp @s ~ ~ ~-1"
+					"command":"execute as @e[type=minecraft:illusioner,tag=one] at @s run tp @s ~ ~ ~-1"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=three] at @s run tp @s ~-2.1 ~ ~"
+					"command":"execute as @e[type=minecraft:illusioner,tag=three] at @s run tp @s ~-2.1 ~ ~"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=three] at @s run tp @s ~-3 ~ ~"
+					"command":"execute as @e[type=minecraft:illusioner,tag=three] at @s run tp @s ~-3 ~ ~"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=four] at @s run tp @s ~-1 ~ ~"
+					"command":"execute as @e[type=minecraft:illusioner,tag=four] at @s run tp @s ~-1 ~ ~"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=four] at @s run tp @s ~2.3 ~ ~"
+					"command":"execute as @e[type=minecraft:illusioner,tag=four] at @s run tp @s ~2.3 ~ ~"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=two] at @s run tp @s ~ ~ ~-3"
+					"command":"execute as @e[type=minecraft:illusioner,tag=two] at @s run tp @s ~ ~ ~-3"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=two] at @s run tp @s ~ ~ ~1.3"
+					"command":"execute as @e[type=minecraft:illusioner,tag=two] at @s run tp @s ~ ~ ~1.3"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=one] at @s run tp @s ~ ~ ~2.6"
+					"command":"execute as @e[type=minecraft:illusioner,tag=one] at @s run tp @s ~ ~ ~2.6"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=one] at @s run tp @s ~ ~ ~2.3"
+					"command":"execute as @e[type=minecraft:illusioner,tag=one] at @s run tp @s ~ ~ ~2.3"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=three] at @s run tp @s ~-2.6 ~ ~"
+					"command":"execute as @e[type=minecraft:illusioner,tag=three] at @s run tp @s ~-2.6 ~ ~"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=three] at @s run tp @s ~-2 ~ ~"
+					"command":"execute as @e[type=minecraft:illusioner,tag=three] at @s run tp @s ~-2 ~ ~"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=four] at @s run tp @s ~-3 ~ ~"
+					"command":"execute as @e[type=minecraft:illusioner,tag=four] at @s run tp @s ~-3 ~ ~"
 				},
 				"weight":10
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"/execute as @e[type=minecraft:illusioner,tag=four] at @s run tp @s ~2.3 ~ ~"
+					"command":"execute as @e[type=minecraft:illusioner,tag=four] at @s run tp @s ~2.3 ~ ~"
 				},
 				"weight":10
 			}

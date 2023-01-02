@@ -8,7 +8,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"/summon item ~ ~ ~ {PickupDelay:30,Item:{id:bone,Count:1}}",
+					"command":"summon item ~ ~ ~ {PickupDelay:30,Item:{id:bone,Count:1}}",
 					"permission_level":4
 				},
 				{

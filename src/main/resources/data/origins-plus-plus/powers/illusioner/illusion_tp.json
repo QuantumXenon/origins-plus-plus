@@ -5,11 +5,11 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"/execute as @e[type=minecraft:illusioner,tag=one] at @p run tp @s ~2 ~ ~ facing entity @p"
+				"command":"execute as @e[type=minecraft:illusioner,tag=one] at @p run tp @s ~2 ~ ~ facing entity @p"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"/execute as @e[type=minecraft:illusioner,tag=two] at @p run tp @s ~ ~ ~-2 facing entity @p"
+				"command":"execute as @e[type=minecraft:illusioner,tag=two] at @p run tp @s ~ ~ ~-2 facing entity @p"
 			}
 		]
 	},

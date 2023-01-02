@@ -12,19 +12,19 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"one\"],NoAI:1}"
+				"command":"summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"one\"],NoAI:1}"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"/summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"two\"],NoAI:1}"
+				"command":"summon minecraft:illusioner ~ ~ ~ {Silent:1,Invulnerable:1,Tags:[\"two\"],NoAI:1}"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"/playsound minecraft:entity.illusioner.cast_spell player @s"
+				"command":"playsound minecraft:entity.illusioner.cast_spell player @s"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"/effect give @s minecraft:invisibility 99999 25 true"
+				"command":"effect give @s minecraft:invisibility 99999 25 true"
 			},
 			{
 				"type":"origins:delay",
@@ -34,15 +34,15 @@
 					"actions":[
 						{
 							"type":"origins:execute_command",
-							"command":"/execute at @s run kill @e[type=minecraft:illusioner,distance=..3]"
+							"command":"execute at @s run kill @e[type=minecraft:illusioner,distance=..3]"
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"/playsound minecraft:enchant.thorns.hit player @s"
+							"command":"playsound minecraft:enchant.thorns.hit player @s"
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"/effect clear @s minecraft:invisibility"
+							"command":"effect clear @s minecraft:invisibility"
 						}
 					]
 				}

@@ -5,7 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"/effect give @e[distance=0.1..30] minecraft:slowness 5 155 true",
+				"command":"effect give @e[distance=0.1..30] minecraft:slowness 5 155 true",
 				"permission_level":4
 			}
 		]

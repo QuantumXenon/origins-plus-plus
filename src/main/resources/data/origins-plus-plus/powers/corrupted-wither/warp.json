@@ -5,24 +5,24 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"/function origins-plus-plus:corrupted-wither/start",
+				"command":"function origins-plus-plus:corrupted-wither/start",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"/function origins-plus-plus:corrupted-wither/save_motion",
+				"command":"function origins-plus-plus:corrupted-wither/save_motion",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"/function origins-plus-plus:corrupted-wither/init",
+				"command":"function origins-plus-plus:corrupted-wither/init",
 				"permission_level":4
 			},
 			{
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"command":"/function origins-plus-plus:corrupted-wither/stop",
+					"command":"function origins-plus-plus:corrupted-wither/stop",
 					"permission_level":4
 				},
 				"ticks":1000
@@ -31,7 +31,7 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"command":"/function origins-plus-plus:corrupted-wither/resume_motion",
+					"command":"function origins-plus-plus:corrupted-wither/resume_motion",
 					"permission_level":4
 				},
 				"ticks":1000
@@ -40,7 +40,7 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"command":"/function origins-plus-plus:corrupted-wither/init",
+					"command":"function origins-plus-plus:corrupted-wither/init",
 					"permission_level":4
 				},
 				"ticks":1000
