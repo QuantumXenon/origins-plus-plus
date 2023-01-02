@@ -17,7 +17,7 @@
 			},
 			"if_action":{
 				"type":"origins:execute_command",
-				"command":"scale set pehkui:reach 26 @s",
+				"command":"scale set pehkui:reach 16 @s",
 				"permission_level":4
 			},
 			"else_action":{
