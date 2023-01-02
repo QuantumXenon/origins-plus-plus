@@ -1,0 +1,1 @@
+summon endermite ~ ~1 ~ {CustomName:"\"Manamite\""}
