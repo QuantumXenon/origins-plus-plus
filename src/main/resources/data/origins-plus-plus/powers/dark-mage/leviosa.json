@@ -8,12 +8,12 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..15] minecraft:levitation 3 3",
+				"command":"effect give @e[distance=1..16] minecraft:levitation 3 3",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..15] minecraft:weakness 3 2",
+				"command":"effect give @e[distance=1..16] minecraft:weakness 3 2",
 				"permission_level":4
 			},
 			{
