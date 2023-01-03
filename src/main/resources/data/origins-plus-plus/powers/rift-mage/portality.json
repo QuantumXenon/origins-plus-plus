@@ -61,7 +61,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute if entity @e[tag=lpm_Portality,distance=20..22] run title @s actionbar {\"text\":\"You are venturing too far from your rift!\"}"
+			"command":"execute if entity @e[tag=lpm_Portality,distance=20..22] run title @s actionbar {\"translate\":\"origins-plus-plus.rift-mage.message\"}"
 		},
 		"interval":1
 	},

@@ -14,7 +14,7 @@
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"tellraw @s {\"text\":\"Your senses discovered a diamond.\"}"
+							"command":"tellraw @s {\"translate\":\"origins-plus-plus.bedrockean.diamond\"}"
 						}
 					]
 				},
@@ -27,45 +27,11 @@
 					"actions":[
 						{
 							"type":"origins:execute_command",
-							"command":"give @s minecraft:iron_nugget 1"
-						},
-						{
-							"type":"origins:execute_command",
-							"command":"tellraw @s {\"text\":\"Your senses discovered a sliver of iron.\"}"
-						}
-					]
-				},
-				"chance":0.03
-			},
-			{
-				"type":"origins:chance",
-				"action":{
-					"type":"origins:and",
-					"actions":[
-						{
-							"type":"origins:execute_command",
-							"command":"give @s minecraft:gold_nugget 1"
-						},
-						{
-							"type":"origins:execute_command",
-							"command":"tellraw @s {\"text\":\"Your senses discovered a sliver of gold.\"}"
-						}
-					]
-				},
-				"chance":0.02
-			},
-			{
-				"type":"origins:chance",
-				"action":{
-					"type":"origins:and",
-					"actions":[
-						{
-							"type":"origins:execute_command",
 							"command":"give @s minecraft:coal 1"
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"tellraw @s {\"text\":\"Your senses discovered a chunk of coal.\"}"
+							"command":"tellraw @s {\"translate\":\"origins-plus-plus.bedrockean.coal\"}"
 						}
 					]
 				},
@@ -82,7 +48,7 @@
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"tellraw @s {\"text\":\"Your senses discovered some lapis.\"}"
+							"command":"tellraw @s {\"translate\":\"origins-plus-plus.bedrockean.lapis\"}"
 						}
 					]
 				},
@@ -99,7 +65,7 @@
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"tellraw @s {\"text\":\"Your senses discovered some redstone powder.\"}"
+							"command":"tellraw @s {\"translate\":\"origins-plus-plus.bedrockean.redstone\"}"
 						}
 					]
 				},
@@ -116,7 +82,7 @@
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"tellraw @s {\"text\":\"Your senses discovered an emerald.\"}"
+							"command":"tellraw @s {\"translate\":\"origins-plus-plus.bedrockean.emerald\"}"
 						}
 					]
 				},
@@ -133,7 +99,7 @@
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"tellraw @s {\"text\":\"Your senses discovered a chunk of iron.\"}"
+							"command":"tellraw @s {\"translate\":\"origins-plus-plus.bedrockean.iron\"}"
 						}
 					]
 				},
@@ -150,7 +116,7 @@
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"tellraw @s {\"text\":\"Your senses discovered a chunk of gold.\"}"
+							"command":"tellraw @s {\"translate\":\"origins-plus-plus.bedrockean.gold\"}"
 						}
 					]
 				},
@@ -163,11 +129,11 @@
 					"actions":[
 						{
 							"type":"origins:execute_command",
-							"command":"give @s totem_of_undying{display:{Name:'[{\"text\":\"Dusty Idol\",\"italic\":true,\"color\":\"#ffffcc\"}]',Lore:['[{\"text\":\"A dusty miniature statue made\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"of \",\"italic\":false,\"color\":\"white\"},{\"text\":\"gold\",\"color\":\"yellow\"},{\"text\":\" with \"},{\"text\":\"emerald eyes\",\"color\":\"green\"},{\"text\":\".\",\"color\":\"white\"}]','[{\"text\":\"Something tells you this\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"should stay with you.\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{}]} 1"
+							"command":"give @s totem_of_undying{display:{Name:'[{\"translate\":\"origins-plus-plus.bedrockean.totem_of_undying.name\",\"color\":\"#ffffcc\"}]',Lore:['[{\"translate\":\"origins-plus-plus.bedrockean.totem_of_undying.lore\"}]']},Enchantments:[{}]} 1"
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"tellraw @s {\"text\":\"Your senses discovered some sort of dusty miniature statue.\"}"
+							"command":"tellraw @s {\"translate\":\"origins-plus-plus.bedrockean.totem_of_undying\"}"
 						}
 					]
 				},

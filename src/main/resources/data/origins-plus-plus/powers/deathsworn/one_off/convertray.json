@@ -25,7 +25,7 @@
 							},
 							{
 								"type":"origins:entity_type",
-								"entity_type":"player",
+								"entity_type":"minecraft:player",
 								"inverted":true
 							}
 						]

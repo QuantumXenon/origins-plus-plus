@@ -14,11 +14,11 @@
 					},
 					"if_action":{
 						"type":"origins:execute_command",
-						"command":"title @s actionbar {\"color\": \"blue\", \"text\": \"Water\"}"
+						"command":"title @s actionbar {\"color\": \"blue\", \"translate\": \"origins-plus-plus.automaton.water\"}"
 					},
 					"else_action":{
 						"type":"origins:execute_command",
-						"command":"title @s actionbar {\"color\": \"red\", \"text\": \"Fire\"}"
+						"command":"title @s actionbar {\"color\": \"red\", \"translate\": \"origins-plus-plus.automaton.fire\"}"
 					}
 				}
 			},

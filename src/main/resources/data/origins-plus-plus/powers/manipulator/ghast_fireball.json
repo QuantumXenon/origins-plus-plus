@@ -76,7 +76,7 @@
 		"interval":1,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"title @s actionbar {\"text\":\"Fireballs\",\"color\":\"gold\"}"
+			"command":"title @s actionbar {\"translate\":\"origins-plus-plus.manipulator.ghast_fireball\",\"color\":\"gold\"}"
 		},
 		"condition":{
 			"type":"origins:resource",

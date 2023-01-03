@@ -15,7 +15,7 @@
             "type":"origins:target_condition",
             "condition":{
                 "type":"origins:entity_type",
-                "entity_type":"iron_golem"
+                "entity_type":"minecraft:iron_golem"
             }
         }
     },

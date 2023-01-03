@@ -6,7 +6,7 @@
 			"type":"origins:actor_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+				"command":"title @s actionbar {\"translate\": \"origins-plus-plus.enigma.message\", \"color\": \"red\"}"
 			}
 		},
 		"bientity_condition":{
@@ -23,7 +23,7 @@
 			"type":"origins:actor_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+				"command":"title @s actionbar {\"translate\": \"origins-plus-plus.enigma.message\", \"color\": \"red\"}"
 			}
 		},
 		"bientity_condition":{
@@ -40,7 +40,7 @@
 			"type":"origins:actor_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+				"command":"title @s actionbar {\"translate\": \"origins-plus-plus.enigma.message\", \"color\": \"red\"}"
 			}
 		},
 		"bientity_condition":{
@@ -57,7 +57,7 @@
 			"type":"origins:actor_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+				"command":"title @s actionbar {\"translate\": \"origins-plus-plus.enigma.message\", \"color\": \"red\"}"
 			}
 		},
 		"bientity_condition":{
@@ -74,7 +74,7 @@
 			"type":"origins:actor_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+				"command":"title @s actionbar {\"translate\": \"origins-plus-plus.enigma.message\", \"color\": \"red\"}"
 			}
 		},
 		"bientity_condition":{
@@ -91,7 +91,7 @@
 			"type":"origins:actor_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"title @s actionbar {\"text\": \"Don't speak to me or my son ever again\", \"color\": \"red\"}"
+				"command":"title @s actionbar {\"translate\": \"origins-plus-plus.enigma.message\", \"color\": \"red\"}"
 			}
 		},
 		"bientity_condition":{

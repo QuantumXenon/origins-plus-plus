@@ -4,7 +4,7 @@
 		"type":"origins:chance",
 		"action":{
 			"type":"origins:execute_command",
-			"command":"item replace entity @s weapon.mainhand with minecraft:wooden_hoe{display:{Name:'{\"text\":\"Yoinked\"}',Lore:['{\"text\":\"I have always been a wooden hoe\"}','{\"color\":\"red\",\"text\":\"What are you talking about?\"}']}} 1"
+			"command":"item replace entity @s weapon.mainhand with minecraft:wooden_hoe{display:{Name:'{\"translate\":\"origins-plus-plus.mouse.name\"}',Lore:['[{\"translate\":\"origins-plus-plus.mouse.lore_1\"}','{\"color\":\"red\",\"translate\":\"origins-plus-plus.mouse.lore_2\"}]']}} 1"
 		},
 		"chance":0.005
 	},

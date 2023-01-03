@@ -75,7 +75,7 @@
 		"interval":1,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"title @s actionbar {\"text\":\"Enderdragon Fireball\",\"color\":\"dark_purple\"}"
+			"command":"title @s actionbar {\"translate\":\"origins-plus-plus.manipulator.enderdragon_fireball\",\"color\":\"dark_purple\"}"
 		},
 		"condition":{
 			"type":"origins:resource",

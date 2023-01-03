@@ -4,7 +4,7 @@
 		"type":"origins:entity_glow",
 		"entity_condition":{
 			"type":"origins:entity_type",
-			"entity_type":"player"
+			"entity_type":"minecraft:player"
 		},
 		"condition":{
 			"type":"origins:sneaking"

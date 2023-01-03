@@ -1,7 +1,7 @@
 {
 	"type":"origins:fire_projectile",
 	"entity_type":"minecraft:arrow",
-	"tag":"{life:1000,pickup:0b,CustomPotionColor:3702861,CustomPotionEffects:[{Id:19,Duration:100,Amplifier:1,Ambient:1},{Id:18,Duration:100,Amplifier:0,Ambient:1}],display:{Name:'[{\"text\":\"Cobra Venom\"}]'}}",
+	"tag":"{life:1000,pickup:0b,CustomPotionColor:3702861,CustomPotionEffects:[{Id:19,Duration:100,Amplifier:1,Ambient:1},{Id:18,Duration:100,Amplifier:0,Ambient:1}]}",
 	"cooldown":100,
 	"hud_render":{
 		"should_render":true,

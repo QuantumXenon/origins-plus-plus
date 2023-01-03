@@ -64,7 +64,7 @@
 		"interval":1,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"title @s actionbar {\"text\":\"Dirt Enclosure\",\"color\":\"#673B29\"}"
+			"command":"title @s actionbar {\"translate\":\"origins-plus-plus.manipulator.dirt_hut\",\"color\":\"#673B29\"}"
 		},
 		"condition":{
 			"type":"origins:resource",
