@@ -17,8 +17,7 @@
 	"upgrades":[
 		{
 			"condition":"minecraft:end/kill_dragon",
-			"origin":"origins-plus-plus:shroomling",
-			"announcement":"After killing the ender dragon, you've grown into your final form: A small mushroom!"
+			"origin":"origins-plus-plus:shroomling"
 		}
 	]
 }

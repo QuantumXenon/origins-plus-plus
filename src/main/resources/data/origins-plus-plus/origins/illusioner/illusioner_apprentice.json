@@ -15,8 +15,7 @@
 	"upgrades":[
 		{
 			"condition":"minecraft:story/enter_the_nether",
-			"origin":"origins-plus-plus:illusioner/illusioner_master",
-			"announcement":"You have unlocked your true potential ands evolved into a Master Illusioner"
+			"origin":"origins-plus-plus:illusioner/illusioner_master"
 		}
 	],
 	"icon":"minecraft:potion",
