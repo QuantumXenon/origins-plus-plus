@@ -4,7 +4,7 @@
 	"power":{
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
-		"cooldown":1200,
+		"cooldown":300,
 		"entity_action":{
 			"type":"origins:equipped_item_action",
 			"equipment_slot":"offhand",

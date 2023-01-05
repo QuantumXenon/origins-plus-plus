@@ -4,7 +4,7 @@
 	"power":{
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
-		"cooldown":1200,
+		"cooldown":300,
 		"hud_render":{
 			"should_render":true,
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
@@ -64,7 +64,7 @@
 		"interval":1,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"title @s actionbar {\"translate\":\"origins-plus-plus.manipulator.dirt_hut\",\"color\":\"#673B29\"}"
+			"command":"title @s actionbar {\"translate\":\"origins-plus-plus.manipulator.dirt_hut\",\"color\":\"dark_green\"}"
 		},
 		"condition":{
 			"type":"origins:resource",

@@ -4,7 +4,7 @@
 	"power":{
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
-		"cooldown":1200,
+		"cooldown":300,
 		"hud_render":{
 			"should_render":true,
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
@@ -25,7 +25,7 @@
 					"type":"origins:apply_effect",
 					"effect":{
 						"effect":"minecraft:resistance",
-						"duration":300,
+						"duration":150,
 						"amplifier":1,
 						"show_particles":false,
 						"show_icon":false
