@@ -14,7 +14,7 @@
 					},
 					"if_action":{
 						"type":"origins:execute_command",
-						"command":"title @s actionbar {\"color\": \"blue\", \"translate\": \"origins-plus-plus.automaton.water\"}"
+						"command":"title @s actionbar {\"color\": \"dark_aqua\", \"translate\": \"origins-plus-plus.automaton.water\"}"
 					},
 					"else_action":{
 						"type":"origins:execute_command",

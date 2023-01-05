@@ -1,10 +1,4 @@
 {
-	"badges":[
-		{
-			"sprite":"origins:textures/gui/badge/info.png",
-			"text":"Helmet \n ----- \n §6■ §6■ §6■ \n §6■ §fo §6■ \n o o o \n ----- \n Chestplate \n ----- \n §6■ §fo §6■ \n §6■ §6■ §6■ \n §6■ §6■ §6■ \n ----- \n Leggings \n ----- \n §6■ §6■ §6■ \n §6■ §fo §6■ \n §6■ §fo §6■ \n ----- \n Boots \n ----- \n o o o \n §6■ §fo §6■ \n §6■ §fo §6■ \n \n Gold block = §6■ \n  Air = §fo"
-		}
-	],
 	"type":"origins:multiple",
 	"armor_restriction":{
 		"condition":{

@@ -3,7 +3,7 @@
 	"badges":[
 		{
 			"sprite":"origins:textures/gui/badge/star.png",
-			"text":"Tier 1 Secondary Power"
+			"translate":"origins-plus-plus.illusioner.secondary_1"
 		}
 	],
 	"entity_type":"minecraft:arrow",

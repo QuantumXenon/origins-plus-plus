@@ -7,7 +7,7 @@ execute if entity @s[nbt={variant:"minecraft:fighters"}] run summon drowned ^-1 
 
 execute if entity @s[nbt={variant:"minecraft:wanderer"}] run summon enderman ^1 ^ ^0.75 {Team:"lwi_Witch"}
 
-execute if entity @s[nbt={variant:"minecraft:graham"}] run summon zombie ^ ^ ^0.75 {CustomName:'{"text":"Gnome"}',Team:"lwi_Witch"}
+execute if entity @s[nbt={variant:"minecraft:graham"}] run summon zombie ^ ^ ^0.75 {CustomName:'{"translate":"origins-plus-plus.witch-of-ink.gnome"}',Team:"lwi_Witch"}
 
 execute if entity @s[nbt={variant:"minecraft:courbet"}] run summon stray ^1 ^ ^0.75 {HandItems:[{id:"stone_pickaxe"}],Team:"lwi_Witch"}
 execute if entity @s[nbt={variant:"minecraft:courbet"}] run summon stray ^-1 ^ ^0.75 {HandItems:[{id:"stone_pickaxe"}],Team:"lwi_Witch"}

@@ -5,7 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"give @s minecraft:iron_sword{display:{Name:'{\"translate\":\"origins-plus-plus.lost-draconian.sword.name\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":true}',Lore:['{\"translate\":\"origins-plus-plus.lost-draconian.sword.lore\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":true}']},HideFlags:5,Damage:225,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:sweeping_edge\",lvl:2s},{id:\"minecraft:vanishing_curse\",lvl:1s}]} 1",
+				"command":"give @s minecraft:iron_sword{display:{Name:'{\"translate\":\"origins-plus-plus.lost-draconian.sword.name\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":true}',Lore:['{\"translate\":\"origins-plus-plus.lost-draconian.sword.lore\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":true}']},HideFlags:5,Damage:225,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:sweeping_edge\",lvl:2s},{id:\"minecraft:vanishing_curse\",lvl:1s}]} 1",
 				"permission_level":4
 			},
 			{
@@ -20,7 +20,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"give @s minecraft:iron_sword{display:{Name:'{\"translate\":\"origins-plus-plus.lost-draconian.sword.name\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":true}',Lore:['{\"translate\":\"origins-plus-plus.lost-draconian.sword.lore\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":true}']},HideFlags:5,Damage:225,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:sweeping_edge\",lvl:2s},{id:\"minecraft:vanishing_curse\",lvl:1s}]} 1",
+				"command":"give @s minecraft:iron_sword{display:{Name:'{\"translate\":\"origins-plus-plus.lost-draconian.sword.name\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":true}',Lore:['{\"translate\":\"origins-plus-plus.lost-draconian.sword.lore\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":true}']},HideFlags:5,Damage:225,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:sweeping_edge\",lvl:2s},{id:\"minecraft:vanishing_curse\",lvl:1s}]} 1",
 				"permission_level":4
 			},
 			{

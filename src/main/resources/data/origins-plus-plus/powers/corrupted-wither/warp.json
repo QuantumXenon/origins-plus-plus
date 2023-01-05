@@ -14,11 +14,6 @@
 				"permission_level":4
 			},
 			{
-				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:corrupted-wither/init",
-				"permission_level":4
-			},
-			{
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
@@ -32,15 +27,6 @@
 				"action":{
 					"type":"origins:execute_command",
 					"command":"function origins-plus-plus:corrupted-wither/resume_motion",
-					"permission_level":4
-				},
-				"ticks":1000
-			},
-			{
-				"type":"origins:delay",
-				"action":{
-					"type":"origins:execute_command",
-					"command":"function origins-plus-plus:corrupted-wither/init",
 					"permission_level":4
 				},
 				"ticks":1000
