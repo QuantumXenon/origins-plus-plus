@@ -14,7 +14,7 @@
 	],
 	"upgrades":[
 		{
-			"condition":"minecraft:story/enter_the_nether",
+			"condition":"minecraft:end/root",
 			"origin":"origins-plus-plus:illusioner/illusioner_master"
 		}
 	],

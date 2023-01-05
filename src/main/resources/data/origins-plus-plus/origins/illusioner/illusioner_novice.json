@@ -13,7 +13,7 @@
 	],
 	"upgrades":[
 		{
-			"condition":"minecraft:adventure/shoot_arrow",
+			"condition":"minecraft:story/enter_the_nether",
 			"origin":"origins-plus-plus:illusioner/illusioner_apprentice"
 		}
 	],
