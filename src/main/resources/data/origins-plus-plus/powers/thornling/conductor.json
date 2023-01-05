@@ -97,46 +97,46 @@
 				"item":"minecraft:golden_chestplate",
 				"tag":"{display:{Name:'{\"translate\":\"origins-plus-plus.thornling.chestplate\",\"color\":\"gold\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-536033501,378225528,-1721061264,-2116139236],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1310489646,334906766,-1362473662,-1949740679],Slot:\"chest\"}]}"
 			}
-		},
-		"legging_recipe":{
-			"type":"origins:recipe",
-			"recipe":{
-				"id":"origins-plus-plus:golden_leggings",
-				"type":"minecraft:crafting_shaped",
-				"pattern":[
-					"###",
-					"# #",
-					"# #"
-				],
-				"key":{
-					"#":{
-						"item":"minecraft:gold_block"
-					}
-				},
-				"result":{
-					"item":"minecraft:golden_leggings",
-					"tag":"{display:{Name:'{\"translate\":\"origins-plus-plus.thornling.leggings\",\"color\":\"gold\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1568893685,1818182543,-1281870321,144177635],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;143063682,886590726,-1658773849,-963779286],Slot:\"legs\"}]}"
+		}
+	},
+	"legging_recipe":{
+		"type":"origins:recipe",
+		"recipe":{
+			"id":"origins-plus-plus:golden_leggings",
+			"type":"minecraft:crafting_shaped",
+			"pattern":[
+				"###",
+				"# #",
+				"# #"
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:gold_block"
 				}
 			},
-			"boots_recipe":{
-				"type":"origins:recipe",
-				"recipe":{
-					"id":"origins-plus-plus:golden_boots",
-					"type":"minecraft:crafting_shaped",
-					"pattern":[
-						"# #",
-						"# #"
-					],
-					"key":{
-						"#":{
-							"item":"minecraft:gold_block"
-						}
-					},
-					"result":{
-						"item":"minecraft:golden_boots",
-						"tag":"{display:{Name:'{\"translate\":\"origins-plus-plus.thornling.boots\",\"color\":\"gold\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;260439195,-379695211,-1122037136,-1998936268],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1522722594,2078231782,-1972892161,1264123739],Slot:\"feet\"}]}"
-					}
+			"result":{
+				"item":"minecraft:golden_leggings",
+				"tag":"{display:{Name:'{\"translate\":\"origins-plus-plus.thornling.leggings\",\"color\":\"gold\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1568893685,1818182543,-1281870321,144177635],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;143063682,886590726,-1658773849,-963779286],Slot:\"legs\"}]}"
+			}
+		}
+	},
+	"boots_recipe":{
+		"type":"origins:recipe",
+		"recipe":{
+			"id":"origins-plus-plus:golden_boots",
+			"type":"minecraft:crafting_shaped",
+			"pattern":[
+				"# #",
+				"# #"
+			],
+			"key":{
+				"#":{
+					"item":"minecraft:gold_block"
 				}
+			},
+			"result":{
+				"item":"minecraft:golden_boots",
+				"tag":"{display:{Name:'{\"translate\":\"origins-plus-plus.thornling.boots\",\"color\":\"gold\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;260439195,-379695211,-1122037136,-1998936268],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1522722594,2078231782,-1972892161,1264123739],Slot:\"feet\"}]}"
 			}
 		}
 	}
