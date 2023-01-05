@@ -275,7 +275,7 @@
 	"origins-plus-plus.bedrockean.redstone":"Your senses discovered some redstone dust.",
 	"origins-plus-plus.bedrockean.totem_of_undying":"Your senses discovered some sort of dusty, miniature statue.",
 	"origins-plus-plus.bedrockean.totem_of_undying.name":"Dusty Idol",
-	"origins-plus-plus.bedrockean.totem_of_undying.lore":"A dusty miniature statue made of §6gold§r with §2emerald eyes§r. Something tells you this should stay with you.",
+	"origins-plus-plus.bedrockean.totem_of_undying.lore":"§fA dusty miniature statue made of §6gold §fwith §2emerald eyes§f.\nSomething tells you this should stay with you.§r",
 	"origins-plus-plus.book.mana_potions":"§nMana Potions:§r\nYou can drink mana potions to refill your mana. There are 2 types: the basic mana potion and the super mana potion.\n\n§lBasic Potion:§r Honey Bottle in your offhand. §o(100 mana)§r\n§lSuper Potion:§r Dragon Breath in your offhand. §o(250 mana)§r",
 	"origins-plus-plus.brokenKeybindsMessage":"Warning! Keybinds are broken in this version of Origins (Forge). Please upgrade to Minecraft 1.19.2 and Origins (Forge) 1.5.0.6.",
 	"origins-plus-plus.dark-mage.book.absorption":"§nAbsorption:§r\nYou can use this spell to temporarily get absorption and resistance!\n\nItem: Golden Apple in your offhand.",
