@@ -52,7 +52,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:portal~ ~ ~ 2 2 2 0 100",
+				"command":"particle minecraft:portal ~ ~ ~ 1 1 1 1 200 normal",
 				"permission_level":4
 			}
 		]

@@ -11,7 +11,7 @@
 		},
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:calamitous_rogue/stealth_bar",
+			"resource":"origins-plus-plus:calamitous-rogue/stealth_bar",
 			"compare_to":5,
 			"comparison":"=="
 		},
@@ -179,7 +179,7 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:calamitous_rogue/stealth_bar",
+					"resource":"origins-plus-plus:calamitous-rogue/stealth_bar",
 					"compare_to":5,
 					"comparison":"=="
 				}
@@ -229,7 +229,7 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:calamitous_rogue/stealth_bar",
+					"resource":"origins-plus-plus:calamitous-rogue/stealth_bar",
 					"compare_to":5,
 					"comparison":"=="
 				}
@@ -270,7 +270,7 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:calamitous_rogue/stealth_bar",
+					"resource":"origins-plus-plus:calamitous-rogue/stealth_bar",
 					"compare_to":5,
 					"comparison":"=="
 				}
