@@ -36,7 +36,7 @@
 				"ticks":18,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"execute at @e[tag=!wailself,distance=..8] run effect give @e[tag=!wailself,distance=..8] instant_damage 1 0 true"
+					"command":"execute at @e[tag=!wailself,distance=..8] run effect give @e[tag=!wailself,distance=..8] minecraft:instant_damage 1 0 true"
 				}
 			},
 			{
@@ -44,7 +44,7 @@
 				"ticks":20,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"execute at @e[tag=!wailself,distance=..8] run effect give @e[tag=!wailself,distance=..8] wither 10 2 true"
+					"command":"execute at @e[tag=!wailself,distance=..8] run effect give @e[tag=!wailself,distance=..8] minecraft:wither 10 2 true"
 				}
 			},
 			{

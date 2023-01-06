@@ -55,7 +55,7 @@
 		"interval":1,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"effect give @s blindness 2 1 true"
+			"command":"effect give @s minecraft:blindness 2 1 true"
 		},
 		"condition":{
 			"type":"origins:or",

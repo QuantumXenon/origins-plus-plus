@@ -129,7 +129,7 @@
 					"actions":[
 						{
 							"type":"origins:execute_command",
-							"command":"give @s totem_of_undying{display:{Name:'[{\"translate\":\"origins-plus-plus.bedrockean.totem_of_undying.name\",\"color\":\"#ffffcc\"}]',Lore:['[{\"translate\":\"origins-plus-plus.bedrockean.totem_of_undying.lore\"}]']},Enchantments:[{}]} 1"
+							"command":"give @s minecraft:totem_of_undying{display:{Name:'[{\"translate\":\"origins-plus-plus.bedrockean.totem_of_undying.name\",\"color\":\"#ffffcc\"}]',Lore:['[{\"translate\":\"origins-plus-plus.bedrockean.totem_of_undying.lore\"}]']},Enchantments:[{}]} 1"
 						},
 						{
 							"type":"origins:execute_command",

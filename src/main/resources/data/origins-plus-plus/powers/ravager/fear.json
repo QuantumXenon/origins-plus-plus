@@ -12,12 +12,12 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_negative',Value:110}]}",
+					"command":"execute at @s as @e[type=minecraft:villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_negative',Value:110}]}",
 					"permission_level":2
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p UUID",
+					"command":"execute at @s as @e[type=minecraft:villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p UUID",
 					"permission_level":2
 				}
 			]

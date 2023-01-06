@@ -46,7 +46,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"give @s bucket 1",
+					"command":"give @s minecraft:bucket 1",
 					"permission_level":4
 				}
 			]

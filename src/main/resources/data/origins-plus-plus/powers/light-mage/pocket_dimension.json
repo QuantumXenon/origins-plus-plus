@@ -224,7 +224,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"tp @s @e[type=armor_stand,tag=back,sort=nearest,limit=1]",
+					"command":"tp @s @e[type=minecraft:armor_stand,tag=back,sort=nearest,limit=1]",
 					"permission_level":4
 				},
 				{
@@ -297,7 +297,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"tp @e[tag=tppocket] @e[type=armor_stand,tag=back,sort=nearest,limit=1]",
+					"command":"tp @e[tag=tppocket] @e[type=minecraft:armor_stand,tag=back,sort=nearest,limit=1]",
 					"permission_level":4
 				},
 				{

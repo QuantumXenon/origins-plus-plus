@@ -24,7 +24,7 @@
 		"interval":20,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"team join passive_enderman @e[type=enderman,nbt={HurtByTimestamp:0}]"
+			"command":"team join passive_enderman @e[type=minecraft:enderman,nbt={HurtByTimestamp:0}]"
 		}
 	},
 	"leave_team":{
@@ -34,7 +34,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team leave @s[type=enderman]"
+					"command":"team leave @s[type=minecraft:enderman]"
 				},
 				{
 					"type":"origins:delay",

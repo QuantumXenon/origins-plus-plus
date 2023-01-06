@@ -23,7 +23,7 @@
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"execute at @e[type=vex] run summon snowball ~ ~1.5 ~ {Motion:[0.0,-1.0,0.0],damage:0,life:1200}"
+				"command":"execute at @e[type=minecraft:vex] run summon snowball ~ ~1.5 ~ {Motion:[0.0,-1.0,0.0],damage:0,life:1200}"
 			},
 			{
 				"type":"origins:execute_command",
@@ -33,117 +33,117 @@
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"execute at @e[type=vex] run summon snowball ~ ~1.5 ~ {Motion:[0.0,-1.0,0.0],damage:0,life:1200}"
+				"command":"execute at @e[type=minecraft:vex] run summon snowball ~ ~1.5 ~ {Motion:[0.0,-1.0,0.0],damage:0,life:1200}"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:zombie,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:zombie,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:skeleton,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:skeleton,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:iron_golem,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:iron_golem,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:spider,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:spider,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:cave_spider,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:cave_spider,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:enderman,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:enderman,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:endermite,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:endermite,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:guardian,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:guardian,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:elder_guardian,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:elder_guardian,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:shulker,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:shulker,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:husk,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:husk,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:stray,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:stray,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:phantom,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:phantom,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:blaze,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:blaze,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:ghast,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:ghast,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:magma_cube,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:magma_cube,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:silverfish,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:silverfish,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:slime,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:slime,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:zombie_villager,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:zombie_villager,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:drowned,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:drowned,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:wither_skeleton,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:wither_skeleton,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"data modify entity @e[type=snowball,limit=1] Owner set from entity @e[type=minecraft:zoglin,limit=1] UUID"
+				"command":"data modify entity @e[type=minecraft:snowball,limit=1] Owner set from entity @e[type=minecraft:zoglin,limit=1] UUID"
 			},
 			{
 				"type":"origins:execute_command",

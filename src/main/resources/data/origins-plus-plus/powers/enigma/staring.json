@@ -22,7 +22,7 @@
 					},
 					{
 						"type":"origins:execute_command",
-						"command":"effect give @s glowing 1 1 true"
+						"command":"effect give @s minecraft:glowing 1 1 true"
 					}
 				]
 			}

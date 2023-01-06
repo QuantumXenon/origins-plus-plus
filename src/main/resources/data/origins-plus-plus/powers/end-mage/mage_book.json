@@ -6,7 +6,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"give @s written_book{pages:['{\"translate\":\"origins-plus-plus.end-mage.book.welcome\"}','{\"translate\":\"origins-plus-plus.book.mana_potions\"}','{\"translate\":\"origins-plus-plus.end-mage.book.hidden_crafts\"}','{\"translate\":\"origins-plus-plus.end-mage.book.infinite_range\"}','{\"translate\":\"origins-plus-plus.end-mage.book.waypoint\"}'],title:\"Hidden Knowledge\",author:\"End Mage\"}",
+				"command":"give @s minecraft:written_book{pages:['{\"translate\":\"origins-plus-plus.end-mage.book.welcome\"}','{\"translate\":\"origins-plus-plus.book.mana_potions\"}','{\"translate\":\"origins-plus-plus.end-mage.book.hidden_crafts\"}','{\"translate\":\"origins-plus-plus.end-mage.book.infinite_range\"}','{\"translate\":\"origins-plus-plus.end-mage.book.waypoint\"}'],title:\"Hidden Knowledge\",author:\"End Mage\"}",
 				"permission_level":4
 			},
 			{

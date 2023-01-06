@@ -20,7 +20,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s slow_falling 99999 0 true",
+				"command":"effect give @s minecraft:slow_falling 99999 0 true",
 				"permission_level":4
 			}
 		]

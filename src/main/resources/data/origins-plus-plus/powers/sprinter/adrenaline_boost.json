@@ -30,7 +30,7 @@
 				"ticks":400,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect give @s instant_damage 1 1 false"
+					"command":"effect give @s minecraft:instant_damage 1 1 false"
 				}
 			}
 		]

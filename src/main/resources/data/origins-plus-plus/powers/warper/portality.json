@@ -162,7 +162,7 @@
 						"comparison":">=",
 						"compare_to":1,
 						"permission_level":4,
-						"command":"execute at @e[tag=portal1,limit=1,sort=nearest] as @e[tag=portal1,limit=1,sort=nearest] if entity @e[distance=..1,type=!armor_stand,type=!minecraft:area_effect_cloud]"
+						"command":"execute at @e[tag=portal1,limit=1,sort=nearest] as @e[tag=portal1,limit=1,sort=nearest] if entity @e[distance=..1,type=!minecraft:armor_stand,type=!minecraft:area_effect_cloud]"
 					},
 					"action":{
 						"type":"origins:delay",
@@ -200,7 +200,7 @@
 						"comparison":">=",
 						"compare_to":1,
 						"permission_level":4,
-						"command":"execute at @e[tag=portal2,limit=1,sort=nearest] as @e[tag=portal2,limit=1,sort=nearest] if entity @e[distance=..1,type=!armor_stand,type=!minecraft:area_effect_cloud]"
+						"command":"execute at @e[tag=portal2,limit=1,sort=nearest] as @e[tag=portal2,limit=1,sort=nearest] if entity @e[distance=..1,type=!minecraft:armor_stand,type=!minecraft:area_effect_cloud]"
 					},
 					"action":{
 						"type":"origins:delay",

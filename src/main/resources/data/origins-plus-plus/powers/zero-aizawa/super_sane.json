@@ -33,7 +33,7 @@
 				"ticks":221,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect give @s slowness 10 1 false"
+					"command":"effect give @s minecraft:slowness 10 1 false"
 				}
 			},
 			{
@@ -41,7 +41,7 @@
 				"ticks":221,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect give @s weakness 10 0 false"
+					"command":"effect give @s minecraft:weakness 10 0 false"
 				}
 			},
 			{
@@ -49,7 +49,7 @@
 				"ticks":221,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect give @s hunger 10 0 false"
+					"command":"effect give @s minecraft:hunger 10 0 false"
 				}
 			}
 		]

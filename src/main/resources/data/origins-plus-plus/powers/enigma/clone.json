@@ -44,7 +44,7 @@
 							},
 							{
 								"type":"origins:execute_command",
-								"command":"execute at @s as @e[type=zombie,tag=ljs_Clone] if score @s UUID1 = @a[distance=..0.001,sort=nearest,limit=1] UUID1 if score @s UUID2 = @a[distance=..0.001,sort=nearest,limit=1] UUID2 if score @s UUID3 = @a[distance=..0.001,sort=nearest,limit=1] UUID3 if score @s UUID4 = @a[distance=..0.001,sort=nearest,limit=1] UUID4 run tp @s 0 -999 -0"
+								"command":"execute at @s as @e[type=minecraft:zombie,tag=ljs_Clone] if score @s UUID1 = @a[distance=..0.001,sort=nearest,limit=1] UUID1 if score @s UUID2 = @a[distance=..0.001,sort=nearest,limit=1] UUID2 if score @s UUID3 = @a[distance=..0.001,sort=nearest,limit=1] UUID3 if score @s UUID4 = @a[distance=..0.001,sort=nearest,limit=1] UUID4 run tp @s 0 -999 -0"
 							}
 						]
 					},
@@ -77,7 +77,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=zombie,tag=ljs_Clone] if score @s UUID1 = @a[distance=..0.001,sort=nearest,limit=1] UUID1 if score @s UUID2 = @a[distance=..0.001,sort=nearest,limit=1] UUID2 if score @s UUID3 = @a[distance=..0.001,sort=nearest,limit=1] UUID3 if score @s UUID4 = @a[distance=..0.001,sort=nearest,limit=1] UUID4 run tp @s 0 -999 -0"
+					"command":"execute at @s as @e[type=minecraft:zombie,tag=ljs_Clone] if score @s UUID1 = @a[distance=..0.001,sort=nearest,limit=1] UUID1 if score @s UUID2 = @a[distance=..0.001,sort=nearest,limit=1] UUID2 if score @s UUID3 = @a[distance=..0.001,sort=nearest,limit=1] UUID3 if score @s UUID4 = @a[distance=..0.001,sort=nearest,limit=1] UUID4 run tp @s 0 -999 -0"
 				}
 			]
 		}
