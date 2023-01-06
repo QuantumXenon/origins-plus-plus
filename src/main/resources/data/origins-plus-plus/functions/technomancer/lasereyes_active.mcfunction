@@ -4,7 +4,7 @@ execute as @e[type=!item,type=!player,distance=..0.8,nbt={Invulnerable:0b}] at @
 execute as @e[type=!item,type=!player,distance=..0.8,nbt={Invulnerable:0b}] store result score @s entity_health run data get entity @s Health
 execute as @e[type=!item,type=!player,distance=..0.8,nbt={Invulnerable:0b}] store result entity @s Health float 1 run scoreboard players remove @s entity_health 1
 scoreboard players set #lasers ray_cast 0
-execute unless block ~ ~ ~ air unless block ~ ~ ~ bedrock run scoreboard players set #lasers ray_cast 1
+execute unless block ~ ~ ~ air unless block ~ ~ ~ #origins-plus-plus:unbreakable run scoreboard players set #lasers ray_cast 1
 
 execute if score #lasers ray_cast matches 1 run setblock ~ ~ ~ air destroy
 particle minecraft:dust 1.0 0.0 0.0 0.5 ^0.2 ^ ^ 0 0 0 0 1 force @a
