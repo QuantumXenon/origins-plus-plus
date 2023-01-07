@@ -11,11 +11,13 @@
 			"type":"origins:or",
 			"conditions":[
 				{
+					"type":"origins:ingredient",
 					"ingredient":{
 						"tag":"origins-plus-plus:axes"
 					}
 				},
 				{
+					"type":"origins:ingredient",
 					"ingredient":{
 						"tag":"origins-plus-plus:swords"
 					}
