@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "origins-plus-plus:item/staff_of_aldo"
+  }
+}

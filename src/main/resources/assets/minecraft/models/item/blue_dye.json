@@ -1,0 +1,14 @@
+{
+	"parent":"minecraft:item/generated",
+	"textures":{
+		"layer0":"minecraft:item/blue_dye"
+	},
+	"overrides":[
+		{
+			"predicate":{
+				"custom_model_data":1
+			},
+			"model":"origins-plus-plus:item/blue_conduit"
+		}
+	]
+}
