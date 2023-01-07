@@ -20,6 +20,7 @@
 	},
 	"if_clone":{
 		"type":"origins:active_self",
+		"key":"key.origins.secondary_active",
 		"entity_action":{
 			"type":"origins:and",
 			"actions":[
@@ -64,7 +65,11 @@
 				}
 			]
 		},
-		"key":"key.origins.secondary_active"
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:enigma/phase_toggle",
+			"inverted":true
+		}
 	},
 	"antiinvis":{
 		"type":"origins:self_action_when_hit",
@@ -112,5 +117,3 @@
 		}
 	}
 }
-
-

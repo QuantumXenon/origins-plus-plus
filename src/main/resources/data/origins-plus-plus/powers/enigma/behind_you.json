@@ -3,9 +3,15 @@
 	"key":"key.saveToolbarActivator",
 	"entity_action":{
 		"type":"origins:raycast",
-		"distance":64,
+		"fluid_handling":"none",
+		"distance":50,
 		"command_at_hit":"function origins-plus-plus:enigma/behind",
 		"command_step":0.25
 	},
-	"cooldown":200
+	"cooldown":200,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index":20
+	}
 }
