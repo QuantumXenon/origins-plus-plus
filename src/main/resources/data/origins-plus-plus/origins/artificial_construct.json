@@ -8,6 +8,7 @@
 		"origins-plus-plus:artificial-construct/metal_shell",
 		"origins-plus-plus:artificial-construct/no_food",
 		"origins-plus-plus:artificial-construct/reach",
+		"origins-plus-plus:artificial-construct/respawn",
 		"origins-plus-plus:artificial-construct/storage"
 	],
 	"icon":"minecraft:redstone_torch",
