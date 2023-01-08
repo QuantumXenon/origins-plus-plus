@@ -69,7 +69,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"kill @e[type=enderman,distance=..5]"
+				"command":"kill @e[type=minecraft:enderman,distance=..5]"
 			},
 			{
 				"type":"origins:area_of_effect",

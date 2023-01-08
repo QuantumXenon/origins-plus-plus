@@ -23,7 +23,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"summon iron_golem ~ ~ ~"
+					"command":"summon minecraft:iron_golem ~ ~ ~"
 				}
 			]
 		},

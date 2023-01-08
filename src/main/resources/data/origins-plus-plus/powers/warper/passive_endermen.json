@@ -4,14 +4,14 @@
 		"type":"origins:action_on_callback",
 		"entity_action_chosen":{
 			"type":"origins:execute_command",
-			"command":"team add passive_enderman"
+			"command":"team add warper"
 		},
 		"entity_action_added":{
 			"type":"origins:delay",
 			"ticks":1,
 			"action":{
 				"type":"origins:execute_command",
-				"command":"team join passive_enderman @s"
+				"command":"team join warper @s"
 			}
 		},
 		"entity_action_lost":{
@@ -24,7 +24,7 @@
 		"interval":20,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"team join passive_enderman @e[type=minecraft:enderman,nbt={HurtByTimestamp:0}]"
+			"command":"team join warper @e[type=minecraft:enderman,nbt={HurtByTimestamp:0}]"
 		}
 	},
 	"leave_team":{
@@ -41,7 +41,7 @@
 					"ticks":400,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"team join passive_enderman"
+						"command":"team join warper"
 					}
 				}
 			]

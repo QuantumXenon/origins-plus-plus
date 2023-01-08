@@ -4,7 +4,7 @@
 		"type":"origins:attacker",
 		"entity_condition":{
 			"type":"origins:nbt",
-			"nbt":"{Tags:['lnc_Minion']}"
+			"nbt":"{Tags:['Deathsworn_Minion']}"
 		}
 	},
 	"modifier":{

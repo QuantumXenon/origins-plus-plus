@@ -45,7 +45,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute if entity @e[tag=lpm_Portality,distance=..22] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
+			"command":"execute if entity @e[tag=Portality,distance=..22] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
 		},
 		"interval":1
 	},
@@ -53,7 +53,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute unless entity @e[tag=lpm_Portality,distance=..22] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
+			"command":"execute unless entity @e[tag=Portality,distance=..22] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
 		},
 		"interval":1
 	},
@@ -61,7 +61,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute if entity @e[tag=lpm_Portality,distance=20..22] run title @s actionbar {\"translate\":\"origins-plus-plus.rift-mage.message\"}"
+			"command":"execute if entity @e[tag=Portality,distance=20..22] run title @s actionbar {\"translate\":\"origins-plus-plus.rift-mage.message\"}"
 		},
 		"interval":1
 	},

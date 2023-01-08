@@ -1,1 +1,1 @@
-summon endermite ~ ~1 ~ {CustomName:"\"Manamite\""}
+summon minecraft:endermite ~ ~1 ~ {CustomName:'{"translate":"origins-plus-plus.end-mage.endermite"}'}

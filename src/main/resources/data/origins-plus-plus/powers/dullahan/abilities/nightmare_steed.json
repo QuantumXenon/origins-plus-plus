@@ -14,7 +14,7 @@
 		},
 		"condition":{
 			"type":"origins:resource",
-			"resource":"*:abilities/nightmare_steed_resource",
+			"resource":"origins-plus-plus:dullahan/abilities/nightmare_steed_resource",
 			"comparison":">=",
 			"compare_to":1
 		}
@@ -38,7 +38,7 @@
 				},
 				{
 					"type":"origins:change_resource",
-					"resource":"*:abilities/nightmare_steed_resource",
+					"resource":"origins-plus-plus:dullahan/abilities/nightmare_steed_resource",
 					"change":1
 				},
 				{
@@ -59,7 +59,7 @@
 							},
 							{
 								"type":"origins:change_resource",
-								"resource":"*:abilities/nightmare_steed_resource",
+								"resource":"origins-plus-plus:dullahan/abilities/nightmare_steed_resource",
 								"change":-1
 							}
 						]

@@ -2,7 +2,7 @@
 	"type":"origins:fire_projectile",
 	"key":"key.origins.secondary_active",
 	"entity_type":"minecraft:firework_rocket",
-	"tag":"{LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:0,Flicker:1,Trail:1,Colors:[I;6719955],FadeColors:[I;15790320]}]}}}}",
+	"tag":"{LifeTime:30,FireworksItem:{id:\"minecraft:firework_rocket\",Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:0,Flicker:1,Trail:1,Colors:[I;6719955],FadeColors:[I;15790320]}]}}}}",
 	"cooldown":600,
 	"condition":{
 		"type":"origins:equipped_item",

@@ -5,7 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"execute at @s run summon area_effect_cloud ~ ~ ~ {ReapplicationDelay:20,Radius:5f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:100,Color:2539263,Effects:[{Id:10,Amplifier:1,Duration:20,ShowParticles:0b},{Id:22,Amplifier:1,Duration:300,ShowParticles:0b},{Id:23,Amplifier:1,Duration:300,ShowParticles:0b}]}",
+				"command":"execute at @s run summon minecraft:area_effect_cloud ~ ~ ~ {ReapplicationDelay:20,Radius:5f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:100,Color:2539263,Effects:[{Id:10,Amplifier:1,Duration:20,ShowParticles:0b},{Id:22,Amplifier:1,Duration:300,ShowParticles:0b},{Id:23,Amplifier:1,Duration:300,ShowParticles:0b}]}",
 				"permission_level":4
 			},
 			{

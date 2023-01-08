@@ -5,7 +5,7 @@
 		"type":"origins:action_on_callback",
 		"entity_action_lost":{
 			"type":"origins:execute_command",
-			"command":"team remove badd",
+			"command":"team remove dark-mage",
 			"permission_level":4
 		}
 	},
@@ -18,7 +18,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team join badd @a[distance=1..6]",
+					"command":"team join dark-mage @a[distance=1..6]",
 					"permission_level":4
 				},
 				{

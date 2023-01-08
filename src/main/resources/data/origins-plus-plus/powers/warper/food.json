@@ -29,7 +29,7 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"command":"clear @s gunpowder 1"
+					"command":"clear @s minecraft:gunpowder 1"
 				},
 				"ticks":26
 			},

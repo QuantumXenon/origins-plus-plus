@@ -7,47 +7,47 @@
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team add pillagers"
+				"command":"team add illusioner"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join pillagers @s"
+				"command":"team join illusioner @s"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join pillagers @e[type=minecraft:vindicator]"
+				"command":"team join illusioner @e[type=minecraft:vindicator]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join pillagers @e[type=minecraft:pillager]"
+				"command":"team join illusioner @e[type=minecraft:pillager]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join pillagers @e[type=minecraft:evoker]"
+				"command":"team join illusioner @e[type=minecraft:evoker]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join pillagers @e[type=minecraft:evoker_fangs]"
+				"command":"team join illusioner @e[type=minecraft:evoker_fangs]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join pillagers @e[type=minecraft:illusioner]"
+				"command":"team join illusioner @e[type=minecraft:illusioner]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join pillagers @e[type=minecraft:witch]"
+				"command":"team join illusioner @e[type=minecraft:witch]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join pillagers @e[type=minecraft:vex]"
+				"command":"team join illusioner @e[type=minecraft:vex]"
 			}
 		]
 	}

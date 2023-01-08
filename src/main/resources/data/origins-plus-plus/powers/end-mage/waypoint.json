@@ -14,7 +14,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"summon armor_stand ~ ~ ~ {Invisible:1b,Tags:[\"tp\"],Invunerable:1b,NoGravity:1b,}",
+					"command":"summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Tags:[\"tp\"],Invunerable:1b,NoGravity:1b,}",
 					"permission_level":4
 				},
 				{
@@ -61,7 +61,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"tp @s @e[type=armor_stand,tag=tp,sort=nearest,limit=1]",
+					"command":"tp @s @e[type=minecraft:armor_stand,tag=tp,sort=nearest,limit=1]",
 					"permission_level":4
 				},
 				{

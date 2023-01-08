@@ -3,7 +3,7 @@
 	"entity_action":{
 		"type":"origins:spawn_entity",
 		"entity_type":"minecraft:horse",
-		"tag":"{Type:0,Variant:257,Tame:1,SaddleItem:{id:saddle,Count:1}}"
+		"tag":"{Type:0,Variant:257,Tame:1,SaddleItem:{id:\"minecraft:saddle\",Count:1}}"
 	},
 	"key":"key.saveToolbarActivator",
 	"cooldown":3600,

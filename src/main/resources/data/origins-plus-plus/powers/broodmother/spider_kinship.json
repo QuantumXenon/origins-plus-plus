@@ -7,22 +7,22 @@
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team add arachnid"
+				"command":"team add broodmother"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join arachnid @s"
+				"command":"team join broodmother @s"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join arachnid @e[type=minecraft:spider]"
+				"command":"team join broodmother @e[type=minecraft:spider]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join arachnid @e[type=minecraft:cave_spider]"
+				"command":"team join broodmother @e[type=minecraft:cave_spider]"
 			}
 		]
 	}

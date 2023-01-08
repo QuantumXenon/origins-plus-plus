@@ -5,7 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"summon tnt ~ ~2 ~ {Fuse:1}",
+				"command":"summon minecraft:tnt ~ ~2 ~ {Fuse:1}",
 				"permission_level":4
 			},
 			{

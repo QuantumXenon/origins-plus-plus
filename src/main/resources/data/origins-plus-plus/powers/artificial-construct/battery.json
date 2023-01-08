@@ -13,7 +13,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"clear @s coal 1"
+					"command":"clear @s minecraft:coal 1"
 				}
 			]
 		},

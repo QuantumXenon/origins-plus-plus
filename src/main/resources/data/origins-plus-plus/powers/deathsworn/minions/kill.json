@@ -2,6 +2,6 @@
 	"type":"origins:self_action_on_kill",
 	"entity_action":{
 		"type":"origins:execute_command",
-		"command":"advancement grant @a[team=lc_Necro,distance=..16] only origins-plus-plus:deathsworn/kill"
+		"command":"advancement grant @a[team=deathsworn,distance=..16] only origins-plus-plus:deathsworn/kill"
 	}
 }

@@ -12,7 +12,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"tp @e[tag=lnc_Minion,sort=nearest,limit=2,distance=..10] 0 -999 -0"
+				"command":"tp @e[tag=Deathsworn_Minion,sort=nearest,limit=2,distance=..10] 0 -999 -0"
 			},
 			{
 				"type":"origins:execute_command",
@@ -22,7 +22,7 @@
 	},
 	"condition":{
 		"type":"origins:command",
-		"command":"execute if entity @e[tag=lnc_Minion,distance=..10]",
+		"command":"execute if entity @e[tag=Deathsworn_Minion,distance=..10]",
 		"comparison":">=",
 		"compare_to":2
 	}

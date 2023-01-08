@@ -5,7 +5,7 @@
 		"type":"origins:action_on_callback",
 		"entity_action_lost":{
 			"type":"origins:execute_command",
-			"command":"team remove johnny",
+			"command":"team remove light-mage",
 			"permission_level":4
 		}
 	},
@@ -18,7 +18,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team join johnny @a[distance=1..6]",
+					"command":"team join light-mage @a[distance=1..6]",
 					"permission_level":4
 				},
 				{

@@ -45,7 +45,7 @@
 							},
 							{
 								"type":"origins:execute_command",
-								"command":"execute at @s as @e[type=minecraft:zombie,tag=ljs_Clone] if score @s UUID1 = @a[distance=..0.001,sort=nearest,limit=1] UUID1 if score @s UUID2 = @a[distance=..0.001,sort=nearest,limit=1] UUID2 if score @s UUID3 = @a[distance=..0.001,sort=nearest,limit=1] UUID3 if score @s UUID4 = @a[distance=..0.001,sort=nearest,limit=1] UUID4 run tp @s 0 -999 -0"
+								"command":"execute at @s as @e[type=minecraft:zombie,tag=Enigma_Clone] if score @s UUID1 = @a[distance=..0.001,sort=nearest,limit=1] UUID1 if score @s UUID2 = @a[distance=..0.001,sort=nearest,limit=1] UUID2 if score @s UUID3 = @a[distance=..0.001,sort=nearest,limit=1] UUID3 if score @s UUID4 = @a[distance=..0.001,sort=nearest,limit=1] UUID4 run tp @s 0 -999 -0"
 							}
 						]
 					},
@@ -82,7 +82,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:zombie,tag=ljs_Clone] if score @s UUID1 = @a[distance=..0.001,sort=nearest,limit=1] UUID1 if score @s UUID2 = @a[distance=..0.001,sort=nearest,limit=1] UUID2 if score @s UUID3 = @a[distance=..0.001,sort=nearest,limit=1] UUID3 if score @s UUID4 = @a[distance=..0.001,sort=nearest,limit=1] UUID4 run tp @s 0 -999 -0"
+					"command":"execute at @s as @e[type=minecraft:zombie,tag=Enigma_Clone] if score @s UUID1 = @a[distance=..0.001,sort=nearest,limit=1] UUID1 if score @s UUID2 = @a[distance=..0.001,sort=nearest,limit=1] UUID2 if score @s UUID3 = @a[distance=..0.001,sort=nearest,limit=1] UUID3 if score @s UUID4 = @a[distance=..0.001,sort=nearest,limit=1] UUID4 run tp @s 0 -999 -0"
 				}
 			]
 		}
@@ -106,14 +106,14 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"tag @s remove ljs_DMG"
+					"command":"tag @s remove Enigma_Damage"
 				}
 			]
 		},
 		"interval":1,
 		"condition":{
 			"type":"origins:nbt",
-			"nbt":"{Tags:['ljs_DMG']}"
+			"nbt":"{Tags:['Enigma_Damage']}"
 		}
 	}
 }

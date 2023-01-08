@@ -12,7 +12,7 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon axolotl ~ ~1 ~ {Variant:random}",
+					"command":"summon minecraft:axolotl ~ ~1 ~ {Variant:random}",
 					"permission_level":4
 				},
 				"weight":8.71
@@ -20,7 +20,7 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon bat ~ ~1 ~",
+					"command":"summon minecraft:bat ~ ~1 ~",
 					"permission_level":4
 				},
 				"weight":8.71
@@ -28,7 +28,7 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon bee ~ ~1 ~",
+					"command":"summon minecraft:bee ~ ~1 ~",
 					"permission_level":4
 				},
 				"weight":8.71
@@ -36,7 +36,7 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon cat ~ ~1 ~",
+					"command":"summon minecraft:cat ~ ~1 ~",
 					"permission_level":4
 				},
 				"weight":8.71
@@ -44,7 +44,7 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon chicken ~ ~1 ~",
+					"command":"summon minecraft:chicken ~ ~1 ~",
 					"permission_level":4
 				},
 				"weight":8.71
@@ -52,7 +52,7 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon cod ~ ~1 ~",
+					"command":"summon minecraft:cod ~ ~1 ~",
 					"permission_level":4
 				},
 				"weight":8.71
@@ -60,7 +60,7 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon cow ~ ~1 ~",
+					"command":"summon minecraft:cow ~ ~1 ~",
 					"permission_level":4
 				},
 				"weight":8.71
@@ -68,7 +68,7 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon donkey ~ ~1 ~",
+					"command":"summon minecraft:donkey ~ ~1 ~",
 					"permission_level":4
 				},
 				"weight":8.71

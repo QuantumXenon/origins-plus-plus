@@ -1,5 +1,5 @@
-scoreboard objectives add lnc_PH1 dummy
-scoreboard objectives add lnc_PH2 dummy
-scoreboard objectives add lnc_PH3 dummy
+scoreboard objectives add Minion_Armor dummy
+scoreboard objectives add Minion_Attack_Damage dummy
+scoreboard objectives add Minion_Health dummy
 
-team add lc_Necro "Necromancers"
+team add deathsworn "Necromancers"

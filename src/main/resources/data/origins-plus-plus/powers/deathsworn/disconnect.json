@@ -19,7 +19,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=lnc_Minion,distance=..16]",
+			"command":"execute if entity @e[tag=Deathsworn_Minion,distance=..16]",
 			"comparison":">=",
 			"compare_to":1
 		}

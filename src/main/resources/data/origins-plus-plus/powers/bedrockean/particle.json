@@ -10,7 +10,7 @@
 			},
 			"if_action":{
 				"type":"origins:execute_command",
-				"command":"execute at @s run kill @e[tag=Bed,sort=nearest,limit=1]"
+				"command":"execute at @s run kill @e[tag=Bedrockean,sort=nearest,limit=1]"
 			},
 			"else_action":{
 				"type":"origins:execute_command",
@@ -22,7 +22,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute at @s run data modify entity @e[type=minecraft:falling_block,tag=Bed,limit=1,sort=nearest] Time set value 1"
+			"command":"execute at @s run data modify entity @e[type=minecraft:falling_block,tag=Bedrockean,limit=1,sort=nearest] Time set value 1"
 		},
 		"interval":20,
 		"condition":{
@@ -34,7 +34,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute at @s run tp @e[type=minecraft:falling_block,tag=Bed,limit=1,sort=nearest] ~ ~ ~ facing entity @s eyes"
+			"command":"execute at @s run tp @e[type=minecraft:falling_block,tag=Bedrockean,limit=1,sort=nearest] ~ ~ ~ facing entity @s eyes"
 		},
 		"interval":1,
 		"condition":{

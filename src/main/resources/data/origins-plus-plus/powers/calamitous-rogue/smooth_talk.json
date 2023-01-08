@@ -7,7 +7,7 @@
 				"type":"origins:actor_action",
 				"action":{
 					"type":"origins:execute_command",
-					"command":"tag @s add SMT"
+					"command":"tag @s add Smooth_Talked"
 				}
 			},
 			{

@@ -21,7 +21,7 @@
 	"timer":{
 		"type":"origins:resource",
 		"min":0,
-		"max":400,
+		"max":300,
 		"hud_render":{
 			"bar_index":4
 		}

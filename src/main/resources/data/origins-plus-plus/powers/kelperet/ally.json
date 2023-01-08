@@ -6,7 +6,7 @@
 		"entity_action_added":{
 			"type":"origins:execute_command",
 			"permission_level":4,
-			"command":"team add fight"
+			"command":"team add kelperet"
 		},
 		"entity_action_removed":{
 			"type":"origins:execute_command",
@@ -23,12 +23,12 @@
 				{
 					"type":"origins:execute_command",
 					"permission_level":4,
-					"command":"team join fight @s"
+					"command":"team join kelperet @s"
 				},
 				{
 					"type":"origins:execute_command",
 					"permission_level":4,
-					"command":"team join fight @e[type=dolphin,distance=..64]"
+					"command":"team join kelperet @e[type=minecraft:dolphin,distance=..64]"
 				}
 			]
 		}
@@ -46,7 +46,7 @@
 				{
 					"type":"origins:execute_command",
 					"permission_level":4,
-					"command":"execute at @e[type=!player,team=fight,distance=..20] run summon snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
+					"command":"execute at @e[type=!minecraft:player,team=kelperet,distance=..20] run summon minecraft:snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
 				},
 				{
 					"type":"origins:execute_command",
@@ -79,7 +79,7 @@
 				{
 					"type":"origins:execute_command",
 					"permission_level":4,
-					"command":"execute at @e[type=!player,team=fight,distance=..20] run summon snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
+					"command":"execute at @e[type=!minecraft:player,team=kelperet,distance=..20] run summon minecraft:snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
 				},
 				{
 					"type":"origins:execute_command",

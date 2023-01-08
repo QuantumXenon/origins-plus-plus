@@ -8,22 +8,22 @@
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"execute as @s run summon vex ~ ~0.5 ~ {Team:illagers,HandItems:[{Count:1,id:iron_axe},{}],ActiveEffects:[{Id:5,Amplifier:1,Duration:999999},{Id:20,Amplifier:0,Duration:999999}]}"
+				"command":"execute as @s run summon minecraft:vex ~ ~0.5 ~ {Team:ravager,HandItems:[{Count:1,id:\"minecraft:iron_axe\"},{}],ActiveEffects:[{Id:5,Amplifier:1,Duration:999999},{Id:20,Amplifier:0,Duration:999999}]}"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"execute as @s run summon vex ~ ~0.5 ~ {Team:illagers,HandItems:[{Count:1,id:iron_axe},{}],ActiveEffects:[{Id:5,Amplifier:1,Duration:999999},{Id:20,Amplifier:0,Duration:999999}]}"
+				"command":"execute as @s run summon minecraft:vex ~ ~0.5 ~ {Team:ravager,HandItems:[{Count:1,id:\"minecraft:iron_axe\"},{}],ActiveEffects:[{Id:5,Amplifier:1,Duration:999999},{Id:20,Amplifier:0,Duration:999999}]}"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"execute as @s run summon vex ~ ~0.5 ~ {Team:illagers,HandItems:[{Count:1,id:iron_axe},{}],ActiveEffects:[{Id:5,Amplifier:1,Duration:999999},{Id:20,Amplifier:0,Duration:999999}]}"
+				"command":"execute as @s run summon minecraft:vex ~ ~0.5 ~ {Team:ravager,HandItems:[{Count:1,id:\"minecraft:iron_axe\"},{}],ActiveEffects:[{Id:5,Amplifier:1,Duration:999999},{Id:20,Amplifier:0,Duration:999999}]}"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"execute at @e[type=minecraft:vex] run summon snowball ~ ~1.5 ~ {Motion:[0.0,-1.0,0.0],damage:0,life:1200}"
+				"command":"execute at @e[type=minecraft:vex] run summon minecraft:snowball ~ ~1.5 ~ {Motion:[0.0,-1.0,0.0],damage:0,life:1200}"
 			},
 			{
 				"type":"origins:execute_command",
@@ -33,7 +33,7 @@
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"execute at @e[type=minecraft:vex] run summon snowball ~ ~1.5 ~ {Motion:[0.0,-1.0,0.0],damage:0,life:1200}"
+				"command":"execute at @e[type=minecraft:vex] run summon minecraft:snowball ~ ~1.5 ~ {Motion:[0.0,-1.0,0.0],damage:0,life:1200}"
 			},
 			{
 				"type":"origins:execute_command",

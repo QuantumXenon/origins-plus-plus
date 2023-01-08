@@ -5,7 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"team join lc_Necro @s"
+				"command":"team join deathsworn @s"
 			},
 			{
 				"type":"origins:execute_command",

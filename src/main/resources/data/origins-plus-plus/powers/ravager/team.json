@@ -7,42 +7,42 @@
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team add illager"
+				"command":"team add ravager"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join illager @s"
+				"command":"team join ravager @s"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join illager @e[type=minecraft:vex]"
+				"command":"team join ravager @e[type=minecraft:vex]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join illager @e[type=minecraft:witch]"
+				"command":"team join ravager @e[type=minecraft:witch]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join illager @e[type=minecraft:vindicator]"
+				"command":"team join ravager @e[type=minecraft:vindicator]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join illager @e[type=minecraft:pillager]"
+				"command":"team join ravager @e[type=minecraft:pillager]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join illager @e[type=minecraft:evoker]"
+				"command":"team join ravager @e[type=minecraft:evoker]"
 			},
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"team join illager @e[type=minecraft:ravager]"
+				"command":"team join ravager @e[type=minecraft:ravager]"
 			}
 		]
 	}

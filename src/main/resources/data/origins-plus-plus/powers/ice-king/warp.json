@@ -27,7 +27,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"summon area_effect_cloud ~ ~ ~ {Duration:100,Tags:[\"warpeffect\"]}"
+					"command":"summon minecraft:area_effect_cloud ~ ~ ~ {Duration:100,Tags:[\"warpeffect\"]}"
 				},
 				{
 					"type":"origins:apply_effect",
@@ -79,7 +79,7 @@
 							},
 							{
 								"type":"origins:execute_command",
-								"command":"summon area_effect_cloud ~ ~2 ~ {Duration:60,Tags:[\"warpeffect\"]}"
+								"command":"summon minecraft:area_effect_cloud ~ ~2 ~ {Duration:60,Tags:[\"warpeffect\"]}"
 							},
 							{
 								"type":"origins:apply_effect",
