@@ -4,7 +4,7 @@
 		"type":"origins:if_else",
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:automaton/attacktoggle"
+			"power":"origins-plus-plus:automaton/toggle"
 		},
 		"if_action":{
 			"type":"origins:if_else",

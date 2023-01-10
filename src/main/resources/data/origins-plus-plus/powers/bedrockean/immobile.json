@@ -1,11 +1,22 @@
 {
 	"type":"origins:multiple",
-	"move":{
+	"no_move":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
 			"attribute":"minecraft:generic.movement_speed",
-			"operation":"addition",
-			"value":-0.85
+			"operation":"multiply_total",
+			"value":-1
+		},
+		"condition":{
+			"type":"origins:power_active",
+			"power":"origins-plus-plus:bedrockean/toggle"
+		}
+	},
+	"no_jump":{
+		"type":"origins:modify_jump",
+		"modifier":{
+			"operation":"multiply_total",
+			"value":-2
 		},
 		"condition":{
 			"type":"origins:power_active",

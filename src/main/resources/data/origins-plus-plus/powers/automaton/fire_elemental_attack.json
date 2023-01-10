@@ -21,7 +21,7 @@
 				}
 			]
 		},
-		"tag":"{ExplosionPower:7}",
+		"tag":"{ExplosionPower:5}",
 		"key":"key.origins.primary_active"
 	},
 	"modify_resource":{
@@ -52,7 +52,7 @@
 			"conditions":[
 				{
 					"type":"origins:power_active",
-					"power":"origins-plus-plus:automaton/attacktoggle",
+					"power":"origins-plus-plus:automaton/toggle",
 					"inverted":true
 				},
 				{

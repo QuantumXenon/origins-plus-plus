@@ -6,7 +6,8 @@
 			"type":"origins:if_else",
 			"condition":{
 				"type":"origins:power_active",
-				"power":"origins-plus-plus:bedrockean/toggle"
+				"power":"origins-plus-plus:bedrockean/toggle",
+				"inverted":true
 			},
 			"if_action":{
 				"type":"origins:execute_command",
@@ -14,11 +15,11 @@
 			},
 			"else_action":{
 				"type":"origins:execute_command",
-				"command":"execute at @s run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:\"minecraft:bedrock\"},Time:1,Tags:[\"Bed\"],NoGravity:1b,DropItem:0b}"
+				"command":"execute at @s run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:\"minecraft:bedrock\"},Time:1,Tags:[\"Bedrockean\"],NoGravity:1b,DropItem:0b}"
 			}
 		}
 	},
-	"spaw":{
+	"spawn":{
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",

@@ -47,8 +47,7 @@
 					"compare_to":0
 				}
 			]
-		},
-		"hidden":true
+		}
 	},
 	"blindness":{
 		"type":"origins:action_over_time",
@@ -73,7 +72,6 @@
 					"compare_to":0
 				}
 			]
-		},
-		"hidden":true
+		}
 	}
 }

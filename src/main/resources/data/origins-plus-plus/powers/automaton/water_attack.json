@@ -15,7 +15,7 @@
 				},
 				{
 					"type":"origins:add_velocity",
-					"y":0.5
+					"y":0.4
 				},
 				{
 					"type":"origins:execute_command",

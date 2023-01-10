@@ -76,8 +76,8 @@
 				"radius":5,
 				"bientity_action":{
 					"type":"origins:add_velocity",
-					"z":2,
-					"y":2
+					"z":1,
+					"y":1
 				}
 			},
 			{

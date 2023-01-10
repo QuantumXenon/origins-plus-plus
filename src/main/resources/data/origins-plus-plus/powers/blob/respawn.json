@@ -7,7 +7,7 @@
 			{
 				"type":"origins:change_resource",
 				"resource":"origins-plus-plus:blob/health_bar_resource",
-				"change":1000
+				"set":1000
 			}
 		]
 	}

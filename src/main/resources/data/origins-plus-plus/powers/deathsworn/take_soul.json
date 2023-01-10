@@ -12,6 +12,14 @@
 			},
 			{
 				"type":"origins:execute_command",
+				"command":"particle minecraft:totem_of_undying ~ ~ ~ 2 3 2 0.1 2000 force"
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound item.totem.use player @s ~ ~ ~ 20"
+			},
+			{
+				"type":"origins:execute_command",
 				"command":"tp @e[tag=Deathsworn_Minion,sort=nearest,limit=2,distance=..10] 0 -999 -0"
 			},
 			{

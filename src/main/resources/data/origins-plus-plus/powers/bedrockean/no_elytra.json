@@ -1,8 +1,3 @@
 {
-	"type":"origins:restrict_armor",
-	"chest":{
-		"type":"origins:armor_value",
-		"comparison":"<",
-		"compare_to":3
-	}
+	"type":"origins:prevent_elytra_flight"
 }

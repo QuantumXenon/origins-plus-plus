@@ -27,7 +27,7 @@
 		"conditions":[
 			{
 				"type":"origins:power_active",
-				"power":"origins-plus-plus:automaton/attacktoggle",
+				"power":"origins-plus-plus:automaton/toggle",
 				"inverted":true
 			},
 			{

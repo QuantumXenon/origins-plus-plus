@@ -7,7 +7,7 @@
 			{
 				"type":"origins:change_resource",
 				"resource":"origins-plus-plus:artificial-construct/battery_resource",
-				"change":500
+				"set":500
 			}
 		]
 	}
