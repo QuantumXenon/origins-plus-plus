@@ -1,5 +1,9 @@
 {
 	"type":"origins:multiple",
+	"elytra":{
+		"type":"origins:elytra_flight",
+		"render_elytra":true
+	},
 	"velocity_boost_normal":{
 		"type":"origins:active_self",
 		"entity_action":{
@@ -7,7 +11,7 @@
 			"actions":[
 				{
 					"type":"origins:add_velocity",
-					"z":0.8,
+					"z":2,
 					"space":"local"
 				},
 				{
@@ -29,31 +33,31 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:voidborne/winged_limits_head_b",
+					"resource":"origins-plus-plus:voidling/winged_limits_head_b",
 					"comparison":"==",
 					"compare_to":0
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:voidborne/winged_limits_chest_b",
+					"resource":"origins-plus-plus:voidling/winged_limits_chest_b",
 					"comparison":"==",
 					"compare_to":0
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:voidborne/winged_limits_legs_b",
+					"resource":"origins-plus-plus:voidling/winged_limits_legs_b",
 					"comparison":"==",
 					"compare_to":0
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:voidborne/winged_limits_feet_b",
+					"resource":"origins-plus-plus:voidling/winged_limits_feet_b",
 					"comparison":"==",
 					"compare_to":0
 				}
 			]
 		},
-		"cooldown":300,
+		"cooldown":20,
 		"hud_render":{
 			"should_render":true,
 			"bar_index":5
@@ -92,25 +96,25 @@
 					"conditions":[
 						{
 							"type":"origins:resource",
-							"resource":"origins-plus-plus:voidborne/winged_limits_head_b",
+							"resource":"origins-plus-plus:voidling/winged_limits_head_b",
 							"comparison":"==",
 							"compare_to":1
 						},
 						{
 							"type":"origins:resource",
-							"resource":"origins-plus-plus:voidborne/winged_limits_chest_b",
+							"resource":"origins-plus-plus:voidling/winged_limits_chest_b",
 							"comparison":"==",
 							"compare_to":1
 						},
 						{
 							"type":"origins:resource",
-							"resource":"origins-plus-plus:voidborne/winged_limits_legs_b",
+							"resource":"origins-plus-plus:voidling/winged_limits_legs_b",
 							"comparison":"==",
 							"compare_to":1
 						},
 						{
 							"type":"origins:resource",
-							"resource":"origins-plus-plus:voidborne/winged_limits_feet_b",
+							"resource":"origins-plus-plus:voidling/winged_limits_feet_b",
 							"comparison":"==",
 							"compare_to":1
 						}
@@ -118,7 +122,7 @@
 				}
 			]
 		},
-		"cooldown":400,
+		"cooldown":40,
 		"hud_render":{
 			"should_render":true,
 			"bar_index":5

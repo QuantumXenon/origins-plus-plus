@@ -1,0 +1,46 @@
+{
+	"name":"Light Weakness",
+	"description":"Your body is weak, unable to adapt to the light sources around you, giving debuffs as you cannot merge with the shadows created by the Void.",
+	"type":"origins:multiple",
+	"attributes":{
+		"type":"origins:conditioned_attribute",
+		"modifiers":[
+			{
+				"attribute":"minecraft:generic.movement_speed",
+				"operation":"multiply_base",
+				"value":-0.5
+			},
+			{
+				"attribute":"minecraft:generic.attack_damage",
+				"operation":"multiply_base",
+				"value":-0.5
+			},
+			{
+				"attribute":"minecraft:generic.max_health",
+				"operation":"addition",
+				"value":-4
+			}
+		],
+		"condition":{
+			"type":"origins:brightness",
+			"comparison":">=",
+			"compare_to":0.5
+		}
+	},
+	"blindness":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:blindness",
+			"show_icon":false,
+			"show_particles":false
+		},
+		"condition":{
+			"type":"origins:brightness",
+			"comparison":">=",
+			"compare_to":0.5
+		}
+	}
+}

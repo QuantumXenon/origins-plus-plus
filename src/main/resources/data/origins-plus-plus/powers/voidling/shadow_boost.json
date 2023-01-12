@@ -1,0 +1,37 @@
+{
+	"type":"origins:multiple",
+	"attributes":{
+		"type":"origins:conditioned_attribute",
+		"modifiers":[
+			{
+				"attribute":"minecraft:generic.movement_speed",
+				"operation":"multiply_base",
+				"value":0.75
+			},
+			{
+				"attribute":"minecraft:generic.attack_damage",
+				"operation":"multiply_base",
+				"value":0.75
+			},
+			{
+				"attribute":"minecraft:generic.max_health",
+				"operation":"addition",
+				"value":8
+			}
+		],
+		"condition":{
+			"type":"origins:brightness",
+			"comparison":"<=",
+			"compare_to":0.4
+		}
+	},
+	"night_vision":{
+		"type":"origins:night_vision",
+		"strength":1.0,
+		"condition":{
+			"type":"origins:brightness",
+			"comparison":"<=",
+			"compare_to":0.4
+		}
+	}
+}

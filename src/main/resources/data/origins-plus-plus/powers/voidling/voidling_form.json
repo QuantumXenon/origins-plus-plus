@@ -1,0 +1,18 @@
+{
+	"type":"origins:multiple",
+	"skin":{
+		"type":"origins:model_color",
+		"red":0.05,
+		"green":0.05,
+		"blue":0.05,
+		"alpha":0.8
+	},
+	"particles":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"particle minecraft:ash ~ ~1 ~ .500 .500 .500 0 15"
+		},
+		"interval":20
+	}
+}

@@ -1,39 +1,16 @@
 {
-	"type":"origins:action_on_hit",
-	"bientity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:target_action",
-				"action":{
-					"type":"origins:execute_command",
-					"command":"function origins-plus-plus:deathsworn/turn_crystal"
-				}
-			},
-			{
-				"type":"origins:actor_action",
-				"action":{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:deathsworn/soul_bar",
-					"change":5
-				}
+	"type":"origins:target_action_on_hit",
+	"entity_action":{
+		"type":"origins:target_action",
+		"action":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:deathsworn/turn_crystal"
+		},
+		"target_condition":{
+			"condition":{
+				"type":"origins:nbt",
+				"nbt":"{Tags:['Deathsworn_Minion']}"
 			}
-		]
-	},
-	"bientity_condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:target_condition",
-				"condition":{
-					"type":"origins:nbt",
-					"nbt":"{Tags:['Deathsworn_Minion']}"
-				}
-			},
-			{
-				"type":"origins:actor_condition",
-				"condition":{
-					"type":"origins:sneaking"
-				}
-			}
-			}
+		}
+	}
+}

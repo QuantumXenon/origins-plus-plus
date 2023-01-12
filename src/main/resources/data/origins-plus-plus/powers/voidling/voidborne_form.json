@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"visibity_over_128":{
+	"visibility_over_128":{
 		"type":"origins:model_color",
 		"alpha":0.2,
 		"condition":{
@@ -44,7 +44,7 @@
 			]
 		}
 	},
-	"visibilty_under_63":{
+	"visibility_under_63":{
 		"type":"origins:model_color",
 		"alpha":0.6,
 		"condition":{
@@ -68,7 +68,7 @@
 	},
 	"visibility_under_32":{
 		"type":"origins:model_color",
-		"alpha":1,
+		"alpha":1.0,
 		"condition":{
 			"type":"origins:and",
 			"conditions":[

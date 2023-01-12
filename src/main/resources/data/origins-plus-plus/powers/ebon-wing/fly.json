@@ -1,6 +1,6 @@
 {
 	"type":"origins:launch",
-	"cooldown":800,
+	"cooldown":500,
 	"hud_render":{
 		"bar_index":4
 	},

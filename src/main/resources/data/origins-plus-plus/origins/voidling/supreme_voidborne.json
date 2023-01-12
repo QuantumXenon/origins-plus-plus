@@ -1,0 +1,20 @@
+{
+	"powers":[
+		"origins:no_shield",
+		"origins-plus-plus:voidling/void_energy",
+		"origins-plus-plus:voidling/supreme_state",
+		"origins-plus-plus:voidling/supreme_shield",
+		"origins-plus-plus:voidling/supreme_shield_toggle",
+		"origins-plus-plus:voidling/void_father",
+		"origins-plus-plus:voidling/voidborne_form",
+		"origins-plus-plus:voidling/winged",
+		"origins-plus-plus:voidling/dive_attack",
+		"origins-plus-plus:voidling/winged_limits",
+		"origins-plus-plus:voidling/large_appetite",
+		"origins-plus-plus:voidling/brittle_bones",
+		"origins-plus-plus:voidling/low_health"
+	],
+	"icon":"minecraft:structure_void",
+	"impact":3,
+	"unchoosable":true
+}
