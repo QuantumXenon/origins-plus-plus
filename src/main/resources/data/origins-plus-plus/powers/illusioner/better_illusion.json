@@ -2,7 +2,7 @@
 	"badges":[
 		{
 			"sprite":"origins:textures/gui/badge/star.png",
-			"translate":"origins-plus-plus.illusioner.primary_3"
+			"text":"Tier 3 Primary Power"
 		}
 	],
 	"key":"key.origins.primary_active",

@@ -1,9 +1,9 @@
 {
 	"powers":[
+		"origins:fresh_air",
 		"origins-plus-plus:ram/dash",
 		"origins-plus-plus:ram/energy_jump",
 		"origins-plus-plus:ram/fall",
-		"origins-plus-plus:ram/fresh_air",
 		"origins-plus-plus:ram/jump_boost",
 		"origins-plus-plus:ram/no_food",
 		"origins-plus-plus:ram/no_food_eat",

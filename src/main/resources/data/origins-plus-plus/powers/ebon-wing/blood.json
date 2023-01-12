@@ -3,31 +3,17 @@
 	"blood":{
 		"type":"origins:resource",
 		"min":0,
-		"max":220,
+		"max":200,
 		"hud_render":{
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
 			"bar_index":5
 		}
 	},
-	"blood_gain":{
-		"type":"origins:self_action_on_hit",
-		"entity_action":{
-			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:ebon-wing/blood_blood",
-			"change":1
-		},
-		"damage_condition":{
-			"type":"origins:amount",
-			"comparison":">",
-			"compare_to":1
-		},
-		"cooldown":20
-	},
 	"bleeding":{
 		"type":"origins:self_action_when_hit",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:ebon-wing/blood_blood",
+			"resource":"*:*_blood",
 			"change":-1
 		},
 		"damage_condition":{
@@ -42,17 +28,8 @@
 		"cooldown":20,
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:ebon-wing/blood_blood",
+			"resource":"*:*_blood",
 			"change":1
 		}
-	},
-	"ambient_loss":{
-		"type":"origins:action_over_time",
-		"entity_action":{
-			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:ebon-wing/blood_blood",
-			"change":0
-		},
-		"interval":100
 	}
 }

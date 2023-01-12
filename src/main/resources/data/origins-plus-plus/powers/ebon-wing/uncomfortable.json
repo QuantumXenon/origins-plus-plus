@@ -1,8 +1,10 @@
 {
 	"type":"origins:prevent_sleep",
+	"set_spawn_point":true,
 	"block_condition":{
 		"type":"origins:height",
 		"comparison":">",
 		"compare_to":-20
-	}
+	},
+	"message":"origins-plus-plus.ebon-wing.sleep_fail"
 }

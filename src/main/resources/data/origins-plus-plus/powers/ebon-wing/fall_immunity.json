@@ -1,0 +1,14 @@
+{
+	"type":"origins:invulnerability",
+	"damage_condition":{
+		"type":"origins:name",
+		"name":"fall"
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:ebon-wing/blood_blood",
+		"comparison":">=",
+		"compare_to":100
+	},
+	"hidden":true
+}

@@ -1,8 +1,0 @@
-{
-	"type":"origins:prevent_sleep",
-	"block_condition":{
-		"type":"origins:height",
-		"comparison":"<",
-		"compare_to":90
-	}
-}

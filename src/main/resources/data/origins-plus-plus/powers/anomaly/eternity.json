@@ -1,4 +1,5 @@
 {
 	"type":"origins:prevent_sleep",
-	"set_spawn_point":true
+	"set_spawn_point":true,
+	"message":"origins-plus-plus.anomaly.sleep_fail"
 }

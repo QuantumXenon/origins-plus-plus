@@ -7,7 +7,7 @@
 			{
 				"type":"origins:change_resource",
 				"resource":"origins-plus-plus:end-mage/resource",
-				"change":-15
+				"change":-100
 			},
 			{
 				"type":"origins:raycast",
@@ -29,6 +29,7 @@
 			}
 		]
 	},
+	"cooldown":200,
 	"condition":{
 		"type":"origins:sneaking",
 		"inverted":true

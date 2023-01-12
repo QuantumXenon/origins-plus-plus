@@ -4,7 +4,7 @@
 	"onset_delay":1,
 	"damage":2,
 	"damage_source":{
-		"name":"inWall",
+		"name":"generic",
 		"unblockable":true,
 		"bypasses_armor":false
 	},

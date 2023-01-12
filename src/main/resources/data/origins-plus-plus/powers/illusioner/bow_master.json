@@ -3,7 +3,7 @@
 	"badges":[
 		{
 			"sprite":"origins:textures/gui/badge/star.png",
-			"translate":"origins-plus-plus.illusioner.power_3"
+			"text":"Tier 3 Power"
 		}
 	],
 	"modifier":{

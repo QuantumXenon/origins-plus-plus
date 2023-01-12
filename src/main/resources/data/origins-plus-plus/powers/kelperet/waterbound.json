@@ -12,5 +12,6 @@
 		"shape":"cube",
 		"comparison":">=",
 		"compare_to":1
-	}
+	},
+	"message":"origins-plus-plus.kelperet.sleep_fail"
 }

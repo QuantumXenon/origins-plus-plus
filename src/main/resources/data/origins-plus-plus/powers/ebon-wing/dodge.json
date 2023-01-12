@@ -28,23 +28,7 @@
 			"conditions":[
 				{
 					"type":"origins:name",
-					"name":"inFire"
-				},
-				{
-					"type":"origins:name",
 					"name":"lightningBolt"
-				},
-				{
-					"type":"origins:name",
-					"name":"onFire"
-				},
-				{
-					"type":"origins:name",
-					"name":"lava"
-				},
-				{
-					"type":"origins:name",
-					"name":"hotFloor"
 				},
 				{
 					"type":"origins:name",
@@ -149,6 +133,14 @@
 				{
 					"type":"origins:name",
 					"name":"badRespawnPoint"
+				},
+				{
+					"type":"origins:name",
+					"name":"hurt_by_water"
+				},
+				{
+					"type":"origins:name",
+					"name":"hurt_by_water.player"
 				}
 			]
 		}
@@ -192,23 +184,7 @@
 			"conditions":[
 				{
 					"type":"origins:name",
-					"name":"inFire"
-				},
-				{
-					"type":"origins:name",
 					"name":"lightningBolt"
-				},
-				{
-					"type":"origins:name",
-					"name":"onFire"
-				},
-				{
-					"type":"origins:name",
-					"name":"lava"
-				},
-				{
-					"type":"origins:name",
-					"name":"hotFloor"
 				},
 				{
 					"type":"origins:name",
@@ -313,6 +289,14 @@
 				{
 					"type":"origins:name",
 					"name":"badRespawnPoint"
+				},
+				{
+					"type":"origins:name",
+					"name":"hurt_by_water"
+				},
+				{
+					"type":"origins:name",
+					"name":"hurt_by_water.player"
 				}
 			]
 		},

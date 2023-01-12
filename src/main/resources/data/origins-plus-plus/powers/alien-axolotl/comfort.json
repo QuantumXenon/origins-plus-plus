@@ -1,8 +1,10 @@
 {
-  "type": "origins:prevent_sleep",
-  "block_condition": {
-    "type": "origins:height",
-    "comparison": ">",
-    "compare_to": 63
-  }
+	"type":"origins:prevent_sleep",
+	"set_spawn_point":true,
+	"block_condition":{
+		"type":"origins:height",
+		"comparison":">",
+		"compare_to":63
+	},
+	"message":"origins-plus-plus.alien-axolotl.sleep_fail"
 }

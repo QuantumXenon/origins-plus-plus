@@ -1,5 +1,6 @@
 {
 	"type":"origins:prevent_sleep",
+	"set_spawn_point":true,
 	"block_condition":{
 		"type":"origins:adjacent",
 		"adjacent_condition":{
@@ -17,5 +18,6 @@
 		},
 		"comparison":"<=",
 		"compare_to":2
-	}
+	},
+	"message":"origins-plus-plus.glacier.sleep_fail"
 }

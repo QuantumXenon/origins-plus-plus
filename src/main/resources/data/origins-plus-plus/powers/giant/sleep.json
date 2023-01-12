@@ -1,5 +1,6 @@
 {
 	"type":"origins:prevent_sleep",
+	"message":"origins-plus-plus.giant.sleep_fail",
 	"block_condition":{
 		"type":"origins:or",
 		"inverted":true,
