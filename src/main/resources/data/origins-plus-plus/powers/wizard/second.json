@@ -23,21 +23,29 @@
 						{
 							"effect":"minecraft:regeneration",
 							"amplifier":2,
-							"duration":300
+							"duration":300,
+							"show_particles":false,
+							"show_icon":false
 						},
 						{
 							"effect":"minecraft:fire_resistance",
-							"duration":300
+							"duration":300,
+							"show_particles":false,
+							"show_icon":false
 						},
 						{
 							"effect":"minecraft:absorption",
 							"amplifier":1,
-							"duration":300
+							"duration":300,
+							"show_particles":false,
+							"show_icon":false
 						},
 						{
 							"effect":"minecraft:resistance",
 							"amplifier":1,
-							"duration":300
+							"duration":300,
+							"show_particles":false,
+							"show_icon":false
 						}
 					]
 				},

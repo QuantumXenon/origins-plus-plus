@@ -12,7 +12,6 @@
 		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:speed",
-			"duration":100,
 			"amplifier":1,
 			"show_particles":false,
 			"show_icon":false
@@ -46,7 +45,6 @@
 		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:weakness",
-			"duration":100,
 			"amplifier":1,
 			"show_particles":false,
 			"show_icon":false

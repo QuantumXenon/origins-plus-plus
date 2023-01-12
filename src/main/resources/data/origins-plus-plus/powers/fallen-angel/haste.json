@@ -5,7 +5,6 @@
 	"duration_per_stack":20,
 	"effect":{
 		"effect":"minecraft:haste",
-		"duration":100,
 		"show_particles":false,
 		"show_icon":false
 	}

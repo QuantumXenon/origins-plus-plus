@@ -16,13 +16,11 @@
 	"effects":[
 		{
 			"effect":"minecraft:slowness",
-			"duration":100,
 			"show_particles":false,
 			"show_icon":false
 		},
 		{
 			"effect":"minecraft:weakness",
-			"duration":100,
 			"show_particles":false,
 			"show_icon":false
 		}

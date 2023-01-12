@@ -176,7 +176,6 @@
 		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:wither",
-			"duration":60,
 			"amplifier":1,
 			"show_particles":false,
 			"show_icon":false

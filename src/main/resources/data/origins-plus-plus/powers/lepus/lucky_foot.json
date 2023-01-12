@@ -16,7 +16,6 @@
 		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:luck",
-			"duration":15,
 			"show_particles":false,
 			"show_icon":false
 		}

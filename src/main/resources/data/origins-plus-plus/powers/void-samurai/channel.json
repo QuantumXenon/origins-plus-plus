@@ -18,7 +18,9 @@
 			"effect":{
 				"effect":"minecraft:weakness",
 				"duration":40,
-				"amplifier":100
+				"amplifier":100,
+				"show_particles":false,
+				"show_icon":false
 			}
 		},
 		"key":"key.sneak",
@@ -31,7 +33,9 @@
 			"effect":{
 				"effect":"minecraft:saturation",
 				"duration":40,
-				"amplifier":5
+				"amplifier":5,
+				"show_particles":false,
+				"show_icon":false
 			}
 		},
 		"key":"key.sneak",

@@ -10,7 +10,6 @@
 	"duration_per_stack":20,
 	"effect":{
 		"effect":"minecraft:slowness",
-		"duration":100,
 		"amplifier":1,
 		"show_particles":false,
 		"show_icon":false

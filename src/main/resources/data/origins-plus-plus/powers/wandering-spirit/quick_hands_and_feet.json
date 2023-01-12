@@ -6,14 +6,12 @@
 	"effects":[
 		{
 			"effect":"minecraft:speed",
-			"duration":100,
 			"amplifier":1,
 			"show_particles":false,
 			"show_icon":false
 		},
 		{
 			"effect":"minecraft:haste",
-			"duration":100,
 			"amplifier":1,
 			"show_particles":false,
 			"show_icon":false
