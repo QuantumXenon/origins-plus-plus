@@ -1,15 +1,13 @@
 {
-	"type":"origins:action_over_time",
-	"rising_action":{
-		"type":"origins:apply_effect",
-		"effect":{
-			"effect":"minecraft:levitation",
-			"duration":100,
-			"show_particles":false,
-			"show_icon":false
-		}
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effect":{
+		"effect":"minecraft:levitation",
+		"show_particles":false,
+		"show_icon":false
 	},
-	"interval":19,
 	"condition":{
 		"type":"origins:health",
 		"comparison":"<",

@@ -1,5 +1,13 @@
 {
-	"type":"origins:action_over_time",
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effect":{
+		"effect":"minecraft:haste",
+		"show_particles":false,
+		"show_icon":false
+	},
 	"condition":{
 		"type":"origins:block_in_radius",
 		"radius":9,
@@ -10,20 +18,5 @@
 			"type":"origins:in_tag",
 			"tag":"minecraft:logs"
 		}
-	},
-	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:apply_effect",
-				"effect":{
-					"effect":"minecraft:haste",
-					"duration":200,
-					"show_particles":false,
-					"show_icon":false
-				}
-			}
-		]
-	},
-	"interval":20
+	}
 }

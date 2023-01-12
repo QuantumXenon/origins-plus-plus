@@ -1,16 +1,15 @@
 {
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effect":{
+		"effect":"minecraft:conduit_power",
+		"show_particles":false,
+		"show_icon":false
+	},
 	"condition":{
 		"type":"origins:submerged_in",
 		"fluid":"water"
-	},
-	"type":"origins:stacking_status_effect",
-	"min_stacks":-8,
-	"max_stacks":20,
-	"duration_per_stack":40,
-	"effect":{
-		"effect":"minecraft:conduit_power",
-		"duration":100,
-		"show_particles":false,
-		"show_icon":false
 	}
 }

@@ -148,7 +148,7 @@
 			{
 				"type":"origins:execute_command",
 				"permission_level":4,
-				"command":"playsound entity.vex.charge player @s"
+				"command":"playsound minecraft:entity.vex.charge player @s"
 			}
 		]
 	},

@@ -1,8 +1,8 @@
 {
 	"type":"origins:stacking_status_effect",
-	"min_stacks":-3,
+	"min_stacks":0,
 	"max_stacks":1,
-	"duration_per_stack":40,
+	"duration_per_stack":20,
 	"effects":[
 		{
 			"effect":"minecraft:strength",

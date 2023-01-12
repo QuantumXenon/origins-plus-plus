@@ -1,36 +1,22 @@
 {
-	"type":"origins:action_over_time",
-	"entity_action":{
-		"type":"origins:apply_effect",
-		"effects":[
-			{
-				"effect":"minecraft:weakness",
-				"duration":99999,
-				"show_particles":false
-			},
-			{
-				"effect":"minecraft:slowness",
-				"duration":99999,
-				"amplifier":1,
-				"show_particles":false
-			}
-		]
-	},
-	"falling_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:clear_effect",
-				"effect":"minecraft:weakness"
-			},
-			{
-				"type":"origins:clear_effect",
-				"effect":"minecraft:slowness"
-			}
-		]
-	},
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effects":[
+		{
+			"effect":"minecraft:weakness",
+			"show_particles":false,
+			"show_icon":false
+		},
+		{
+			"effect":"minecraft:slowness",
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":false
+		}
+	],
 	"condition":{
 		"type":"origins:daytime"
-	},
-	"interval":1
+	}
 }

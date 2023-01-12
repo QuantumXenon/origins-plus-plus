@@ -8,11 +8,7 @@
 			"conditions":[
 				{
 					"type":"origins:status_effect",
-					"effect":"minecraft:weakness",
-					"min_amplifier":0,
-					"max_amplifier":2147483647,
-					"min_duration":0,
-					"max_duration":2147483647
+					"effect":"minecraft:weakness"
 				},
 				{
 					"type":"origins:or",

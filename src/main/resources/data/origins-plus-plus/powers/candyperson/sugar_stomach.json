@@ -23,12 +23,16 @@
 					{
 						"effect":"minecraft:speed",
 						"duration":90,
-						"amplifier":2
+						"amplifier":2,
+						"show_particles":false,
+						"show_icon":false
 					},
 					{
 						"effect":"minecraft:haste",
 						"duration":90,
-						"amplifier":1
+						"amplifier":1,
+						"show_particles":false,
+						"show_icon":false
 					}
 				]
 			}

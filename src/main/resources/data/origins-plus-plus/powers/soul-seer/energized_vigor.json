@@ -3,8 +3,8 @@
 	"quarter":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
-		"max_stacks":2,
-		"duration_per_stack":25,
+		"max_stacks":1,
+		"duration_per_stack":20,
 		"effects":[
 			{
 				"effect":"minecraft:night_vision",
@@ -27,15 +27,13 @@
 	"half":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
-		"max_stacks":2,
-		"duration_per_stack":25,
-		"effects":[
-			{
-				"effect":"minecraft:haste",
-				"show_particles":false,
-				"show_icon":false
-			}
-		],
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:haste",
+			"show_particles":false,
+			"show_icon":false
+		},
 		"condition":{
 			"type":"origins:resource",
 			"resource":"origins-plus-plus:soul-seer/resource",
@@ -46,15 +44,13 @@
 	"full":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
-		"max_stacks":2,
-		"duration_per_stack":25,
-		"effects":[
-			{
-				"effect":"minecraft:strength",
-				"show_particles":false,
-				"show_icon":false
-			}
-		],
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:strength",
+			"show_particles":false,
+			"show_icon":false
+		},
 		"condition":{
 			"type":"origins:resource",
 			"resource":"origins-plus-plus:soul-seer/resource",

@@ -1,15 +1,13 @@
 {
-	"type":"origins:action_over_time",
-	"entity_action":{
-		"type":"origins:apply_effect",
-		"effect":{
-			"effect":"minecraft:strength",
-			"duration":200,
-			"show_particles":false,
-			"show_icon":false
-		}
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effect":{
+		"effect":"minecraft:strength",
+		"show_particles":false,
+		"show_icon":false
 	},
-	"interval":40,
 	"condition":{
 		"type":"origins:block_in_radius",
 		"block_condition":{

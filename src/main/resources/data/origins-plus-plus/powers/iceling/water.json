@@ -1,17 +1,13 @@
 {
-	"type":"origins:action_over_time",
-	"entity_action":{
-		"type":"origins:apply_effect",
-		"effects":[
-			{
-				"effect":"minecraft:water_breathing",
-				"show_particles":false,
-				"show_icon":false,
-				"duration":23
-			}
-		]
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effect":{
+		"effect":"minecraft:water_breathing",
+		"show_particles":false,
+		"show_icon":false
 	},
-	"interval":10,
 	"condition":{
 		"type":"origins:fluid_height",
 		"fluid":"minecraft:water",

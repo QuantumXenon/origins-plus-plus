@@ -7,9 +7,9 @@
 	"cowardice_speed":{
 		"hidden":true,
 		"type":"origins:stacking_status_effect",
-		"min_stacks":1,
+		"min_stacks":0,
 		"max_stacks":1,
-		"duration_per_stack":200,
+		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:speed",
 			"duration":100,
@@ -41,9 +41,9 @@
 	"cowardice_weakness":{
 		"hidden":true,
 		"type":"origins:stacking_status_effect",
-		"min_stacks":1,
+		"min_stacks":0,
 		"max_stacks":1,
-		"duration_per_stack":100,
+		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:weakness",
 			"duration":100,

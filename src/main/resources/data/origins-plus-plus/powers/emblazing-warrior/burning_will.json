@@ -4,7 +4,7 @@
 		"type":"origins:set_on_fire",
 		"duration":1
 	},
-	"interval":20,
+	"interval":21,
 	"condition":{
 		"type":"origins:resource",
 		"resource":"origins-plus-plus:emblazing-warrior/fury_bar",

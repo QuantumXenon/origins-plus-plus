@@ -1,10 +1,8 @@
 {
 	"type":"origins:stacking_status_effect",
-	"interval":60,
-	"onset_delay":1,
-	"min_stacks":1,
-	"max_stacks":3,
-	"duration_per_stack":36,
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
 	"effect":{
 		"effect":"minecraft:slowness",
 		"amplifier":1,

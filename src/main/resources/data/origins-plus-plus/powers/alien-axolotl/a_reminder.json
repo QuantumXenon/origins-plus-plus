@@ -1,5 +1,26 @@
 {
-	"type":"origins:action_over_time",
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effects":[
+		{
+			"effect":"minecraft:regeneration",
+			"show_particles":false,
+			"show_icon":false
+		},
+		{
+			"effect":"minecraft:blindness",
+			"show_particles":false,
+			"show_icon":false
+		},
+		{
+			"effect":"minecraft:slowness",
+			"amplifier":2,
+			"show_particles":false,
+			"show_icon":false
+		}
+	],
 	"condition":{
 		"type":"origins:block_in_radius",
 		"radius":1,
@@ -10,39 +31,5 @@
 			"type":"origins:block",
 			"block":"minecraft:kelp"
 		}
-	},
-	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:apply_effect",
-				"effect":{
-					"duration":200,
-					"show_particles":false,
-					"show_icon":false,
-					"effect":"minecraft:regeneration"
-				}
-			},
-			{
-				"type":"origins:apply_effect",
-				"effect":{
-					"duration":200,
-					"show_particles":false,
-					"show_icon":false,
-					"effect":"minecraft:blindness"
-				}
-			},
-			{
-				"type":"origins:apply_effect",
-				"effect":{
-					"duration":200,
-					"show_particles":false,
-					"show_icon":false,
-					"effect":"minecraft:slowness",
-					"amplifier":2
-				}
-			}
-		]
-	},
-	"interval":40
+	}
 }

@@ -1,27 +1,19 @@
 {
-	"type":"origins:action_over_time",
-	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:apply_effect",
-				"effect":{
-					"effect":"minecraft:invisibility",
-					"duration":2400,
-					"show_particles":false
-				}
-			},
-			{
-				"type":"origins:apply_effect",
-				"effect":{
-					"effect":"minecraft:hunger",
-					"duration":4000,
-					"amplifier":1,
-					"show_particles":false
-				}
-			}
-		]
-	},
-	"interval":6000
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effects":[
+		{
+			"effect":"minecraft:invisibility",
+			"show_particles":false,
+			"show_icon":false
+		},
+		{
+			"effect":"minecraft:hunger",
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":false
+		}
+	]
 }
-

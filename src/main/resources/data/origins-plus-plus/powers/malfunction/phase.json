@@ -42,9 +42,9 @@
 			"type":"origins:power_active",
 			"power":"*:*_toggle"
 		},
-		"duration_per_stack":20,
 		"min_stacks":0,
 		"max_stacks":1,
+		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:weakness",
 			"show_particles":false,

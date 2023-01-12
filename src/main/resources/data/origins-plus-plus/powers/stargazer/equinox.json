@@ -1,32 +1,24 @@
 {
-	"type":"origins:action_over_time",
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effects":[
+		{
+			"effect":"minecraft:strength",
+			"show_particles":false,
+			"show_icon":false,
+			"amplifier":1
+		},
+		{
+			"effect":"minecraft:speed",
+			"show_particles":false,
+			"show_icon":false,
+			"amplifier":1
+		}
+	],
 	"condition":{
 		"type":"origins:daytime",
 		"inverted":true
-	},
-	"interval":20,
-	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:apply_effect",
-				"effects":[
-					{
-						"effect":"minecraft:speed",
-						"duration":300,
-						"show_particles":false,
-						"show_icon":false,
-						"amplifier":1
-					},
-					{
-						"effect":"minecraft:strength",
-						"duration":300,
-						"show_particles":false,
-						"show_icon":false,
-						"amplifier":1
-					}
-				]
-			}
-		]
 	}
 }

@@ -16,7 +16,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound item.totem.use player @s ~ ~ ~ 20"
+				"command":"playsound minecraft:item.totem.use player @s ~ ~ ~ 20"
 			},
 			{
 				"type":"origins:execute_command",

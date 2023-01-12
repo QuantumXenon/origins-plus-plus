@@ -20,7 +20,7 @@
 			"compare_to":14
 		}
 	},
-	"poison":{
+	"poison_immunity":{
 		"type":"origins:effect_immunity",
 		"effects":[
 			"minecraft:poison"

@@ -1,17 +1,15 @@
 {
 	"type":"origins:stacking_status_effect",
 	"min_stacks":0,
-	"max_stacks":10,
+	"max_stacks":1,
 	"duration_per_stack":20,
-	"effects":[
-		{
-			"effect":"minecraft:weakness",
-			"duration":100,
-			"amplifier":100,
-			"show_particles":false,
-			"show_icon":false
-		}
-	],
+	"effect":{
+		"effect":"minecraft:weakness",
+		"duration":100,
+		"amplifier":100,
+		"show_particles":false,
+		"show_icon":false
+	},
 	"condition":{
 		"type":"origins:power_active",
 		"power":"origins-plus-plus:stargazer/starlight_mode"

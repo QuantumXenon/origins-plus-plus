@@ -8,28 +8,32 @@
 		"hud_render":{
 			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
 			"should_render":true,
-			"bar_index":3
+			"bar_index":5
 		}
 	},
 	"toggle":{
 		"type":"origins:toggle",
-		"key":"key.saveToolbarActivator",
+		"key":"key.origins.primary_active",
 		"active_by_default":false
 	},
-	"weak":{
-		"type":"origins:stacking_status_effect",
+	"invulnerability":{
+		"type":"origins:invulnerability",
+		"damage_condition":{
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:name",
+					"name":"inWall"
+				},
+				{
+					"type":"origins:name",
+					"name":"fall"
+				}
+			]
+		},
 		"condition":{
 			"type":"origins:power_active",
 			"power":"*:*_toggle"
-		},
-		"min_stacks":0,
-		"max_stacks":1,
-		"duration_per_stack":20,
-		"effect":{
-			"show_particles":false,
-			"show_icon":false,
-			"effect":"minecraft:weakness",
-			"amplifier":100
 		}
 	},
 	"timer":{
@@ -59,32 +63,50 @@
 		"max_stacks":1,
 		"duration_per_stack":20,
 		"effect":{
+			"effect":"minecraft:wither",
 			"show_particles":false,
 			"show_icon":false,
-			"effect":"minecraft:wither",
 			"amplifier":1
 		},
 		"condition":{
-			"type": "origins:resource",
-			"comparison": "==",
-			"resource": "*:*_resource",
-			"compare_to": 0
+			"type":"origins:resource",
+			"comparison":"==",
+			"resource":"*:*_resource",
+			"compare_to":0
 		}
 	},
-	"float":{
-		"type":"origins:stacking_status_effect",
+	"phase":{
+		"type":"origins:phasing",
+		"blacklist":true,
+		"render_type":"blindness",
+		"view_distance":20,
 		"condition":{
 			"type":"origins:power_active",
 			"power":"*:*_toggle"
 		},
-		"min_stacks":0,
-		"max_stacks":1,
-		"duration_per_stack":20,
-		"effect":{
-			"show_particles":false,
-			"show_icon":false,
-			"effect":"minecraft:levitation",
-			"amplifier":1
+		"block_condition":{
+			"type":"origins:in_tag",
+			"tag":"origins:unphasable"
+		},
+		"phase_down_condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:power_active",
+					"power":"*:*_toggle"
+				},
+				{
+					"type":"origins:or",
+					"conditions":[
+						{
+							"type":"origins:swimming"
+						},
+						{
+							"type":"origins:sneaking"
+						}
+					]
+				}
+			]
 		}
 	},
 	"respawn":{
@@ -92,7 +114,7 @@
 		"entity_action_respawned":{
 			"type":"origins:change_resource",
 			"resource":"*:*_resource",
-			"set":500
+			"change":500
 		}
 	}
 }

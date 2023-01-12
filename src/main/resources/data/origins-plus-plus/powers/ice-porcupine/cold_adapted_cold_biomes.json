@@ -1,16 +1,12 @@
 {
-	"type":"origins:action_over_time",
-	"interval":20,
-	"entity_action":{
-		"type":"origins:apply_effect",
-		"effects":[
-			{
-				"effect":"minecraft:speed",
-				"duration":21,
-				"show_icon":false,
-				"show_particles":false
-			}
-		]
+	"type":"origins:stacking_status_effect",
+	"min_stacks":0,
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effect":{
+		"effect":"minecraft:speed",
+		"show_particles":false,
+		"show_icon":false
 	},
 	"condition":{
 		"type":"origins:biome",

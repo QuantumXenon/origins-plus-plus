@@ -16,7 +16,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound entity.evoker.cast_spell ambient @p ~ ~ ~"
+					"command":"playsound minecraft:entity.evoker.cast_spell ambient @p ~ ~ ~"
 				}
 			]
 		},

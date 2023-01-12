@@ -11,9 +11,9 @@
 	},
 	"luck_potion":{
 		"type":"origins:stacking_status_effect",
-		"min_stacks":1,
+		"min_stacks":0,
 		"max_stacks":1,
-		"duration_per_stack":15,
+		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:luck",
 			"duration":15,

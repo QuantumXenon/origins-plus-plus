@@ -2,9 +2,9 @@
 	"type":"origins:multiple",
 	"regeneration":{
 		"type":"origins:stacking_status_effect",
-		"min_stacks":1,
-		"max_stacks":2,
-		"duration_per_stack":200,
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:regeneration",
 			"duration":200,
@@ -26,9 +26,9 @@
 	},
 	"saturation":{
 		"type":"origins:stacking_status_effect",
-		"min_stacks":1,
-		"max_stacks":2,
-		"duration_per_stack":100,
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:saturation",
 			"duration":100,

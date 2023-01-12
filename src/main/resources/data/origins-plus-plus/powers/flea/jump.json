@@ -3,13 +3,11 @@
 	"min_stacks":0,
 	"max_stacks":1,
 	"duration_per_stack":20,
-	"effects":[
-		{
-			"effect":"minecraft:jump_boost",
-			"amplifier":1,
-			"show_particles":false,
-			"show_icon":false
-		}
-	],
+	"effect":{
+		"effect":"minecraft:jump_boost",
+		"amplifier":1,
+		"show_particles":false,
+		"show_icon":false
+	},
 	"hidden":true
 }

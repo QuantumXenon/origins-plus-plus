@@ -2,14 +2,12 @@
 	"type":"origins:stacking_status_effect",
 	"min_stacks":0,
 	"max_stacks":1,
-	"duration_per_stack":30,
-	"effects":[
-		{
-			"effect":"minecraft:weakness",
-			"show_particles":false,
-			"show_icon":false
-		}
-	],
+	"duration_per_stack":20,
+	"effect":{
+		"effect":"minecraft:weakness",
+		"show_particles":false,
+		"show_icon":false
+	},
 	"condition":{
 		"type":"origins:biome",
 		"condition":{

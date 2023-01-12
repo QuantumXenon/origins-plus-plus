@@ -3,9 +3,9 @@
 	"hidden":true,
 	"effects":{
 		"type":"origins:stacking_status_effect",
-		"min_stacks":-10,
-		"max_stacks":10,
-		"duration_per_stack":5,
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:speed",
 			"show_particles":false,

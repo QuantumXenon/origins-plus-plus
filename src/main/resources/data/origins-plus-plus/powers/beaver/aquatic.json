@@ -1,17 +1,14 @@
 {
 	"type":"origins:stacking_status_effect",
 	"min_stacks":0,
-	"max_stacks":3,
-	"duration_per_stack":10,
-	"effects":[
-		{
-			"effect":"minecraft:dolphins_grace",
-			"duration":100,
-			"amplifier":1,
-			"show_particles":false,
-			"show_icon":false
-		}
-	],
+	"max_stacks":1,
+	"duration_per_stack":20,
+	"effect":{
+		"effect":"minecraft:dolphins_grace",
+		"amplifier":1,
+		"show_particles":false,
+		"show_icon":false
+	},
 	"condition":{
 		"type":"origins:submerged_in",
 		"fluid":"minecraft:water"

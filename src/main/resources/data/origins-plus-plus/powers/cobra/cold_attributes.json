@@ -3,11 +3,10 @@
 	"cold_slow":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
-		"max_stacks":2,
+		"max_stacks":1,
 		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:slowness",
-			"duration":20,
 			"amplifier":1,
 			"show_particles":false,
 			"show_icon":false
@@ -33,11 +32,10 @@
 	"freeze_slow":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
-		"max_stacks":2,
+		"max_stacks":1,
 		"duration_per_stack":20,
 		"effect":{
 			"effect":"minecraft:slowness",
-			"duration":20,
 			"amplifier":2,
 			"show_particles":false,
 			"show_icon":false
