@@ -4,9 +4,7 @@
 		"type":"origins:apply_effect",
 		"effect":{
 			"effect":"minecraft:poison",
-			"duration":200,
-			"show_particles":false,
-			"show_icon":false
+			"duration":200
 		}
 	},
 	"cooldown":500

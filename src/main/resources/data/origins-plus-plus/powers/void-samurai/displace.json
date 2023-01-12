@@ -16,7 +16,9 @@
 			"effect":{
 				"effect":"minecraft:invisibility",
 				"amplifier":1,
-				"duration":250
+				"duration":250,
+				"show_particles":false,
+				"show_icon":false
 			}
 		},
 		"cooldown":1200

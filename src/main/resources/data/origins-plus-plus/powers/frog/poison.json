@@ -5,7 +5,9 @@
 		"effect":{
 			"effect":"minecraft:poison",
 			"duration":400,
-			"amplifier":2
+			"amplifier":2,
+			"show_particles":false,
+			"show_icon":false
 		}
 	},
 	"cooldown":100,

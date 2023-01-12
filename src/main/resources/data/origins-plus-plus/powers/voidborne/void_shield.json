@@ -23,7 +23,9 @@
 				"effect":{
 					"effect":"minecraft:resistance",
 					"duration":600,
-					"amplifier":3
+					"amplifier":3,
+					"show_particles":false,
+					"show_icon":false
 				}
 			}
 		]

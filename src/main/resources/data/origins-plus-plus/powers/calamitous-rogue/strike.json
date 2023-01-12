@@ -142,9 +142,7 @@
 					"effect":{
 						"effect":"minecraft:slowness",
 						"duration":80,
-						"amplifier":3,
-						"show_particles":false,
-						"show_icon":false
+						"amplifier":3
 					}
 				},
 				{
@@ -152,9 +150,7 @@
 					"effect":{
 						"effect":"minecraft:mining_fatigue",
 						"duration":80,
-						"amplifier":3,
-						"show_particles":false,
-						"show_icon":false
+						"amplifier":3
 					}
 				},
 				{

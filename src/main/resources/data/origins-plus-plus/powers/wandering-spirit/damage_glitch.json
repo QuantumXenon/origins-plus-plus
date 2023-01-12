@@ -17,7 +17,9 @@
 				"type":"origins:apply_effect",
 				"effect":{
 					"duration":1,
-					"effect":"minecraft:instant_damage"
+					"effect":"minecraft:instant_damage",
+					"show_particles":false,
+					"show_icon":false
 				}
 			}
 		},

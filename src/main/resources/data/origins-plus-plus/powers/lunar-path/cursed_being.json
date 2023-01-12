@@ -5,7 +5,9 @@
 		"effect":{
 			"effect":"minecraft:instant_damage",
 			"amplifier":1,
-			"duration":1
+			"duration":1,
+			"show_particles":false,
+			"show_icon":false
 		}
 	},
 	"damage_condition":{

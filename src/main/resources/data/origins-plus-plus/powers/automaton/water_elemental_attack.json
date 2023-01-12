@@ -36,7 +36,9 @@
 								"effect":{
 									"effect":"minecraft:slowness",
 									"amplifier":2,
-									"duration":100
+									"duration":100,
+									"show_particles":false,
+									"show_icon":false
 								}
 							}
 						]
