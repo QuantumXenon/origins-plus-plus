@@ -5,7 +5,7 @@
 		"bar_index":4
 	},
 	"sound":"minecraft:entity.ender_dragon.flap",
-	"speed":3,
+	"speed":1.5,
 	"key":"key.origins.primary_active",
 	"condition":{
 		"type":"origins:resource",
