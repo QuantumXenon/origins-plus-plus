@@ -65,8 +65,10 @@
 			"amplifier":1
 		},
 		"condition":{
-			"type":"origins:power_active",
-			"power":"*:*_toggle"
+			"type": "origins:resource",
+			"comparison": "==",
+			"resource": "*:*_resource",
+			"compare_to": 0
 		}
 	},
 	"float":{

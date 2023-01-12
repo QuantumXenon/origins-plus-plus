@@ -21,13 +21,19 @@
 		]
 	},
 	"bientity_condition":{
-		"type":"origins:target_condition",
-		"condition":{
-			"type":"origins:nbt",
-			"nbt":"{Tags:['Deathsworn_Minion']}"
-		}
-	},
-	"condition":{
-		"type":"origins:sneaking"
-	}
-}
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:target_condition",
+				"condition":{
+					"type":"origins:nbt",
+					"nbt":"{Tags:['Deathsworn_Minion']}"
+				}
+			},
+			{
+				"type":"origins:actor_condition",
+				"condition":{
+					"type":"origins:sneaking"
+				}
+			}
+			}
