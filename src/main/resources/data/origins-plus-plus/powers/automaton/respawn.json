@@ -7,12 +7,12 @@
 			{
 				"type":"origins:change_resource",
 				"resource":"origins-plus-plus:automaton/waterbar",
-				"set":5000
+				"change":5000
 			},
 			{
 				"type":"origins:change_resource",
 				"resource":"origins-plus-plus:automaton/firebar",
-				"set":5000
+				"change":5000
 			}
 		]
 	}

@@ -130,7 +130,7 @@
 		"entity_action_respawned":{
 			"type":"origins:change_resource",
 			"resource":"*:*_resource",
-			"set":500
+			"change":500
 		}
 	}
 }

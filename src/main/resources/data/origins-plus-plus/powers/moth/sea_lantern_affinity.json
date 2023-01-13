@@ -13,8 +13,8 @@
 			"effect":"minecraft:conduit_power",
 			"show_particles":false,
 			"show_icon":false
-		},
-	]
+		}
+	],
 	"condition":{
 		"type":"origins:block_in_radius",
 		"block_condition":{

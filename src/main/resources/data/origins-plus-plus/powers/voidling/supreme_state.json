@@ -51,17 +51,17 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team add Voidling",
+					"command":"team add voidling",
 					"permission_level":4
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team modify Voidling color dark_purple",
+					"command":"team modify voidling color dark_purple",
 					"permission_level":4
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join Voidling @e[tag=void_sight]",
+					"command":"team join voidling @e[tag=void_sight]",
 					"permission_level":4
 				},
 				{
@@ -111,7 +111,7 @@
 					"ticks":3600,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"team remove Voidling",
+						"command":"team remove voidling",
 						"permission_level":4
 					}
 				},
