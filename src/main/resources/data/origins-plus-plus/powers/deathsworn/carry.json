@@ -6,6 +6,6 @@
 	},
 	"target_condition":{
 		"type":"origins:nbt",
-		"nbt":"{Tags:[\"Deathsworn_Minion\"]}"
+		"nbt":"{Tags:['Deathsworn_Minion']}"
 	}
 }

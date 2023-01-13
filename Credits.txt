@@ -96,7 +96,7 @@ Thornling - Beacon#4672
 Triangulon - BlueBen8#8888
 Vishaichian - Overgrown#5799
 Void Samurai - Dimsunset#7190
-Voidborne - Overgrown#5799
+Voidling - Overgrown#5799
 Volcanic Dragon - Overgrown#5799
 Wailing One - Overgrown#5799 
 Wanderer - AshBuny (PMC)
