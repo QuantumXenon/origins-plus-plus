@@ -1,14 +1,16 @@
 {
 	"type":"origins:damage_over_time",
-	"interval":40,
+	"interval":20,
 	"onset_delay":1,
 	"damage":2,
+	"damage_easy":1,
 	"damage_source":{
 		"name":"onFire",
-		"fire":true
+		"unblockable":true,
+		"bypasses_armor":true
 	},
 	"protection_enchantment":"minecraft:fire_protection",
-	"protection_effectivness":1,
+	"protection_effectiveness":1,
 	"condition":{
 		"type":"origins:and",
 		"conditions":[
@@ -48,10 +50,6 @@
 			{
 				"type":"origins:status_effect",
 				"effect":"minecraft:fire_resistance",
-				"min_amplifier":0,
-				"max_amplifier":2147483647,
-				"min_duration":0,
-				"max_duration":2147483647,
 				"inverted":true
 			}
 		]

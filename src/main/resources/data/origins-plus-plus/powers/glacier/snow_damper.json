@@ -1,30 +1,13 @@
 {
-	"type":"origins:action_on_land",
+	"type":"origins:action_over_time",
 	"interval":1,
 	"entity_action":{
-		"type":"origins:if_else",
-		"condition":{
-			"type":"origins:or",
-			"conditions":[
-				{
-					"type":"origins:on_block",
-					"block_condition":{
-						"type":"origins:in_tag",
-						"tag":"minecraft:snow"
-					}
-				},
-				{
-					"type":"origins:in_block",
-					"block_condition":{
-						"type":"origins:block",
-						"block":"minecraft:snow"
-					}
-				}
-			]
-		},
-		"if_action":{
-			"type":"origins:set_fall_distance",
-			"fall_distance":0
-		}
+		"type":"origins:execute_command",
+		"command":"execute if block ~ ~-1 ~ #minecraft:snow run effect give @s minecraft:slow_falling 1"
+	},
+	"condition":{
+		"type": "origins:fall_distance",
+		"comparison": ">=",
+		"compare_to": 1
 	}
 }
