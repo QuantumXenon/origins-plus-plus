@@ -2,8 +2,11 @@
 	"type":"origins:action_on_callback",
 	"hidden": true,
 	"entity_action_respawned":{
-		"type":"origins:change_resource",
-		"resource":"origins-plus-plus:spectre/spectre_infinite",
-		"change":0
+		"type":"origins:modify_resource",
+		"modifier":{
+			"operation":"set_total",
+			"value":0
+		},
+		"resource":"origins-plus-plus:spectre/spectre_infinite"
 	}
 }

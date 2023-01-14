@@ -6,6 +6,7 @@
 		"max":20,
 		"hud_render":{
 			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
 			"bar_index":5
 		}
 	},
@@ -15,6 +16,17 @@
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:deathsworn/soul_bar",
 			"change":5
+		}
+	},
+	"respawn":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+			"type":"origins:modify_resource",
+			"modifier":{
+				"operation":"set_total",
+				"value":0
+			},
+			"resource":"origins-plus-plus:deathsworn/soul_bar"
 		}
 	}
 }

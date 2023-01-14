@@ -68,11 +68,22 @@
 			"change":8
 		}
 	},
-	"stoplevitation":{
+	"stop_levitation":{
 		"type":"origins:action_on_land",
 		"entity_action":{
 			"type":"origins:clear_effect",
 			"effect":"minecraft:levitation"
+		}
+	},
+	"respawn":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+			"type":"origins:modify_resource",
+			"modifier":{
+				"operation":"set_total",
+				"value":0
+			},
+			"resource":"origins-plus-plus:insect/flap_resource"
 		}
 	}
 }

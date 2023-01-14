@@ -15,7 +15,7 @@
 		"type":"origins:self_action_when_hit",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:blob/health_bar_resource",
+			"resource":"*:*_resource",
 			"change":-100
 		}
 	},
@@ -28,9 +28,20 @@
 		},
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:blob/health_bar_resource",
+			"resource":"*:*_resource",
 			"comparison":">=",
 			"compare_to":1
+		}
+	},
+	"respawn":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+			"type":"origins:modify_resource",
+			"modifier":{
+				"operation":"set_total",
+				"value":1000
+			},
+			"resource":"*:*_resource"
 		}
 	}
 }

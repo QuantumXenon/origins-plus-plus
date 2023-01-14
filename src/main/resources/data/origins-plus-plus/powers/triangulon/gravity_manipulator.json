@@ -13,6 +13,7 @@
 		"type":"origins:resource",
 		"min":0,
 		"max":400,
+		"start_value":400,
 		"hud_render":{
 			"bar_index":4
 		}
@@ -36,5 +37,16 @@
 			}
 		},
 		"interval":2
+	},
+	"respawn":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+			"type":"origins:modify_resource",
+			"modifier":{
+				"operation":"set_total",
+				"value":400
+			},
+			"resource":"*:*_timer"
+		}
 	}
 }

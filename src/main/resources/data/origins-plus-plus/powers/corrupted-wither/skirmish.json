@@ -193,5 +193,16 @@
 				"change":1
 			}
 		}
+	},
+	"respawn":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+			"type":"origins:modify_resource",
+			"modifier":{
+				"operation":"set_total",
+				"value":10
+			},
+			"resource":"*:*_timer"
+		}
 	}
 }
