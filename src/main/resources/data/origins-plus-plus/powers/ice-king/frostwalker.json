@@ -2,6 +2,7 @@
 	"type":"origins:multiple",
 	"grant":{
 		"type":"origins:toggle",
+		"key":"key.saveToolbarActivator",
 		"active_by_default":false
 	},
 	"ice":{

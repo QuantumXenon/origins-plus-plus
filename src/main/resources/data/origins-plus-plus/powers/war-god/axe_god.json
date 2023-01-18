@@ -2,16 +2,10 @@
 	"type":"origins:multiple",
 	"axe_damage":{
 		"type":"origins:modify_damage_dealt",
-		"modifiers":[
-			{
-				"operation":"addition",
-				"value":4
-			},
-			{
-				"operation":"multiply_total",
-				"value":0.25
-			}
-		],
+		"modifier":{
+			"operation":"addition",
+			"value":4
+		},
 		"damage_condition":{
 			"type":"origins:attacker",
 			"entity_condition":{

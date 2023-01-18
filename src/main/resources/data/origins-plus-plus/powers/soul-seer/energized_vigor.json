@@ -1,22 +1,24 @@
 {
 	"type":"origins:multiple",
-	"quarter":{
+	"quarter-speed":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
 		"max_stacks":1,
 		"duration_per_stack":20,
-		"effects":[
-			{
-				"effect":"minecraft:night_vision",
-				"show_particles":false,
-				"show_icon":false
-			},
-			{
-				"effect":"minecraft:speed",
-				"show_particles":false,
-				"show_icon":false
-			}
-		],
+		"effect":{
+			"effect":"minecraft:speed",
+			"show_particles":false,
+			"show_icon":false
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:soul-seer/resource",
+			"comparison":">=",
+			"compare_to":25
+		}
+	},
+	"quarter-night_vision":{
+		"type":"origins:night_vision",
 		"condition":{
 			"type":"origins:resource",
 			"resource":"origins-plus-plus:soul-seer/resource",

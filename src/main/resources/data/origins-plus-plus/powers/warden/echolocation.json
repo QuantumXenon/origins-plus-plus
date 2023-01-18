@@ -10,7 +10,7 @@
 			},
 			{
 				"type":"origins:play_sound",
-				"sound":"minecraft:entity.horse.death"
+				"sound":"minecraft:entity.warden.sonic_boom"
 			}
 		]
 	},
