@@ -6,18 +6,19 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"resource change @s origins-plus-plus:automaton/firebar -1"
+				"command":"resource change @s origins-plus-plus:automaton/waterbar -1"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"resource change @s origins-plus-plus:automaton/waterbar 2"
+				"command":"resource change @s origins-plus-plus:automaton/firebar 2"
 			}
 		]
 	},
 	"condition":{
-		"type":"origins:biome",
-		"condition":{
-			"type":"origins:high_humidity"
+		"type":"origins:in_block",
+		"block_condition":{
+			"type":"origins:block",
+			"block":"minecraft:lava"
 		}
 	},
 	"hidden":true

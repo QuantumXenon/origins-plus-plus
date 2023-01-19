@@ -1,6 +1,6 @@
 {
 	"type":"origins:action_over_time",
-	"interval":2,
+	"interval":5,
 	"entity_action":{
 		"type":"origins:execute_command",
 		"command":"resource change @s origins-plus-plus:automaton/firebar -1"
