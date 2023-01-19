@@ -24,4 +24,4 @@ What origin is causing the problem?
 What power is causing the problem?
 
 **Notes**
-Any other information that might be useful
+Include any other information that might be useful here
