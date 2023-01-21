@@ -18,14 +18,25 @@
 			]
 		},
 		"condition":{
-			"type":"origins:equipped_item",
-			"equipment_slot":"offhand",
-			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"item":"minecraft:coal"
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"offhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:coal"
+						}
+					}
+				},
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:artificial-construct/battery_resource",
+					"comparison":"<",
+					"compare_to":600
 				}
-			}
+			]
 		}
 	},
 	"regenerate_charcoal":{
@@ -46,14 +57,25 @@
 			]
 		},
 		"condition":{
-			"type":"origins:equipped_item",
-			"equipment_slot":"offhand",
-			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"item":"minecraft:charcoal"
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"offhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:charcoal"
+						}
+					}
+				},
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:artificial-construct/battery_resource",
+					"comparison":"<",
+					"compare_to":600
 				}
-			}
+			]
 		}
 	},
 	"regenerate_redstone":{
@@ -74,14 +96,25 @@
 			]
 		},
 		"condition":{
-			"type":"origins:equipped_item",
-			"equipment_slot":"offhand",
-			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"item":"minecraft:redstone"
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"offhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:redstone"
+						}
+					}
+				},
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:artificial-construct/battery_resource",
+					"comparison":"<",
+					"compare_to":600
 				}
-			}
+			]
 		}
 	},
 	"decrease":{

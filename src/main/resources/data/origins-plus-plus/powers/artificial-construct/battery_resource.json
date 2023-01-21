@@ -2,7 +2,7 @@
 	"type":"origins:resource",
 	"min":0,
 	"max":600,
-	"start_value":500,
+	"start_value":600,
 	"hud_render":{
 		"should_render":true,
 		"bar_index":2
