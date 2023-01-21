@@ -34,7 +34,7 @@
 					"type":"origins:resource",
 					"resource":"origins-plus-plus:artificial-construct/battery_resource",
 					"comparison":"<",
-					"compare_to":600
+					"compare_to":550
 				}
 			]
 		}
@@ -73,7 +73,7 @@
 					"type":"origins:resource",
 					"resource":"origins-plus-plus:artificial-construct/battery_resource",
 					"comparison":"<",
-					"compare_to":600
+					"compare_to":550
 				}
 			]
 		}
@@ -112,7 +112,7 @@
 					"type":"origins:resource",
 					"resource":"origins-plus-plus:artificial-construct/battery_resource",
 					"comparison":"<",
-					"compare_to":600
+					"compare_to":550
 				}
 			]
 		}
