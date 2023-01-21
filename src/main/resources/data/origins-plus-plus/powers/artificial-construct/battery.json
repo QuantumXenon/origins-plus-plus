@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"regenerate":{
+	"regenerate_coal":{
 		"type":"origins:action_over_time",
 		"interval":20,
 		"entity_action":{
@@ -24,6 +24,62 @@
 				"type":"origins:ingredient",
 				"ingredient":{
 					"item":"minecraft:coal"
+				}
+			}
+		}
+	},
+	"regenerate_charcoal":{
+		"type":"origins:action_over_time",
+		"interval":20,
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:change_resource",
+					"resource":"origins-plus-plus:artificial-construct/battery_resource",
+					"change":50
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"clear @s minecraft:charcoal 1"
+				}
+			]
+		},
+		"condition":{
+			"type":"origins:equipped_item",
+			"equipment_slot":"offhand",
+			"item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"item":"minecraft:charcoal"
+				}
+			}
+		}
+	},
+	"regenerate_redstone":{
+		"type":"origins:action_over_time",
+		"interval":20,
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:change_resource",
+					"resource":"origins-plus-plus:artificial-construct/battery_resource",
+					"change":50
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"clear @s minecraft:redstone 1"
+				}
+			]
+		},
+		"condition":{
+			"type":"origins:equipped_item",
+			"equipment_slot":"offhand",
+			"item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"item":"minecraft:redstone"
 				}
 			}
 		}
