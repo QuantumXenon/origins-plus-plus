@@ -1,6 +1,5 @@
 {
 	"type":"origins:modify_player_spawn",
 	"dimension":"minecraft:overworld",
-	"structure":"minecraft:mineshaft",
-	"spawn_strategy":"center"
+	"structure":"minecraft:mineshaft"
 }

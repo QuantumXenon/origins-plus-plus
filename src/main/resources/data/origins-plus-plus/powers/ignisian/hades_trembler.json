@@ -4,9 +4,15 @@
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:add_velocity",
-			"y":-1
+			"x":0,
+			"y":-1,
+			"z":0,
+			"space":"world"
 		},
-		"key":"key.sneak"
+		"key":{
+			"key":"key.sneak",
+			"continuous":true
+		}
 	},
 	"quake":{
 		"type":"origins:action_on_land",
@@ -27,7 +33,10 @@
 						},
 						{
 							"type":"origins:add_velocity",
-							"y":1
+							"x":0,
+							"y":1,
+							"z":0,
+							"space":"world"
 						}
 					]
 				}
@@ -45,7 +54,7 @@
 				{
 					"type":"origins:fall_distance",
 					"comparison":">",
-					"compare_to":2
+					"compare_to":5
 				}
 			]
 		}
@@ -68,7 +77,27 @@
 				{
 					"type":"origins:fall_distance",
 					"comparison":">",
-					"compare_to":2
+					"compare_to":5
+				}
+			]
+		}
+	},
+	"sound":{
+		"type":"origins:action_on_land",
+		"entity_action":{
+			"type":"origins:play_sound",
+			"sound":"entity.generic.explode"
+		},
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:sneaking"
+				},
+				{
+					"type":"origins:fall_distance",
+					"comparison":">",
+					"compare_to":5
 				}
 			]
 		}

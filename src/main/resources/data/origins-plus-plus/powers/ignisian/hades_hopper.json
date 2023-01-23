@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"nowrath":{
+	"no_wrath":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:add_velocity",
@@ -24,9 +24,10 @@
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:add_velocity",
-			"x": 0,
-			"y": 2,
-			"z": 0,
+			"x":0,
+			"y":2,
+			"z":0,
+			"space":"world",
 			"set":true
 		},
 		"cooldown":40,
@@ -39,7 +40,7 @@
 		},
 		"key":"key.origins.secondary_active"
 	},
-	"soundnowrath":{
+	"sound":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:play_sound",
@@ -53,7 +54,7 @@
 		},
 		"key":"key.origins.secondary_active"
 	},
-	"soundwrath":{
+	"sound_wrath":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:play_sound",

@@ -1,6 +1,5 @@
 {
 	"type":"origins:modify_player_spawn",
 	"dimension":"minecraft:the_nether",
-	"structure":"minecraft:fortress",
-	"spawn_strategy":"center"
+	"structure":"minecraft:fortress"
 }

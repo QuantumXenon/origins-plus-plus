@@ -6,13 +6,13 @@
 	"effects":[
 		{
 			"effect":"minecraft:strength",
-			"amplifier":2,
+			"amplifier":1,
 			"show_particles":false,
 			"show_icon":false
 		},
 		{
 			"effect":"minecraft:speed",
-			"amplifier":2,
+			"amplifier":1,
 			"show_particles":false,
 			"show_icon":false
 		}

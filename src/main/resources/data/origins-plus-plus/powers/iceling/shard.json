@@ -1,7 +1,12 @@
 {
 	"type":"origins:fire_projectile",
 	"entity_type":"minecraft:arrow",
-	"cooldown":50,
-	"tag":"{pickup:0b}",
-	"key":"key.origins.primary_active"
+	"tag":"{Potion:\"minecraft:slowness\", pickup:0b}",
+	"key":"key.origins.secondary_active",
+	"cooldown":200,
+	"hud_render":{
+		"should_render":true,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index":0
+	}
 }
