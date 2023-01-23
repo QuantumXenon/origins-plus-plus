@@ -74,6 +74,7 @@
 				{
 					"type":"origins:explode",
 					"power":2,
+					"destruction_type":"none",
 					"damage_self":false
 				}
 			]
