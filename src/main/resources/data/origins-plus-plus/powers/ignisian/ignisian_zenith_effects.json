@@ -6,7 +6,7 @@
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:ignisian/ignisian_zenith",
-			"change":100
+			"change":200
 		},
 		"cooldown":1
 	},
