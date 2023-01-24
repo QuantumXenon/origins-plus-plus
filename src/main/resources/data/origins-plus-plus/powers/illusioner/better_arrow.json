@@ -7,7 +7,7 @@
 		}
 	],
 	"entity_type":"minecraft:arrow",
-	"tag":"{CustomPotionEffects:[{Id:9,Duration:600,ShowParticles:0b}],CustomPotionColor:6564706,life:1180, pickup:0b}",
+	"tag":"{CustomPotionEffects:[{Id:9,Duration:600,ShowParticles:0b}],life:1180,pickup:0b}",
 	"key":"key.origins.secondary_active",
 	"cooldown":600,
 	"hud_render":{
