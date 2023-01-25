@@ -12,10 +12,6 @@
 				{
 					"type":"origins:execute_command",
 					"command":"scale set pehkui:width 0.35"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"scale persist true"
 				}
 			]
 		},
@@ -29,10 +25,6 @@
 				{
 					"type":"origins:execute_command",
 					"command":"scale set pehkui:width 0.35"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"scale persist true"
 				}
 			]
 		},

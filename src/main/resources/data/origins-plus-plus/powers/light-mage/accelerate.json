@@ -8,12 +8,12 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..6] minecraft:haste 120 1",
+				"command":"effect give @e[distance=..6] minecraft:haste 60 1",
 				"permission_level":4
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..6] minecraft:speed 120 1",
+				"command":"effect give @e[distance=..6] minecraft:speed 60 1",
 				"permission_level":4
 			},
 			{

@@ -7,13 +7,12 @@
 		"actions":[
 			{
 				"type":"origins:add_velocity",
-				"space":"local",
-				"z":0.75
+				"z":1.5,
+				"space":"local"
 			},
 			{
 				"type":"origins:add_velocity",
-				"space":"local",
-				"z":0.75
+				"y":0.25
 			},
 			{
 				"type":"origins:play_sound",

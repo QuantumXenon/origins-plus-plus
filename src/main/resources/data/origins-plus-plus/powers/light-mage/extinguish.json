@@ -8,7 +8,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..6] minecraft:fire_resistance 160 0",
+				"command":"effect give @e[distance=..6] minecraft:fire_resistance 100 0",
 				"permission_level":4
 			},
 			{

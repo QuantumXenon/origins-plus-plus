@@ -1,8 +1,11 @@
 {
 	"hidden":true,
 	"type":"origins:active_self",
-	"key":"key.origins.primary_active",
-	"cooldown":20,
+	"key":{
+		"key":"key.origins.primary_active",
+		"continuous":true
+	},
+	"cooldown":10,
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[
@@ -13,7 +16,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"summon minecraft:experience_orb ~ ~ ~ {Value:15}",
+				"command":"summon minecraft:experience_orb ~ ~ ~ {Value:5}",
 				"permission_level":4
 			},
 			{

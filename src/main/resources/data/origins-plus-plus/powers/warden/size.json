@@ -10,10 +10,6 @@
 			{
 				"type":"origins:execute_command",
 				"command":"scale set pehkui:width 2.25"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale persist true"
 			}
 		]
 	},
@@ -27,10 +23,6 @@
 			{
 				"type":"origins:execute_command",
 				"command":"scale set pehkui:width 2.25"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale persist true"
 			}
 		]
 	},

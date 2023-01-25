@@ -2,7 +2,7 @@
 	"hidden":true,
 	"type":"origins:active_self",
 	"key":"key.origins.primary_active",
-	"cooldown":100,
+	"cooldown":200,
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[
@@ -13,7 +13,7 @@
 			},
 			{
 				"type":"origins:raycast",
-				"distance":80,
+				"distance":64,
 				"shape_type":"outline",
 				"fluid_handling":"none",
 				"command_at_hit":"function origins-plus-plus:light-mage/bolt"

@@ -11,10 +11,6 @@
 				"type":"origins:execute_command",
 				"command":"scale set pehkui:width 0.2"
 			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale persist true"
-			}
 		]
 	},
 	"entity_action_respawned":{
@@ -28,10 +24,6 @@
 				"type":"origins:execute_command",
 				"command":"scale set pehkui:width 0.2"
 			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale persist true"
-			}
 		]
 	},
 	"entity_action_lost":{

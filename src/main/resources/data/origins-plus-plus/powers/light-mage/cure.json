@@ -7,7 +7,7 @@
 		"actions":[
 			{
 				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:white-mage/resource",
+				"resource":"origins-plus-plus:light-mage/resource",
 				"change":-100
 			},
 			{
@@ -15,7 +15,7 @@
 				"distance":80,
 				"shape_type":"outline",
 				"fluid_handling":"none",
-				"command_at_hit":"function origins-plus-plus:white-mage/cure",
+				"command_at_hit":"function origins-plus-plus:light-mage/cure",
 				"command_along_ray":"particle minecraft:end_rod"
 			}
 		]

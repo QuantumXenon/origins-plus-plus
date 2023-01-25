@@ -8,8 +8,8 @@
 				"type":"origins:invert",
 				"action":{
 					"type":"origins:add_velocity",
-					"y":3,
-					"z":3
+					"y":0.33,
+					"z":1
 				}
 			},
 			{

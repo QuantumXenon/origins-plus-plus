@@ -22,7 +22,7 @@
 			},
 			{
 				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:white-mage/resource",
+				"resource":"origins-plus-plus:light-mage/resource",
 				"change":-100
 			}
 		]

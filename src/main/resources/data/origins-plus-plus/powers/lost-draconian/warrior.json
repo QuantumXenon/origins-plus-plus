@@ -6,12 +6,12 @@
 		"item_condition":{
 			"type":"origins:ingredient",
 			"ingredient":{
-				"item":"minecraft:diamond_sword"
+				"tag":"origins-plus-plus:swords"
 			}
 		}
 	},
 	"modifier":{
 		"operation":"addition",
-		"value":3.5
+		"value":2
 	}
 }

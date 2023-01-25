@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"slowhunger":{
+	"less_exhaustion":{
 		"type":"origins:modify_exhaustion",
 		"modifier":{
 			"operation":"multiply_base",
