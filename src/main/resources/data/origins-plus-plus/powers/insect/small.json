@@ -2,7 +2,7 @@
 	"type":"origins:action_on_callback",
 	"entity_action_removed":{
 		"type":"origins:execute_command",
-		"command":"scale reset pehkui:base",
+		"command":"scale reset",
 		"permission_level":4
 	},
 	"hidden":true

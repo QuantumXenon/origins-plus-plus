@@ -4,7 +4,7 @@
 	"power":{
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
-		"cooldown":300,
+		"cooldown":200,
 		"entity_action":{
 			"type":"origins:equipped_item_action",
 			"equipment_slot":"offhand",
@@ -22,7 +22,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"item":"minecraft:glowstone"
+							"item":"minecraft:glowstone_dust"
 						}
 					}
 				},
@@ -58,7 +58,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"item":"minecraft:glowstone"
+							"item":"minecraft:glowstone_dust"
 						}
 					}
 				},

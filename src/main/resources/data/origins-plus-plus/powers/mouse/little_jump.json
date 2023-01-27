@@ -2,6 +2,6 @@
 	"type":"origins:modify_jump",
 	"modifier":{
 		"operation":"addition",
-		"value":0.2
+		"value":0.0
 	}
 }

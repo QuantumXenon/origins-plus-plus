@@ -1,5 +1,4 @@
 {
-	"hidden":true,
 	"type":"origins:active_self",
 	"entity_action":{
 		"type":"origins:add_velocity",

@@ -29,6 +29,5 @@
 			}
 		]
 	},
-	"interval":5,
-	"hidden":true
+	"interval":5
 }

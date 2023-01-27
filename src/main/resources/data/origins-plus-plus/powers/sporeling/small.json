@@ -10,7 +10,7 @@
 			{
 				"type":"origins:execute_command",
 				"command":"scale set pehkui:width 0.2"
-			},
+			}
 		]
 	},
 	"entity_action_respawned":{
@@ -23,7 +23,7 @@
 			{
 				"type":"origins:execute_command",
 				"command":"scale set pehkui:width 0.2"
-			},
+			}
 		]
 	},
 	"entity_action_lost":{

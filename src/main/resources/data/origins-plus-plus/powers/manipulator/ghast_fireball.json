@@ -4,7 +4,7 @@
 	"power":{
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
-		"cooldown":300,
+		"cooldown":200,
 		"entity_action":{
 			"type":"origins:equipped_item_action",
 			"equipment_slot":"offhand",
@@ -28,7 +28,7 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:manipulator/cycle_counter",
+					"resource":"origins-plus-plus:manipulator/cycle_active_power",
 					"comparison":"==",
 					"compare_to":2
 				}
@@ -64,7 +64,7 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:manipulator/cycle_counter",
+					"resource":"origins-plus-plus:manipulator/cycle_active_power",
 					"comparison":"==",
 					"compare_to":2
 				}

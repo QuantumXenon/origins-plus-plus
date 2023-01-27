@@ -10,10 +10,6 @@
 	},
 	"entity_action_lost":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:base 1"
-	},
-	"entity_action_removed":{
-		"type":"origins:execute_command",
-		"command":"scale set pehkui:base 1"
+		"command":"scale set reset"
 	}
 }

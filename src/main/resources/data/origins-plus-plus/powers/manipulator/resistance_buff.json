@@ -25,7 +25,7 @@
 					"type":"origins:apply_effect",
 					"effect":{
 						"effect":"minecraft:resistance",
-						"duration":150,
+						"duration":300,
 						"amplifier":1,
 						"show_particles":false,
 						"show_icon":false
