@@ -82,11 +82,15 @@
 		}
 	},
 	"particles":{
-		"type":"origins:execute_command",
-		"command":"particle minecraft:large_smoke ~ ~1 ~ .2 .2 .2 .05 5 normal",
-		"condition":{
-			"type":"origins:power_active",
-			"power":"*:*_toggle"
+		"type":"origins:action_over_time",
+		"interval":1,
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"particle minecraft:large_smoke ~ ~1 ~ .2 .2 .2 .05 5 normal",
+			"condition":{
+				"type":"origins:power_active",
+				"power":"*:*_toggle"
+			}
 		}
 	},
 	"wither":{
