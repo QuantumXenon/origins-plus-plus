@@ -2,9 +2,9 @@
 	"type":"origins:multiple",
 	"resource":{
 		"type":"origins:resource",
-		"max":500,
+		"max":300,
 		"min":0,
-		"start_value":500,
+		"start_value":300,
 		"hud_render":{
 			"should_render":true,
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
@@ -12,60 +12,64 @@
 		}
 	},
 	"toggle":{
-		"type":"origins:resource",
-		"max":1,
-		"min":0
-	},
-	"active_toggle":{
-		"type":"origins:active_self",
+		"type":"origins:toggle",
 		"key":"key.origins.primary_active",
-		"condition":{
-			"type":"origins:sneaking"
-		},
+		"active_by_default":false
+	},
+	"timer":{
+		"type":"origins:action_over_time",
+		"interval":1,
 		"entity_action":{
 			"type":"origins:if_else",
 			"condition":{
-				"type":"origins:resource",
-				"comparison":"==",
-				"resource":"*:*_toggle",
-				"compare_to":1
+				"type":"origins:power_active",
+				"power":"*:*_toggle"
 			},
 			"if_action":{
 				"type":"origins:change_resource",
-				"resource":"*:*_toggle",
+				"resource":"*:*_resource",
 				"change":-1
 			},
 			"else_action":{
 				"type":"origins:change_resource",
-				"resource":"*:*_toggle",
+				"resource":"*:*_resource",
 				"change":1
 			}
 		}
 	},
-	"invis":{
+	"invisibility":{
 		"type":"origins:invisibility",
 		"render_armor":false,
 		"condition":{
-			"type":"origins:resource",
-			"comparison":"==",
-			"resource":"*:*_toggle",
-			"compare_to":1
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
 		}
 	},
-	"invin":{
+	"invulnerability":{
 		"type":"origins:invulnerability",
 		"damage_condition":{
-			"type":"origins:name",
-			"name":"inWall"
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:name",
+					"name":"inWall"
+				},
+				{
+					"type":"origins:name",
+					"name":"fall"
+				}
+			]
+		},
+		"condition":{
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
 		}
 	},
 	"weak":{
 		"type":"origins:stacking_status_effect",
 		"condition":{
-			"type":"origins:resource",
-			"comparison":"==",
-			"resource":"*:*_toggle",
-			"compare_to":1
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
 		},
 		"min_stacks":0,
 		"max_stacks":1,
@@ -77,42 +81,13 @@
 			"amplifier":100
 		}
 	},
-	"particle":{
-		"type":"origins:action_over_time",
-		"interval":1,
-		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:if_else",
-					"condition":{
-						"type":"origins:resource",
-						"comparison":"==",
-						"resource":"*:*_toggle",
-						"compare_to":1
-					},
-					"if_action":{
-						"type":"origins:and",
-						"actions":[
-							{
-								"type":"origins:execute_command",
-								"permission_level":4,
-								"command":"particle minecraft:large_smoke ~ ~1 ~ .2 .2 .2 .05 5 normal"
-							},
-							{
-								"type":"origins:change_resource",
-								"resource":"*:*_resource",
-								"change":-1
-							}
-						]
-					},
-					"else_action":{
-						"type":"origins:change_resource",
-						"resource":"*:*_resource",
-						"change":1
-					}
-				}
-			]
+	"particles":{
+		"type":"origins:execute_command",
+		"permission_level":4,
+		"command":"particle minecraft:large_smoke ~ ~1 ~ .2 .2 .2 .05 5 normal",
+		"condition":{
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
 		}
 	},
 	"wither":{
@@ -139,10 +114,8 @@
 		"render_type":"blindness",
 		"view_distance":20,
 		"condition":{
-			"type":"origins:resource",
-			"comparison":"==",
-			"resource":"*:*_toggle",
-			"compare_to":1
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
 		},
 		"block_condition":{
 			"type":"origins:in_tag",
@@ -152,10 +125,8 @@
 			"type":"origins:and",
 			"conditions":[
 				{
-					"type":"origins:resource",
-					"comparison":"==",
-					"resource":"*:*_toggle",
-					"compare_to":1
+					"type":"origins:power_active",
+					"power":"*:*_toggle"
 				},
 				{
 					"type":"origins:or",
@@ -185,10 +156,8 @@
 	"flight":{
 		"type":"origins:creative_flight",
 		"condition":{
-			"type":"origins:resource",
-			"comparison":"==",
-			"resource":"*:*_toggle",
-			"compare_to":1
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
 		}
 	}
 }

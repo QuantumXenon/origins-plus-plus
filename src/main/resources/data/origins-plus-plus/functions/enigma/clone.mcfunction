@@ -12,5 +12,5 @@ data modify entity @e[tag=Enigma_Clone,limit=1,sort=nearest] ArmorItems[0] set f
 
 resource set @s origins-plus-plus:enigma/clone_cooldown 5
 
-effect give @s minecraft:invisibility 10000 0
-effect give @e[tag=Enigma_Clone] minecraft:invisibility 10000 0
+effect give @s minecraft:invisibility 999999 0
+effect give @e[tag=Enigma_Clone] minecraft:invisibility 999999 0

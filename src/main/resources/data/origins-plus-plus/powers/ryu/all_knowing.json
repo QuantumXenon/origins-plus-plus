@@ -12,7 +12,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..25] minecraft:glowing 15 10 true",
+				"command":"effect give @e[distance=1..32] minecraft:glowing 15 10 true",
 				"permission_level":4
 			},
 			{

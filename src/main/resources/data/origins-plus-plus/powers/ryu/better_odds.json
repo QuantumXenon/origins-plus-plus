@@ -14,7 +14,7 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"effect clear @s minecraft:instant_damage",
+					"command":"effect clear @s minecraft:slowness",
 					"permission_level":4
 				},
 				"weight":50

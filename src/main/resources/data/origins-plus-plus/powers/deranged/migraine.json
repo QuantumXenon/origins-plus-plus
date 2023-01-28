@@ -5,5 +5,5 @@
 	},
 	"type":"origins:shader",
 	"shader":"minecraft:shaders/post/deconverge.json",
-	"toggleable":true
+	"toggleable":false
 }

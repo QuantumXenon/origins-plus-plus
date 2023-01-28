@@ -6,7 +6,7 @@
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:soul-seer/resource",
-			"change":-35
+			"change":-10
 		},
 		"damage_condition":{
 			"type":"origins:amount",
@@ -19,7 +19,7 @@
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:soul-seer/resource",
-			"change":-5
+			"change":-3
 		},
 		"interval":20,
 		"condition":{

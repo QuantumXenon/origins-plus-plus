@@ -1,4 +1,5 @@
 {
-    "type": "origins:shader",
-    "shader": "minecraft:shaders/post/sobel.json"
+	"type":"origins:shader",
+	"shader":"minecraft:shaders/post/sobel.json",
+	"toggleable":false
 }

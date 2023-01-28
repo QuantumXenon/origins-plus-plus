@@ -1,32 +1,32 @@
 {
-	"type": "origins:active_self",
-	"cooldown": 60,
-	"entity_action": {
-		"type": "origins:and",
-		"actions": [
+	"type":"origins:active_self",
+	"cooldown":60,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
 			{
-				"type": "origins:execute_command",
-				"command": "execute as @s at @s positioned ^ ^ ^4 run function origins-plus-plus:soul-seer/ray"
+				"type":"origins:execute_command",
+				"command":"execute as @s at @s positioned ^ ^ ^4 run function origins-plus-plus:soul-seer/ray"
 			},
 			{
-				"type": "origins:change_resource",
-				"resource": "origins-plus-plus:soul-seer/resource",
-				"change": -25
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:soul-seer/resource",
+				"change":-25
 			},
 			{
-				"type": "origins:play_sound",
-				"sound": "minecraft:entity.wither.ambient"
+				"type":"origins:play_sound",
+				"sound":"minecraft:entity.wither.ambient"
 			}
 		]
 	},
-	"hud_render": {
-		"bar_index": 7,
-		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png"
+	"hud_render":{
+		"bar_index":7,
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png"
 	},
-	"condition": {
-		"type": "origins:resource",
-		"resource": "origins-plus-plus:soul-seer/resource",
-		"comparison": ">=",
-		"compare_to": 25
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:soul-seer/resource",
+		"comparison":">=",
+		"compare_to":25
 	}
 }

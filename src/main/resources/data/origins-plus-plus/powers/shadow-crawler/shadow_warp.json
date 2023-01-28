@@ -41,6 +41,7 @@
 	"key":"key.origins.primary_active",
 	"hud_render":{
 		"should_render":true,
-		"bar_index":0
+		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index":24
 	}
 }
