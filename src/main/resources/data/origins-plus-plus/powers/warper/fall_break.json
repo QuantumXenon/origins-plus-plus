@@ -1,18 +1,13 @@
 {
 	"type":"origins:active_self",
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:apply_effect",
-				"effect":{
-					"effect":"minecraft:slow_falling",
-					"duration":10,
-					"show_icon":false,
-					"show_particles":false
-				}
-			}
-		]
+		"type":"origins:apply_effect",
+		"effect":{
+			"effect":"minecraft:slow_falling",
+			"duration":10,
+			"show_icon":false,
+			"show_particles":false
+		}
 	},
 	"key":"key.sneak"
 }

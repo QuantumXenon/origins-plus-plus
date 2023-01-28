@@ -132,8 +132,7 @@
 					"type":"origins:if_else",
 					"condition":{
 						"type":"origins:status_effect",
-						"effect":"minecraft:levitation",
-						"min_amplifier":-1
+						"effect":"minecraft:levitation"
 					},
 					"if_action":{
 						"type":"origins:clear_effect",

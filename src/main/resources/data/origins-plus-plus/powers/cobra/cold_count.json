@@ -9,17 +9,12 @@
 			"change":1
 		},
 		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:biome",
-					"condition":{
-						"type":"origins:temperature",
-						"comparison":"<=",
-						"compare_to":0.2
-					}
-				}
-			]
+			"type":"origins:biome",
+			"condition":{
+				"type":"origins:temperature",
+				"comparison":"<=",
+				"compare_to":0.2
+			}
 		}
 	},
 	"cold_decrease":{

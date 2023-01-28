@@ -8,11 +8,7 @@
 			{
 				"inverted":true,
 				"type":"origins:status_effect",
-				"effect":"minecraft:slow_falling",
-				"min_amplifier":0,
-				"max_amplifier":2147483647,
-				"min_duration":0,
-				"max_duration":2147483647
+				"effect":"minecraft:slow_falling"
 			},
 			{
 				"inverted":true,

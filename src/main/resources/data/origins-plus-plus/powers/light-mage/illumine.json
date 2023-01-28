@@ -3,7 +3,6 @@
 	"type":"origins:active_self",
 	"key":"key.origins.primary_active",
 	"cooldown":100,
-	"type":"origins:active_self",
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[

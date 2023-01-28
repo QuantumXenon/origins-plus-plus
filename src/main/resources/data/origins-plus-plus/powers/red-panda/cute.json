@@ -1,14 +1,9 @@
 {
 	"type":"origins:active_self",
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @e[distance=0.1..30] minecraft:slowness 5 155 true",
-				"permission_level":4
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"effect give @e[distance=0.1..30] minecraft:slowness 5 155 true",
+		"permission_level":4
 	},
 	"cooldown":200,
 	"hud_render":{

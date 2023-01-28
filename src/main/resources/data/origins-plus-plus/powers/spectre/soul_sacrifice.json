@@ -54,7 +54,7 @@
 			]
 		},
 		"key":"key.origins.secondary_active",
-		"cooldown":10
+		"cooldown":100
 	},
 	"sound":{
 		"type":"origins:active_self",
@@ -80,6 +80,6 @@
 			]
 		},
 		"key":"key.origins.secondary_active",
-		"cooldown":10
+		"cooldown":100
 	}
 }
