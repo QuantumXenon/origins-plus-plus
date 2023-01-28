@@ -108,18 +108,13 @@
 	"hjdfjs":{
 		"type":"origins:action_over_time",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:delay",
-					"ticks":8,
-					"action":{
-						"type":"origins:execute_command",
-						"command":"execute at @e[tag=stop,tag=!mist,type=!item,distance=..10] run particle minecraft:cloud ~ ~1 ~ .35 .35 .35 0.8 25 normal",
-						"permission_level":4
-					}
-				}
-			]
+			"type":"origins:delay",
+			"ticks":8,
+			"action":{
+				"type":"origins:execute_command",
+				"command":"execute at @e[tag=stop,tag=!mist,type=!item,distance=..10] run particle minecraft:cloud ~ ~1 ~ .35 .35 .35 0.8 25 normal",
+				"permission_level":4
+			}
 		},
 		"interval":1,
 		"condition":{
@@ -158,14 +153,9 @@
 	"down_ig":{
 		"type":"origins:action_over_time",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:spirit-ram/mist_protection_mist_on",
-					"change":-1
-				}
-			]
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:spirit-ram/mist_protection_mist_on",
+			"change":-1
 		},
 		"interval":1,
 		"condition":{
@@ -178,18 +168,13 @@
 	"down_igd":{
 		"type":"origins:action_over_time",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:delay",
-					"ticks":5,
-					"action":{
-						"type":"origins:change_resource",
-						"resource":"origins-plus-plus:spirit-ram/mist_protection_mac",
-						"change":-500
-					}
-				}
-			]
+			"type":"origins:delay",
+			"ticks":5,
+			"action":{
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:spirit-ram/mist_protection_mac",
+				"change":-500
+			}
 		},
 		"interval":1,
 		"condition":{

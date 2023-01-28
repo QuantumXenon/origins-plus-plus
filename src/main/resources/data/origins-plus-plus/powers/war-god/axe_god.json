@@ -9,19 +9,14 @@
 		"damage_condition":{
 			"type":"origins:attacker",
 			"entity_condition":{
-				"type":"origins:or",
-				"conditions":[
-					{
-						"type":"origins:equipped_item",
-						"equipment_slot":"mainhand",
-						"item_condition":{
-							"type":"origins:ingredient",
-							"ingredient":{
-								"tag":"origins-plus-plus:axes"
-							}
-						}
+				"type":"origins:equipped_item",
+				"equipment_slot":"mainhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"tag":"origins-plus-plus:axes"
 					}
-				]
+				}
 			}
 		}
 	}

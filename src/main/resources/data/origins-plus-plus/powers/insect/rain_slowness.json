@@ -9,11 +9,6 @@
 		"show_icon":false
 	},
 	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:in_rain"
-			}
-		]
+		"type":"origins:in_rain"
 	}
 }

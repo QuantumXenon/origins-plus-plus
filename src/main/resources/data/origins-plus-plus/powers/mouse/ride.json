@@ -12,14 +12,9 @@
 		]
 	},
 	"bientity_condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:distance",
-				"comparison":"<=",
-				"compare_to":5
-			}
-		]
+		"type":"origins:distance",
+		"comparison":"<=",
+		"compare_to":5
 	},
 	"item_condition":{
 		"type":"origins:empty"

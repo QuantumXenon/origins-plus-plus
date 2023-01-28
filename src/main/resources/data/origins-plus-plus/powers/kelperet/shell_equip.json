@@ -3,19 +3,14 @@
 	"entity_action":{
 		"type":"origins:if_else",
 		"condition":{
-			"type":"origins:or",
-			"conditions":[
-				{
-					"type":"origins:equipped_item",
-					"equipment_slot":"mainhand",
-					"item_condition":{
-						"type":"origins:ingredient",
-						"ingredient":{
-							"item":"minecraft:nautilus_shell"
-						}
-					}
+			"type":"origins:equipped_item",
+			"equipment_slot":"mainhand",
+			"item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"item":"minecraft:nautilus_shell"
 				}
-			]
+			}
 		},
 		"if_action":{
 			"type":"origins:and",

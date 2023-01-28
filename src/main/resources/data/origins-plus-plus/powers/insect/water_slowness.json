@@ -1,13 +1,8 @@
 {
 	"hidden":true,
 	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:submerged_in",
-				"fluid":"minecraft:water"
-			}
-		]
+		"type":"origins:submerged_in",
+		"fluid":"minecraft:water"
 	},
 	"type":"origins:stacking_status_effect",
 	"min_stacks":0,

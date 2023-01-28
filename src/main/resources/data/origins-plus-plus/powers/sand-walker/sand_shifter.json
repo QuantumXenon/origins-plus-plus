@@ -106,19 +106,14 @@
 				"compare_to":0
 			},
 			"if_action":{
-				"type":"origins:and",
-				"actions":[
-					{
-						"type":"origins:apply_effect",
-						"effect":{
-							"effect":"minecraft:levitation",
-							"duration":2,
-							"amplifier":1,
-							"show_particles":false,
-							"show_icon":false
-						}
-					}
-				]
+				"type":"origins:apply_effect",
+				"effect":{
+					"effect":"minecraft:levitation",
+					"duration":2,
+					"amplifier":1,
+					"show_particles":false,
+					"show_icon":false
+				}
 			},
 			"else_action":{
 				"type":"origins:if_else",

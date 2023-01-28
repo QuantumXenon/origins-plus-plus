@@ -24,25 +24,20 @@
 		},
 		"interval":20,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
+			"type":"origins:apply_effect",
+			"effects":[
 				{
-					"type":"origins:apply_effect",
-					"effects":[
-						{
-							"effect":"minecraft:slowness",
-							"duration":300,
-							"show_particles":false,
-							"show_icon":false,
-							"amplifier":1
-						},
-						{
-							"effect":"minecraft:weakness",
-							"duration":300,
-							"show_particles":false,
-							"show_icon":false
-						}
-					]
+					"effect":"minecraft:slowness",
+					"duration":300,
+					"show_particles":false,
+					"show_icon":false,
+					"amplifier":1
+				},
+				{
+					"effect":"minecraft:weakness",
+					"duration":300,
+					"show_particles":false,
+					"show_icon":false
 				}
 			]
 		}

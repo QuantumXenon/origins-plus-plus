@@ -3,13 +3,8 @@
 	"bright":{
 		"type":"origins:action_over_time",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:heal",
-					"amount":1
-				}
-			]
+			"type":"origins:heal",
+			"amount":1
 		},
 		"interval":50,
 		"condition":{
@@ -31,13 +26,8 @@
 	"dark":{
 		"type":"origins:action_over_time",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:heal",
-					"amount":1
-				}
-			]
+			"type":"origins:heal",
+			"amount":1
 		},
 		"interval":50,
 		"condition":{

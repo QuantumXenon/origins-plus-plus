@@ -5,15 +5,10 @@
 		"command":"function origins-plus-plus:deathsworn/unleash"
 	},
 	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:resource",
-				"resource":"origins-plus-plus:deathsworn/soul_bar",
-				"comparison":">",
-				"compare_to":9
-			}
-		]
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:deathsworn/soul_bar",
+		"comparison":">",
+		"compare_to":9
 	},
 	"cooldown":40,
 	"hud_render":{

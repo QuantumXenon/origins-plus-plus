@@ -9,37 +9,22 @@
 		"type":"origins:action_over_time",
 		"interval":1,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:blob/stacking_attacks_cd -1"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"resource change @s origins-plus-plus:blob/stacking_attacks_cd -1"
 		}
 	},
 	"stackreset":{
 		"type":"origins:action_over_time",
 		"interval":1,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"resource set @s origins-plus-plus:blob/stacking_attacks_stack 0"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"resource set @s origins-plus-plus:blob/stacking_attacks_stack 0"
 		},
 		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:resource",
-					"comparison":"==",
-					"compare_to":1,
-					"resource":"*:*_cd"
-				}
-			]
+			"type":"origins:resource",
+			"comparison":"==",
+			"compare_to":1,
+			"resource":"*:*_cd"
 		}
 	},
 	"cd":{
@@ -67,15 +52,10 @@
 			]
 		},
 		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:resource",
-					"comparison":"!=",
-					"compare_to":3,
-					"resource":"*:*_stack"
-				}
-			]
+			"type":"origins:resource",
+			"comparison":"!=",
+			"compare_to":3,
+			"resource":"*:*_stack"
 		},
 		"cooldown":8
 	},
@@ -95,15 +75,10 @@
 			]
 		},
 		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:resource",
-					"comparison":"==",
-					"compare_to":3,
-					"resource":"*:*_stack"
-				}
-			]
+			"type":"origins:resource",
+			"comparison":"==",
+			"compare_to":3,
+			"resource":"*:*_stack"
 		},
 		"cooldown":8
 	},
@@ -114,15 +89,10 @@
 			"value":0.5
 		},
 		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:resource",
-					"comparison":"==",
-					"compare_to":3,
-					"resource":"*:*_stack"
-				}
-			]
+			"type":"origins:resource",
+			"comparison":"==",
+			"compare_to":3,
+			"resource":"*:*_stack"
 		}
 	}
 }
