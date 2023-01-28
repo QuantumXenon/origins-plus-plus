@@ -16,13 +16,11 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"summon minecraft:experience_orb ~ ~ ~ {Value:5}",
-				"permission_level":4
+				"command":"summon minecraft:experience_orb ~ ~ ~ {Value:5}"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:quartz 1",
-				"permission_level":4
+				"command":"clear @s minecraft:quartz 1"
 			}
 		]
 	},

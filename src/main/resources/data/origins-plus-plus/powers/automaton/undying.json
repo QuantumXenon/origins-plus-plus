@@ -43,8 +43,7 @@
 					},
 					"if_action":{
 						"type":"origins:execute_command",
-						"command":"kill @s",
-						"permission_level":4
+						"command":"kill @s"
 					}
 				}
 			}

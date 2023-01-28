@@ -69,8 +69,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute at @s run particle minecraft:dust 255 0 0 1 ~ ~0.9 ~ .25 .25 .26 0.01 3 normal @a",
-			"permission_level":4
+			"command":"execute at @s run particle minecraft:dust 255 0 0 1 ~ ~0.9 ~ .25 .25 .26 0.01 3 normal @a"
 		},
 		"interval":10,
 		"condition":{
@@ -100,8 +99,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"particle minecraft:dust 255 0 0 1 ~ ~0.5 ~ .25 .25 .26 0 2 force @a",
-			"permission_level":4
+			"command":"particle minecraft:dust 255 0 0 1 ~ ~0.5 ~ .25 .25 .26 0 2 force @a"
 		},
 		"interval":1,
 		"condition":{

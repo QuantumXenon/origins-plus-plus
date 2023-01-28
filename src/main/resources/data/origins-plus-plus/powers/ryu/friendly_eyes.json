@@ -6,17 +6,14 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team add ryu"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join ryu @s"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join ryu @e[type=minecraft:enderman]"
 			}
 		]

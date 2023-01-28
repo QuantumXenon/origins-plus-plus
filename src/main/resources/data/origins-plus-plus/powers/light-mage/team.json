@@ -5,8 +5,7 @@
 		"type":"origins:action_on_callback",
 		"entity_action_lost":{
 			"type":"origins:execute_command",
-			"command":"team remove light-mage",
-			"permission_level":4
+			"command":"team remove light-mage"
 		}
 	},
 	"add":{
@@ -18,13 +17,11 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team join light-mage @a[distance=1..6]",
-					"permission_level":4
+					"command":"team join light-mage @a[distance=1..6]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.note_block.flute player @a[distance=..6] ~ ~ ~ 100 2",
-					"permission_level":4
+					"command":"playsound minecraft:block.note_block.flute player @a[distance=..6] ~ ~ ~ 100 2"
 				},
 				{
 					"type":"origins:equipped_item_action",
@@ -65,13 +62,11 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team leave @a[distance=1..6]",
-					"permission_level":4
+					"command":"team leave @a[distance=1..6]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.note_block.flute player @a[distance=..6] ~ ~ ~ 100 0.1",
-					"permission_level":4
+					"command":"playsound minecraft:block.note_block.flute player @a[distance=..6] ~ ~ ~ 100 0.1"
 				},
 				{
 					"type":"origins:equipped_item_action",

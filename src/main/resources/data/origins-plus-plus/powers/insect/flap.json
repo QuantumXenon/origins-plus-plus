@@ -37,8 +37,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute as @a[distance=..15] run playsound minecraft:entity.bat.takeoff master @s",
-					"permission_level":4
+					"command":"execute as @a[distance=..15] run playsound minecraft:entity.bat.takeoff master @s"
 				}
 			]
 		},

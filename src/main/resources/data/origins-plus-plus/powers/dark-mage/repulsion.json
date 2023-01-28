@@ -18,13 +18,11 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.slime.attack player @a[distance=..10] ~ ~ ~ 1 1",
-				"permission_level":4
+				"command":"playsound minecraft:entity.slime.attack player @a[distance=..10] ~ ~ ~ 1 1"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:slime_ball 1",
-				"permission_level":4
+				"command":"clear @s minecraft:slime_ball 1"
 			}
 		]
 	},

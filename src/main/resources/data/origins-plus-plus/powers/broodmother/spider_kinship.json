@@ -6,22 +6,18 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team add broodmother"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join broodmother @s"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join broodmother @e[type=minecraft:spider]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join broodmother @e[type=minecraft:cave_spider]"
 			}
 		]

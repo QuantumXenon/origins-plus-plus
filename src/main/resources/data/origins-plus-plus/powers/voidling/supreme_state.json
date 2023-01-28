@@ -41,33 +41,27 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.enderman.teleport player @a ~ ~ ~ 10 0.15",
-					"permission_level":4
+					"command":"playsound minecraft:entity.enderman.teleport player @a ~ ~ ~ 10 0.15"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"tag @e[distance=1..100] add voi",
-					"permission_level":4
+					"command":"tag @e[distance=1..100] add voi"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team add voidling",
-					"permission_level":4
+					"command":"team add voidling"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team modify voidling color dark_purple",
-					"permission_level":4
+					"command":"team modify voidling color dark_purple"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join voidling @e[tag=void_sight]",
-					"permission_level":4
+					"command":"team join voidling @e[tag=void_sight]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"effect give @e[tag=void_sight] minecraft:glowing 3600 0 true",
-					"permission_level":4
+					"command":"effect give @e[tag=void_sight] minecraft:glowing 3600 0 true"
 				},
 				{
 					"type":"origins:change_resource",
@@ -102,8 +96,7 @@
 					"ticks":3600,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"team leave @e[tag=void_sight]",
-						"permission_level":4
+						"command":"team leave @e[tag=void_sight]"
 					}
 				},
 				{
@@ -111,8 +104,7 @@
 					"ticks":3600,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"team remove voidling",
-						"permission_level":4
+						"command":"team remove voidling"
 					}
 				},
 				{
@@ -120,8 +112,7 @@
 					"ticks":3600,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"tag @e[tag=void_sight] remove void_sight",
-						"permission_level":4
+						"command":"tag @e[tag=void_sight] remove void_sight"
 					}
 				}
 			]
@@ -175,8 +166,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:voidling/supreme_state_available",
-			"permission_level":4
+			"command":"function origins-plus-plus:voidling/supreme_state_available"
 		},
 		"interval":20,
 		"condition":{
@@ -190,8 +180,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"particle minecraft:reverse_portal ~ ~1 ~ .375 .375 .375 0.25 5 force @a",
-			"permission_level":4
+			"command":"particle minecraft:reverse_portal ~ ~1 ~ .375 .375 .375 0.25 5 force @a"
 		},
 		"interval":3,
 		"condition":{
@@ -205,8 +194,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"playsound minecraft:entity.enderman.stare player @a ~ ~ ~ 5 0.25",
-			"permission_level":4
+			"command":"playsound minecraft:entity.enderman.stare player @a ~ ~ ~ 5 0.25"
 		},
 		"interval":200,
 		"condition":{

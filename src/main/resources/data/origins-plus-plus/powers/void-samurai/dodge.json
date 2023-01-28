@@ -94,8 +94,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"particle poof ~ ~1 ~ 0 0 0 0.1 50",
-					"permission_level":5
+					"command":"particle minecraft:poof ~ ~1 ~ 0 0 0 0.1 50"
 				},
 				{
 					"type":"origins:play_sound",

@@ -13,13 +13,11 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:light-mage/fireball",
-				"permission_level":4
+				"command":"function origins-plus-plus:light-mage/fireball"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:blaze_rod 1",
-				"permission_level":4
+				"command":"clear @s minecraft:blaze_rod 1"
 			}
 		]
 	},

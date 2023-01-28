@@ -76,7 +76,7 @@
 						},
 						{
 							"type":"origins:status_effect",
-							"effect":"minecraft:weakness"
+							"effect":"minecraft:weakness",
 							"inverted":true
 						}
 					]

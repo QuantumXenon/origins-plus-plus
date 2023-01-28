@@ -7,18 +7,15 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect clear @e[distance=..12]",
-				"permission_level":4
+				"command":"effect clear @e[distance=..12]"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:end_rod ~ ~ ~ 2 2 2 2 100",
-				"permission_level":4
+				"command":"particle minecraft:end_rod ~ ~ ~ 2 2 2 2 100"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.player.levelup player @a[distance=..20] ~ ~ ~ 100 2 1",
-				"permission_level":4
+				"command":"playsound minecraft:entity.player.levelup player @a[distance=..20] ~ ~ ~ 100 2 1"
 			},
 			{
 				"type":"origins:change_resource",

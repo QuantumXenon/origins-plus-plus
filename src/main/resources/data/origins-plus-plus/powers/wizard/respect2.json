@@ -3,7 +3,6 @@
 	"hidden":true,
 	"entity_action_chosen":{
 		"type":"origins:execute_command",
-		"permission_level":4,
 		"command":"team add wizard"
 	}
 }

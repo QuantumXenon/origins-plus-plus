@@ -5,20 +5,17 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:corrupted-wither/start",
-				"permission_level":4
+				"command":"function origins-plus-plus:corrupted-wither/start"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:corrupted-wither/save_motion",
-				"permission_level":4
+				"command":"function origins-plus-plus:corrupted-wither/save_motion"
 			},
 			{
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"command":"function origins-plus-plus:corrupted-wither/stop",
-					"permission_level":4
+					"command":"function origins-plus-plus:corrupted-wither/stop"
 				},
 				"ticks":1000
 			},
@@ -26,8 +23,7 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"command":"function origins-plus-plus:corrupted-wither/resume_motion",
-					"permission_level":4
+					"command":"function origins-plus-plus:corrupted-wither/resume_motion"
 				},
 				"ticks":1000
 			}

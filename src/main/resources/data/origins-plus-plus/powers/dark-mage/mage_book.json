@@ -6,28 +6,23 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"give @s minecraft:written_book{pages:['{\"translate\":\"origins-plus-plus.dark-mage.book.welcome\"}','{\"translate\":\"origins-plus-plus.book.mana_potions\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.darkness\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.decay\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.explosion\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.lava_sponge\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.leviosa\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.phase\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.repulsion\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.scorch\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.shatter\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.strong_wolf\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.zoglins\"}'],title:\"Hidden Knowledge\",author:\"Dark Mage\"}",
-				"permission_level":4
+				"command":"give @s minecraft:written_book{pages:['{\"translate\":\"origins-plus-plus.dark-mage.book.welcome\"}','{\"translate\":\"origins-plus-plus.book.mana_potions\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.darkness\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.decay\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.explosion\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.lava_sponge\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.leviosa\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.phase\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.repulsion\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.scorch\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.shatter\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.strong_wolf\"}','{\"translate\":\"origins-plus-plus.dark-mage.book.zoglins\"}'],title:\"Hidden Knowledge\",author:\"Dark Mage\"}"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:book 1",
-				"permission_level":4
+				"command":"clear @s minecraft:book 1"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:enchant ~ ~ ~ 2 2 2 2 1000",
-				"permission_level":4
+				"command":"particle minecraft:enchant ~ ~ ~ 2 2 2 2 1000"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:enchanted_hit ~ ~ ~ 3 3 3 3 1000",
-				"permission_level":4
+				"command":"particle minecraft:enchanted_hit ~ ~ ~ 3 3 3 3 1000"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:block.note_block.iron_xylophone player @a[distance=..10] ~ ~ ~ 100 0.9 1",
-				"permission_level":4
+				"command":"playsound minecraft:block.note_block.iron_xylophone player @a[distance=..10] ~ ~ ~ 100 0.9 1"
 			}
 		]
 	},

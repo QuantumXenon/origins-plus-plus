@@ -5,13 +5,11 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"execute as @s anchored eyes positioned ^ ^ ^ run function origins-plus-plus:technomancer/lasereyes_active",
-				"permission_level":4
+				"command":"execute as @s anchored eyes positioned ^ ^ ^ run function origins-plus-plus:technomancer/lasereyes_active"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.generic.extinguish_fire master @a ~ ~ ~ 1 1 0",
-				"permission_level":4
+				"command":"playsound minecraft:entity.generic.extinguish_fire master @a ~ ~ ~ 1 1 0"
 			},
 			{
 				"type":"origins:change_resource",

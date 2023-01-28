@@ -12,13 +12,11 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_negative',Value:110}]}",
-					"permission_level":2
+					"command":"execute at @s as @e[type=minecraft:villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_negative',Value:110}]}"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p UUID",
-					"permission_level":2
+					"command":"execute at @s as @e[type=minecraft:villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p UUID"
 				}
 			]
 		}
@@ -31,13 +29,11 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngryAt set from entity @p UUID",
-					"permission_level":2
+					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngryAt set from entity @p UUID"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngerTime set value 60",
-					"permission_level":2
+					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngerTime set value 60"
 				}
 			]
 		}
@@ -50,13 +46,11 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngryAt set from entity @s UUID",
-					"permission_level":2
+					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngryAt set from entity @s UUID"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngerTime set value 0",
-					"permission_level":2
+					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngerTime set value 0"
 				}
 			]
 		}

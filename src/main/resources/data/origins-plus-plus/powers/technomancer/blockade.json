@@ -5,8 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:technomancer/blockade_start",
-				"permission_level":4
+				"command":"function origins-plus-plus:technomancer/blockade_start"
 			},
 			{
 				"type":"origins:change_resource",

@@ -310,18 +310,15 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"tp @s ^ ^1 ^-7",
-					"permission_level":5
+					"command":"tp @s ^ ^1 ^-7"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s run particle minecraft:witch ~ ~1 ~ .4 .4 .4 0 1000 normal",
-					"permission_level":5
+					"command":"execute at @s run particle minecraft:witch ~ ~1 ~ .4 .4 .4 0 1000 normal"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s run playsound minecraft:block.beacon.deactivate ambient @s",
-					"permission_level":5
+					"command":"execute at @s run playsound minecraft:block.beacon.deactivate ambient @s"
 				},
 				{
 					"type":"origins:trigger_cooldown",

@@ -8,18 +8,15 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"fill ~-3 ~-1 ~-3 ~3 ~3 ~3 air destroy",
-				"permission_level":4
+				"command":"fill ~-3 ~-1 ~-3 ~3 ~3 ~3 air destroy"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 3 3 3 100 1000",
-				"permission_level":4
+				"command":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 3 3 3 100 1000"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 2 2 2 2 300",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 2 2 2 2 300"
 			},
 			{
 				"type":"origins:equipped_item_action",

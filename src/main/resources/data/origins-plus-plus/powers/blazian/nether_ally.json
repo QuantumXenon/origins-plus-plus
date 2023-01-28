@@ -7,62 +7,50 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team add blazian"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @s"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @e[type=minecraft:blaze]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @e[type=minecraft:enderman]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @e[type=minecraft:ghast]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @e[type=minecraft:hoglin]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @e[type=minecraft:magma_cube]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @e[type=minecraft:piglin]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @e[type=minecraft:piglin_brute]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @e[type=minecraft:skeleton]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @e[type=minecraft:wither_skeleton]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join blazian @e[type=minecraft:zombified_piglin]"
 			}
 		]

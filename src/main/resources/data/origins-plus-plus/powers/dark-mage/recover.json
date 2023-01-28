@@ -7,28 +7,23 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:instant_health 1 1",
-				"permission_level":4
+				"command":"effect give @s minecraft:instant_health 1 1"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:saturation 1 1",
-				"permission_level":4
+				"command":"effect give @s minecraft:saturation 1 1"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:electric_spark ~ ~ ~ 0 1 0 2 1000",
-				"permission_level":4
+				"command":"particle minecraft:electric_spark ~ ~ ~ 0 1 0 2 1000"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:explosion ~ ~ ~ 0 1 0 2 10",
-				"permission_level":4
+				"command":"particle minecraft:explosion ~ ~ ~ 0 1 0 2 10"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.ender_eye.death player @a[distance=..10] ~ ~ ~ 10 0.3 1",
-				"permission_level":4
+				"command":"playsound minecraft:entity.ender_eye.death player @a[distance=..10] ~ ~ ~ 10 0.3 1"
 			},
 			{
 				"type":"origins:change_resource",

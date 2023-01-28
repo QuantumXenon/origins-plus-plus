@@ -9,8 +9,7 @@
 		"type":"origins:action_on_callback",
 		"entity_action_respawned":{
 			"type":"origins:execute_command",
-			"command":"execute as @s at @s run function origins-plus-plus:dullahan/kill_steed",
-			"permission_level":4
+			"command":"execute as @s at @s run function origins-plus-plus:dullahan/kill_steed"
 		},
 		"condition":{
 			"type":"origins:resource",
@@ -33,8 +32,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute as @s run function origins-plus-plus:dullahan/summon_steed",
-					"permission_level":4
+					"command":"execute as @s run function origins-plus-plus:dullahan/summon_steed"
 				},
 				{
 					"type":"origins:change_resource",
@@ -54,8 +52,7 @@
 						"actions":[
 							{
 								"type":"origins:execute_command",
-								"command":"execute as @s at @s run function origins-plus-plus:dullahan/kill_steed",
-								"permission_level":4
+								"command":"execute as @s at @s run function origins-plus-plus:dullahan/kill_steed"
 							},
 							{
 								"type":"origins:change_resource",

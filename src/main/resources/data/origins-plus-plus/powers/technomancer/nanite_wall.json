@@ -4,8 +4,7 @@
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute as @s run function origins-plus-plus:technomancer/wall_summon",
-			"permission_level":4
+			"command":"execute as @s run function origins-plus-plus:technomancer/wall_summon"
 		},
 		"condition":{
 			"type":"origins:power_active",
@@ -93,8 +92,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute as @s run function origins-plus-plus:technomancer/wall",
-					"permission_level":4
+					"command":"execute as @s run function origins-plus-plus:technomancer/wall"
 				},
 				{
 					"type":"origins:change_resource",

@@ -15,13 +15,11 @@
 		},
 		"if_action":{
 			"type":"origins:execute_command",
-			"command":"execute in minecraft:the_end run tp @s ~ ~ ~",
-			"permission_level":4
+			"command":"execute in minecraft:the_end run tp @s ~ ~ ~"
 		},
 		"else_action":{
 			"type":"origins:execute_command",
-			"command":"execute in minecraft:overworld run tp @s ~ ~ ~",
-			"permission_level":4
+			"command":"execute in minecraft:overworld run tp @s ~ ~ ~"
 		}
 	}
 }

@@ -5,8 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:devine-architect/start_ray",
-				"permission_level":4
+				"command":"function origins-plus-plus:devine-architect/start_ray"
 			},
 			{
 				"type":"origins:change_resource",

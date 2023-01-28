@@ -8,13 +8,11 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:item ~ ~ ~ {PickupDelay:30,Item:{id:\"minecraft:bone\",Count:1}}",
-					"permission_level":4
+					"command":"summon minecraft:item ~ ~ ~ {PickupDelay:30,Item:{id:\"minecraft:bone\",Count:1}}"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.slime.hurt voice @s",
-					"permission_level":4
+					"command":"playsound minecraft:entity.slime.hurt voice @s"
 				}
 			]
 		}

@@ -21,8 +21,7 @@
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"playsound minecraft:entity.ravager.roar master @a[distance=..20] ~ ~ ~ 1 1",
-							"permission_level":4
+							"command":"playsound minecraft:entity.ravager.roar master @a[distance=..20] ~ ~ ~ 1 1"
 						}
 					]
 				},

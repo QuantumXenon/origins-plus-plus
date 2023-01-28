@@ -15,23 +15,19 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"function origins-plus-plus:dark-mage/mana_potion",
-					"permission_level":4
+					"command":"function origins-plus-plus:dark-mage/mana_potion"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"particle minecraft:enchant ~ ~ ~ 2 2 2 2 1000",
-					"permission_level":4
+					"command":"particle minecraft:enchant ~ ~ ~ 2 2 2 2 1000"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"particle minecraft:enchanted_hit ~ ~ ~ 3 3 3 3 1000",
-					"permission_level":4
+					"command":"particle minecraft:enchanted_hit ~ ~ ~ 3 3 3 3 1000"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.brewing_stand.brew player @a[distance=..10] ~ ~ ~ 100 0.9 1",
-					"permission_level":4
+					"command":"playsound minecraft:block.brewing_stand.brew player @a[distance=..10] ~ ~ ~ 100 0.9 1"
 				}
 			]
 		},

@@ -12,13 +12,11 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:invisibility 6 0 false",
-				"permission_level":4
+				"command":"effect give @s minecraft:invisibility 6 0 false"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.illusioner.cast_spell master @s ~ ~ ~ 20 1.25",
-				"permission_level":4
+				"command":"playsound minecraft:entity.illusioner.cast_spell master @s ~ ~ ~ 20 1.25"
 			}
 		]
 	}

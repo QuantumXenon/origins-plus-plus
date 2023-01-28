@@ -10,6 +10,6 @@
 	},
 	"entity_action_lost":{
 		"type":"origins:execute_command",
-		"command":"scale set reset"
+		"command":"scale reset"
 	}
 }

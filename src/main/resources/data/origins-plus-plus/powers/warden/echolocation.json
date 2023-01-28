@@ -5,8 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..32] minecraft:glowing 10 1 true",
-				"permission_level":4
+				"command":"effect give @e[distance=1..32] minecraft:glowing 10 1 true"
 			},
 			{
 				"type":"origins:play_sound",

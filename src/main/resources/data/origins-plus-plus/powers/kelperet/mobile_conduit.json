@@ -9,13 +9,11 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..15] minecraft:conduit_power 60 0 true",
-				"permission_level":4
+				"command":"effect give @e[distance=..15] minecraft:conduit_power 60 0 true"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect clear @s",
-				"permission_level":4
+				"command":"effect clear @s"
 			}
 		]
 	},

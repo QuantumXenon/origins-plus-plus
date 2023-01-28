@@ -47,13 +47,11 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.enderman.teleport master @s ~ ~ ~ 10 0.18",
-				"permission_level":4
+				"command":"playsound minecraft:entity.enderman.teleport master @s ~ ~ ~ 10 0.18"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:portal ~ ~ ~ 1 1 1 1 200 normal",
-				"permission_level":4
+				"command":"particle minecraft:portal ~ ~ ~ 1 1 1 1 200 normal"
 			}
 		]
 	},

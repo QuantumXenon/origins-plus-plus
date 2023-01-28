@@ -13,13 +13,11 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s run particle minecraft:dust .5 .7 1 1 ~ ~ ~ 0.3 0.2 0.3 0 20 normal",
-					"permission_level":4
+					"command":"execute at @s run particle minecraft:dust .5 .7 1 1 ~ ~ ~ 0.3 0.2 0.3 0 20 normal"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s run particle minecraft:dust 1 1 1 1 ~ ~ ~ 0.3 0.2 0.3 0 5 normal",
-					"permission_level":4
+					"command":"execute at @s run particle minecraft:dust 1 1 1 1 ~ ~ ~ 0.3 0.2 0.3 0 5 normal"
 				},
 				{
 					"type":"origins:block_action_at",
@@ -65,18 +63,15 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s run particle minecraft:dust .5 .7 1 1 ~ ~ ~ 0.3 0.2 0.3 0 20 normal",
-					"permission_level":4
+					"command":"execute at @s run particle minecraft:dust .5 .7 1 1 ~ ~ ~ 0.3 0.2 0.3 0 20 normal"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s run particle minecraft:dust 1 1 1 1 ~ ~ ~ 0.3 0.2 0.3 0 5 normal",
-					"permission_level":4
+					"command":"execute at @s run particle minecraft:dust 1 1 1 1 ~ ~ ~ 0.3 0.2 0.3 0 5 normal"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 minecraft:frosted_ice replace water",
-					"permission_level":4
+					"command":"fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 minecraft:frosted_ice replace minecraft:water"
 				}
 			]
 		},

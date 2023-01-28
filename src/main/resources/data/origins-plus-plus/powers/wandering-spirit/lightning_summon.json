@@ -5,21 +5,18 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"gamerule showDeathMessages false",
-				"permission_level":4
+				"command":"gamerule showDeathMessages false"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:wandering-spirit/start_ray",
-				"permission_level":4
+				"command":"function origins-plus-plus:wandering-spirit/start_ray"
 			},
 			{
 				"type":"origins:delay",
 				"ticks":1,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"gamerule showDeathMessages true",
-					"permission_level":4
+					"command":"gamerule showDeathMessages true"
 				}
 			},
 			{

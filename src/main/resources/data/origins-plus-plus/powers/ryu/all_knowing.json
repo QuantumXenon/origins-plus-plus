@@ -12,13 +12,11 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..32] minecraft:glowing 15 10 true",
-				"permission_level":4
+				"command":"effect give @e[distance=1..32] minecraft:glowing 15 10 true"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:crit ~ ~ ~ 1 1 1 0.15 15",
-				"permission_level":4
+				"command":"particle minecraft:crit ~ ~ ~ 1 1 1 0.15 15"
 			}
 		]
 	}

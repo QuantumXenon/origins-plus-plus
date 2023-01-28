@@ -8,7 +8,7 @@
 	"interval":40,
 	"condition":{
 		"type":"origins:command",
-		"command":"execute if entity @e[type=painting,distance=..8]",
+		"command":"execute if entity @e[type=minecraft:painting,distance=..8]",
 		"comparison":">=",
 		"compare_to":1
 	}

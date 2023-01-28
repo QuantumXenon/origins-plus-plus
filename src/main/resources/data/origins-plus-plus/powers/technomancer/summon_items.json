@@ -2,12 +2,10 @@
 	"type":"origins:action_on_callback",
 	"entity_action_chosen":{
 		"type":"origins:execute_command",
-		"command":"execute as @s run function origins-plus-plus:technomancer/technomancer_items_give",
-		"permission_level":4
+		"command":"execute as @s run function origins-plus-plus:technomancer/technomancer_items_give"
 	},
 	"entity_action_respawned":{
 		"type":"origins:execute_command",
-		"command":"execute as @s run function origins-plus-plus:technomancer/technomancer_items_give",
-		"permission_level":4
+		"command":"execute as @s run function origins-plus-plus:technomancer/technomancer_items_give"
 	}
 }

@@ -86,7 +86,7 @@
 		},
 		"condition":{
 			"type": "origins:resource",
-			"comparison": "==",
+			"comparison":"==",
 			"resource": "*:*_resource",
 			"compare_to": 0
 		}

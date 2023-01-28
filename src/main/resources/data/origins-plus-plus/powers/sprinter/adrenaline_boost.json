@@ -12,18 +12,15 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:strength 20 0 false",
-				"permission_level":4
+				"command":"effect give @s minecraft:strength 20 0 false"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:speed 20 2 false",
-				"permission_level":4
+				"command":"effect give @s minecraft:speed 20 2 false"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:regeneration 20 0 false",
-				"permission_level":4
+				"command":"effect give @s minecraft:regeneration 20 0 false"
 			},
 			{
 				"type":"origins:delay",

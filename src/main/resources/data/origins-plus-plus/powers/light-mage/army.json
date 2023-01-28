@@ -13,13 +13,11 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:light-mage/army",
-				"permission_level":4
+				"command":"function origins-plus-plus:light-mage/army"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:carved_pumpkin 1",
-				"permission_level":4
+				"command":"clear @s minecraft:carved_pumpkin 1"
 			}
 		]
 	},

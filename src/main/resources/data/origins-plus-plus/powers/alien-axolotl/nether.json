@@ -5,12 +5,10 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"execute as @s run effect give @s minecraft:hunger 5 0 true"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"execute as @s run effect give @s minecraft:weakness 5 0 true"
 			}
 		]

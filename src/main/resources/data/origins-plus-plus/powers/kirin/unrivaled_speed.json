@@ -15,7 +15,6 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"particle minecraft:witch ~ ~ ~ 0 0 0 1 100"
 			}
 		]

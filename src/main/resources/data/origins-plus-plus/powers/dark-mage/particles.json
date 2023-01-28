@@ -3,8 +3,7 @@
 	"type":"origins:action_over_time",
 	"entity_action":{
 		"type":"origins:execute_command",
-		"command":"particle minecraft:dust 0 0 0 1 ~ ~ ~ 0.3 1 0.3 .6 30",
-		"permission_level":4
+		"command":"particle minecraft:dust 0 0 0 1 ~ ~ ~ 0.3 1 0.3 .6 30"
 	},
 	"condition":{
 		"type":"origins:and",

@@ -5,21 +5,18 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"gamerule randomTickSpeed 20000",
-				"permission_level":4
+				"command":"gamerule randomTickSpeed 20000"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:block.beacon.activate ambient @a[distance=..10] ~ ~ ~ 1 1",
-				"permission_level":4
+				"command":"playsound minecraft:block.beacon.activate ambient @a[distance=..10] ~ ~ ~ 1 1"
 			},
 			{
 				"type":"origins:delay",
 				"ticks":10,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"gamerule randomTickSpeed 3",
-					"permission_level":4
+					"command":"gamerule randomTickSpeed 3"
 				}
 			}
 		]

@@ -6,37 +6,30 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team add wizard"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join wizard @s"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join wizard @e[type=minecraft:evoker]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join wizard @e[type=minecraft:ravager]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join wizard @e[type=minecraft:vindicator]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join wizard @e[type=minecraft:pillager]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join wizard @e[type=minecraft:witch]"
 			}
 		]

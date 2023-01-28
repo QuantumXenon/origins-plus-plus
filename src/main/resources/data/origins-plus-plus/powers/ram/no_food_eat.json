@@ -50,7 +50,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
 				},
 				"ticks":4
@@ -59,7 +58,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
 				},
 				"ticks":8
@@ -68,7 +66,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
 				},
 				"ticks":12
@@ -77,7 +74,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
 				},
 				"ticks":16
@@ -86,7 +82,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
 				},
 				"ticks":20
@@ -95,7 +90,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"playsound minecraft:entity.player.burp player @a ~ ~ ~ 1 1"
 				},
 				"ticks":24
@@ -108,7 +102,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":2
@@ -117,7 +110,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":4
@@ -126,7 +118,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":6
@@ -135,7 +126,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":8
@@ -144,7 +134,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":10
@@ -153,7 +142,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":12
@@ -166,7 +154,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":14
@@ -175,7 +162,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":16
@@ -184,7 +170,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":18
@@ -193,7 +178,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":20
@@ -202,7 +186,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .1 .1 .1 0 5 normal"
 				},
 				"ticks":22
@@ -211,7 +194,6 @@
 				"type":"origins:delay",
 				"action":{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"particle item gravel ~ ~1.4 ~ .2 .2 .2 0 15 normal"
 				},
 				"ticks":24

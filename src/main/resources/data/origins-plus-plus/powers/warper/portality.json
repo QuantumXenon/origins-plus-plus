@@ -20,12 +20,10 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"summon minecraft:armor_stand ~ ~ ~ {NoGravity:0b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:[\"Blue_Portal\"],ArmorItems:[{},{},{},{id:\"minecraft:player_head\",Count:1b,tag:{SkullOwner:{Id:[I;1173494200,293750280,-1239947527,-1060776172],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTlhMWMxOTFlMGViYWJlODlkZGYxOGE4YmFjOGY0MjgwZTNhYzZiYzY2MWMxM2NlMWRmZjY3NGRhZDI4ODVlMyJ9fX0=\"}]}}}}]}"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"forceload add ~ ~ ~ ~"
 				}
 			]
@@ -35,17 +33,14 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1,sort=nearest] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:1,Tags:[\"force1\"]}"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"execute at @e[type=minecraft:area_effect_cloud,tag=force1,limit=1,sort=nearest] run kill @e[distance=..1,type=minecraft:armor_stand,tag=Blue_Portal]"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"execute at @e[type=minecraft:area_effect_cloud,tag=force1,limit=1,sort=nearest] run forceload remove ~ ~"
 				}
 			]
@@ -71,17 +66,14 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:1,Tags:[\"force2\"]}"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"execute at @e[type=minecraft:area_effect_cloud,tag=force2,limit=1,sort=nearest] run kill @e[distance=..1,type=minecraft:armor_stand,tag=Orange_Portal]"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"execute at @e[type=minecraft:area_effect_cloud,tag=force2,limit=1,sort=nearest] run forceload remove ~ ~"
 				}
 			]
@@ -91,12 +83,10 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"summon minecraft:armor_stand ~ ~ ~ {NoGravity:0b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:[\"Orange_Portal\"],ArmorItems:[{},{},{},{id:\"minecraft:player_head\",Count:1b,tag:{SkullOwner:{Id:[I;-484979924,2061978897,-1799446715,-114138908],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI4NTEzYzYxNjQ5NTg0OWNmOTFiNzY1MzZlODcyZTIwMDFhNjFjNWRiNDJhYzQwZDFiMjBhNzM0MjVkM2E5NSJ9fX0=\"}]}}}}]}"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"forceload add ~ ~ ~ ~"
 				}
 			]
@@ -161,7 +151,6 @@
 						"type":"origins:command",
 						"comparison":">=",
 						"compare_to":1,
-						"permission_level":4,
 						"command":"execute at @e[tag=Blue_Portal,limit=1,sort=nearest] as @e[tag=Blue_Portal,limit=1,sort=nearest] if entity @e[distance=..1,type=!minecraft:armor_stand,type=!minecraft:area_effect_cloud]"
 					},
 					"action":{
@@ -172,22 +161,18 @@
 							"actions":[
 								{
 									"type":"origins:execute_command",
-									"permission_level":4,
 									"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..3] ~ ~ ~ .1 .8"
 								},
 								{
 									"type":"origins:execute_command",
-									"permission_level":4,
-									"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1,sort=nearest] run tp @e[distance=..1,type=!armor_stand,type=!minecraft:area_effect_cloud] @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1]"
+									"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1,sort=nearest] run tp @e[distance=..1,type=!minecraft:armor_stand,type=!minecraft:area_effect_cloud] @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1]"
 								},
 								{
 									"type":"origins:execute_command",
-									"permission_level":4,
 									"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..3] ~ ~ ~ .1 .8"
 								},
 								{
 									"type":"origins:execute_command",
-									"permission_level":4,
 									"command":"execute as @e if entity @e[type=minecraft:armor_stand,tag=Orange_Portal,distance=..1,limit=1,sort=nearest] run playsound minecraft:block.portal.trigger player @s ~ ~ ~ .1 2"
 								}
 							]
@@ -199,7 +184,6 @@
 						"type":"origins:command",
 						"comparison":">=",
 						"compare_to":1,
-						"permission_level":4,
 						"command":"execute at @e[tag=Orange_Portal,limit=1,sort=nearest] as @e[tag=Orange_Portal,limit=1,sort=nearest] if entity @e[distance=..1,type=!minecraft:armor_stand,type=!minecraft:area_effect_cloud]"
 					},
 					"action":{
@@ -210,22 +194,18 @@
 							"actions":[
 								{
 									"type":"origins:execute_command",
-									"permission_level":4,
 									"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..10] ~ ~ ~ .1 .8"
 								},
 								{
 									"type":"origins:execute_command",
-									"permission_level":4,
-									"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run tp @e[distance=..1,type=!armor_stand,type=!minecraft:area_effect_cloud] @e[type=armor_stand,tag=Blue_Portal,limit=1]"
+									"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run tp @e[distance=..1,type=!minecraft:armor_stand,type=!minecraft:area_effect_cloud] @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1]"
 								},
 								{
 									"type":"origins:execute_command",
-									"permission_level":4,
 									"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..10] ~ ~ ~ .1 .8"
 								},
 								{
 									"type":"origins:execute_command",
-									"permission_level":4,
 									"command":"execute as @e if entity @e[type=minecraft:armor_stand,tag=Blue_Portal,distance=..1,limit=1,sort=nearest] run playsound minecraft:block.portal.trigger player @s ~ ~ ~ .1 2"
 								}
 							]
@@ -260,12 +240,10 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal] run particle minecraft:dust .3 .3 1 1 ~ ~1.5 ~ .3 .3 .3 1 1 normal"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal] run particle minecraft:dust 1 .6 0 1 ~ ~1.5 ~ .3 .3 .3 1 1 normal"
 				}
 			]

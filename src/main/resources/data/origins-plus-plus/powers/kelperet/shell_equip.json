@@ -17,18 +17,15 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"clear @p nautilus_shell 1",
-					"permission_level":4
+					"command":"clear @s minecraft:nautilus_shell 1"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"item replace entity @s armor.head with nautilus_shell",
-					"permission_level":4
+					"command":"item replace entity @s armor.head with minecraft:nautilus_shell"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:item.armor.equip_turtle master @s ~ ~1 ~ 3 1",
-					"permission_level":4
+					"command":"playsound minecraft:item.armor.equip_turtle master @s ~ ~1 ~ 3 1"
 				},
 				{
 					"type":"origins:damage",

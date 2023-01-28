@@ -10,8 +10,7 @@
 				"ticks":1,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"execute at @s run playsound minecraft:entity.shulker.ambient master @a[distance=..15] ~ ~ ~ 1 2",
-					"permission_level":4
+					"command":"execute at @s run playsound minecraft:entity.shulker.ambient master @a[distance=..15] ~ ~ ~ 1 2"
 				}
 			},
 			{
@@ -19,8 +18,7 @@
 				"ticks":1,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect give @s minecraft:blindness 10 10",
-					"permission_level":4
+					"command":"effect give @s minecraft:blindness 10 10"
 				}
 			},
 			{
@@ -28,8 +26,7 @@
 				"ticks":1,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect give @s minecraft:slowness 10 10",
-					"permission_level":4
+					"command":"effect give @s minecraft:slowness 10 10"
 				}
 			},
 			{

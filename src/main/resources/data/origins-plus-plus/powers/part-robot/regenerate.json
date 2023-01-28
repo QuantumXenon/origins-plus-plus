@@ -2,8 +2,7 @@
 	"type":"origins:active_self",
 	"entity_action":{
 		"type":"origins:execute_command",
-		"command":"effect give @s minecraft:regeneration 15 2 true",
-		"permission_level":4
+		"command":"effect give @s minecraft:regeneration 15 2 true"
 	},
 	"cooldown":1200,
 	"hud_render":{

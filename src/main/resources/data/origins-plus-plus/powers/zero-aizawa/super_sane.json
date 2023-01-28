@@ -12,13 +12,11 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:resistance 10 20 false",
-				"permission_level":4
+				"command":"effect give @s minecraft:resistance 10 20 false"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:strength 10 2 false",
-				"permission_level":4
+				"command":"effect give @s minecraft:strength 10 2 false"
 			},
 			{
 				"type":"origins:delay",

@@ -5,13 +5,11 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:bubble ~ ~ ~ 0.5 0 0.5 0.2 20 normal",
-				"permission_level":4
+				"command":"particle minecraft:bubble ~ ~ ~ 0.5 0 0.5 0.2 20 normal"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.axolotl.swim player @a ~ ~ ~ 1 1 1",
-				"permission_level":4
+				"command":"playsound minecraft:entity.axolotl.swim player @a ~ ~ ~ 1 1 1"
 			},
 			{
 				"type":"origins:add_velocity",

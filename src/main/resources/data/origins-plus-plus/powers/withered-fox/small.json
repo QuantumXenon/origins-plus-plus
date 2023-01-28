@@ -5,12 +5,10 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"scale set pehkui:base 0.75"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"scale set pehkui:step_height 1.15"
 			}
 		]
@@ -20,12 +18,10 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"scale set pehkui:base 0.75"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"scale set pehkui:step_height 1.15"
 			}
 		]

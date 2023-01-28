@@ -3,7 +3,6 @@
 	"interval":10,
 	"entity_action":{
 		"type":"origins:execute_command",
-		"permission_level":4,
 		"command":"particle minecraft:dripping_obsidian_tear ~ ~ ~ .5 .5 .5 0.0000000001 1 normal @s"
 	}
 }

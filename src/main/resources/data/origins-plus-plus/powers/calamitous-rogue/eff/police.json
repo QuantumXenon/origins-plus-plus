@@ -32,7 +32,7 @@
 					"type":"origins:if_else",
 					"condition":{
 						"type":"origins:command",
-						"command":"execute if entity @e[type=villager,distance=..6]",
+						"command":"execute if entity @e[type=minecraft:villager,distance=..6]",
 						"compare_to":0,
 						"comparison":">"
 					},

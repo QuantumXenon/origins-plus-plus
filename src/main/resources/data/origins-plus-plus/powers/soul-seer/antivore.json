@@ -38,8 +38,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"summon minecraft:tnt ~ ~ ~",
-			"permission_level":4
+			"command":"summon minecraft:tnt ~ ~ ~"
 		},
 		"interval":20,
 		"condition":{

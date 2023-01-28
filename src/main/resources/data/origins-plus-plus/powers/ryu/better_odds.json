@@ -6,24 +6,21 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"effect clear @s minecraft:poison",
-					"permission_level":4
+					"command":"effect clear @s minecraft:poison"
 				},
 				"weight":50
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"effect clear @s minecraft:slowness",
-					"permission_level":4
+					"command":"effect clear @s minecraft:slowness"
 				},
 				"weight":50
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"effect clear @s minecraft:weakness",
-					"permission_level":4
+					"command":"effect clear @s minecraft:weakness"
 				},
 				"weight":50
 			}

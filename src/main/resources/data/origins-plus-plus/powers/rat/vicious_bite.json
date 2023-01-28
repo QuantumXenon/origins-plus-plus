@@ -9,7 +9,6 @@
 	},
 	"entity_action":{
 		"type":"origins:execute_command",
-		"command":"effect give @s minecraft:strength 6 0 false",
-		"permission_level":4
+		"command":"effect give @s minecraft:strength 6 0 false"
 	}
 }

@@ -6,27 +6,22 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team add rat"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join rat @s"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join rat @e[type=minecraft:zombie]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join rat @e[type=minecraft:skeleton]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join rat @e[type=minecraft:creeper]"
 			}
 		]

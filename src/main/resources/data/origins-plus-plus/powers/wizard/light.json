@@ -8,7 +8,6 @@
 	},
 	"entity_action":{
 		"type":"origins:execute_command",
-		"permission_level":4,
 		"command":"summon minecraft:lightning_bolt ~ ~1 ~"
 	},
 	"condition":{

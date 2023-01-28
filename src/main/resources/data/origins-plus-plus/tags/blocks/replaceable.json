@@ -2,6 +2,8 @@
 	"values":[
 		"#minecraft:flowers",
 		"#minecraft:replaceable_plants",
-		"minecraft:air"
+		"minecraft:air",
+		"minecraft:fire",
+		"minecraft:snow"
 	]
 }

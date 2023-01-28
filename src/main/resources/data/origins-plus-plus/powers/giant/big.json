@@ -33,7 +33,7 @@
 			}
 		]
 	},
-	"entity_action_gained":{
+	"entity_action_respawned":{
 		"type":"origins:and",
 		"actions":[
 			{
@@ -69,75 +69,5 @@
 	"entity_action_lost":{
 		"type":"origins:execute_command",
 		"command":"scale reset"
-	},
-	"entity_action_added":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:falling 0.5"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:height 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:width 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:drops 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:projectiles 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:step_height 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:reach 1.33"
-			}
-		]
-	},
-	"entity_action_removed":{
-		"type":"origins:execute_command",
-		"command":"scale reset"
-	},
-	"entity_action_respawned":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:falling 0.5"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:height 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:width 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:drops 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:projectiles 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:step_height 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:reach 1.33"
-			}
-		]
 	}
 }

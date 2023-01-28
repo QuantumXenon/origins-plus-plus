@@ -8,28 +8,23 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..15] minecraft:blindness 40 0",
-				"permission_level":4
+				"command":"effect give @e[distance=1..15] minecraft:blindness 40 0"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..15] minecraft:slowness 40 2",
-				"permission_level":4
+				"command":"effect give @e[distance=1..15] minecraft:slowness 40 2"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 3 3 3 100 1000",
-				"permission_level":4
+				"command":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 3 3 3 100 1000"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 2 2 2 2 300",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 2 2 2 2 300"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.squid.squirt player @a[distance=..10] ~ ~ ~ 100 0.5 1",
-				"permission_level":4
+				"command":"playsound minecraft:entity.squid.squirt player @a[distance=..10] ~ ~ ~ 100 0.5 1"
 			},
 			{
 				"type":"origins:change_resource",
@@ -38,8 +33,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:ink_sac 1",
-				"permission_level":4
+				"command":"clear @s minecraft:ink_sac 1"
 			}
 		]
 	},

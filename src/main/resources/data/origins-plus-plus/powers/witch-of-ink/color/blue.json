@@ -51,7 +51,7 @@
 					"type":"origins:target_action",
 					"action":{
 						"type":"origins:execute_command",
-						"command":"setblock ~ ~ ~ water[level=8] keep"
+						"command":"setblock ~ ~ ~ minecraft:water[level=8] keep"
 					}
 				}
 			]

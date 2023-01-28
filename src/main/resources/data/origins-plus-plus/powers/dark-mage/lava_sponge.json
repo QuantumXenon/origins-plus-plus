@@ -8,23 +8,19 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"fill ~6 ~5 ~6 ~-6 ~-5 ~-6 air replace lava",
-				"permission_level":4
+				"command":"fill ~6 ~5 ~6 ~-6 ~-5 ~-6 minecraft:air replace minecraft:lava"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"fill ~7 ~5 ~7 ~-7 ~-5 ~-7 air replace fire",
-				"permission_level":4
+				"command":"fill ~7 ~5 ~7 ~-7 ~-5 ~-7 minecraft:air replace minecraft:fire"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:item.bucket.fill_lava player @a[distance=..10] ~ ~ ~ 1 1",
-				"permission_level":4
+				"command":"playsound minecraft:item.bucket.fill_lava player @a[distance=..10] ~ ~ ~ 1 1"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"execute as @p at @p run particle particle minecraft:flash ~ ~ ~ normal",
-				"permission_level":4
+				"command":"execute as @p at @p run particle particle minecraft:flash ~ ~ ~ normal"
 			},
 			{
 				"type":"origins:change_resource",
@@ -33,13 +29,11 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:lava ~ ~2 ~ 3 3 3 0 500",
-				"permission_level":4
+				"command":"particle minecraft:lava ~ ~2 ~ 3 3 3 0 500"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:magma_block 1",
-				"permission_level":4
+				"command":"clear @s minecraft:magma_block 1"
 			}
 		]
 	},

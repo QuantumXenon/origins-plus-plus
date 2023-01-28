@@ -4,32 +4,23 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"scale set 0.3",
-			"permission_level":4
+			"command":"scale set 0.3"
 		},
 		"interval":20
 	},
 	"scale_callback":{
 		"type":"origins:action_on_callback",
-		"entity_action_added":{
+		"entity_action_chosen":{
 			"type":"origins:execute_command",
-			"command":"scale set 0.3",
-			"permission_level":4
+			"command":"scale set 0.3"
 		},
 		"entity_action_respawned":{
 			"type":"origins:execute_command",
-			"command":"scale set 0.3",
-			"permission_level":4
-		},
-		"entity_action_chosen":{
-			"type":"origins:execute_command",
-			"command":"scale set 0.3",
-			"permission_level":4
+			"command":"scale set 0.3"
 		},
 		"entity_action_lost":{
 			"type":"origins:execute_command",
-			"command":"scale set 1",
-			"permission_level":4
+			"command":"scale reset"
 		}
 	}
 }

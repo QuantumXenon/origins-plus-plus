@@ -21,8 +21,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:flowering_azalea 1",
-				"permission_level":4
+				"command":"clear @s minecraft:flowering_azalea 1"
 			}
 		]
 	},

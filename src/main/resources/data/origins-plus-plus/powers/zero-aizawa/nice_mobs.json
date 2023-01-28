@@ -7,20 +7,17 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team add zero_aizawa",
-					"permission_level":4
+					"command":"team add zero_aizawa"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @s",
-					"permission_level":4
+					"command":"team join zero_aizawa @s"
 				}
 			]
 		},
 		"entity_action_lost":{
 			"type":"origins:execute_command",
-			"command":"team leave @s",
-			"permission_level":4
+			"command":"team leave @s"
 		}
 	},
 	"aizawa_team_managing":{
@@ -30,43 +27,35 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team leave @e[tag=angry]",
-					"permission_level":4
+					"command":"team leave @e[tag=angry]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:zombie,tag=!angry]",
-					"permission_level":4
+					"command":"team join zero_aizawa @e[type=minecraft:zombie,tag=!angry]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:skeleton,tag=!angry]",
-					"permission_level":4
+					"command":"team join zero_aizawa @e[type=minecraft:skeleton,tag=!angry]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:husk,tag=!angry]",
-					"permission_level":4
+					"command":"team join zero_aizawa @e[type=minecraft:husk,tag=!angry]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:drowned,tag=!angry]",
-					"permission_level":4
+					"command":"team join zero_aizawa @e[type=minecraft:drowned,tag=!angry]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:stray,tag=!angry]",
-					"permission_level":4
+					"command":"team join zero_aizawa @e[type=minecraft:stray,tag=!angry]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:spider,tag=!angry]",
-					"permission_level":4
+					"command":"team join zero_aizawa @e[type=minecraft:spider,tag=!angry]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:creeper,tag=!angry]",
-					"permission_level":4
+					"command":"team join zero_aizawa @e[type=minecraft:creeper,tag=!angry]"
 				}
 			]
 		},
@@ -76,8 +65,7 @@
 		"type":"origins:target_action_on_hit",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"tag @s[team=zero_aizawa,type=!minecraft:player] add angry",
-			"permission_level":4
+			"command":"tag @s[team=zero_aizawa,type=!minecraft:player] add angry"
 		}
 	}
 }

@@ -17,13 +17,11 @@
 			},
 			"if_action":{
 				"type":"origins:execute_command",
-				"command":"scale set pehkui:reach 16 @s",
-				"permission_level":4
+				"command":"scale set pehkui:reach 16 @s"
 			},
 			"else_action":{
 				"type":"origins:execute_command",
-				"command":"scale set pehkui:reach 1 @s",
-				"permission_level":4
+				"command":"scale set pehkui:reach 1 @s"
 			}
 		},
 		"interval":1

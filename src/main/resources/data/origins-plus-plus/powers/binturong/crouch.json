@@ -11,12 +11,10 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"scale set pehkui:width 0.6 @s"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"scale set pehkui:height 0.6 @s"
 				}
 			]
@@ -26,12 +24,10 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"scale set pehkui:width 0.8 @s"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"scale set pehkui:height 0.8 @s"
 				}
 			]

@@ -5,13 +5,11 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"scale set pehkui:height 1.25",
-				"permission_level":4
+				"command":"scale set pehkui:height 1.25"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"scale set pehkui:width 1.25",
-				"permission_level":4
+				"command":"scale set pehkui:width 1.25"
 			}
 		]
 	},
@@ -20,18 +18,15 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"scale set pehkui:height 1.25",
-				"permission_level":4
+				"command":"scale set pehkui:height 1.25"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"scale set pehkui:width 1.25",
-				"permission_level":4
+				"command":"scale set pehkui:width 1.25"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"resource set @s origins-plus-plus:ignisian/ignisian_zenith 0",
-				"permission_level":4
+				"command":"resource set @s origins-plus-plus:ignisian/ignisian_zenith 0"
 			}
 		]
 	},
@@ -40,13 +35,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"scale set pehkui:height 1",
-				"permission_level":4
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"scale set pehkui:width 1",
-				"permission_level":4
+				"command":"scale reset"
 			}
 		]
 	}

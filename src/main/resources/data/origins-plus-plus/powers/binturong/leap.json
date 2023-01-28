@@ -7,13 +7,11 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:portal ~ ~ ~ 0.5 0 0.5 0.2 20 force",
-				"permission_level":4
+				"command":"particle minecraft:portal ~ ~ ~ 0.5 0 0.5 0.2 20 force"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.ender_dragon.flap player @a[distance=..10] ~ ~ ~ 1 1 1",
-				"permission_level":4
+				"command":"playsound minecraft:entity.ender_dragon.flap player @a[distance=..10] ~ ~ ~ 1 1 1"
 			},
 			{
 				"type":"origins:add_velocity",

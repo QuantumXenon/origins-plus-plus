@@ -30,12 +30,10 @@
 		"type":"origins:action_on_callback",
 		"entity_action_added":{
 			"type":"origins:execute_command",
-			"permission_level":4,
 			"command":"team add lunar-path"
 		},
 		"entity_action_removed":{
 			"type":"origins:execute_command",
-			"permission_level":4,
 			"command":"team leave @s"
 		}
 	},
@@ -47,12 +45,10 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"team join lunar-path @s"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"team join lunar-path @e[tag=Lunar_Path_Ally,distance=..64]"
 				}
 			]
@@ -65,27 +61,22 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"tag @s add self"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
-					"command":"execute at @e[type=!player,team=lunar-path,distance=..64] run summon minecraft:snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
+					"command":"execute at @e[type=!minecraft:player,team=lunar-path,distance=..64] run summon minecraft:snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"tag @s remove self"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"tag @e remove aggro.init"
 				}
 			]
@@ -98,27 +89,22 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"tag @s add self"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
-					"command":"execute at @e[type=!player,team=lunar-path,distance=..64] run summon minecraft:snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
+					"command":"execute at @e[type=!minecraft:player,team=lunar-path,distance=..64] run summon minecraft:snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"tag @s remove self"
 				},
 				{
 					"type":"origins:execute_command",
-					"permission_level":4,
 					"command":"tag @e remove aggro.init"
 				}
 			]

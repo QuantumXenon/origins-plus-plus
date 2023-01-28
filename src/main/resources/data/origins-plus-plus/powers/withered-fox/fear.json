@@ -6,57 +6,46 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team add withered_fox"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_fox @s"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_fox @e[type=minecraft:zombie]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_fox @e[type=minecraft:husk]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_fox @e[type=minecraft:drowned]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_fox @e[type=minecraft:zombie_villager]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_fox @e[type=minecraft:wither_skeleton]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_fox @e[type=minecraft:stray]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_fox @e[type=minecraft:skeleton]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_fox @e[type=minecraft:wither]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_fox @e[type=minecraft:phantom]"
 			}
 		]

@@ -3,7 +3,6 @@
 	"interval":1,
 	"entity_action":{
 		"type":"origins:execute_command",
-		"permission_level":4,
 		"command":"tp @e[type=minecraft:item,distance=..2.85,nbt={PickupDelay:0s}] @s"
 	}
 }

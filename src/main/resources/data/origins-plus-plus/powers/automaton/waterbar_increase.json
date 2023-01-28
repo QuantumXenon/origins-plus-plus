@@ -12,8 +12,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:item.bucket.empty voice @a ~ ~ ~ 2 0.75",
-					"permission_level":4
+					"command":"playsound minecraft:item.bucket.empty voice @a ~ ~ ~ 2 0.75"
 				}
 			]
 		},
@@ -41,13 +40,11 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:item.bucket.empty voice @a ~ ~ ~ 2 0.5",
-					"permission_level":4
+					"command":"playsound minecraft:item.bucket.empty voice @a ~ ~ ~ 2 0.5"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"give @s minecraft:bucket 1",
-					"permission_level":4
+					"command":"give @s minecraft:bucket 1"
 				}
 			]
 		},

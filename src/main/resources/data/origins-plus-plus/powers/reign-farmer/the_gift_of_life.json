@@ -12,256 +12,217 @@
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:axolotl ~ ~1 ~ {Variant:random}",
-					"permission_level":4
+					"command":"summon minecraft:axolotl ~ ~1 ~ {Variant:random}"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:bat ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:bat ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:bee ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:bee ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:cat ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:cat ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:chicken ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:chicken ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:cod ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:cod ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:cow ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:cow ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:donkey ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:donkey ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon fox ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:fox ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon glow_squid ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:glow_squid ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon horse ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:horse ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon mooshroom ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:mooshroom ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon mule ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:mule ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon ocelot ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:ocelot ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon parrot ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:parrot ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon pig ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:pig ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon piglin ~ ~1 ~ {IsBaby:1}",
-					"permission_level":4
+					"command":"summon minecraft:piglin ~ ~1 ~ {IsBaby:1}"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon polar_bear ~ ~1 ~ {Age:-25000}",
-					"permission_level":4
+					"command":"summon minecraft:polar_bear ~ ~1 ~ {Age:-25000}"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon pufferfish ~ ~1 ~ {PuffState:2}",
-					"permission_level":4
+					"command":"summon minecraft:pufferfish ~ ~1 ~ {PuffState:2}"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon rabbit ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:rabbit ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon salmon ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:salmon ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon sheep ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:sheep ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon skeleton_horse ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:skeleton_horse ~ ~1 ~"
 				},
 				"weight":1.05
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon snow_golem ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:snow_golem ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon squid ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:squid ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon strider ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:strider ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon tropical_fish ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:tropical_fish ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon turtle ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:turtle ~ ~1 ~"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon villager ~ ~1 ~ {VillagerData:{profession:nitwit,level:1,type:plains}}",
-					"permission_level":4
+					"command":"summon minecraft:villager ~ ~1 ~ {VillagerData:{profession:nitwit,level:1,type:plains}}"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon panda ~ ~1 ~ {Age:-25000}",
-					"permission_level":4
+					"command":"summon minecraft:panda ~ ~1 ~ {Age:-25000}"
 				},
 				"weight":8.71
 			},
 			{
 				"element":{
 					"type":"origins:execute_command",
-					"command":"summon wolf ~ ~1 ~ {Age:-25000}",
-					"permission_level":4
-				},
-				"weight":8.71
-			},
-			{
-				"element":{
-					"type":"origins:execute_command",
-					"command":"summon bee ~ ~1 ~",
-					"permission_level":4
+					"command":"summon minecraft:wolf ~ ~1 ~ {Age:-25000}"
 				},
 				"weight":8.71
 			}

@@ -17,13 +17,11 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"clear @s minecraft:red_dye 1",
-					"permission_level":4
+					"command":"clear @s minecraft:red_dye 1"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"particle minecraft:portal ~ ~.3 ~ 0.1 0.1 0.1 0.3 11 force",
-					"permission_level":4
+					"command":"particle minecraft:portal ~ ~.3 ~ 0.1 0.1 0.1 0.3 11 force"
 				},
 				{
 					"type":"origins:apply_effect",

@@ -10,13 +10,11 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.ravager.roar master @s ~ ~ ~ 10 0.18",
-				"permission_level":4
+				"command":"playsound minecraft:entity.ravager.roar master @s ~ ~ ~ 10 0.18"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:white_ash ~ ~ ~ 1 1 1 0.15 100",
-				"permission_level":4
+				"command":"particle minecraft:white_ash ~ ~ ~ 1 1 1 0.15 100"
 			}
 		]
 	},

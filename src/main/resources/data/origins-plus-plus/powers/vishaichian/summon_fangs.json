@@ -9,8 +9,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"execute at @e[tag=!fangsself,distance=..8,limit=3] run summon minecraft:evoker_fangs ~ ~ ~",
-				"permission_level":4
+				"command":"execute at @e[tag=!fangsself,distance=..8,limit=3] run summon minecraft:evoker_fangs ~ ~ ~"
 			},
 			{
 				"type":"origins:execute_command",

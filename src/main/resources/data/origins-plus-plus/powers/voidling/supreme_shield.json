@@ -7,16 +7,14 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute as @s run function origins-plus-plus:voidling/shield_summon",
-					"permission_level":4
+					"command":"execute as @s run function origins-plus-plus:voidling/shield_summon"
 				},
 				{
 					"type":"origins:delay",
 					"ticks":200,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"kill @e[type=minecraft:armor_stand,tag=supreme_shield_player_effect]",
-						"permission_level":4
+						"command":"kill @e[type=minecraft:armor_stand,tag=supreme_shield_player_effect]"
 					}
 				},
 				{
@@ -24,8 +22,7 @@
 					"ticks":200,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"effect clear @s",
-						"permission_level":4
+						"command":"effect clear @s"
 					}
 				},
 				{
@@ -33,8 +30,7 @@
 					"ticks":200,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"tag @s remove supreme_shield",
-						"permission_level":4
+						"command":"tag @s remove supreme_shield"
 					}
 				}
 			]
@@ -93,8 +89,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute as @s run function origins-plus-plus:voidling/shield",
-					"permission_level":4
+					"command":"execute as @s run function origins-plus-plus:voidling/shield"
 				},
 				{
 					"type":"origins:change_resource",

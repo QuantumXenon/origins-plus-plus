@@ -35,8 +35,7 @@
 					},
 					{
 						"type":"origins:execute_command",
-						"command":"effect give @p minecraft:slowness 999999 2 true",
-						"permission_level":4
+						"command":"effect give @p minecraft:slowness 999999 2 true"
 					}
 				]
 			},
@@ -59,8 +58,7 @@
 					},
 					{
 						"type":"origins:execute_command",
-						"command":"effect clear @p slowness",
-						"permission_level":4
+						"command":"effect clear @p slowness"
 					}
 				]
 			}
@@ -73,11 +71,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"scale set pehkui:height 1 @s"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"scale set pehkui:width 1 @s"
+					"command":"scale reset"
 				},
 				{
 					"type":"origins:change_resource",
@@ -87,8 +81,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"effect clear @p slowness",
-					"permission_level":4
+					"command":"effect clear @p minecraft:slowness"
 				}
 			]
 		}

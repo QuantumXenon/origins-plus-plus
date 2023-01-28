@@ -5,18 +5,15 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"execute at @e[distance=1..15] run setblock ~ ~ ~ origins:temporary_cobweb keep",
-				"permission_level":4
+				"command":"execute at @e[distance=1..15] run setblock ~ ~ ~ origins:temporary_cobweb keep"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"execute at @e[distance=1..15] run particle minecraft:dust 1 1 1 1 ~ ~1 ~ 0.3 0 0.3 0.001 100 normal",
-				"permission_level":4
+				"command":"execute at @e[distance=1..15] run particle minecraft:dust 1 1 1 1 ~ ~1 ~ 0.3 0 0.3 0.001 100 normal"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.spider.ambient player @a[distance=..15] ~ ~ ~ 1 0.7",
-				"permission_level":4
+				"command":"playsound minecraft:entity.spider.ambient player @a[distance=..15] ~ ~ ~ 1 0.7"
 			}
 		]
 	},

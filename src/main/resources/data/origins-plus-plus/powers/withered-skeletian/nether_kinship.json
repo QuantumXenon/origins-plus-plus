@@ -6,27 +6,22 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team add withered_skeletian"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_skeletian @s"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_skeletian @e[type=minecraft:blaze]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_skeletian @e[type=minecraft:wither_skeleton]"
 			},
 			{
 				"type":"origins:execute_command",
-				"permission_level":4,
 				"command":"team join withered_skeletian @e[type=minecraft:skeleton]"
 			}
 		]

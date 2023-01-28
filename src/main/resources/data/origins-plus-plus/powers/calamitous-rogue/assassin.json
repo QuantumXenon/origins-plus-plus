@@ -36,7 +36,7 @@
 					"chance":0.2,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"kill @e[type=item,distance=..1.5]"
+						"command":"kill @e[type=minecraft:item,distance=..1.5]"
 					}
 				}
 			}

@@ -2,8 +2,7 @@
 	"type":"origins:action_over_time",
 	"entity_action":{
 		"type":"origins:execute_command",
-		"command":"effect give @s minecraft:weakness 10 0 true",
-		"permission_level":4
+		"command":"effect give @s minecraft:weakness 10 0 true"
 	},
 	"interval":20,
 	"condition":{

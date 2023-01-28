@@ -8,18 +8,15 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..6] minecraft:fire_resistance 100 0",
-				"permission_level":4
+				"command":"effect give @e[distance=..6] minecraft:fire_resistance 100 0"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:dust 1 0.4 0 2 ~ ~ ~ 2 2 2 10 100",
-				"permission_level":4
+				"command":"particle minecraft:dust 1 0.4 0 2 ~ ~ ~ 2 2 2 10 100"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:block.lava.extinguish player @a[distance=..20] ~ ~ ~ 100 1.4 1",
-				"permission_level":4
+				"command":"playsound minecraft:block.lava.extinguish player @a[distance=..20] ~ ~ ~ 100 1.4 1"
 			},
 			{
 				"type":"origins:change_resource",
@@ -28,8 +25,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:magma_cream 1",
-				"permission_level":4
+				"command":"clear @s minecraft:magma_cream 1"
 			}
 		]
 	},

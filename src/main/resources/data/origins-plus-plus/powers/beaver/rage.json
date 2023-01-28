@@ -12,13 +12,11 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:speed 30 0 false",
-				"permission_level":4
+				"command":"effect give @s minecraft:speed 30 0 false"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:regeneration 30 0 false",
-				"permission_level":4
+				"command":"effect give @s minecraft:regeneration 30 0 false"
 			}
 		]
 	}

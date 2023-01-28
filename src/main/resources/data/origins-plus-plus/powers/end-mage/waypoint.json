@@ -9,23 +9,19 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"particle minecraft:witch ~ ~ ~ 1 1 1 1 100",
-					"permission_level":4
+					"command":"particle minecraft:witch ~ ~ ~ 1 1 1 1 100"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Tags:[\"tp\"],Invunerable:1b,NoGravity:1b,}",
-					"permission_level":4
+					"command":"summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Tags:[\"tp\"],Invunerable:1b,NoGravity:1b,}"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.beacon.activate player @a[distance=..20] ~ ~ ~ 100 2",
-					"permission_level":4
+					"command":"playsound minecraft:block.beacon.activate player @a[distance=..20] ~ ~ ~ 100 2"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"forceload add ~ ~",
-					"permission_level":4
+					"command":"forceload add ~ ~"
 				},
 				{
 					"type":"origins:change_resource",
@@ -61,23 +57,19 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"tp @s @e[type=minecraft:armor_stand,tag=tp,sort=nearest,limit=1]",
-					"permission_level":4
+					"command":"tp @s @e[type=minecraft:armor_stand,tag=tp,sort=nearest,limit=1]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"kill @e[distance=..2,type=minecraft:armor_stand]",
-					"permission_level":4
+					"command":"kill @e[distance=..2,type=minecraft:armor_stand]"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"forceload remove ~ ~",
-					"permission_level":4
+					"command":"forceload remove ~ ~"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.beacon.deactivate player @a[distance=..20] ~ ~ ~ 100 2",
-					"permission_level":4
+					"command":"playsound minecraft:block.beacon.deactivate player @a[distance=..20] ~ ~ ~ 100 2"
 				},
 				{
 					"type":"origins:change_resource",

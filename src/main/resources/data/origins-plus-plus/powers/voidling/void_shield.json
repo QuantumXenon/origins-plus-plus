@@ -5,18 +5,15 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"title @s actionbar {\"translate\":\"origins-plus-plus.voidling.message\"}",
-				"permission_level":4
+				"command":"title @s actionbar {\"translate\":\"origins-plus-plus.voidling.message\"}"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ink ~ ~ ~ 1 1 1 0.30 10000",
-				"permission_level":4
+				"command":"particle minecraft:ink ~ ~ ~ 1 1 1 0.30 10000"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 1 1 1 0.30 10000",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 1 1 1 0.30 10000"
 			},
 			{
 				"type":"origins:apply_effect",

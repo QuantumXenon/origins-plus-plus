@@ -27,33 +27,7 @@
 		]
 	},
 	"entity_action_lost":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"permission_level":4,
-				"command":"scale set pehkui:width 1 @s"
-			},
-			{
-				"type":"origins:execute_command",
-				"permission_level":4,
-				"command":"scale set pehkui:height 1 @s"
-			}
-		]
-	},
-	"entity_action_removed":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"permission_level":4,
-				"command":"scale set pehkui:width 1 @s"
-			},
-			{
-				"type":"origins:execute_command",
-				"permission_level":4,
-				"command":"scale set pehkui:height 1 @s"
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"scale reset"
 	}
 }

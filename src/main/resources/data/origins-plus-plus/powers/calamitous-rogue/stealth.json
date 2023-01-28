@@ -120,7 +120,7 @@
 				"type":"origins:target_action",
 				"action":{
 					"type":"origins:execute_command",
-					"command":"power grant @s[type=!player,type=!#origins-plus-plus:untargetable] origins-plus-plus:calamitous-rogue/eff/deaggro"
+					"command":"power grant @s[type=!minecraft:player,type=!#origins-plus-plus:untargetable] origins-plus-plus:calamitous-rogue/eff/deaggro"
 				}
 			},
 			"bientity_condition":{

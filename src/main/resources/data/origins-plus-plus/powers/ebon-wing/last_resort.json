@@ -5,8 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"summon minecraft:tnt ~ ~2 ~ {Fuse:1}",
-				"permission_level":4
+				"command":"summon minecraft:tnt ~ ~2 ~ {Fuse:1}"
 			},
 			{
 				"type":"origins:change_resource",
@@ -20,48 +19,39 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=2..6] minecraft:wither 3 0 false",
-				"permission_level":4
+				"command":"effect give @e[distance=2..6] minecraft:wither 3 0 false"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.illusioner.prepare_blindness master @a[distance=..30] ~ ~ ~ 50 0",
-				"permission_level":4
+				"command":"playsound minecraft:entity.illusioner.prepare_blindness master @a[distance=..30] ~ ~ ~ 50 0"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.generic.explode master @a[distance=..30] ~ ~ ~ 50 0",
-				"permission_level":4
+				"command":"playsound minecraft:entity.generic.explode master @a[distance=..30] ~ ~ ~ 50 0"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 1 1 1 100 1000 normal",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 1 1 1 100 1000 normal"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 10 10 10 1 1000 normal",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 10 10 10 1 1000 normal"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 10 10 10 1 1000 normal",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 10 10 10 1 1000 normal"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 10 10 10 1 1000 normal",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 10 10 10 1 1000 normal"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 10 10 10 1 1000 normal",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 10 10 10 1 1000 normal"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 10 10 10 1 1000 normal",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 10 10 10 1 1000 normal"
 			}
 		]
 	},

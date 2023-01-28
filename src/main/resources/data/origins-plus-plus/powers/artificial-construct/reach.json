@@ -2,17 +2,14 @@
 	"type":"origins:action_on_callback",
 	"entity_action_chosen":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:reach 1.375 @s",
-		"permission_level":4
+		"command":"scale set pehkui:reach 1.375 @s"
 	},
 	"entity_action_respawned":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:reach 1.375 @s",
-		"permission_level":4
+		"command":"scale set pehkui:reach 1.375 @s"
 	},
 	"entity_action_lost":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:reach 1.375 @s",
-		"permission_level":4
+		"command":"scale reset"
 	}
 }

@@ -22,8 +22,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"particle minecraft:portal ~ ~1 ~ 0 0 0 1 5",
-					"permission_level":4
+					"command":"particle minecraft:portal ~ ~1 ~ 0 0 0 1 5"
 				}
 			]
 		},
@@ -64,8 +63,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"particle minecraft:portal ~ ~0.5 ~ .25 .25 .26 0 2 force @a",
-			"permission_level":4
+			"command":"particle minecraft:portal ~ ~0.5 ~ .25 .25 .26 0 2 force @a"
 		},
 		"interval":1,
 		"condition":{

@@ -15,8 +15,7 @@
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute at @s run particle minecraft:sneeze ~.1 ~1 ~ 1 1 1 0 200",
-			"permission_level":4
+			"command":"execute at @s run particle minecraft:sneeze ~.1 ~1 ~ 1 1 1 0 200"
 		},
 		"key":"key.origins.primary_active",
 		"cooldown":100

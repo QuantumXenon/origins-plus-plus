@@ -8,23 +8,19 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..16] minecraft:levitation 3 3",
-				"permission_level":4
+				"command":"effect give @e[distance=1..16] minecraft:levitation 3 3"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..16] minecraft:weakness 3 2",
-				"permission_level":4
+				"command":"effect give @e[distance=1..16] minecraft:weakness 3 2"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 5 5 5 100 30",
-				"permission_level":4
+				"command":"particle minecraft:dust 0 0 0 2 ~ ~ ~ 5 5 5 100 30"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 4 4 4 2 20",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 4 4 4 2 20"
 			},
 			{
 				"type":"origins:change_resource",
@@ -33,8 +29,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:phantom_membrane 1",
-				"permission_level":4
+				"command":"clear @s minecraft:phantom_membrane 1"
 			}
 		]
 	},

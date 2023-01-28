@@ -83,7 +83,6 @@
 	},
 	"particles":{
 		"type":"origins:execute_command",
-		"permission_level":4,
 		"command":"particle minecraft:large_smoke ~ ~1 ~ .2 .2 .2 .05 5 normal",
 		"condition":{
 			"type":"origins:power_active",

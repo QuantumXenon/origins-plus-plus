@@ -4,8 +4,7 @@
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"summon minecraft:area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:4f,RadiusPerTick:0f,Duration:200,Color:2723378,Effects:[{Id:19b,Amplifier:0b,Duration:100}]}",
-			"permission_level":4
+			"command":"summon minecraft:area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:4f,RadiusPerTick:0f,Duration:200,Color:2723378,Effects:[{Id:19b,Amplifier:0b,Duration:100}]}"
 		},
 		"key":"key.origins.secondary_active",
 		"cooldown":400,
@@ -18,8 +17,7 @@
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"execute at @s run particle minecraft:sneeze ~.1 ~1 ~ 1 1 1 0 200",
-			"permission_level":4
+			"command":"execute at @s run particle minecraft:sneeze ~.1 ~1 ~ 1 1 1 0 200"
 		},
 		"key":"key.origins.secondary_active",
 		"cooldown":400

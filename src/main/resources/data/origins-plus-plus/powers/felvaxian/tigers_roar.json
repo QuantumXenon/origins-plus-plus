@@ -5,26 +5,22 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..7] minecraft:blindness 5 1 false",
-				"permission_level":4
+				"command":"effect give @e[distance=..7] minecraft:blindness 5 1 false"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..7] minecraft:slowness 5 2 false",
-				"permission_level":4
+				"command":"effect give @e[distance=..7] minecraft:slowness 5 2 false"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.ravager.roar master @a[distance=..7]",
-				"permission_level":4
+				"command":"playsound minecraft:entity.ravager.roar master @a[distance=..7]"
 			},
 			{
 				"type":"origins:delay",
 				"ticks":1,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect clear @s",
-					"permission_level":4
+					"command":"effect clear @s"
 				}
 			},
 			{
@@ -32,8 +28,7 @@
 				"ticks":2,
 				"action":{
 					"type":"origins:execute_command",
-					"command":"effect give @s minecraft:speed 7 20 false",
-					"permission_level":4
+					"command":"effect give @s minecraft:speed 7 20 false"
 				}
 			}
 		]

@@ -8,28 +8,23 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:absorption 30 2",
-				"permission_level":4
+				"command":"effect give @s minecraft:absorption 30 2"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:resistance 30 0",
-				"permission_level":4
+				"command":"effect give @s minecraft:resistance 30 0"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:dust 1 1 0 2 ~ ~ ~ 0.3 1 0.3 1 200",
-				"permission_level":4
+				"command":"particle minecraft:dust 1 1 0 2 ~ ~ ~ 0.3 1 0.3 1 200"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 2 2 2 2 10",
-				"permission_level":4
+				"command":"particle minecraft:ash ~ ~ ~ 2 2 2 2 10"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:block.amethyst_block.chime player @a[distance=..10] ~ ~ ~ 100 2 1",
-				"permission_level":4
+				"command":"playsound minecraft:block.amethyst_block.chime player @a[distance=..10] ~ ~ ~ 100 2 1"
 			},
 			{
 				"type":"origins:change_resource",
@@ -38,8 +33,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:golden_apple 1",
-				"permission_level":4
+				"command":"clear @s minecraft:golden_apple 1"
 			}
 		]
 	},

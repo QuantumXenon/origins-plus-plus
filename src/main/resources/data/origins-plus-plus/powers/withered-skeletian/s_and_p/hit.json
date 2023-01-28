@@ -2,8 +2,7 @@
 	"type":"origins:self_action_when_hit",
 	"entity_action":{
 		"type":"origins:execute_command",
-		"command":"playsound minecraft:entity.wither_skeleton.hurt master @a[distance=0..5] ~ ~ ~ 1 1 1",
-		"permission_level":4
+		"command":"playsound minecraft:entity.wither_skeleton.hurt master @a[distance=0..5] ~ ~ ~ 1 1 1"
 	},
 	"hidden":true,
 	"cooldown":3

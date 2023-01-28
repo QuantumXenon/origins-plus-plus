@@ -8,23 +8,19 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..6] minecraft:haste 60 1",
-				"permission_level":4
+				"command":"effect give @e[distance=..6] minecraft:haste 60 1"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..6] minecraft:speed 60 1",
-				"permission_level":4
+				"command":"effect give @e[distance=..6] minecraft:speed 60 1"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:dust 1 1 0 3 ~ ~ ~ 2 2 1 10 100",
-				"permission_level":4
+				"command":"particle minecraft:dust 1 1 0 3 ~ ~ ~ 2 2 1 10 100"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.lightning_bolt.impact player @a[distance=..20] ~ ~ ~ 100 2 1",
-				"permission_level":4
+				"command":"playsound minecraft:entity.lightning_bolt.impact player @a[distance=..20] ~ ~ ~ 100 2 1"
 			},
 			{
 				"type":"origins:change_resource",
@@ -33,8 +29,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:clock 1",
-				"permission_level":4
+				"command":"clear @s minecraft:clock 1"
 			}
 		]
 	},
