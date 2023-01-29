@@ -15,8 +15,8 @@
 					"type":"origins:apply_effect",
 					"effect":{
 						"effect":"minecraft:strength",
-						"duration":3600,
-						"amplifier":3,
+						"duration":1200,
+						"amplifier":2,
 						"show_particles":false,
 						"show_icon":false
 					}
@@ -25,7 +25,7 @@
 					"type":"origins:apply_effect",
 					"effect":{
 						"effect":"minecraft:speed",
-						"duration":3600,
+						"duration":1200,
 						"show_particles":false,
 						"show_icon":false
 					}
@@ -34,7 +34,7 @@
 					"type":"origins:apply_effect",
 					"effect":{
 						"effect":"minecraft:glowing",
-						"duration":3600,
+						"duration":1200,
 						"show_particles":false,
 						"show_icon":false
 					}
@@ -45,7 +45,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"tag @e[distance=1..100] add voi"
+					"command":"tag @e[distance=1..100] add void_sight"
 				},
 				{
 					"type":"origins:execute_command",

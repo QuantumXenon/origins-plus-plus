@@ -33,28 +33,24 @@
 				{
 					"type":"origins:block_in_radius",
 					"block_condition":{
-						"type":"origins:or",
-						"conditions":[
-							{
-								"type":"origins:block",
-								"block":"minecraft:crying_obsidian"
-							},
-							{
-								"type":"origins:block",
-								"block":"minecraft:bedrock"
-							}
-						]
+						"type":"origins:block",
+						"block":"minecraft:bedrock"
 					},
 					"radius":2,
 					"shape":"cube",
-					"comparison":">",
-					"compare_to":0
+					"comparison":">=",
+					"compare_to":1
 				},
 				{
 					"type":"origins:resource",
 					"resource":"*:*_charge",
 					"comparison":"<",
 					"compare_to":300
+				},
+				{
+					"type":"origins:power_active",
+					"power":"origins-plus-plus:voidling/supreme_shield_toggle",
+					"inverted":true
 				}
 			]
 		}

@@ -57,7 +57,7 @@
 				}
 			]
 		},
-		"cooldown":20,
+		"cooldown":500,
 		"hud_render":{
 			"should_render":true,
 			"bar_index":5
@@ -122,7 +122,7 @@
 				}
 			]
 		},
-		"cooldown":40,
+		"cooldown":500,
 		"hud_render":{
 			"should_render":true,
 			"bar_index":5

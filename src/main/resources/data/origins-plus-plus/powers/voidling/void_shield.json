@@ -5,7 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"title @s actionbar {\"translate\":\"origins-plus-plus.voidling.message\"}"
+				"command":"title @s actionbar {\"translate\":\"origins-plus-plus.voidling.message\",\"color\":\"dark_gray\"}"
 			},
 			{
 				"type":"origins:execute_command",
