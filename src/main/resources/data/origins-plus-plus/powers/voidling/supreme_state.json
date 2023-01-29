@@ -84,7 +84,7 @@
 				},
 				{
 					"type":"origins:delay",
-					"ticks":3600,
+					"ticks":1200,
 					"action":{
 						"type":"origins:change_resource",
 						"resource":"*:*_resource",
@@ -93,7 +93,7 @@
 				},
 				{
 					"type":"origins:delay",
-					"ticks":3600,
+					"ticks":1200,
 					"action":{
 						"type":"origins:execute_command",
 						"command":"team leave @e[tag=void_sight]"
@@ -101,7 +101,7 @@
 				},
 				{
 					"type":"origins:delay",
-					"ticks":3600,
+					"ticks":1200,
 					"action":{
 						"type":"origins:execute_command",
 						"command":"team remove voidling"
@@ -109,7 +109,7 @@
 				},
 				{
 					"type":"origins:delay",
-					"ticks":3600,
+					"ticks":1200,
 					"action":{
 						"type":"origins:execute_command",
 						"command":"tag @e[tag=void_sight] remove void_sight"
