@@ -1,18 +1,35 @@
 {
-	"type":"origins:active_self",
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"resource set @s origins-plus-plus:shifter/shift_bar 9"
-	},
-	"condition":{
-		"type":"origins:equipped_item",
-		"equipment_slot":"mainhand",
-		"item_condition":{
-			"type":"origins:ingredient",
-			"ingredient":{
-				"item":"minecraft:phantom_membrane"
+	"type":"origins:multiple",
+	"item":{
+		"type":"origins:active_self",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"resource set @s origins-plus-plus:shifter/shift_bar 9"
+		},
+		"condition":{
+			"type":"origins:equipped_item",
+			"equipment_slot":"mainhand",
+			"item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"item":"minecraft:phantom_membrane"
+				}
 			}
-		}
+		},
+		"key":"key.origins.secondary_active"
 	},
-	"key":"key.origins.secondary_active"
+	"message":{
+		"type":"origins:action_over_time",
+		"interval":1,
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"title @s actionbar {\"translate\":\"origins-plus-plus.shifter.phantom\"}"
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:shifter/shift_bar",
+			"comparison":"==",
+			"compare_to":9
+		}
+	}
 }

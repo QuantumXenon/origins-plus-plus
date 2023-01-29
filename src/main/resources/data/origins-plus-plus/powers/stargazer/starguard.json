@@ -2,7 +2,7 @@
 	"type":"origins:action_over_time",
 	"entity_action":{
 		"type":"origins:execute_command",
-		"command":"effect give @s minecraft:resistance 5 1 true"
+		"command":"effect give @s minecraft:resistance 1 1 true"
 	},
 	"interval":20,
 	"condition":{

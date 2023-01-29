@@ -10,6 +10,6 @@
 	"count":1,
 	"interval":1,
 	"speed":0.75,
-	"divergence":30,
+	"divergence":1,
 	"key": "key.origins.primary_active"
 }

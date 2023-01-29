@@ -6,17 +6,16 @@
 		"actions":[
 			{
 				"type":"origins:add_velocity",
-				"y":2
+				"y":1
 			},
 			{
 				"type":"origins:add_velocity",
-				"z":3,
+				"z":2,
 				"space":"local"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"power revoke @s origins-plus-plus:wailing-one/wail_knockback",
-				"permission":4
+				"command":"power revoke @s origins-plus-plus:wailing-one/wail_knockback"
 			}
 		]
 	},

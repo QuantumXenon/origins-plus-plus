@@ -7,7 +7,7 @@
 		"sprite_location":"origins:textures/gui/resource_bar.png",
 		"bar_index":3
 	},
-	"count":30,
+	"count":5,
 	"interval":1,
 	"speed":0.75,
 	"divergence":30,

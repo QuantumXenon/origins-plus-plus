@@ -1,7 +1,7 @@
 {
 	"type":"origins:fire_projectile",
 	"entity_type":"minecraft:arrow",
-	"tag":"{Potion:\"minecraft:slowness\", pickup:0b}",
+	"tag":"{Potion:\"minecraft:slowness\",pickup:0b}",
 	"count":3,
 	"speed":2,
 	"divergence":15,

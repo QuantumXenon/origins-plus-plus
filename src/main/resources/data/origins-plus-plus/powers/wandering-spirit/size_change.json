@@ -1,5 +1,6 @@
 {
 	"type":"origins:action_over_time",
+	"hidden":true,
 	"entity_action":{
 		"type":"origins:if_else",
 		"condition":{

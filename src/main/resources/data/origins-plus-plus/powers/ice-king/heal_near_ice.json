@@ -7,7 +7,7 @@
 	"interval":10,
 	"condition":{
 		"type":"origins:command",
-		"command":"execute if entity @e[type = snow_golem, distance = ..30]",
+		"command":"execute if entity @e[type=minecraft:snow_golem,distance=..30]",
 		"comparison":">",
 		"compare_to":0
 	}

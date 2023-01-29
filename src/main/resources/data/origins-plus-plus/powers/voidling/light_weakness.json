@@ -1,6 +1,4 @@
 {
-	"name":"Light Weakness",
-	"description":"Your body is weak, unable to adapt to the light sources around you, giving debuffs as you cannot merge with the shadows created by the Void.",
 	"type":"origins:multiple",
 	"attributes":{
 		"type":"origins:conditioned_attribute",

@@ -1,0 +1,19 @@
+{
+	"type":"origins:action_on_callback",
+	"entity_action_added":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:explode",
+				"power":4,
+				"destruction_type":"none",
+				"create_fire":false
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:entity.generic.explode ambient @a[distance=..10]"
+			}
+		]
+	},
+	"hidden":true
+}

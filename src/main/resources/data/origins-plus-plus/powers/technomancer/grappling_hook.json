@@ -98,7 +98,7 @@
 		"divergence":0,
 		"speed":5,
 		"entity_type":"minecraft:fishing_bobber",
-		"tag":"{Fire:2000, HasVisualFire:0, NoGravity:1, Silent:1}",
+		"tag":"{Fire:2000,HasVisualFire:0,NoGravity:1,Silent:1}",
 		"key":"key.use",
 		"condition":{
 			"type":"origins:and",

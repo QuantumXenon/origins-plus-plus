@@ -6,7 +6,7 @@
 	},
 	"falling_action":{
 		"type":"origins:execute_command",
-		"command":"title @p actionbar \"\""
+		"command":"title @p actionbar {\"\"}"
 	},
 	"interval":5,
 	"condition":{

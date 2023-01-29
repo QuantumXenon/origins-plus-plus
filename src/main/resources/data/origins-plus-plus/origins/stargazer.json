@@ -7,10 +7,7 @@
 		"origins-plus-plus:stargazer/photosynthesis",
 		"origins-plus-plus:stargazer/starguard",
 		"origins-plus-plus:stargazer/starlight_mode",
-		"origins-plus-plus:stargazer/starlight_mode_invisible",
-		"origins-plus-plus:stargazer/starlight_mode_night_vision",
-		"origins-plus-plus:stargazer/starlight_mode_no_attack",
-		"origins-plus-plus:stargazer/starlight_mode_sunburn_immune",
+		"origins-plus-plus:stargazer/starstalker",
 		"origins-plus-plus:stargazer/sunburn"
 	],
 	"icon":"minecraft:nether_star",

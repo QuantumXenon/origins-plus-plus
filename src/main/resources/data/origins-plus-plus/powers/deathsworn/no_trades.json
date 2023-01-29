@@ -4,7 +4,7 @@
 		"type":"origins:actor_action",
 		"action":{
 			"type":"origins:execute_command",
-			"command":"title @s actionbar {\"translate\": \"origins-plus-plus.deathsworn.message\", \"color\": \"red\"}"
+			"command":"title @s actionbar {\"translate\":\"origins-plus-plus.deathsworn.message\",\"color\":\"red\"}"
 		}
 	},
 	"bientity_condition":{

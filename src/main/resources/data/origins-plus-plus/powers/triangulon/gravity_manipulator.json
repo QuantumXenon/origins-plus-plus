@@ -12,8 +12,8 @@
 	"timer":{
 		"type":"origins:resource",
 		"min":0,
-		"max":400,
-		"start_value":400,
+		"max":200,
+		"start_value":200,
 		"hud_render":{
 			"bar_index":4
 		}
@@ -44,7 +44,7 @@
 			"type":"origins:modify_resource",
 			"modifier":{
 				"operation":"set_total",
-				"value":400
+				"value":200
 			},
 			"resource":"*:*_timer"
 		}

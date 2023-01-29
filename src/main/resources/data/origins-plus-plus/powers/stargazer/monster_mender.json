@@ -4,5 +4,13 @@
 		"attribute":"minecraft:generic.attack_speed",
 		"operation":"addition",
 		"value":200
+	},
+	"condition":{
+		"type":"origins:in_block",
+		"block_condition":{
+			"type":"origins:light_level",
+			"comparison":"<=",
+			"compare_to":7
+		}
 	}
 }

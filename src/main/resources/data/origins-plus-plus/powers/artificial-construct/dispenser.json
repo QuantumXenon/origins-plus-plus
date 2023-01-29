@@ -39,7 +39,7 @@
 	"poison_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:poison\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:poison\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -55,7 +55,7 @@
 	"night_vision_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:night_vision\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:night_vision\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -71,7 +71,7 @@
 	"invisibility_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:invisibility\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:invisibility\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -87,7 +87,7 @@
 	"leaping_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:leaping\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:leaping\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -103,7 +103,7 @@
 	"resistance_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:resistance\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:resistance\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -119,7 +119,7 @@
 	"swiftness_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:swiftness\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:swiftness\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -135,7 +135,7 @@
 	"slowness_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:slowness\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:slowness\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -151,7 +151,7 @@
 	"water_breathing_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:water_breathing\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:water_breathing\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -167,7 +167,7 @@
 	"healing_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:healing\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:healing\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -183,7 +183,7 @@
 	"harming_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:harming\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:harming\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -199,7 +199,7 @@
 	"regeneration_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:regeneration\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:regeneration\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -215,7 +215,7 @@
 	"strength_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:strength\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:strength\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -231,7 +231,7 @@
 	"weakness_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:weakness\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:weakness\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -247,7 +247,7 @@
 	"levitation_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:levitation\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:levitation\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -263,7 +263,7 @@
 	"luck_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:luck\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:luck\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -279,7 +279,7 @@
 	"turtle_master_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:turtle_master\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:turtle_master\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
@@ -295,7 +295,7 @@
 	"slow_falling_arrow":{
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:arrow",
-		"tag":"{pickup:0b, Potion:\"minecraft:slow_falling\"}",
+		"tag":"{pickup:0b,Potion:\"minecraft:slow_falling\"}",
 		"key":"key.origins.primary_active",
 		"cooldown":20,
 		"sound":"block.dispenser.launch",
