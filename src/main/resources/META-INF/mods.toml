@@ -11,7 +11,7 @@ description = "A collection of 115 origins to fully expand the origins experienc
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus"
 issueTrackerURL = "https://github.com/QuantumXenon/origins-plus-plus/issues"
 authors = "TheQuantumXenon"
-credits = "Credit goes to original authors (see CurseForge description)"
+credits = "Credit goes to original authors (see CurseForge description)."
 logoFile = "icon.png"
 
 [[dependencies.origins_plus_plus]]
