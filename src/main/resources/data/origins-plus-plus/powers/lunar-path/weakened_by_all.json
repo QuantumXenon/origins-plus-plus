@@ -4,7 +4,7 @@
 		"type":"origins:modify_damage_taken",
 		"modifier":{
 			"operation":"multiply_base",
-			"value":3
+			"value":2
 		},
 		"damage_condition":{
 			"type":"origins:attacker",
@@ -18,7 +18,7 @@
 		"type":"origins:modify_damage_taken",
 		"modifier":{
 			"operation":"multiply_base",
-			"value":3
+			"value":2
 		},
 		"damage_condition":{
 			"type":"origins:attacker",
@@ -32,7 +32,7 @@
 		"type":"origins:modify_damage_taken",
 		"modifier":{
 			"operation":"multiply_base",
-			"value":3
+			"value":2
 		},
 		"damage_condition":{
 			"type":"origins:attacker",
@@ -46,7 +46,7 @@
 		"type":"origins:modify_damage_taken",
 		"modifier":{
 			"operation":"multiply_base",
-			"value":3
+			"value":2
 		},
 		"damage_condition":{
 			"type":"origins:attacker",
@@ -60,7 +60,7 @@
 		"type":"origins:modify_damage_taken",
 		"modifier":{
 			"operation":"multiply_base",
-			"value":3
+			"value":2
 		},
 		"damage_condition":{
 			"type":"origins:attacker",

@@ -8,8 +8,16 @@
 			"type":"origins:exposed_to_sun"
 		}
 	},
-	"weakness_and_slowness_at_daytime":{
-		"type":"origins:action_over_time",
+	"weakness_during_daytime":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:weakness",
+			"show_particles":false,
+			"show_icon":false
+		},
 		"condition":{
 			"type":"origins:and",
 			"conditions":[
@@ -19,25 +27,6 @@
 				{
 					"type":"origins:dimension",
 					"dimension":"minecraft:overworld"
-				}
-			]
-		},
-		"interval":20,
-		"entity_action":{
-			"type":"origins:apply_effect",
-			"effects":[
-				{
-					"effect":"minecraft:slowness",
-					"duration":300,
-					"show_particles":false,
-					"show_icon":false,
-					"amplifier":1
-				},
-				{
-					"effect":"minecraft:weakness",
-					"duration":300,
-					"show_particles":false,
-					"show_icon":false
 				}
 			]
 		}
