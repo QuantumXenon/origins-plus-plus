@@ -46,5 +46,13 @@
 			]
 		}
 	},
+	"particles":{
+		"type":"origins:action_over_time",
+		"interval":5,
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"particle minecraft:smoke ~ ~1 ~ .2 .2 .2 .05 5 normal"
+		}
+	},
 	"hidden":true
 }
