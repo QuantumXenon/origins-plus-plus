@@ -1,24 +1,27 @@
 {
-	"type":"origins:stacking_status_effect",
-	"min_stacks":0,
-	"max_stacks":1,
-	"duration_per_stack":20,
-	"effect":{
-		"effect":"minecraft:health_boost",
-		"amplifier":2,
-		"show_particles":false,
-		"show_icon":false
-	},
-	"condition":{
-		"type":"origins:block_in_radius",
-		"block_condition":{
-			"type":"origins:block",
-			"block":"minecraft:lilac"
+	"type":"origins:action_over_time",
+	"interval":1,
+	"entity_action":{
+		"type":"origins:if_else",
+		"condition":{
+			"type":"origins:block_in_radius",
+			"block_condition":{
+				"type":"origins:block",
+				"block":"minecraft:lilac"
+			},
+			"radius":5,
+			"shape":"cube",
+			"comparison":">",
+			"compare_to":3
 		},
-		"radius":5,
-		"shape":"cube",
-		"comparison":">",
-		"compare_to":3
+		"if_action":{
+			"type":"origins:execute_command",
+			"command":"scale set pehkui:health 1.3"
+		},
+		"else_action":{
+			"type":"origins:execute_command",
+			"command":"scale set pehkui:health 1"
+		}
 	},
 	"hidden":true
 }
