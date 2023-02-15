@@ -14,7 +14,7 @@
 			{
 				"type":"origins:change_resource",
 				"resource":"origins-plus-plus:technomancer/tech_mana_resource",
-				"change":-1000
+				"change":-100
 			}
 		]
 	},
