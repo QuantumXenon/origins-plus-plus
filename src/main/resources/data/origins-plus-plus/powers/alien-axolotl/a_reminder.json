@@ -1,35 +1,55 @@
 {
-	"type":"origins:stacking_status_effect",
-	"min_stacks":0,
-	"max_stacks":1,
-	"duration_per_stack":20,
-	"effects":[
-		{
+	"type":"origins:multiple",
+	"effects":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effects":[
+			{
+				"effect":"minecraft:blindness",
+				"show_particles":false,
+				"show_icon":false
+			},
+			{
+				"effect":"minecraft:slowness",
+				"amplifier":2,
+				"show_particles":false,
+				"show_icon":false
+			}
+		],
+		"condition":{
+			"type":"origins:block_in_radius",
+			"radius":1,
+			"shape":"cube",
+			"comparison":">=",
+			"compare_to":1,
+			"block_condition":{
+				"type":"origins:block",
+				"block":"minecraft:kelp"
+			}
+		}
+	},
+	"regeneration":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":4,
+		"max_stacks":4,
+		"duration_per_stack":20,
+		"effect":{
 			"effect":"minecraft:regeneration",
 			"show_particles":false,
 			"show_icon":false
 		},
-		{
-			"effect":"minecraft:blindness",
-			"show_particles":false,
-			"show_icon":false
-		},
-		{
-			"effect":"minecraft:slowness",
-			"amplifier":2,
-			"show_particles":false,
-			"show_icon":false
-		}
-	],
-	"condition":{
-		"type":"origins:block_in_radius",
-		"radius":1,
-		"shape":"cube",
-		"comparison":">=",
-		"compare_to":1,
-		"block_condition":{
-			"type":"origins:block",
-			"block":"minecraft:kelp"
+		"condition":{
+			"type":"origins:block_in_radius",
+			"radius":1,
+			"shape":"cube",
+			"comparison":">=",
+			"compare_to":1,
+			"block_condition":{
+				"type":"origins:block",
+				"block":"minecraft:kelp"
+			}
 		}
 	}
 }

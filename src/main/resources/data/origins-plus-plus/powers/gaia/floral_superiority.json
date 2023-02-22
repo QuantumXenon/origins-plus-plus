@@ -1,34 +1,54 @@
 {
-	"type":"origins:stacking_status_effect",
-	"min_stacks":0,
-	"max_stacks":1,
-	"duration_per_stack":20,
-	"effects":[
-		{
+	"type":"origins:multiple",
+	"effects":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effects":[
+			{
+				"effect":"minecraft:saturation",
+				"show_particles":false,
+				"show_icon":false
+			},
+			{
+				"effect":"minecraft:speed",
+				"show_particles":false,
+				"show_icon":false
+			}
+		],
+		"condition":{
+			"type":"origins:block_in_radius",
+			"block_condition":{
+				"type":"origins:in_tag",
+				"tag":"minecraft:flowers"
+			},
+			"radius":9,
+			"shape":"cube",
+			"comparison":">=",
+			"compare_to":9
+		}
+	},
+	"regeneration":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":4,
+		"max_stacks":4,
+		"duration_per_stack":20,
+		"effect":{
 			"effect":"minecraft:regeneration",
 			"show_particles":false,
 			"show_icon":false
 		},
-		{
-			"effect":"minecraft:saturation",
-			"show_particles":false,
-			"show_icon":false
-		},
-		{
-			"effect":"minecraft:speed",
-			"show_particles":false,
-			"show_icon":false
+		"condition":{
+			"type":"origins:block_in_radius",
+			"block_condition":{
+				"type":"origins:in_tag",
+				"tag":"minecraft:flowers"
+			},
+			"radius":9,
+			"shape":"cube",
+			"comparison":">=",
+			"compare_to":9
 		}
-	],
-	"condition":{
-		"type":"origins:block_in_radius",
-		"block_condition":{
-			"type":"origins:in_tag",
-			"tag":"minecraft:flowers"
-		},
-		"radius":9,
-		"shape":"cube",
-		"comparison":">=",
-		"compare_to":9
 	}
 }

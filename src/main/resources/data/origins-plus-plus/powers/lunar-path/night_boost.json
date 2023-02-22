@@ -16,13 +16,23 @@
 				"effect":"minecraft:strength",
 				"show_particles":false,
 				"show_icon":false
-			},
-			{
-				"effect":"minecraft:regeneration",
-				"show_particles":false,
-				"show_icon":false
 			}
 		],
+		"condition":{
+			"type":"origins:daytime",
+			"inverted":true
+		}
+	},
+	"regeneration":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":4,
+		"max_stacks":4,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:regeneration",
+			"show_particles":false,
+			"show_icon":false
+		},
 		"condition":{
 			"type":"origins:daytime",
 			"inverted":true
