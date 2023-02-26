@@ -1,6 +1,5 @@
 modLoader = "javafml"
 loaderVersion = "[40,)"
-license = "MIT"
 
 [[mods]]
 modId = "origins_plus_plus"
@@ -13,6 +12,7 @@ issueTrackerURL = "https://github.com/QuantumXenon/origins-plus-plus/issues"
 authors = "TheQuantumXenon"
 credits = "Credit goes to original authors (see CurseForge description)."
 logoFile = "icon.png"
+license = "MIT"
 
 [[dependencies.origins_plus_plus]]
 modId = "minecraft"
@@ -33,3 +33,8 @@ versionRange = "[3.2.0,)"
 modId = "xlpackets"
 mandatory = true
 versionRange = "[1.18.2-2,)"
+
+[[dependencies.origins_plus_plus]]
+modId = "connectivity"
+mandatory = true
+versionRange = "[2.7,)"
