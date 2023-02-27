@@ -851,7 +851,7 @@
 	"power.origins-plus-plus.demi-god/phase.name":"Phase",
 	"power.origins-plus-plus.demi-god/raw_diet.description":"You can only eat raw food.",
 	"power.origins-plus-plus.demi-god/raw_diet.name":"A Raw Diet",
-	"power.origins-plus-plus.deranged/arrow_effect.description":"Any arrow you shoot, will cause slowness II.",
+	"power.origins-plus-plus.deranged/arrow_effect.description":"Any arrow you shoot will inflict slowness II on the target.",
 	"power.origins-plus-plus.deranged/arrow_effect.name":"Blinding",
 	"power.origins-plus-plus.deranged/breathing.description":"You calm yourself, empty your mind, and then start to breathe. Breathing decreases your derangement bar by 25.",
 	"power.origins-plus-plus.deranged/breathing.name":"Breathing",
