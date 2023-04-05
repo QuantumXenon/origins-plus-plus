@@ -1,5 +1,9 @@
 {
 	"type":"origins:multiple",
+	"toggle": {
+		"type":"origins:toggle",
+		"key":"key.origins.secondary_active"
+	},
 	"bar":{
 		"type":"origins:resource",
 		"min":0,
@@ -16,7 +20,7 @@
 			"type":"origins:actor_condition",
 			"condition":{
 				"type":"origins:resource",
-				"resource":"*:stealth_bar",
+				"resource":"*:*_bar",
 				"comparison":"<",
 				"compare_to":5
 			}
@@ -105,10 +109,19 @@
 		"type":"origins:invisibility",
 		"render_armor":false,
 		"condition":{
-			"type":"origins:resource",
-			"resource":"*:*_bar",
-			"compare_to":5,
-			"comparison":"=="
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:resource",
+					"resource":"*:*_bar",
+					"compare_to":5,
+					"comparison":"=="
+				},
+				{
+					"type":"origins:power_active",
+					"power":"*:*_toggle"
+				}
+			]
 		}
 	},
 	"deaggro":{
@@ -132,10 +145,19 @@
 		},
 		"interval":1,
 		"condition":{
-			"type":"origins:resource",
-			"resource":"*:*_bar",
-			"compare_to":5,
-			"comparison":"=="
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:resource",
+					"resource":"*:*_bar",
+					"compare_to":5,
+					"comparison":"=="
+				},
+				{
+					"type":"origins:power_active",
+					"power":"*:*_toggle"
+				}
+			]
 		}
 	}
 }

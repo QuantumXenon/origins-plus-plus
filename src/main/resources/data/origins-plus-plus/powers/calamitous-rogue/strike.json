@@ -10,10 +10,19 @@
 			}
 		},
 		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:calamitous-rogue/stealth_bar",
-			"compare_to":5,
-			"comparison":"=="
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:resource",
+					"resource":"*:stealth_bar",
+					"compare_to":5,
+					"comparison":"=="
+				},
+				{
+					"type":"origins:power_active",
+					"power":"*:stealth_toggle"
+				}
+			]
 		},
 		"damage_condition":{
 			"type":"origins:name",
@@ -99,6 +108,10 @@
 					"resource":"*:stealth_bar",
 					"compare_to":5,
 					"comparison":"=="
+				},
+				{
+					"type":"origins:power_active",
+					"power":"*:stealth_toggle"
 				}
 			]
 		},
@@ -179,9 +192,13 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:calamitous-rogue/stealth_bar",
+					"resource":"*:stealth_bar",
 					"compare_to":5,
 					"comparison":"=="
+				},
+				{
+					"type":"origins:power_active",
+					"power":"*:stealth_toggle"
 				}
 			]
 		}
@@ -229,9 +246,13 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:calamitous-rogue/stealth_bar",
+					"resource":"*:stealth_bar",
 					"compare_to":5,
 					"comparison":"=="
+				},
+				{
+					"type":"origins:power_active",
+					"power":"*:stealth_toggle"
 				}
 			]
 		}
@@ -270,9 +291,13 @@
 				},
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:calamitous-rogue/stealth_bar",
+					"resource":"*:stealth_bar",
 					"compare_to":5,
 					"comparison":"=="
+				},
+				{
+					"type":"origins:power_active",
+					"power":"*:stealth_toggle"
 				}
 			]
 		}

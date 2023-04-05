@@ -2,6 +2,7 @@
 	"type":"origins:multiple",
 	"active":{
 		"type":"origins:active_self",
+		"key":"key.origins.primary_active",
 		"entity_action":{
 			"type":"origins:and",
 			"actions":[
