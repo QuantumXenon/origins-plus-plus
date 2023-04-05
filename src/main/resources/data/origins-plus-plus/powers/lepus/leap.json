@@ -1,22 +1,6 @@
 {
-	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:on_block"
-			},
-			{
-				"inverted":true,
-				"type":"origins:status_effect",
-				"effect":"minecraft:slow_falling"
-			},
-			{
-				"inverted":true,
-				"type":"origins:swimming"
-			}
-		]
-	},
 	"type":"origins:active_self",
+	"key":"key.origins.primary_active",
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[
@@ -26,23 +10,37 @@
 			},
 			{
 				"type":"origins:add_velocity",
-				"y":0.7
+				"y":0.7,
+				"space":"local"
 			},
 			{
 				"type":"origins:add_velocity",
-				"z":1.4
-			},
-			{
-				"type":"origins:add_velocity",
-				"z":0.5
+				"z":1,
+				"space":"local"
 			}
 		]
 	},
-	"cooldown":100,
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:on_block"
+			},
+			{
+				"type":"origins:status_effect",
+				"effect":"minecraft:slow_falling",
+				"inverted":true
+			},
+			{
+				"type":"origins:swimming",
+				"inverted":true
+			}
+		]
+	},
+	"cooldown":200,
 	"hud_render":{
 		"should_render":true,
 		"sprite_location":"origins:textures/gui/resource_bar.png",
 		"bar_index":8
-	},
-	"key":"key.origins.primary_active"
+	}
 }

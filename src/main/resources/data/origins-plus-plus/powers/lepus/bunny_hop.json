@@ -5,20 +5,7 @@
 		"value":0.4
 	},
 	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:sprinting",
-				"inverted":true
-			},
-			{
-				"type":"origins:sneaking",
-				"inverted":true
-			},
-			{
-				"type":"origins:collided_horizontally",
-				"inverted":true
-			}
-		]
+		"type":"origins:sneaking",
+		"inverted":true
 	}
 }

@@ -1455,7 +1455,7 @@
 	"power.origins-plus-plus.land-shark/speedy.name":"Speedy Boi",
 	"power.origins-plus-plus.lepus/bundle.description":"You can craft bundles out of 6 rabbit hide and 2 string!",
 	"power.origins-plus-plus.lepus/bundle.name":"Bundle Recipe",
-	"power.origins-plus-plus.lepus/bunny_hop.description":"Your natural jump is two blocks high, and is unaffected when sprinting or sneaking.",
+	"power.origins-plus-plus.lepus/bunny_hop.description":"Your natural jump is two blocks high, but is only one block high if you sneak.",
 	"power.origins-plus-plus.lepus/bunny_hop.name":"Bunny Hop",
 	"power.origins-plus-plus.lepus/energetic.description":"You're considerably faster when above 7 full hunger bars.",
 	"power.origins-plus-plus.lepus/energetic.name":"Energetic",
