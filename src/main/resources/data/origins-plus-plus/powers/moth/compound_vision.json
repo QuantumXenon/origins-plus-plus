@@ -1,4 +1,15 @@
 {
-	"type":"origins:night_vision",
-	"strength":1
+	"type":"origins:multiple",
+	"toggle": {
+		"type":"origins:toggle",
+		"key":"key.saveToolbarActivator"
+	},
+	"night_vision": {
+		"type": "origins:night_vision",
+		"strength": 1,
+		"condition":{
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
+		}
+	}
 }

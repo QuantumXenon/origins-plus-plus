@@ -3,25 +3,18 @@
 	"min_stacks":0,
 	"max_stacks":1,
 	"duration_per_stack":20,
-	"effects":[
-		{
-			"effect":"minecraft:dolphins_grace",
-			"show_particles":false,
-			"show_icon":false
-		},
-		{
-			"effect":"minecraft:conduit_power",
-			"show_particles":false,
-			"show_icon":false
-		}
-	],
+	"effect":{
+		"effect":"minecraft:water_breathing",
+		"show_particles":false,
+		"show_icon":false
+	},
 	"condition":{
 		"type":"origins:block_in_radius",
 		"block_condition":{
 			"type":"origins:in_tag",
 			"tag":"origins-plus-plus:sea_lights"
 		},
-		"radius":20,
+		"radius":12,
 		"shape":"cube",
 		"comparison":">=",
 		"compare_to":1
