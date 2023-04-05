@@ -15,6 +15,7 @@
 		"origins-plus-plus:automaton/humidity",
 		"origins-plus-plus:automaton/lava",
 		"origins-plus-plus:automaton/nether",
+		"origins-plus-plus:automaton/no_hunger",
 		"origins-plus-plus:automaton/power_saving_mode",
 		"origins-plus-plus:automaton/respawn",
 		"origins-plus-plus:automaton/toggle",

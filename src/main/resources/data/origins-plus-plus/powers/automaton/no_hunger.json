@@ -1,8 +1,14 @@
 {
-	"type":"origins:modify_exhaustion",
-	"modifier":{
-		"operation":"multiply_total",
-		"value":-1
+	"type":"origins:multiple",
+	"disable_regen":{
+		"type":"origins:disable_regen"
+	},
+	"no_exhaustion":{
+		"type":"origins:modify_exhaustion",
+		"modifier":{
+			"operation":"multiply_total",
+			"value":-1
+		}
 	},
 	"hidden":true
 }
