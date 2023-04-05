@@ -7,7 +7,7 @@
 			"minecraft:poison"
 		]
 	},
-	"no_regen":{
+	"disable_regen":{
 		"type":"origins:disable_regen"
 	},
 	"no_sprint":{

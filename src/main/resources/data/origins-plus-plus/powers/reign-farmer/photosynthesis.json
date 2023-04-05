@@ -20,7 +20,7 @@
 			]
 		}
 	},
-	"prevent_healing":{
+	"disable_regen":{
 		"type":"origins:disable_regen"
 	},
 	"heal_override":{
