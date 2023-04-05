@@ -9,5 +9,8 @@
 			"show_particles":false
 		}
 	},
-	"key":"key.sneak"
+	"key":{
+		"key":"key.sneak",
+		"continuous":true
+	}
 }
