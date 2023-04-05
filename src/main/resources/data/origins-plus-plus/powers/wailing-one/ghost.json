@@ -1,9 +1,5 @@
 {
 	"type":"origins:multiple",
-	"illager":{
-		"type":"origins:entity_group",
-		"group":"illager"
-	},
 	"price":{
 		"type":"origins:action_over_time",
 		"interval":10,
