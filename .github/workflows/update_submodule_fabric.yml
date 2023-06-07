@@ -1,4 +1,4 @@
-name: Send submodule updates to parent repo
+name: Update Submodule (Fabric)
 
 on:
   push:
