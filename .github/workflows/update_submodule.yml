@@ -2,7 +2,7 @@ name: Update Submodule
 'on':
   push:
     branches:
-      - main
+      - test
 jobs:
   update-fabric:
     runs-on: ubuntu-latest
