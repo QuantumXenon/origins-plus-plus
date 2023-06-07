@@ -1,0 +1,39 @@
+{
+	"schema_version":1,
+	"quilt_loader":{
+		"group":"quantumxenon",
+		"id":"origins-plus-plus",
+		"version":"${version}",
+		"metadata":{
+			"name":"Origins++",
+			"description":"A collection of more than 100 origins to fully expand the origins experience.",
+			"license":"MIT",
+			"contributors":{
+				"QuantumXenon":"Owner"
+			},
+			"contact":{
+				"homepage":"https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus",
+				"issues":"https://github.com/QuantumXenon/origins-plus-plus/issues"
+			},
+			"icon":"icon.png"
+		},
+		"depends":[
+			{
+				"id":"minecraft",
+				"versions":"*"
+			},
+			{
+				"id":"quilted_fabric_api",
+				"versions":"*"
+			},
+			{
+				"id":"origins",
+				"versions":"*"
+			},
+			{
+				"id":"pehkui",
+				"versions":"*"
+			}
+		]
+	}
+}
