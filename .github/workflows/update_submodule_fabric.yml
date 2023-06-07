@@ -1,30 +1,25 @@
 name: Update Submodule (Fabric)
-
-on:
+'on':
   push:
-    branches: 
+    branches:
       - main
-
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
-        with: 
+        with:
           repository: QuantumXenon/origins-plus-plus-fabric
-          token: ${{ secrets.TOKEN }}
+          token: '${{secrets.TOKEN}}'
           submodules: true
-
-      - name: Pull & update submodules recursively
+      - name: Update Submodules
         run: |
           git submodule update --init --recursive
           git submodule update --recursive --remote
-
       - name: Commit
         run: |
           git config user.email "actions@github.com"
-          git config user.name "GitHub Actions - update submodules"
+          git config user.name "GitHub Actions"
           git add --all
-          git commit -m "Update submodules" || echo "No changes to commit"
+          git commit -m "Update Origins++ Submodule"
           git push
