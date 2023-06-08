@@ -1,4 +1,5 @@
-![Logo Header](https://www.bisecthosting.com/images/CF/Origins_Plus_Plus/BH_NU_HEADER.png)
+<a href="https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus"><img src="https://www.bisecthosting.com/images/CF/Origins_Plus_Plus/BH_NU_HEADER.png"/><a/>
+  
 Origins++ is a collection of more than 100 origins to fully expand the origins experience.
 
 ## Building 
