@@ -3,7 +3,7 @@ Origins++ is a collection of more than 100 origins to fully expand the origins e
 
 ## Building 
 - This repository contains the shared resources for the Fabric and Forge versions.
-- To build the project, go to either the [Fabric Workspace](https://github.com/QuantumXenon/origins-plus-plus-fabric) or the [Forge Workspace](https://github.com/QuantumXenon/origins-plus-plus-forge) where the loader-specific files are.
+- To build the project, go to either the [Fabric Workspace](https://github.com/QuantumXenon/origins-plus-plus-fabric) or the [Forge Workspace](https://github.com/QuantumXenon/origins-plus-plus-forge).
 
 ## Credits
 - All credit for the origins goes to the [original authors](https://gist.github.com/QuantumXenon/a5639e49221abdb1dcd9009bcafa8a98).
