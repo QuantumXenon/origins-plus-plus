@@ -6,7 +6,7 @@
 			{
 				"type":"origins:change_resource",
 				"resource":"origins-plus-plus:deranged/derangement",
-				"change":25,
+				"change":20,
 				"operation":"add"
 			},
 			{
