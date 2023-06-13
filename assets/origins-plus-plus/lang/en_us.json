@@ -665,7 +665,7 @@
 	"power.origins-plus-plus.broodmother/spider_strength.name":"Spider Strength",
 	"power.origins-plus-plus.broodmother/summon_the_army.description":"You can summon friendly cave spiders.",
 	"power.origins-plus-plus.broodmother/summon_the_army.name":"Newborn Fighters",
-	"power.origins-plus-plus.broodmother/web_shot.description":"Launch a web in the direction you're facing. Deals damage if it lands on the same block as an entity.",
+	"power.origins-plus-plus.broodmother/web_shot.description":"Launch a web in the direction you're facing. Deals damage if it lands on the same block as an entity. (You cannot wear boots and must be on the ground for it to work).",
 	"power.origins-plus-plus.broodmother/web_shot.name":"Web Shot",
 	"power.origins-plus-plus.calamitous-rogue/assassin.description":"Killing withers, ender dragons, illagers, and iron golems gives you bonus emeralds. However, other entities have a 20% chance to not drop anything.",
 	"power.origins-plus-plus.calamitous-rogue/assassin.name":"Big Game Hunter",
