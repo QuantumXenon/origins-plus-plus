@@ -12,6 +12,6 @@
 	},
 	"modifier":{
 		"operation":"multiply_total",
-		"value":1.33
+		"value":1.25
 	}
 }
