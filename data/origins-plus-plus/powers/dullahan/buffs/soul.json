@@ -15,14 +15,14 @@
 				"type":"origins:apply_effect",
 				"effect":{
 					"effect":"minecraft:saturation",
-					"duration":4,
+					"duration":12,
 					"show_particles":false,
 					"show_icon":false
 				}
 			}
 		]
 	},
-	"cooldown":10,
+	"cooldown":50,
 	"key":"key.use",
 	"condition":{
 		"type":"origins:equipped_item",
