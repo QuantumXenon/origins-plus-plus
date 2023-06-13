@@ -1,15 +1,15 @@
 {
 	"powers":[
 		"origins:no_shield",
-		"origins-plus-plus:voidling/void_shield",
-		"origins-plus-plus:voidling/winged",
-		"origins-plus-plus:voidling/dive_attack",
-		"origins-plus-plus:voidling/void_child",
-		"origins-plus-plus:voidling/voidborne_form",
-		"origins-plus-plus:voidling/winged_limits",
 		"origins-plus-plus:voidling/brittle_bones",
+		"origins-plus-plus:voidling/dive_attack",
+		"origins-plus-plus:voidling/large_appetite",
 		"origins-plus-plus:voidling/low_health",
-		"origins-plus-plus:voidling/large_appetite"
+		"origins-plus-plus:voidling/void_child",
+		"origins-plus-plus:voidling/void_shield",
+		"origins-plus-plus:voidling/voidborne_form",
+		"origins-plus-plus:voidling/winged",
+		"origins-plus-plus:voidling/winged_limits"
 	],
 	"icon":"minecraft:bedrock",
 	"impact":3,
