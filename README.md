@@ -5,6 +5,11 @@ Origins++ is a collection of more than 100 origins to fully expand the origins e
 ## Building 
 - This repository contains the shared resources for the Fabric and Forge versions.
 - To build the project, go to either the [Fabric Workspace](https://github.com/QuantumXenon/origins-plus-plus-fabric) or the [Forge Workspace](https://github.com/QuantumXenon/origins-plus-plus-forge).
+  
+## Support 
+- Fabric is supported as the main mod-loader and if issues are present on the Fabric version, they are very likely to be fixed.
+- Quilt is supported as the Fabric version should be compatible, but any Quilt-specific bugs are likely issues with Origins (Fabric) itself, so bugs may or may not be fixed.
+- Forge is supported on a best-effort basis as many issues are Forge-exclusive and issues with Origins (Forge) itself, so bugs may or may not be fixed.
 
 ## Credits
 - All credit for the origins goes to the [original authors](https://gist.github.com/QuantumXenon/a5639e49221abdb1dcd9009bcafa8a98).
