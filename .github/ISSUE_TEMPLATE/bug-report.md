@@ -5,7 +5,7 @@ labels: 'bug'
 assignees: QuantumXenon
 
 ---
-*Please check the pinned issues "Solutions to Frequent Issues" and "Known Forge Issues" before posting a new report*
+*Please check the pinned issues "Known Forge Issues" and "v2.0 Known Issues" before posting a new report*
 
 **Loader**
 Forge or Fabric?
