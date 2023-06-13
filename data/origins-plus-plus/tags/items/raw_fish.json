@@ -3,6 +3,10 @@
 		"minecraft:cod",
 		"minecraft:pufferfish",
 		"minecraft:salmon",
-		"minecraft:tropical_fish"
+		"minecraft:tropical_fish",
+		{
+			"id": "#c:raw_fish",
+			"required": false
+		}
 	]
 }
