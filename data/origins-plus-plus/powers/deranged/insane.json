@@ -2,8 +2,8 @@
 	"condition":{
 		"type":"origins:resource",
 		"resource":"origins-plus-plus:deranged/derangement",
-		"comparison":">=",
-		"compare_to":75
+		"comparison":">",
+		"compare_to":80
 	},
 	"type":"origins:conditioned_attribute",
 	"modifiers":[
