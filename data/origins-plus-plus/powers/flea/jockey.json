@@ -6,8 +6,17 @@
 		"bientity_condition":{
 			"type":"origins:target_condition",
 			"condition":{
-				"type":"origins:entity_type",
-				"entity_type":"minecraft:player"
+				"type":"origins:or",
+				"conditions":[
+					{
+						"type":"origins:entity_type",
+						"entity_type":"minecraft:player"
+					},
+					{
+						"type":"origins:entity_type",
+						"entity_type":"minecraft:parrot"
+					}
+				]
 			}
 		},
 		"bientity_action":{
