@@ -9,7 +9,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"spreadplayers ~ ~ 1 15 under 127 false @s"
+				"command":"execute if entity @s[y=50,dy=50] run spreadplayers ~ ~ 1 15 under 127 false @s"
 			},
 			{
 				"type":"origins:execute_command",
