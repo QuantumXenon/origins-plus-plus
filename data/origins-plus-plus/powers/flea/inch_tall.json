@@ -2,11 +2,11 @@
 	"type":"origins:action_on_callback",
 	"entity_action_chosen":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:base 0.1"
+		"command":"function origins-plus-plus:flea/size"
 	},
 	"entity_action_respawned":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:base 0.1"
+		"command":"function origins-plus-plus:flea/size"
 	},
 	"entity_action_lost":{
 		"type":"origins:execute_command",

@@ -1,26 +1,16 @@
 {
-	"type":"origins:multiple",
-	"scale_overtime":{
-		"type":"origins:action_over_time",
-		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"scale set 0.3"
-		},
-		"interval":20
+	"type":"origins:action_on_callback",
+	"hidden":true,
+	"entity_action_chosen":{
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:mouse/size"
 	},
-	"scale_callback":{
-		"type":"origins:action_on_callback",
-		"entity_action_chosen":{
-			"type":"origins:execute_command",
-			"command":"scale set 0.3"
-		},
-		"entity_action_respawned":{
-			"type":"origins:execute_command",
-			"command":"scale set 0.3"
-		},
-		"entity_action_lost":{
-			"type":"origins:execute_command",
-			"command":"scale reset"
-		}
+	"entity_action_respawned":{
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:mouse/size"
+	},
+	"entity_action_lost":{
+		"type":"origins:execute_command",
+		"command":"scale reset"
 	}
 }

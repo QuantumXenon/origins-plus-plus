@@ -1,8 +1,16 @@
 {
 	"type":"origins:action_on_callback",
+	"hidden":true,
+	"entity_action_chosen":{
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:insect/size"
+	},
+	"entity_action_respawned":{
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:insect/size"
+	},
 	"entity_action_lost":{
 		"type":"origins:execute_command",
 		"command":"scale reset"
-	},
-	"hidden":true
+	}
 }

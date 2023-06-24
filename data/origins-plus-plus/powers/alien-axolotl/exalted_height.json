@@ -2,11 +2,11 @@
 	"type":"origins:action_on_callback",
 	"entity_action_chosen":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:base 1.25 @s"
+		"command":"function origins-plus-plus:alien-axolotl/size"
 	},
 	"entity_action_respawned":{
 		"type":"origins:execute_command",
-		"command":"scale set pehkui:base 1.25 @s"
+		"command":"function origins-plus-plus:alien-axolotl/size"
 	},
 	"entity_action_lost":{
 		"type":"origins:execute_command",
