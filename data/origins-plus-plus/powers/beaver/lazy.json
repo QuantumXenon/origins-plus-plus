@@ -119,6 +119,18 @@
 				"command":"execute if entity @s[nbt={Inventory: [{id:\"minecraft:stripped_warped_stem\",Count:64b}]}]",
 				"comparison":">",
 				"compare_to":0
+			},
+			{
+				"type":"origins:command",
+				"command":"execute if entity @s[nbt={Inventory: [{id:\"minecraft:cherry_log\",Count:64b}]}]",
+				"comparison":">",
+				"compare_to":0
+			},
+			{
+				"type":"origins:command",
+				"command":"execute if entity @s[nbt={Inventory: [{id:\"minecraft:stripped_cherry_log\",Count:64b}]}]",
+				"comparison":">",
+				"compare_to":0
 			}
 		]
 	}
