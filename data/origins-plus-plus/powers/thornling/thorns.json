@@ -32,14 +32,14 @@
 			"bar_index":3
 		}
 	},
-	"thornsimmune1":{
+	"thorns_immunity":{
 		"type":"origins:invulnerability",
 		"damage_condition":{
 			"type":"origins:name",
 			"name":"thorns"
 		}
 	},
-	"thornsdamage":{
+	"damage_when_hit":{
 		"condition":{
 			"type":"origins:resource",
 			"resource":"origins-plus-plus:thornling/thorns_resource",
@@ -66,9 +66,10 @@
 					"pitch":1
 				}
 			]
-		}
+		},
+		"cooldown":60
 	},
-	"thornsimmune2":{
+	"magic_immunity":{
 		"type":"origins:invulnerability",
 		"damage_condition":{
 			"type":"origins:name",

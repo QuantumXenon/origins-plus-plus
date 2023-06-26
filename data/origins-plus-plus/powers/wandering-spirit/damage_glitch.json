@@ -27,7 +27,7 @@
 			"type":"origins:fall_distance",
 			"comparison":">",
 			"compare_to":"0"
-		}
-	},
-	"cooldown":200
+		},
+		"cooldown":200
+	}
 }
