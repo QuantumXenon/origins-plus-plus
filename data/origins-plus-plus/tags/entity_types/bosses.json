@@ -2,6 +2,10 @@
   "values":[
     "minecraft:elder_guardian",
     "minecraft:ender_dragon",
-    "minecraft:wither"
+    "minecraft:wither",
+    {
+      "id":"minecraft:warden",
+      "required":false
+    }
   ]
 }
