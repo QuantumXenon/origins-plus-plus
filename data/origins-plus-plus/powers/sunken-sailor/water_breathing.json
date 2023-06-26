@@ -9,11 +9,7 @@
 		"show_icon":false
 	},
 	"condition":{
-		"type":"origins:in_block",
-		"block_condition":{
-			"type":"origins:material",
-			"material":"air",
-			"inverted":true
-		}
+		"type":"origins:submerged_in",
+		"fluid":"minecraft:water"
 	}
 }
