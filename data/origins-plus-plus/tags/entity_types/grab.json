@@ -1,25 +1,9 @@
 {
 	"values":[
 		"#minecraft:impact_projectiles",
-		"minecraft:elder_guardian",
-		"minecraft:end_crystal",
-		"minecraft:ender_dragon",
-		"minecraft:ender_pearl",
-		"minecraft:eye_of_ender",
-		"minecraft:falling_block",
-		"minecraft:firework_rocket",
-		"minecraft:fishing_bobber",
+		"#origins-plus-plus:bosses",
+		"#origins-plus-plus:untargetable",
 		"minecraft:ghast",
-		"minecraft:glow_item_frame",
-		"minecraft:item",
-		"minecraft:item_frame",
-		"minecraft:leash_knot",
-		"minecraft:llama_spit",
-		"minecraft:painting",
-		"minecraft:player",
-		"minecraft:ravager",
-		"minecraft:shulker_bullet",
-		"minecraft:warden",
-		"minecraft:wither"
+		"minecraft:ravager"
 	]
 }

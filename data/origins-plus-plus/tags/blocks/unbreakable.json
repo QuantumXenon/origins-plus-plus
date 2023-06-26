@@ -15,6 +15,9 @@
 		"minecraft:iron_block",
 		"minecraft:netherite_block",
 		"minecraft:obsidian",
-		"minecraft:reinforced_deepslate"
+		{
+			"id":"minecraft:reinforced_deepslate",
+			"required":false
+		}
 	]
 }
