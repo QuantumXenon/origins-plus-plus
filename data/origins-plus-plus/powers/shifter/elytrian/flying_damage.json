@@ -1,5 +1,5 @@
 {
-	"type": "origins:multiple",
+	"type":"origins:multiple",
 	"increase_damage_when_flying":{
 		"type":"origins:modify_damage_dealt",
 		"modifier":{

@@ -10,5 +10,5 @@
 	},
 	"count":3,
 	"sound":"item.crossbow.shoot",
-	"key": "key.origins.primary_active"
+	"key":"key.origins.primary_active"
 }

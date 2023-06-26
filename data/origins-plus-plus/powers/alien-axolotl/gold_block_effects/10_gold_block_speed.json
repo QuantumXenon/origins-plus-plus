@@ -7,7 +7,7 @@
 	"effects":[
 		{
 			"effect":"minecraft:speed",
-			"amplifier": 9,
+			"amplifier":9,
 			"show_particles":false,
 			"show_icon":false
 		},

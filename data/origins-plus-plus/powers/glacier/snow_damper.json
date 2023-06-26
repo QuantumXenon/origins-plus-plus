@@ -6,8 +6,8 @@
 		"command":"execute if block ~ ~-1 ~ #minecraft:snow run effect give @s minecraft:slow_falling 1"
 	},
 	"condition":{
-		"type": "origins:fall_distance",
-		"comparison": ">=",
-		"compare_to": 1
+		"type":"origins:fall_distance",
+		"comparison":">=",
+		"compare_to":1
 	}
 }

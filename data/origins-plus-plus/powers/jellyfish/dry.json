@@ -14,7 +14,7 @@
 			},
 			{
 				"type":"origins:in_rain",
-				"inverted": true
+				"inverted":true
 			}
 		]
 	}

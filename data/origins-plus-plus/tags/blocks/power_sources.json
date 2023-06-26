@@ -5,12 +5,12 @@
 		"minecraft:redstone_torch",
 		"minecraft:redstone_wire",
 		{
-			"id": "#c:redstone_blocks",
-			"required": false
+			"id":"#c:redstone_blocks",
+			"required":false
 		},
 		{
-			"id": "#c:redstone_ores",
-			"required": false
+			"id":"#c:redstone_ores",
+			"required":false
 		}
 	]
 }

@@ -65,10 +65,10 @@
 			"amplifier":1
 		},
 		"condition":{
-			"type": "origins:resource",
-			"comparison": "==",
-			"resource": "*:*_resource",
-			"compare_to": 0
+			"type":"origins:resource",
+			"comparison":"==",
+			"resource":"*:*_resource",
+			"compare_to":0
 		}
 	},
 	"float":{

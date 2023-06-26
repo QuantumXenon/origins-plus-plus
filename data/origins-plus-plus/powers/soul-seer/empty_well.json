@@ -55,7 +55,7 @@
 			"compare_to":5
 		}
 	},
-	"respawn": {
+	"respawn":{
 		"type":"origins:action_on_callback",
 		"entity_action_respawned":{
 			"type":"origins:change_resource",

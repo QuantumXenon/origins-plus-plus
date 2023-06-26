@@ -11,5 +11,5 @@
 	"interval":1,
 	"speed":0.75,
 	"divergence":1,
-	"key": "key.origins.primary_active"
+	"key":"key.origins.primary_active"
 }

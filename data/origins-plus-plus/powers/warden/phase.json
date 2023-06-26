@@ -85,10 +85,10 @@
 			"amplifier":1
 		},
 		"condition":{
-			"type": "origins:resource",
+			"type":"origins:resource",
 			"comparison":"==",
-			"resource": "*:*_resource",
-			"compare_to": 0
+			"resource":"*:*_resource",
+			"compare_to":0
 		}
 	},
 	"phase":{

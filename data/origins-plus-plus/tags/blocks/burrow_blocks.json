@@ -3,16 +3,16 @@
 		"#minecraft:sand",
 		"minecraft:sandstone",
 		{
-			"id": "#c:sand",
-			"required": false
+			"id":"#c:sand",
+			"required":false
 		},
 		{
-			"id": "#c:sandstone",
-			"required": false
+			"id":"#c:sandstone",
+			"required":false
 		},
 		{
-			"id": "#c:sandstones",
-			"required": false
+			"id":"#c:sandstones",
+			"required":false
 		}
 	]
 }

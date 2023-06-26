@@ -9,8 +9,8 @@
 		"minecraft:rotten_flesh",
 		"minecraft:spider_eye",
 		{
-			"id": "#c:raw_meat",
-			"required": false
+			"id":"#c:raw_meat",
+			"required":false
 		}
 	]
 }

@@ -5,8 +5,8 @@
 		"minecraft:salmon",
 		"minecraft:tropical_fish",
 		{
-			"id": "#c:raw_fish",
-			"required": false
+			"id":"#c:raw_fish",
+			"required":false
 		}
 	]
 }

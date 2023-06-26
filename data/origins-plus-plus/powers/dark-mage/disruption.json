@@ -31,6 +31,6 @@
 	},
 	"condition":{
 		"type":"origins:sneaking",
-		"inverted": true
+		"inverted":true
 	}
 }

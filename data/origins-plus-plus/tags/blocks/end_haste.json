@@ -9,8 +9,8 @@
 		"minecraft:purpur_slab",
 		"minecraft:purpur_stairs",
 		{
-			"id": "#c:end_stones",
-			"required": false
+			"id":"#c:end_stones",
+			"required":false
 		}
 	]
 }
