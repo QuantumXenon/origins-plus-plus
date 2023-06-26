@@ -20,7 +20,7 @@
 						"conditions":[
 							{
 								"type":"origins:in_tag",
-								"tag":"origins-plus-plus:water_blocks"
+								"tag":"origins-plus-plus:water_plants"
 							},
 							{
 								"type":"origins:block_state",
@@ -57,7 +57,7 @@
 						"conditions":[
 							{
 								"type":"origins:in_tag",
-								"tag":"origins-plus-plus:water_blocks"
+								"tag":"origins-plus-plus:water_plants"
 							},
 							{
 								"type":"origins:block_state",
@@ -94,7 +94,7 @@
 						"conditions":[
 							{
 								"type":"origins:in_tag",
-								"tag":"origins-plus-plus:water_blocks"
+								"tag":"origins-plus-plus:water_plants"
 							},
 							{
 								"type":"origins:block_state",
@@ -124,7 +124,7 @@
 				"conditions":[
 					{
 						"type":"origins:in_tag",
-						"tag":"origins-plus-plus:water_blocks"
+						"tag":"origins-plus-plus:water_plants"
 					},
 					{
 						"type":"origins:block_state",

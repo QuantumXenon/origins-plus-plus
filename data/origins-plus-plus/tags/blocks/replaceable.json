@@ -1,9 +1,16 @@
 {
 	"values":[
 		"#minecraft:flowers",
-		"#minecraft:replaceable_plants",
 		"minecraft:air",
 		"minecraft:fire",
-		"minecraft:snow"
+		"minecraft:snow",
+		{
+			"id":"#minecraft:replaceable_plants",
+			"required":false
+		},
+		{
+			"id":"#minecraft:replaceable",
+			"required":false
+		}
 	]
 }
