@@ -10,7 +10,7 @@
 			"bar_index":0
 		}
 	},
-	"combo_finish":{
+	"combo_effects":{
 		"type":"origins:target_action_on_hit",
 		"entity_action":{
 			"type":"origins:and",
@@ -43,9 +43,10 @@
 			"resource":"*:*_resource",
 			"comparison":"==",
 			"compare_to":3
-		}
+		},
+		"cooldown":1
 	},
-	"resource_up":{
+	"increase_resource":{
 		"type":"origins:self_action_on_hit",
 		"entity_action":{
 			"type":"origins:change_resource",
@@ -57,9 +58,10 @@
 			"resource":"*:*_resource",
 			"comparison":"!=",
 			"compare_to":3
-		}
+		},
+		"cooldown":1
 	},
-	"combo_end":{
+	"end_combo":{
 		"type":"origins:action_when_hit",
 		"bientity_action":{
 			"type":"origins:target_action",

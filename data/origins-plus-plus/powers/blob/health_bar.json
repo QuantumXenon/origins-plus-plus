@@ -17,7 +17,8 @@
 			"type":"origins:change_resource",
 			"resource":"*:*_resource",
 			"change":-100
-		}
+		},
+		"cooldown":1
 	},
 	"modify_damage":{
 		"type":"origins:modify_damage_taken",

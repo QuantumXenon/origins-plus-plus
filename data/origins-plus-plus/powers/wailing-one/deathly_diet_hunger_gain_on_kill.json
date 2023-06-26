@@ -14,5 +14,6 @@
 			}
 		]
 	},
+	"cooldown":100,
 	"hidden":true
 }

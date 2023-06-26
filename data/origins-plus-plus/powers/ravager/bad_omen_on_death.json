@@ -1,7 +1,13 @@
 {
-	"type":"origins:self_action_on_kill",
+	"type":"origins:self_action_when_hit",
 	"entity_action":{
 		"type":"origins:execute_command",
 		"command":"execute as @s run effect give @e[type=minecraft:player,distance=..25] minecraft:bad_omen 10000"
-	}
+	},
+	"condition":{
+		"type":"origins:health",
+		"comparison":"<=",
+		"compare_to":0
+	},
+	"cooldown":1
 }

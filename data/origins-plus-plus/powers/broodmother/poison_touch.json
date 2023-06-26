@@ -15,5 +15,6 @@
 	"damage_condition":{
 		"type":"origins:name",
 		"name":"player"
-	}
+	},
+	"cooldown":60
 }

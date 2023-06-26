@@ -4,5 +4,6 @@
 		"type":"origins:feed",
 		"food":3,
 		"saturation":0
-	}
+	},
+	"cooldown":60
 }

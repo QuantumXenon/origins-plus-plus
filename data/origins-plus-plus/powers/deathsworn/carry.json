@@ -7,5 +7,6 @@
 	"target_condition":{
 		"type":"origins:nbt",
 		"nbt":"{Tags:['Deathsworn_Minion']}"
-	}
+	},
+	"cooldown":1
 }

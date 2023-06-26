@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"glowup":{
+	"apply_glowing":{
 		"type":"origins:target_action_on_hit",
 		"entity_action":{
 			"type":"origins:apply_effect",
@@ -28,7 +28,8 @@
 			"type":"origins:name",
 			"name":"aggro",
 			"inverted":true
-		}
+		},
+		"cooldown":60
 	},
 	"axe_strike":{
 		"type":"origins:target_action_on_hit",
@@ -139,7 +140,8 @@
 					}
 				}
 			]
-		}
+		},
+		"cooldown":60
 	},
 	"shield_bash":{
 		"type":"origins:target_action_on_hit",
@@ -201,7 +203,8 @@
 					"power":"*:stealth_toggle"
 				}
 			]
-		}
+		},
+		"cooldown":60
 	},
 	"sword_cut":{
 		"type":"origins:target_action_on_hit",
@@ -255,7 +258,8 @@
 					"power":"*:stealth_toggle"
 				}
 			]
-		}
+		},
+		"cooldown":60
 	},
 	"trident_stab":{
 		"type":"origins:action_on_hit",

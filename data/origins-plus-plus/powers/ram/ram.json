@@ -7,5 +7,6 @@
 	},
 	"condition":{
 		"type":"origins:sprinting"
-	}
+	},
+	"cooldown":60
 }

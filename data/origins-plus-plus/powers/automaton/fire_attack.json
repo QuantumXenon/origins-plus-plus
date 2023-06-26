@@ -38,5 +38,6 @@
 			}
 		]
 	},
+	"cooldown":60,
 	"hidden":true
 }

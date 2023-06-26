@@ -17,7 +17,8 @@
 		"target_condition":{
 			"type":"origins:in_tag",
 			"tag":"origins-plus-plus:big_game"
-		}
+		},
+		"cooldown":1
 	},
 	"no_drops":{
 		"type":"origins:target_action_on_hit",
@@ -45,6 +46,7 @@
 			"type":"origins:in_tag",
 			"tag":"origins-plus-plus:big_game",
 			"inverted":true
-		}
+		},
+		"cooldown":1
 	}
 }

@@ -21,5 +21,6 @@
 		"type":"origins:amount",
 		"comparison":">=",
 		"compare_to":3
-	}
+	},
+	"cooldown":20
 }

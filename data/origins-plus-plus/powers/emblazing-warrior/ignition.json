@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"c":{
+	"33_change":{
 		"type":"origins:self_action_on_hit",
 		"entity_action":{
 			"type":"origins:chance",
@@ -15,9 +15,10 @@
 			"resource":"origins-plus-plus:emblazing-warrior/fury_bar",
 			"compare_to":1,
 			"comparison":"=="
-		}
+		},
+		"cooldown":60
 	},
-	"b":{
+	"66_chance":{
 		"type":"origins:self_action_on_hit",
 		"entity_action":{
 			"type":"origins:chance",
@@ -32,9 +33,10 @@
 			"resource":"origins-plus-plus:emblazing-warrior/fury_bar",
 			"comparison":"==",
 			"compare_to":2
-		}
+		},
+		"cooldown":60
 	},
-	"a":{
+	"100_chance":{
 		"type":"origins:self_action_on_hit",
 		"entity_action":{
 			"type":"origins:chance",
@@ -49,6 +51,7 @@
 			"resource":"origins-plus-plus:emblazing-warrior/fury_bar",
 			"compare_to":3,
 			"comparison":"=="
-		}
+		},
+		"cooldown":60
 	}
 }

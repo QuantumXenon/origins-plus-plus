@@ -16,7 +16,8 @@
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:deathsworn/soul_bar",
 			"change":5
-		}
+		},
+		"cooldown":1
 	},
 	"respawn":{
 		"type":"origins:action_on_callback",

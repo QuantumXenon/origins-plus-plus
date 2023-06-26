@@ -59,6 +59,7 @@
 		},
 		"condition":{
 			"type":"origins:sneaking"
-		}
+		},
+		"cooldown":1
 	}
 }

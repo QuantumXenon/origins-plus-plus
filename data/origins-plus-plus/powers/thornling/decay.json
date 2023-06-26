@@ -2,6 +2,16 @@
 	"type":"origins:multiple",
 	"curse_when_hit":{
 		"type":"origins:self_action_when_hit",
+		"entity_action":{
+			"type":"origins:apply_effect",
+			"effect":{
+				"effect":"minecraft:wither",
+				"duration":60,
+				"amplifier":1,
+				"show_particles":false,
+				"show_icon":false
+			}
+		},
 		"damage_condition":{
 			"type":"origins:or",
 			"conditions":[
@@ -33,18 +43,19 @@
 				}
 			]
 		},
-		"entity_action":{
-			"type":"origins:apply_effect",
-			"effect":{
-				"effect":"minecraft:wither",
-				"duration":60,
-				"amplifier":1,
-				"show_particles":false,
-				"show_icon":false
-			}
-		}
+		"cooldown":60
 	},
 	"curse_armor":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:wither",
+			"amplifier":1,
+			"show_particles":false,
+			"show_icon":false
+		},
 		"condition":{
 			"type":"origins:or",
 			"conditions":[
@@ -169,16 +180,6 @@
 					}
 				}
 			]
-		},
-		"type":"origins:stacking_status_effect",
-		"min_stacks":0,
-		"max_stacks":1,
-		"duration_per_stack":20,
-		"effect":{
-			"effect":"minecraft:wither",
-			"amplifier":1,
-			"show_particles":false,
-			"show_icon":false
 		}
 	}
 }

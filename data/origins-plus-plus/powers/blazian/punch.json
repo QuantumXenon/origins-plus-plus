@@ -4,5 +4,6 @@
 	"entity_action":{
 		"type":"origins:set_on_fire",
 		"duration":4
-	}
+	},
+	"cooldown":60
 }

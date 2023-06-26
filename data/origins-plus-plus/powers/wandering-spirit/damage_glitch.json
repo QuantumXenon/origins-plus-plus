@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"entity_action":{
+	"sound":{
 		"type":"origins:self_action_when_hit",
 		"cooldown":200,
 		"entity_action":{
@@ -8,7 +8,7 @@
 			"sound":"minecraft:block.soul_sand.place"
 		}
 	},
-	"power":{
+	"damage_glitch":{
 		"type":"origins:self_action_on_hit",
 		"entity_action":{
 			"type":"origins:chance",
@@ -28,5 +28,6 @@
 			"comparison":">",
 			"compare_to":"0"
 		}
-	}
+	},
+	"cooldown":200
 }

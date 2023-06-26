@@ -8,5 +8,6 @@
 			"resource":"origins-plus-plus:calamitous_rogue/stealth_bar",
 			"change":5
 		}
-	}
+	},
+	"cooldown":1
 }

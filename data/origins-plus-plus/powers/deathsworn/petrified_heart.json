@@ -29,5 +29,6 @@
     "inverted":true
    }
   ]
- }
+ },
+ "cooldown":1
 }

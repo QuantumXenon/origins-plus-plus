@@ -54,7 +54,8 @@
 			"type":"origins:name",
 			"name":"aggro",
 			"inverted":true
-		}
+		},
+		"cooldown":1
 	},
 	"break2":{
 		"type":"origins:self_action_when_hit",

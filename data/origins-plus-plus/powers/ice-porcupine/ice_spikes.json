@@ -11,5 +11,6 @@
 	"damage_condition":{
 		"type":"origins:projectile",
 		"inverted":true
-	}
+	},
+	"cooldown":60
 }

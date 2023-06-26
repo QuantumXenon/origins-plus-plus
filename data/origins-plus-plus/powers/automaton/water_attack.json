@@ -44,7 +44,8 @@
 					"compare_to":1499
 				}
 			]
-		}
+		},
+		"cooldown":60
 	},
 	"knockback":{
 		"type":"origins:action_on_hit",

@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"aizawa_team_joining":{
+	"join_team":{
 		"type":"origins:action_on_callback",
 		"entity_action_chosen":{
 			"type":"origins:and",
@@ -20,7 +20,7 @@
 			"command":"team leave @s"
 		}
 	},
-	"aizawa_team_managing":{
+	"add_mobs":{
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:and",
@@ -61,11 +61,12 @@
 		},
 		"interval":20
 	},
-	"hostility_when_hit":{
+	"hostile_when_hit":{
 		"type":"origins:target_action_on_hit",
 		"entity_action":{
 			"type":"origins:execute_command",
 			"command":"tag @s[team=zero_aizawa,type=!minecraft:player] add angry"
-		}
+		},
+		"cooldown":1
 	}
 }

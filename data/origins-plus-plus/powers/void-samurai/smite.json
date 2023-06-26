@@ -2,5 +2,6 @@
 	"type":"origins:target_action_on_hit",
 	"entity_action":{
 		"type":"origins:clear_effect"
-	}
+	},
+	"cooldown":1
 }

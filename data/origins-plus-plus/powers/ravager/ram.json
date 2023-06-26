@@ -3,27 +3,16 @@
 	"hidden":true,
 	"ram":{
 		"type":"origins:active_self",
-		"condition":{
-			"type":"origins:resource",
-			"resource":"*:*_cooldown",
-			"comparison":"<=",
-			"compare_to":0
-		},
 		"entity_action":{
 			"type":"origins:and",
 			"actions":[
 				{
-					"type":"origins:and",
-					"actions":[
-						{
-							"type":"origins:trigger_cooldown",
-							"power":"*:*_duration"
-						},
-						{
-							"type":"origins:execute_command",
-							"command":"playsound minecraft:entity.ravager.roar master @a[distance=..20] ~ ~ ~ 1 1"
-						}
-					]
+					"type":"origins:trigger_cooldown",
+					"power":"*:*_duration"
+				},
+				{
+					"type":"origins:execute_command",
+					"command":"playsound minecraft:entity.ravager.roar master @a[distance=..20] ~ ~ ~ 1 1"
 				},
 				{
 					"type":"origins:delay",
@@ -34,6 +23,12 @@
 					"ticks":60
 				}
 			]
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "*:*_cooldown",
+			"comparison": "<=",
+			"compare_to": 0
 		}
 	},
 	"duration":{
@@ -56,6 +51,11 @@
 	},
 	"knockback":{
 		"type":"origins:target_action_on_hit",
+		"entity_action":{
+			"type":"origins:add_velocity",
+			"z":1.66,
+			"space":"velocity_horizontal_normalized"
+		},
 		"condition":{
 			"type":"origins:and",
 			"conditions":[
@@ -73,10 +73,6 @@
 				}
 			]
 		},
-		"entity_action":{
-			"type":"origins:add_velocity",
-			"z":1.66,
-			"space":"velocity_horizontal_normalized"
-		}
+		"cooldown":60
 	}
 }

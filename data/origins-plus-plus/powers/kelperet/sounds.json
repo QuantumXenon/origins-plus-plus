@@ -32,7 +32,8 @@
 			"comparison":"<=",
 			"compare_to":0,
 			"inverted":true
-		}
+		},
+		"cooldown":1
 	},
 	"death":{
 		"type":"origins:self_action_when_hit",
@@ -46,6 +47,7 @@
 			"type":"origins:health",
 			"comparison":"<=",
 			"compare_to":0
-		}
+		},
+		"cooldown":1
 	}
 }

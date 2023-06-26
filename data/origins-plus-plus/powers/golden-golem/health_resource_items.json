@@ -15,7 +15,8 @@
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:golden-golem/health_resource",
 			"change":-5
-		}
+		},
+		"cooldown":1
 	},
 	"unneeded_food":{
 		"type":"origins:action_over_time",

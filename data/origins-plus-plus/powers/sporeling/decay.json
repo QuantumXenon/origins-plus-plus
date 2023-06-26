@@ -14,7 +14,8 @@
 			"type":"origins:entity_group",
 			"group":"undead"
 		},
-		"sound":"minecraft:entity.zombie_villager.cure"
+		"sound":"minecraft:entity.zombie_villager.cure",
+		"cooldown":60
 	},
 	"sound":{
 		"type":"origins:target_action_on_hit",
@@ -26,6 +27,7 @@
 		"target_condition":{
 			"type":"origins:entity_group",
 			"group":"undead"
-		}
+		},
+		"cooldown":1
 	}
 }

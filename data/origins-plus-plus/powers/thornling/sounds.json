@@ -1,11 +1,7 @@
 {
 	"hidden":true,
 	"type":"origins:multiple",
-	"sound_ambient":{
-		"condition":{
-			"inverted":true,
-			"type":"origins:sneaking"
-		},
+	"ambient":{
 		"type":"origins:action_over_time",
 		"interval":100,
 		"entity_action":{
@@ -17,23 +13,35 @@
 				"volume":1,
 				"pitch":1.5
 			}
+		},
+		"condition":{
+			"inverted":true,
+			"type":"origins:sneaking"
 		}
 	},
-	"sound_hurt":{
-		"condition":{
-			"type":"origins:health",
-			"comparison":">",
-			"compare_to":3
-		},
+	"hurt":{
 		"type":"origins:self_action_when_hit",
 		"entity_action":{
 			"type":"origins:play_sound",
 			"sound":"entity.enderman.hurt",
 			"volume":1,
 			"pitch":1.5
-		}
+		},
+		"condition":{
+			"type":"origins:health",
+			"comparison":">",
+			"compare_to":3
+		},
+		"cooldown":1
 	},
-	"sound_hurt_panic":{
+	"hurt_panic":{
+		"type":"origins:self_action_when_hit",
+		"entity_action":{
+			"type":"origins:play_sound",
+			"sound":"entity.enderman.scream",
+			"volume":1,
+			"pitch":1.5
+		},
 		"condition":{
 			"type":"origins:and",
 			"conditions":[
@@ -49,27 +57,22 @@
 				}
 			]
 		},
-		"type":"origins:self_action_when_hit",
-		"entity_action":{
-			"type":"origins:play_sound",
-			"sound":"entity.enderman.scream",
-			"volume":1,
-			"pitch":1.5
-		}
+		"cooldown":1
 	},
-	"sound_death":{
-		"condition":{
-			"type":"origins:health",
-			"comparison":"<=",
-			"compare_to":0
-		},
+	"death":{
 		"type":"origins:self_action_when_hit",
 		"entity_action":{
 			"type":"origins:play_sound",
 			"sound":"entity.enderman.death",
 			"volume":1,
 			"pitch":1.5
-		}
+		},
+		"condition":{
+			"type":"origins:health",
+			"comparison":"<=",
+			"compare_to":0
+		},
+		"cooldown":1
 	},
 	"particles":{
 		"type":"origins:action_over_time",

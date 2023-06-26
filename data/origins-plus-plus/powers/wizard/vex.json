@@ -28,7 +28,7 @@
 		},
 		"interval":20
 	},
-	"aggress":{
+	"hostile_when_hit":{
 		"type":"origins:target_action_on_hit",
 		"entity_action":{
 			"type":"origins:and",
@@ -46,7 +46,8 @@
 		"target_condition":{
 			"type":"origins:entity_type",
 			"entity_type":"minecraft:vex"
-		}
+		},
+		"cooldown":1
 	},
 	"hidden":true
 }

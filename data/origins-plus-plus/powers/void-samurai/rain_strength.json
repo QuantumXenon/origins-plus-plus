@@ -14,5 +14,6 @@
 		"resource":"origins-plus-plus:void-samurai/charge",
 		"comparison":">",
 		"compare_to":0
-	}
+	},
+	"cooldown":60
 }
