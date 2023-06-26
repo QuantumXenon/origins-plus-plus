@@ -7,10 +7,6 @@
 		"minecraft:purpur_block",
 		"minecraft:purpur_pillar",
 		"minecraft:purpur_slab",
-		"minecraft:purpur_stairs",
-		{
-			"id":"#c:end_stones",
-			"required":false
-		}
+		"minecraft:purpur_stairs"
 	]
 }

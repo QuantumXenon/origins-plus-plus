@@ -7,10 +7,6 @@
 		"minecraft:porkchop",
 		"minecraft:rabbit",
 		"minecraft:rotten_flesh",
-		"minecraft:spider_eye",
-		{
-			"id":"#c:raw_meat",
-			"required":false
-		}
+		"minecraft:spider_eye"
 	]
 }
