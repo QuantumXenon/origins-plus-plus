@@ -14,7 +14,7 @@
 			},
 			"if_action":{
 				"type":"origins:execute_command",
-				"command":"effect clear @s slowness"
+				"command":"effect clear @s minecraft:slowness"
 			}
 		}
 	},

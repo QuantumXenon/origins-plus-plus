@@ -54,7 +54,7 @@
 					},
 					{
 						"type":"origins:execute_command",
-						"command":"effect clear @p slowness"
+						"command":"effect clear @p minecraft:slowness"
 					}
 				]
 			}
