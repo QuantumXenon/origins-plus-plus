@@ -1,5 +1,8 @@
 {
 	"type":"origins:resource",
 	"min":0,
-	"max":9
+	"max":9,
+	"hud_render":{
+		"should_render":false
+	}
 }
