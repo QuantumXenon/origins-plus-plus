@@ -40,12 +40,6 @@
 		}
 	},
 	"damage_when_hit":{
-		"condition":{
-			"type":"origins:resource",
-			"resource":"*:*_resource",
-			"comparison":">",
-			"compare_to":0
-		},
 		"type":"origins:attacker_action_when_hit",
 		"entity_action":{
 			"type":"origins:and",
@@ -66,6 +60,12 @@
 					"pitch":1
 				}
 			]
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_resource",
+			"comparison":">",
+			"compare_to":0
 		},
 		"cooldown":60
 	},

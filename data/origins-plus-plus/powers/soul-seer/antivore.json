@@ -3,7 +3,10 @@
 	"resource":{
 		"type":"origins:resource",
 		"min":0,
-		"max":6
+		"max":6,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"charge":{
 		"type":"origins:action_over_time",

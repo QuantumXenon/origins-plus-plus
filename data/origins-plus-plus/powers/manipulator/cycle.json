@@ -3,7 +3,10 @@
 	"active_power":{
 		"type":"origins:resource",
 		"min":1,
-		"max":8
+		"max":8,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"cycle":{
 		"type":"origins:active_self",

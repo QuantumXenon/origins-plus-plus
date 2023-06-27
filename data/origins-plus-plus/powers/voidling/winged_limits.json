@@ -3,22 +3,34 @@
 	"head_b":{
 		"type":"origins:resource",
 		"min":0,
-		"max":1
+		"max":1,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"chest_b":{
 		"type":"origins:resource",
 		"min":0,
-		"max":1
+		"max":1,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"legs_b":{
 		"type":"origins:resource",
 		"min":0,
-		"max":1
+		"max":1,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"feet_b":{
 		"type":"origins:resource",
 		"min":0,
-		"max":1
+		"max":1,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"head_check":{
 		"type":"origins:action_over_time",

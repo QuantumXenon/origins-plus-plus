@@ -3,17 +3,20 @@
 	"stack":{
 		"type":"origins:resource",
 		"min":0,
-		"max":3
+		"max":3,
+		"hud_render":{
+			"should_render":false
+		}
 	},
-	"cdremove":{
+	"cooldown_countdown":{
 		"type":"origins:action_over_time",
 		"interval":1,
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"resource change @s origins-plus-plus:blob/stacking_attacks_cd -1"
+			"command":"resource change @s origins-plus-plus:blob/stacking_attacks_cooldown -1"
 		}
 	},
-	"stackreset":{
+	"reset":{
 		"type":"origins:action_over_time",
 		"interval":1,
 		"entity_action":{
@@ -24,15 +27,18 @@
 			"type":"origins:resource",
 			"comparison":"==",
 			"compare_to":1,
-			"resource":"*:*_cd"
+			"resource":"*:*_cooldown"
 		}
 	},
-	"cd":{
+	"cooldown":{
 		"type":"origins:resource",
 		"min":0,
-		"max":80
+		"max":80,
+		"hud_render":{
+			"should_render":false
+		}
 	},
-	"onhitstack":{
+	"stack_on_hit":{
 		"type":"origins:self_action_on_hit",
 		"entity_action":{
 			"type":"origins:and",
@@ -43,7 +49,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"resource set @s origins-plus-plus:blob/stacking_attacks_cd 80"
+					"command":"resource set @s origins-plus-plus:blob/stacking_attacks_cooldown 80"
 				},
 				{
 					"type":"origins:execute_command",
@@ -59,7 +65,7 @@
 		},
 		"cooldown":8
 	},
-	"onhit3stackself":{
+	"self_action_after_stack":{
 		"type":"origins:self_action_on_hit",
 		"entity_action":{
 			"type":"origins:and",
@@ -82,7 +88,7 @@
 		},
 		"cooldown":8
 	},
-	"onhit3stackdamage":{
+	"increase_damage_after_stack":{
 		"type":"origins:modify_damage_dealt",
 		"modifier":{
 			"operation":"multiply_total",

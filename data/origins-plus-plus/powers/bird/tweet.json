@@ -2,7 +2,10 @@
 	"type":"origins:multiple",
 	"timer":{
 		"type":"origins:cooldown",
-		"cooldown":200
+		"cooldown":200,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"trigger":{
 		"type":"origins:active_self",

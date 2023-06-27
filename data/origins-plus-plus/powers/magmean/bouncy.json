@@ -3,7 +3,10 @@
 	"jump":{
 		"type":"origins:resource",
 		"min":0,
-		"max":14
+		"max":14,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"sound":{
 		"type":"origins:action_on_land",

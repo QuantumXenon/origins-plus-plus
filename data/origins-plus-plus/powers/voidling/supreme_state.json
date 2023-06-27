@@ -3,7 +3,10 @@
 	"resource":{
 		"type":"origins:resource",
 		"min":0,
-		"max":2
+		"max":2,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"active":{
 		"type":"origins:active_self",
