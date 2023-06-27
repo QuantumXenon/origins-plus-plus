@@ -3,7 +3,10 @@
 	"resource":{
 		"type":"origins:resource",
 		"min":0,
-		"max":1
+		"max":1,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"if_died":{
 		"type":"origins:action_on_callback",
@@ -13,7 +16,7 @@
 		},
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:dullahan/abilities/nightmare_steed_resource",
+			"resource":"*:*_resource",
 			"comparison":">=",
 			"compare_to":1
 		}
@@ -36,7 +39,7 @@
 				},
 				{
 					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:dullahan/abilities/nightmare_steed_resource",
+					"resource":"*:*_resource",
 					"change":1
 				},
 				{
@@ -56,7 +59,7 @@
 							},
 							{
 								"type":"origins:change_resource",
-								"resource":"origins-plus-plus:dullahan/abilities/nightmare_steed_resource",
+								"resource":"*:*_resource",
 								"change":-1
 							}
 						]

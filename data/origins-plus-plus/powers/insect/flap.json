@@ -17,7 +17,7 @@
 			"actions":[
 				{
 					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:insect/flap_resource",
+					"resource":"*:*_resource",
 					"change":-1
 				},
 				{
@@ -46,7 +46,7 @@
 			"conditions":[
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:insect/flap_resource",
+					"resource":"*:*_resource",
 					"comparison":">",
 					"compare_to":0
 				},
@@ -63,7 +63,7 @@
 		"type":"origins:action_on_land",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:insect/flap_resource",
+			"resource":"*:*_resource",
 			"change":8
 		}
 	},
@@ -82,7 +82,7 @@
 				"operation":"set_total",
 				"value":0
 			},
-			"resource":"origins-plus-plus:insect/flap_resource"
+			"resource":"*:*_resource"
 		}
 	}
 }

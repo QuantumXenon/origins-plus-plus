@@ -21,7 +21,7 @@
 			"type":"origins:if_else",
 			"condition":{
 				"type":"origins:resource",
-				"resource":"*:*_doubleforward",
+				"resource":"*:*_double_forward",
 				"comparison":"!=",
 				"compare_to":0
 			},
@@ -45,7 +45,7 @@
 			},
 			"else_action":{
 				"type":"origins:trigger_cooldown",
-				"power":"*:*_doubleforward"
+				"power":"*:*_double_forward"
 			}
 		},
 		"key":"key.forward"
@@ -62,7 +62,7 @@
 			"type":"origins:if_else",
 			"condition":{
 				"type":"origins:resource",
-				"resource":"*:*_doubleleft",
+				"resource":"*:*_double_left",
 				"comparison":"!=",
 				"compare_to":0
 			},
@@ -86,7 +86,7 @@
 			},
 			"else_action":{
 				"type":"origins:trigger_cooldown",
-				"power":"*:*_doubleleft"
+				"power":"*:*_double_left"
 			}
 		},
 		"key":"key.left"
@@ -103,7 +103,7 @@
 			"type":"origins:if_else",
 			"condition":{
 				"type":"origins:resource",
-				"resource":"*:*_doubleback",
+				"resource":"*:*_double_back",
 				"comparison":"!=",
 				"compare_to":0
 			},
@@ -127,7 +127,7 @@
 			},
 			"else_action":{
 				"type":"origins:trigger_cooldown",
-				"power":"*:*_doubleback"
+				"power":"*:*_double_back"
 			}
 		},
 		"key":"key.back"
@@ -144,7 +144,7 @@
 			"type":"origins:if_else",
 			"condition":{
 				"type":"origins:resource",
-				"resource":"*:*_doubleright",
+				"resource":"*:*_double_right",
 				"comparison":"!=",
 				"compare_to":0
 			},
@@ -168,25 +168,37 @@
 			},
 			"else_action":{
 				"type":"origins:trigger_cooldown",
-				"power":"*:*_doubleright"
+				"power":"*:*_double_right"
 			}
 		},
 		"key":"key.right"
 	},
-	"doubleforward":{
+	"double_forward":{
 		"type":"origins:cooldown",
-		"cooldown":5
+		"cooldown":5,
+		"hud_render":{
+			"should_render":false
+		}
 	},
-	"doubleleft":{
+	"double_left":{
 		"type":"origins:cooldown",
-		"cooldown":5
+		"cooldown":5,
+		"hud_render":{
+			"should_render":false
+		}
 	},
-	"doubleback":{
+	"double_back":{
 		"type":"origins:cooldown",
-		"cooldown":5
+		"cooldown":5,
+		"hud_render":{
+			"should_render":false
+		}
 	},
-	"doubleright":{
+	"double_right":{
 		"type":"origins:cooldown",
-		"cooldown":5
+		"cooldown":5,
+		"hud_render":{
+			"should_render":false
+		}
 	}
 }

@@ -1,9 +1,12 @@
 {
 	"type":"origins:multiple",
-	"res":{
+	"resource":{
 		"type":"origins:resource",
 		"min":0,
-		"max":1
+		"max":1,
+		"hud_render":{
+			"should_render":false
+		}
 	},
 	"down":{
 		"type":"origins:active_self",
@@ -49,7 +52,7 @@
 				},
 				{
 					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:giant/slam_res",
+					"resource":"*:*_resource",
 					"change":1
 				}
 			]
@@ -59,7 +62,7 @@
 		"type":"origins:action_on_land",
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:giant/slam_res",
+			"resource":"*:*_resource",
 			"comparison":"==",
 			"compare_to":1
 		},
@@ -68,7 +71,7 @@
 			"actions":[
 				{
 					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:giant/slam_res",
+					"resource":"*:*_resource",
 					"change":-1
 				},
 				{
@@ -88,7 +91,7 @@
 			"conditions":[
 				{
 					"type":"origins:resource",
-					"resource":"origins-plus-plus:giant/slam_res",
+					"resource":"*:*_resource",
 					"comparison":"==",
 					"compare_to":1
 				},
@@ -113,7 +116,7 @@
 		},
 		"rising_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:giant/slam_res",
+			"resource":"*:*_resource",
 			"change":-1
 		}
 	}

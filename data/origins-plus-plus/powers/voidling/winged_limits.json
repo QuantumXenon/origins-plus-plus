@@ -25,12 +25,12 @@
 		"interval":5,
 		"rising_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:voidling/winged_limits_head_b",
+			"resource":"*:*_head_b",
 			"change":1
 		},
 		"falling_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:voidling/winged_limits_head_b",
+			"resource":"*:*_head_b",
 			"change":-1
 		},
 		"condition":{
@@ -48,12 +48,12 @@
 		"interval":5,
 		"rising_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:voidling/winged_limits_chest_b",
+			"resource":"*:*_chest_b",
 			"change":1
 		},
 		"falling_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:voidling/winged_limits_chest_b",
+			"resource":"*:*_chest_b",
 			"change":-1
 		},
 		"condition":{
@@ -71,12 +71,12 @@
 		"interval":5,
 		"rising_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:voidling/winged_limits_legs_b",
+			"resource":"*:*_legs_b",
 			"change":1
 		},
 		"falling_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:voidling/winged_limits_legs_b",
+			"resource":"*:*_legs_b",
 			"change":-1
 		},
 		"condition":{
@@ -94,12 +94,12 @@
 		"interval":5,
 		"rising_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:voidling/winged_limits_feet_b",
+			"resource":"*:*_feet_b",
 			"change":1
 		},
 		"falling_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:voidling/winged_limits_feet_b",
+			"resource":"*:*_feet_b",
 			"change":-1
 		},
 		"condition":{

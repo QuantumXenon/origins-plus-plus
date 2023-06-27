@@ -14,7 +14,7 @@
 		"type":"origins:self_action_on_kill",
 		"entity_action":{
 			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:deathsworn/soul_bar",
+			"resource":"*:*_bar",
 			"change":5
 		},
 		"cooldown":1
@@ -27,7 +27,7 @@
 				"operation":"set_total",
 				"value":0
 			},
-			"resource":"origins-plus-plus:deathsworn/soul_bar"
+			"resource":"*:*_bar"
 		}
 	}
 }

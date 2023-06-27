@@ -8,7 +8,7 @@
 		"bar_index":8,
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:cobra/cold_resource",
+			"resource":"*:*_resource",
 			"comparison":">",
 			"compare_to":0
 		}

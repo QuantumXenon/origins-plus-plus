@@ -6,7 +6,7 @@
 			"type":"origins:if_else",
 			"condition":{
 				"type":"origins:resource",
-				"resource":"origins-plus-plus:thornling/thorns_resource",
+				"resource":"*:*_resource",
 				"comparison":">",
 				"compare_to":0
 			},
@@ -42,7 +42,7 @@
 	"damage_when_hit":{
 		"condition":{
 			"type":"origins:resource",
-			"resource":"origins-plus-plus:thornling/thorns_resource",
+			"resource":"*:*_resource",
 			"comparison":">",
 			"compare_to":0
 		},
