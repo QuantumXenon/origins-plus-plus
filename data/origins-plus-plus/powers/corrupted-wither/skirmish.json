@@ -200,12 +200,8 @@
 	"respawn":{
 		"type":"origins:action_on_callback",
 		"entity_action_respawned":{
-			"type":"origins:modify_resource",
-			"modifier":{
-				"operation":"set_total",
-				"value":10
-			},
-			"resource":"*:*_timer"
+			"type":"origins:execute_command",
+			"command":"resource set @s origins-plus-plus:corrupted-wither/skirmish_timer 10"
 		}
 	}
 }

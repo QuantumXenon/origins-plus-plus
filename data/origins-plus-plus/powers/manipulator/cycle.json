@@ -20,12 +20,8 @@
 				"compare_to":8
 			},
 			"if_action":{
-				"type":"origins:modify_resource",
-				"resource":"*:*_active_power",
-				"modifier":{
-					"operation":"set_total",
-					"value":1
-				}
+				"type":"origins:execute_command",
+				"command":"resource set @s origins-plus-plus:manipulator/cycle_active_power 1"
 			},
 			"else_action":{
 				"type":"origins:change_resource",
