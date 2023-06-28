@@ -1,0 +1,24 @@
+{
+  "type":"origins:multiple",
+  "hidden":true,
+  "no_hunger":{
+    "type":"origins:action_over_time",
+    "interval":10,
+    "entity_action":{
+      "type":"origins:feed",
+      "food":1,
+      "saturation":0
+    },
+    "condition":{
+      "type":"origins:food_level",
+      "comparison":"<=",
+      "compare_to":14
+    }
+  },
+  "poison_immunity":{
+    "type":"origins:effect_immunity",
+    "effects":[
+      "minecraft:poison"
+    ]
+  }
+}

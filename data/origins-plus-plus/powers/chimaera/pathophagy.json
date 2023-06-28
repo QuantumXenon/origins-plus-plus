@@ -1,27 +1,19 @@
 {
-	"type":"origins:multiple",
-	"pathophagy":{
-		"type":"origins:prevent_item_use",
-		"item_condition":{
-			"type":"origins:food"
-		}
-	},
-	"feed_on_hit":{
-		"type":"origins:self_action_on_hit",
-		"cooldown":10,
-		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:feed",
-					"food":1,
-					"saturation":1
-				},
-				{
-					"type":"origins:play_sound",
-					"sound":"entity.slime.squish"
-				}
-			]
-		}
+	"type":"origins:self_action_on_hit",
+	"hidden":true,
+	"cooldown":20,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:feed",
+				"food":1,
+				"saturation":1
+			},
+			{
+				"type":"origins:play_sound",
+				"sound":"entity.slime.squish"
+			}
+		]
 	}
 }

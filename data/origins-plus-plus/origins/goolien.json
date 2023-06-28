@@ -10,7 +10,8 @@
 		"origins-plus-plus:goolien/no_lungs",
 		"origins-plus-plus:goolien/splat",
 		"origins-plus-plus:goolien/sticky_grip",
-		"origins-plus-plus:goolien/stomach_body"
+		"origins-plus-plus:goolien/stomach_body",
+		"origins-plus-plus:goolien/unwieldy"
 	],
 	"icon":"minecraft:slime_block",
 	"impact":3

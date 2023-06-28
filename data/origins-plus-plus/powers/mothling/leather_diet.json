@@ -1,5 +1,6 @@
 {
 	"type":"origins:active_self",
+	"hidden":true,
 	"cooldown":50,
 	"condition":{
 		"type":"origins:and",

@@ -1,15 +1,7 @@
 {
 	"type":"origins:multiple",
-	"elytra_no_prevent":{
-		"type":"origins:prevent_item_use",
-		"item_condition":{
-			"type":"origins:ingredient",
-			"ingredient":{
-				"item":"minecraft:elytra"
-			}
-		}
-	},
-	"elytra_no_resrict":{
+	"hidden":true,
+	"prevent_elytra_equipping":{
 		"type":"origins:restrict_armor",
 		"chest":{
 			"type":"origins:ingredient",
@@ -18,7 +10,7 @@
 			}
 		}
 	},
-	"levitation_no":{
+	"levitation_immunity":{
 		"type":"origins:effect_immunity",
 		"effect":"minecraft:levitation"
 	}

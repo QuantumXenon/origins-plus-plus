@@ -11,7 +11,7 @@
 		},
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
 	"purify":{
@@ -31,7 +31,7 @@
 		"type":"origins:creative_flight",
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
 	"airspeed":{
@@ -42,7 +42,7 @@
 		},
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
 	"phasing":{
@@ -55,7 +55,7 @@
 		},
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		},
 		"phase_down_condition":{
 			"type":"origins:or",
@@ -77,7 +77,7 @@
 		"take_fall_damage":false,
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
 	"invincible":{
@@ -88,7 +88,7 @@
 		},
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
 	"invisible":{
@@ -96,7 +96,7 @@
 		"render_armor":false,
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
 	"collision":{
@@ -110,7 +110,7 @@
 		},
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
 	"ghost":{
@@ -121,10 +121,10 @@
 		},
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
-	"nobow":{
+	"no_ranged_weapons":{
 		"type":"origins:prevent_item_use",
 		"hidden":true,
 		"item_condition":{
@@ -138,7 +138,7 @@
 			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
 		}
 	},
-	"soundstart":{
+	"start_sound":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:play_sound",
@@ -156,13 +156,13 @@
 				},
 				{
 					"type":"origins:power_active",
-					"power":"origins-plus-plus:spectre/spectre_terror_toggle",
+					"power":"*:*_terror_toggle",
 					"inverted":true
 				}
 			]
 		}
 	},
-	"particlestart":{
+	"start_particles":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:execute_command",
@@ -179,13 +179,13 @@
 				},
 				{
 					"type":"origins:power_active",
-					"power":"origins-plus-plus:spectre/spectre_terror_toggle",
+					"power":"*:*_toggle",
 					"inverted":true
 				}
 			]
 		}
 	},
-	"soundend":{
+	"end_sound":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:play_sound",
@@ -193,7 +193,7 @@
 		},
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
 	"strength":{
@@ -214,10 +214,10 @@
 		},
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
-	"particleend":{
+	"end_particles":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:execute_command",
@@ -225,7 +225,7 @@
 		},
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		}
 	},
 	"spectre":{
@@ -237,7 +237,7 @@
 		},
 		"condition":{
 			"type":"origins:power_active",
-			"power":"origins-plus-plus:spectre/spectre_terror_toggle"
+			"power":"*:*_toggle"
 		},
 		"interval":1
 	}

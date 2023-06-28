@@ -12,6 +12,13 @@
 					"tag":"origins-plus-plus:raw_fish"
 				},
 				"inverted":true
+			},
+			{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"tag":"origins:ignore_diet"
+				},
+				"inverted":true
 			}
 		]
 	}

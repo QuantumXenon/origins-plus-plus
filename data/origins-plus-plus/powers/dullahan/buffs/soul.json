@@ -1,5 +1,6 @@
 {
 	"type":"origins:active_self",
+	"hidden":true,
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[

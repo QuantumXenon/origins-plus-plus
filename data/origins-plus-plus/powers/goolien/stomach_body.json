@@ -55,38 +55,10 @@
 				},
 				{
 					"type":"origins:ingredient",
-					"inverted":true,
 					"ingredient":{
-						"item":"minecraft:chorus_fruit"
-					}
-				},
-				{
-					"type":"origins:ingredient",
-					"inverted":true,
-					"ingredient":{
-						"item":"minecraft:golden_apple"
-					}
-				},
-				{
-					"type":"origins:ingredient",
-					"inverted":true,
-					"ingredient":{
-						"item":"minecraft:enchanted_golden_apple"
-					}
-				},
-				{
-					"type":"origins:ingredient",
-					"inverted":true,
-					"ingredient":{
-						"item":"minecraft:honey_bottle"
-					}
-				},
-				{
-					"type":"origins:ingredient",
-					"inverted":true,
-					"ingredient":{
-						"item":"minecraft:suspicious_stew"
-					}
+						"tag":"origins:ignore_diet"
+					},
+					"inverted":true
 				}
 			]
 		},

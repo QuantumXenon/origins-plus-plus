@@ -44,14 +44,5 @@
 				}
 			]
 		}
-	},
-	"prevent_use":{
-		"type":"origins:prevent_item_use",
-		"item_condition":{
-			"type":"origins:ingredient",
-			"ingredient":{
-				"tag":"origins-plus-plus:unwieldy"
-			}
-		}
 	}
 }
