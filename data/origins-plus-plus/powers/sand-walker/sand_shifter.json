@@ -10,7 +10,7 @@
 		"view_distance":10,
 		"block_condition":{
 			"type":"origins:in_tag",
-			"tag":"origins-plus-plus:burrow_blocks",
+			"tag":"origins-plus-plus:sand_blocks",
 			"inverted":true
 		},
 		"phase_down_condition":{
