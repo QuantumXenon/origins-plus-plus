@@ -2,6 +2,7 @@
 	"powers":[
 		"origins:burn_in_daylight",
 		"origins-plus-plus:deathsworn/appraisal",
+		"origins-plus-plus:deathsworn/carry",
 		"origins-plus-plus:deathsworn/command",
 		"origins-plus-plus:deathsworn/disconnect",
 		"origins-plus-plus:deathsworn/equip",
