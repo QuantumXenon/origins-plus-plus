@@ -62,7 +62,7 @@
 		"recipe":"origins-plus-plus:golden_helmet",
 		"result":{
 			"item":"minecraft:golden_helmet",
-			"tag":"{display:{Name:'{\"translate\":\"origins-plus-plus.thornling.helmet\",\"color\":\"gold\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;97169161,1245792191,-1976896756,-574227082],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1439005493,-2038741811,-2068887571,-1529954720],Slot:\"head\"}]}"
+			"tag":"{display:{Name:'{\"translate\":\"origins-plus-plus.thornling.helmet\",\"color\":\"gold\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1814394369,-248100519,-1820391739,451319416],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1963018794,-476951717,-1683060164,-713058874],Slot:\"head\"}]}"
 		}
 	},
 	"modify_chestplate":{
@@ -86,7 +86,7 @@
 		"recipe":"origins-plus-plus:golden_boots",
 		"result":{
 			"item":"minecraft:golden_boots",
-			"tag":"{display:{Name:'{\"translate\":\"origins-plus-plus.thornling.boots\",\"color\":\"gold\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;260439195,-379695211,-1122037136,-1998936268],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-1522722594,2078231782,-1972892161,1264123739],Slot:\"feet\"}]}"
+			"tag":"{display:{Name:'{\"translate\":\"origins-plus-plus.thornling.boots\",\"color\":\"gold\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;2110972447,1991591998,-1544475264,1560072479],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-133103839,-1996996272,-1281215894,-685613101],Slot:\"feet\"}]}"
 		}
 	}
 }
