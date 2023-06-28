@@ -34,7 +34,7 @@
 			"type":"origins:target_condition",
 			"condition":{
 				"type":"origins:in_tag",
-				"in_tag":"origins-plus-plus:pets"
+				"tag":"origins-plus-plus:pets"
 			}
 		}
 	}
