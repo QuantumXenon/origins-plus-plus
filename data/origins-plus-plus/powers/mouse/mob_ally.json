@@ -6,15 +6,15 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"team add rat"
+				"command":"team add mouse"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join rat @s"
+				"command":"team join mouse @s"
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join rat @e[type=#origins-plus-plus:base_mobs]"
+				"command":"team join mouse @e[type=#origins-plus-plus:base_mobs]"
 			}
 		]
 	}
