@@ -14,23 +14,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join wizard @e[type=minecraft:evoker]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join wizard @e[type=minecraft:ravager]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join wizard @e[type=minecraft:vindicator]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join wizard @e[type=minecraft:pillager]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join wizard @e[type=minecraft:witch]"
+				"command":"team join wizard @e[type=#minecraft:raiders]"
 			}
 		]
 	}

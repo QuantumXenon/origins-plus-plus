@@ -31,31 +31,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:zombie,tag=!angry]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:skeleton,tag=!angry]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:husk,tag=!angry]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:drowned,tag=!angry]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:stray,tag=!angry]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:spider,tag=!angry]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=minecraft:creeper,tag=!angry]"
+					"command":"team join zero_aizawa @e[type=#origins-plus-plus:mobs,tag=!angry]"
 				}
 			]
 		},

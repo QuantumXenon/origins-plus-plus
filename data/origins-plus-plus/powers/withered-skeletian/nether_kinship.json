@@ -14,15 +14,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join withered_skeletian @e[type=minecraft:blaze]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join withered_skeletian @e[type=minecraft:wither_skeleton]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join withered_skeletian @e[type=minecraft:skeleton]"
+				"command":"team join withered_skeletian @e[type=#origins-plus-plus:nether_mobs]"
 			}
 		]
 	}

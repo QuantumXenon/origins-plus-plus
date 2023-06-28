@@ -14,15 +14,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join rat @e[type=minecraft:zombie]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join rat @e[type=minecraft:skeleton]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join rat @e[type=minecraft:creeper]"
+				"command":"team join rat @e[type=#origins-plus-plus:base_mobs]"
 			}
 		]
 	}

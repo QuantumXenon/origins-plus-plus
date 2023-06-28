@@ -14,31 +14,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join illusioner @e[type=minecraft:vindicator]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join illusioner @e[type=minecraft:pillager]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join illusioner @e[type=minecraft:evoker]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join illusioner @e[type=minecraft:evoker_fangs]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join illusioner @e[type=minecraft:illusioner]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join illusioner @e[type=minecraft:witch]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join illusioner @e[type=minecraft:vex]"
+				"command":"team join illusioner @e[type=#minecraft:raiders]"
 			}
 		]
 	}

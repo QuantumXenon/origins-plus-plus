@@ -14,31 +14,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join withered_fox @e[type=minecraft:zombie]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join withered_fox @e[type=minecraft:husk]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join withered_fox @e[type=minecraft:drowned]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join withered_fox @e[type=minecraft:zombie_villager]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join withered_fox @e[type=minecraft:wither_skeleton]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join withered_fox @e[type=minecraft:stray]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join withered_fox @e[type=minecraft:skeleton]"
+				"command":"team join withered_fox @e[type=#origins-plus-plus:mobs]"
 			},
 			{
 				"type":"origins:execute_command",
@@ -46,7 +22,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join withered_fox @e[type=minecraft:phantom]"
+				"command":"team join withered_fox @e[type=minecraft:wither_skeleton]"
 			}
 		]
 	}

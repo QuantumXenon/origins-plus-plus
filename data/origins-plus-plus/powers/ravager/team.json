@@ -14,27 +14,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join ravager @e[type=minecraft:vex]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join ravager @e[type=minecraft:witch]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join ravager @e[type=minecraft:vindicator]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join ravager @e[type=minecraft:pillager]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join ravager @e[type=minecraft:evoker]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join ravager @e[type=minecraft:ravager]"
+				"command":"team join ravager @e[type=#minecraft:raiders]"
 			}
 		]
 	}
