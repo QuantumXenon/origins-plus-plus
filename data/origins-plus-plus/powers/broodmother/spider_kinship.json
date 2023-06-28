@@ -2,24 +2,7 @@
 	"type":"origins:action_over_time",
 	"interval":20,
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"team add broodmother"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join broodmother @s"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join broodmother @e[type=minecraft:spider]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join broodmother @e[type=minecraft:cave_spider]"
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:broodmother/kinship"
 	}
 }

@@ -17,11 +17,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"clear @s minecraft:red_dye 1"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:portal ~ ~.3 ~ 0.1 0.1 0.1 0.3 11 force"
+					"command":"function origins-plus-plus:binturong/sugar_rush"
 				},
 				{
 					"type":"origins:apply_effect",

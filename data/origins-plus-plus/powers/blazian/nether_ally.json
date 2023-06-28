@@ -3,56 +3,7 @@
 	"type":"origins:action_over_time",
 	"interval":20,
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"team add blazian"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @s"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @e[type=minecraft:blaze]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @e[type=minecraft:enderman]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @e[type=minecraft:ghast]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @e[type=minecraft:hoglin]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @e[type=minecraft:magma_cube]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @e[type=minecraft:piglin]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @e[type=minecraft:piglin_brute]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @e[type=minecraft:skeleton]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @e[type=minecraft:wither_skeleton]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"team join blazian @e[type=minecraft:zombified_piglin]"
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:blazian/nether_ally"
 	}
 }

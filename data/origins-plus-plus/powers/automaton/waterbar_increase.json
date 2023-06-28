@@ -4,17 +4,8 @@
 	"water_bottle":{
 		"type":"origins:action_on_item_use",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/waterbar 1250"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:item.bucket.empty voice @a ~ ~ ~ 2 0.75"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:automaton/water_increase_bottle"
 		},
 		"item_condition":{
 			"type":"origins:nbt",
@@ -28,7 +19,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/waterbar 7500"
+					"command":"function origins-plus-plus:automaton/water_increase_bucket"
 				},
 				{
 					"type":"origins:equipped_item_action",
@@ -37,14 +28,6 @@
 						"type":"origins:consume",
 						"amount":1
 					}
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:item.bucket.empty voice @a ~ ~ ~ 2 0.5"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"give @s minecraft:bucket 1"
 				}
 			]
 		},

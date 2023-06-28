@@ -47,7 +47,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:falling_water ~ ~ ~ 1 0.5 1 0 999"
+				"command":"function origins-plus-plus:automaton/water_elemental_attack"
 			},
 			{
 				"type":"origins:delay",
@@ -66,14 +66,6 @@
 				}
 			},
 			{
-				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.player.splash.high_speed voice @a ~ ~ ~ 9 0.5"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"kill @e[type=minecraft:enderman,distance=..5]"
-			},
-			{
 				"type":"origins:area_of_effect",
 				"radius":5,
 				"bientity_action":{
@@ -81,14 +73,6 @@
 					"z":1,
 					"y":1
 				}
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"resource change @s origins-plus-plus:automaton/waterbar -5000"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:falling_water ~ ~.5 ~ 0.5 1 0.5 9 25 force"
 			}
 		]
 	},

@@ -4,17 +4,8 @@
 		"type":"origins:chance",
 		"chance":0.5,
 		"action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"summon minecraft:item ~ ~ ~ {PickupDelay:30,Item:{id:\"minecraft:bone\",Count:1}}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.slime.hurt voice @s"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:dullahan/boned"
 		}
 	},
 	"damage_condition":{

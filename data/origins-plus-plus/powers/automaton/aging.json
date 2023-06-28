@@ -5,17 +5,8 @@
 		"type":"origins:action_over_time",
 		"interval":1,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/waterbar -1"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/firebar -1"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:automaton/exhaust"
 		},
 		"condition":{
 			"type":"origins:or",
@@ -37,42 +28,16 @@
 		"type":"origins:action_over_time",
 		"interval":10,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/waterbar -1"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/firebar -1"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:automaton/exhaust"
 		}
 	},
 	"empty":{
 		"type":"origins:action_over_time",
 		"interval":400,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/waterbar -2"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/firebar -2"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:smoke ~ ~ ~ 0.5 1 0.5 0 5"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.cat.hiss voice @a ~ ~ ~ 0.35 0.5"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:automaton/empty"
 		},
 		"condition":{
 			"type":"origins:and",

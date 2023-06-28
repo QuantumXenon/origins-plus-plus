@@ -8,120 +8,33 @@
 		"type":"origins:action_over_time",
 		"interval":10,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_negative',Value:110}]}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p UUID"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:devine-architect/high_prices"
 		}
 	},
 	"iron_golem":{
 		"type":"origins:action_over_time",
 		"interval":10,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngryAt set from entity @p UUID"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngerTime set value 60"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:devine-architect/iron_golem"
 		}
 	},
 	"iron_golem_no":{
 		"type":"origins:action_over_time",
 		"interval":10,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngryAt set from entity @s UUID"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngerTime set value 0"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:devine-architect/iron_golem_no"
 		}
 	},
-	"no_trading":{
+	"no_pets":{
 		"type":"origins:prevent_entity_use",
 		"bientity_condition":{
 			"type":"origins:target_condition",
 			"condition":{
-				"type":"origins:entity_type",
-				"entity_type":"minecraft:villager"
-			}
-		}
-	},
-	"no_wolf":{
-		"type":"origins:prevent_entity_use",
-		"bientity_condition":{
-			"type":"origins:target_condition",
-			"condition":{
-				"type":"origins:entity_type",
-				"entity_type":"minecraft:wolf"
-			}
-		}
-	},
-	"no_chicken":{
-		"type":"origins:prevent_entity_use",
-		"bientity_condition":{
-			"type":"origins:target_condition",
-			"condition":{
-				"type":"origins:entity_type",
-				"entity_type":"minecraft:chicken"
-			}
-		}
-	},
-	"no_pig":{
-		"type":"origins:prevent_entity_use",
-		"bientity_condition":{
-			"type":"origins:target_condition",
-			"condition":{
-				"type":"origins:entity_type",
-				"entity_type":"minecraft:pig"
-			}
-		}
-	},
-	"no_cow":{
-		"type":"origins:prevent_entity_use",
-		"bientity_condition":{
-			"type":"origins:target_condition",
-			"condition":{
-				"type":"origins:entity_type",
-				"entity_type":"minecraft:cow"
-			}
-		}
-	},
-	"no_axolotl":{
-		"type":"origins:prevent_entity_use",
-		"bientity_condition":{
-			"type":"origins:target_condition",
-			"condition":{
-				"type":"origins:entity_type",
-				"entity_type":"minecraft:axolotl"
-			}
-		}
-	},
-	"no_bee":{
-		"type":"origins:prevent_entity_use",
-		"bientity_condition":{
-			"type":"origins:target_condition",
-			"condition":{
-				"type":"origins:entity_type",
-				"entity_type":"minecraft:bee"
+				"type":"origins:in_tag",
+				"in_tag":"origins-plus-plus:pets"
 			}
 		}
 	}

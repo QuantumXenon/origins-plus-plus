@@ -5,15 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..7] minecraft:blindness 5 1 false"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..7] minecraft:slowness 5 2 false"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.ravager.roar master @a[distance=..7]"
+				"command":"function origins-plus-plus:felvaxian/roar"
 			},
 			{
 				"type":"origins:delay",

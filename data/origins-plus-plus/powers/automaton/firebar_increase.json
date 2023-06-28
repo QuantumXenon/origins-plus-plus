@@ -8,7 +8,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/firebar 400"
+					"command":"function origins-plus-plus:automaton/firebar_increase_coal"
 				},
 				{
 					"type":"origins:equipped_item_action",
@@ -17,10 +17,6 @@
 						"type":"origins:consume",
 						"amount":1
 					}
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:item.firecharge.use voice @a ~ ~1 ~ 2 0.75"
 				}
 			]
 		},
@@ -44,7 +40,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/firebar 400"
+					"command":"function origins-plus-plus:automaton/firebar_increase_coal"
 				},
 				{
 					"type":"origins:equipped_item_action",
@@ -53,10 +49,6 @@
 						"type":"origins:consume",
 						"amount":1
 					}
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:item.firecharge.use voice @a ~ ~1 ~ 2 0.75"
 				}
 			]
 		},
@@ -80,7 +72,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/firebar 3600"
+					"command":"function origins-plus-plus:automaton/firebar_increase_coal_block"
 				},
 				{
 					"type":"origins:equipped_item_action",
@@ -89,10 +81,6 @@
 						"type":"origins:consume",
 						"amount":1
 					}
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:item.firecharge.use voice @a ~ ~1 ~ 2 0.5"
 				}
 			]
 		},
@@ -124,7 +112,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"resource change @s origins-plus-plus:automaton/firebar 7500"
+					"command":"function origins-plus-plus:automaton/firebar_increase_lava"
 				},
 				{
 					"type":"origins:equipped_item_action",
@@ -133,14 +121,6 @@
 						"type":"origins:consume",
 						"amount":1
 					}
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:item.firecharge.use voice @a ~ ~1 ~ 9 0.5"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"give @s minecraft:bucket 1"
 				}
 			]
 		},

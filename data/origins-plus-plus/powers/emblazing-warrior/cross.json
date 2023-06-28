@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"fury01":{
+	"fury_0_or_1":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:and",
@@ -28,7 +28,7 @@
 			"comparison":"<="
 		}
 	},
-	"fury23":{
+	"fury_2_or_3":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:execute_command",

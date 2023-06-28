@@ -1,17 +1,8 @@
 {
 	"type":"origins:action_over_time",
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"execute as @s run effect give @s minecraft:hunger 5 0 true"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"execute as @s run effect give @s minecraft:weakness 5 0 true"
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:alien-axolotl/nether"
 	},
 	"interval":20,
 	"condition":{

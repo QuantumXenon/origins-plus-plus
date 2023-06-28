@@ -20,69 +20,20 @@
 				"compare_to":0
 			},
 			"if_action":{
-				"type":"origins:and",
-				"actions":[
-					{
-						"type":"origins:execute_command",
-						"command":"scale set pehkui:height 0.25"
-					},
-					{
-						"type":"origins:execute_command",
-						"command":"scale set pehkui:width 0.25"
-					},
-					{
-						"type":"origins:change_resource",
-						"resource":"*:*_resource",
-						"change":1,
-						"operation":"set"
-					},
-					{
-						"type":"origins:execute_command",
-						"command":"effect give @p minecraft:slowness 999999 2 true"
-					}
-				]
+				"type":"origins:execute_command",
+				"command":"function origins-plus-plus:goolien/condense"
 			},
 			"else_action":{
-				"type":"origins:and",
-				"actions":[
-					{
-						"type":"origins:execute_command",
-						"command":"scale reset"
-					},
-					{
-						"type":"origins:change_resource",
-						"resource":"*:*_resource",
-						"change":0,
-						"operation":"set"
-					},
-					{
-						"type":"origins:execute_command",
-						"command":"effect clear @p minecraft:slowness"
-					}
-				]
+				"type":"origins:execute_command",
+				"command":"function origins-plus-plus:goolien/reset"
 			}
 		}
 	},
 	"power_lost":{
 		"type":"origins:action_on_callback",
 		"entity_action_lost":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"scale reset"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"*:*_resource",
-					"change":0,
-					"operation":"set"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect clear @p minecraft:slowness"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:goolien/reset"
 		}
 	}
 }

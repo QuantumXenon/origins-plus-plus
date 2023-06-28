@@ -310,15 +310,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"tp @s ^ ^1 ^-7"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s run particle minecraft:witch ~ ~1 ~ .4 .4 .4 0 1000 normal"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s run playsound minecraft:block.beacon.deactivate ambient @s"
+					"command":"function origins-plus-plus:ebon-wing/dodge"
 				},
 				{
 					"type":"origins:trigger_cooldown",

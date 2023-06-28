@@ -5,19 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"resource change @s origins-plus-plus:automaton/waterbar -750"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"resource change @s origins-plus-plus:automaton/firebar -750"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:smoke ~ ~ ~ 0.5 1 0.5 0 10"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.cat.hiss voice @a ~ ~ ~ 0.25 2"
+				"command":"function origins-plus-plus:automaton/undying"
 			},
 			{
 				"type":"origins:delay",

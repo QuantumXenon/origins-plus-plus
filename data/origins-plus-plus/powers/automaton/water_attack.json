@@ -18,15 +18,11 @@
 					"y":0.4
 				},
 				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:falling_water ~ ~.5 ~ 0.5 1 0.5 9 25 force"
-				},
-				{
 					"type":"origins:extinguish"
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"effect give @s[type=minecraft:enderman] minecraft:instant_damage"
+					"command":"function origins-plus-plus:automaton/water_attack"
 				}
 			]
 		},

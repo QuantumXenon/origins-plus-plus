@@ -44,18 +44,8 @@
 	"ability":{
 		"type":"origins:active_self",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"function origins-plus-plus:golden-golem/reinforce"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:golden-golem/health_resource",
-					"change":-20
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:golden-golem/health_resource"
 		},
 		"condition":{
 			"type":"origins:resource",

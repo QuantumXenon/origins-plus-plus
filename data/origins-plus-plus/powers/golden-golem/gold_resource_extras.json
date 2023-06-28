@@ -13,18 +13,8 @@
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"function origins-plus-plus:golden-golem/speed_up"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:golden-golem/gold_resource",
-					"change":-3
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:golden-golem/speed_up"
 		},
 		"condition":{
 			"type":"origins:and",
@@ -46,18 +36,8 @@
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"function origins-plus-plus:golden-golem/strength_up"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:golden-golem/gold_resource",
-					"change":-5
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:golden-golem/strength_up"
 		},
 		"condition":{
 			"type":"origins:and",

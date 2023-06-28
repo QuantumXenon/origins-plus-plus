@@ -8,16 +8,7 @@
 		"bar_index":5
 	},
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:speed 30 0 false"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:regeneration 30 0 false"
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:beaver/rage"
 	}
 }

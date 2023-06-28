@@ -10,15 +10,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.blaze.shoot master @s ~ ~ ~ 10 0.18"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:flame ~ ~ ~ 1 1 1 0.15 100"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:slow_falling 99999 0 true"
+				"command":"function origins-plus-plus:blazian/blazing_leap"
 			}
 		]
 	},
