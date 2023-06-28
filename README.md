@@ -15,7 +15,7 @@ Origins++ is a collection of more than 100 origins to fully expand the origins e
 - Forge is supported on a best-effort basis as many issues are Forge-exclusive and issues with Origins (Forge) itself, so bugs may or may not be fixed.
 
 ## Credits
-- All credit for the origins goes to the [original authors](https://gist.github.com/QuantumXenon/a5639e49221abdb1dcd9009bcafa8a98).
+- All credit for the origins goes to the [original authors](https://gist.github.com/QuantumXenon/d7ec9ceee0f8897410cff5088307f028).
 ***
 [![CurseForge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/curseforge_46h.png)](https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus)
 [![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/mod/origins-plus-plus)
