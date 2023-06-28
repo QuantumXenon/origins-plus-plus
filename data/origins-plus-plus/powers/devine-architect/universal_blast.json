@@ -20,7 +20,7 @@
 		"comparison":">=",
 		"compare_to":15
 	},
-	"cooldown":60,
+	"cooldown":40,
 	"hud_render":{
 		"should_render":true,
 		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",

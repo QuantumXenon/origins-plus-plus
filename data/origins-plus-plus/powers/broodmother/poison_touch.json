@@ -16,5 +16,5 @@
 		"type":"origins:name",
 		"name":"player"
 	},
-	"cooldown":60
+	"cooldown":40
 }

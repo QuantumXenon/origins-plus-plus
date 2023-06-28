@@ -12,5 +12,5 @@
 		"type":"origins:projectile",
 		"inverted":true
 	},
-	"cooldown":60
+	"cooldown":40
 }

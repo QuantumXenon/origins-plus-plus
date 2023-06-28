@@ -45,7 +45,7 @@
 				}
 			]
 		},
-		"cooldown":60
+		"cooldown":40
 	},
 	"knockback":{
 		"type":"origins:action_on_hit",

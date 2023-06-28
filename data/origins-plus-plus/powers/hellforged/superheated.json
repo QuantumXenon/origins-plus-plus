@@ -4,5 +4,5 @@
 		"type":"origins:set_on_fire",
 		"duration":5
 	},
-	"cooldown":60
+	"cooldown":40
 }

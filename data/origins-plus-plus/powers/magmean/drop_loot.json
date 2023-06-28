@@ -22,5 +22,5 @@
 		"comparison":">=",
 		"compare_to":2
 	},
-	"cooldown":60
+	"cooldown":40
 }

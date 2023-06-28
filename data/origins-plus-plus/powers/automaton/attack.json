@@ -51,6 +51,6 @@
 			}
 		}
 	},
-	"cooldown":60,
+	"cooldown":40,
 	"hidden":true
 }

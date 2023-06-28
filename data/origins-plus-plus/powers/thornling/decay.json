@@ -43,7 +43,7 @@
 				}
 			]
 		},
-		"cooldown":60
+		"cooldown":40
 	},
 	"curse_armor":{
 		"type":"origins:stacking_status_effect",

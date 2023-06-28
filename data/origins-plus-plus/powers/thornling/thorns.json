@@ -67,7 +67,7 @@
 			"comparison":">",
 			"compare_to":0
 		},
-		"cooldown":60
+		"cooldown":40
 	},
 	"magic_immunity":{
 		"type":"origins:invulnerability",
