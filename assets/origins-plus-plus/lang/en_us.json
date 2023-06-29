@@ -459,7 +459,7 @@
 	"power.origins-plus-plus.automaton/water_elemental_attack.name":"Strong Elemental Attacks",
 	"power.origins-plus-plus.beaver/aquatic.description":"You have Dolphin's Grace when underwater.",
 	"power.origins-plus-plus.beaver/aquatic.name":"Aquatic",
-	"power.origins-plus-plus.beaver/lazy.description":"You gain Mining Fatigue when you have more than a stack of any log in your inventory.",
+	"power.origins-plus-plus.beaver/lazy.description":"You gain Mining Fatigue when you have more than a stack logs in your inventory.",
 	"power.origins-plus-plus.beaver/lazy.name":"Lazy",
 	"power.origins-plus-plus.beaver/logger.description":"You gain haste when near logs and stripped logs.",
 	"power.origins-plus-plus.beaver/logger.name":"Logger",
