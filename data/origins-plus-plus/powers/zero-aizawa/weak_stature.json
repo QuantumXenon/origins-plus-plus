@@ -19,7 +19,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:netherite_helmet"
+						"tag":"origins-plus-plus:heavy_armour"
 					}
 				}
 			},
@@ -29,7 +29,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:netherite_chestplate"
+						"tag":"origins-plus-plus:heavy_armour"
 					}
 				}
 			},
@@ -39,7 +39,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:netherite_leggings"
+						"tag":"origins-plus-plus:heavy_armour"
 					}
 				}
 			},
@@ -49,7 +49,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:netherite_boots"
+						"tag":"origins-plus-plus:heavy_armour"
 					}
 				}
 			}

@@ -3,7 +3,7 @@
 	"item_condition":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:sweet_berries"
+			"tag":"minecraft:fox_food"
 		}
 	},
 	"food_modifier":{
