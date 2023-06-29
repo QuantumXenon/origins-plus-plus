@@ -11,7 +11,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:leather"
+						"tag":"origins-plus-plus:hides"
 					}
 				}
 			},
@@ -27,7 +27,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"clear @s minecraft:leather 1"
+				"command":"item replace entity @s weapon.mainhand with air"
 			},
 			{
 				"type":"origins:execute_command",

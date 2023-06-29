@@ -22,7 +22,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"item":"minecraft:arrow"
+							"tag":"minecraft:arrows"
 						}
 					}
 				},
@@ -58,7 +58,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"item":"minecraft:arrow"
+							"tag":"minecraft:arrows"
 						}
 					}
 				},

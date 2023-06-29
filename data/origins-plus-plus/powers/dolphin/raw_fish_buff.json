@@ -3,7 +3,7 @@
 	"item_condition":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:beef"
+			"tag":"origins-plus-plus:raw_fish"
 		}
 	},
 	"food_modifier":{
@@ -11,7 +11,7 @@
 		"operation":"addition"
 	},
 	"saturation_modifier":{
-		"value":4,
+		"value":3,
 		"operation":"addition"
 	},
 	"hidden":true

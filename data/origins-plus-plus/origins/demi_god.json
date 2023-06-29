@@ -8,16 +8,8 @@
 		"origins-plus-plus:demi-god/health",
 		"origins-plus-plus:demi-god/more_boss_damage",
 		"origins-plus-plus:demi-god/phase",
-		"origins-plus-plus:demi-god/raw_beef",
-		"origins-plus-plus:demi-god/raw_chicken",
-		"origins-plus-plus:demi-god/raw_cod",
 		"origins-plus-plus:demi-god/raw_diet",
-		"origins-plus-plus:demi-god/raw_mutton",
-		"origins-plus-plus:demi-god/raw_pork",
-		"origins-plus-plus:demi-god/raw_rabbit",
-		"origins-plus-plus:demi-god/raw_rotten_flesh",
-		"origins-plus-plus:demi-god/raw_salmon",
-		"origins-plus-plus:demi-god/raw_tropical_fish"
+		"origins-plus-plus:demi-god/raw_meat_buff"
 	],
 	"icon":"minecraft:glowstone",
 	"impact":2
