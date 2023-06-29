@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"regenerate_coal":{
+	"recharge":{
 		"type":"origins:action_over_time",
 		"interval":20,
 		"entity_action":{
@@ -12,8 +12,12 @@
 					"change":50
 				},
 				{
-					"type":"origins:execute_command",
-					"command":"clear @s minecraft:coal 1"
+					"type":"origins:equipped_item_action",
+					"equipment_slot":"offhand",
+					"action":{
+						"type":"origins:consume",
+						"amount":1
+					}
 				}
 			]
 		},
@@ -26,7 +30,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"item":"minecraft:coal"
+							"tag":"origins-plus-plus:battery_fuels"
 						}
 					}
 				},
@@ -39,85 +43,7 @@
 			]
 		}
 	},
-	"regenerate_charcoal":{
-		"type":"origins:action_over_time",
-		"interval":20,
-		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:change_resource",
-					"resource":"*:*_resource",
-					"change":50
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"clear @s minecraft:charcoal 1"
-				}
-			]
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:equipped_item",
-					"equipment_slot":"offhand",
-					"item_condition":{
-						"type":"origins:ingredient",
-						"ingredient":{
-							"item":"minecraft:charcoal"
-						}
-					}
-				},
-				{
-					"type":"origins:resource",
-					"resource":"*:*_resource",
-					"comparison":"<",
-					"compare_to":550
-				}
-			]
-		}
-	},
-	"regenerate_redstone":{
-		"type":"origins:action_over_time",
-		"interval":20,
-		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:change_resource",
-					"resource":"*:*_resource",
-					"change":50
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"clear @s minecraft:redstone 1"
-				}
-			]
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:equipped_item",
-					"equipment_slot":"offhand",
-					"item_condition":{
-						"type":"origins:ingredient",
-						"ingredient":{
-							"item":"minecraft:redstone"
-						}
-					}
-				},
-				{
-					"type":"origins:resource",
-					"resource":"*:*_resource",
-					"comparison":"<",
-					"compare_to":550
-				}
-			]
-		}
-	},
-	"decrease":{
+	"discharge":{
 		"type":"origins:action_over_time",
 		"interval":20,
 		"entity_action":{
@@ -126,7 +52,7 @@
 			"change":-1
 		}
 	},
-	"defect_one":{
+	"slowness_one":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
 		"max_stacks":1,
@@ -143,7 +69,7 @@
 			"compare_to":300
 		}
 	},
-	"defect_two":{
+	"slowness_two":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
 		"max_stacks":1,
@@ -161,7 +87,7 @@
 			"compare_to":200
 		}
 	},
-	"defect_three":{
+	"slowness_three":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
 		"max_stacks":1,
@@ -179,7 +105,7 @@
 			"compare_to":100
 		}
 	},
-	"defect_four":{
+	"defect":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
 		"max_stacks":1,

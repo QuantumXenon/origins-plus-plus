@@ -1,17 +1,8 @@
 {
 	"type":"origins:modify_harvest",
 	"block_condition":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:block",
-				"block":"minecraft:snow"
-			},
-			{
-				"type":"origins:block",
-				"block":"minecraft:snow_block"
-			}
-		]
+		"type":"origins:in_tag",
+		"tag":"minecraft:snow"
 	},
 	"allow":true
 }

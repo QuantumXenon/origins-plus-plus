@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"heal_copper":{
+	"heal_ingot":{
 		"type":"origins:action_over_time",
 		"interval":50,
 		"entity_action":{
@@ -11,8 +11,12 @@
 					"amount":3
 				},
 				{
-					"type":"origins:execute_command",
-					"command":"clear @s minecraft:copper_ingot 1"
+					"type":"origins:equipped_item_action",
+					"equipment_slot":"offhand",
+					"action":{
+						"type":"origins:consume",
+						"amount":1
+					}
 				}
 			]
 		},
@@ -25,7 +29,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"item":"minecraft:copper_ingot"
+							"tag":"origins-plus-plus:ingots"
 						}
 					}
 				},
@@ -37,44 +41,7 @@
 			]
 		}
 	},
-	"heal_iron":{
-		"type":"origins:action_over_time",
-		"interval":50,
-		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:heal",
-					"amount":3
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"clear @s minecraft:iron_ingot 1"
-				}
-			]
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:equipped_item",
-					"equipment_slot":"offhand",
-					"item_condition":{
-						"type":"origins:ingredient",
-						"ingredient":{
-							"item":"minecraft:iron_ingot"
-						}
-					}
-				},
-				{
-					"type":"origins:health",
-					"comparison":"<",
-					"compare_to":20
-				}
-			]
-		}
-	},
-	"heal_iron_nugget":{
+	"heal_nugget":{
 		"type":"origins:action_over_time",
 		"interval":50,
 		"entity_action":{
@@ -85,8 +52,12 @@
 					"amount":1
 				},
 				{
-					"type":"origins:execute_command",
-					"command":"clear @s minecraft:iron_nugget 1"
+					"type":"origins:equipped_item_action",
+					"equipment_slot":"offhand",
+					"action":{
+						"type":"origins:consume",
+						"amount":1
+					}
 				}
 			]
 		},
@@ -99,7 +70,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"item":"minecraft:iron_nugget"
+							"tag":"origins-plus-plus:nuggets"
 						}
 					}
 				},

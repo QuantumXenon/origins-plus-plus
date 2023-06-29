@@ -1,2 +1,2 @@
-clear @s minecraft:copper_block 1
+item replace entity @s weapon.offhand with minecraft:air
 playsound item.chorus_fruit.teleport player @s ~ ~ ~ 10

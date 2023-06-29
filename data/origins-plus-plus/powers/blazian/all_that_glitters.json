@@ -1,6 +1,6 @@
 {
-	"hidden":true,
 	"type":"origins:multiple",
+	"hidden":true,
 	"golden_tool_boost":{
 		"type":"origins:modify_damage_dealt",
 		"modifier":{
@@ -31,7 +31,7 @@
 			"item_condition":{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"tag":"origins-plus-plus:golden_armor"
+					"item":"minecraft:golden_helmet"
 				}
 			}
 		}
@@ -49,7 +49,7 @@
 			"item_condition":{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"tag":"origins-plus-plus:golden_armor"
+					"item":"minecraft:golden_chestplate"
 				}
 			}
 		}
@@ -67,7 +67,7 @@
 			"item_condition":{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"tag":"origins-plus-plus:golden_armor"
+					"item":"minecraft:golden_leggings"
 				}
 			}
 		}
@@ -85,7 +85,7 @@
 			"item_condition":{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"tag":"origins-plus-plus:golden_armor"
+					"item":"minecraft:golden_boots"
 				}
 			}
 		}

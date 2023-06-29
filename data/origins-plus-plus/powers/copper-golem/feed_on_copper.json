@@ -1,7 +1,7 @@
 {
   "type":"origins:multiple",
   "hidden":true,
-  "ingot_copper":{
+  "copper":{
     "type":"origins:action_over_time",
     "interval":50,
     "entity_action":{
@@ -27,7 +27,7 @@
           "item_condition":{
             "type":"origins:ingredient",
             "ingredient":{
-              "item":"minecraft:copper_ingot"
+              "tag":"origins-plus-plus:copper_ingots"
             }
           }
         },
@@ -39,45 +39,7 @@
       ]
     }
   },
-  "raw_copper":{
-    "type":"origins:action_over_time",
-    "interval":50,
-    "entity_action":{
-      "type":"origins:and",
-      "actions":[
-        {
-          "type":"origins:feed",
-          "food":2,
-          "saturation":2
-        },
-        {
-          "type":"origins:execute_command",
-          "command":"function origins-plus-plus:copper-golem/eat_raw"
-        }
-      ]
-    },
-    "condition":{
-      "type":"origins:and",
-      "conditions":[
-        {
-          "type":"origins:equipped_item",
-          "equipment_slot":"offhand",
-          "item_condition":{
-            "type":"origins:ingredient",
-            "ingredient":{
-              "item":"minecraft:raw_copper"
-            }
-          }
-        },
-        {
-          "type":"origins:food_level",
-          "comparison":"<",
-          "compare_to":20
-        }
-      ]
-    }
-  },
-  "block_copper":{
+  "copper_block":{
     "type":"origins:action_over_time",
     "interval":50,
     "entity_action":{
@@ -103,7 +65,7 @@
           "item_condition":{
             "type":"origins:ingredient",
             "ingredient":{
-              "item":"minecraft:copper_block"
+              "tag":"origins-plus-plus:copper_blocks"
             }
           }
         },
