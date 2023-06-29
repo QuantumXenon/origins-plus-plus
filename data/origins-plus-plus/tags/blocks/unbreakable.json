@@ -1,23 +1,13 @@
 {
 	"values":[
+		"#minecraft:dragon_immune",
+		"#minecraft:wither_immune",
 		"minecraft:ancient_debris",
-		"minecraft:barrier",
-		"minecraft:bedrock",
-		"minecraft:command_block",
-		"minecraft:crying_obsidian",
 		"minecraft:diamond_block",
-		"minecraft:enchanting_table",
 		"minecraft:emerald_block",
 		"minecraft:enchanting_table",
-		"minecraft:end_gateway",
-		"minecraft:end_portal_frame",
 		"minecraft:gold_block",
 		"minecraft:iron_block",
-		"minecraft:netherite_block",
-		"minecraft:obsidian",
-		{
-			"id":"minecraft:reinforced_deepslate",
-			"required":false
-		}
+		"minecraft:netherite_block"
 	]
 }

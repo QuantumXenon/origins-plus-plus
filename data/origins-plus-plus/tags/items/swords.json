@@ -5,6 +5,10 @@
 		"minecraft:iron_sword",
 		"minecraft:netherite_sword",
 		"minecraft:stone_sword",
-		"minecraft:wooden_sword"
+		"minecraft:wooden_sword",
+		{
+			"id":"#minecraft:swords",
+			"required":false
+		}
 	]
 }
