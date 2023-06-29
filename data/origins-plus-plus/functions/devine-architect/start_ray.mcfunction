@@ -6,3 +6,4 @@ execute positioned ~ ~1.3 ~ run function origins-plus-plus:devine-architect/ray
 tag @s remove chainray
 scoreboard objectives add Devine_Architect dummy
 playsound minecraft:entity.illusioner.mirror_move master @a ~ ~ ~ 1 2
+resource change @s origins-plus-plus:devine-architect/energy -50

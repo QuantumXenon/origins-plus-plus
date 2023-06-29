@@ -1,41 +1,11 @@
 {
-	"hidden":true,
 	"type":"origins:active_self",
+	"hidden":true,
 	"key":"key.origins.primary_active",
 	"cooldown":100,
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"fill ~6 ~5 ~6 ~-6 ~-5 ~-6 minecraft:air replace minecraft:lava"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"fill ~7 ~5 ~7 ~-7 ~-5 ~-7 minecraft:air replace minecraft:fire"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"playsound minecraft:item.bucket.fill_lava player @a[distance=..10] ~ ~ ~ 1 1"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"execute as @p at @p run particle particle minecraft:flash ~ ~ ~ normal"
-			},
-			{
-				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:dark-mage/resource",
-				"change":-100
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:lava ~ ~2 ~ 3 3 3 0 500"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"clear @s minecraft:magma_block 1"
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:dark-mage/lava_sponge"
 	},
 	"condition":{
 		"type":"origins:and",

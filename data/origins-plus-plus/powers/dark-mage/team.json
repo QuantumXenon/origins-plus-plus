@@ -1,6 +1,6 @@
 {
-	"hidden":true,
 	"type":"origins:multiple",
+	"hidden":true,
 	"callback":{
 		"type":"origins:action_on_callback",
 		"entity_action_lost":{
@@ -17,19 +17,14 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team join dark-mage @a[distance=1..6]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.note_block.flute player @a[distance=..6] ~ ~ ~ 100 2"
+					"command":"function origins-plus-plus:dark-mage/team_add"
 				},
 				{
 					"type":"origins:equipped_item_action",
 					"equipment_slot":"offhand",
 					"action":{
 						"type":"origins:damage",
-						"amount":20,
-						"ignore_unbreaking":false
+						"amount":20
 					}
 				}
 			]
@@ -62,19 +57,14 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team leave @a[distance=1..6]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.note_block.flute player @a[distance=..6] ~ ~ ~ 100 0.1"
+					"command":"function origins-plus-plus:dark-mage/team_remove"
 				},
 				{
 					"type":"origins:equipped_item_action",
 					"equipment_slot":"offhand",
 					"action":{
 						"type":"origins:damage",
-						"amount":20,
-						"ignore_unbreaking":false
+						"amount":20
 					}
 				}
 			]

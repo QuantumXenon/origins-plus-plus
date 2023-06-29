@@ -6,30 +6,8 @@
 		"key":"key.origins.primary_active",
 		"cooldown":100,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:end-mage/resource",
-					"change":-100
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"function origins-plus-plus:end-mage/mana_potion"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:enchant ~ ~ ~ 2 2 2 2 1000"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:enchanted_hit ~ ~ ~ 3 3 3 3 1000"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.brewing_stand.brew player @a[distance=..10] ~ ~ ~ 100 0.9 1"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:end-mage/mana_potion"
 		},
 		"condition":{
 			"type":"origins:and",

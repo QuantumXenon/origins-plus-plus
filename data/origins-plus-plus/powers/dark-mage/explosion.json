@@ -1,6 +1,6 @@
 {
-	"hidden":true,
 	"type":"origins:active_self",
+	"hidden":true,
 	"key":"key.origins.primary_active",
 	"cooldown":100,
 	"entity_action":{

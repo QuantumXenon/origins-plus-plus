@@ -1,6 +1,6 @@
 {
-	"hidden":true,
 	"type":"origins:target_action_on_hit",
+	"hidden":true,
 	"cooldown":100,
 	"entity_action":{
 		"type":"origins:and",
@@ -12,17 +12,8 @@
 				"z":3
 			},
 			{
-				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:dark-mage/resource",
-				"change":-100
-			},
-			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.slime.attack player @a[distance=..10] ~ ~ ~ 1 1"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"clear @s minecraft:slime_ball 1"
+				"command":"function origins-plus-plus:dark-mage/repulsion"
 			}
 		]
 	},

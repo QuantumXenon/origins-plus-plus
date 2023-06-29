@@ -1,6 +1,6 @@
 {
-	"hidden":true,
 	"type":"origins:multiple",
+	"hidden":true,
 	"phase":{
 		"type":"origins:phasing",
 		"blacklist":true,

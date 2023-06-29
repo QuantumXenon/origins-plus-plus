@@ -1,0 +1,5 @@
+give @s minecraft:written_book{pages:['{"translate":"origins-plus-plus.dark-mage.book.welcome"}','{"translate":"origins-plus-plus.book.mana_potions"}','{"translate":"origins-plus-plus.dark-mage.book.darkness"}','{"translate":"origins-plus-plus.dark-mage.book.decay"}','{"translate":"origins-plus-plus.dark-mage.book.explosion"}','{"translate":"origins-plus-plus.dark-mage.book.lava_sponge"}','{"translate":"origins-plus-plus.dark-mage.book.leviosa"}','{"translate":"origins-plus-plus.dark-mage.book.phase"}','{"translate":"origins-plus-plus.dark-mage.book.repulsion"}','{"translate":"origins-plus-plus.dark-mage.book.scorch"}','{"translate":"origins-plus-plus.dark-mage.book.shatter"}','{"translate":"origins-plus-plus.dark-mage.book.strong_wolf"}','{"translate":"origins-plus-plus.dark-mage.book.zoglins"}'],title:"Hidden Knowledge",author:"Dark Mage"}
+clear @s minecraft:book 1
+particle minecraft:enchant ~ ~ ~ 2 2 2 2 1000
+particle minecraft:enchanted_hit ~ ~ ~ 3 3 3 3 1000
+playsound minecraft:block.note_block.iron_xylophone player @a[distance=..10] ~ ~ ~ 100 0.9 1

@@ -5,30 +5,8 @@
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:witch ~ ~ ~ 1 1 1 1 100"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Tags:[\"tp\"],Invunerable:1b,NoGravity:1b,}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.beacon.activate player @a[distance=..20] ~ ~ ~ 100 2"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"forceload add ~ ~"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:end-mage/resource",
-					"change":-100
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:end-mage/waypoint_create"
 		},
 		"condition":{
 			"type":"origins:and",
@@ -53,30 +31,8 @@
 		"type":"origins:active_self",
 		"key":"key.origins.primary_active",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"tp @s @e[type=minecraft:armor_stand,tag=tp,sort=nearest,limit=1]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"kill @e[distance=..2,type=minecraft:armor_stand]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"forceload remove ~ ~"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.beacon.deactivate player @a[distance=..20] ~ ~ ~ 100 2"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:end-mage/resource",
-					"change":-100
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:end-mage/waypoint_teleport"
 		},
 		"condition":{
 			"type":"origins:and",
