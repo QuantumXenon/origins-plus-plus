@@ -9,7 +9,7 @@
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"tag":"origins-plus-plus:raw_fish"
+					"tag":"minecraft:fishes"
 				},
 				"inverted":true
 			},

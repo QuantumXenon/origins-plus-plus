@@ -3,7 +3,7 @@
 	"item_condition":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"tag":"origins-plus-plus:raw_fish"
+			"tag":"minecraft:fishes"
 		}
 	},
 	"food_modifier":{

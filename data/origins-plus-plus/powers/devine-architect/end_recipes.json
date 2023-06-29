@@ -14,8 +14,8 @@
 	"harvest":{
 		"type":"origins:modify_harvest",
 		"block_condition":{
-			"type":"origins:block",
-			"block":"minecraft:end_stone"
+			"type":"origins:in_tag",
+			"tag":"origins-plus-plus:end_blocks"
 		},
 		"allow":true
 	},

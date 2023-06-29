@@ -29,8 +29,8 @@
 			{
 				"type":"origins:in_block",
 				"block_condition":{
-					"type":"origins:block",
-					"block":"minecraft:snow"
+					"type":"origins:in_tag",
+					"tag":"minecraft:snow"
 				}
 			}
 		]

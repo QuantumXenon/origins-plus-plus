@@ -11,7 +11,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:end_stone"
+						"tag":"origins-plus-plus:end_blocks"
 					}
 				}
 			},

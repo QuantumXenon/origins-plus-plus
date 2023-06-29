@@ -3,7 +3,7 @@
 	"item_condition":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:cooked_beef"
+			"tag":"origins-plus-plus:cooked_meat"
 		}
 	},
 	"food_modifier":{
