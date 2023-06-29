@@ -1,9 +1,6 @@
 {
   "values":[
     "#minecraft:coals",
-    "minecraft:redstone",
-    "minecraft:netherite_axe",
-    "minecraft:stone_axe",
-    "minecraft:wooden_axe"
+    "minecraft:redstone"
   ]
 }
