@@ -8,8 +8,8 @@
 				"command":"effect give @e[distance=1..32] minecraft:glowing 10 1 true"
 			},
 			{
-				"type":"origins:play_sound",
-				"sound":"minecraft:entity.warden.sonic_boom"
+				"type":"origins:execute_command",
+				"command":"playsound minecraft:entity.warden.sonic_boom ambient @a[distance=..32]"
 			}
 		]
 	},
