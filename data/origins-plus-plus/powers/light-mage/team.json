@@ -28,8 +28,7 @@
 					"equipment_slot":"offhand",
 					"action":{
 						"type":"origins:damage",
-						"amount":20,
-						"ignore_unbreaking":false
+						"amount":20
 					}
 				}
 			]
@@ -73,8 +72,7 @@
 					"equipment_slot":"offhand",
 					"action":{
 						"type":"origins:damage",
-						"amount":20,
-						"ignore_unbreaking":false
+						"amount":20
 					}
 				}
 			]
