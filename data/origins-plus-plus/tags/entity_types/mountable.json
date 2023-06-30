@@ -1,6 +1,14 @@
 {
   "values":[
-    "minecraft:parrot",
-    "minecraft:player"
+    "minecraft:donkey",
+    "minecraft:horse",
+    "minecraft:llama",
+    "minecraft:mule",
+    "minecraft:pig",
+    "minecraft:player",
+    {
+      "id":"minecraft:camel",
+      "required":false
+    }
   ]
 }

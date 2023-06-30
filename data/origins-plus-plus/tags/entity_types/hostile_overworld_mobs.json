@@ -2,9 +2,9 @@
   "values":[
     "#origins-plus-plus:base_mobs",
     "#origins-plus-plus:spiders",
-    "minecraft:drowned",
     "minecraft:husk",
     "minecraft:phantom",
+    "minecraft:slime",
     "minecraft:stray",
     "minecraft:zombie_villager"
   ]

@@ -14,7 +14,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join withered_skeletian @e[type=#origins-plus-plus:nether_mobs]"
+				"command":"team join withered_skeletian @e[type=#origins-plus-plus:hostile_nether_mobs]"
 			}
 		]
 	}

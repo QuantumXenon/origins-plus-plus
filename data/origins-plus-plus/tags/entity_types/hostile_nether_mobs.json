@@ -9,6 +9,7 @@
     "minecraft:piglin_brute",
     "minecraft:skeleton",
     "minecraft:wither_skeleton",
-    "minecraft:zombified_piglin"
+    "minecraft:zombified_piglin",
+    "minecraft:zoglin"
   ]
 }

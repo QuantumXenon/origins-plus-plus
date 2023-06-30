@@ -14,7 +14,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"team join withered_fox @e[type=#origins-plus-plus:mobs]"
+				"command":"team join withered_fox @e[type=#origins-plus-plus:hostile_overworld_mobs]"
 			},
 			{
 				"type":"origins:execute_command",
