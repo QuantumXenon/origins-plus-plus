@@ -13,11 +13,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"execute at @s run particle minecraft:dust .5 .7 1 1 ~ ~ ~ 0.3 0.2 0.3 0 20 normal"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s run particle minecraft:dust 1 1 1 1 ~ ~ ~ 0.3 0.2 0.3 0 5 normal"
+					"command":"function origins-plus-plus:ice-king/frostwalker_ice"
 				},
 				{
 					"type":"origins:block_action_at",
@@ -59,21 +55,8 @@
 		"type":"origins:action_over_time",
 		"interval":2,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s run particle minecraft:dust .5 .7 1 1 ~ ~ ~ 0.3 0.2 0.3 0 20 normal"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @s run particle minecraft:dust 1 1 1 1 ~ ~ ~ 0.3 0.2 0.3 0 5 normal"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 minecraft:frosted_ice replace minecraft:water"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:ice-king/frostwalker_fancy"
 		},
 		"condition":{
 			"type":"origins:and",

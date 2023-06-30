@@ -4,21 +4,8 @@
 		"type":"origins:active_self",
 		"key":"key.loadToolbarActivator",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"summon minecraft:skeleton ^2 ^ ^ {Tags:[\"Lunar_Path_Ally\"],HandItems:[{Count:1,id:\"minecraft:bow\",tag:{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}},{}],ArmorItems:[{Count:1,id:\"minecraft:iron_boots\",tag:{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}},{Count:1,id:\"minecraft:iron_leggings\",tag:{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}},{Count:1,id:\"minecraft:iron_chestplate\",tag:{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}},{Count:1,id:\"minecraft:iron_helmet\",tag:{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}}]}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"summon minecraft:zombie ^-2 ^ ^ {Tags:[\"Lunar_Path_Ally\"],ArmorItems:[{Count:1,id:\"minecraft:iron_boots\",tag:{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}},{Count:1,id:\"minecraft:iron_leggings\",tag:{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}},{Count:1,id:\"minecraft:iron_chestplate\",tag:{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}},{Count:1,id:\"minecraft:iron_helmet\",tag:{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1}]}}]}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.evoker.cast_spell ambient @p ~ ~ ~"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:lunar-path/from_beyond_the_grave_summon"
 		},
 		"cooldown":1000,
 		"hud_render":{
@@ -41,74 +28,23 @@
 		"type":"origins:action_over_time",
 		"interval":20,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"team join lunar-path @s"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team join lunar-path @e[tag=Lunar_Path_Ally,distance=..64]"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:lunar-path/join_team"
 		}
 	},
 	"target":{
 		"type":"origins:target_action_on_hit",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"tag @s add self"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @e[type=!minecraft:player,team=lunar-path,distance=..64] run summon minecraft:snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"tag @s remove self"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"tag @e remove aggro.init"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:lunar-path/from_beyond_the_grave_target"
 		},
 		"cooldown":1
 	},
 	"attacker":{
 		"type":"origins:attacker_action_when_hit",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"tag @s add self"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @e[type=!minecraft:player,team=lunar-path,distance=..64] run summon minecraft:snowball ~ ~2.5 ~ {Tags:[\"aggro.init\"],Motion:[0.0,-1.0,0.0]}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute as @e[tag=aggro.init] run data modify entity @s Owner set from entity @e[tag=self,limit=1] UUID"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"tag @s remove self"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"tag @e remove aggro.init"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:lunar-path/from_beyond_the_grave_attacker"
 		},
 		"cooldown":1
 	}
