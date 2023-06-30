@@ -1,25 +1,13 @@
 {
   "values":[
+    "#origins-plus-plus:diamond_armour",
+    "#origins-plus-plus:heavy_armour",
+    "#origins-plus-plus:iron_armour",
+    "#origins-plus-plus:leather_armour",
     "minecraft:chainmail_boots",
     "minecraft:chainmail_chestplate",
     "minecraft:chainmail_helmet",
     "minecraft:chainmail_leggings",
-    "minecraft:diamond_boots",
-    "minecraft:diamond_chestplate",
-    "minecraft:diamond_helmet",
-    "minecraft:diamond_leggings",
-    "minecraft:iron_boots",
-    "minecraft:iron_chestplate",
-    "minecraft:iron_helmet",
-    "minecraft:iron_leggings",
-    "minecraft:leather_boots",
-    "minecraft:leather_chestplate",
-    "minecraft:leather_helmet",
-    "minecraft:leather_leggings",
-    "minecraft:netherite_boots",
-    "minecraft:netherite_chestplate",
-    "minecraft:netherite_helmet",
-    "minecraft:netherite_leggings",
     "minecraft:turtle_helmet"
   ]
 }
