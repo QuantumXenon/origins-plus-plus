@@ -10,10 +10,9 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"tag":"origins-plus-plus:golden_armor"
+							"tag":"origins-plus-plus:non_golden_armor"
 						}
-					},
-					"inverted":true
+					}
 				},
 				{
 					"type":"origins:equipped_item",
@@ -21,10 +20,9 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"tag":"origins-plus-plus:golden_armor"
+							"tag":"origins-plus-plus:non_golden_armor"
 						}
-					},
-					"inverted":true
+					}
 				},
 				{
 					"type":"origins:equipped_item",
@@ -32,10 +30,9 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"tag":"origins-plus-plus:golden_armor"
+							"tag":"origins-plus-plus:non_golden_armor"
 						}
-					},
-					"inverted":true
+					}
 				},
 				{
 					"type":"origins:equipped_item",
@@ -43,10 +40,9 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"tag":"origins-plus-plus:golden_armor"
+							"tag":"origins-plus-plus:non_golden_armor"
 						}
-					},
-					"inverted":true
+					}
 				}
 			]
 		},
