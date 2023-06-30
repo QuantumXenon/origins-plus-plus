@@ -3,17 +3,8 @@
 	"join_team":{
 		"type":"origins:action_on_callback",
 		"entity_action_chosen":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"team add zero_aizawa"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @s"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:zero-aizawa/nice_mobs_join"
 		},
 		"entity_action_lost":{
 			"type":"origins:execute_command",
@@ -23,17 +14,8 @@
 	"add_mobs":{
 		"type":"origins:action_over_time",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"team leave @e[tag=angry]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team join zero_aizawa @e[type=#origins-plus-plus:mobs,tag=!angry]"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:zero-aizawa/nice_mobs_add_mobs"
 		},
 		"interval":20
 	},

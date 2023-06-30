@@ -11,11 +11,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:strength 3 0 true"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:speed 3 0 true"
+				"command":"function origins-plus-plus:ram/dash"
 			},
 			{
 				"type":"origins:add_velocity",

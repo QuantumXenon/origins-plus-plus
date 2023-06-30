@@ -1,0 +1,2 @@
+execute at @s as @e[type=minecraft:villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'major_negative',Value:110}]}
+execute at @s as @e[type=minecraft:villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p UUID

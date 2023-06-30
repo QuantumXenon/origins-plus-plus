@@ -12,11 +12,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:resistance 10 20 false"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:strength 10 2 false"
+				"command":"function origins-plus-plus:zero-aizawa/super_sane"
 			},
 			{
 				"type":"origins:delay",

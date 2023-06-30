@@ -5,11 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"gamerule randomTickSpeed 20000"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"playsound minecraft:block.beacon.activate ambient @a[distance=..10] ~ ~ ~ 1 1"
+				"command":"function origins-plus-plus:reign-farmer/nourish"
 			},
 			{
 				"type":"origins:delay",

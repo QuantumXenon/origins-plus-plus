@@ -1,13 +1,11 @@
 {
   "values":[
-    "minecraft:creeper",
+    "#origins-plus-plus:base_mobs",
+    "#origins-plus-plus:spiders",
     "minecraft:drowned",
     "minecraft:husk",
     "minecraft:phantom",
-    "minecraft:skeleton",
-    "minecraft:spider",
     "minecraft:stray",
-    "minecraft:zombie",
     "minecraft:zombie_villager"
   ]
 }
