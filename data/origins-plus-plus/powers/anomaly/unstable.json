@@ -15,5 +15,10 @@
 			"show_particles":false,
 			"show_icon":false
 		}
-	]
+	],
+	"condition":{
+		"type":"origins:food_level",
+		"comparison":"<=",
+		"compare_to":10
+	}
 }
