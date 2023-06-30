@@ -5,15 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"particle minecraft:electric_spark ~ ~ ~ 0.5 0 0.5 0.2 20 normal"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:electric_spark ~ ~ ~ 0.5 0 0.5 0.2 20 normal"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:electric_spark ~ ~ ~ 0.5 0 0.5 0.2 20 normal"
+				"command":"function origins-plus-plus:moth/expulsion"
 			},
 			{
 				"type":"origins:add_velocity",
