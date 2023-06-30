@@ -8,7 +8,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:leather_boots"
+						"tag":"origins-plus-plus:leather_armour"
 					}
 				}
 			},
@@ -18,7 +18,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:leather_chestplate"
+						"tag":"origins-plus-plus:leather_armour"
 					}
 				}
 			},
@@ -28,7 +28,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:leather_leggings"
+						"tag":"origins-plus-plus:leather_armour"
 					}
 				}
 			},
@@ -38,7 +38,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:leather_helmet"
+						"tag":"origins-plus-plus:leather_armour"
 					}
 				}
 			}

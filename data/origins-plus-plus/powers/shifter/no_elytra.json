@@ -3,7 +3,7 @@
 	"chest":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:elytra"
+			"tag":"origins-plus-plus:wings"
 		}
 	}
 }

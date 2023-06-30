@@ -4,25 +4,25 @@
 	"head":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:golden_helmet"
+			"tag":"origins-plus-plus:golden_armour"
 		}
 	},
 	"chest":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:golden_chestplate"
+			"tag":"origins-plus-plus:golden_armour"
 		}
 	},
 	"legs":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:golden_leggings"
+			"tag":"origins-plus-plus:golden_armour"
 		}
 	},
 	"feet":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:golden_boots"
+			"tag":"origins-plus-plus:golden_armour"
 		}
 	}
 }

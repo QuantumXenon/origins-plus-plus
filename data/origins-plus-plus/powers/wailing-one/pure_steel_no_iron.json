@@ -4,25 +4,25 @@
 	"head":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:iron_helmet"
+			"tag":"origins-plus-plus:iron_armour"
 		}
 	},
 	"chest":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:iron_chestplate"
+			"tag":"origins-plus-plus:iron_armour"
 		}
 	},
 	"legs":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:iron_leggings"
+			"tag":"origins-plus-plus:iron_armour"
 		}
 	},
 	"feet":{
 		"type":"origins:ingredient",
 		"ingredient":{
-			"item":"minecraft:iron_boots"
+			"tag":"origins-plus-plus:iron_armour"
 		}
 	}
 }

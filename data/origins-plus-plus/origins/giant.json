@@ -18,7 +18,8 @@
 		"origins-plus-plus:giant/spider",
 		"origins-plus-plus:giant/strong",
 		"origins-plus-plus:giant/sturdy",
-		"origins-plus-plus:giant/swim"
+		"origins-plus-plus:giant/swim",
+		"origins-plus-plus:giant/unwieldy"
 	],
 	"icon":"minecraft:leather_chestplate",
 	"impact":3

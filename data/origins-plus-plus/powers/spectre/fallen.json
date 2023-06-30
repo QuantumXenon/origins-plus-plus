@@ -6,13 +6,13 @@
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"minecraft:iron_helmet"
+					"tag":"origins-plus-plus:iron_armour"
 				}
 			},
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"minecraft:diamond_helmet"
+					"tag":"origins-plus-plus:diamond_armour"
 				}
 			},
 			{
@@ -29,13 +29,13 @@
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"minecraft:iron_chestplate"
+					"tag":"origins-plus-plus:iron_armour"
 				}
 			},
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"minecraft:diamond_chestplate"
+					"tag":"origins-plus-plus:diamond_armour"
 				}
 			},
 			{
@@ -47,7 +47,7 @@
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"minecraft:elytra"
+					"tag":"origins-plus-plus:wings"
 				}
 			}
 		]
@@ -58,13 +58,13 @@
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"minecraft:iron_leggings"
+					"tag":"origins-plus-plus:iron_armour"
 				}
 			},
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"minecraft:diamond_leggings"
+					"tag":"origins-plus-plus:diamond_armour"
 				}
 			},
 			{
@@ -81,13 +81,13 @@
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"minecraft:iron_boots"
+					"tag":"origins-plus-plus:iron_armour"
 				}
 			},
 			{
 				"type":"origins:ingredient",
 				"ingredient":{
-					"item":"minecraft:diamond_boots"
+					"tag":"origins-plus-plus:diamond_armour"
 				}
 			},
 			{

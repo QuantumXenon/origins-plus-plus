@@ -5,7 +5,7 @@
 		"item_condition":{
 			"type":"origins:ingredient",
 			"ingredient":{
-				"item":"minecraft:dried_kelp"
+				"tag":"origins-plus-plus:sea_foods"
 			}
 		},
 		"food_modifier":{
@@ -53,7 +53,7 @@
 		"item_condition":{
 			"type":"origins:ingredient",
 			"ingredient":{
-				"item":"minecraft:dried_kelp"
+				"tag":"origins-plus-plus:sea_foods"
 			}
 		},
 		"food_modifier":{
@@ -78,7 +78,7 @@
 		"item_condition":{
 			"type":"origins:ingredient",
 			"ingredient":{
-				"item":"minecraft:dried_kelp"
+				"tag":"origins-plus-plus:sea_foods"
 			}
 		},
 		"food_modifier":{
