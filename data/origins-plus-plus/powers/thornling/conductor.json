@@ -10,7 +10,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"tag":"origins-plus-plus:non_golden_armor"
+							"tag":"origins-plus-plus:non_golden_armour"
 						}
 					}
 				},
@@ -20,7 +20,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"tag":"origins-plus-plus:non_golden_armor"
+							"tag":"origins-plus-plus:non_golden_armour"
 						}
 					}
 				},
@@ -30,7 +30,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"tag":"origins-plus-plus:non_golden_armor"
+							"tag":"origins-plus-plus:non_golden_armour"
 						}
 					}
 				},
@@ -40,7 +40,7 @@
 					"item_condition":{
 						"type":"origins:ingredient",
 						"ingredient":{
-							"tag":"origins-plus-plus:non_golden_armor"
+							"tag":"origins-plus-plus:non_golden_armour"
 						}
 					}
 				}
