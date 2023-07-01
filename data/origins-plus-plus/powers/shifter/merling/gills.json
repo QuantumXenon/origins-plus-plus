@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"givegills":{
+	"give_gills":{
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
@@ -14,7 +14,7 @@
 			"compare_to":7
 		}
 	},
-	"removegills":{
+	"remove_gills":{
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",

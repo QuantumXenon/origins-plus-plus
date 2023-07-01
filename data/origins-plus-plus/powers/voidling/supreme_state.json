@@ -44,37 +44,7 @@
 				},
 				{
 					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.enderman.teleport player @a ~ ~ ~ 10 0.15"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"tag @e[distance=1..100] add void_sight"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team add voidling"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team modify voidling color dark_purple"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team join voidling @e[tag=void_sight]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @e[tag=void_sight] minecraft:glowing 3600 0 true"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:voidling/void_energy_charge",
-					"change":-300
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"*:*_resource",
-					"change":2
+					"command":"function origins-plus-plus:voidling/supreme_state"
 				},
 				{
 					"type":"origins:delay",

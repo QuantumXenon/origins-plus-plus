@@ -12,15 +12,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:strength 20 0 false"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:speed 20 2 false"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:regeneration 20 0 false"
+				"command":"function origins-plus-plus:sprinter/adrenaline_boost"
 			},
 			{
 				"type":"origins:delay",

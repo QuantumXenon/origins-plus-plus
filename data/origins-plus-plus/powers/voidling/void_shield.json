@@ -5,15 +5,7 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"title @s actionbar {\"translate\":\"origins-plus-plus.voidling.message\",\"color\":\"dark_gray\"}"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:ink ~ ~ ~ 1 1 1 0.30 10000"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:ash ~ ~ ~ 1 1 1 0.30 10000"
+				"command":"function origins-plus-plus:voidling/void_shield"
 			},
 			{
 				"type":"origins:apply_effect",

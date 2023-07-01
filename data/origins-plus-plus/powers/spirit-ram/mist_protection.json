@@ -52,21 +52,8 @@
 	"mist_effects":{
 		"type":"origins:action_over_time",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @e[tag=!mist,tag=stop,distance=..12] minecraft:weakness 1 5 true"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @e[tag=!mist,tag=stop,distance=..12] minecraft:wither 1 3 true"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @e[tag=!mist,tag=stop,distance=..12] minecraft:slowness 1 3 true"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:spirit-ram/mist_effects"
 		},
 		"interval":1,
 		"condition":{
@@ -101,7 +88,7 @@
 			]
 		}
 	},
-	"hjdfjs":{
+	"mist":{
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:delay",

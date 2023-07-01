@@ -31,10 +31,6 @@
 		"type":"origins:and",
 		"actions":[
 			{
-				"type":"origins:execute_command",
-				"command":"clear @s air 1"
-			},
-			{
 				"type":"origins:heal",
 				"amount":10
 			},

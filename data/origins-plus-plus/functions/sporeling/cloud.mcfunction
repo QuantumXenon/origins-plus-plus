@@ -1,0 +1,2 @@
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:6f,RadiusPerTick:0f,Duration:200,Color:2723378,Effects:[{Id:19b,Amplifier:1b,Duration:100}]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:6f,RadiusPerTick:0f,Duration:200,Effects:[{Id:20b,Amplifier:0b,Duration:100}]}-

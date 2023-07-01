@@ -8,16 +8,7 @@
 		"value":4
 	},
 	"self_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:weakness 2 2"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:blindness 2 2"
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:vishaichian/fire_weakness"
 	}
 }
