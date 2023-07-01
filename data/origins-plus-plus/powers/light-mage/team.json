@@ -17,11 +17,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team join light-mage @a[distance=1..6]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.note_block.flute player @a[distance=..6] ~ ~ ~ 100 2"
+					"command":"function origins-plus-plus:light-mage/team_add"
 				},
 				{
 					"type":"origins:equipped_item_action",
@@ -61,11 +57,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"team leave @a[distance=1..6]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:block.note_block.flute player @a[distance=..6] ~ ~ ~ 100 0.1"
+					"command":"function origins-plus-plus:light-mage/team_remove"
 				},
 				{
 					"type":"origins:equipped_item_action",

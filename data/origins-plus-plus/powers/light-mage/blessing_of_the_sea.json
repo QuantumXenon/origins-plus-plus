@@ -4,34 +4,8 @@
 	"key":"key.origins.primary_active",
 	"cooldown":100,
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..6] minecraft:water_breathing 120 0"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @e[distance=..6] minecraft:dolphins_grace 30 0"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:dust 0 0 1 2 ~ ~ ~ 2 2 2 10 100"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"playsound minecraft:block.conduit.activate player @a[distance=..20] ~ ~ ~ 100 2 1"
-			},
-			{
-				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:light-mage/resource",
-				"change":-100
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"clear @s minecraft:heart_of_the_sea 1"
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:light-mage/blessing_of_the_sea"
 	},
 	"condition":{
 		"type":"origins:and",

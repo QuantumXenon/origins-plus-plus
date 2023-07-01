@@ -5,10 +5,6 @@
 		"actions":[
 			{
 				"type":"origins:execute_command",
-				"command":"gamerule showDeathMessages false"
-			},
-			{
-				"type":"origins:execute_command",
 				"command":"function origins-plus-plus:wandering-spirit/start_ray"
 			},
 			{

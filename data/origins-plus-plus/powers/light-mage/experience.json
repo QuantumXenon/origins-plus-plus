@@ -7,22 +7,8 @@
 	},
 	"cooldown":10,
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:light-mage/resource",
-				"change":-10
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"summon minecraft:experience_orb ~ ~ ~ {Value:5}"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"clear @s minecraft:quartz 1"
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:light-mage/experience"
 	},
 	"condition":{
 		"type":"origins:and",

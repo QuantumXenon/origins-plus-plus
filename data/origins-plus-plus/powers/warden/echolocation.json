@@ -1,17 +1,8 @@
 {
 	"type":"origins:active_self",
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"effect give @e[distance=1..32] minecraft:glowing 10 1 true"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.warden.sonic_boom ambient @a[distance=..32]"
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:warden/echolocation"
 	},
 	"cooldown":600,
 	"hud_render":{

@@ -8,15 +8,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"forceload add ~ ~"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Tags:[\"back\"],Invunerable:1b,NoGravity:1b,}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute in minecraft:the_nether run tp @s 777 128 777"
+					"command":"function origins-plus-plus:light-mage/create_pocket_dimension"
 				},
 				{
 					"type":"origins:delay",
@@ -25,23 +17,6 @@
 						"type":"origins:execute_command",
 						"command":"function origins-plus-plus:light-mage/pocket"
 					}
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @s minecraft:blindness 8 1"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:dust 0 0 0 3 ~ ~ ~ 2 2 1 10 100"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.lightning_bolt.thunder player @a[distance=..20] ~ ~ ~ 100 2 1"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:light-mage/resource",
-					"change":-50
 				}
 			]
 		},
@@ -69,38 +44,8 @@
 	"go_to":{
 		"type":"origins:active_self",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"forceload add ~ ~"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Tags:[\"back\"],Invunerable:1b,NoGravity:1b,}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute in minecraft:the_nether run tp @s 777 189 777"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @s minecraft:blindness 8 1"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:dust 0 0 0 3 ~ ~ ~ 2 2 1 10 100"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.lightning_bolt.thunder player @a[distance=..20] ~ ~ ~ 100 2 1"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:light-mage/resource",
-					"change":-50
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:light-mage/go_to_pocket_dimension"
 		},
 		"key":"key.origins.primary_active",
 		"condition":{
@@ -130,40 +75,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"summon minecraft:armor_stand ~ ~1 ~4 {Invisible:1b,Tags:[\"back\"],Invunerable:1b,NoGravity:1b,}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"forceload add ~ ~"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"team add tp"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"tag @e[distance=0..3] add tppocket"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute in minecraft:the_nether run tp @e[tag=tppocket] 777 189 777"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @e[tag=tppocket] minecraft:blindness 8 1"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:dust 0 0 0 3 ~ ~ ~ 2 2 1 10 100"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.lightning_bolt.thunder player @a[distance=..20] ~ ~ ~ 100 2 1"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:light-mage/resource",
-					"change":-50
+					"command":"function origins-plus-plus:light-mage/bring_to_pocket_dimension"
 				},
 				{
 					"type":"origins:delay",
@@ -198,42 +110,8 @@
 	"go_back":{
 		"type":"origins:active_self",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"tp @s @e[type=minecraft:armor_stand,tag=back,sort=nearest,limit=1]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"forceload remove ~ ~"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"kill @e[distance=0..3,type=minecraft:armor_stand,tag=back]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @s minecraft:blindness 8 1"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @s minecraft:slow_falling 30 1"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:dust 0 0 0 3 ~ ~ ~ 2 2 1 10 100"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.lightning_bolt.thunder player @a[distance=..20] ~ ~ ~ 100 2 1"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:light-mage/resource",
-					"change":-50
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:light-mage/go_back_from_pocket_dimension"
 		},
 		"key":"key.origins.secondary_active",
 		"condition":{
@@ -259,50 +137,8 @@
 	"bring_back":{
 		"type":"origins:active_self",
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"tag @e[distance=0..3] add tppocket"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"tp @e[tag=tppocket] @e[type=minecraft:armor_stand,tag=back,sort=nearest,limit=1]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"forceload remove ~ ~"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"tag @e[distance=0..3] remove tppocket"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"kill @e[distance=..5,type=minecraft:armor_stand,tag=back]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @e[tag=tppocket] minecraft:blindness 6 1"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"effect give @e[tag=tppocket] minecraft:slow_falling 100 1"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"particle minecraft:dust 0 0 0 3 ~ ~ ~ 2 2 1 10 100"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"playsound minecraft:entity.lightning_bolt.thunder player @a[distance=..20] ~ ~ ~ 100 2 1"
-				},
-				{
-					"type":"origins:change_resource",
-					"resource":"origins-plus-plus:light-mage/resource",
-					"change":-50
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:light-mage/bring_back_from_pocket_dimension"
 		},
 		"key":"key.origins.secondary_active",
 		"condition":{

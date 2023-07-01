@@ -3,26 +3,8 @@
 	"key":"key.origins.primary_active",
 	"cooldown":100,
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"effect clear @e[distance=..12]"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:end_rod ~ ~ ~ 2 2 2 2 100"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"playsound minecraft:entity.player.levelup player @a[distance=..20] ~ ~ ~ 100 2 1"
-			},
-			{
-				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:light-mage/resource",
-				"change":-100
-			}
-		]
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:light-mage/clear"
 	},
 	"condition":{
 		"type":"origins:and",

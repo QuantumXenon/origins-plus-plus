@@ -16,34 +16,12 @@
 			}
 		},
 		"max_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"summon minecraft:armor_stand ~ ~ ~ {NoGravity:0b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:[\"Blue_Portal\"],ArmorItems:[{},{},{},{id:\"minecraft:player_head\",Count:1b,tag:{SkullOwner:{Id:[I;1173494200,293750280,-1239947527,-1060776172],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTlhMWMxOTFlMGViYWJlODlkZGYxOGE4YmFjOGY0MjgwZTNhYzZiYzY2MWMxM2NlMWRmZjY3NGRhZDI4ODVlMyJ9fX0=\"}]}}}}]}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"forceload add ~ ~ ~ ~"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:warper/portality_max_action"
 		},
 		"min_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1,sort=nearest] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:1,Tags:[\"force1\"]}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @e[type=minecraft:area_effect_cloud,tag=force1,limit=1,sort=nearest] run kill @e[distance=..1,type=minecraft:armor_stand,tag=Blue_Portal]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @e[type=minecraft:area_effect_cloud,tag=force1,limit=1,sort=nearest] run forceload remove ~ ~"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:warper/portality_min_action"
 		}
 	},
 	"toggled_orange":{

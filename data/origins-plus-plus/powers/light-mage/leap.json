@@ -22,20 +22,7 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"playsound minecraft:block.note_block.didgeridoo player @s ~ ~ ~ 100 0.9 1"
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:enchanted_hit ~ ~ ~ 3 3 3 3 1000"
-			},
-			{
-				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:light-mage/resource",
-				"change":-100
-			},
-			{
-				"type":"origins:execute_command",
-				"command":"clear @s minecraft:rabbit_foot 1"
+				"command":"function origins-plus-plus:light-mage/leap"
 			}
 		]
 	},
