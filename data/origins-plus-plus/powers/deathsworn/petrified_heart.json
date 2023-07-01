@@ -21,7 +21,7 @@
   "conditions":[
    {
     "type":"origins:in_tag",
-    "tag":"origins-plus-plus:petrified_hearts"
+    "tag":"origins-plus-plus:petrified_heart_mobs"
    },
    {
     "type":"origins:nbt",
