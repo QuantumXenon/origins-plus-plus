@@ -12,10 +12,10 @@
 					"type":"origins:and",
 					"actions":{
 						"type":"origins:execute_command",
-						"command":"tag @s add tping"
+						"command":"tag @s add warper_tp"
 					}
 				},
-				"command_along_ray":"execute positioned ~ ~ ~ if block ~ ~ ~ air run tp @e[tag=tping,sort=nearest] ~ ~ ~",
+				"command_along_ray":"execute positioned ~ ~ ~ if block ~ ~ ~ air run tp @e[tag=warper_tp,sort=nearest] ~ ~ ~",
 				"miss_action":{
 					"type":"origins:and",
 					"actions":[
@@ -26,7 +26,7 @@
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"tag @s remove tping"
+							"command":"tag @s remove warper_tp"
 						}
 					]
 				},
@@ -40,7 +40,7 @@
 						},
 						{
 							"type":"origins:execute_command",
-							"command":"tag @s remove tping"
+							"command":"tag @s remove warper_tp"
 						}
 					]
 				}
