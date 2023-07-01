@@ -12,7 +12,7 @@
 		"type":"origins:block_in_radius",
 		"block_condition":{
 			"type":"origins:in_tag",
-			"tag":"origins-plus-plus:other_light_sources"
+			"tag":"origins-plus-plus:speed_light_sources"
 		},
 		"radius":12,
 		"shape":"cube",
