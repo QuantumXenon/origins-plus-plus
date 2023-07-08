@@ -1,15 +1,18 @@
 {
-	"type":"origins:action_on_callback",
-	"entity_action_chosen":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:giant/size"
+	"type":"origins:multiple",
+	"scale":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:giant/size"
+		},
+		"interval":20
 	},
-	"entity_action_respawned":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:giant/size"
-	},
-	"entity_action_lost":{
-		"type":"origins:execute_command",
-		"command":"scale reset"
+	"reset":{
+		"type":"origins:action_on_callback",
+		"entity_action_lost":{
+			"type":"origins:execute_command",
+			"command":"scale reset"
+		}
 	}
 }
