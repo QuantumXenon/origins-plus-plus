@@ -11,7 +11,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"tag":"origins-plus-plus:end_items"
+						"tag":"origins-plus-plus:end_foods"
 					}
 				}
 			},
