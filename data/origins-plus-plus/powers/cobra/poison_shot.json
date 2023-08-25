@@ -4,7 +4,6 @@
 	"tag":"{life:1000,pickup:0b,CustomPotionColor:3702861,CustomPotionEffects:[{Id:19,Duration:100,Amplifier:1,Ambient:1},{Id:18,Duration:100,Amplifier:0,Ambient:1}]}",
 	"cooldown":100,
 	"hud_render":{
-		"should_render":true,
 		"bar_index":8
 	},
 	"count":1,

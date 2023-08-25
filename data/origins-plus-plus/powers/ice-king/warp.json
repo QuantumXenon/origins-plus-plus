@@ -5,8 +5,6 @@
 		"cooldown":160,
 		"key":"key.origins.secondary_active",
 		"hud_render":{
-			"should_render":true,
-			"sprite_location":"origins:textures/gui/resource_bar.png",
 			"bar_index":6
 		},
 		"entity_action":{

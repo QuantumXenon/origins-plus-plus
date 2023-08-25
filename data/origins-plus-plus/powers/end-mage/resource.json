@@ -4,8 +4,6 @@
 	"max":800,
 	"start_value":100,
 	"hud_render":{
-		"sprite_location":"origins:textures/gui/resource_bar.png",
-		"should_render":true,
 		"bar_index":6
 	}
 }

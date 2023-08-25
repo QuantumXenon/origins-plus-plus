@@ -22,7 +22,6 @@
 		"max":1,
 		"min":0,
 		"hud_render":{
-			"should_render":true,
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
 			"bar_index":9,
 			"condition":{
@@ -38,7 +37,6 @@
 		"max":500,
 		"min":0,
 		"hud_render":{
-			"should_render":true,
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
 			"bar_index":9,
 			"condition":{

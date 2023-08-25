@@ -6,7 +6,6 @@
 	"divergence":1,
 	"cooldown":600,
 	"hud_render":{
-		"should_render":true,
 		"bar_index":15,
 		"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png"
 	},

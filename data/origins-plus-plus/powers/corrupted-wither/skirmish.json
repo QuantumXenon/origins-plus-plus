@@ -13,7 +13,6 @@
 		"min":0,
 		"max":10,
 		"hud_render":{
-			"should_render":true,
 			"bar_index":3
 		}
 	},

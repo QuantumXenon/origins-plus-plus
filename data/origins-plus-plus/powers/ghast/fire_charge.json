@@ -8,7 +8,6 @@
 	},
 	"cooldown":100,
 	"hud_render":{
-		"should_render":true,
 		"bar_index":7
 	}
 }

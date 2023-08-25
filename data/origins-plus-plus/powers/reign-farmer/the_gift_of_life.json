@@ -2,7 +2,6 @@
 	"type":"origins:active_self",
 	"cooldown":250,
 	"hud_render":{
-		"should_render":true,
 		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
 		"bar_index":0
 	},

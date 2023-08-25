@@ -5,7 +5,6 @@
 	"start_value":200,
 	"hud_render":{
 		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-		"should_render":true,
 		"bar_index":9
 	}
 }

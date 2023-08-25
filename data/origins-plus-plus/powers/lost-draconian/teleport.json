@@ -3,7 +3,7 @@
 	"key":"key.origins.secondary_active",
 	"cooldown":60,
 	"hud_render":{
-		"should_render":true
+		"bar_index":6
 	},
 	"entity_action":{
 		"type":"origins:raycast",

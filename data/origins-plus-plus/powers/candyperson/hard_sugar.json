@@ -2,7 +2,6 @@
 	"type":"origins:active_self",
 	"key":"key.origins.primary_active",
 	"hud_render":{
-		"should_render":true,
 		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
 		"bar_index":1
 	},

@@ -21,7 +21,6 @@
 	"key":"key.origins.primary_active",
 	"cooldown":500,
 	"hud_render":{
-		"should_render":true,
 		"bar_index":2
 	}
 }

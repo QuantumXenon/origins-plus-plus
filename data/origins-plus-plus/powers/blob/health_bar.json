@@ -6,7 +6,6 @@
 		"max":1000,
 		"start_value":1000,
 		"hud_render":{
-			"should_render":true,
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
 			"bar_index":15
 		}

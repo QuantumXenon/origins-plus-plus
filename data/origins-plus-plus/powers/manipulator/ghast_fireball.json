@@ -39,7 +39,6 @@
 		"type":"origins:fire_projectile",
 		"entity_type":"minecraft:fireball",
 		"hud_render":{
-			"should_render":true,
 			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
 			"bar_index":7
 		},

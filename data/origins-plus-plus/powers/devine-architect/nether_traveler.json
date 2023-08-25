@@ -4,7 +4,6 @@
 	"cooldown":6000,
 	"hud_render":{
 		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-		"should_render":true,
 		"bar_index":7
 	},
 	"entity_action":{

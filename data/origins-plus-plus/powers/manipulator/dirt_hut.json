@@ -6,7 +6,6 @@
 		"key":"key.origins.primary_active",
 		"cooldown":200,
 		"hud_render":{
-			"should_render":true,
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
 			"bar_index":21
 		},

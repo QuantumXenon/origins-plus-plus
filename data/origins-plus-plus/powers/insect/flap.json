@@ -6,7 +6,6 @@
 		"max":8,
 		"start_value":8,
 		"hud_render":{
-			"should_render":true,
 			"bar_index":4
 		}
 	},

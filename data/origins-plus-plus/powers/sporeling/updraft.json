@@ -4,7 +4,6 @@
 		"type":"origins:launch",
 		"cooldown":150,
 		"hud_render":{
-			"sprite_location":"origins:textures/gui/resource_bar.png",
 			"bar_index":4
 		},
 		"sound":"entity.pig.saddle",

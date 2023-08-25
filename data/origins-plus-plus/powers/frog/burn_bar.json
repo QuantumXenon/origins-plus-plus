@@ -6,7 +6,6 @@
 		"min":0,
 		"max":50,
 		"hud_render":{
-			"sprite_location":"origins:textures/gui/resource_bar.png",
 			"bar_index":7
 		}
 	},

@@ -59,7 +59,6 @@
 		},
 		"cooldown":500,
 		"hud_render":{
-			"should_render":true,
 			"bar_index":5
 		},
 		"key":"key.jump"
@@ -124,7 +123,6 @@
 		},
 		"cooldown":500,
 		"hud_render":{
-			"should_render":true,
 			"bar_index":5
 		},
 		"key":"key.jump"
