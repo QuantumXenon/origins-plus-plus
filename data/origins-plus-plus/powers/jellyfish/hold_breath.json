@@ -1,6 +1,6 @@
 {
 	"type":"origins:active_self",
-	"key":"key.origins.primary_active",
+	"key":"key.origins.secondary_active",
 	"entity_action":{
 		"type":"origins:apply_effect",
 		"effect":{
@@ -10,6 +10,7 @@
 			"show_icon":false
 		}
 	},
+	"cooldown":6000,
 	"condition":{
 		"type":"origins:submerged_in",
 		"fluid":"minecraft:water"
