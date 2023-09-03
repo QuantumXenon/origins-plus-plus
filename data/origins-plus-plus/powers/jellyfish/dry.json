@@ -8,12 +8,6 @@
 		"hud_render":{
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
 			"bar_index":15
-		},
-		"min_action":{
-			"type":"origins:damage_over_time",
-			"interval":20,
-			"damage":2,
-			"damage_source":"dryout"
 		}
 	},
 	"deplete":{
@@ -61,6 +55,18 @@
 					"type":"origins:in_rain"
 				}
 			]
+		}
+	},
+	"dry_out":{
+		"type":"origins:damage_over_time",
+		"interval":20,
+		"damage":2,
+		"damage_source":"dryout",
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_dryness",
+			"comparison":"==",
+			"compare_to":0
 		}
 	}
 }
