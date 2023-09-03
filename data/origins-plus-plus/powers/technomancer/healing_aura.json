@@ -29,7 +29,7 @@
 				"item_condition":{
 					"type":"origins:ingredient",
 					"ingredient":{
-						"item":"minecraft:warped_fungus_on_a_stick"
+						"item":"minecraft:carrot_on_a_stick"
 					}
 				}
 			},
