@@ -61,7 +61,11 @@
 		"type":"origins:damage_over_time",
 		"interval":20,
 		"damage":2,
-		"damage_source":"dryout",
+		"damage_source":{
+			"name":"dryout",
+			"unblockable":true,
+			"bypasses_armor":true
+		},
 		"condition":{
 			"type":"origins:resource",
 			"resource":"*:*_dryness",
