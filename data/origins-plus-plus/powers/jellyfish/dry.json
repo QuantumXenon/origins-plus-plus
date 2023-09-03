@@ -12,7 +12,8 @@
 		"min_action":{
 			"type":"origins:damage_over_time",
 			"interval":20,
-			"damage":2
+			"damage":2,
+			"damage_source":"dryout"
 		}
 	},
 	"deplete":{
