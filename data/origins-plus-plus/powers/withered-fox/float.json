@@ -2,8 +2,8 @@
 	"type":"origins:multiple",
 	"resource":{
 		"type":"origins:resource",
-		"max":300,
 		"min":0,
+		"max":300,
 		"start_value":300,
 		"hud_render":{
 			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
@@ -14,22 +14,6 @@
 		"type":"origins:toggle",
 		"key":"key.jump",
 		"active_by_default":false
-	},
-	"weak":{
-		"type":"origins:stacking_status_effect",
-		"condition":{
-			"type":"origins:power_active",
-			"power":"*:*_toggle"
-		},
-		"min_stacks":0,
-		"max_stacks":1,
-		"duration_per_stack":20,
-		"effect":{
-			"show_particles":false,
-			"show_icon":false,
-			"effect":"minecraft:weakness",
-			"amplifier":100
-		}
 	},
 	"timer":{
 		"type":"origins:action_over_time",
@@ -52,7 +36,7 @@
 			}
 		}
 	},
-	"wither":{
+	"damage":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
 		"max_stacks":1,
@@ -60,8 +44,7 @@
 		"effect":{
 			"show_particles":false,
 			"show_icon":false,
-			"effect":"minecraft:wither",
-			"amplifier":1
+			"effect":"minecraft:instant_health"
 		},
 		"condition":{
 			"type":"origins:resource",
