@@ -450,7 +450,7 @@
 	"power.origins-plus-plus.automaton/power_saving_mode.name":"Power Saving Mode",
 	"power.origins-plus-plus.automaton/toggle.description":"You can switch between fire and water attacks",
 	"power.origins-plus-plus.automaton/toggle.name":"Elemental Attacks",
-	"power.origins-plus-plus.automaton/undying.description":"You do not die, but you will power down when too low on steam. (*You will die after a minute of being powered down)",
+	"power.origins-plus-plus.automaton/undying.description":"You do not die, but you will power down when out of steam. (*You have a countdown bar which will deplete when you run out of steam and will replenish when you have steam. If it runs out, you will die.",
 	"power.origins-plus-plus.automaton/undying.name":"Deathless*",
 	"power.origins-plus-plus.automaton/unnatural.description":"You don't need to eat. You can't regen naturally either.",
 	"power.origins-plus-plus.automaton/unnatural.name":"Unnatural",
