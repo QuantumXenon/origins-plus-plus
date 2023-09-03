@@ -1,17 +1,16 @@
 {
 	"powers":[
+		"origins:carnivore",
+		"origins:cat_vision",
+		"origins:elytra",
+		"origins:fall_immunity",
+		"origins:launch_into_air",
+		"origins:light_armor",
 		"origins:nine_lives",
 		"origins:no_shield",
-		"origins:fall_immunity",
-		"origins:cat_vision",
-		"origins:carnivore",
-		"origins:launch_into_air",
 		"origins-plus-plus:felvaxian/feline_legs",
-		"origins-plus-plus:felvaxian/pounce",
 		"origins-plus-plus:felvaxian/ravens_defense",
 		"origins-plus-plus:felvaxian/scavenger_pouch",
-		"origins-plus-plus:felvaxian/soaring_wings",
-		"origins-plus-plus:felvaxian/tigers_roar",
 		"origins-plus-plus:felvaxian/unholy_aura"
 	],
 	"icon":"minecraft:black_dye",
