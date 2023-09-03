@@ -16,7 +16,8 @@
 		}
 	},
 	"increase_honey_block":{
-		"type":"origins:action_on_item_use",
+		"type":"origins:active_self",
+		"key":"key.origins.primary_active",
 		"entity_action":{
 			"type":"origins:and",
 			"actions":[
@@ -26,21 +27,23 @@
 					"change":10
 				},
 				{
-					"type":"origins:equipped_item",
+					"type":"origins:equipped_item_action",
 					"equipment_slot":"offhand",
-					"item_condition":{
-						"type":"origins:ingredient",
-						"ingredient":{
-							"item":"minecraft:honey_block"
-						}
+					"action":{
+						"type":"origins:consume",
+						"amount":1
 					}
 				}
 			]
 		},
 		"item_condition":{
-			"type":"origins:ingredient",
-			"ingredient":{
-				"item":"minecraft:honey_bottle"
+			"type":"origins:equipped_item",
+			"equipment_slot":"offhand",
+			"item_condition":{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"item":"minecraft:honey_block"
+				}
 			}
 		}
 	},
