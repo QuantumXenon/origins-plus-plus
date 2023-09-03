@@ -1,8 +1,22 @@
 {
-	"type":"origins:night_vision",
-	"strength":1,
-	"condition":{
-		"type":"origins:submerged_in",
-		"fluid":"minecraft:water"
+	"type":"origins:multiple",
+	"water_vision":{
+		"type":"origins:night_vision",
+		"strength":1,
+		"condition":{
+			"type":"origins:submerged_in",
+			"fluid":"minecraft:water"
+		}
+	},
+	"water_breathing":{
+		"type":"origins:stacking_status_effect",
+		"min_stacks":0,
+		"max_stacks":1,
+		"duration_per_stack":20,
+		"effect":{
+			"effect":"minecraft:water_breathing",
+			"show_particles":false,
+			"show_icon":false
+		}
 	}
 }

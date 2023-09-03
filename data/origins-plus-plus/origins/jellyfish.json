@@ -1,15 +1,12 @@
 {
 	"powers":[
-		"origins:climbing",
 		"origins:aqua_affinity",
 		"origins:aquatic",
 		"origins:conduit_power_on_land",
 		"origins:like_water",
 		"origins:swim_speed",
-		"origins:water_breathing",
 		"origins-plus-plus:jellyfish/aquatic_agriculture",
 		"origins-plus-plus:jellyfish/dry",
-		"origins-plus-plus:jellyfish/hold_breath",
 		"origins-plus-plus:jellyfish/jelly_body",
 		"origins-plus-plus:jellyfish/little_blob",
 		"origins-plus-plus:jellyfish/ship_dweller",
