@@ -36,7 +36,7 @@
 				}
 			]
 		},
-		"item_condition":{
+		"condition":{
 			"type":"origins:equipped_item",
 			"equipment_slot":"offhand",
 			"item_condition":{
