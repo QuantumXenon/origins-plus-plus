@@ -14,7 +14,7 @@
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:technomancer/tech_mana_resource",
-			"change":10
+			"change":20
 		},
 		"interval":20,
 		"condition":{

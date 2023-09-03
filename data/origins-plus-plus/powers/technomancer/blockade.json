@@ -10,7 +10,7 @@
 			{
 				"type":"origins:change_resource",
 				"resource":"origins-plus-plus:technomancer/tech_mana_resource",
-				"change":-10000
+				"change":-5000
 			},
 			{
 				"type":"origins:apply_effect",
@@ -63,7 +63,7 @@
 				"type":"origins:resource",
 				"resource":"origins-plus-plus:technomancer/tech_mana_resource",
 				"comparison":">=",
-				"compare_to":10000
+				"compare_to":5000
 			},
 			{
 				"type":"origins:fluid_height",

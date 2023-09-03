@@ -43,7 +43,7 @@
 				"type":"origins:resource",
 				"resource":"origins-plus-plus:technomancer/tech_mana_resource",
 				"comparison":">=",
-				"compare_to":1000
+				"compare_to":250
 			},
 			{
 				"type":"origins:fluid_height",
