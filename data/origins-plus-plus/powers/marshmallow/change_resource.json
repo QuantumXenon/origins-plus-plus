@@ -6,7 +6,7 @@
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:marshmallow/resource",
-			"change":5
+			"change":3
 		},
 		"item_condition":{
 			"type":"origins:ingredient",
@@ -24,7 +24,7 @@
 				{
 					"type":"origins:change_resource",
 					"resource":"origins-plus-plus:marshmallow/resource",
-					"change":10
+					"change":5
 				},
 				{
 					"type":"origins:equipped_item_action",
@@ -49,11 +49,11 @@
 	},
 	"decrease_water":{
 		"type":"origins:action_over_time",
-		"interval":10,
+		"interval":20,
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:marshmallow/resource",
-			"change":-5
+			"change":-3
 		},
 		"condition":{
 			"type":"origins:or",
@@ -72,11 +72,11 @@
 	},
 	"decrease_fire":{
 		"type":"origins:action_when_damage_taken",
-		"cooldown":10,
+		"cooldown":20,
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:marshmallow/resource",
-			"change":-5
+			"change":-3
 		},
 		"damage_condition":{
 			"type":"origins:or",
