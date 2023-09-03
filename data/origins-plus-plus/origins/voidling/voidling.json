@@ -7,10 +7,12 @@
 		"origins-plus-plus:voidling/void_child",
 		"origins-plus-plus:voidling/voidling_form"
 	],
+	"upgrades":[
+		{
+			"condition":"adventure/fall_from_world_height",
+			"origin":"origins-plus-plus:voidling/voidborne"
+		}
+	],
 	"icon":"minecraft:obsidian",
-	"impact":3,
-	"upgrades":{
-		"condition":"adventure/fall_from_world_height",
-		"origin":"origins-plus-plus:voidling/voidborne"
-	}
+	"impact":3
 }

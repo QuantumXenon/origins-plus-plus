@@ -11,11 +11,13 @@
 		"origins-plus-plus:voidling/winged",
 		"origins-plus-plus:voidling/winged_limits"
 	],
+	"upgrades":[
+		{
+			"condition":"minecraft:end/kill_dragon",
+			"origin":"origins-plus-plus:voidling/supreme_voidborne"
+		}
+	],
 	"icon":"minecraft:bedrock",
 	"impact":3,
-	"unchoosable":true,
-	"upgrades":{
-		"condition":"minecraft:end/kill_dragon",
-		"origin":"origins-plus-plus:voidling/supreme_voidborne"
-	}
+	"unchoosable":true
 }
