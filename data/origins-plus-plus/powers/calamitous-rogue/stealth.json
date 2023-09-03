@@ -105,7 +105,7 @@
 			"comparison":"=="
 		}
 	},
-	"invis":{
+	"invisible":{
 		"type":"origins:invisibility",
 		"render_armor":false,
 		"condition":{
