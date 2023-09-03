@@ -1,21 +1,18 @@
 {
 	"type":"origins:multiple",
 	"hidden":true,
-	"effects":{
-		"type":"origins:stacking_status_effect",
-		"min_stacks":0,
-		"max_stacks":1,
-		"duration_per_stack":20,
-		"effect":{
-			"effect":"minecraft:strength",
-			"show_particles":false,
-			"show_icon":false
+	"size": {
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:marshmallow/size1"
 		},
+		"interval":20,
 		"condition":{
 			"type":"origins:resource",
 			"resource":"origins-plus-plus:marshmallow/resource",
-			"comparison":">=",
-			"compare_to":1
+			"comparison":"<=",
+			"compare_to":10
 		}
 	},
 	"health":{
@@ -23,14 +20,14 @@
 		"modifier":{
 			"attribute":"minecraft:generic.max_health",
 			"operation":"addition",
-			"value":-4
+			"value":-8
 		},
 		"update_health":true,
 		"condition":{
 			"type":"origins:resource",
 			"resource":"origins-plus-plus:marshmallow/resource",
-			"comparison":"==",
-			"compare_to":1
+			"comparison":"<=",
+			"compare_to":10
 		}
 	}
 }

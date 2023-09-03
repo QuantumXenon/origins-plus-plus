@@ -1,0 +1,37 @@
+{
+    "type":"origins:multiple",
+    "melt":{
+        "type":"origins:damage_over_time",
+        "interval":20,
+        "damage":2,
+        "damage_source":{
+            "name":"hurt_by_water",
+            "unblockable":true,
+            "bypasses_armor":true
+        },
+        "condition":{
+            "type":"origins:or",
+            "conditions":[
+                {
+                    "type":"origins:fluid_height",
+                    "fluid":"minecraft:water",
+                    "comparison":">",
+                    "compare_to":0
+                },
+                {
+                    "type":"origins:in_rain"
+                }
+            ]
+        }
+    },
+    "float":{
+        "type":"origins:walk_on_fluid",
+        "fluid":"minecraft:water",
+        "condition":{
+            "type":"origins:fluid_height",
+            "fluid":"minecraft:water",
+            "comparison":"<=",
+            "compare_to":0.4
+        }
+    }
+}

@@ -1,9 +1,8 @@
 {
 	"type":"origins:resource",
 	"min":0,
-	"max":3,
+	"max":30,
 	"hud_render":{
-		"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
-		"bar_index":7
+		"should_render":true
 	}
 }

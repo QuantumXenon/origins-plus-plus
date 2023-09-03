@@ -1,30 +1,100 @@
 {
 	"type":"origins:multiple",
 	"hidden":true,
-	"add":{
-		"type":"origins:action_when_damage_taken",
-		"entity_action":{
-			"type":"origins:change_resource",
-			"resource":"origins-plus-plus:marshmallow/resource",
-			"change":1
-		},
-		"damage_condition":{
-			"type":"origins:fire"
-		},
-		"cooldown":300
-	},
-	"remove":{
+	"increase_honey_bottle":{
 		"type":"origins:action_on_item_use",
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:marshmallow/resource",
-			"change":-1
+			"change":5
 		},
 		"item_condition":{
 			"type":"origins:ingredient",
 			"ingredient":{
 				"item":"minecraft:honey_bottle"
 			}
+		}
+	},
+	"increase_honey_block":{
+		"type":"origins:action_on_item_use",
+		"entity_action":{
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:change_resource",
+					"resource":"origins-plus-plus:marshmallow/resource",
+					"change":10
+				},
+				{
+					"type":"origins:equipped_item",
+					"equipment_slot":"offhand",
+					"item_condition":{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:honey_block"
+						}
+					}
+				}
+			]
+		},
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"item":"minecraft:honey_bottle"
+			}
+		}
+	},
+	"decrease_water":{
+		"type":"origins:action_over_time",
+		"interval":10,
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:marshmallow/resource",
+			"change":-5
+		},
+		"condition":{
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:fluid_height",
+					"fluid":"minecraft:water",
+					"comparison":">",
+					"compare_to":0
+				},
+				{
+					"type":"origins:in_rain"
+				}
+			]
+		}
+	},
+	"decrease_fire":{
+		"type":"origins:action_when_damage_taken",
+		"cooldown":10,
+		"entity_action":{
+			"type":"origins:change_resource",
+			"resource":"origins-plus-plus:marshmallow/resource",
+			"change":-5
+		},
+		"damage_condition":{
+			"type":"origins:or",
+			"conditions":[
+				{
+					"type":"origins:name",
+					"name":"inFire"
+				},
+				{
+					"type":"origins:name",
+					"name":"onFire"
+				},
+				{
+					"type":"origins:name",
+					"name":"lava"
+				},
+				{
+					"type":"origins:name",
+					"name":"hotFloor"
+				}
+			]
 		}
 	}
 }
