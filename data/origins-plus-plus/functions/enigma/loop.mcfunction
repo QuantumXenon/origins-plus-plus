@@ -17,7 +17,7 @@ effect give @e[type=!#origins-plus-plus:untargetable,scores={Enigma=1..}] minecr
 
 effect give @e[type=!#origins-plus-plus:untargetable,scores={Enigma=10..19}] minecraft:slowness 1 2 true
 effect give @e[type=!#origins-plus-plus:untargetable,scores={Enigma=10..}] minecraft:blindness 1 0 true
-effect give @a[type=!#origins-plus-plus:untargetable,scores={Enigma=10..}] minecraft:nausea 1 0 true
+effect give @a[scores={Enigma=10..}] minecraft:nausea 1 0 true
 
 execute as @e[type=!#origins-plus-plus:untargetable,scores={Enigma2=1..}] at @s run particle minecraft:smoke ~ ~0.75 ~ 0.25 0.5 0.25 0.025 5
 execute as @e[type=!#origins-plus-plus:untargetable,scores={Enigma2=1..}] at @s run effect give @s minecraft:glowing 1 0 true
