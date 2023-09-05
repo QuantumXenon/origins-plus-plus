@@ -7,6 +7,6 @@ execute as @e[tag=Portality,tag=!Set_Portal] at @s store result score @s UUID3 r
 execute as @e[tag=Portality,tag=!Set_Portal] at @s store result score @s UUID4 run data get entity @a[sort=nearest,limit=1,distance=..1] UUID[3]
 tag @e[tag=Portality,tag=!Set_Portal] add Set_Portal
 
-execute as @e[type=marker,tag=Ignore_Glass,scores={lpm_Num=2}] at @s run setblock ~ ~ ~ air
-scoreboard players add @e[type=marker,tag=Ignore_Glass] lpm_Num 1
-execute as @e[type=marker,tag=Ignore_Glass,scores={lpm_Num=2}] at @s if block ~ ~ ~ air run kill @s
+execute as @e[type=minecraft:marker,tag=Ignore_Glass,scores={lpm_Num=2}] at @s run setblock ~ ~ ~ air
+scoreboard players add @e[type=minecraft:marker,tag=Ignore_Glass] lpm_Num 1
+execute as @e[type=minecraft:marker,tag=Ignore_Glass,scores={lpm_Num=2}] at @s if block ~ ~ ~ air run kill @s

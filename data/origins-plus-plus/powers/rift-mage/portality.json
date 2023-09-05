@@ -8,6 +8,11 @@
 			"should_render":false
 		}
 	},
+	"phase_toggle":{
+		"type":"origins:toggle",
+		"active_by_default":true,
+		"key":"key.origins.secondary_active"
+	},
 	"phase":{
 		"type":"origins:phasing",
 		"blacklist":true,
@@ -29,10 +34,21 @@
 			]
 		},
 		"condition":{
-			"type":"origins:resource",
-			"resource":"*:*_toggle",
-			"compare_to":1,
-			"comparison":"=="
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:resource",
+					"resource":"*:*_toggle",
+					"compare_to":1,
+					"comparison":"=="
+				},
+				{
+					"condition":{
+						"type":"origins:power_active",
+						"power":"*:*_phase_toggle"
+					}
+				}
+			]
 		}
 	},
 	"fly":{
@@ -44,27 +60,122 @@
 			"comparison":"=="
 		}
 	},
+	"night_vision":{
+		"type":"origins:night_vision",
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_toggle",
+			"compare_to":1,
+			"comparison":"=="
+		}
+	},
+	"glowing_mobs":{
+		"type": "origins:action_over_time",
+		"entity_action":{
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:block_in_radius",
+				"block_condition":{
+					"type":"origins:block",
+					"block":"minecraft:beacon"
+				},
+				"radius":32,
+				"shape":"cube",
+				"comparison":">=",
+				"compare_to":1
+			},
+			"if_action":{
+				"type": "origins:execute_command",
+				"command": "effect give @e[distance=1..32] minecraft:glowing 3 1 true"
+			},
+			"else_action":{
+				"type": "origins:execute_command",
+				"command": "effect give @e[distance=1..20] minecraft:glowing 3 1 true"
+			}
+		},
+		"interval": 20,
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_toggle",
+			"compare_to":1,
+			"comparison":"=="
+		}
+	},
 	"detect_rift":{
 		"type":"origins:action_over_time",
 		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"execute if entity @e[tag=Portality,distance=..22] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:block_in_radius",
+				"block_condition":{
+					"type":"origins:block",
+					"block":"minecraft:beacon"
+				},
+				"radius":32,
+				"shape":"cube",
+				"comparison":">=",
+				"compare_to":1
+			},
+			"if_action":{
+				"type":"origins:execute_command",
+				"command":"execute if entity @e[tag=Portality,distance=..32] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
+			},
+			"else_action":{
+				"type":"origins:execute_command",
+				"command":"execute if entity @e[tag=Portality,distance=..20] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
+			}
 		},
 		"interval":1
 	},
 	"detect_rift2":{
 		"type":"origins:action_over_time",
 		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"execute unless entity @e[tag=Portality,distance=..22] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:block_in_radius",
+				"block_condition":{
+					"type":"origins:block",
+					"block":"minecraft:beacon"
+				},
+				"radius":32,
+				"shape":"cube",
+				"comparison":">=",
+				"compare_to":1
+			},
+			"if_action":{
+				"type":"origins:execute_command",
+				"command":"execute unless entity @e[tag=Portality,distance=..32] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
+			},
+			"else_action":{
+				"type":"origins:execute_command",
+				"command":"execute unless entity @e[tag=Portality,distance=..20] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
+			}
 		},
 		"interval":1
 	},
 	"detect_rift3":{
 		"type":"origins:action_over_time",
 		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"execute if entity @e[tag=Portality,distance=20..22] run title @s actionbar {\"translate\":\"origins-plus-plus.rift-mage.message\"}"
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:block_in_radius",
+				"block_condition":{
+					"type":"origins:block",
+					"block":"minecraft:beacon"
+				},
+				"radius":32,
+				"shape":"cube",
+				"comparison":">=",
+				"compare_to":1
+			},
+			"if_action":{
+				"type":"origins:execute_command",
+				"command":"execute if entity @e[tag=Portality,distance=30..32] run title @s actionbar {\"translate\":\"origins-plus-plus.rift-mage.message\",\"color\":\"red\"}"
+			},
+			"else_action":{
+				"type":"origins:execute_command",
+				"command":"execute if entity @e[tag=Portality,distance=18..20] run title @s actionbar {\"translate\":\"origins-plus-plus.rift-mage.message\",\"color\":\"red\"}"
+			}
 		},
 		"interval":1
 	},
