@@ -12,15 +12,15 @@ scoreboard players remove @e[scores={Enigma=1..7,Enigma2=0}] Enigma 1
 
 scoreboard players remove @e[scores={Enigma2=1..}] Enigma2 1
 
-effect give @e[scores={Enigma=1..9}] minecraft:slowness 1 1 true
-effect give @e[scores={Enigma=1..}] minecraft:weakness 1 0 true
+effect give @e[type=!#origins-plus-plus:untargetable,scores={Enigma=1..9}] minecraft:slowness 1 1 true
+effect give @e[type=!#origins-plus-plus:untargetable,scores={Enigma=1..}] minecraft:weakness 1 0 true
 
-effect give @e[scores={Enigma=10..19}] minecraft:slowness 1 2 true
-effect give @e[scores={Enigma=10..}] minecraft:blindness 1 0 true
-effect give @a[scores={Enigma=10..}] minecraft:nausea 1 0 true
+effect give @e[type=!#origins-plus-plus:untargetable,scores={Enigma=10..19}] minecraft:slowness 1 2 true
+effect give @e[type=!#origins-plus-plus:untargetable,scores={Enigma=10..}] minecraft:blindness 1 0 true
+effect give @a[type=!#origins-plus-plus:untargetable,scores={Enigma=10..}] minecraft:nausea 1 0 true
 
-execute as @e[scores={Enigma2=1..}] at @s run particle minecraft:smoke ~ ~0.75 ~ 0.25 0.5 0.25 0.025 5
-execute as @e[scores={Enigma2=1..}] at @s run effect give @s minecraft:glowing 1 0 true
+execute as @e[type=!#origins-plus-plus:untargetable,scores={Enigma2=1..}] at @s run particle minecraft:smoke ~ ~0.75 ~ 0.25 0.5 0.25 0.025 5
+execute as @e[type=!#origins-plus-plus:untargetable,scores={Enigma2=1..}] at @s run effect give @s minecraft:glowing 1 0 true
 
 execute as @e[tag=Enigma_Clone,tag=!Set_Clone] at @s store result score @s UUID1 run data get entity @a[sort=nearest,limit=1,distance=..1] UUID[0]
 execute as @e[tag=Enigma_Clone,tag=!Set_Clone] at @s store result score @s UUID2 run data get entity @a[sort=nearest,limit=1,distance=..1] UUID[1]
