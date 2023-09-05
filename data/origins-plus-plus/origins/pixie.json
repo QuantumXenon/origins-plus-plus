@@ -2,15 +2,13 @@
 	"powers":[
 		"origins:elytra",
 		"origins:fall_immunity",
-		"origins:climbing",
 		"origins:vegetarian",
 		"origins-plus-plus:pixie/bite_sized",
 		"origins-plus-plus:pixie/effect_glow",
 		"origins-plus-plus:pixie/effect_luck",
 		"origins-plus-plus:pixie/flying",
-		"origins-plus-plus:pixie/particle",
+		"origins-plus-plus:pixie/no_fireworks",
 		"origins-plus-plus:pixie/pixie_dust",
-		"origins-plus-plus:pixie/sound",
 		"origins-plus-plus:pixie/speed"
 	],
 	"icon":"minecraft:glowstone_dust",
