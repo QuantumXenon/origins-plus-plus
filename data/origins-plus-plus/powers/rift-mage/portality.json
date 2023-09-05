@@ -150,7 +150,7 @@
 				"command":"execute if entity @e[tag=Portality,distance=..20] run resource set @s origins-plus-plus:rift-mage/portality_toggle 1"
 			}
 		},
-		"interval":20
+		"interval":10
 	},
 	"detect_rift2":{
 		"type":"origins:action_over_time",
@@ -171,7 +171,7 @@
 				"command":"execute unless entity @e[tag=Portality,distance=..20] run resource set @s origins-plus-plus:rift-mage/portality_toggle 0"
 			}
 		},
-		"interval":20
+		"interval":10
 	},
 	"detect_rift3":{
 		"type":"origins:action_over_time",
@@ -192,7 +192,7 @@
 				"command":"execute if entity @e[tag=Portality,distance=18..20] run title @s actionbar {\"translate\":\"origins-plus-plus.rift-mage.message\",\"color\":\"red\"}"
 			}
 		},
-		"interval":20
+		"interval":1
 	},
 	"detect_rift4":{
 		"type":"origins:action_over_time",
