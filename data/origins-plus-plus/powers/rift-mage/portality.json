@@ -43,10 +43,8 @@
 					"comparison":"=="
 				},
 				{
-					"condition":{
-						"type":"origins:power_active",
-						"power":"*:*_phase_toggle"
-					}
+					"type":"origins:power_active",
+					"power":"*:*_phase_toggle"
 				}
 			]
 		}
