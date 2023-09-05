@@ -11,7 +11,7 @@
 	"phase_toggle":{
 		"type":"origins:toggle",
 		"active_by_default":true,
-		"key":"key.origins.secondary_active"
+		"key":"key.loadToolbarActivator"
 	},
 	"phase":{
 		"type":"origins:phasing",
@@ -189,6 +189,7 @@
 	},
 	"active":{
 		"type":"origins:active_self",
+		"key":"key.origins.secondary_active",
 		"entity_action":{
 			"type":"origins:execute_command",
 			"command":"function origins-plus-plus:rift-mage/portality"
