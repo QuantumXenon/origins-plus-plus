@@ -9,7 +9,7 @@ Origins++ is a collection of more than 100 origins to fully expand the origins e
 ## Mod Compatibility
 - Origins++ itself will not have built-in support for mods, but [this](https://github.com/QuantumXenon/origins-plus-plus-modded-support) datapack provides a compatability layer between Origins++ and other mods. Use the datapack to add modded foods, armour, etc to the tags used by Origins++.
   
-## Loader Support 
+## Mod Loader Support 
 - Fabric is supported as the main mod-loader and if issues are present on the Fabric version, they are very likely to be fixed.
 - Quilt is supported as the Fabric version should be compatible, but any Quilt-specific bugs are likely issues with Origins (Fabric) itself, so bugs may or may not be fixed.
 - Forge is supported on a best-effort basis as many issues are Forge-exclusive and issues with Origins (Forge) itself, so bugs may or may not be fixed.
