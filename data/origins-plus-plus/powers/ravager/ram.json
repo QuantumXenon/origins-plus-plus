@@ -24,11 +24,11 @@
 				}
 			]
 		},
-		"condition": {
-			"type": "origins:resource",
-			"resource": "*:*_cooldown",
-			"comparison": "<=",
-			"compare_to": 0
+		"condition":{
+			"type":"origins:resource",
+			"resource":"*:*_cooldown",
+			"comparison":"<=",
+			"compare_to":0
 		}
 	},
 	"duration":{

@@ -10,9 +10,9 @@
 		"show_icon":false
 	},
 	"condition":{
-		"type": "origins:command",
-		"command": "clear @s #minecraft:logs 0",
-		"comparison": ">=",
-		"compare_to": 64
+		"type":"origins:command",
+		"command":"clear @s #minecraft:logs 0",
+		"comparison":">=",
+		"compare_to":64
 	}
 }

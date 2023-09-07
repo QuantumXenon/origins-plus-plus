@@ -15,11 +15,11 @@
 			"command":"scale reset"
 		}
 	},
-	"respawn": {
+	"respawn":{
 		"type":"origins:action_on_callback",
-		"entity_action_respawned": {
-			"type": "origins:execute_command",
-			"command": "resource set @s origins-plus-plus:ignisian/ignisian_zenith 0"
+		"entity_action_respawned":{
+			"type":"origins:execute_command",
+			"command":"resource set @s origins-plus-plus:ignisian/ignisian_zenith 0"
 		}
 	}
 }
