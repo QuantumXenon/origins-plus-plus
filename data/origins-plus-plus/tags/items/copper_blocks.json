@@ -1,6 +1,9 @@
 {
   "values":[
     "minecraft:copper_block",
-    "minecraft:raw_copper_block"
+    "minecraft:cut_copper",
+    "minecraft:raw_copper_block",
+    "minecraft:waxed_copper",
+    "minecraft:waxed_cut_copper"
   ]
 }
