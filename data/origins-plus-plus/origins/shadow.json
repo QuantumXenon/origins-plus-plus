@@ -1,12 +1,12 @@
 {
 	"powers":[
-		"origins:fragile",
+		"origins-plus-plus:shadow/behind_you",
 		"origins-plus-plus:shadow/cloud",
+		"origins-plus-plus:shadow/fragile",
 		"origins-plus-plus:shadow/hunger",
 		"origins-plus-plus:shadow/invisibility",
 		"origins-plus-plus:shadow/night_vision",
 		"origins-plus-plus:shadow/no_food",
-		"origins-plus-plus:shadow/shadow_storage",
 		"origins-plus-plus:shadow/sun_weakness"
 	],
 	"icon":"minecraft:black_concrete",

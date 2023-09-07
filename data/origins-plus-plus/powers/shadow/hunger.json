@@ -11,20 +11,27 @@
 				"saturation":5
 			},
 			{
-				"type":"origins:apply_effect",
-				"effect":{
-					"effect":"minecraft:regeneration",
-					"show_particles":false,
-					"show_icon":false,
-					"duration":20
-				}
+				"type":"origins:change_resource",
+				"resource":"origins-plus-plus:shadow/cloud_resource",
+				"change":-30
 			}
 		]
 	},
 	"condition":{
-		"type":"origins:brightness",
-		"comparison":"<",
-		"compare_to":0.5
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:brightness",
+				"comparison":"<",
+				"compare_to":0.5
+			},
+			{
+				"type":"origins:resource",
+				"resource":"origins-plus-plus:shadow/cloud_resource",
+				"comparison":">=",
+				"compare_to":30
+			}
+		]
 	},
 	"hud_render":{
 		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",

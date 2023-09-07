@@ -1,0 +1,16 @@
+{
+	"type":"origins:active_self",
+	"key":"key.saveToolbarActivator",
+	"entity_action":{
+		"type":"origins:raycast",
+		"fluid_handling":"none",
+		"distance":50,
+		"command_at_hit":"function origins-plus-plus:shadow/behind",
+		"command_step":0.25
+	},
+	"cooldown":200,
+	"hud_render":{
+		"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+		"bar_index":20
+	}
+}

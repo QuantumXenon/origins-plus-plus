@@ -2,18 +2,34 @@
 	"type":"origins:multiple",
 	"resource":{
 		"type":"origins:resource",
-		"max":300,
 		"min":0,
+		"max":300,
 		"start_value":300,
 		"hud_render":{
 			"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_01.png",
-			"bar_index":24
+			"bar_index":16
 		}
 	},
 	"toggle":{
 		"type":"origins:toggle",
 		"key":"key.origins.primary_active",
 		"active_by_default":false
+	},
+	"disable_in_sunlight":{
+		"type":"origins:toggle",
+		"power":"*:*_toggle",
+		"condition":{
+			"type":"origins:and",
+			"conditions":[
+				{
+					"type":"origins:power_active",
+					"power":"*:*_toggle"
+				},
+				{
+					"type":"origins:exposed_to_sun"
+				}
+			]
+		}
 	},
 	"timer":{
 		"type":"origins:action_over_time",
@@ -32,7 +48,11 @@
 			"else_action":{
 				"type":"origins:change_resource",
 				"resource":"*:*_resource",
-				"change":1
+				"change":1,
+				"condition":{
+					"type":"origins:exposed_to_sun",
+					"inverted":true
+				}
 			}
 		}
 	},
@@ -144,18 +164,18 @@
 			]
 		}
 	},
-	"respawn":{
-		"type":"origins:action_on_callback",
-		"entity_action_respawned":{
-			"type":"origins:execute_command",
-			"command":"resource set @s origins-plus-plus:shadow/cloud_resource 500"
-		}
-	},
 	"flight":{
 		"type":"origins:creative_flight",
 		"condition":{
 			"type":"origins:power_active",
 			"power":"*:*_toggle"
+		}
+	},
+	"respawn":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+			"type":"origins:execute_command",
+			"command":"resource set @s origins-plus-plus:shadow/cloud_resource 300"
 		}
 	}
 }

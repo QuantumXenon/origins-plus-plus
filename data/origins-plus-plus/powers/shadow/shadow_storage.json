@@ -1,6 +1,0 @@
-{
-	"type":"origins:inventory",
-	"title":"container.shadow.title",
-	"drop_on_death":false,
-	"key":"key.saveToolbarActivator"
-}
