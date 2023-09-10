@@ -2,8 +2,8 @@
 	"type":"origins:conditioned_attribute",
 	"modifier":{
 		"attribute":"minecraft:generic.armor",
-		"operation":"multiply_total",
-		"value":0.4
+		"operation":"addition",
+		"value":3
 	},
 	"condition":{
 		"type":"origins:on_block",

@@ -1,23 +1,16 @@
 {
-	"type":"origins:action_over_time",
-	"interval":20,
-	"entity_action":{
-		"type":"origins:if_else",
-		"condition":{
-			"type":"origins:in_block",
-			"block_condition":{
-				"type":"origins:light_level",
-				"comparison":"<=",
-				"compare_to":7
-			}
-		},
-		"if_action":{
-			"type":"origins:execute_command",
-			"command":"scale set pehkui:attack_speed 1.5"
-		},
-		"else_action":{
-			"type":"origins:execute_command",
-			"command":"scale set pehkui:attack_speed 1"
+	"type":"origins:conditioned_attribute",
+	"modifier":{
+		"attribute":"minecraft:generic.attack_speed",
+		"operation":"multiply_total",
+		"value":0.5
+	},
+	"condition":{
+		"type":"origins:in_block",
+		"block_condition":{
+			"type":"origins:light_level",
+			"comparison":"<=",
+			"compare_to":7
 		}
 	}
 }
