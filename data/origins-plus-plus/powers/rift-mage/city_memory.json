@@ -6,14 +6,10 @@
 		"value":0.4
 	},
 	"condition":{
-		"type":"origins:block_in_radius",
+		"type":"origins:on_block",
 		"block_condition":{
 			"type":"origins:in_tag",
 			"tag":"origins-plus-plus:purpur_blocks"
-		},
-		"radius":1,
-		"shape":"cube",
-		"comparison":">=",
-		"compare_to":1
+		}
 	}
 }
