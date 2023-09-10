@@ -1,16 +1,23 @@
 {
-	"type":"origins:attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.attack_speed",
-		"operation":"addition",
-		"value":200
-	},
-	"condition":{
-		"type":"origins:in_block",
-		"block_condition":{
-			"type":"origins:light_level",
-			"comparison":"<=",
-			"compare_to":7
+	"type":"origins:action_over_time",
+	"interval":20,
+	"entity_action":{
+		"type":"origins:if_else",
+		"condition":{
+			"type":"origins:in_block",
+			"block_condition":{
+				"type":"origins:light_level",
+				"comparison":"<=",
+				"compare_to":7
+			}
+		},
+		"if_action":{
+			"type":"origins:execute_command",
+			"command":"scale set pehkui:attack_speed 1.5"
+		},
+		"else_action":{
+			"type":"origins:execute_command",
+			"command":"scale set pehkui:attack_speed 1"
 		}
 	}
 }
