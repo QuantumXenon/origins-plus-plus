@@ -4,7 +4,7 @@
 		"type":"origins:action_over_time",
 		"entity_action":{
 			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:bird/size"
+			"command":"function origins-plus-plus:birb/size"
 		},
 		"interval":20
 	},
