@@ -11,6 +11,7 @@
 		"minecraft:salmon",
 		"minecraft:spider_eye",
 		"minecraft:tropical_fish",
-		"#origins-plus-plus-modded-compatibility:raw_meat"
+
+		"#origins-plus-plus-modded-support:raw_meat"
 	]
 }

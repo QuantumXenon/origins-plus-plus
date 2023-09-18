@@ -10,6 +10,7 @@
 		"minecraft:melon_slice",
 		"minecraft:pumpkin_pie",
 		"minecraft:sweet_berries",
-		"#origins-plus-plus-modded-compatibility:sweet_foods"
+
+		"#origins-plus-plus-modded-support:sweet_foods"
 	]
 }

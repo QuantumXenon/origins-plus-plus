@@ -9,6 +9,7 @@
 		"minecraft:large_fern",
 		"minecraft:tall_grass",
 		"minecraft:wheat",
-		"#origins-plus-plus-modded-compatibility:edible_plants"
+
+		"#origins-plus-plus-modded-support:edible_plants"
 	]
 }
