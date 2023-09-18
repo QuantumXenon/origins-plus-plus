@@ -3,6 +3,7 @@
 		"minecraft:beetroot_seeds",
 		"minecraft:melon_seeds",
 		"minecraft:pumpkin_seeds",
-		"minecraft:wheat_seeds"
+		"minecraft:wheat_seeds",
+		"#origins-plus-plus-modded-compatibility:seeds"
 	]
 }

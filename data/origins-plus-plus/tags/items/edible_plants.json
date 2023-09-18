@@ -8,6 +8,7 @@
 		"minecraft:hay_block",
 		"minecraft:large_fern",
 		"minecraft:tall_grass",
-		"minecraft:wheat"
+		"minecraft:wheat",
+		"#origins-plus-plus-modded-compatibility:edible_plants"
 	]
 }
