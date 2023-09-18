@@ -5,7 +5,14 @@
     "minecraft:golden_apple",
     "minecraft:honey_bottle",
     "minecraft:suspicious_stew",
-
+    {
+      "id":"#vinery:wine",
+      "required":false
+    },
+    {
+      "id":"#c:drinks",
+      "required":false
+    },
     {
       "id":"twilightforest:meef_stroganoff",
       "required":false
@@ -347,6 +354,18 @@
       "required":false
     },
     {
+      "id":"incubus_core:rat_poison",
+      "required":false
+    },
+    {
+      "id":"incubus_core:lean",
+      "required":false
+    },
+    {
+      "id":"incubus_core:mobilk-1",
+      "required":false
+    },
+    {
       "id":"meadow:jug_milk",
       "required":false
     },
@@ -364,6 +383,14 @@
     },
     {
       "id":"meadow:piece_of_cheese",
+      "required":false
+    },
+    {
+      "id":"meadow:piece_of_amethyst_cheese",
+      "required":false
+    },
+    {
+      "id":"meadow:piece_of_buffalo_cheese",
       "required":false
     },
     {
@@ -407,6 +434,10 @@
       "required":false
     },
     {
+      "id":"paradise_lost:mystery_milk",
+      "required":false
+    },
+    {
       "id":"paradise_lost:valkyrie_milk",
       "required":false
     },
@@ -443,63 +474,7 @@
       "required":false
     },
     {
-      "id":"vinery:aegis_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:apple_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:bolvar_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:chenet_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:cherry_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:chorus_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:clark_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:jellie_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:kelp_cider",
-      "required":false
-    },
-    {
-      "id":"vinery:king_danis_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:magnetic_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:mellohi_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:noir_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:solaris_wine",
-      "required":false
-    },
-    {
-      "id":"vinery:stal_wine",
+      "id":"vinery:mead",
       "required":false
     },
     {

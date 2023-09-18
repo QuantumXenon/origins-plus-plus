@@ -57,6 +57,126 @@
       "required":false
     },
     {
+      "id":"aquaculture:turtle_soup",
+      "required":false
+    },
+    {
+      "id":"aquaculture:fish_fillet_raw",
+      "required":false
+    },
+    {
+      "id":"aquaculture:fish_fillet_cooked",
+      "required":false
+    },
+    {
+      "id":"aquaculture:atlantic_cod",
+      "required":false
+    },
+    {
+      "id":"aquaculture:blackfish",
+      "required":false
+    },
+    {
+      "id":"aquaculture:pacific_halibut",
+      "required":false
+    },
+    {
+      "id":"aquaculture:atlantic_halibut",
+      "required":false
+    },
+    {
+      "id":"aquaculture:atlantic_herring",
+      "required":false
+    },
+    {
+      "id":"aquaculture:pink_salmon",
+      "required":false
+    },
+    {
+      "id":"aquaculture:pollock",
+      "required":false
+    },
+    {
+      "id":"aquaculture:rainbow_trout",
+      "required":false
+    },
+    {
+      "id":"aquaculture:bayad",
+      "required":false
+    },
+    {
+      "id":"aquaculture:boulti",
+      "required":false
+    },
+    {
+      "id":"aquaculture:capitaine",
+      "required":false
+    },
+    {
+      "id":"aquaculture:synodontis",
+      "required":false
+    },
+    {
+      "id":"aquaculture:smallmouth_bass",
+      "required":false
+    },
+    {
+      "id":"aquaculture:brown_trout",
+      "required":false
+    },
+    {
+      "id":"aquaculture:carp",
+      "required":false
+    },
+    {
+      "id":"aquaculture:catfish",
+      "required":false
+    },
+    {
+      "id":"aquaculture:gar",
+      "required":false
+    },
+    {
+      "id":"aquaculture:minnow",
+      "required":false
+    },
+    {
+      "id":"aquaculture:muskellunge",
+      "required":false
+    },
+    {
+      "id":"aquaculture:perch",
+      "required":false
+    },
+    {
+      "id":"aquaculture:arapaima",
+      "required":false
+    },
+    {
+      "id":"aquaculture:piranha",
+      "required":false
+    },
+    {
+      "id":"aquaculture:tambaqui",
+      "required":false
+    },
+    {
+      "id":"aquaculture:brown_shrooma",
+      "required":false
+    },
+    {
+      "id":"aquaculture:red_shrooma",
+      "required":false
+    },
+    {
+      "id":"aquaculture:red_grouper",
+      "required":false
+    },
+    {
+      "id":"aquaculture:tuna",
+      "required":false
+    },
+    {
       "id":"aquamirae:esca",
       "required":false
     },
@@ -66,14 +186,6 @@
     },
     {
       "id":"aquamirae:poseidons_breakfast",
-      "required":false
-    },
-    {
-      "id":"artifacts:eternal_steak",
-      "required":false
-    },
-    {
-      "id":"artifacts:everlasting_beef",
       "required":false
     },
     {
@@ -541,6 +653,10 @@
       "required":false
     },
     {
+      "id":"meadow:cooked_bear_meat",
+      "required":false
+    },
+    {
       "id":"meadow:bear_stew",
       "required":false
     },
@@ -598,10 +714,6 @@
     },
     {
       "id":"nethersdelight:grilled_strider",
-      "required":false
-    },
-    {
-      "id":"nethersdelight:strider_moss_stew",
       "required":false
     },
     {
@@ -830,6 +942,14 @@
     },
     {
       "id":"varietyaquatic:lionfish_cooked",
+      "required":false
+    },
+    {
+      "id":"artifacts:eternal_steak",
+      "required":false
+    },
+    {
+      "id":"artifacts:everlasting_beef",
       "required":false
     }
   ]
