@@ -215,6 +215,46 @@
     {
       "id":"#croptopia:advancement_seeds",
       "required":false
+    },
+    {
+      "id":"botania:grass_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:podzol_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:dry_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:golden_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:vivid_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:scorched_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:infused_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:mutated_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:world_seed",
+      "required":false
+    },
+    {
+      "id":"botania:overgrowth_seed",
+      "required":false
     }
   ]
 }

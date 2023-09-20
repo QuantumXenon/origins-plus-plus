@@ -1,6 +1,10 @@
 {
   "values":[
     {
+      "id":"#c:mushrooms",
+      "required":false
+    },
+    {
       "id":"betternether:nether_grass",
       "required":false
     },
@@ -54,6 +58,74 @@
     },
     {
       "id":"betterend:needle_grass",
+      "required":false
+    },
+    {
+      "id":"#botania:floating_flowers",
+      "required":false
+    },
+    {
+      "id":"botania:white_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:orange_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:magenta_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:light_blue_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:yellow_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:lime_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:pink_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:gray_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:light_gray_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:cyan_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:purple_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:blue_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:brown_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:green_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:red_shiny_flower",
+      "required":false
+    },
+    {
+      "id":"botania:black_shiny_flower",
       "required":false
     },
     {
