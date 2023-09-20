@@ -28,8 +28,12 @@
 			{
 				"type":"origins:delay",
 				"action":{
-					"type":"origins:execute_command",
-					"command":"clear @s minecraft:gunpowder 1"
+					"type":"origins:equipped_item_action",
+					"equipment_slot":"mainhand",
+					"action":{
+						"type":"origins:consume",
+						"amount":1
+					}
 				},
 				"ticks":26
 			},
