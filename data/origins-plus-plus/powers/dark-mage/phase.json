@@ -39,14 +39,23 @@
 			"change":-33
 		},
 		"condition":{
-			"type":"origins:equipped_item",
-			"equipment_slot":"offhand",
-			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"item":"minecraft:glistering_melon_slice"
+			"type":"origins:and",
+			"conditions":[
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:glistering_melon_slice"
+					}
 				}
+			},
+			{
+			    "type": "origins:power_active",
+				"power": "*:*_phase"
 			}
+			]
 		},
 		"interval":3
 	}
