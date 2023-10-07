@@ -13,7 +13,7 @@
 			"type":"origins:execute_command",
 			"command":"tag @s add draconian_tp"
 		},
-		"command_along_ray":"execute positioned ~ ~ ~ if block ~ ~ ~ air run tp @e[tag=draconian_tp,sort=nearest] ~ ~ ~"
+		"command_along_ray":"execute positioned ~ ~ ~ if block ~ ~ ~ air run tp @e[tag=draconian_tp,sort=nearest,limit=1] ~ ~ ~"
 	},
 	"hit_action":{
 		"type":"origins:execute_command",
