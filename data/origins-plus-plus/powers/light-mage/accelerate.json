@@ -5,7 +5,7 @@
 	"cooldown":100,
 	"entity_action":{
 		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:light-mage/army"
+		"command":"function origins-plus-plus:light-mage/accelerate"
 	},
 	"condition":{
 		"type":"origins:and",
