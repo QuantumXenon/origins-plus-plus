@@ -1,8 +1,0 @@
-{
-	"hidden":true,
-	"type":"origins:invulnerability",
-	"damage_condition":{
-		"type":"origins:name",
-		"name":"outOfWorld"
-	}
-}
