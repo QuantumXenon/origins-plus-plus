@@ -6,5 +6,5 @@
 		"type":"origins:food",
 		"inverted":true
 	},
-	"key":"key.loadToolbarActivator"
+	"key":"key.origins.secondary_active"
 }
