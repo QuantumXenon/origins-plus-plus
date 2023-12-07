@@ -8,19 +8,9 @@
 	"entity_action":{
 		"type":"origins:raycast",
 		"distance":20,
-		"entity":false,
-		"before_action":{
-			"type":"origins:execute_command",
-			"command":"tag @s add anomaly_tp"
-		},
-		"command_along_ray":"execute positioned ~ ~ ~ if block ~ ~ ~ air run tp @e[tag=anomaly_tp,sort=nearest] ~ ~ ~"
-	},
-	"hit_action":{
-		"type":"origins:execute_command",
-		"command":"tag @e remove anomaly_tp"
-	},
-	"miss_action":{
-		"type":"origins:execute_command",
-		"command":"tp @s ^ ^ ^15"
+		"shape_type":"outline",
+		"fluid_handling":"none",
+		"command_at_hit":"function origins-plus-plus:anomaly/teleport",
+		"command_along_ray_only_on_hit":true
 	}
 }

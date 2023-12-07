@@ -9,9 +9,7 @@
 		"show_particles":false
 	},
 	"condition":{
-		"type":"origins:brightness",
-		"comparison":">=",
-		"compare_to":0.5
+	  	"type":"origins:exposed_to_sun"
 	},
 	"hidden":true
 }
