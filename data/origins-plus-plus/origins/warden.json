@@ -1,7 +1,6 @@
 {
 	"powers":[
 		"origins:no_shield",
-		"origins-plus-plus:warden/blind",
 		"origins-plus-plus:warden/echolocation",
 		"origins-plus-plus:warden/health",
 		"origins-plus-plus:warden/phase",

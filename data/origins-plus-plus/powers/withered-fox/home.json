@@ -1,5 +1,4 @@
 {
 	"type":"origins:modify_player_spawn",
-	"dimension":"minecraft:the_nether",
-	"structure":"minecraft:fortress"
+	"dimension":"minecraft:the_nether"
 }
