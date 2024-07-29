@@ -1,0 +1,18 @@
+{
+	"powers":[
+		"origins-plus-plus:lich/chains_of_death",
+		"origins-plus-plus:lich/cursed_being",
+   	"origins-plus-plus:lich/cursed_resonance",
+		"origins-plus-plus:lich/exiled",
+		"origins-plus-plus:lich/explosion_immune",
+		"origins-plus-plus:lich/from_beyond_the_grave",
+		"origins-plus-plus:lich/great_deal",
+		"origins-plus-plus:lich/night_boost",
+		"origins-plus-plus:lich/summon_fangs",
+		"origins-plus-plus:lich/sunlight_terror",
+		"origins-plus-plus:lich/weakened_by_all",
+		"origins-plus-plus:lich/wither_immunity"
+	],
+	"icon":"minecraft:wither_skeleton_skull",
+	"impact":3
+}
