@@ -1,18 +1,44 @@
 {
 	"type":"origins:action_over_time",
 	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"effect give @s minecraft:resistance 1 1 true"
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:resistance",
+			"duration": -1,
+			"amplifier": 0,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": true
+		}
+	},
+	"falling_action": {
+		"type": "origins:clear_effect",
+		"effect": "minecraft:resistance"
 	},
 	"interval":20,
 	"condition":{
-		"type":"origins:equipped_item",
-		"equipment_slot":"mainhand",
-		"item_condition":{
-			"type":"origins:ingredient",
-			"ingredient":{
-				"item":"minecraft:nether_star"
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type":"origins:equipped_item",
+				"equipment_slot":"mainhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:nether_star"
+					}
+				}
+			},
+			{    
+				"type":"origins:equipped_item",
+				"equipment_slot":"offhand",
+				"item_condition":{
+					"type":"origins:ingredient",
+					"ingredient":{
+						"item":"minecraft:nether_star"
+					}
+				}
 			}
-		}
+		]
 	}
 }
