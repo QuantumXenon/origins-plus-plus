@@ -2,8 +2,6 @@
 name: Bug Report
 about: Use this template to report a bug
 labels: 'bug'
-assignees: QuantumXenon
-
 ---
 *Please check the pinned issues "Known Forge Issues" and "Known Fabric/Quilt Issues" before posting a new report*
 
