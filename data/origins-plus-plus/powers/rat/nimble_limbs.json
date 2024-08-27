@@ -5,8 +5,8 @@
 		"type":"origins:attribute",
 		"modifier":{
 			"attribute":"minecraft:generic.attack_speed",
-			"value":15,
-			"operation":"addition"
+			"value":1.15,
+			"operation":"multiply_total"
 		}
 	},
 	"movement_speed":{
