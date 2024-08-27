@@ -1,6 +1,11 @@
 {
 	"type":"origins:multiple",
 	"hidden":true,
+	"exists":{
+		"type":"origins:resource",
+		"min":0,
+		"max":1
+	},
 	"create_new":{
 		"type":"origins:active_self",
 		"entity_action":{
@@ -12,10 +17,10 @@
 				},
 				{
 					"type":"origins:delay",
-					"ticks":30,
+					"ticks":10,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"function origins-plus-plus:light-mage/pocket"
+						"command":"function origins-plus-plus:light-mage/effects"
 					}
 				}
 			]
@@ -44,8 +49,21 @@
 	"go_to":{
 		"type":"origins:active_self",
 		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:light-mage/go_to_pocket_dimension"
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:light-mage/go_to_pocket_dimension"
+				},
+				{
+					"type":"origins:delay",
+					"ticks":10,
+					"action":{
+						"type":"origins:execute_command",
+						"command":"function origins-plus-plus:light-mage/effects"
+					}
+				}
+			]
 		},
 		"key":"key.origins.primary_active",
 		"condition":{
@@ -64,6 +82,12 @@
 							"item":"minecraft:lodestone"
 						}
 					}
+				},
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:light-mage/pocket_dimension_exists",
+					"comparison":"==",
+					"compare_to":1
 				}
 			]
 		}
@@ -84,6 +108,14 @@
 						"type":"origins:execute_command",
 						"command":"tag @e[distance=0..3] remove tppocket"
 					}
+				},
+				{
+					"type":"origins:delay",
+					"ticks":10,
+					"action":{
+						"type":"origins:execute_command",
+						"command":"function origins-plus-plus:light-mage/effects"
+					}
 				}
 			]
 		},
@@ -103,6 +135,12 @@
 							"item":"minecraft:lodestone"
 						}
 					}
+				},
+				{
+					"type":"origins:resource",
+					"resource":"origins-plus-plus:light-mage/pocket_dimension_exists",
+					"comparison":"==",
+					"compare_to":1
 				}
 			]
 		}
@@ -110,8 +148,29 @@
 	"go_back":{
 		"type":"origins:active_self",
 		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:light-mage/go_back_from_pocket_dimension"
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:light-mage/bring_back_from_pocket_dimension"
+				},
+				{
+					"type":"origins:delay",
+					"ticks":10,
+					"action":{
+						"type":"origins:execute_command",
+						"command":"kill @e[distance=..5,type=minecraft:armor_stand,tag=back]"
+					}
+				},
+				{
+					"type":"origins:delay",
+					"ticks":10,
+					"action":{
+						"type":"origins:execute_command",
+						"command":"function origins-plus-plus:light-mage/effects"
+					}
+				}
+			]
 		},
 		"key":"key.origins.secondary_active",
 		"condition":{
@@ -130,6 +189,10 @@
 							"item":"minecraft:lodestone"
 						}
 					}
+				},
+				{
+					"type":"origins:dimension",
+					"dimension":"minecraft:the_nether"
 				}
 			]
 		}
@@ -137,8 +200,37 @@
 	"bring_back":{
 		"type":"origins:active_self",
 		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:light-mage/bring_back_from_pocket_dimension"
+			"type":"origins:and",
+			"actions":[
+				{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:light-mage/bring_back_from_pocket_dimension"
+				},
+				{
+					"type":"origins:delay",
+					"ticks":10,
+					"action":{
+						"type":"origins:execute_command",
+						"command":"tag @e[distance=0..3] remove tppocket"
+					}
+				},
+				{
+					"type":"origins:delay",
+					"ticks":10,
+					"action":{
+						"type":"origins:execute_command",
+						"command":"kill @e[distance=..5,type=minecraft:armor_stand,tag=back]"
+					}
+				},
+				{
+					"type":"origins:delay",
+					"ticks":10,
+					"action":{
+						"type":"origins:execute_command",
+						"command":"function origins-plus-plus:light-mage/effects"
+					}
+				}
+			]
 		},
 		"key":"key.origins.secondary_active",
 		"condition":{
@@ -156,6 +248,10 @@
 							"item":"minecraft:lodestone"
 						}
 					}
+				},
+				{
+					"type":"origins:dimension",
+					"dimension":"minecraft:the_nether"
 				}
 			]
 		}
