@@ -14,11 +14,20 @@
 		"type":"origins:or",
 		"conditions":[
 			{
-				"type":"origins:fluid_height",
-				"fluid":"minecraft:lava",
-				"comparison":">",
-				"compare_to":0,
-				"inverted":true
+				"type":"origins:and",
+				"conditions":[
+					{
+						"type":"origins:fluid_height",
+						"fluid":"minecraft:lava",
+						"comparison":">",
+						"compare_to":0,
+						"inverted":true
+					},
+					{
+						"type":"origins:on_fire",
+						"inverted":true
+					}
+				]
 			},
 			{
 				"type":"origins:in_rain"
