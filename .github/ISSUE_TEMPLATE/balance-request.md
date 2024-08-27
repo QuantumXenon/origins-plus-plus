@@ -2,8 +2,6 @@
 name: Balance Request
 about: Use this template to request a balance to an origin/power
 labels: 'balance'
-assignees: QuantumXenon
-
 ---
 **Origin**
 Which origin needs the balance?
