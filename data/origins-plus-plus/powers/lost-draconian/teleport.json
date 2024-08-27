@@ -20,7 +20,16 @@
 		"command":"tag @e remove draconian_tp"
 	},
 	"miss_action":{
-		"type":"origins:execute_command",
-		"command":"tp @s ^ ^ ^15"
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"tp @s ^ ^ ^15"
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"tag @e remove draconian_tp"
+			}
+		]
 	}
 }
