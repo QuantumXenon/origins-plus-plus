@@ -27,7 +27,7 @@
           "item_condition":{
             "type":"origins:ingredient",
             "ingredient":{
-              "item":"minecraft:copper_ingot"
+              "item":"minecraft:raw_copper"
             }
           }
         },
