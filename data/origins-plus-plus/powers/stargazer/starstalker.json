@@ -72,16 +72,16 @@
 			}
 		}
 	},
-	"wither":{
+	"damage":{
 		"type":"origins:stacking_status_effect",
 		"min_stacks":0,
 		"max_stacks":1,
-		"duration_per_stack":20,
+		"duration_per_stack":10,
+		"tick_rate":60,
 		"effect":{
 			"show_particles":false,
 			"show_icon":false,
-			"effect":"minecraft:wither",
-			"amplifier":1
+			"effect":"minecraft:instant_damage"
 		},
 		"condition":{
 			"type":"origins:resource",
