@@ -1,15 +1,9 @@
 {
-	"type":"origins:multiple",
-	"toggle":{
-		"type":"origins:toggle",
-		"key":"key.saveToolbarActivator"
-	},
-	"night_vision":{
-		"type":"origins:night_vision",
-		"strength":1,
-		"condition":{
-			"type":"origins:power_active",
-			"power":"*:*_toggle"
-		}
-	}
+   "type":"origins:toggle_night_vision",
+   "active_by_default":false,
+   "strength":1.0,
+   "key":{
+      "key":"key.saveToolbarActivator",
+      "continuous":false
+   }
 }
