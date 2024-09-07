@@ -23,6 +23,7 @@ execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data 
 execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Size set from entity @s SelectedItem.tag.Size
 execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] IsImmuneToZombification set value 1
 execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] CanPickUpLoot set value 1b
+execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] DeathLootTable set value "minecraft:empty"
 execute run power grant @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] origins-plus-plus:deathsworn/minions/kill
 
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"minecraft:spider"}}}] run advancement grant @s only origins-plus-plus:deathsworn/spider

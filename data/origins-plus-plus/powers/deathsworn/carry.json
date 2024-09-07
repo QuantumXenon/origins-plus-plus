@@ -8,5 +8,8 @@
 		"type":"origins:nbt",
 		"nbt":"{Tags:['Deathsworn_Minion']}"
 	},
-	"cooldown":1
+	"cooldown":1,
+	"condition":{
+		"type":"origins:sneaking"
+	}
 }
