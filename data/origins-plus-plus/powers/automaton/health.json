@@ -1,4 +1,5 @@
 {
+	"hidden":true,
 	"type":"origins:status_bar_texture",
 	"texture":"origins-plus-plus:textures/gui/hide_hearts.png"
 }
