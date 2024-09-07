@@ -4,7 +4,7 @@
 		"type":"origins:on_block"
 	},
 	"modifier":{
-		"operation":"addition",
-		"value":-10
+		"operation":"multiply_total",
+		"value":0.5
 	}
 }
