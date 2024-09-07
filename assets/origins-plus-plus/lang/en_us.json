@@ -826,7 +826,7 @@
 	"power.origins-plus-plus.deathsworn/small_shot.name":"Submit!",
 	"power.origins-plus-plus.deathsworn/soul.description":"Like all occultists, you use SOUL energy for your demonic rituals. Accumulate it by killing mobs.",
 	"power.origins-plus-plus.deathsworn/soul.name":"SOUL Energy",
-	"power.origins-plus-plus.deathsworn/special.description":"Sacrifice your vitality to unleash a special ability of all your minions within 8 blocks. You will receive a book detailing each. Requires your SOUL to be higher than 50%, but doesn't consume SOUL.",
+	"power.origins-plus-plus.deathsworn/special.description":"Sacrifice your vitality to command your minions within 8 blocks to unleash a unique ability (depending on what mob they are). Requires your SOUL to be higher than 50%, but doesn't consume SOUL.",
 	"power.origins-plus-plus.deathsworn/special.name":"Unleash Potential",
 	"power.origins-plus-plus.deathsworn/summon.description":"Using the power of 5 SOUL Energy and a petrified heart in your hand, summon its bound mob to serve you. Some mobs have special abilities that can be used at will.",
 	"power.origins-plus-plus.deathsworn/summon.name":"Demonic Pact",
