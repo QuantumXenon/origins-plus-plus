@@ -3,7 +3,7 @@
 	"entity_action":{
 		"type":"origins:feed",
 		"food":1,
-		"saturation":0
+		"saturation":1
 	},
 	"interval":40,
 	"condition":{
