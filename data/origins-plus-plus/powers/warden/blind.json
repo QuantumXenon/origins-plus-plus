@@ -1,7 +1,6 @@
 {
 	"type":"origins:shader",
 	"shader":"minecraft:shaders/post/sobel.json",
-	"toggleable":false,
 	"condition":{
 		"type":"origins:in_block",
 		"block_condition":{
