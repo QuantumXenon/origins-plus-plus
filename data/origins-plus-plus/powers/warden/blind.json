@@ -1,19 +1,12 @@
 {
-	"type":"origins:stacking_status_effect",
-	"min_stacks":0,
-	"max_stacks":3,
-	"duration_per_stack":20,
-	"effect":{
-		"effect":"minecraft:blindness",
-		"show_particles":false,
-		"show_icon":false
-	},
+	"type":"origins:shader",
+	"shader":"minecraft:shaders/post/sobel.json",
 	"condition":{
 		"type":"origins:in_block",
 		"block_condition":{
 			"type":"origins:light_level",
 			"comparison":">=",
-			"compare_to":13
+			"compare_to":5
 		}
 	}
 }
