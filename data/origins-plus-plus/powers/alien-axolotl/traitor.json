@@ -1,26 +1,21 @@
 {
-	"type":"origins:self_action_when_hit",
-	"entity_action":{
-		"type":"origins:apply_effect",
-		"effect":{
-			"effect":"minecraft:instant_damage",
-			"duration":1,
-			"show_particles":false,
-			"show_icon":false
-		}
+	"type":"origins:modify_damage_taken",
+	"bientity_condition":{
+	   "type":"origins:actor_condition",
+	   "condition":{
+		  "type":"origins:equipped_item",
+		  "equipment_slot":"mainhand",
+		  "item_condition":{
+			 "type":"origins:enchantment",
+			 "enchantment":"minecraft:bane_of_arthropods",
+			 "use_modifications":true,
+			 "comparison":">=",
+			 "compare_to":1
+		  }
+	   }
 	},
-	"damage_condition":{
-		"type":"origins:attacker",
-		"entity_condition":{
-			"type":"origins:equipped_item",
-			"equipment_slot":"mainhand",
-			"item_condition":{
-				"type":"origins:enchantment",
-				"enchantment":"minecraft:bane_of_arthropods",
-				"comparison":">=",
-				"compare_to":1
-			}
-		}
-	},
-	"cooldown":80
+	"modifier":{
+	   "operation":"addition",
+	   "value":5.5
+	}
 }
