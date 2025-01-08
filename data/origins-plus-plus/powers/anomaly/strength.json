@@ -10,8 +10,17 @@
 		"show_icon":false
 	},
 	"condition":{
-		"type":"origins:daytime",
-		"inverted":true
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:daytime",
+				"inverted":true
+			},
+			{
+				"type":"origins:dimension",
+				"dimension":"minecraft:overworld"
+			}
+		]
 	},
 	"hidden":true
 }

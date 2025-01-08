@@ -17,6 +17,15 @@
 		}
 	],
 	"condition":{
-		"type":"origins:daytime"
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:daytime"
+			},
+			{
+				"type":"origins:dimension",
+				"dimension":"minecraft:overworld"
+			}
+		]
 	}
 }
