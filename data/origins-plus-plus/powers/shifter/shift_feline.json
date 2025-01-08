@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"string":{
+	"item":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:execute_command",
@@ -10,28 +10,21 @@
 			"type":"origins:equipped_item",
 			"equipment_slot":"mainhand",
 			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"item":"minecraft:string"
-				}
-			}
-		},
-		"key":"key.origins.secondary_active"
-	},
-	"orange_wool":{
-		"type":"origins:active_self",
-		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"resource set @s origins-plus-plus:shifter/shift_bar 5"
-		},
-		"condition":{
-			"type":"origins:equipped_item",
-			"equipment_slot":"mainhand",
-			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"item":"minecraft:orange_wool"
-				}
+				"type":"origins:or",
+				"conditions":[
+					{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:string"
+						}
+					},
+					{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:orange_wool"
+						}
+					}
+				]
 			}
 		},
 		"key":"key.origins.secondary_active"

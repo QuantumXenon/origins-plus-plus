@@ -10,10 +10,21 @@
 			"type":"origins:equipped_item",
 			"equipment_slot":"mainhand",
 			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"item":"minecraft:elytra"
-				}
+				"type":"origins:or",
+				"conditions":[
+					{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:elytra"
+						}
+					},
+					{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:firework_rocket"
+						}
+					}
+				]
 			}
 		},
 		"key":"key.origins.secondary_active"

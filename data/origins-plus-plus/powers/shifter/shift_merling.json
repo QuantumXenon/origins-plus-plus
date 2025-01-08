@@ -1,6 +1,6 @@
 {
 	"type":"origins:multiple",
-	"cod":{
+	"item":{
 		"type":"origins:active_self",
 		"entity_action":{
 			"type":"origins:execute_command",
@@ -10,28 +10,21 @@
 			"type":"origins:equipped_item",
 			"equipment_slot":"mainhand",
 			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"item":"minecraft:cod"
-				}
-			}
-		},
-		"key":"key.origins.secondary_active"
-	},
-	"cooked_cod":{
-		"type":"origins:active_self",
-		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"resource set @s origins-plus-plus:shifter/shift_bar 7"
-		},
-		"condition":{
-			"type":"origins:equipped_item",
-			"equipment_slot":"mainhand",
-			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"item":"minecraft:cooked_cod"
-				}
+				"type":"origins:or",
+				"conditions":[
+					{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:cod"
+						}
+					},
+					{
+						"type":"origins:ingredient",
+						"ingredient":{
+							"item":"minecraft:cooked_cod"
+						}
+					}
+				]
 			}
 		},
 		"key":"key.origins.secondary_active"
