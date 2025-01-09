@@ -5,5 +5,3 @@ task buildFabric {
 task buildForge {
     dependsOn ":forge:build"
 }
-
-defaultTasks "buildFabric", "buildForge"
