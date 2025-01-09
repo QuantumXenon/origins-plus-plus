@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
-license = "All Rights Reserved (to the original authors)"
+license = "All origins belong to their original authors, who retain the rights to their work."
 
 [[mods]]
 modId = "origins_plus_plus"
