@@ -1,6 +1,6 @@
 <a href="https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus"><img src="https://www.bisecthosting.com/images/CF/Origins_Plus_Plus/BH_NU_HEADER.png"/><a/>
-  
-Origins++ is a collection of more than 100 unique origins.
+
+Origins++ is an extensive collection of over 100 unique origins to fully expand the origins experience. Each origin comes with advantages, disadvantages, and powers to alter your playstyle.
 
 ## Building 
 - This repository contains the shared resources for both the Fabric and Forge versions of Origins++.
@@ -8,7 +8,7 @@ Origins++ is a collection of more than 100 unique origins.
   
 ## Mod Compatibility
 - Origins++ includes built-in compatibility for certain items from select mods.
-- Additionally, you can use [this](https://github.com/QuantumXenon/origins-plus-plus-modded-support) datapack template to extend compatibility to other mods for your play-through.
+- Additionally, you can use [this](https://github.com/QuantumXenon/origins-plus-plus-modded-support) datapack template to extend compatibility to other mods to further customise your play-through.
   
 ## Mod Loader Support
 - **Fabric**: Origins (Fabric) provides the most stable experience with Origins++. Most bugs are likely related to Origins++ itself and so will be fixed.
