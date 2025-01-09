@@ -1,21 +1,22 @@
 <a href="https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus"><img src="https://www.bisecthosting.com/images/CF/Origins_Plus_Plus/BH_NU_HEADER.png"/><a/>
   
-Origins++ is a collection of more than 100 origins to fully expand the origins experience.
+Origins++ is a collection of more than 100 unique origins.
 
 ## Building 
-- This repository contains the shared resources for the Fabric and Forge versions.
-- To build the project, go to either the [Fabric Workspace](https://github.com/QuantumXenon/origins-plus-plus-fabric) or the [Forge Workspace](https://github.com/QuantumXenon/origins-plus-plus-forge).
+- This repository contains the shared resources for both the Fabric and Forge versions of Origins++.
+- To build the project, navigate to either the [Fabric Workspace](https://github.com/QuantumXenon/origins-plus-plus-fabric) or the [Forge Workspace](https://github.com/QuantumXenon/origins-plus-plus-forge), depending on your chosen mod loader.
   
 ## Mod Compatibility
-- Origins++ itself has built-in support for some items from some mods, and [this](https://github.com/QuantumXenon/origins-plus-plus-modded-support) datapack can be used to add additional items to the tags used by Origins++
+- Origins++ includes built-in compatibility for certain items from select mods.
+- Additionally, you can use [this](https://github.com/QuantumXenon/origins-plus-plus-modded-support) datapack template to extend compatibility to other mods for your play-through.
   
-## Mod Loader Support 
-- Fabric is the main mod-loaders for Origins++. Most bugs on will likely be caused by issues with Origins++ itself, so I will fix them.
-- Quilt is only marked as supported on some versions of Origins. Most bugs on these versions will likely be caused by issues with Origins++ itself, so I will fix them.
-- Forge is supported on a best-effort basis as many issues are caused by Origins (Forge), so I will not be able to fix them. I will still fix any issues caused by Origins++ itself.
+## Mod Loader Support
+- **Fabric**: Origins (Fabric) provides the most stable experience with Origins++. Most bugs are likely related to Origins++ itself and so will be fixed.
+- **Forge**: Although Origins (Forge) has been discontinued, Origins++ will still provide support on a best-effort basis. Please note than many issues are caused by Origins (Forge) itself, and so cannot be resolved by Origins++.
 
 ## Credits
-- All credit for the original origins goes to the [original authors](https://gist.github.com/QuantumXenon/d7ec9ceee0f8897410cff5088307f028).
+- All credit for the original origins goes to their [respective creators](https://gist.github.com/QuantumXenon/d7ec9ceee0f8897410cff5088307f028), who retain the rights to their work. Special thanks to these authors for granting permission to include their origins in Origins++.
+
 ***
 [![CurseForge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/curseforge_46h.png)](https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus)
 [![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/mod/origins-plus-plus)
