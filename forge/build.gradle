@@ -1,0 +1,28 @@
+plugins {
+    id("net.minecraftforge.gradle") version("[6.0,6.2)")
+}
+
+version = "${project.mod_version}-forge"
+archivesBaseName = "origins-plus-plus"
+
+minecraft {
+    mappings(channel: "official", version: "${project.minecraft_version}")
+}
+
+dependencies {
+    minecraft("net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}")
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs("../common")
+        }
+    }
+}
+
+processResources {
+    filesMatching("META-INF/mods.toml") {
+        expand("version": project.version)
+    }
+}

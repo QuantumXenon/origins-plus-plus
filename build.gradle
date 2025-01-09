@@ -1,0 +1,9 @@
+task buildFabric {
+    dependsOn ":fabric:build"
+}
+
+task buildForge {
+    dependsOn ":forge:build"
+}
+
+defaultTasks "buildFabric", "buildForge"

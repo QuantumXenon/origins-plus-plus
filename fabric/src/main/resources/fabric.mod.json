@@ -1,0 +1,33 @@
+{
+	"schemaVersion":1,
+	"id":"origins-plus-plus",
+	"name":"Origins++",
+	"version":"${version}",
+	"description":"A collection of more than 100 unique origins.",
+	"license":"All Rights Reserved (to the original authors)",
+	"icon":"icon.png",
+	"authors":[
+		"TheQuantumXenon"
+	],
+	"contributors":[
+		"All the original authors (click 'View Credits' for a list)"
+	],
+	"contact":{
+		"homepage":"https://github.com/QuantumXenon/origins-plus-plus",
+		"issues":"https://github.com/QuantumXenon/origins-plus-plus/issues"
+	},
+	"depends":{
+		"minecraft":"*",
+		"origins":"*",
+		"pehkui":"*"
+	},
+	"custom":{
+		"modmenu":{
+			"links":{
+				"modmenu.curseforge":"https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus",
+				"modmenu.modrinth":"https://modrinth.com/mod/origins-plus-plus",
+				"modmenu.viewCredits":"https://gist.github.com/QuantumXenon/d7ec9ceee0f8897410cff5088307f028"
+			}
+		}
+	}
+}

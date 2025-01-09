@@ -1,0 +1,25 @@
+plugins {
+    id("fabric-loom") version("1.9-SNAPSHOT")
+}
+
+version = project.mod_version
+archivesBaseName = "origins-plus-plus"
+
+dependencies {
+    minecraft("com.mojang:minecraft:${project.minecraft_version}")
+    mappings("net.fabricmc:yarn:${project.minecraft_version}+${project.yarn_mappings}:v2")
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs("../common")
+        }
+    }
+}
+
+processResources {
+    filesMatching("fabric.mod.json") {
+        expand("version": project.version)
+    }
+}

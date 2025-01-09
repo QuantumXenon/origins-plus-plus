@@ -1,0 +1,1 @@
+All origins belong to their original authors, who retain the rights to their work.
