@@ -4,7 +4,7 @@
 	"name":"Origins++",
 	"version":"${version}",
 	"description":"A collection of more than 100 unique origins.",
-	"license":"All Rights Reserved (to the original authors)",
+	"license":"All origins belong to their original authors, who retain the rights to their work.",
 	"icon":"icon.png",
 	"authors":[
 		"TheQuantumXenon"
