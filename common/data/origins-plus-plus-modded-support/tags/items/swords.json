@@ -1,0 +1,28 @@
+{
+	"values":[
+		{
+			"id":"knightquest:crimson_sword",
+			"required":false
+		},
+		{
+			"id":"knightquest:khopesh_claymore",
+			"required":false
+		},
+		{
+			"id":"knightquest:paladin_sword",
+			"required":false
+		},
+		{
+			"id":"knightquest:steel_sword",
+			"required":false
+		},
+		{
+			"id":"knightquest:uchigatana_katana",
+			"required":false
+		},
+		{
+			"id":"knightquest:water_sword",
+			"required":false
+		}
+	]
+}

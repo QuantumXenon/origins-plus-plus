@@ -10,6 +10,8 @@
     "minecraft:parrot",
     "minecraft:pig",
     "minecraft:villager",
-    "minecraft:wolf"
+    "minecraft:wolf",
+
+    "#origins-plus-plus-modded-support:pets"
   ]
 }

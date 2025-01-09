@@ -1,11 +1,11 @@
 {
   "values":[
     {
-      "id":"abnormals_delight:escargot",
+      "id":"abnormals_delight:duck_fillet",
       "required":false
     },
     {
-      "id":"abnormals_delight:duck_fillet",
+      "id":"abnormals_delight:escargot",
       "required":false
     },
     {
@@ -21,7 +21,7 @@
       "required":false
     },
     {
-      "id":"adventurez:mammoth_meat",
+      "id":"adventurez:ender_whale_meat",
       "required":false
     },
     {
@@ -29,15 +29,7 @@
       "required":false
     },
     {
-      "id":"adventurez:ender_whale_meat",
-      "required":false
-    },
-    {
-      "id":"adventurez:rhino_meat",
-      "required":false
-    },
-    {
-      "id":"adventurez:raw_warthog_meat",
+      "id":"adventurez:mammoth_meat",
       "required":false
     },
     {
@@ -45,127 +37,11 @@
       "required":false
     },
     {
-      "id":"betteranimalsplus:pheasantraw",
+      "id":"adventurez:raw_warthog_meat",
       "required":false
     },
     {
-      "id":"betteranimalsplus:venisonraw",
-      "required":false
-    },
-    {
-      "id":"betteranimalsplus:turkey_leg_raw",
-      "required":false
-    },
-    {
-      "id":"biomemakeover:raw_toad",
-      "required":false
-    },
-    {
-      "id":"croptopia:bacon",
-      "required":false
-    },
-    {
-      "id":"croptopia:ground_pork",
-      "required":false
-    },
-    {
-      "id":"croptopia:frog_legs",
-      "required":false
-    },
-    {
-      "id":"endersdelight:mite_crust",
-      "required":false
-    },
-    {
-      "id":"endersdelight:shulker_mollusk",
-      "required":false
-    },
-    {
-      "id":"endersdelight:shulker_filet",
-      "required":false
-    },
-    {
-      "id":"farmersdelight:chicken_cuts",
-      "required":false
-    },
-    {
-      "id":"farmersdelight:bacon",
-      "required":false
-    },
-    {
-      "id":"farmersdelight:mutton_chops",
-      "required":false
-    },
-    {
-      "id":"farmersdelight:minced_beef",
-      "required":false
-    },
-    {
-      "id":"farmersdelight:beef_patty",
-      "required":false
-    },
-    {
-      "id":"farmersdelight:ham",
-      "required":false
-    },
-    {
-      "id":"goodall:raw_venison",
-      "required":false
-    },
-    {
-      "id":"meadow:raw_bear_meat",
-      "required":false
-    },
-    {
-      "id":"naturalist:duck",
-      "required":false
-    },
-    {
-      "id":"naturalist:venison",
-      "required":false
-    },
-    {
-      "id":"naturalist:lizard_tail",
-      "required":false
-    },
-    {
-      "id":"neapolitan:chocolate_spider_eye",
-      "required":false
-    },
-    {
-      "id":"nourished_nether:raw_hoglin_meat",
-      "required":false
-    },
-    {
-      "id":"paradise_lost:moa_chop",
-      "required":false
-    },
-    {
-      "id":"twist:rawstrider",
-      "required":false
-    },
-    {
-      "id":"twilightforest:raw_venison",
-      "required":false
-    },
-    {
-      "id":"twilightforest:raw_meef",
-      "required":false
-    },
-    {
-      "id":"undergarden:raw_dweller_meat",
-      "required":false
-    },
-    {
-      "id":"undergarden:raw_gwibling",
-      "required":false
-    },
-    {
-      "id":"abnormals_delight:perch_slice",
-      "required":false
-    },
-    {
-      "id":"abnormals_delight:pike_slice",
+      "id":"adventurez:rhino_meat",
       "required":false
     },
     {
@@ -173,11 +49,15 @@
       "required":false
     },
     {
+      "id":"aquamirae:poseidons_breakfast",
+      "required":false
+    },
+    {
       "id":"aquamirae:sea_stew",
       "required":false
     },
     {
-      "id":"aquamirae:poseidons_breakfast",
+      "id":"betteranimalsplus:calamari_raw",
       "required":false
     },
     {
@@ -185,7 +65,19 @@
       "required":false
     },
     {
-      "id":"betteranimalsplus:calamari_raw",
+      "id":"betteranimalsplus:pheasantraw",
+      "required":false
+    },
+    {
+      "id":"betteranimalsplus:turkey_leg_raw",
+      "required":false
+    },
+    {
+      "id":"betteranimalsplus:venisonraw",
+      "required":false
+    },
+    {
+      "id":"betterend:end_fish_raw",
       "required":false
     },
     {
@@ -197,7 +89,7 @@
       "required":false
     },
     {
-      "id":"betterend:end_fish_raw",
+      "id":"biomemakeover:raw_toad",
       "required":false
     },
     {
@@ -206,6 +98,10 @@
     },
     {
       "id":"croptopia:anchovy",
+      "required":false
+    },
+    {
+      "id":"croptopia:bacon",
       "required":false
     },
     {
@@ -221,11 +117,19 @@
       "required":false
     },
     {
+      "id":"croptopia:crab_legs",
+      "required":false
+    },
+    {
+      "id":"croptopia:frog_legs",
+      "required":false
+    },
+    {
       "id":"croptopia:glowing_calamari",
       "required":false
     },
     {
-      "id":"croptopia:crab_legs",
+      "id":"croptopia:ground_pork",
       "required":false
     },
     {
@@ -245,10 +149,6 @@
       "required":false
     },
     {
-      "id":"culturaldelights:squid",
-      "required":false
-    },
-    {
       "id":"culturaldelights:glow_squid",
       "required":false
     },
@@ -257,7 +157,31 @@
       "required":false
     },
     {
-      "id":"farmersdelight:salmon_slice",
+      "id":"culturaldelights:squid",
+      "required":false
+    },
+    {
+      "id":"endersdelight:mite_crust",
+      "required":false
+    },
+    {
+      "id":"endersdelight:shulker_filet",
+      "required":false
+    },
+    {
+      "id":"endersdelight:shulker_mollusk",
+      "required":false
+    },
+    {
+      "id":"farmersdelight:bacon",
+      "required":false
+    },
+    {
+      "id":"farmersdelight:beef_patty",
+      "required":false
+    },
+    {
+      "id":"farmersdelight:chicken_cuts",
       "required":false
     },
     {
@@ -265,39 +189,35 @@
       "required":false
     },
     {
-      "id":"gofish:ender_eel",
+      "id":"farmersdelight:ham",
       "required":false
     },
     {
-      "id":"gofish:icicle_fish",
+      "id":"farmersdelight:minced_beef",
       "required":false
     },
     {
-      "id":"gofish:lilyfish",
+      "id":"farmersdelight:mutton_chops",
       "required":false
     },
     {
-      "id":"gofish:matrix_fish",
+      "id":"farmersdelight:salmon_slice",
       "required":false
     },
     {
-      "id":"gofish:seaweed_eel",
+      "id":"gofish:aquatic_astral_stew",
       "required":false
     },
     {
-      "id":"gofish:slimefish",
+      "id":"gofish:basalt_bass",
       "required":false
     },
     {
-      "id":"gofish:snowball_fish",
+      "id":"gofish:blackstone_trout",
       "required":false
     },
     {
-      "id":"gofish:terrafish",
-      "required":false
-    },
-    {
-      "id":"gofish:oakfish",
+      "id":"gofish:blizzard_bass",
       "required":false
     },
     {
@@ -309,31 +229,19 @@
       "required":false
     },
     {
-      "id":"gofish:blackstone_trout",
+      "id":"gofish:chorus_cod",
       "required":false
     },
     {
-      "id":"gofish:gilded_blackstone_carp",
+      "id":"gofish:cloudy_crab",
       "required":false
     },
     {
-      "id":"gofish:smokey_salmon",
+      "id":"gofish:dragonfish",
       "required":false
     },
     {
-      "id":"gofish:soul_salmon",
-      "required":false
-    },
-    {
-      "id":"gofish:magma_cod",
-      "required":false
-    },
-    {
-      "id":"gofish:basalt_bass",
-      "required":false
-    },
-    {
-      "id":"gofish:obsidian_halibut",
+      "id":"gofish:ender_eel",
       "required":false
     },
     {
@@ -341,11 +249,43 @@
       "required":false
     },
     {
-      "id":"gofish:chorus_cod",
+      "id":"gofish:galaxy_starfish",
       "required":false
     },
     {
-      "id":"gofish:dragonfish",
+      "id":"gofish:gilded_blackstone_carp",
+      "required":false
+    },
+    {
+      "id":"gofish:icicle_fish",
+      "required":false
+    },
+    {
+      "id":"gofish:lilyfish",
+      "required":false
+    },
+    {
+      "id":"gofish:lunarfish",
+      "required":false
+    },
+    {
+      "id":"gofish:magma_cod",
+      "required":false
+    },
+    {
+      "id":"gofish:matrix_fish",
+      "required":false
+    },
+    {
+      "id":"gofish:nebula_swordfish",
+      "required":false
+    },
+    {
+      "id":"gofish:oakfish",
+      "required":false
+    },
+    {
+      "id":"gofish:obsidian_halibut",
       "required":false
     },
     {
@@ -357,39 +297,15 @@
       "required":false
     },
     {
-      "id":"gofish:lunarfish",
-      "required":false
-    },
-    {
-      "id":"gofish:galaxy_starfish",
-      "required":false
-    },
-    {
-      "id":"gofish:starry_salmon",
-      "required":false
-    },
-    {
-      "id":"gofish:nebula_swordfish",
-      "required":false
-    },
-    {
-      "id":"gofish:aquatic_astral_stew",
-      "required":false
-    },
-    {
       "id":"gofish:rainy_bass",
       "required":false
     },
     {
-      "id":"gofish:steamed_bass",
+      "id":"gofish:seaweed_eel",
       "required":false
     },
     {
-      "id":"gofish:cloudy_crab",
-      "required":false
-    },
-    {
-      "id":"gofish:thundering_bass",
+      "id":"gofish:slimefish",
       "required":false
     },
     {
@@ -397,7 +313,39 @@
       "required":false
     },
     {
-      "id":"gofish:blizzard_bass",
+      "id":"gofish:smokey_salmon",
+      "required":false
+    },
+    {
+      "id":"gofish:snowball_fish",
+      "required":false
+    },
+    {
+      "id":"gofish:soul_salmon",
+      "required":false
+    },
+    {
+      "id":"gofish:starry_salmon",
+      "required":false
+    },
+    {
+      "id":"gofish:steamed_bass",
+      "required":false
+    },
+    {
+      "id":"gofish:terrafish",
+      "required":false
+    },
+    {
+      "id":"gofish:thundering_bass",
+      "required":false
+    },
+    {
+      "id":"goodall:raw_venison",
+      "required":false
+    },
+    {
+      "id":"meadow:raw_bear_meat",
       "required":false
     },
     {
@@ -405,31 +353,27 @@
       "required":false
     },
     {
-      "id":"naturalist:catfish",
-      "required":false
-    },
-    {
       "id":"naturalist:bass",
       "required":false
     },
     {
-      "id":"netherdepthsupgrade:lava_pufferfish",
+      "id":"naturalist:catfish",
       "required":false
     },
     {
-      "id":"netherdepthsupgrade:obsidianfish",
+      "id":"naturalist:duck",
       "required":false
     },
     {
-      "id":"netherdepthsupgrade:searing_cod",
+      "id":"naturalist:lizard_tail",
       "required":false
     },
     {
-      "id":"netherdepthsupgrade:wither_bonefish",
+      "id":"naturalist:venison",
       "required":false
     },
     {
-      "id":"netherdepthsupgrade:bonefish",
+      "id":"neapolitan:chocolate_spider_eye",
       "required":false
     },
     {
@@ -437,19 +381,11 @@
       "required":false
     },
     {
-      "id":"netherdepthsupgrade:magmacubefish",
+      "id":"netherdepthsupgrade:blazefish_slice",
       "required":false
     },
     {
-      "id":"netherdepthsupgrade:glowdine",
-      "required":false
-    },
-    {
-      "id":"netherdepthsupgrade:soulsucker",
-      "required":false
-    },
-    {
-      "id":"netherdepthsupgrade:fortress_grouper",
+      "id":"netherdepthsupgrade:bonefish",
       "required":false
     },
     {
@@ -457,23 +393,11 @@
       "required":false
     },
     {
-      "id":"netherdepthsupgrade:lava_pufferfish_slice",
+      "id":"netherdepthsupgrade:fortress_grouper",
       "required":false
     },
     {
-      "id":"netherdepthsupgrade:obsidianfish_slice",
-      "required":false
-    },
-    {
-      "id":"netherdepthsupgrade:searing_cod_slice",
-      "required":false
-    },
-    {
-      "id":"netherdepthsupgrade:blazefish_slice",
-      "required":false
-    },
-    {
-      "id":"netherdepthsupgrade:magmacubefish_slice",
+      "id":"netherdepthsupgrade:glowdine",
       "required":false
     },
     {
@@ -481,19 +405,51 @@
       "required":false
     },
     {
+      "id":"netherdepthsupgrade:lava_pufferfish",
+      "required":false
+    },
+    {
+      "id":"netherdepthsupgrade:lava_pufferfish_slice",
+      "required":false
+    },
+    {
+      "id":"netherdepthsupgrade:magmacubefish",
+      "required":false
+    },
+    {
+      "id":"netherdepthsupgrade:magmacubefish_slice",
+      "required":false
+    },
+    {
+      "id":"netherdepthsupgrade:obsidianfish",
+      "required":false
+    },
+    {
+      "id":"netherdepthsupgrade:obsidianfish_slice",
+      "required":false
+    },
+    {
+      "id":"netherdepthsupgrade:searing_cod",
+      "required":false
+    },
+    {
+      "id":"netherdepthsupgrade:searing_cod_slice",
+      "required":false
+    },
+    {
+      "id":"netherdepthsupgrade:soulsucker",
+      "required":false
+    },
+    {
       "id":"netherdepthsupgrade:soulsucker_slice",
       "required":false
     },
     {
-      "id":"oceansdelight:tentacles",
+      "id":"netherdepthsupgrade:wither_bonefish",
       "required":false
     },
     {
-      "id":"oceansdelight:cut_tentacles",
-      "required":false
-    },
-    {
-      "id":"oceansdelight:tentacle_on_a_stick",
+      "id":"nourished_nether:raw_hoglin_meat",
       "required":false
     },
     {
@@ -501,11 +457,11 @@
       "required":false
     },
     {
-      "id":"oceansdelight:guardian_tail",
+      "id":"oceansdelight:cooked_guardian_tail",
       "required":false
     },
     {
-      "id":"oceansdelight:cooked_guardian_tail",
+      "id":"oceansdelight:cut_tentacles",
       "required":false
     },
     {
@@ -521,11 +477,43 @@
       "required":false
     },
     {
-      "id":"upgrade_aquatic:lionfish",
+      "id":"oceansdelight:guardian_tail",
       "required":false
     },
     {
-      "id":"upgrade_aquatic:pike",
+      "id":"oceansdelight:tentacle_on_a_stick",
+      "required":false
+    },
+    {
+      "id":"oceansdelight:tentacles",
+      "required":false
+    },
+    {
+      "id":"paradise_lost:moa_chop",
+      "required":false
+    },
+    {
+      "id":"twilightforest:raw_meef",
+      "required":false
+    },
+    {
+      "id":"twilightforest:raw_venison",
+      "required":false
+    },
+    {
+      "id":"twist:rawstrider",
+      "required":false
+    },
+    {
+      "id":"undergarden:raw_dweller_meat",
+      "required":false
+    },
+    {
+      "id":"undergarden:raw_gwibling",
+      "required":false
+    },
+    {
+      "id":"upgrade_aquatic:lionfish",
       "required":false
     },
     {
@@ -533,11 +521,11 @@
       "required":false
     },
     {
-      "id":"varietyaquatic:raw_betta",
+      "id":"upgrade_aquatic:pike",
       "required":false
     },
     {
-      "id":"varietyaquatic:raw_tetra",
+      "id":"varietyaquatic:raw_betta",
       "required":false
     },
     {
@@ -546,6 +534,10 @@
     },
     {
       "id":"varietyaquatic:raw_piranha",
+      "required":false
+    },
+    {
+      "id":"varietyaquatic:raw_tetra",
       "required":false
     },
     {

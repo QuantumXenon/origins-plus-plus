@@ -5,47 +5,15 @@
       "required":false
     },
     {
-      "id":"betternether:stalagnate_seed",
+      "id":"#croptopia:advancement_seeds",
       "required":false
     },
     {
-      "id":"betternether:wart_seed",
+      "id":"betterend:amber_root_seed",
       "required":false
     },
     {
-      "id":"betternether:eye_seed",
-      "required":false
-    },
-    {
-      "id":"betternether:ink_bush_seed",
-      "required":false
-    },
-    {
-      "id":"betternether:black_apple_seed",
-      "required":false
-    },
-    {
-      "id":"betternether:magma_flower",
-      "required":false
-    },
-    {
-      "id":"betternether:whispering_gourd_vine",
-      "required":false
-    },
-    {
-      "id":"betternether:agave",
-      "required":false
-    },
-    {
-      "id":"betternether:lumabus_seed",
-      "required":false
-    },
-    {
-      "id":"betternether:golden_lumabus_seed",
-      "required":false
-    },
-    {
-      "id":"betterend:end_lotus_seed",
+      "id":"betterend:blossom_berry_seed",
       "required":false
     },
     {
@@ -53,11 +21,31 @@
       "required":false
     },
     {
-      "id":"betterend:lanceleaf_seed",
+      "id":"betterend:bulb_vine_seed",
+      "required":false
+    },
+    {
+      "id":"betterend:cave_pumpkin_seed",
+      "required":false
+    },
+    {
+      "id":"betterend:chorus_mushroom_seed",
+      "required":false
+    },
+    {
+      "id":"betterend:end_lily_seed",
+      "required":false
+    },
+    {
+      "id":"betterend:end_lotus_seed",
       "required":false
     },
     {
       "id":"betterend:glowing_pillar_seed",
+      "required":false
+    },
+    {
+      "id":"betterend:lanceleaf_seed",
       "required":false
     },
     {
@@ -69,27 +57,43 @@
       "required":false
     },
     {
-      "id":"betterend:blossom_berry_seed",
+      "id":"betternether:agave",
       "required":false
     },
     {
-      "id":"betterend:amber_root_seed",
+      "id":"betternether:black_apple_seed",
       "required":false
     },
     {
-      "id":"betterend:chorus_mushroom_seed",
+      "id":"betternether:eye_seed",
       "required":false
     },
     {
-      "id":"betterend:cave_pumpkin_seed",
+      "id":"betternether:golden_lumabus_seed",
       "required":false
     },
     {
-      "id":"betterend:end_lily_seed",
+      "id":"betternether:ink_bush_seed",
       "required":false
     },
     {
-      "id":"betterend:bulb_vine_seed",
+      "id":"betternether:lumabus_seed",
+      "required":false
+    },
+    {
+      "id":"betternether:magma_flower",
+      "required":false
+    },
+    {
+      "id":"betternether:stalagnate_seed",
+      "required":false
+    },
+    {
+      "id":"betternether:wart_seed",
+      "required":false
+    },
+    {
+      "id":"betternether:whispering_gourd_vine",
       "required":false
     },
     {
@@ -106,6 +110,46 @@
     },
     {
       "id":"biomemakeover:rootling_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:dry_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:golden_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:grass_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:infused_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:mutated_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:overgrowth_seed",
+      "required":false
+    },
+    {
+      "id":"botania:podzol_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:scorched_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:vivid_seeds",
+      "required":false
+    },
+    {
+      "id":"botania:world_seed",
       "required":false
     },
     {
@@ -149,15 +193,11 @@
       "required":false
     },
     {
-      "id":"meadow:mountain_lavender_seeds",
-      "required":false
-    },
-    {
       "id":"meadow:juniper_seeds",
       "required":false
     },
     {
-      "id":"meadow:yarrow_seeds",
+      "id":"meadow:mountain_lavender_seeds",
       "required":false
     },
     {
@@ -165,15 +205,27 @@
       "required":false
     },
     {
+      "id":"meadow:yarrow_seeds",
+      "required":false
+    },
+    {
       "id":"paradise_lost:flaxseed",
       "required":false
     },
     {
-      "id":"vinery:red_grape_seeds",
+      "id":"supplementaries:flax_seeds",
       "required":false
     },
     {
-      "id":"vinery:white_grape_seeds",
+      "id":"vinery:jungle_grape_seeds_red",
+      "required":false
+    },
+    {
+      "id":"vinery:jungle_grape_seeds_white",
+      "required":false
+    },
+    {
+      "id":"vinery:red_grape_seeds",
       "required":false
     },
     {
@@ -193,67 +245,15 @@
       "required":false
     },
     {
-      "id":"vinery:jungle_grape_seeds_red",
-      "required":false
-    },
-    {
-      "id":"vinery:jungle_grape_seeds_white",
-      "required":false
-    },
-    {
       "id":"vinery:tomato_seeds",
       "required":false
     },
     {
+      "id":"vinery:white_grape_seeds",
+      "required":false
+    },
+    {
       "id":"xps:xp_berries_seeds",
-      "required":false
-    },
-    {
-      "id":"supplementaries:flax_seeds",
-      "required":false
-    },
-    {
-      "id":"#croptopia:advancement_seeds",
-      "required":false
-    },
-    {
-      "id":"botania:grass_seeds",
-      "required":false
-    },
-    {
-      "id":"botania:podzol_seeds",
-      "required":false
-    },
-    {
-      "id":"botania:dry_seeds",
-      "required":false
-    },
-    {
-      "id":"botania:golden_seeds",
-      "required":false
-    },
-    {
-      "id":"botania:vivid_seeds",
-      "required":false
-    },
-    {
-      "id":"botania:scorched_seeds",
-      "required":false
-    },
-    {
-      "id":"botania:infused_seeds",
-      "required":false
-    },
-    {
-      "id":"botania:mutated_seeds",
-      "required":false
-    },
-    {
-      "id":"botania:world_seed",
-      "required":false
-    },
-    {
-      "id":"botania:overgrowth_seed",
       "required":false
     }
   ]

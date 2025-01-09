@@ -6,9 +6,12 @@
 		"minecraft:netherite_sword",
 		"minecraft:stone_sword",
 		"minecraft:wooden_sword",
+
 		{
 			"id":"#minecraft:swords",
 			"required":false
-		}
+		},
+
+		"#origins-plus-plus-modded-support:swords"
 	]
 }

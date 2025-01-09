@@ -9,6 +9,8 @@
     "minecraft:melon_slice",
     "minecraft:poisonous_potato",
     "minecraft:potato",
-    "minecraft:sweet_berries"
+    "minecraft:sweet_berries",
+
+    "#origins-plus-plus-modded-support:tier_1_foods"
   ]
 }

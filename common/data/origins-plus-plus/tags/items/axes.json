@@ -6,9 +6,12 @@
 		"minecraft:netherite_axe",
 		"minecraft:stone_axe",
 		"minecraft:wooden_axe",
+
 		{
 			"id":"#minecraft:axes",
 			"required":false
-		}
+		},
+
+		"#origins-plus-plus-modded-support:axes"
 	]
 }

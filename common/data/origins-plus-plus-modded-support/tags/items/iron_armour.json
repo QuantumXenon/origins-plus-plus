@@ -1,0 +1,32 @@
+{
+    "values":[
+        {
+            "id":"knightquest:chainmail_helmet",
+            "required":false
+        },
+        {
+            "id":"knightquest:chainmail_helmet2",
+            "required":false
+        },
+        {
+            "id":"knightquest:tunic_blue_leggings",
+            "required":false
+        },
+        {
+            "id":"knightquest:tunic_green_leggings",
+            "required":false
+        },
+        {
+            "id":"knightquest:tunic_red_leggings",
+            "required":false
+        },
+        {
+            "id":"knightquest:tunic_sea_leggings",
+            "required":false
+        },
+        {
+            "id":"knightquest:tunic_yellow_leggings",
+            "required":false
+        }
+    ]
+}

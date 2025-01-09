@@ -1,0 +1,12 @@
+{
+	"values":[
+		{
+			"id":"knightquest:steel_axe",
+			"required":false
+		},
+		{
+			"id":"knightquest:water_axe",
+			"required":false
+		}
+	]
+}

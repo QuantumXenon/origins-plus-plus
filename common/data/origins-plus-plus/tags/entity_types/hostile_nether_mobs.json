@@ -10,6 +10,8 @@
     "minecraft:skeleton",
     "minecraft:wither_skeleton",
     "minecraft:zombified_piglin",
-    "minecraft:zoglin"
+    "minecraft:zoglin",
+
+    "#origins-plus-plus-modded-support:hostile_nether_mobs"
   ]
 }

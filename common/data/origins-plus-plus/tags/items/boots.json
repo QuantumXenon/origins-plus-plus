@@ -5,6 +5,8 @@
 		"minecraft:golden_boots",
 		"minecraft:iron_boots",
 		"minecraft:leather_boots",
-		"minecraft:netherite_boots"
+		"minecraft:netherite_boots",
+
+		"#origins-plus-plus-modded-support:boots"
 	]
 }

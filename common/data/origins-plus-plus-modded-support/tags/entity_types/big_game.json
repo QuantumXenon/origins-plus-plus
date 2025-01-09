@@ -1,0 +1,12 @@
+{
+	"values":[
+		{
+			"id":"knightquest:eldknight",
+			"required":false
+		},
+		{
+			"id":"knightquest:swampman",
+			"required":false
+		}
+	]
+}

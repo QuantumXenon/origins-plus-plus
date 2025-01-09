@@ -6,6 +6,8 @@
     "minecraft:phantom",
     "minecraft:slime",
     "minecraft:stray",
-    "minecraft:zombie_villager"
+    "minecraft:zombie_villager",
+
+    "#origins-plus-plus-modded-support:hostile_overworld_mobs"
   ]
 }

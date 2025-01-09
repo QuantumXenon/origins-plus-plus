@@ -3,6 +3,8 @@
     "minecraft:netherite_boots",
     "minecraft:netherite_chestplate",
     "minecraft:netherite_helmet",
-    "minecraft:netherite_leggings"
+    "minecraft:netherite_leggings",
+
+    "#origins-plus-plus-modded-support:heavy_armour"
   ]
 }

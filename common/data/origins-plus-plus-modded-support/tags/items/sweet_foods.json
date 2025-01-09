@@ -661,7 +661,15 @@
       "required":false
     },
     {
+      "id":"farmersdelight:glow_berry_custard",
+      "required":false
+    },
+    {
       "id":"farmersdelight:honey_cookie",
+      "required":false
+    },
+    {
+      "id":"farmersdelight:hot_cocoa",
       "required":false
     },
     {
@@ -1049,11 +1057,11 @@
       "required":false
     },
     {
-      "id":"xps_additions:mystical_candy",
+      "id":"xps:xp_berries",
       "required":false
     },
     {
-      "id":"xps:xp_berries",
+      "id":"xps_additions:mystical_candy",
       "required":false
     }
   ]

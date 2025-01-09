@@ -1,0 +1,12 @@
+{
+	"values":[
+		{
+			"id":"knightquest:gremlin",
+			"required":false
+		},
+		{
+			"id":"knightquest:bad_patch",
+			"required":false
+		}
+	]
+}

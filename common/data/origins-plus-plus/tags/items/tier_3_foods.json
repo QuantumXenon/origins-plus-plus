@@ -3,6 +3,8 @@
     "minecraft:cooked_beef",
     "minecraft:cooked_porkchop",
     "minecraft:pumpkin_pie",
-    "minecraft:rabbit_stew"
+    "minecraft:rabbit_stew",
+
+    "#origins-plus-plus-modded-support:tier_3_foods"
   ]
 }
