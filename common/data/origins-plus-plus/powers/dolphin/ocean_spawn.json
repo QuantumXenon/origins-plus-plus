@@ -1,5 +1,6 @@
 {
 	"type":"origins:modify_player_spawn",
 	"dimension":"minecraft:overworld",
-	"biome":"minecraft:ocean"
+	"biome":"minecraft:ocean",
+	"spawn_strategy":"center"
 }

@@ -1,5 +1,6 @@
 {
 	"type":"origins:modify_player_spawn",
 	"dimension":"minecraft:overworld",
-	"structure":"minecraft:shipwreck"
+	"structure":"minecraft:shipwreck",
+	"spawn_strategy":"center"
 }

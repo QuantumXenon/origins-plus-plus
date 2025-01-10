@@ -1,5 +1,6 @@
 {
 	"type":"origins:modify_player_spawn",
 	"dimension":"minecraft:overworld",
-	"biome":"minecraft:snowy_plains"
+	"biome":"minecraft:snowy_plains",
+	"spawn_strategy":"center"
 }

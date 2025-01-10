@@ -2,5 +2,6 @@
 	"type":"origins:modify_player_spawn",
 	"dimension":"minecraft:overworld",
 	"biome":"minecraft:desert",
+	"spawn_strategy":"center",
 	"hidden":true
 }
