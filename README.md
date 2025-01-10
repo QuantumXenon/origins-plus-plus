@@ -11,7 +11,7 @@ Origins++ is an extensive collection of over 100 unique origins to fully expand 
 - **Forge**: Although Origins (Forge) has been discontinued, Origins++ will still provide support on a best-effort basis. Please note than many issues are caused by Origins (Forge) itself, and so cannot be resolved by Origins++.
 
 ## Building
-- To build the project, run either `gradlew buildFabric` or `gradlew buildForge`, depending on your chosen mod loader. The output `.jar` file will be located in the `fabric\build\libs` or `forge\build\libs\` directory, respectively.
+- To build the project, run either `gradlew buildFabric` or `gradlew buildForge`, depending on your chosen mod loader. The output `.jar` file will be located in the `fabric\build\libs` or `forge\build\libs` directory, respectively.
 
 
 ## Credits
