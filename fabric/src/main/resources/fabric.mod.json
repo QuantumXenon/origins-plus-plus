@@ -17,8 +17,8 @@
 		"issues":"https://github.com/QuantumXenon/origins-plus-plus/issues"
 	},
 	"depends":{
-		"minecraft":"*",
-		"origins":"*",
+		"minecraft":"<=1.20.4",
+		"origins":"<1.13.0-alpha.4+mc.1.20.4",
 		"pehkui":"*"
 	},
 	"custom":{
