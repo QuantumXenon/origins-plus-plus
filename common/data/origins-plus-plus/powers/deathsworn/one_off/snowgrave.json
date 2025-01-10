@@ -10,7 +10,10 @@
 					"type":"origins:target_action",
 					"action":{
 						"type":"origins:damage",
-						"amount":6
+						"amount":6,
+						"source":{
+							"name":"freeze"
+						}
 					}
 				},
 				"bientity_condition":{

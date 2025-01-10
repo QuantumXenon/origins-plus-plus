@@ -23,7 +23,10 @@
 					"type":"origins:target_action",
 					"action":{
 						"type":"origins:damage",
-						"amount":4
+						"amount":4,
+						"source":{
+							"name":"magic"
+						}
 					}
 				}
 			]
