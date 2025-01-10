@@ -34,7 +34,6 @@
 		"minecraft:end_gateway",
 		"minecraft:end_portal",
 		"minecraft:fern",
-		"minecraft:grass",
 		"minecraft:kelp_plant",
 		"minecraft:large_fern",
 		"minecraft:lava",
@@ -58,6 +57,15 @@
 		"minecraft:wall_torch",
 		"minecraft:warped_fungus",
 		"minecraft:warped_roots",
-		"minecraft:water"
+		"minecraft:water",
+
+		{
+			"id":"minecraft:grass",
+			"required":false
+		},
+		{
+			"id":"minecraft:short_grass",
+			"required":false
+		}
 	]
 }

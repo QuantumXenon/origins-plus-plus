@@ -5,12 +5,20 @@
 		"#minecraft:saplings",
 		"minecraft:brown_mushroom",
 		"minecraft:fern",
-		"minecraft:grass",
 		"minecraft:hay_block",
 		"minecraft:large_fern",
 		"minecraft:red_mushroom",
 		"minecraft:tall_grass",
 		"minecraft:wheat",
+
+		{
+			"id":"minecraft:grass",
+			"required":false
+		},
+		{
+			"id":"minecraft:short_grass",
+			"required":false
+		},
 
 		"#origins-plus-plus-modded-support:edible_plants"
 	]
