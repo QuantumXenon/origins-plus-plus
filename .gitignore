@@ -5,3 +5,6 @@ run
 
 # IntelliJ
 .idea
+
+# VSCode
+.vscode/
