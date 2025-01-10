@@ -9,8 +9,8 @@
 				"bientity_action":{
 					"type":"origins:target_action",
 					"action":{
-						"type":"origins:heal",
-						"amount":-6
+						"type":"origins:damage",
+						"amount":6
 					}
 				},
 				"bientity_condition":{
