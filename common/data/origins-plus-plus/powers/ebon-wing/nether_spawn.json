@@ -1,5 +1,7 @@
 {
 	"type":"origins:modify_player_spawn",
 	"dimension":"minecraft:the_nether",
-	"biome":"minecraft:crimson_forest"
+	"biome":"minecraft:crimson_forest",
+	"dimension_distance_multiplier":0.125,
+	"spawn_strategy":"center"
 }
