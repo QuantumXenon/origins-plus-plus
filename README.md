@@ -4,7 +4,7 @@ Origins++ is an extensive collection of over 100 unique origins to fully expand 
 
 ## Mod Compatibility
 - Origins++ includes built-in compatibility for certain items from select mods.
-- Additionally, you can use [this](https://github.com/QuantumXenon/origins-plus-plus-modded-support) datapack template to extend compatibility to other mods to further customise your play-through.
+- Additionally, you can use [this datapack template](https://github.com/QuantumXenon/origins-plus-plus-modded-support) to extend compatibility to other mods to further customise your play-through.
   
 ## Mod Loader Support
 - **Fabric**: Origins (Fabric) provides the most stable experience with Origins++. Most bugs are likely related to Origins++ itself and so will be fixed.
