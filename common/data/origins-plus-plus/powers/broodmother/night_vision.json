@@ -4,5 +4,6 @@
 	"condition":{
 		"type":"origins:exposed_to_sky",
 		"inverted":true
-	}
+	},
+	"hidden":true
 }
