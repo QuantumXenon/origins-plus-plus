@@ -1,30 +1,70 @@
 {
 	"type":"origins:active_self",
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:wandering-spirit/start_ray"
-			},
-			{
-				"type":"origins:delay",
-				"ticks":1,
-				"action":{
-					"type":"origins:execute_command",
-					"command":"gamerule showDeathMessages true"
+	   "type":"origins:and",
+	   "actions":[
+		  {
+			 "type":"origins:feed",
+			 "food":-1,
+			 "saturation":-1
+		  },
+		  {
+			 "type":"origins:raycast",
+			 "distance":20.00,
+			 "block":true,
+			 "entity":true,
+			 "shape_type":"visual",
+			 "fluid_handling":"any",
+			 "bientity_condition":{
+				"type":"origins:target_condition",
+				"condition":{
+				   "type":"origins:living"
 				}
-			},
-			{
-				"type":"origins:feed",
-				"food":-1,
-				"saturation":-1
-			}
-		]
+			 },
+			 "bientity_action":{
+				"type":"origins:target_action",
+				"action":{
+				   "type":"origins:spawn_entity",
+				   "entity_type":"minecraft:lightning_bolt",
+				   "entity_action":{
+					  "type":"origins:area_of_effect",
+					  "radius":2.00,
+					  "shape":"cube",
+					  "bientity_action":{
+						 "type":"origins:target_action",
+						 "action":{
+							"type":"origins:damage",
+							"amount":10,
+							"damage_type":"minecraft:lightning_bolt"
+						 }
+					  },
+					  "bientity_condition":{
+						 "type":"origins:target_condition",
+						 "condition":{
+							"type":"origins:living"
+						 }
+					  },
+					  "include_target":false
+				   }
+				}
+			 },
+			 "block_action":{
+				"type":"origins:execute_command",
+				"command":"summon lightning_bolt ~ ~ ~"
+			 },
+			 "command_step":1.00,
+			 "command_along_ray_only_on_hit":false
+		  }
+	   ]
 	},
 	"cooldown":200,
 	"hud_render":{
-		"bar_index":2
+	   "should_render":true,
+	   "sprite_location":"origins:textures/gui/resource_bar.png",
+	   "bar_index":2
 	},
-	"key":"key.pickItem"
+	"key":{
+	   "key":"key.pickItem",
+	   "continuous":false
+	}
 }
