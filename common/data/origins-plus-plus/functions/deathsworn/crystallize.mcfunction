@@ -29,5 +29,3 @@ execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified
 execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run attribute @s minecraft:generic.attack_damage get
 execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run scoreboard players get @s Minion_Attack_Damage
 execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Size float 1 run data get entity @s Size 1
-data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.ArmorSet set from entity @s ArmorItems
-data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.HandItems set from entity @s HandItems
