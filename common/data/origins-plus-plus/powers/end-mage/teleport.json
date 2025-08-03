@@ -1,6 +1,5 @@
 {
 	"type":"origins:active_self",
-	"loading_priority": 1,
 	"key":"key.origins.primary_active",
 	"cooldown":60,
 	"entity_action":{
