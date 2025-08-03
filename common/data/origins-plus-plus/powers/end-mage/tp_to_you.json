@@ -1,6 +1,5 @@
 {
 	"type":"origins:multiple",
-	"loading_priority": 1,
 	"hidden":true,
 	"empty":{
 		"type":"origins:action_over_time",
