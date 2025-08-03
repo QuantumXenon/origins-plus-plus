@@ -1,6 +1,5 @@
 {
 	"type":"origins:active_self",
-	"loading_priority":1,
 	"key":"key.origins.secondary_active",
 	"entity_action":{
 				"type":"origins:raycast",
