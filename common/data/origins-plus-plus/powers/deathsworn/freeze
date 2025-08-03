@@ -1,0 +1,7 @@
+scoreboard objectives add deathsworndisplayingloyalty dummy
+scoreboard objectives add -1 dummy
+scoreboard players set #-1 -1 -1
+scoreboard players operation @s deathsworndisplayingloyalty *= #-1 -1
+scoreboard players operation @s deathsworndisplayingloyalty += #-1 -1
+execute if score @s deathsworndisplayingloyalty matches -1 run function origins-plus-plus:deathsworn/stop
+execute if score @s deathsworndisplayingloyalty matches 0 run function origins-plus-plus:deathsworn/at_ease
