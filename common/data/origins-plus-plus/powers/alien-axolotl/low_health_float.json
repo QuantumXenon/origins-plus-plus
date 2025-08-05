@@ -2,15 +2,23 @@
 	"type":"origins:stacking_status_effect",
 	"min_stacks":0,
 	"max_stacks":1,
-	"duration_per_stack":20,
+	"duration_per_stack":200,
 	"effect":{
 		"effect":"minecraft:levitation",
 		"show_particles":false,
 		"show_icon":false
 	},
 	"condition":{
-		"type":"origins:health",
-		"comparison":"<",
-		"compare_to":4
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:health",
+				"comparison":"<",
+				"compare_to":4
+			},
+			{
+				"type":"origins:on_block"
+			}
+		]
 	}
 }
