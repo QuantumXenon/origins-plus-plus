@@ -10,10 +10,6 @@
   "if_action":{
    "type":"origins:execute_command",
    "command":"function origins-plus-plus:deathsworn/crystallize"
-  },
-  "else_action":{
-   "type":"origins:execute_command",
-   "command":"function origins-plus-plus:deathsworn/set_stats"
   }
  },
  "target_condition":{

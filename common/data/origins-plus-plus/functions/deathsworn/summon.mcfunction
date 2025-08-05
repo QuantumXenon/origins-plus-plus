@@ -16,15 +16,23 @@ execute if entity @s[nbt={SelectedItem:{tag:{mob:"Wither_Skeleton"}}}] run summo
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"Zombie"}}}] run summon minecraft:zombie ^ ^ ^ {Team:"deathsworn",Tags:["Deathsworn_Minion"],Attributes:[{Name:"generic.max_health",Base:100},{Name:"generic.follow_range",Base:32},{Name:"generic.knockback_resistance",Base:1},{Name:"generic.attack_damage",Base:1},{Name:"generic.armor",Base:1}]}
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"Zombified_Piglin"}}}] run summon minecraft:zombified_piglin ^ ^ ^ {Team:"deathsworn",Tags:["Deathsworn_Minion"],Attributes:[{Name:"generic.max_health",Base:100},{Name:"generic.follow_range",Base:32},{Name:"generic.knockback_resistance",Base:1},{Name:"generic.attack_damage",Base:1},{Name:"generic.armor",Base:1}]}
 
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base set from entity @s SelectedItem.tag.Health
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Health set from entity @s SelectedItem.tag.Health
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.armor"}].Base set from entity @s SelectedItem.tag.Armor
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.attack_damage"}].Base set from entity @s SelectedItem.tag.AD
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] Size set from entity @s SelectedItem.tag.Size
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] IsImmuneToZombification set value 1
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] CanPickUpLoot set value 1b
-execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] DeathLootTable set value "minecraft:empty"
+# this is how you prevent infinite attribute generation, the rest is on crystallize
+execute store result score @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_Armor run data get entity @s SelectedItem.tag.Armor
+execute store result score @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_Attack_Damage run data get entity @s SelectedItem.tag.AD
+execute store result score @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] Minion_Health run data get entity @s SelectedItem.tag.Health
+
+data modify entity @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base set from entity @s SelectedItem.tag.Health
+data modify entity @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] Health set from entity @s SelectedItem.tag.Health
+data modify entity @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.armor"}].Base set from entity @s SelectedItem.tag.Armor
+data modify entity @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.attack_damage"}].Base set from entity @s SelectedItem.tag.AD
+data modify entity @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] Size set from entity @s SelectedItem.tag.Size
+data modify entity @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] IsImmuneToZombification set value 1
+data modify entity @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] CanPickUpLoot set value 1b
+data modify entity @e[tag=!Deathsworn_Dont_Touch,tag=Deathsworn_Minion,sort=nearest,limit=1] DeathLootTable set value "minecraft:empty"
+#add an extra tag to make sure this minion doesnt get targeted next time a minion gets summoned
+tag @s add Deathsworn_Dont_Touch
 execute run power grant @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] origins-plus-plus:deathsworn/minions/kill
+
 
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"minecraft:spider"}}}] run advancement grant @s only origins-plus-plus:deathsworn/spider
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"minecraft:skeleton"}}}] run advancement grant @s only origins-plus-plus:deathsworn/skeleton

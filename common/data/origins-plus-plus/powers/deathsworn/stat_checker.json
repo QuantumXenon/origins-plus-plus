@@ -1,9 +1,0 @@
-{
-	"type":"origins:action_over_time",
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"execute as @e[distance=..24,type=!minecraft:player,type=!#origins-plus-plus:untargetable] at @s run function origins-plus-plus:deathsworn/set_stats"
-	},
-	"interval":1,
-	"hidden":true
-}

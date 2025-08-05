@@ -3,19 +3,8 @@
 	"bientity_action":{
 		"type":"origins:target_action",
 		"action":{
-			"type":"origins:if_else",
-			"condition":{
-				"type":"origins:status_effect",
-				"effect":"minecraft:slowness"
-			},
-			"else_action":{
-				"type":"origins:execute_command",
-				"command":"effect give @s minecraft:slowness 999999 50 true"
-			},
-			"if_action":{
-				"type":"origins:execute_command",
-				"command":"effect clear @s minecraft:slowness"
-			}
+			"type":"origins:execute_command",
+			"effect":"function origins-plus-plus:deathsworn/freeze"
 		}
 	},
 	"bientity_condition":{

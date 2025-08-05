@@ -17,12 +17,10 @@
 				"compare_to":4
 			},
 			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"mainhand",
-				"item_condition":{
-					"type":"origins:nbt",
-					"nbt":"{lnc:1}"
-				}
+				"type":"origins:command",
+				"command":"execute if data entity @s SelectedItem.tag{lnc:1}",
+				"comparison":"==",
+				"compare_to":1
 			}
 		]
 	},
