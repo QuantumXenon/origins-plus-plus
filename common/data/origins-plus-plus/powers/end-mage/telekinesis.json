@@ -2,14 +2,6 @@
 	"type":"origins:active_self",
 	"key":"key.origins.secondary_active",
 	"entity_action":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:end-mage/resource",
-				"change":-100
-			},
-			{
 				"type":"origins:raycast",
 				"distance":60,
 				"block":false,
@@ -26,8 +18,6 @@
 				},
 				"command_at_hit":"function origins-plus-plus:end-mage/telekinesis",
 				"command_along_ray_only_on_hit":true
-			}
-		]
 	},
 	"cooldown":200,
 	"condition":{
