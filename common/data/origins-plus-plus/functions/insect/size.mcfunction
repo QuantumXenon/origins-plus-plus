@@ -1,3 +1,4 @@
-scale set pehkui:base 0.4
-scale set pehkui:reach 1.6
+scale set pehkui:height 0.4
+scale set pehkui:width 0.4
+scale set pehkui:drops 0.4
 scale persist set true
