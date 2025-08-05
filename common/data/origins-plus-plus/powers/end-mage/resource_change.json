@@ -57,20 +57,6 @@
 			"resource":"origins-plus-plus:end-mage/resource",
 			"change":200,
 			"operation":"set"
-		},
-		"low":{
-			"type":"origins:action_over_time",
-			"entity_action":{
-				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:end-mage/bug"
-			},
-			"interval":200,
-			"condition":{
-				"type":"origins:resource",
-				"resource":"origins-plus-plus:end-mage/resource",
-				"comparison":"<",
-				"compare_to":100
-			}
 		}
 	}
 }
