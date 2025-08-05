@@ -58,8 +58,8 @@
 		},
 		{
 			"attribute":"minecraft:generic.attack_damage",
-			"operation":"multiply_base",
-			"value":2
+			"operation":"multiply_total",
+			"value":1.5
 		}
 	]
 }
