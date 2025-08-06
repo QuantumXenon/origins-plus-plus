@@ -64,7 +64,7 @@
 	   "bar_index":2
 	},
 	"key":{
-	   "key":"key.pickItem",
+	   "key":"key.loadToolbarActivator",
 	   "continuous":false
 	}
 }
