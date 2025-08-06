@@ -4,7 +4,7 @@
 		"type":"origins:target_action",
 		"action":{
 			"type":"origins:execute_command",
-			"effect":"function origins-plus-plus:deathsworn/freeze"
+			"command":"function origins-plus-plus:deathsworn/freeze"
 		}
 	},
 	"bientity_condition":{
