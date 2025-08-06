@@ -3,7 +3,10 @@ plugins {
 }
 
 version = "${project.mod_version}-forge"
-archivesBaseName = "origins-plus-plus"
+
+base {
+    archivesName = "origins-plus-plus"
+}
 
 minecraft {
     mappings(channel: "official", version: "${project.minecraft_version}")

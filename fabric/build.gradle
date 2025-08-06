@@ -3,7 +3,10 @@ plugins {
 }
 
 version = project.mod_version
-archivesBaseName = "origins-plus-plus"
+
+base {
+    archivesName = "origins-plus-plus"
+}
 
 repositories {
     maven { url = "https://api.modrinth.com/maven/" }
