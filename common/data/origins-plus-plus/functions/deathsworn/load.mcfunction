@@ -1,5 +1,4 @@
-scoreboard objectives add Minion_Armor dummy
-scoreboard objectives add Minion_Attack_Damage dummy
-scoreboard objectives add Minion_Health dummy
+scoreboard objectives add Minion_Count dummy
+scoreboard objectives add Minion_Count_temp dummy
 
 team add deathsworn "Necromancers"
