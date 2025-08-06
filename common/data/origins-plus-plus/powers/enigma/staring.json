@@ -1,16 +1,27 @@
 {
-	"type":"origins:action_over_time",
-	"entity_action":{
-		"type":"origins:raycast",
-		"distance":32,
-		"bientity_action":{
-			"type":"origins:target_action",
-			"action":{
-				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:enigma/stare"
-			}
+	"type":"origins:multiple",
+	"stare":{
+		"type":"origins:action_over_time",
+		"entity_action":{
+			"type":"origins:raycast",
+			"distance":32,
+			"bientity_action":{
+				"type":"origins:target_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:enigma/stare"
+				}
+			},
+			"command_step":0.25
 		},
-		"command_step":0.25
+		"interval":10,
+		"condition":{
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
+		}
 	},
-	"interval":10
+	"toggle":{
+		"type":"origins:toggle",
+		"key":"key.loadToolbarActivator"
+	}
 }

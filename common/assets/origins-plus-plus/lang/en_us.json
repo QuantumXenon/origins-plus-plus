@@ -1028,7 +1028,7 @@
 	"power.origins-plus-plus.enigma/phase.name":"Phase",
 	"power.origins-plus-plus.enigma/sight.description":"Sneak to see all players, even through walls. You also have permanent night vision.",
 	"power.origins-plus-plus.enigma/sight.name":"Good Sight",
-	"power.origins-plus-plus.enigma/staring.description":"Staring at an entity for a long enough time will kill it. When you begin looking at it, it will be afflicted with Slowness and Weakness. Later on, your stare will inflict Blindness and Nausea.",
+	"power.origins-plus-plus.enigma/staring.description":"Staring at an entity for a long enough time will kill it. When you begin looking at it, it will be afflicted with Slowness and Weakness. Later on, your stare will inflict Blindness and Nausea. This can be toggled on/off with [Load Toolbar Activator].",
 	"power.origins-plus-plus.enigma/staring.name":"Staring Contest",
 	"power.origins-plus-plus.fallen-angel/arms.description":"You have strong arms and can mine stone with your fist.",
 	"power.origins-plus-plus.fallen-angel/arms.name":"Strong Arms",
