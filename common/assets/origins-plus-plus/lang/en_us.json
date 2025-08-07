@@ -440,6 +440,8 @@
 	"power.origins-plus-plus.artificial-construct/reach.name":"Piston Arms",
 	"power.origins-plus-plus.artificial-construct/storage.description":"You can store items in a chest-like compartment. These items do not drop on death.",
 	"power.origins-plus-plus.artificial-construct/storage.name":"Internal Compartment",
+	"power.origins-plus-plus.artificial-construct/water_breathing.description":"You do not require air to survive, allowing you to survive underwater indefinitely.",
+	"power.origins-plus-plus.artificial-construct/water_breathing.name":"No Need For Air",
 	"power.origins-plus-plus.automaton/dense.description":"You are much denser than water, making you sink.",
 	"power.origins-plus-plus.automaton/dense.name":"Dense",
 	"power.origins-plus-plus.automaton/firebar.description":"You have both a fire bar and a water bar. Make sure to watch these carefully!. Refill your fire bar by holding coal/charcoal/coal block/lava bucket and [Shift + Right-Click]. Refill your water bar by drinking water bottles or by holding a water bucket and [Shift + Right-Click].",
