@@ -7,5 +7,9 @@
 		"effect":"minecraft:water_breathing",
 		"show_particles":false,
 		"show_icon":false
+	},
+	"condition":{
+		"type":"origins:submerged_in",
+		"fluid":"minecraft:water"
 	}
 }
