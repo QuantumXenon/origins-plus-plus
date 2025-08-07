@@ -1,6 +1,12 @@
 {
   "values":[
     "minecraft:cat",
+    "minecraft:donkey",
+    "minecraft:horse",
+    "minecraft:llama",
+    "minecraft:mule",
+    "minecraft:parrot",
+    "minecraft:trader_llama",
     "minecraft:villager",
     "minecraft:wolf",
 
