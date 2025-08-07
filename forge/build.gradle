@@ -8,6 +8,12 @@ base {
     archivesName = "origins-plus-plus"
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
 minecraft {
     mappings(channel: "official", version: "${project.minecraft_version}")
 }
