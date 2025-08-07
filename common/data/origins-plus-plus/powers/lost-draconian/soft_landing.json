@@ -1,15 +1,7 @@
 {
-	"type":"origins:multiple",
-	"fall":{
-		"type":"origins:modify_falling",
-		"velocity":0.08,
-		"take_fall_damage":false
-	},
-	"fall_":{
-		"type":"origins:invulnerability",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"fall"
-		}
+	"type":"origins:invulnerability",
+	"damage_condition":{
+		"type":"origins:in_tag",
+		"tag":"minecraft:is_fall"
 	}
 }
