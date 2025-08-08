@@ -1,5 +1,2 @@
-#execute as @e[tag=Standby_Minion] at @a[dx=0,dy=-500,dz=0,limit=1] run tp ~ ~ ~
-execute as @e[tag=Standby_Minion] at @a[sort=nearest,limit=1] run tp ~ ~500 ~
-#execute as @e[tag=Standby_Minion] at @a[dx=0,dy=-500,dz=0,limit=1] run tp ~ ~500 ~
-
-#execute if entity @e[tag=Standby_Minion] run say a
+#every start of tick makes all minions tp on the corresponding player
+execute as @a[team=deathsworn] at @s if score @s UUID0 = @e[tag=Standby_Minion,limit=1,sort=nearest] UUID0 if score @s UUID1 = @e[tag=Standby_Minion,limit=1,sort=nearest] UUID1 run tp @e[tag=Standby_Minion] @s

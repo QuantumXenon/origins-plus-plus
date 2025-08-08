@@ -1,11 +1,7 @@
 execute store result score @s Minion_Count_temp run data get entity @s SelectedItem.tag.Minion_Count
 
-execute as @e[tag=Standby_Minion] at @s if score @s Minion_Count = @a[dx=0,dy=-500,dz=0,limit=1] Minion_Count_temp run say a
-execute as @e[tag=Standby_Minion] at @s if score @s Minion_Count = @a[dx=0,dy=-500,dz=0,limit=1] Minion_Count_temp run function origins-plus-plus:deathsworn/summon_end
-
-execute as @e[tag=Move_Minion,limit=1,sort=nearest] run tp ^ ^ ^
-execute as @e[tag=Move_Minion,limit=1,sort=nearest] run say b
-execute as @e[tag=Move_Minion,limit=1,sort=nearest] run tag @s remove Move_Minion
+execute as @e[tag=Standby_Minion] if score @s Minion_Count = @a[team=deathsworn,limit=1] Minion_Count_temp if score @s UUID0 = @a[team=deathsworn,limit=1] UUID0 if score @s UUID1 = @a[team=deathsworn,limit=1] UUID1 run tp ^ ^ ^
+execute as @e[tag=Standby_Minion] if score @s Minion_Count = @a[team=deathsworn,limit=1] Minion_Count_temp if score @s UUID0 = @a[team=deathsworn,limit=1] UUID0 if score @s UUID1 = @a[team=deathsworn,limit=1] UUID1 run function origins-plus-plus:deathsworn/summon_end
 
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"minecraft:spider"}}}] run advancement grant @s only origins-plus-plus:deathsworn/spider
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"minecraft:skeleton"}}}] run advancement grant @s only origins-plus-plus:deathsworn/skeleton

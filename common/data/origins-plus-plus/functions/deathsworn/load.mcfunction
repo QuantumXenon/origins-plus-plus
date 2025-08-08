@@ -4,4 +4,6 @@ scoreboard objectives add deathsworndisplayingloyalty dummy
 scoreboard objectives add -1 dummy
 scoreboard players set #-1 -1 -1
 
+#function origins-plus-plus:deathsworn/clear
+
 team add deathsworn "Necromancers"

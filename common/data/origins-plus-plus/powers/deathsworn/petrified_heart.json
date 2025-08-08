@@ -39,6 +39,23 @@
 				"comparison":"==",
 				"compare_to":1
 				}
+			},
+			{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:command",
+				"command":"attribute @s minecraft:generic.attack_damage get",
+				"comparison":">",
+				"compare_to":0
+				}
+			},
+			{
+			"type":"origins:target_condition",
+			"condition":{
+    				"type":"origins:in_tag",
+    				"tag":"origins-plus-plus:no_crystal",
+				"inverted":true
+				}
 			}
 		]
 	}

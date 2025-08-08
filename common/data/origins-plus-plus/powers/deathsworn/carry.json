@@ -38,6 +38,15 @@
 				"comparison":"==",
 				"compare_to":1
 				}
+			},
+			{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:command",
+				"command":"execute unless entity @s[tag=Standby_Minion]",
+				"comparison":"==",
+				"compare_to":1
+				}
 			}
 		]
 	}
