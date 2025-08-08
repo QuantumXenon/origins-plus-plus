@@ -1,7 +1,7 @@
-task buildFabric {
+tasks.register('buildFabric') {
     dependsOn ":fabric:build"
 }
 
-task buildForge {
+tasks.register('buildForge') {
     dependsOn ":forge:build"
 }
