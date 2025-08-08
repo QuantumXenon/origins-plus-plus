@@ -60,11 +60,7 @@
 			]
 		},
 		"damage_condition":{
-			"type":"origins:attacker",
-			"entity_condition":{
-				"type":"origins:in_tag",
-				"tag":"origins-plus-plus:entities"
-			}
+			"type":"origins:attacker"
 		},
 		"condition":{
 			"type":"origins:resource",

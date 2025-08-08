@@ -95,6 +95,9 @@
 			"type":"origins:power_active",
 			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		},
+		"damage_condition":{
+			"type":"origins:attacker"
+		},
 		"cooldown":40
 	},
 	"attacker_ignite":{
@@ -107,6 +110,9 @@
 			"type":"origins:power_active",
 			"power":"origins-plus-plus:ignisian/ignisian_wrath_toggle"
 		},
+		"damage_condition":{
+			"type":"origins:attacker"
+		},
 		"cooldown":40
 	},
 	"attacker_knockback":{
@@ -118,6 +124,9 @@
 			"z":-0.5,
 			"space":"local",
 			"set":true
+		},
+		"damage_condition":{
+			"type":"origins:attacker"
 		},
 		"condition":{
 			"type":"origins:power_active",

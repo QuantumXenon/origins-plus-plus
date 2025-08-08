@@ -46,6 +46,9 @@
 			"type":"origins:execute_command",
 			"command":"function origins-plus-plus:lunar-path/from_beyond_the_grave_attacker"
 		},
-		"cooldown":1
+		"cooldown":1,
+		"damage_condition":{
+			"type":"origins:attacker"
+		}
 	}
 }
