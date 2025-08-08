@@ -33,5 +33,8 @@
 		"sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
 		"bar_index":1
 	},
-	"key":"key.origins.secondary_active"
+	"key":{
+		"key":"key.origins.secondary_active",
+		"continuous":true
+	}
 }
