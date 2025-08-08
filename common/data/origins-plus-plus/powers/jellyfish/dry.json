@@ -30,6 +30,16 @@
 				{
 					"type":"origins:in_rain",
 					"inverted":true
+				},
+				{
+					"type":"origins:block_in_radius",
+					"radius":0.1,
+					"block_condition": {
+						"type":"origins:block",
+						"block":"minecraft:water_cauldron"
+					},
+					"offset_y":-1,
+					"inverted":true
 				}
 			]
 		}
@@ -53,6 +63,15 @@
 				},
 				{
 					"type":"origins:in_rain"
+				},
+				{
+					"type":"origins:block_in_radius",
+					"radius":0.1,
+					"block_condition": {
+						"type":"origins:block",
+						"block":"minecraft:water_cauldron"
+					},
+					"offset_y":-1
 				}
 			]
 		}
@@ -71,6 +90,15 @@
 			"resource":"*:*_dryness",
 			"comparison":"==",
 			"compare_to":0
+		}
+	},
+	"respawn":{
+		"type":"origins:action_on_callback",
+		"entity_action_respawned":{
+			"type":"origins:change_resource",
+			"resource":"*:*_dryness",
+			"change":60,
+			"operation":"set"
 		}
 	}
 }
