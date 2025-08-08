@@ -59,6 +59,13 @@
 				}
 			]
 		},
+		"damage_condition":{
+			"type":"origins:attacker",
+			"entity_condition":{
+				"type":"origins:in_tag",
+				"tag":"origins-plus-plus:entities"
+			}
+		},
 		"condition":{
 			"type":"origins:resource",
 			"resource":"*:*_resource",
