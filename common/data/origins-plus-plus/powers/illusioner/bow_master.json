@@ -1,5 +1,5 @@
 {
-	"type":"origins:conditioned_attribute",
+	"type":"origins:modify_projectile_damage",
 	"badges":[
 		{
 			"sprite":"origins:textures/gui/badge/star.png",
@@ -7,33 +7,17 @@
 		}
 	],
 	"modifier":{
-		"attribute":"minecraft:generic.attack_damage",
 		"operation":"multiply_total",
 		"value":2
 	},
 	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"mainhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"tag":"origins:ranged_weapons"
-					}
-				}
-			},
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"offhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"tag":"origins-plus-plus:swords"
-					}
-				}
+		"type":"origins:equipped_item",
+		"equipment_slot":"mainhand",
+		"item_condition":{
+			"type":"origins:ingredient",
+			"ingredient":{
+				"tag":"origins:ranged_weapons"
 			}
-		]
+		}
 	}
 }
