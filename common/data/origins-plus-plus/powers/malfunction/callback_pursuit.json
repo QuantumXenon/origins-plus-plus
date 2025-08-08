@@ -16,10 +16,7 @@
 		"min":0,
 		"max":600,
 		"hud_render":{
-			"bar_index":7,
-			"condition":{
-				"type":"origins:sneaking"
-			}
+			"bar_index":7
 		}
 	},
 	"callback":{
