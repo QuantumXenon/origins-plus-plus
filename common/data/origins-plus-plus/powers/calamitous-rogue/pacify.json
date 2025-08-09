@@ -1,0 +1,28 @@
+{
+	"type":"origins:action_on_callback",
+	"entity_action_added":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:execute_command",
+				"command":"team join calamitous_rogue"
+			},
+			{
+				"type":"origins:delay",
+				"ticks":2,
+				"action":{
+					"type":"origins:execute_command",
+					"command":"team leave @s"
+				}
+			},
+			{
+				"type":"origins:delay",
+				"ticks":3,
+				"action":{
+					"type":"origins:execute_command",
+					"command":"power revoke @s origins-plus-plus:calamitous-rogue/pacify"
+				}
+			}
+		]
+	}
+}

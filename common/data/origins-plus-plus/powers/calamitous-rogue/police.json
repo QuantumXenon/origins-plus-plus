@@ -25,7 +25,7 @@
 			"actions":[
 				{
 					"type":"origins:execute_command",
-					"command":"power revoke @s origins-plus-plus:calamitous-rogue/eff/police"
+					"command":"power revoke @s origins-plus-plus:calamitous-rogue/police"
 				},
 				{
 					"type":"origins:if_else",

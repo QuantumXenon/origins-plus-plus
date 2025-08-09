@@ -1,0 +1,2 @@
+team add calamitous_rogue
+team join calamitous_rogue

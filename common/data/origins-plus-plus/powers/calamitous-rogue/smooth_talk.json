@@ -17,7 +17,7 @@
 					"ticks":1,
 					"action":{
 						"type":"origins:execute_command",
-						"command":"function origins-plus-plus:calamitous-rogue/power/smooth"
+						"command":"function origins-plus-plus:calamitous-rogue/smooth_talk"
 					}
 				}
 			}
