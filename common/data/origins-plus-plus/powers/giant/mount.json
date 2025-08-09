@@ -39,8 +39,7 @@
 							"type":"origins:target_condition",
 							"condition":{
 								"type":"origins:in_tag",
-								"tag":"origins-plus-plus:cannot_grab",
-								"inverted":true
+								"tag":"origins-plus-plus:grabable"
 							}
 						}
 					}
