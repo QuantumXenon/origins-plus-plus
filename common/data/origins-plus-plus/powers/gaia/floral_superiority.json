@@ -33,7 +33,7 @@
 		"type":"origins:stacking_status_effect",
 		"min_stacks":4,
 		"max_stacks":4,
-		"duration_per_stack":20,
+		"duration_per_stack":250,
 		"effect":{
 			"effect":"minecraft:regeneration",
 			"show_particles":false,
