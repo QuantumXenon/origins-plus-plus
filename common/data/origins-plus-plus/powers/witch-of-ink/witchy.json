@@ -6,6 +6,6 @@
 	},
 	"entity_action_lost":{
 		"type":"origins:execute_command",
-		"command":"team leave witch_of_ink @s"
+		"command":"team leave @s"
 	}
 }

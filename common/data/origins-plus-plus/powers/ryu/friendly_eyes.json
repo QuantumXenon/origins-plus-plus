@@ -1,8 +1,18 @@
 {
-	"type":"origins:action_over_time",
-	"interval":20,
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:ryu/friendly_eyes"
+	"type":"origins:multiple",
+	"add_mobs":{
+		"type":"origins:action_over_time",
+		"interval":20,
+		"entity_action":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:ryu/friendly_eyes"
+		}
+	},
+	"power_lost":{
+		"type":"origins:action_on_callback",
+		"entity_action_lost":{
+			"type":"origins:execute_command",
+			"command":"team leave @s"
+		}
 	}
 }
