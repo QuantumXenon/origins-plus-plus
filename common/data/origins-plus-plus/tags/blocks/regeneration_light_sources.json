@@ -1,14 +1,8 @@
 {
 	"values":[
 		"minecraft:campfire",
+		"minecraft:candle",
 		"minecraft:end_rod",
-		"minecraft:glowstone",
-		"minecraft:lantern",
-		"minecraft:redstone_lamp",
-		"minecraft:redstone_torch",
-		"minecraft:sea_lantern",
-		"minecraft:shroomlight",
-		"minecraft:torch",
-		"minecraft:wall_torch"
+		"minecraft:shroomlight"
 	]
 }
