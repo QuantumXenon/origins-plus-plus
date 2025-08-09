@@ -1,0 +1,2 @@
+summon minecraft:armor_stand ~ ~ ~ {NoGravity:0b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["Orange_Portal"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-484979924,2061978897,-1799446715,-114138908],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI4NTEzYzYxNjQ5NTg0OWNmOTFiNzY1MzZlODcyZTIwMDFhNjFjNWRiNDJhYzQwZDFiMjBhNzM0MjVkM2E5NSJ9fX0="}]}}}}]}
+forceload add ~ ~ ~ ~

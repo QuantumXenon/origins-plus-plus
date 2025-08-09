@@ -1,0 +1,2 @@
+execute at @e[type=minecraft:armor_stand,tag=Blue_Portal] run particle minecraft:dust .3 .3 1 1 ~ ~1.5 ~ .3 .3 .3 1 1 normal
+execute at @e[type=minecraft:armor_stand,tag=Orange_Portal] run particle minecraft:dust 1 .6 0 1 ~ ~1.5 ~ .3 .3 .3 1 1 normal

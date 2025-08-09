@@ -1,0 +1,4 @@
+execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..10] ~ ~ ~ .1 .8
+execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run tp @e[distance=..1,type=!minecraft:armor_stand,type=!minecraft:area_effect_cloud] @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1]
+execute at @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..10] ~ ~ ~ .1 .8
+execute as @e if entity @e[type=minecraft:armor_stand,tag=Blue_Portal,distance=..1,limit=1,sort=nearest] run playsound minecraft:block.portal.trigger player @s ~ ~ ~ .1 2

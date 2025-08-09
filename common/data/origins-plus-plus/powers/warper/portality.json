@@ -16,11 +16,11 @@
 		},
 		"max_action":{
 			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:warper/portality_max_action"
+			"command":"function origins-plus-plus:warper/blue_max_action"
 		},
 		"min_action":{
 			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:warper/portality_min_action"
+			"command":"function origins-plus-plus:warper/blue_min_action"
 		}
 	},
 	"toggled_orange":{
@@ -37,35 +37,13 @@
 				"resource":"*:*_toggled_orange"
 			}
 		},
-		"min_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:1,Tags:[\"force2\"]}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @e[type=minecraft:area_effect_cloud,tag=force2,limit=1,sort=nearest] run kill @e[distance=..1,type=minecraft:armor_stand,tag=Orange_Portal]"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @e[type=minecraft:area_effect_cloud,tag=force2,limit=1,sort=nearest] run forceload remove ~ ~"
-				}
-			]
-		},
 		"max_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"summon minecraft:armor_stand ~ ~ ~ {NoGravity:0b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:[\"Orange_Portal\"],ArmorItems:[{},{},{},{id:\"minecraft:player_head\",Count:1b,tag:{SkullOwner:{Id:[I;-484979924,2061978897,-1799446715,-114138908],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI4NTEzYzYxNjQ5NTg0OWNmOTFiNzY1MzZlODcyZTIwMDFhNjFjNWRiNDJhYzQwZDFiMjBhNzM0MjVkM2E5NSJ9fX0=\"}]}}}}]}"
-				},
-				{
-					"type":"origins:execute_command",
-					"command":"forceload add ~ ~ ~ ~"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:warper/orange_max_action"
+		},
+		"min_action":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:warper/orange_min_action"
 		}
 	},
 	"summon_blue":{
@@ -133,25 +111,8 @@
 						"type":"origins:delay",
 						"ticks":50,
 						"action":{
-							"type":"origins:and",
-							"actions":[
-								{
-									"type":"origins:execute_command",
-									"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..3] ~ ~ ~ .1 .8"
-								},
-								{
-									"type":"origins:execute_command",
-									"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1,sort=nearest] run tp @e[distance=..1,type=!minecraft:armor_stand,type=!minecraft:area_effect_cloud] @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1]"
-								},
-								{
-									"type":"origins:execute_command",
-									"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..3] ~ ~ ~ .1 .8"
-								},
-								{
-									"type":"origins:execute_command",
-									"command":"execute as @e if entity @e[type=minecraft:armor_stand,tag=Orange_Portal,distance=..1,limit=1,sort=nearest] run playsound minecraft:block.portal.trigger player @s ~ ~ ~ .1 2"
-								}
-							]
+							"type":"origins:execute_command",
+							"command":"function origins-plus-plus:warper/blue_portal"
 						}
 					}
 				},
@@ -166,25 +127,8 @@
 						"type":"origins:delay",
 						"ticks":50,
 						"action":{
-							"type":"origins:and",
-							"actions":[
-								{
-									"type":"origins:execute_command",
-									"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..10] ~ ~ ~ .1 .8"
-								},
-								{
-									"type":"origins:execute_command",
-									"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run tp @e[distance=..1,type=!minecraft:armor_stand,type=!minecraft:area_effect_cloud] @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1]"
-								},
-								{
-									"type":"origins:execute_command",
-									"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal,limit=1,sort=nearest] run playsound minecraft:item.chorus_fruit.teleport player @a[distance=..10] ~ ~ ~ .1 .8"
-								},
-								{
-									"type":"origins:execute_command",
-									"command":"execute as @e if entity @e[type=minecraft:armor_stand,tag=Blue_Portal,distance=..1,limit=1,sort=nearest] run playsound minecraft:block.portal.trigger player @s ~ ~ ~ .1 2"
-								}
-							]
+							"type":"origins:execute_command",
+							"command":"function origins-plus-plus:warper/orange_portal"
 						}
 					}
 				}
@@ -219,10 +163,8 @@
 					"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal] run particle minecraft:dust .3 .3 1 1 ~ ~1.5 ~ .3 .3 .3 1 1 normal"
 				},
 				{
-					"type":"origins:execute_command",
-					"command":"execute at @e[type=minecraft:armor_stand,tag=Orange_Portal] run particle minecraft:dust 1 .6 0 1 ~ ~1.5 ~ .3 .3 .3 1 1 normal"
-				}
-			]
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:warper/particles"
 		},
 		"condition":{
 			"type":"origins:and",

@@ -1,0 +1,3 @@
+execute at @e[type=minecraft:armor_stand,tag=Orange_Portal,limit=1,sort=nearest] run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:1,Tags:["force2"]}
+execute at @e[type=minecraft:area_effect_cloud,tag=force2,limit=1,sort=nearest] run kill @e[distance=..1,type=minecraft:armor_stand,tag=Orange_Portal]
+execute at @e[type=minecraft:area_effect_cloud,tag=force2,limit=1,sort=nearest] run forceload remove ~ ~
