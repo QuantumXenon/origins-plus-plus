@@ -26,30 +26,6 @@
 				},
 				{
 					"type":"origins:fall_flying"
-				},
-				{
-					"type":"origins:resource",
-					"resource":"origins-plus-plus:ryu/heavy_scales_head_b",
-					"comparison":"==",
-					"compare_to":0
-				},
-				{
-					"type":"origins:resource",
-					"resource":"origins-plus-plus:ryu/heavy_scales_chest_b",
-					"comparison":"==",
-					"compare_to":0
-				},
-				{
-					"type":"origins:resource",
-					"resource":"origins-plus-plus:ryu/heavy_scales_legs_b",
-					"comparison":"==",
-					"compare_to":0
-				},
-				{
-					"type":"origins:resource",
-					"resource":"origins-plus-plus:ryu/heavy_scales_feet_b",
-					"comparison":"==",
-					"compare_to":0
 				}
 			]
 		},
@@ -85,35 +61,6 @@
 				},
 				{
 					"type":"origins:fall_flying"
-				},
-				{
-					"type":"origins:or",
-					"conditions":[
-						{
-							"type":"origins:resource",
-							"resource":"origins-plus-plus:ryu/heavy_scales_head_b",
-							"comparison":"==",
-							"compare_to":1
-						},
-						{
-							"type":"origins:resource",
-							"resource":"origins-plus-plus:ryu/heavy_scales_chest_b",
-							"comparison":"==",
-							"compare_to":1
-						},
-						{
-							"type":"origins:resource",
-							"resource":"origins-plus-plus:ryu/heavy_scales_legs_b",
-							"comparison":"==",
-							"compare_to":1
-						},
-						{
-							"type":"origins:resource",
-							"resource":"origins-plus-plus:ryu/heavy_scales_feet_b",
-							"comparison":"==",
-							"compare_to":1
-						}
-					]
 				}
 			]
 		},
