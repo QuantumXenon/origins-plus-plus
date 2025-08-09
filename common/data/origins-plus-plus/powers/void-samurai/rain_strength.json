@@ -2,7 +2,7 @@
 	"type":"origins:target_action_on_hit",
 	"entity_action":{
 		"type":"origins:damage",
-		"amount":2,
+		"amount":4,
 		"source":{
 			"name":"player",
 			"unblockable":true,

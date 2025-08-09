@@ -15,12 +15,12 @@
 			"effect":{
 				"effect":"minecraft:invisibility",
 				"amplifier":1,
-				"duration":250,
+				"duration":200,
 				"show_particles":false,
 				"show_icon":false
 			}
 		},
-		"cooldown":1200
+		"cooldown":800
 	},
 	"change_resource":{
 		"type":"origins:active_self",

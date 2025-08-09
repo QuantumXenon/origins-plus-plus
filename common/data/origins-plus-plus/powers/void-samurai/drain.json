@@ -4,7 +4,7 @@
 	"entity_action":{
 		"type":"origins:change_resource",
 		"resource":"origins-plus-plus:void-samurai/charge",
-		"change":-1
+		"change":-2
 	},
 	"cooldown":20
 }

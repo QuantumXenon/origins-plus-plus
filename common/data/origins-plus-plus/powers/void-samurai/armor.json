@@ -13,7 +13,7 @@
 	"legs":{
 		"type":"origins:armor_value",
 		"comparison":">",
-		"compare_to":3
+		"compare_to":4
 	},
 	"feet":{
 		"type":"origins:armor_value",

@@ -103,7 +103,7 @@
 				},
 				{
 					"type":"origins:add_velocity",
-					"y":1,
+					"y":0.5,
 					"set":true
 				},
 				{
