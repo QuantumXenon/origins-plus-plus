@@ -1,7 +1,7 @@
 {
 	"type":"origins:invulnerability",
 	"damage_condition":{
-		"type":"origins:in_tag",
-		"tag":"minecraft:is_fall"
+		"type":"origins:name",
+		"name":"fall"
 	}
 }

@@ -20,12 +20,8 @@
                 "compare_to":1
             },
             "if_action":{
-                "type": "origins:modify_resource",
-                "modifier": {
-                    "operation": "set_total",
-                    "value": 2.00
-                },
-                "resource": "origins-plus-plus:wandering-spirit/size_resource"
+                "type":"origins:execute_command",
+                "command":"resource set @s origins-plus-plus:wandering-spirit/size_resource 2"
             },
             "else_action":{
                 "type":"origins:if_else",
@@ -36,20 +32,14 @@
                     "compare_to":1
                 },
                 "if_action":{
-                    "type": "origins:modify_resource",
-                    "modifier": {
-                        "operation": "add_base_early",
-                        "value": -1.00
-                    },
-                    "resource": "origins-plus-plus:wandering-spirit/size_resource"
+                    "type":"origins:change_resource",
+                    "resource":"origins-plus-plus:wandering-spirit/size_resource",
+                    "change":-1
                 },
                 "else_action":{
-                    "type": "origins:modify_resource",
-                    "modifier": {
-                        "operation": "add_base_early",
-                        "value": -1.00
-                    },
-                    "resource": "origins-plus-plus:wandering-spirit/size_resource"
+                    "type":"origins:change_resource",
+                    "resource":"origins-plus-plus:wandering-spirit/size_resource",
+                    "change":-1
                 }
             }
         },
