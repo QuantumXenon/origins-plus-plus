@@ -1,0 +1,8 @@
+{
+	"type":"origins:model_color",
+	"hidden": true,
+	"red":0.2,
+	"green":0.2,
+	"blue":0.2,
+	"alpha":1
+}

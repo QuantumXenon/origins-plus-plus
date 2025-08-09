@@ -1,20 +1,10 @@
 {
-	"type":"origins:multiple",
-	"colour":{
-		"type":"origins:model_color",
-		"red":0.2,
-		"green":0.2,
-		"blue":0.2,
-		"alpha":1
-	},
-	"no_pets":{
-		"type":"origins:prevent_entity_use",
-		"bientity_condition":{
-			"type":"origins:target_condition",
-			"condition":{
-				"type":"origins:in_tag",
-				"tag":"origins-plus-plus:pets"
-			}
+	"type":"origins:prevent_entity_use",
+	"bientity_condition":{
+		"type":"origins:target_condition",
+		"condition":{
+			"type":"origins:in_tag",
+			"tag":"origins-plus-plus:pets"
 		}
 	}
 }
