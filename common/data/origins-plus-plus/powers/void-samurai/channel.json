@@ -8,7 +8,10 @@
 			"resource":"origins-plus-plus:void-samurai/charge",
 			"change":3
 		},
-		"key":"key.sneak",
+		"key":{
+			"key":"key.sneak",
+			"continuous":true
+		},
 		"cooldown":100
 	},
 	"weakness":{
@@ -23,7 +26,10 @@
 				"show_icon":false
 			}
 		},
-		"key":"key.sneak",
+		"key":{
+			"key":"key.sneak",
+			"continuous":true
+		},
 		"cooldown":20
 	},
 	"saturation":{
@@ -38,7 +44,10 @@
 				"show_icon":false
 			}
 		},
-		"key":"key.sneak",
+		"key":{
+			"key":"key.sneak",
+			"continuous":true
+		},
 		"cooldown":20
 	}
 }

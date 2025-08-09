@@ -10,6 +10,7 @@
 	},
 	"invisibility":{
 		"type":"origins:active_self",
+		"key":"key.origins.primary_active",
 		"entity_action":{
 			"type":"origins:apply_effect",
 			"effect":{
@@ -20,15 +21,33 @@
 				"show_icon":false
 			}
 		},
-		"cooldown":800
+		"cooldown":800,
+		"hud_render":{
+			"should_render":true,
+			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+			"bar_index":5
+		},
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:void-samurai/charge",
+			"comparison":">=",
+			"compare_to":5
+		}
 	},
 	"change_resource":{
 		"type":"origins:active_self",
+		"key":"key.origins.primary_active",
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"origins-plus-plus:void-samurai/charge",
 			"change":-5
 		},
-		"cooldown":20
+		"cooldown":800,
+		"condition":{
+			"type":"origins:resource",
+			"resource":"origins-plus-plus:void-samurai/charge",
+			"comparison":">=",
+			"compare_to":5
+		}
 	}
 }
