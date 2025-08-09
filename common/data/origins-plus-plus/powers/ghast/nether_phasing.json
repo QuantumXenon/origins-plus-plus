@@ -4,7 +4,6 @@
 		"type":"origins:toggle",
 		"active_by_default":false,
 		"key":"key.origins.secondary_active",
-		"retain_state":false,
 		"condition":{
 			"type":"apoli:food_level",
 			"comparison":">",
@@ -36,13 +35,37 @@
 			"conditions":[
 				{
 					"type":"origins:power_active",
-					"power":"origins-plus-plus:ghast/nether_phasing_toggle"
+					"power":"*:*_toggle"
 				},
 				{
 					"type":"origins:dimension",
 					"dimension":"minecraft:the_nether"
 				}
 			]
+		}
+	},
+	"overlay":{
+		"type":"origins:overlay",
+		"texture":"minecraft:textures/misc/nausea.png",
+		"strength":0.6,
+		"red":0.9,
+		"green":0.2,
+		"blue":0.2,
+		"draw_mode":"nausea",
+		"draw_phase":"below_hud",
+		"visible_in_third_person":true,
+		"condition":{
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
+		}
+	},
+	"hunger":{
+		"type":"origins:exhaust",
+		"interval":20,
+		"exhaustion":0.812,
+		"condition":{
+			"type":"origins:power_active",
+			"power":"*:*_toggle"
 		}
 	}
 }

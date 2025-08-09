@@ -1111,7 +1111,7 @@
 	"power.origins-plus-plus.ghast/float.name":"Float",
 	"power.origins-plus-plus.ghast/miserable.description":"Your melee attacks are weaker due to your depressed nature.",
 	"power.origins-plus-plus.ghast/miserable.name":"Miserable",
-	"power.origins-plus-plus.ghast/nether_phasing.description":"Being a ghost, you can phase through most blocks (though you can only do this in the Nether).",
+	"power.origins-plus-plus.ghast/nether_phasing.description":"Being a ghost, you can phase through most blocks when you are in the Nether (this costs hunger and is toggled on when you have a red overlay).",
 	"power.origins-plus-plus.ghast/nether_phasing.name":"Nether Phasing",
 	"power.origins-plus-plus.ghast/tall.description":"You are slightly taller than the average player.",
 	"power.origins-plus-plus.ghast/tall.name":"Tall",

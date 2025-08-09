@@ -1,13 +1,33 @@
 {
-	"type":"origins:fire_projectile",
-	"entity_type":"minecraft:fireball",
-	"speed":0.2,
-	"condition":{
-		"type":"origins:dimension",
-		"dimension":"minecraft:the_nether"
+	"type":"origins:multiple",
+	"nether":{
+		"type":"origins:fire_projectile",
+		"key":"key.origins.primary_active",
+		"entity_type":"minecraft:fireball",
+		"speed":0.2,
+		"condition":{
+			"type":"origins:dimension",
+			"dimension":"minecraft:the_nether"
+		},
+		"cooldown":60,
+		"hud_render":{
+			"bar_index":7
+		}
 	},
-	"cooldown":100,
-	"hud_render":{
-		"bar_index":7
+	"overworld":{
+		"type":"origins:fire_projectile",
+		"key":"key.origins.primary_active",
+		"entity_type":"minecraft:fireball",
+		"speed":0.2,
+		"condition":{
+			"type":"origins:dimension",
+			"dimension":"minecraft:the_nether",
+			"inverted":true
+		},
+		"cooldown":100,
+		"hud_render":{
+			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+			"bar_index":7
+		}
 	}
 }

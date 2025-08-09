@@ -6,13 +6,10 @@
 		"origins:slow_falling",
 		"origins:translucent",
 		"origins-plus-plus:ghast/fire_charge",
-		"origins-plus-plus:ghast/fire_charge_a",
 		"origins-plus-plus:ghast/float",
-		"origins-plus-plus:ghast/hunger_over_time",
 		"origins-plus-plus:ghast/miserable",
 		"origins-plus-plus:ghast/nether_phasing",
 		"origins-plus-plus:ghast/not_warm_shaking",
-		"origins-plus-plus:ghast/red_nether_phasing",
 		"origins-plus-plus:ghast/tall"
 	],
 	"icon":"minecraft:fire_charge",
