@@ -1,10 +1,25 @@
 {
-	"type":"origins:swimming",
-	"condition":{
-		"type":"origins:fluid_height",
-		"fluid":"minecraft:lava",
-		"comparison":">",
-		"compare_to":0
+	"type":"origins:multiple",
+	"hidden":true,
+	"speed":{
+		"type":"origins:modify_swim_speed",
+		"modifier":{
+			"value":0.9,
+			"operation":"multiply_base"
+		}
 	},
-	"hidden":true
+	"swimming":{
+		"type":"origins:swimming",
+		"condition":{
+			"type":"origins:fluid_height",
+			"fluid":"minecraft:lava",
+			"comparison":">",
+			"compare_to":0
+		}
+	},
+	"vision":{
+		"type":"origins:lava_vision",
+		"s":0,
+		"v":40
+	}
 }

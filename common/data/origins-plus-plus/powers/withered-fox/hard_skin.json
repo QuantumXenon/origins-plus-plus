@@ -1,8 +1,0 @@
-{
-	"type":"origins:attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.armor",
-		"operation":"addition",
-		"value":8
-	}
-}

@@ -12,7 +12,7 @@
 	},
 	"toggle":{
 		"type":"origins:toggle",
-		"key":"key.jump",
+		"key":"key.origins.primary_active",
 		"active_by_default":false
 	},
 	"timer":{

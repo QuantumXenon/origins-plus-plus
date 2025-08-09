@@ -1,6 +1,0 @@
-{
-	"type":"origins:inventory",
-	"title":"container.withered_fox.title",
-	"drop_on_death":false,
-	"key":"key.origins.primary_active"
-}
