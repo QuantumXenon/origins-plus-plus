@@ -9,9 +9,9 @@ scale multiply pehkui:interaction_box_width 100
 scale multiply pehkui:interaction_box_height 100
 scale reset pehkui:hitbox_width
 scale reset pehkui:hitbox_height
-scale delay set pehkui:model_width 20
+scale delay set pehkui:model_width 14
 scale easing set pehkui:model_width pehkui:exponential_out
-scale delay set pehkui:model_height 10
-scale easing set pehkui:model_height pehkui:circular_in
+scale delay set pehkui:model_height 26
+scale easing set pehkui:model_height pehkui:quintic_out
 scale multiply pehkui:model_width 100
 scale multiply pehkui:model_height 100
