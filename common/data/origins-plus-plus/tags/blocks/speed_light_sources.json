@@ -5,11 +5,6 @@
 		"minecraft:redstone_lamp",
 		"minecraft:redstone_torch",
 		"minecraft:torch",
-		"minecraft:wall_torch",
-
-		{
-			"id":"minecraft:copper_bulb",
-			"required":false
-		}
+		"minecraft:wall_torch"
 	]
 }
