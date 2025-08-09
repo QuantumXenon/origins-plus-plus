@@ -1,1 +1,1 @@
-team join witch-of-ink @e[type=minecraft:witch,team=!witch-of-ink]
+team join witch_of_ink @e[type=minecraft:witch,team=!witch_of_ink]
