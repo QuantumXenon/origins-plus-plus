@@ -16,6 +16,7 @@ Origins++ is an extensive collection of over 100 unique origins to fully expand 
 
 ## Credits
 - All credit for the original origins goes to their [respective creators](https://gist.github.com/QuantumXenon/d7ec9ceee0f8897410cff5088307f028), who retain the rights to their work. Special thanks to these authors for granting permission to include their origins in Origins++.
+- I would also like to thank [Overgrown](https://github.com/0vergrown) and [Tigerblood](https://github.com/spaghettube) for their assistance on GitHub making improvements and resolving issues.
 
 ***
 [![CurseForge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/curseforge_46h.png)](https://www.curseforge.com/minecraft/mc-mods/origins-plus-plus)
