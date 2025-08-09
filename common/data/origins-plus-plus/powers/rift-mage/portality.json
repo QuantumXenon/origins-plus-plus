@@ -214,5 +214,12 @@
 			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
 			"bar_index":1
 		}
+	},
+	"clean_up":{
+		"type":"origins:action_on_callback",
+		"entity_action_lost":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:rift-mage/kill_portal"
+		}
 	}
 }
