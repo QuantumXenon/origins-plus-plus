@@ -156,13 +156,6 @@
 		"type":"origins:action_over_time",
 		"interval":1,
 		"entity_action":{
-			"type":"origins:and",
-			"actions":[
-				{
-					"type":"origins:execute_command",
-					"command":"execute at @e[type=minecraft:armor_stand,tag=Blue_Portal] run particle minecraft:dust .3 .3 1 1 ~ ~1.5 ~ .3 .3 .3 1 1 normal"
-				},
-				{
 			"type":"origins:execute_command",
 			"command":"function origins-plus-plus:warper/particles"
 		},
@@ -182,6 +175,13 @@
 					"resource":"*:*_toggled_orange"
 				}
 			]
+		}
+	},
+	"clean_up":{
+		"type":"origins:action_on_callback",
+		"entity_action_lost":{
+			"type":"origins:execute_command",
+			"command":"function origins-plus-plus:warper/clean_up"
 		}
 	}
 }
