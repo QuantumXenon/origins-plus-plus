@@ -1,31 +1,62 @@
+data merge entity @s {NoAI:1b,Invulnerable:1b,PersistenceRequired:1b,Silent:1b}
+tag @s add Standby_Minion
+tag @s remove Deathsworn_Minion
+scoreboard players add @a[tag=actor,sort=nearest,limit=1] Minion_Count 1
+scoreboard players operation @s Minion_Count = @a[tag=actor,sort=nearest,limit=1] Minion_Count
+data modify entity @s DeathLootTable set value "minecraft:empty"
 data modify entity @s ArmorDropChances set value [1.0F,1.0F,1.0F,1.0F]
 data modify entity @s HandDropChances set value [1.0F,1.0F]
+effect clear @s minecraft:wither
+effect clear @s minecraft:poison
+effect clear @s minecraft:slowness
+effect clear @s minecraft:weakness
+
+#new minions get full health, recycled minions don't
+execute unless entity @s[tag=Deathsworn_Minion] store result entity @s Health float 1 run attribute @s minecraft:generic.max_health get
+
+
+#just first and second is more than enough to track
+execute store result score @s UUID0 run scoreboard players get @a[tag=actor,sort=nearest,limit=1] UUID0
+execute store result score @s UUID1 run scoreboard players get @a[tag=actor,sort=nearest,limit=1] UUID1
+
+
+#if minion was commanded to stop while being retrieved, next summon allowed to move
+execute if score @s deathsworndisplayingloyalty matches -1 run scoreboard players operation @s deathsworndisplayingloyalty *= #-1 -1
+execute if score @s deathsworndisplayingloyalty matches 1 run scoreboard players operation @s deathsworndisplayingloyalty += #-1 -1
+execute if score @s deathsworndisplayingloyalty matches 0 run attribute @s minecraft:generic.movement_speed modifier remove 1-1-1-1-1111
+
+
+#on petrified_heart/carry power first the player gets the actor tag, then entities get tped to the player, small enough to not be seen or have a hitbox
+scale delay set pehkui:model_width 0
+scale delay set pehkui:model_height 0
+scale delay set pehkui:interaction_box_width 0
+scale delay set pehkui:interaction_box_height 0
+scale delay set pehkui:hitbox_width 0
+scale delay set pehkui:hitbox_height 0
+scale multiply pehkui:hitbox_width 0
+scale multiply pehkui:hitbox_height 0
+scale multiply pehkui:model_width 0.01
+scale multiply pehkui:model_height 0.01
+scale multiply pehkui:interaction_box_width 0.01
+scale multiply pehkui:interaction_box_height 0.01
+execute if entity @e[tag=Standby_Minion] run say crystallize
+
+
+#item stuff
 summon minecraft:item ~ ~ ~ {Tags:["Petrified_Heart"],Glowing:1b,PickupDelay:1,Item:{id:"minecraft:heart_of_the_sea",Count:1b,tag:{CustomModelData:1,lnc:1,display:{Name:'{"translate":"origins-plus-plus.deathsworn.petrified_heart","color":"#F01E67","bold":false,"italic":false}'}}}}
+execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Minion_Count int 1 run scoreboard players get @a[tag=actor,sort=nearest,limit=1] Minion_Count
+data merge entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] {Item:{tag:{UUID0:0}}}
+data merge entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] {Item:{tag:{UUID1:0}}}
+execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.UUID0 int 1 run scoreboard players get @a[tag=actor,sort=nearest,limit=1] UUID0
+execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.UUID1 int 1 run scoreboard players get @a[tag=actor,sort=nearest,limit=1] UUID1
 
-execute if entity @s[type=minecraft:blaze] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Blaze"
-execute if entity @s[type=minecraft:cave_spider] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Cave_Spider"
-execute if entity @s[type=minecraft:creeper] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Creeper"
-execute if entity @s[type=minecraft:drowned] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Drowned"
-execute if entity @s[type=minecraft:evoker] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Evoker"
-execute if entity @s[type=minecraft:ghast] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Ghast"
-execute if entity @s[type=minecraft:husk] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Husk"
-execute if entity @s[type=minecraft:magma_cube] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Magma_Cube"
-execute if entity @s[type=minecraft:piglin_brute] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Piglin_Brute"
-execute if entity @s[type=minecraft:pillager] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Pillager"
-execute if entity @s[type=minecraft:skeleton] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Skeleton"
-execute if entity @s[type=minecraft:spider] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Spider"
-execute if entity @s[type=minecraft:stray] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Stray"
-execute if entity @s[type=minecraft:vindicator] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Vindicator"
-execute if entity @s[type=minecraft:witch] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Witch"
-execute if entity @s[type=minecraft:wither_skeleton] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Wither Skeleton"
-execute if entity @s[type=minecraft:zombie] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Zombie"
-execute if entity @s[type=minecraft:zombified_piglin] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set value "Zombified_Piglin"
-execute as @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] at @s unless data entity @s Item.tag.mob run data modify entity @s Item.tag.mob set value "Zombie"
-
-execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run attribute @s minecraft:generic.max_health get
-execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run scoreboard players get @s Minion_Health
+#appraisal support
+execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run data get entity @s Health
 execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run attribute @s minecraft:generic.armor get
-execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run scoreboard players get @s Minion_Armor
 execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run attribute @s minecraft:generic.attack_damage get
-execute if entity @s[tag=Deathsworn_Minion] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run scoreboard players get @s Minion_Attack_Damage
-execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Size float 1 run data get entity @s Size 1
+execute at @s run summon area_effect_cloud ~ ~ ~ {Tags:["temp"]}
+ride @s mount @e[tag=temp,sort=nearest,limit=1]
+data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @e[tag=temp,sort=nearest,limit=1] Passengers[0].id
+tag @e remove temp
+
+execute as @a[tag=actor,sort=nearest,limit=1] run tag @s remove actor

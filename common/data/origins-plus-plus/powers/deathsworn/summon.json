@@ -1,9 +1,10 @@
 {
 	"type":"origins:active_self",
+	"loading_priority":1,
 	"entity_action":{
 		"type":"origins:raycast",
 		"distance":8,
-		"command_at_hit":"function origins-plus-plus:deathsworn/summon",
+		"command_at_hit":"function origins-plus-plus:deathsworn/summon_start",
 		"command_step":0.25,
 		"command_along_ray":"particle witch ~ ~ ~"
 	},

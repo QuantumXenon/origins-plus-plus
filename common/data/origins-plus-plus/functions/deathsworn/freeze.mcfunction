@@ -1,6 +1,3 @@
-scoreboard objectives add deathsworndisplayingloyalty dummy
-scoreboard objectives add -1 dummy
-scoreboard players set #-1 -1 -1
 scoreboard players operation @s deathsworndisplayingloyalty *= #-1 -1
 scoreboard players operation @s deathsworndisplayingloyalty += #-1 -1
 execute if score @s deathsworndisplayingloyalty matches -1 run attribute @s minecraft:generic.movement_speed modifier add 1-1-1-1-1111 standstill -100 add
