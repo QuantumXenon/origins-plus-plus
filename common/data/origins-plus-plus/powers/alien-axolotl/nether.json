@@ -1,8 +1,38 @@
 {
 	"type":"origins:action_over_time",
 	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:alien-axolotl/nether"
+		"type":"origins:apply_effect",
+		"effects":[
+			{
+				"effect":"minecraft:hunger",
+				"duration":100,
+				"amplifier":0,
+				"is_ambient":false,
+				"show_particles":false,
+				"show_icon":true
+			},
+			{
+				"effect":"minecraft:weakness",
+				"duration":100,
+				"amplifier":0,
+				"is_ambient":false,
+				"show_particles":false,
+				"show_icon":true
+			}
+		]
+	},
+	"falling_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+				"type":"origins:clear_effect",
+				"effect":"minecraft:hunger"
+			},
+			{
+				"type":"origins:clear_effect",
+				"effect":"minecraft:weakness"
+			}
+		]
 	},
 	"interval":20,
 	"condition":{

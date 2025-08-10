@@ -3,6 +3,7 @@
 	"min_stacks":0,
 	"max_stacks":1,
 	"duration_per_stack":20,
+	"tick_rate":10,
 	"effect":{
 		"effect":"minecraft:speed",
 		"show_particles":false,

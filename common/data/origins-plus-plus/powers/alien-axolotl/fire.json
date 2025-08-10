@@ -1,7 +1,29 @@
 {
 	"type":"origins:modify_damage_taken",
 	"damage_condition":{
-		"type":"origins:fire"
+		"type":"origins:or",
+		"conditions":[
+			{
+				"type":"origins:type",
+				"damage_type":"minecraft:campfire"
+			},
+			{
+				"type":"origins:type",
+				"damage_type":"minecraft:in_fire"
+			},
+			{
+				"type":"origins:type",
+				"damage_type":"minecraft:on_fire"
+			},
+			{
+				"type":"origins:type",
+				"damage_type":"minecraft:hot_floor"
+			},
+			{
+				"type":"origins:type",
+				"damage_type":"minecraft:lava"
+			}
+		]
 	},
 	"modifier":{
 		"operation":"multiply_base",
