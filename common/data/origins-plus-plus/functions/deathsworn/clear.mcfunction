@@ -125,4 +125,4 @@ execute as @e[tag=marked_for_death] unless entity @s[tag=saved_from_death] run s
 execute as @e[tag=Standby_Minion] if entity @s[tag=saved_from_death] run tag @s remove marked_for_death
 tag @e[tag=Standby_Minion] remove saved_from_death
 
-schedule function origins-plus-plus:deathsworn/clear 400t
+schedule function origins-plus-plus:deathsworn/clear 200t

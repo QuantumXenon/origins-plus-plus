@@ -1,74 +1,20 @@
 {
 	"type":"origins:active_self",
+	"loading_priority": 1,
 	"entity_action":{
 		"type":"origins:raycast",
-		"distance":16,
-		"bientity_action":{
-			"type":"origins:if_else_list",
-			"actions":[
-				{
-					"condition":{
-						"type":"origins:actor_condition",
-						"condition":{
-							"type":"origins:advancement",
-							"advancement":"origins-plus-plus:deathsworn/brute"
-						}
-					},
-					"action":{
-						"type":"origins:damage",
-						"amount":9,
-						"source":{
-							"name":"magic",
-							"bypasses_armor":true
-						}
-					}
-				},
-				{
-					"condition":{
-						"type":"origins:actor_condition",
-						"condition":{
-							"type":"origins:advancement",
-							"advancement":"origins-plus-plus:deathsworn/skeleton"
-						}
-					},
-					"action":{
-						"type":"origins:damage",
-						"amount":6,
-						"source":{
-							"name":"magic",
-							"bypasses_armor":true
-						}
-					}
-				},
-				{
-					"condition":{
-						"type":"origins:actor_condition",
-						"condition":{
-							"type":"origins:advancement",
-							"advancement":"origins-plus-plus:deathsworn/root"
-						}
-					},
-					"action":{
-						"type":"origins:damage",
-						"amount":5,
-						"source":{
-							"name":"magic",
-							"bypasses_armor":true
-						}
-					}
-				}
-			]
-		},
-		"bientity_condition":{
-			"type":"origins:target_condition",
-			"condition":{
-				"type":"origins:nbt",
-				"nbt":"{Tags:['Deathsworn_Minion']}",
-				"inverted":true
-			}
-		},
-		"command_along_ray":"particle minecraft:witch",
-		"command_step":0.25
+		"block":false,
+		"entity":false,
+		"fluid_handling":"none",
+		"distance":0.002,
+		"command_along_ray":"execute summon minecraft:armor_stand run function origins-plus-plus:deathsworn/quick-attack-store-pos",
+		"command_step":0.001
+	},
+	"condition":{
+		"type":"origins:command",
+		"command":"execute if data entity @s SelectedItem.tag.Minion_Count",
+		"comparison":"==",
+		"compare_to":1
 	},
 	"cooldown":40,
 	"key":"key.saveToolbarActivator"

@@ -33,12 +33,12 @@ scale delay set pehkui:interaction_box_width 0
 scale delay set pehkui:interaction_box_height 0
 scale delay set pehkui:hitbox_width 0
 scale delay set pehkui:hitbox_height 0
-scale multiply pehkui:hitbox_width 0
-scale multiply pehkui:hitbox_height 0
-scale multiply pehkui:model_width 0.01
-scale multiply pehkui:model_height 0.01
-scale multiply pehkui:interaction_box_width 0.01
-scale multiply pehkui:interaction_box_height 0.01
+scale multiply pehkui:hitbox_width -1
+scale multiply pehkui:hitbox_height -1
+scale multiply pehkui:model_width -1
+scale multiply pehkui:model_height -1
+scale multiply pehkui:interaction_box_width -1
+scale multiply pehkui:interaction_box_height -1
 execute if entity @e[tag=Standby_Minion] run say crystallize
 
 
@@ -59,4 +59,4 @@ ride @s mount @e[tag=temp,sort=nearest,limit=1]
 data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @e[tag=temp,sort=nearest,limit=1] Passengers[0].id
 tag @e remove temp
 
-execute as @a[tag=actor,sort=nearest,limit=1] run tag @s remove actor
+execute as @a[tag=actor] run tag @s remove actor
