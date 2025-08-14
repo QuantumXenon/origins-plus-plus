@@ -11,14 +11,19 @@ effect clear @s minecraft:poison
 effect clear @s minecraft:slowness
 effect clear @s minecraft:weakness
 
-#new minions get full health, recycled minions don't
-execute unless entity @s[tag=Deathsworn_Minion] store result entity @s Health float 1 run attribute @s minecraft:generic.max_health get
 
+#same, on player
+execute as @a[tag=actor] store result score @s UUID0 run data get entity Tigersenpai UUID[0]
+execute as @a[tag=actor] store result score @s UUID1 run data get entity Tigersenpai UUID[1]
 
 #just first and second is more than enough to track
 execute store result score @s UUID0 run scoreboard players get @a[tag=actor,sort=nearest,limit=1] UUID0
 execute store result score @s UUID1 run scoreboard players get @a[tag=actor,sort=nearest,limit=1] UUID1
 
+
+
+#new minions get full health, recycled minions don't
+execute unless entity @s[tag=Deathsworn_Minion] store result entity @s Health float 1 run attribute @s minecraft:generic.max_health get
 
 #if minion was commanded to stop while being retrieved, next summon allowed to move
 execute if score @s deathsworndisplayingloyalty matches -1 run scoreboard players operation @s deathsworndisplayingloyalty *= #-1 -1

@@ -24,8 +24,6 @@ execute store result storage origins-plus-plus:temp Motion[2] double 0.0003 run 
 say calculated
 
 data modify storage origins-plus-plus:temp temppos1 set from storage origins-plus-plus:temp pos1
-data remove storage origins-plus-plus:temp pos1
-data remove storage origins-plus-plus:temp pos2
 
 execute as @e[tag=Standby_Minion,limit=1] run function origins-plus-plus:deathsworn/quick-attack-launch-minion
 execute as @a[team=deathsworn,limit=1] run item modify entity @s weapon.mainhand origins-plus-plus:consume
