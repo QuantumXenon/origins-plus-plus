@@ -13,8 +13,8 @@ effect clear @s minecraft:weakness
 
 
 #same, on player
-execute as @a[tag=actor] store result score @s UUID0 run data get entity Tigersenpai UUID[0]
-execute as @a[tag=actor] store result score @s UUID1 run data get entity Tigersenpai UUID[1]
+execute as @a[tag=actor] store result score @s UUID0 run data get entity @s UUID[0]
+execute as @a[tag=actor] store result score @s UUID1 run data get entity @s UUID[1]
 
 #just first and second is more than enough to track
 execute store result score @s UUID0 run scoreboard players get @a[tag=actor,sort=nearest,limit=1] UUID0
