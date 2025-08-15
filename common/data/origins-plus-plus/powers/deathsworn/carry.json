@@ -8,7 +8,7 @@
 			"type":"origins:actor_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"tag @s add actor"
+				"command":"tag @s add Crystallize_Actor"
 				}
 			},
 			{

@@ -1,0 +1,2 @@
+execute unless entity @s[type=player] run function origins-plus-plus:deathsworn/crystallize
+execute if entity @s[type=player] run execute summon skeleton run function origins-plus-plus:deathsworn/crystallize-player

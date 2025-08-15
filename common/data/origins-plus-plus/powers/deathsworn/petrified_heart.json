@@ -8,14 +8,14 @@
 			"type":"origins:actor_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"tag @s add actor"
+				"command":"tag @s add Crystallize_Actor"
 				}
 			},
 			{
 			"type":"origins:target_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:deathsworn/crystallize"
+				"command":"function origins-plus-plus:deathsworn/crystallize-id"
 				}
 			}	
 		]

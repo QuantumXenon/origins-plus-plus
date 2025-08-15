@@ -1,7 +1,7 @@
 {
 	"replace": true,
 	"values":[
-		"minecraft:ender_dragon",
-		"minecraft:wither"
+		"#origins-plus-plus:bosses",
+		"#origins-plus-plus:untargetable"
 	]
 }
