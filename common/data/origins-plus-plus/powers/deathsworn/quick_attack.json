@@ -1,16 +1,20 @@
 {
 	"type":"origins:active_self",
-	"loading_priority": 1,
+	"loading_priority":1,
 	"entity_action":{
 		"type":"origins:raycast",
 		"block":false,
 		"entity":false,
 		"fluid_handling":"none",
-		"distance":0.002,
-		"command_along_ray":"execute summon minecraft:armor_stand run function origins-plus-plus:deathsworn/quick-attack-store-pos",
-		"command_step":0.001
+		"distance":3,
+		"before_action":{
+			"type":"origins:execute_command",
+			"command":"data remove storage origins-plus-plus:temp Motion"
+		},
+		"command_along_ray":"function origins-plus-plus:deathsworn/quick_attack_id",
+		"command_step":1
 	},
-	"condition":{
+	"entity_condition":{
 		"type":"origins:command",
 		"command":"execute if data entity @s SelectedItem.tag.Minion_Count",
 		"comparison":"==",

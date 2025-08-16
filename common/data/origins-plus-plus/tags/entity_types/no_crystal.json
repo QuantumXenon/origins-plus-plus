@@ -1,0 +1,7 @@
+{
+	"replace": true,
+	"values":[
+		"#origins-plus-plus:bosses",
+		"#origins-plus-plus:untargetable"
+	]
+}

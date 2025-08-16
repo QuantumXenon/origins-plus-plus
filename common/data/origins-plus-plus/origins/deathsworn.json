@@ -12,12 +12,14 @@
 		"origins-plus-plus:deathsworn/no_melee",
 		"origins-plus-plus:deathsworn/no_trades",
 		"origins-plus-plus:deathsworn/petrified_heart",
-		"origins-plus-plus:deathsworn/small_shot",
+		"origins-plus-plus:deathsworn/player_trophy",
+		"origins-plus-plus:deathsworn/quick_attack",
 		"origins-plus-plus:deathsworn/soul",
 		"origins-plus-plus:deathsworn/special",
 		"origins-plus-plus:deathsworn/summon",
 		"origins-plus-plus:deathsworn/take_soul"
 	],
 	"icon":"minecraft:nether_wart_block",
+	"loading_priority":1,
 	"impact":3
 }

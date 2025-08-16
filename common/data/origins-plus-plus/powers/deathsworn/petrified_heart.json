@@ -1,30 +1,62 @@
 {
- "type":"origins:target_action_on_hit",
- "entity_action":{
-  "type":"origins:if_else",
-  "condition":{
-   "type":"origins:health",
-   "comparison":"<=",
-   "compare_to":0
-  },
-  "if_action":{
-   "type":"origins:execute_command",
-   "command":"function origins-plus-plus:deathsworn/crystallize"
-  }
- },
- "target_condition":{
-  "type":"origins:and",
-  "conditions":[
-   {
-    "type":"origins:in_tag",
-    "tag":"origins-plus-plus:petrified_heart_mobs"
-   },
-   {
-    "type":"origins:nbt",
-    "nbt":"{Tags:['Deathsworn_Minion']}",
-    "inverted":true
-   }
-  ]
- },
- "cooldown":1
+	"type":"origins:action_on_hit",
+	"loading_priority": 1,
+	"bientity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+			"type":"origins:actor_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"tag @s add Crystallize_Actor"
+				}
+			},
+			{
+			"type":"origins:target_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"function origins-plus-plus:deathsworn/crystallize-id"
+				}
+			}	
+		]
+	},
+	"bientity_condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:health",
+				"comparison":"<=",
+				"compare_to":0
+				}
+			},
+			{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:command",
+				"command":"execute unless entity @s[tag=Deathsworn_Minion]",
+				"comparison":"==",
+				"compare_to":1
+				}
+			},
+			{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:command",
+				"command":"attribute @s minecraft:generic.attack_damage get",
+				"comparison":">",
+				"compare_to":0
+				}
+			},
+			{
+			"type":"origins:target_condition",
+			"condition":{
+    				"type":"origins:in_tag",
+    				"tag":"origins-plus-plus:no_crystal",
+				"inverted":true
+				}
+			}
+		]
+	}
 }

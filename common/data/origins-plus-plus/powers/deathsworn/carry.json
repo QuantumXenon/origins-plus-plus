@@ -1,15 +1,54 @@
 {
-	"type":"origins:target_action_on_hit",
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:deathsworn/turn_crystal"
-	},
-	"target_condition":{
-		"type":"origins:nbt",
-		"nbt":"{Tags:['Deathsworn_Minion']}"
+	"type":"origins:action_on_entity_use",
+	"loading_priority": 1,
+	"bientity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+			"type":"origins:actor_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"tag @s add Crystallize_Actor"
+				}
+			},
+			{
+			"type":"origins:target_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"function origins-plus-plus:deathsworn/crystallize"
+				}
+			}	
+		]
 	},
 	"cooldown":1,
-	"condition":{
-		"type":"origins:sneaking"
+	"bientity_condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+			"type":"origins:actor_condition",
+			"condition":{
+				"type":"origins:sneaking"
+				}
+			},
+			{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:command",
+				"command":"execute if entity @s[tag=Deathsworn_Minion]",
+				"comparison":"==",
+				"compare_to":1
+				}
+			},
+			{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:command",
+				"command":"execute unless entity @s[tag=Standby_Minion]",
+				"comparison":"==",
+				"compare_to":1
+				}
+			}
+		]
 	}
+}
 }
