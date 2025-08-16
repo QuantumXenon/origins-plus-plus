@@ -11,3 +11,7 @@ execute as @e[tag=Quick_Attack_Minion] run function origins-plus-plus:deathsworn
 
 #kill all dropped hearts
 execute as @e[type=item] if data entity @s Thrower if data entity @s Item.tag.Minion_Count run kill
+
+#wait for head item to update
+execute as @e[tag=Player_Minion] as @s[tag=!Player_Named_Minion] if data entity @e[type=item,tag=Deathsworn_Player_Head,limit=1,sort=nearest] Item.tag.SkullOwner.Id run function origins-plus-plus:deathsworn/player_trophy_after_update
+kill @e[type=minecraft:item,tag=Deathsworn_Player_Head,sort=nearest]

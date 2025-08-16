@@ -68,12 +68,10 @@ tag @e remove temp
 
 #player trophy system
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run summon minecraft:item ~ ~ ~ {Tags:["Item_Player_Minion"],Glowing:1b,PickupDelay:1,Item:{id:"minecraft:writable_book",Count:1b,tag:{Killed:"",Killer:"",pages: ["Write the exact name of who you killed:        >"]}}}
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data merge entity @e[tag=Item_Player_Minion,distance=..1,sort=nearest,limit=1] {Item:{tag:{UUID0:0}}}
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data merge entity @e[tag=Item_Player_Minion,distance=..1,sort=nearest,limit=1] {Item:{tag:{UUID1:0}}}
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,distance=..1,sort=nearest,limit=1] Item.tag.Killer int 1 run data get entity @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID[0]
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,distance=..1,sort=nearest,limit=1] Item.tag.Killer int 1 run data get entity @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID[1]
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,distance=..1,sort=nearest,limit=1] Item.tag.Killed int 1 run data get entity @s UUID[0]
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,distance=..1,sort=nearest,limit=1] Item.tag.Killed int 1 run data get entity @s UUID[1]
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,sort=nearest,limit=1] Item.tag.Killer0 int 1 run data get entity @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID[0]
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,sort=nearest,limit=1] Item.tag.Killer1 int 1 run data get entity @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID[1]
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,sort=nearest,limit=1] Item.tag.Killed0 int 1 run data get entity @a[tag=Deathsworn_Killed_Player,limit=1] UUID[0]
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,sort=nearest,limit=1] Item.tag.Killed1 int 1 run data get entity @a[tag=Deathsworn_Killed_Player,limit=1] UUID[1]
 
-
+execute as @a[tag=Deathsworn_Killed_Player,sort=nearest,limit=1] run tag @s remove Deathsworn_Killed_Player
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] run tag @s remove Crystallize_Actor

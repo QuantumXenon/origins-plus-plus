@@ -20,5 +20,6 @@
 		"origins-plus-plus:deathsworn/take_soul"
 	],
 	"icon":"minecraft:nether_wart_block",
+	"loading_priority":1,
 	"impact":3
 }

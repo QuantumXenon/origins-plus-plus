@@ -8,7 +8,7 @@
 			"type":"origins:actor_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"tag @s add Crystallize_Actor"
+				"command":"tag @s add Player_Minion_Actor"
 				}
 			},
 			{
