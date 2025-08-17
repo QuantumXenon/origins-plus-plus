@@ -1,3 +1,6 @@
+data modify entity @s ArmorItems[3] set from storage origins-plus-plus:deathsworn player_trophy
+data remove storage origins-plus-plus:deathsworn player_trophy
+
 tag @s add Player_Minion
 data merge entity @s {NoAI:1b,Invulnerable:1b,PersistenceRequired:1b,Silent:1b}
 tag @s add Standby_Minion
@@ -5,15 +8,37 @@ tag @s remove Deathsworn_Minion
 scoreboard players add @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count 1
 scoreboard players operation @s Minion_Count = @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count
 data modify entity @s DeathLootTable set value "minecraft:empty"
-data modify entity @s ArmorDropChances set value [1.0F,1.0F,1.0F,1.0F]
-data modify entity @s HandDropChances set value [1.0F,1.0F]
+
+#check what pieces the player has, except helmet, for the purpose of dropping armor in case the minion picks it up
+execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [0.0F,1.0F,1.0F,1.0F]
+execute unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [1.0F,0.0F,1.0F,1.0F]
+execute unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [1.0F,1.0F,0.0F,1.0F]
+execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [0.0F,0.0F,1.0F,1.0F]
+execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [0.0F,1.0F,0.0F,1.0F]
+execute unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [1.0F,0.0F,0.0F,1.0F]
+execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [0.0F,0.0F,0.0F,1.0F]
+
+#same for hand items
+execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[0].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[1].Count run data modify entity @s HandDropChances set value [0.0F,1.0F]
+execute unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[1].Count run data modify entity @s HandDropChances set value [1.0F,0.0F]
+execute unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[0].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[1].Count run data modify entity @s HandDropChances set value [1.0F,1.0F]
+execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[1].Count run data modify entity @s HandDropChances set value [0.0F,0.0F]
+
+#now give them the gear
+data modify entity @s ArmorItems[0] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:100b}]
+data modify entity @s ArmorItems[1] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:101b}]
+data modify entity @s ArmorItems[2] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:102b}]
+data modify entity @s HandItems[0] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:0b}]
+data modify entity @s HandItems[1] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:-106b}]
+
+#handle effects
+data get entity @a[tag=Deathsworn_Killed_Player,limit=1] ActiveEffects
+effect clear @s minecraft:regeneration
 effect clear @s minecraft:wither
 effect clear @s minecraft:poison
-effect clear @s minecraft:slowness
-effect clear @s minecraft:weakness
 
 
-#same, on player
+#just first and second is more than enough to track
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result score @s UUID0 run data get entity @s UUID[0]
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result score @s UUID1 run data get entity @s UUID[1]
 
@@ -59,19 +84,9 @@ execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run data get entity @s Health
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run attribute @s minecraft:generic.armor get
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run attribute @s minecraft:generic.attack_damage get
-execute at @s run summon area_effect_cloud ~ ~ ~ {Tags:["temp"]}
-ride @s mount @e[tag=temp,sort=nearest,limit=1]
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @e[tag=temp,sort=nearest,limit=1] Passengers[0].id
-tag @e remove temp
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @s ArmorItems[3].tag.SkullOwner.Name
 
 
-
-#player trophy system
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run summon minecraft:item ~ ~ ~ {Tags:["Item_Player_Minion"],Glowing:1b,PickupDelay:1,Item:{id:"minecraft:writable_book",Count:1b,tag:{Killed:"",Killer:"",pages: ["Write the exact name of who you killed:        >"]}}}
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,sort=nearest,limit=1] Item.tag.Killer0 int 1 run data get entity @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID[0]
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,sort=nearest,limit=1] Item.tag.Killer1 int 1 run data get entity @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID[1]
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,sort=nearest,limit=1] Item.tag.Killed0 int 1 run data get entity @a[tag=Deathsworn_Killed_Player,limit=1] UUID[0]
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Item_Player_Minion,sort=nearest,limit=1] Item.tag.Killed1 int 1 run data get entity @a[tag=Deathsworn_Killed_Player,limit=1] UUID[1]
 
 execute as @a[tag=Deathsworn_Killed_Player,sort=nearest,limit=1] run tag @s remove Deathsworn_Killed_Player
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] run tag @s remove Crystallize_Actor

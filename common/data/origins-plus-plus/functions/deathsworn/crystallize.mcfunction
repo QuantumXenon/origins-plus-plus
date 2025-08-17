@@ -4,15 +4,18 @@ tag @s remove Deathsworn_Minion
 scoreboard players add @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count 1
 scoreboard players operation @s Minion_Count = @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count
 data modify entity @s DeathLootTable set value "minecraft:empty"
-data modify entity @s ArmorDropChances set value [1.0F,1.0F,1.0F,1.0F]
-data modify entity @s HandDropChances set value [1.0F,1.0F]
+
+#make items always drop, only modify if its not a player minion
+execute unless entity @s[tag=Player_Minion] run data modify entity @s ArmorDropChances set value [1.0F,1.0F,1.0F,1.0F]
+execute unless entity @s[tag=Player_Minion] run data modify entity @s HandDropChances set value [1.0F,1.0F]
+
+#handle effects
+effect clear @s minecraft:regeneration
 effect clear @s minecraft:wither
 effect clear @s minecraft:poison
-effect clear @s minecraft:slowness
-effect clear @s minecraft:weakness
 
 
-#same, on player
+#just first and second is more than enough to track
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result score @s UUID0 run data get entity @s UUID[0]
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result score @s UUID1 run data get entity @s UUID[1]
 
@@ -59,9 +62,11 @@ execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run data get entity @s Health
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run attribute @s minecraft:generic.armor get
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run attribute @s minecraft:generic.attack_damage get
-execute at @s run summon area_effect_cloud ~ ~ ~ {Tags:["temp"]}
-ride @s mount @e[tag=temp,sort=nearest,limit=1]
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @e[tag=temp,sort=nearest,limit=1] Passengers[0].id
-tag @e remove temp
+
+execute unless entity @s[tag=Player_Minion] at @s run summon area_effect_cloud ~ ~ ~ {Tags:["temp"]}
+execute unless entity @s[tag=Player_Minion] run ride @s mount @e[tag=temp,sort=nearest,limit=1]
+execute unless entity @s[tag=Player_Minion] at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @e[tag=temp,sort=nearest,limit=1] Passengers[0].id
+execute unless entity @s[tag=Player_Minion] run tag @e remove temp
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @s ArmorItems[3].tag.SkullOwner.Name
 
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] run tag @s remove Crystallize_Actor
