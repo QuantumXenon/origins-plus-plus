@@ -32,7 +32,7 @@ data modify entity @s HandItems[0] set from entity @a[tag=Deathsworn_Killed_Play
 data modify entity @s HandItems[1] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:-106b}]
 
 #handle effects
-data get entity @a[tag=Deathsworn_Killed_Player,limit=1] ActiveEffects
+data modify entity @s ActiveEffects set from entity @a[tag=Deathsworn_Killed_Player,limit=1] ActiveEffects
 effect clear @s minecraft:regeneration
 effect clear @s minecraft:wither
 effect clear @s minecraft:poison
@@ -89,4 +89,5 @@ execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity
 
 
 execute as @a[tag=Deathsworn_Killed_Player,sort=nearest,limit=1] run tag @s remove Deathsworn_Killed_Player
+
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] run tag @s remove Crystallize_Actor
