@@ -89,5 +89,4 @@ execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity
 
 
 execute as @a[tag=Deathsworn_Killed_Player,sort=nearest,limit=1] run tag @s remove Deathsworn_Killed_Player
-
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] run tag @s remove Crystallize_Actor

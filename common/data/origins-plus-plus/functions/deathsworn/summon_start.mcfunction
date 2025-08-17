@@ -13,5 +13,5 @@ advancement grant @s only origins-plus-plus:deathsworn/summon
 
 tag @s remove Summon_Actor
 
-resource change @s origins-plus-plus:deathsworn/soul_bar -5
+resource change @s origins-plus-plus:deathsworn/soul_bar -2
 item modify entity @s weapon.mainhand origins-plus-plus:consume

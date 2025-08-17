@@ -120,7 +120,7 @@ execute as @e[type=item] if data entity @s Item.tag.lnc if score @a[team=deathsw
 execute as @e[tag=Standby_Minion] if score @s Minion_Count = @a[team=deathsworn,limit=1] Minion_Count_temp if score @a[team=deathsworn,limit=1] UUID0_temp = @s UUID0 if score @a[team=deathsworn,limit=1] UUID1_temp = @s UUID1 run tag @s add saved_from_death
 
 
-execute as @e[tag=marked_for_death] unless entity @s[tag=saved_from_death] run say death
+execute as @e[tag=marked_for_death] unless entity @s[tag=saved_from_death] run say no heart found, killed
 
 execute as @e[tag=Standby_Minion] if entity @s[tag=saved_from_death] run tag @s remove marked_for_death
 tag @e[tag=Standby_Minion] remove saved_from_death

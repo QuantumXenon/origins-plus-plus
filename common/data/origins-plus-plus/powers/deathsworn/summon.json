@@ -15,7 +15,7 @@
 				"type":"origins:resource",
 				"resource":"origins-plus-plus:deathsworn/soul_bar",
 				"comparison":">",
-				"compare_to":4
+				"compare_to":2
 			},
 			{
 				"type":"origins:command",
