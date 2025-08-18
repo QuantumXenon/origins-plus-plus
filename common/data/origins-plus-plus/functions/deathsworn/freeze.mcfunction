@@ -1,4 +1,4 @@
-scoreboard players operation @s deathsworndisplayingloyalty *= #-1 -1
-scoreboard players operation @s deathsworndisplayingloyalty += #-1 -1
-execute if score @s deathsworndisplayingloyalty matches -1 run attribute @s minecraft:generic.movement_speed modifier add 1-1-1-1-1111 standstill -100 add
-execute if score @s deathsworndisplayingloyalty matches 0 run attribute @s minecraft:generic.movement_speed modifier remove 1-1-1-1-1111
+#something weird on origins powers' side is happening, so here's a function deduplication system. no biggie, everything gets reset in the end
+execute if entity @s[tag=1] run function origins-plus-plus:deathsworn/freeze_apply
+execute unless entity @s[tag=2] run tag @s add 1
+tag @s remove 2

@@ -10,33 +10,32 @@ scoreboard players operation @s Minion_Count = @a[tag=Crystallize_Actor,sort=nea
 data modify entity @s DeathLootTable set value "minecraft:empty"
 
 #check what pieces the player has, except helmet, for the purpose of dropping armor in case the minion picks it up
-execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [0.0F,1.0F,1.0F,1.0F]
-execute unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [1.0F,0.0F,1.0F,1.0F]
-execute unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [1.0F,1.0F,0.0F,1.0F]
-execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [0.0F,0.0F,1.0F,1.0F]
-execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [0.0F,1.0F,0.0F,1.0F]
-execute unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [1.0F,0.0F,0.0F,1.0F]
-execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[1].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] ArmorItems[2].Count run data modify entity @s ArmorDropChances set value [0.0F,0.0F,0.0F,1.0F]
+execute if data storage origins-plus-plus:deathsworn Inventory[{Slot:100b}] unless data storage origins-plus-plus:deathsworn Inventory[{Slot:101b}] unless data storage origins-plus-plus:deathsworn Inventory[{Slot:102b}] run data modify entity @s ArmorDropChances set value [0.0F,1.0F,1.0F,1.0F]
+execute unless data storage origins-plus-plus:deathsworn Inventory[{Slot:100b}] if data storage origins-plus-plus:deathsworn Inventory[{Slot:101b}] unless data storage origins-plus-plus:deathsworn Inventory[{Slot:102b}] run data modify entity @s ArmorDropChances set value [1.0F,0.0F,1.0F,1.0F]
+execute unless data storage origins-plus-plus:deathsworn Inventory[{Slot:100b}] unless data storage origins-plus-plus:deathsworn Inventory[{Slot:101b}] if data storage origins-plus-plus:deathsworn Inventory[{Slot:102b}] run data modify entity @s ArmorDropChances set value [1.0F,1.0F,0.0F,1.0F]
+execute if data storage origins-plus-plus:deathsworn Inventory[{Slot:100b}] if data storage origins-plus-plus:deathsworn Inventory[{Slot:101b}] unless data storage origins-plus-plus:deathsworn Inventory[{Slot:102b}] run data modify entity @s ArmorDropChances set value [0.0F,0.0F,1.0F,1.0F]
+execute if data storage origins-plus-plus:deathsworn Inventory[{Slot:100b}] unless data storage origins-plus-plus:deathsworn Inventory[{Slot:101b}] if data storage origins-plus-plus:deathsworn Inventory[{Slot:102b}] run data modify entity @s ArmorDropChances set value [0.0F,1.0F,0.0F,1.0F]
+execute unless data storage origins-plus-plus:deathsworn Inventory[{Slot:100b}] if data storage origins-plus-plus:deathsworn Inventory[{Slot:101b}] if data storage origins-plus-plus:deathsworn Inventory[{Slot:102b}] run data modify entity @s ArmorDropChances set value [1.0F,0.0F,0.0F,1.0F]
+execute if data storage origins-plus-plus:deathsworn Inventory[{Slot:100b}] if data storage origins-plus-plus:deathsworn Inventory[{Slot:101b}] if data storage origins-plus-plus:deathsworn Inventory[{Slot:102b}] run data modify entity @s ArmorDropChances set value [0.0F,0.0F,0.0F,1.0F]
 
 #same for hand items
-execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[0].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[1].Count run data modify entity @s HandDropChances set value [0.0F,1.0F]
-execute unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[1].Count run data modify entity @s HandDropChances set value [1.0F,0.0F]
-execute unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[0].Count unless data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[1].Count run data modify entity @s HandDropChances set value [1.0F,1.0F]
-execute if data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[0].Count if data entity @a[tag=Deathsworn_Killed_Player,limit=1] HandItems[1].Count run data modify entity @s HandDropChances set value [0.0F,0.0F]
+execute if data storage origins-plus-plus:deathsworn Weapon unless data storage origins-plus-plus:deathsworn Inventory[{Slot:-106b}] run data modify entity @s HandDropChances set value [0.0F,1.0F]
+execute unless data storage origins-plus-plus:deathsworn Weapon if data storage origins-plus-plus:deathsworn Inventory[{Slot:-106b}] run data modify entity @s HandDropChances set value [1.0F,0.0F]
+execute unless data storage origins-plus-plus:deathsworn Weapon unless data storage origins-plus-plus:deathsworn Inventory[{Slot:-106b}] run data modify entity @s HandDropChances set value [1.0F,1.0F]
+execute if data storage origins-plus-plus:deathsworn Weapon if data storage origins-plus-plus:deathsworn Inventory[{Slot:-106b}] run data modify entity @s HandDropChances set value [0.0F,0.0F]
 
 #now give them the gear
-data modify entity @s ArmorItems[0] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:100b}]
-data modify entity @s ArmorItems[1] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:101b}]
-data modify entity @s ArmorItems[2] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:102b}]
-data modify entity @s HandItems[0] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:0b}]
-data modify entity @s HandItems[1] set from entity @a[tag=Deathsworn_Killed_Player,limit=1] Inventory[{Slot:-106b}]
+data modify entity @s ArmorItems[0] set from storage origins-plus-plus:deathsworn Inventory[{Slot:100b}]
+data modify entity @s ArmorItems[1] set from storage origins-plus-plus:deathsworn Inventory[{Slot:101b}]
+data modify entity @s ArmorItems[2] set from storage origins-plus-plus:deathsworn Inventory[{Slot:102b}]
+data modify entity @s HandItems[0] set from storage origins-plus-plus:deathsworn Weapon
+data modify entity @s HandItems[1] set from storage origins-plus-plus:deathsworn Inventory[{Slot:-106b}]
 
 #handle effects
-data modify entity @s ActiveEffects set from entity @a[tag=Deathsworn_Killed_Player,limit=1] ActiveEffects
+data modify entity @s ActiveEffects set from storage origins-plus-plus:deathsworn Effects
 effect clear @s minecraft:regeneration
 effect clear @s minecraft:wither
 effect clear @s minecraft:poison
-
 
 #just first and second is more than enough to track
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result score @s UUID0 run data get entity @s UUID[0]
@@ -46,9 +45,6 @@ execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result score @s 
 execute store result score @s UUID0 run scoreboard players get @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID0
 execute store result score @s UUID1 run scoreboard players get @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID1
 
-
-#new minions get full health, recycled minions don't
-execute unless entity @s[tag=Deathsworn_Minion] store result entity @s Health float 1 run attribute @s minecraft:generic.max_health get
 
 #if minion was commanded to stop while being retrieved, next summon allowed to move
 execute if score @s deathsworndisplayingloyalty matches -1 run scoreboard players operation @s deathsworndisplayingloyalty *= #-1 -1
@@ -89,4 +85,3 @@ execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity
 
 
 execute as @a[tag=Deathsworn_Killed_Player,sort=nearest,limit=1] run tag @s remove Deathsworn_Killed_Player
-execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] run tag @s remove Crystallize_Actor

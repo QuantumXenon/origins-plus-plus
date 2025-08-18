@@ -1,6 +1,6 @@
 {
 	"type":"origins:active_self",
-	"loading_priority":1,
+	"loading_priority":2,
 	"entity_action":{
 		"type":"origins:raycast",
 		"block":false,
@@ -8,13 +8,22 @@
 		"fluid_handling":"none",
 		"distance":3,
 		"before_action":{
-			"type":"origins:execute_command",
-			"command":"data remove storage origins-plus-plus:temp Motion"
+			"type":"origins:and",
+			"actions":[
+				{
+				"type":"origins:execute_command",
+				"command":"data remove storage origins-plus-plus:temp Motion"
+				},
+				{
+				"type":"origins:execute_command",
+				"command":"resource change @s origins-plus-plus:deathsworn/soul_bar -4"
+				}
+			]
 		},
 		"command_along_ray":"function origins-plus-plus:deathsworn/quick_attack_id",
 		"command_step":1
 	},
-	"entity_condition":{
+	"condition":{
 		"type":"origins:command",
 		"command":"execute if data entity @s SelectedItem.tag.Minion_Count",
 		"comparison":"==",

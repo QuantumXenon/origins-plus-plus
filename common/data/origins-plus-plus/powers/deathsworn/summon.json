@@ -1,6 +1,6 @@
 {
 	"type":"origins:active_self",
-	"loading_priority":1,
+	"loading_priority":2,
 	"entity_action":{
 		"type":"origins:raycast",
 		"distance":8,

@@ -1,14 +1,55 @@
 {
 	"type":"origins:active_self",
+	"loading_priority":2,
 	"entity_action":{
 		"type":"origins:raycast",
 		"distance":16,
 		"bientity_action":{
-			"type":"origins:target_action",
-			"action":{
-				"type":"origins:execute_command",
-				"command":"power grant @s origins-plus-plus:deathsworn/one_off/draw_aggro"
-			}
+			"type":"origins:and",
+			"actions":[
+				{
+				"type":"origins:actor_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"tag @s add Commander_Actor"
+					}
+				},
+				{
+				"type":"origins:target_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"tag @s add Target"
+					}
+				},
+				{
+				"type":"origins:actor_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"execute as @e[tag=Deathsworn_Minion] if score @s UUID0 = @a[tag=Commander_Actor,limit=1] UUID0 if score @s UUID1 = @a[tag=Commander_Actor,limit=1] UUID1 run tag @s add Commanded_Minion"
+					}
+				},
+				{
+				"type":"origins:actor_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:deathsworn/aggro"
+					}
+				},
+				{
+				"type":"origins:target_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"tag @s remove Target"
+					}
+				},
+				{
+				"type":"origins:actor_action",
+				"action":{
+					"type":"origins:swing_hand",
+					"hand":"OFF_HAND"
+					}
+				}
+			]
 		},
 		"bientity_condition":{
 			"type":"origins:target_condition",

@@ -1,6 +1,5 @@
 data merge entity @s {NoAI:1b,Invulnerable:1b,PersistenceRequired:1b,Silent:1b}
 tag @s add Standby_Minion
-tag @s remove Deathsworn_Minion
 scoreboard players add @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count 1
 scoreboard players operation @s Minion_Count = @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count
 data modify entity @s DeathLootTable set value "minecraft:empty"
@@ -27,6 +26,7 @@ execute store result score @s UUID1 run scoreboard players get @a[tag=Crystalliz
 
 #new minions get full health, recycled minions don't
 execute unless entity @s[tag=Deathsworn_Minion] store result entity @s Health float 1 run attribute @s minecraft:generic.max_health get
+tag @s remove Deathsworn_Minion
 
 #if minion was commanded to stop while being retrieved, next summon allowed to move
 execute if score @s deathsworndisplayingloyalty matches -1 run scoreboard players operation @s deathsworndisplayingloyalty *= #-1 -1
@@ -68,5 +68,3 @@ execute unless entity @s[tag=Player_Minion] run ride @s mount @e[tag=temp,sort=n
 execute unless entity @s[tag=Player_Minion] at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @e[tag=temp,sort=nearest,limit=1] Passengers[0].id
 execute unless entity @s[tag=Player_Minion] run tag @e remove temp
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @s ArmorItems[3].tag.SkullOwner.Name
-
-execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] run tag @s remove Crystallize_Actor

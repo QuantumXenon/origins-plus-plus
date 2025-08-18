@@ -827,6 +827,8 @@
 	"power.origins-plus-plus.deathsworn/no_trades.name":"Manchas do Oculto",
 	"power.origins-plus-plus.deathsworn/petrified_heart.description": "Criaturas sem estatuto de boss que mata largam Corações Petrificados. Guarde-os, eles serão usados para invocar lacaios!",
 	"power.origins-plus-plus.deathsworn/petrified_heart.name":"Parada Cardíaca",
+	"power.origins-plus-plus.deathsworn/player_trophy.description":"Outros jogadores também podem ser seus lacaios. Não se deve gastar qualquer espírito!",
+	"power.origins-plus-plus.deathsworn/player_trophy.name":"Ainda Não Acabou!",
 	"power.origins-plus-plus.deathsworn/quick_attack.description":"[Save Toolbar Activator] Projete um lacaio para a batalha. Todos as criaturas na sua trajetória serão danificadas.",
 	"power.origins-plus-plus.deathsworn/quick_attack.name":"Enviar!",
 	"power.origins-plus-plus.deathsworn/soul.description":"Como todos os ocultistas, você usa energia de ESPÍRITOS para seus rituais demoníacos. Acumule-as matando criaturas.",

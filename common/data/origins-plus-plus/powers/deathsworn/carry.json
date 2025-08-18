@@ -1,6 +1,6 @@
 {
 	"type":"origins:action_on_entity_use",
-	"loading_priority": 1,
+	"loading_priority":2,
 	"bientity_action":{
 		"type":"origins:and",
 		"actions":[
@@ -15,9 +15,16 @@
 			"type":"origins:target_action",
 			"action":{
 				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:deathsworn/crystallize"
+				"command":"execute if score @s UUID0 = @a[tag=Crystallize_Actor,limit=1] UUID0 if score @s UUID1 = @a[tag=Crystallize_Actor,limit=1] UUID1 run function origins-plus-plus:deathsworn/crystallize"
 				}
-			}	
+			},
+			{
+			"type":"origins:actor_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"tag @s remove Crystallize_Actor"
+				}
+			}
 		]
 	},
 	"cooldown":1,
@@ -38,17 +45,7 @@
 				"comparison":"==",
 				"compare_to":1
 				}
-			},
-			{
-			"type":"origins:target_condition",
-			"condition":{
-				"type":"origins:command",
-				"command":"execute unless entity @s[tag=Standby_Minion]",
-				"comparison":"==",
-				"compare_to":1
-				}
 			}
 		]
 	}
-}
 }

@@ -1,3 +1,4 @@
+#on the off chance a player is using keepinventory, replace the item but give it back after
 summon armor_stand ~ ~ ~
 data modify entity @e[type=armor_stand,distance=..0.1,limit=1] HandItems[0] set from entity @s Inventory[{Slot:9b}]
 item replace entity @s container.9 with minecraft:player_head

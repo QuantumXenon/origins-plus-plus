@@ -1,5 +1,6 @@
 {
 	"type":"origins:multiple",
+	"loading_priority":2,
 	"minionless":{
 		"type":"origins:attribute",
 		"modifier":{
