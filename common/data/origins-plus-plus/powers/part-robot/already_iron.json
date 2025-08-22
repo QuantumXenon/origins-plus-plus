@@ -8,7 +8,7 @@
 	"chest":{
 		"type":"origins:armor_value",
 		"comparison":"<",
-		"compare_to":8
+		"compare_to":7
 	},
 	"legs":{
 		"type":"origins:armor_value",
