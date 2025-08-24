@@ -2,6 +2,8 @@ data merge entity @s {NoAI:1b,Invulnerable:1b,PersistenceRequired:1b,Silent:1b}
 tag @s add Standby_Minion
 scoreboard players add @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count 1
 scoreboard players operation @s Minion_Count = @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count
+data modify entity @s IsImmuneToZombification set value 1
+data modify entity @s CanPickUpLoot set value 1b
 data modify entity @s DeathLootTable set value "minecraft:empty"
 
 #make items always drop, only modify if its not a player minion

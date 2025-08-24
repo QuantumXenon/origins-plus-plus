@@ -50,10 +50,21 @@
 			{
 			"type":"origins:target_condition",
 			"condition":{
-				"type":"origins:command",
-				"command":"attribute @s minecraft:generic.attack_damage get",
-				"comparison":">",
-				"compare_to":0
+				"type":"origins:or",	
+				"conditions":[
+						{
+						"type":"origins:command",
+						"command":"attribute @s minecraft:generic.attack_damage get",
+						"comparison":">",
+						"compare_to":0
+						},
+						{
+						"type":"origins:command",
+						"command":"execute if entity @s[type=player]",
+						"comparison":"==",
+						"compare_to":1
+						}
+					]
 				}
 			},
 			{
