@@ -1,28 +1,4 @@
 {
-	"type":"origins:multiple",
-	"loading_priority":2,
-	"minionless":{
-		"type":"origins:attribute",
-		"modifier":{
-			"attribute":"minecraft:generic.max_health",
-			"value":-4,
-			"operation":"addition"
-		},
-		"update_health":true
-	},
-	"nearminions":{
-		"type":"origins:conditioned_attribute",
-		"modifier":{
-			"attribute":"minecraft:generic.max_health",
-			"value":-8,
-			"operation":"addition"
-		},
-		"update_health":true,
-		"condition":{
-			"type":"origins:command",
-			"command":"execute if entity @e[tag=Deathsworn_Minion,distance=..16]",
-			"comparison":">=",
-			"compare_to":1
-		}
-	}
+	"type":"origins:simple",
+	"loading_priority":2
 }

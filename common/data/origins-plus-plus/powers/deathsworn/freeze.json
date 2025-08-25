@@ -21,6 +21,13 @@
 			{
 			"type":"origins:actor_action",
 			"action":{
+				"type":"origins:swing_hand",
+				"hand":"MAIN_HAND"
+				}
+			},
+			{
+			"type":"origins:actor_action",
+			"action":{
 				"type":"origins:execute_command",
 				"command":"tag @s remove Freeze_Actor"
 				}

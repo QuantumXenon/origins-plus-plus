@@ -59,6 +59,7 @@ execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data merge entity 
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data merge entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] {Item:{tag:{UUID1:0}}}
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.UUID0 int 1 run scoreboard players get @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID0
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.UUID1 int 1 run scoreboard players get @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID1
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Owner set from entity @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID
 
 #appraisal support
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run data get entity @s Health

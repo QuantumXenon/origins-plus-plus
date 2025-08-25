@@ -10,6 +10,8 @@ scoreboard objectives add Killed_UUID1 dummy
 scoreboard objectives add Pos1 dummy
 scoreboard objectives add Pos2 dummy
 scoreboard objectives add Motion dummy
+scoreboard objectives add nearby_minions dummy
+scoreboard objectives add calculated_health dummy
 
 function origins-plus-plus:deathsworn/armor_stand
 function origins-plus-plus:deathsworn/clear

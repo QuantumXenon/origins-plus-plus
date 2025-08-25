@@ -1,0 +1,10 @@
+{
+	"type":"origins:modify_attribute",
+	"loading_priority":2,
+	"attribute":"minecraft:generic.max_health",
+	"modifier":{
+		"operation":"set_total",
+		"resource":"origins-plus-plus:deathsworn/count_minions_resource",
+		"value":0
+	}
+}

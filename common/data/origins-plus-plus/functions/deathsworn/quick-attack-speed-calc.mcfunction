@@ -41,4 +41,5 @@ execute as @e[tag=Standby_Minion] if score @s Minion_Count = @a[tag=Quick_Attack
 
 say should end here
 
-tag @a[tag=Quick_Attack_Actor,limit=1] remove Quick_Attack_Actor
+execute as @a[tag=Quick_Attack_Actor,limit=1,sort=nearest] run tag @s add Skip_Quick_Attack
+execute as @a[tag=Quick_Attack_Actor,limit=1,sort=nearest] run tag @s remove Quick_Attack_Actor
