@@ -8,7 +8,6 @@ execute as @a[team=deathsworn] at @s if score @s UUID0 = @e[tag=Standby_Minion,l
 
 #damage function for launched minions
 execute if entity @e[tag=Quick_Attack_Minion] run function origins-plus-plus:deathsworn/quick-attack-damage
-execute unless entity @e[tag=Quick_Attack_Minion] run tag @a remove Quick_Attack_Actor
 
 #kill all dropped hearts
-execute as @e[type=item] if data entity @s Thrower if data entity @s Item.tag.Minion_Count run kill
+execute as @e[type=item] if data entity @s Item.tag.Minion_Count if data entity @s Thrower run kill

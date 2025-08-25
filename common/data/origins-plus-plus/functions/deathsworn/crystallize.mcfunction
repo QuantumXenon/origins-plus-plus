@@ -31,12 +31,11 @@ execute unless entity @s[tag=Deathsworn_Minion] store result entity @s Health fl
 tag @s remove Deathsworn_Minion
 
 #if minion was commanded to stop while being retrieved, next summon allowed to move
-execute if score @s deathsworndisplayingloyalty matches -1 run scoreboard players operation @s deathsworndisplayingloyalty *= #-1 -1
-execute if score @s deathsworndisplayingloyalty matches 1 run scoreboard players operation @s deathsworndisplayingloyalty += #-1 -1
-execute if score @s deathsworndisplayingloyalty matches 0 run attribute @s minecraft:generic.movement_speed modifier remove 1-1-1-1-1111
+execute if score @s Deathsworn_Freeze matches -1 run scoreboard players operation @s Deathsworn_Freeze *= @s Deathsworn_Freeze
+execute if score @s Deathsworn_Freeze matches 1 run scoreboard players remove @s Deathsworn_Freeze 1
+execute if score @s Deathsworn_Freeze matches 0 run attribute @s minecraft:generic.movement_speed modifier remove 1-1-1-1-1111
 
-
-#on petrified_heart/carry power first the player gets the Crystallize_Actor tag, then entities get tped to the player, small enough to not be seen or have a hitbox
+#make the minion a "ghost" while on standby
 scale delay set pehkui:model_width 0
 scale delay set pehkui:model_height 0
 scale delay set pehkui:interaction_box_width 0
@@ -49,7 +48,6 @@ scale multiply pehkui:model_width -1
 scale multiply pehkui:model_height -1
 scale multiply pehkui:interaction_box_width -1
 scale multiply pehkui:interaction_box_height -1
-execute if entity @e[tag=Standby_Minion] run say crystallize
 
 
 #item stuff

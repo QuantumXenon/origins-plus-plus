@@ -1,1 +1,1 @@
-execute as @a[team=deathsworn] run execute at @s as @e[tag=Deathsworn_Minion,distance=24..] if score @s UUID0 = @a[distance=..0.1,limit=1] UUID0 if score @s UUID1 = @a[distance=..0.1,limit=1] UUID1 run tp @s @a[distance=..0.1,limit=1]
+execute as @a[team=deathsworn] run execute at @s as @e[tag=Deathsworn_Minion,distance=24..] if score @s UUID0 = @a[distance=..0.1,limit=1] UUID0 if score @s UUID1 = @a[distance=..0.1,limit=1] UUID1 run tp @s ~2 ~0.5 ~-1  

@@ -13,8 +13,8 @@ scoreboard players operation @s Minion_Count = @a[tag=Crystallize_Actor,sort=nea
 data modify entity @s CanPickUpLoot set value 1b
 data modify entity @s DeathLootTable set value "minecraft:empty"
 
-execute at @s positioned ~ -70 ~ as @e[tag=Deathsworn_Armor_Stand,sort=nearest,limit=1] if score @s Killed_UUID0 = @e[tag=Player_Minion,limit=1] Killed_UUID0 if score @s Killed_UUID1 = @e[tag=Player_Minion,limit=1] Killed_UUID1 run tag @s add Matched_Deathsworn_Armor_Stand
-execute as @e[tag=Matched_Deathsworn_Armor_Stand] if score @s Killed_UUID0 = @e[tag=Player_Minion,limit=1] Killed_UUID0 if score @s Killed_UUID1 = @e[tag=Player_Minion,limit=1] Killed_UUID1 run say matched ids
+execute at @s as @e[tag=Deathsworn_Armor_Stand,sort=nearest,limit=1] if score @s Killed_UUID0 = @e[tag=!Geared_Player_Minion,tag=Player_Minion,limit=1,sort=nearest] Killed_UUID0 if score @s Killed_UUID1 = @e[tag=!Geared_Player_Minion,tag=Player_Minion,limit=1,sort=nearest] Killed_UUID1 run tag @s add Matched_Deathsworn_Armor_Stand
+execute as @e[tag=Matched_Deathsworn_Armor_Stand] if score @s Killed_UUID0 = @e[tag=!Geared_Player_Minion,tag=Player_Minion,limit=1] Killed_UUID0 if score @s Killed_UUID1 = @e[tag=!Geared_Player_Minion,tag=Player_Minion,limit=1] Killed_UUID1 run say matched ids
 
 #check what pieces the player has, except helmet, for the purpose of dropping armor in case the minion picks it up
 data modify entity @s ArmorDropChances set value [1.0F,1.0F,1.0F,1.0F]
@@ -40,15 +40,15 @@ data modify entity @s HandItems[0] set from entity @e[tag=Matched_Deathsworn_Arm
 data modify entity @s HandItems[1] set from entity @e[tag=Matched_Deathsworn_Armor_Stand,limit=1] HandItems[1]
 
 
+#no matter if the minion is actually geared or not, it's been geared up by the code's eyes
+tag @s add Geared_Player_Minion
+
+
 #handle effects
 data modify entity @s ActiveEffects set from entity @e[tag=Matched_Deathsworn_Armor_Stand,limit=1] ActiveEffects
 effect clear @s minecraft:regeneration
 effect clear @s minecraft:wither
 effect clear @s minecraft:poison
-
-#store uuid of killed player
-#execute store result score @s Killed_UUID0 run data get entity @a[tag=Deathsworn_Killed_Player,sort=nearest,limit=1] UUID[0]
-#execute store result score @s Killed_UUID1 run data get entity @a[tag=Deathsworn_Killed_Player,sort=nearest,limit=1] UUID[1]
 
 #just first and second is more than enough to track
 execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result score @s UUID0 run data get entity @s UUID[0]
@@ -57,13 +57,6 @@ execute as @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result score @s 
 #just first and second is more than enough to track
 execute store result score @s UUID0 run scoreboard players get @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID0
 execute store result score @s UUID1 run scoreboard players get @a[tag=Crystallize_Actor,sort=nearest,limit=1] UUID1
-
-
-#if minion was commanded to stop while being retrieved, next summon allowed to move
-execute if score @s deathsworndisplayingloyalty matches -1 run scoreboard players operation @s deathsworndisplayingloyalty *= #-1 -1
-execute if score @s deathsworndisplayingloyalty matches 1 run scoreboard players operation @s deathsworndisplayingloyalty += #-1 -1
-execute if score @s deathsworndisplayingloyalty matches 0 run attribute @s minecraft:generic.movement_speed modifier remove 1-1-1-1-1111
-
 
 #make the minion a "ghost" while on standby
 scale delay set pehkui:model_width 0

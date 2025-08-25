@@ -41,13 +41,6 @@
 					"type":"origins:execute_command",
 					"command":"tag @s remove Target"
 					}
-				},
-				{
-				"type":"origins:actor_action",
-				"action":{
-					"type":"origins:swing_hand",
-					"hand":"OFF_HAND"
-					}
 				}
 			]
 		},

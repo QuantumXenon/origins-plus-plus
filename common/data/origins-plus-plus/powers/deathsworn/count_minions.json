@@ -1,6 +1,7 @@
 {
 	"type":"origins:multiple",
-	"loading_priority":2,
+	"hidden":true,
+	"loading_priority":3,
 	"resource":{
 		"type":"origins:resource",
 		"min":1,
@@ -9,7 +10,7 @@
 	},
 	"count_minions":{
 		"type":"origins:action_over_time",
-		"interval":20,
+		"interval":10,
 		"entity_action":{
 			"type":"origins:execute_command",
 			"command":"function origins-plus-plus:deathsworn/count_minions"
