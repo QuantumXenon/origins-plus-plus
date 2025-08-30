@@ -64,9 +64,11 @@ execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run data get entity @s Health
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run attribute @s minecraft:generic.armor get
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run attribute @s minecraft:generic.attack_damage get
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data merge entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] {Item:{tag:{Saved_from_Death:1b}}}
 
 execute unless entity @s[tag=Player_Minion] at @s run summon area_effect_cloud ~ ~ ~ {Tags:["temp"]}
 execute unless entity @s[tag=Player_Minion] run ride @s mount @e[tag=temp,sort=nearest,limit=1]
 execute unless entity @s[tag=Player_Minion] at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @e[tag=temp,sort=nearest,limit=1] Passengers[0].id
 execute unless entity @s[tag=Player_Minion] run tag @e remove temp
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @s ArmorItems[3].tag.SkullOwner.Name
+
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] if entity @s[tag=Player_Minion] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.player set from entity @s ArmorItems[3].tag.SkullOwner.Name

@@ -10,7 +10,7 @@
 			"block":true,
 			"entity":true,
 			"fluid_handling":"none",
-			"distance":16,
+			"distance":24,
 			"bientity_action":{
 				"type":"origins:target_action",
 				"action":{
@@ -47,8 +47,12 @@
 			},
 			{
 				"type":"origins:execute_command",
-				"command":"resource change @s origins-plus-plus:deathsworn/soul_bar -2"
+				"command":"resource change @s origins-plus-plus:deathsworn/soul_bar -1"
 			}
 		]
+	},
+	"condition":{
+		"type":"origins:power_active",
+		"power":"origins-plus-plus:deathsworn/buff_toggle"
 	}
 }

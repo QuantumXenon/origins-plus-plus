@@ -84,6 +84,6 @@ execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Health float 1 run data get entity @s Health
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Armor float 1 run attribute @s minecraft:generic.armor get
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.AD float 1 run attribute @s minecraft:generic.attack_damage get
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.mob set from entity @s ArmorItems[3].tag.SkullOwner.Name
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.player set from entity @s ArmorItems[3].tag.SkullOwner.Name
 
 execute as @a[tag=Deathsworn_Killed_Player,sort=nearest,limit=1] run tag @s remove Deathsworn_Killed_Player

@@ -5,20 +5,23 @@ execute as @e[tag=!Quick_Attack_Minion,tag=!Skip_Quick_Attack] at @s if entity @
 execute at @s unless block ~ ~ ~ water unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run particle minecraft:ash ~ ~.3 ~ 0.3 0 0.3 1 5000
 execute at @s unless block ~ ~ ~ water unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
 execute at @s unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
-execute at @s unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run tag @s remove Skip_Quick_Attack
+execute at @s unless block ~ ~-.001 ~ #origins-plus-plus:untouchable at @a[tag=Skip_Quick_Attack] if score @s UUID0 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID0 if score @s UUID1 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID1 run tag @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] remove Skip_Quick_Attack
 execute at @s unless block ~ ~ ~ water unless block ~.31 ~ ~ #origins-plus-plus:untouchable run particle minecraft:ash ~.3 ~ ~ 0 0.3 0.3 1 5000
 execute at @s unless block ~ ~ ~ water unless block ~.31 ~ ~ #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
 execute at @s unless block ~.31 ~ ~ #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
-execute at @s unless block ~.31 ~ ~ #origins-plus-plus:untouchable run tag @s remove Skip_Quick_Attack
-execute at @s unless block ~ ~ ~ water unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run particle minecraft:ash ~-.3 ~ ~ 0 0.3 0.3 1 5000
+execute at @s unless block ~.31 ~ ~ #origins-plus-plus:untouchable at @a[tag=Skip_Quick_Attack] if score @s UUID0 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID0 if score @s UUID1 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID1 run tag @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~ water unless block ~.31 ~ ~ #origins-plus-plus:untouchable run particle minecraft:ash ~-.3 ~ ~ 0 0.3 0.3 1 5000
 execute at @s unless block ~ ~ ~ water unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
 execute at @s unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
-execute at @s unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run tag @s remove Skip_Quick_Attack
+execute at @s unless block ~-.31 ~ ~ #origins-plus-plus:untouchable at @a[tag=Skip_Quick_Attack] if score @s UUID0 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID0 if score @s UUID1 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID1 run tag @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~ water unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run particle minecraft:ash ~-.3 ~ ~ 0 0.3 0.3 1 5000
 execute at @s unless block ~ ~ ~ water unless block ~ ~ ~.31 #origins-plus-plus:untouchable run particle minecraft:ash ~ ~ ~.3 -0.3 0.3 0 1 5000
 execute at @s unless block ~ ~ ~ water unless block ~ ~ ~.31 #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
 execute at @s unless block ~ ~ ~.31 #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
-execute at @s unless block ~ ~ ~.31 #origins-plus-plus:untouchable run tag @s remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~.31 #origins-plus-plus:untouchable at @a[tag=Skip_Quick_Attack] if score @s UUID0 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID0 if score @s UUID1 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID1 run tag @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~ water unless block ~ ~ ~.31 #origins-plus-plus:untouchable run particle minecraft:ash ~-.3 ~ ~ 0 0.3 0.3 1 5000
 execute at @s unless block ~ ~ ~ water unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run particle minecraft:ash ~ ~ ~-.3 -0.3 0.3 0 1 5000
 execute at @s unless block ~ ~ ~ water unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
 execute at @s unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
-execute at @s unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run tag @s remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~-.31 #origins-plus-plus:untouchable at @a[tag=Skip_Quick_Attack] if score @s UUID0 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID0 if score @s UUID1 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID1 run tag @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~ water unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run particle minecraft:ash ~-.3 ~ ~ 0 0.3 0.3 1 5000

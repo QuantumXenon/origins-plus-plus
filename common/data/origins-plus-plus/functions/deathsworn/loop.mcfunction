@@ -7,9 +7,10 @@ execute as @a[team=deathsworn] at @s if score @s UUID0 = @e[tag=Standby_Minion,l
 execute as @e[tag=Quick_Attack_Minion] run function origins-plus-plus:deathsworn/quick-attack-damage
 
 #kill all dropped hearts
-execute as @e[type=item] if data entity @s Item.tag.Minion_Count if data entity @s Thrower run kill
+execute as @e[type=item] if data entity @s Item.tag.Minion_Count if data entity @s Thrower if data entity @s Thrower if data entity @s Item.tag{Saved_from_Death:0b} at @a[sort=nearest,limit=1] run function origins-plus-plus:deathsworn/clear
+execute as @e[type=item] if data entity @s Item.tag.Minion_Count if data entity @s Thrower if data entity @s Item.tag{Saved_from_Death:1b} run data merge entity @s {Thrower:[I;0,0,0,0]}
+execute as @e[type=item] if data entity @s Item.tag.Minion_Count if data entity @s {Thrower:[I;0,0,0,0]} run data merge entity @s {Item:{tag:{Saved_from_Death:0b}}}
 
-execute as @a[team=deathsworn] run power remove @s origins-plus-plus:deathsworn/1s_timer
 
 #stop the clock if no updates happen by the player
 execute as @e[tag=Buffed_Minion] if entity @s[tag=1s_Passed] run power remove @s origins-plus-plus:deathsworn/1s_timer

@@ -8,11 +8,11 @@
 		"actions":[
 			{
 			"type": "origins:execute_command",
-			"command": "function origins-plus-plus:deathsworn/buff_toggle"
+			"command": "power remove @s origins-plus-plus:deathsworn/buff_toggle"
 			},
 			{
 			"type": "origins:execute_command",
-			"command": "execute if entity @s[tag=!Buff_Toggled] run power remove @s origins-plus-plus:deathsworn/buff"
+			"command": "power grant @s origins-plus-plus:deathsworn/buff_toggle"
 			}
 		]
 	},

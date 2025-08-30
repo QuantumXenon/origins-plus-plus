@@ -1,0 +1,31 @@
+{
+	"type":"origins:action_over_time",
+	"loading_priority":5,
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"title @s actionbar [{\"translate\":\"origins-plus-plus.deathsworn.health\",\"color\":\"#FF0000\",\"bold\":false,\"italic\":false},{\"nbt\":\"SelectedItem.tag.Health\",\"entity\":\"@s\",\"color\":\"#DB251F\"},{\"text\":\" | \",\"color\":\"white\",\"bold\":false,\"italic\":false},{\"translate\":\"origins-plus-plus.deathsworn.armor\",\"color\":\"#FF0000\",\"bold\":false,\"italic\":false},{\"nbt\":\"SelectedItem.tag.Armor\",\"entity\":\"@s\",\"color\":\"#D11B1B\"},{\"text\":\" | \",\"color\":\"white\"},{\"translate\":\"origins-plus-plus.deathsworn.attack_damage\",\"color\":\"#FF0000\"},{\"nbt\":\"SelectedItem.tag.AD\",\"entity\":\"@s\",\"interpret\":false,\"color\":\"#DB251F\"},{\"text\":\" | \",\"color\":\"white\"},{\"translate\":\"origins-plus-plus.deathsworn.mob\",\"color\":\"#FF0000\"},{\"nbt\":\"SelectedItem.tag.mob\",\"entity\":\"@s\"}]"
+	},
+	"falling_action":{
+		"type":"origins:execute_command",
+		"command":"title @p actionbar \"\""
+	},
+	"interval":2,
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:command",
+				"command":"execute if data entity @s SelectedItem.tag.Minion_Count",
+				"comparison":"==",
+				"compare_to":1
+			},
+			{
+				"type":"origins:command",
+				"command":"execute if data entity @s SelectedItem.tag.mob",
+				"comparison":"==",
+				"compare_to":1
+			}
+		]
+	},
+	"hidden":true
+}

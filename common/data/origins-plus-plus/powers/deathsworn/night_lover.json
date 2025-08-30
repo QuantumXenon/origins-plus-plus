@@ -4,9 +4,9 @@
 	"entity_action":{
 		"type":"origins:change_resource",
 		"resource":"origins-plus-plus:deathsworn/soul_bar",
-		"change":2
+		"change":1
 	},
-	"interval":30,
+	"interval":20,
 	"condition":{
 		"type":"origins:daytime",
 		"inverted":true
