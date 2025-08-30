@@ -1,0 +1,93 @@
+particle minecraft:soul_fire_flame ~ ~0.3 ~ 0.4 0 0.4 0 150
+
+# (+X, +Y, +Z)
+particle minecraft:reverse_portal ~0.20 ~0.05 ~0.20 0 0 0 0 10
+particle minecraft:reverse_portal ~0.22 ~0.15 ~0.22 0 0 0 0 10
+particle minecraft:reverse_portal ~0.24 ~0.25 ~0.24 0 0 0 0 10
+particle minecraft:reverse_portal ~0.26 ~0.35 ~0.26 0 0 0 0 10
+particle minecraft:reverse_portal ~0.28 ~0.44 ~0.28 0 0 0 0 10
+particle minecraft:reverse_portal ~0.30 ~0.54 ~0.30 0 0 0 0 10
+particle minecraft:reverse_portal ~0.32 ~0.64 ~0.32 0 0 0 0 10
+particle minecraft:reverse_portal ~0.34 ~0.73 ~0.34 0 0 0 0 10
+particle minecraft:reverse_portal ~0.36 ~0.83 ~0.36 0 0 0 0 10
+particle minecraft:reverse_portal ~0.38 ~0.93 ~0.38 0 0 0 0 10
+particle minecraft:reverse_portal ~0.40 ~1.03 ~0.40 0 0 0 0 10
+particle minecraft:reverse_portal ~0.42 ~1.12 ~0.42 0 0 0 0 10
+particle minecraft:reverse_portal ~0.44 ~1.22 ~0.44 0 0 0 0 10
+particle minecraft:reverse_portal ~0.46 ~1.32 ~0.46 0 0 0 0 10
+particle minecraft:reverse_portal ~0.48 ~1.42 ~0.48 0 0 0 0 10
+particle minecraft:reverse_portal ~0.50 ~1.51 ~0.50 0 0 0 0 10
+particle minecraft:reverse_portal ~0.52 ~1.61 ~0.52 0 0 0 0 10
+particle minecraft:reverse_portal ~0.54 ~1.71 ~0.54 0 0 0 0 10
+particle minecraft:reverse_portal ~0.56 ~1.81 ~0.56 0 0 0 0 10
+particle minecraft:reverse_portal ~0.58 ~1.91 ~0.58 0 0 0 0 10
+particle minecraft:reverse_portal ~0.60 ~2.00 ~0.60 0 0 0 0 10
+
+# (-X, +Y, +Z)
+particle minecraft:reverse_portal ~-0.20 ~0.05 ~0.20 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.22 ~0.15 ~0.22 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.24 ~0.25 ~0.24 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.26 ~0.35 ~0.26 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.28 ~0.44 ~0.28 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.30 ~0.54 ~0.30 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.32 ~0.64 ~0.32 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.34 ~0.73 ~0.34 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.36 ~0.83 ~0.36 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.38 ~0.93 ~0.38 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.40 ~1.03 ~0.40 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.42 ~1.12 ~0.42 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.44 ~1.22 ~0.44 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.46 ~1.32 ~0.46 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.48 ~1.42 ~0.48 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.50 ~1.51 ~0.50 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.52 ~1.61 ~0.52 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.54 ~1.71 ~0.54 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.56 ~1.81 ~0.56 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.58 ~1.91 ~0.58 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.60 ~2.00 ~0.60 0 0 0 0 10
+
+# (+X, +Y, -Z)
+particle minecraft:reverse_portal ~0.20 ~0.05 ~-0.20 0 0 0 0 10
+particle minecraft:reverse_portal ~0.22 ~0.15 ~-0.22 0 0 0 0 10
+particle minecraft:reverse_portal ~0.24 ~0.25 ~-0.24 0 0 0 0 10
+particle minecraft:reverse_portal ~0.26 ~0.35 ~-0.26 0 0 0 0 10
+particle minecraft:reverse_portal ~0.28 ~0.44 ~-0.28 0 0 0 0 10
+particle minecraft:reverse_portal ~0.30 ~0.54 ~-0.30 0 0 0 0 10
+particle minecraft:reverse_portal ~0.32 ~0.64 ~-0.32 0 0 0 0 10
+particle minecraft:reverse_portal ~0.34 ~0.73 ~-0.34 0 0 0 0 10
+particle minecraft:reverse_portal ~0.36 ~0.83 ~-0.36 0 0 0 0 10
+particle minecraft:reverse_portal ~0.38 ~0.93 ~-0.38 0 0 0 0 10
+particle minecraft:reverse_portal ~0.40 ~1.03 ~-0.40 0 0 0 0 10
+particle minecraft:reverse_portal ~0.42 ~1.12 ~-0.42 0 0 0 0 10
+particle minecraft:reverse_portal ~0.44 ~1.22 ~-0.44 0 0 0 0 10
+particle minecraft:reverse_portal ~0.46 ~1.32 ~-0.46 0 0 0 0 10
+particle minecraft:reverse_portal ~0.48 ~1.42 ~-0.48 0 0 0 0 10
+particle minecraft:reverse_portal ~0.50 ~1.51 ~-0.50 0 0 0 0 10
+particle minecraft:reverse_portal ~0.52 ~1.61 ~-0.52 0 0 0 0 10
+particle minecraft:reverse_portal ~0.54 ~1.71 ~-0.54 0 0 0 0 10
+particle minecraft:reverse_portal ~0.56 ~1.81 ~-0.56 0 0 0 0 10
+particle minecraft:reverse_portal ~0.58 ~1.91 ~-0.58 0 0 0 0 10
+particle minecraft:reverse_portal ~0.60 ~2.00 ~-0.60 0 0 0 0 10
+
+# (-X, +Y, -Z)
+particle minecraft:reverse_portal ~-0.20 ~0.05 ~-0.20 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.22 ~0.15 ~-0.22 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.24 ~0.25 ~-0.24 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.26 ~0.35 ~-0.26 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.28 ~0.44 ~-0.28 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.30 ~0.54 ~-0.30 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.32 ~0.64 ~-0.32 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.34 ~0.73 ~-0.34 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.36 ~0.83 ~-0.36 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.38 ~0.93 ~-0.38 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.40 ~1.03 ~-0.40 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.42 ~1.12 ~-0.42 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.44 ~1.22 ~-0.44 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.46 ~1.32 ~-0.46 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.48 ~1.42 ~-0.48 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.50 ~1.51 ~-0.50 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.52 ~1.61 ~-0.52 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.54 ~1.71 ~-0.54 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.56 ~1.81 ~-0.56 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.58 ~1.91 ~-0.58 0 0 0 0 10
+particle minecraft:reverse_portal ~-0.60 ~2.00 ~-0.60 0 0 0 0 10

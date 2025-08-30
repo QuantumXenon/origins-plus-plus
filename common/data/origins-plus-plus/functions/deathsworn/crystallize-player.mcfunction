@@ -7,7 +7,6 @@ execute store result score @s Killed_UUID1 run data get entity @a[tag=Deathsworn
 tag @s add Player_Minion
 data merge entity @s {NoAI:1b,Invulnerable:1b,PersistenceRequired:1b,Silent:1b}
 tag @s add Standby_Minion
-tag @s remove Deathsworn_Minion
 scoreboard players add @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count 1
 scoreboard players operation @s Minion_Count = @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count
 data modify entity @s CanPickUpLoot set value 1b
@@ -74,7 +73,7 @@ scale multiply pehkui:interaction_box_height -1
 
 
 #item stuff
-execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run summon minecraft:item ~ ~ ~ {Tags:["Petrified_Heart"],Glowing:1b,PickupDelay:1,Item:{id:"minecraft:heart_of_the_sea",Count:1b,tag:{CustomModelData:1,lnc:1,display:{Name:'{"translate":"origins-plus-plus.deathsworn.petrified_heart","color":"#F01E67","bold":false,"italic":false}'}}}}
+execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run summon minecraft:item ~ ~ ~ {Tags:["Petrified_Heart"],Glowing:1b,PickupDelay:1,Item:{id:"minecraft:heart_of_the_sea",Count:1b,tag:{CustomModelData:1,display:{Name:'{"translate":"origins-plus-plus.deathsworn.petrified_heart","color":"#F01E67","bold":false,"italic":false}'}}}}
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.Minion_Count int 1 run scoreboard players get @a[tag=Crystallize_Actor,sort=nearest,limit=1] Minion_Count
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data merge entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] {Item:{tag:{UUID0:0}}}
 execute at @a[tag=Crystallize_Actor,sort=nearest,limit=1] run data merge entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] {Item:{tag:{UUID1:0}}}

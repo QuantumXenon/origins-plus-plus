@@ -2,26 +2,23 @@
 execute as @e[tag=!Quick_Attack_Minion,tag=!Skip_Quick_Attack] at @s if entity @e[tag=Quick_Attack_Minion,distance=..3.6,tag=!Skip_Quick_Attack] run damage @s 8 minecraft:generic by @e[tag=Quick_Attack_Minion,limit=1,sort=nearest]
 
 #check if any nearby block is one that has a hitbox so the minion stops damaging (this # is not perfect but its close enough) + damage self when stopped
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run particle minecraft:ash ~ ~.3 ~ 0.3 0 0.3 1 5000
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run tag @e remove Skip_Quick_Attack
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~.31 ~ ~ #origins-plus-plus:untouchable run particle minecraft:ash ~.3 ~ ~ 0 0.3 0.3 1 5000
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~.31 ~ ~ #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~.31 ~ ~ #origins-plus-plus:untouchable run tag @e remove Skip_Quick_Attack
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~.31 ~ ~ #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run particle minecraft:ash ~-.3 ~ ~ 0 0.3 0.3 1 5000
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run tag @e remove Skip_Quick_Attack
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~ ~.31 #origins-plus-plus:untouchable run particle minecraft:ash ~ ~ ~.3 -0.3 0.3 0 1 5000
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~ ~.31 #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~ ~.31 #origins-plus-plus:untouchable run tag @e remove Skip_Quick_Attack
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~ ~.31 #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run particle minecraft:ash ~ ~ ~-.3 -0.3 0.3 0 1 5000
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run tag @e remove Skip_Quick_Attack
-execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
-
-#tag given to the player so they dont get damaged immediately after launching the minion
-#execute as @e[tag=Quick_Attack_Minion] at @s unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run tag @e remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~ water unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run particle minecraft:ash ~ ~.3 ~ 0.3 0 0.3 1 5000
+execute at @s unless block ~ ~ ~ water unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
+execute at @s unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
+execute at @s unless block ~ ~-.001 ~ #origins-plus-plus:untouchable run tag @s remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~ water unless block ~.31 ~ ~ #origins-plus-plus:untouchable run particle minecraft:ash ~.3 ~ ~ 0 0.3 0.3 1 5000
+execute at @s unless block ~ ~ ~ water unless block ~.31 ~ ~ #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
+execute at @s unless block ~.31 ~ ~ #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
+execute at @s unless block ~.31 ~ ~ #origins-plus-plus:untouchable run tag @s remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~ water unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run particle minecraft:ash ~-.3 ~ ~ 0 0.3 0.3 1 5000
+execute at @s unless block ~ ~ ~ water unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
+execute at @s unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
+execute at @s unless block ~-.31 ~ ~ #origins-plus-plus:untouchable run tag @s remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~ water unless block ~ ~ ~.31 #origins-plus-plus:untouchable run particle minecraft:ash ~ ~ ~.3 -0.3 0.3 0 1 5000
+execute at @s unless block ~ ~ ~ water unless block ~ ~ ~.31 #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
+execute at @s unless block ~ ~ ~.31 #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
+execute at @s unless block ~ ~ ~.31 #origins-plus-plus:untouchable run tag @s remove Skip_Quick_Attack
+execute at @s unless block ~ ~ ~ water unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run particle minecraft:ash ~ ~ ~-.3 -0.3 0.3 0 1 5000
+execute at @s unless block ~ ~ ~ water unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run damage @s 4 minecraft:generic
+execute at @s unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run tag @s remove Quick_Attack_Minion
+execute at @s unless block ~ ~ ~-.31 #origins-plus-plus:untouchable run tag @s remove Skip_Quick_Attack

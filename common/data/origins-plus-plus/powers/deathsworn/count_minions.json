@@ -1,7 +1,7 @@
 {
 	"type":"origins:multiple",
 	"hidden":true,
-	"loading_priority":3,
+	"loading_priority":4,
 	"resource":{
 		"type":"origins:resource",
 		"min":1,

@@ -1,7 +1,12 @@
 {
 	"powers":[
 		"origins:burn_in_daylight",
+		"origins-plus-plus:deathsworn/1s_timer",
 		"origins-plus-plus:deathsworn/appraisal",
+		"origins-plus-plus:deathsworn/buff",
+		"origins-plus-plus:deathsworn/buff_change",
+		"origins-plus-plus:deathsworn/buff_stop",
+		"origins-plus-plus:deathsworn/buff_toggle",
 		"origins-plus-plus:deathsworn/carry",
 		"origins-plus-plus:deathsworn/command",
 		"origins-plus-plus:deathsworn/count_minions",
@@ -15,13 +20,14 @@
 		"origins-plus-plus:deathsworn/petrified_heart",
 		"origins-plus-plus:deathsworn/player_trophy",
 		"origins-plus-plus:deathsworn/quick_attack",
+		"origins-plus-plus:deathsworn/quick_death",
 		"origins-plus-plus:deathsworn/soul",
-		"origins-plus-plus:deathsworn/special",
 		"origins-plus-plus:deathsworn/summon",
 		"origins-plus-plus:deathsworn/take_soul",
+		"origins-plus-plus:deathsworn/toggle",
 		"origins-plus-plus:deathsworn/tp_to_owner"
 	],
 	"icon":"minecraft:nether_wart_block",
-	"loading_priority":2,
+	"loading_priority":5,
 	"impact":3
 }

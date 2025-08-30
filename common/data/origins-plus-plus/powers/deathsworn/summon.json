@@ -1,6 +1,6 @@
 {
 	"type":"origins:active_self",
-	"loading_priority":2,
+	"loading_priority":4,
 	"entity_action":{
 		"type":"origins:raycast",
 		"distance":8,
@@ -15,11 +15,11 @@
 				"type":"origins:resource",
 				"resource":"origins-plus-plus:deathsworn/soul_bar",
 				"comparison":">",
-				"compare_to":2
+				"compare_to":30
 			},
 			{
 				"type":"origins:command",
-				"command":"execute if data entity @s SelectedItem.tag{lnc:1}",
+				"command":"execute if data entity @s SelectedItem.tag.Minion_Count",
 				"comparison":"==",
 				"compare_to":1
 			}

@@ -1,6 +1,6 @@
 scoreboard objectives add Minion_Count dummy
 scoreboard objectives add Minion_Count_temp dummy
-scoreboard objectives add Deathsworn_Freeze dummy
+scoreboard objectives add Deathsworn_Toggle dummy
 scoreboard objectives add UUID0 dummy
 scoreboard objectives add UUID1 dummy
 scoreboard objectives add UUID0_temp dummy

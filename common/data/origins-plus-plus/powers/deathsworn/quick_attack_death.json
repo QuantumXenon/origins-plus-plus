@@ -1,0 +1,14 @@
+{
+	"type":"origins:action_when_damage_taken",
+	"hidden":true,
+	"loading_priority":5,
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"execute at @a if score @s UUID0 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID0 if score @s UUID1 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] UUID1 run tag @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] remove Skip_Quick_Attack"
+	},
+	"condition":{
+		"type":"origins:health",
+		"comparison":"<=",
+		"compare_to":0
+	}
+}

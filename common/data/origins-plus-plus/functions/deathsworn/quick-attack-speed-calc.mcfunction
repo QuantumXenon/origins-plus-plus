@@ -8,7 +8,7 @@ scoreboard players operation @s Pos2 -= @s Pos1
 scoreboard players operation @s Motion = @s Pos2
 execute store result score @s Pos2 run data get entity @a[tag=Quick_Attack_Actor,limit=1] Motion[0] 65000
 scoreboard players operation @s Motion += @s Pos2
-execute store result storage origins-plus-plus:temp Motion[0] double 0.000085 run scoreboard players get @s Motion
+execute store result storage origins-plus-plus:temp Motion[0] double 0.00009 run scoreboard players get @s Motion
 
 
 #for y
@@ -18,7 +18,7 @@ scoreboard players operation @s Pos2 -= @s Pos1
 scoreboard players operation @s Motion = @s Pos2
 execute store result score @s Pos2 run data get entity @a[tag=Quick_Attack_Actor,limit=1] Motion[1] 65000
 scoreboard players operation @s Motion += @s Pos2
-execute store result storage origins-plus-plus:temp Motion[1] double 0.00004 run scoreboard players get @s Motion
+execute store result storage origins-plus-plus:temp Motion[1] double 0.000035 run scoreboard players get @s Motion
 
 
 #for z
@@ -28,7 +28,7 @@ scoreboard players operation @s Pos2 -= @s Pos1
 scoreboard players operation @s Motion = @s Pos2
 execute store result score @s Pos2 run data get entity @a[tag=Quick_Attack_Actor,limit=1] Motion[2] 65000
 scoreboard players operation @s Motion += @s Pos2
-execute store result storage origins-plus-plus:temp Motion[2] double 0.000085 run scoreboard players get @s Motion
+execute store result storage origins-plus-plus:temp Motion[2] double 0.00009 run scoreboard players get @s Motion
 
 
 execute if data storage origins-plus-plus:temp pos1 run data modify storage origins-plus-plus:temp temppos1 set from storage origins-plus-plus:temp pos1

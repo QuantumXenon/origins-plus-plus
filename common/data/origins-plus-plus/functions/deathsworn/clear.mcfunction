@@ -114,9 +114,9 @@ execute as @e[tag=Standby_Minion] unless score @s Minion_Count = @a[team=deathsw
 execute as @e[tag=Standby_Minion] if score @s Minion_Count = @a[team=deathsworn,limit=1] Minion_Count_temp if score @s UUID0 = @a[team=deathsworn,limit=1] UUID0 if score @s UUID1 = @a[team=deathsworn,limit=1] UUID1 run tag @s add saved_from_death
 
 
-execute as @e[type=item] if data entity @s Item.tag.lnc store result score @a[team=deathsworn,limit=1] UUID0_temp run data get entity @s Item.tag.UUID0
-execute as @e[type=item] if data entity @s Item.tag.lnc store result score @a[team=deathsworn,limit=1] UUID1_temp run data get entity @s Item.tag.UUID1
-execute as @e[type=item] if data entity @s Item.tag.lnc if score @a[team=deathsworn,limit=1] UUID0 = @a[team=deathsworn,limit=1] UUID0_temp if score @a[team=deathsworn,limit=1] UUID1 = @a[team=deathsworn,limit=1] UUID1_temp store result score @a[team=deathsworn,limit=1] Minion_Count_temp run data get entity @s Item.tag.Minion_Count
+execute as @e[type=item] if data entity @s Item.tag.Minion_Count store result score @a[team=deathsworn,limit=1] UUID0_temp run data get entity @s Item.tag.UUID0
+execute as @e[type=item] if data entity @s Item.tag.Minion_Count store result score @a[team=deathsworn,limit=1] UUID1_temp run data get entity @s Item.tag.UUID1
+execute as @e[type=item] if data entity @s Item.tag.Minion_Count if score @a[team=deathsworn,limit=1] UUID0 = @a[team=deathsworn,limit=1] UUID0_temp if score @a[team=deathsworn,limit=1] UUID1 = @a[team=deathsworn,limit=1] UUID1_temp store result score @a[team=deathsworn,limit=1] Minion_Count_temp run data get entity @s Item.tag.Minion_Count
 execute as @e[tag=Standby_Minion] if score @s Minion_Count = @a[team=deathsworn,limit=1] Minion_Count_temp if score @a[team=deathsworn,limit=1] UUID0_temp = @s UUID0 if score @a[team=deathsworn,limit=1] UUID1_temp = @s UUID1 run tag @s add saved_from_death
 
 

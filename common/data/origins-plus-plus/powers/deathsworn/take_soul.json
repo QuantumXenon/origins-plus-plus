@@ -1,5 +1,6 @@
 {
 	"type":"origins:prevent_death",
+	"loading_priority":4,
 	"entity_action":{
 		"type":"origins:and",
 		"actions":[
@@ -18,7 +19,7 @@
 	},
 	"condition":{
 		"type":"origins:command",
-		"command":"execute if entity @e[tag=Deathsworn_Minion,distance=..10]",
+		"command":"execute if entity @e[tag=Deathsworn_Minion,distance=..16]",
 		"comparison":">=",
 		"compare_to":2
 	}

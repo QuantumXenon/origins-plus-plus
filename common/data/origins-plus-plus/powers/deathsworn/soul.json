@@ -1,9 +1,10 @@
 {
 	"type":"origins:multiple",
+	"loading_priority":4,
 	"bar":{
 		"type":"origins:resource",
 		"min":0,
-		"max":20,
+		"max":200,
 		"hud_render":{
 			"sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
 			"bar_index":5
@@ -14,7 +15,7 @@
 		"entity_action":{
 			"type":"origins:change_resource",
 			"resource":"*:*_bar",
-			"change":5
+			"change":40
 		},
 		"cooldown":1
 	},

@@ -1,11 +1,12 @@
 {
 	"type":"origins:action_over_time",
+	"loading_priority":5,
 	"entity_action":{
 		"type":"origins:change_resource",
 		"resource":"origins-plus-plus:deathsworn/soul_bar",
-		"change":1
+		"change":2
 	},
-	"interval":100,
+	"interval":30,
 	"condition":{
 		"type":"origins:daytime",
 		"inverted":true

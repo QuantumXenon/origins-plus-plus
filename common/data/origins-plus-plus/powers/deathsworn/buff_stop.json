@@ -1,0 +1,26 @@
+{
+	"type":"origins:action_over_time",
+	"interval":2,
+	"hidden":true,
+	"loading_priority":5,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+			"type": "origins:execute_command",
+			"command": "function origins-plus-plus:deathsworn/buff_toggle"
+			},
+			{
+			"type": "origins:execute_command",
+			"command": "execute if entity @s[tag=!Buff_Toggled] run power remove @s origins-plus-plus:deathsworn/buff"
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:deathsworn/soul_bar",
+		"comparison":"==",
+		"compare_to":0
+		}
+	}
+}

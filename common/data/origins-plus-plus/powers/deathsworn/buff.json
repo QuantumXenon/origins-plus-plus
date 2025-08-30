@@ -1,0 +1,54 @@
+{
+	"type":"origins:action_over_time",
+	"interval":4,
+	"loading_priority":5,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+			"type":"origins:raycast",
+			"block":true,
+			"entity":true,
+			"fluid_handling":"none",
+			"distance":16,
+			"bientity_action":{
+				"type":"origins:target_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"function origins-plus-plus:deathsworn/buff"
+				}
+			},
+			"command_along_ray":"particle minecraft:witch ~ ~ ~",
+			"command_step":3,
+			"bientity_condition":{
+				"type":"origins:and",
+				"conditions":[
+						{
+						"type":"origins:actor_condition",
+						"condition":{
+							"type":"origins:resource",
+							"resource":"origins-plus-plus:deathsworn/soul_bar",
+							"comparison":"==",
+							"compare_to":0,
+							"inverted":true
+							}
+						},
+						{
+						"type":"origins:target_condition",
+						"condition":{
+							"type":"origins:command",
+							"command":"execute if entity @s[tag=Deathsworn_Minion]",
+							"comparison":"==",
+							"compare_to":1
+							}
+						}
+					]
+				}
+			},
+			{
+				"type":"origins:execute_command",
+				"command":"resource change @s origins-plus-plus:deathsworn/soul_bar -2"
+			}
+		]
+	}
+}

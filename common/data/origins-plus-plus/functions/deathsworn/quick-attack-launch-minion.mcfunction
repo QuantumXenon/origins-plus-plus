@@ -12,4 +12,6 @@ tellraw @a [{"text":"Minion Motion:"},{"nbt":"Motion","entity":"@s"}]
 
 tag @s add Quick_Attack_Minion
 
+power grant @s origins-plus-plus:deathsworn/quick_attack_death
+
 execute as @a[tag=Quick_Attack_Actor,limit=1] run item modify entity @s weapon.mainhand origins-plus-plus:consume

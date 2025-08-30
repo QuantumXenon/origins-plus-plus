@@ -1,0 +1,29 @@
+{
+	"type":"origins:multiple",
+	"hidden":true,
+	"loading_priority":5,
+	"atk":{
+		"type":"origins:modify_attribute",
+		"attribute":"minecraft:generic.attack_damage",
+		"modifier":{
+			"operation":"multiply_base_multiplicative",
+			"value":1.5
+		}
+	},
+	"max_health":{
+		"type":"origins:modify_attribute",
+		"attribute":"minecraft:generic.max_health",
+		"modifier":{
+			"operation":"multiply_base_multiplicative",
+			"value":1.5
+		}
+	},
+	"toughness":{
+		"type":"origins:modify_attribute",
+		"attribute":"minecraft:generic.armor_toughness",
+		"modifier":{
+			"operation":"multiply_base_multiplicative",
+			"value":1.5
+		}
+	}
+}
