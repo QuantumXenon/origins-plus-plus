@@ -1,15 +1,65 @@
 {
-	"type":"origins:target_action_on_hit",
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:deathsworn/turn_crystal"
-	},
-	"target_condition":{
-		"type":"origins:nbt",
-		"nbt":"{Tags:['Deathsworn_Minion']}"
+	"type":"origins:action_on_entity_use",	
+	"bientity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+			"type":"origins:actor_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"tag @s add Crystallize_Actor"
+				}
+			},
+			{
+			"type":"origins:target_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"tag @s add Heart_Search"
+				}
+			},
+			{
+			"type":"origins:target_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"power grant @s origins-plus-plus:deathsworn/death_timer_long"
+				}
+			},
+			{
+			"type":"origins:target_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"execute if score @s Owner_UUID0 = @a[tag=Crystallize_Actor,limit=1] Owner_UUID0 if score @s Owner_UUID1 = @a[tag=Crystallize_Actor,limit=1] Owner_UUID1 run function origins-plus-plus:deathsworn/crystallize"
+				}
+			},
+			{
+			"type":"origins:actor_action",
+			"action":{
+				"type":"origins:execute_command",
+				"command":"tag @s remove Crystallize_Actor"
+				}
+			}
+		]
 	},
 	"cooldown":1,
-	"condition":{
-		"type":"origins:sneaking"
-	}
+	"bientity_condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+			"type":"origins:actor_condition",
+			"condition":{
+				"type":"origins:sneaking"
+				}
+			},
+			{
+			"type":"origins:target_condition",
+			"condition":{
+				"type":"origins:command",
+				"command":"execute if entity @s[tag=Deathsworn_Minion]",
+				"comparison":"==",
+				"compare_to":1
+				}
+			}
+		]
+	},
+	"key":"key.use"
 }

@@ -1,0 +1,25 @@
+{
+	"type":"origins:action_over_time",
+	"interval":2,
+	"hidden":true,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+			"type": "origins:execute_command",
+			"command": "power remove @s origins-plus-plus:deathsworn/buff_toggle"
+			},
+			{
+			"type": "origins:execute_command",
+			"command": "power grant @s origins-plus-plus:deathsworn/buff_toggle"
+			}
+		]
+	},
+	"condition":{
+		"type":"origins:resource",
+		"resource":"origins-plus-plus:deathsworn/soul_bar",
+		"comparison":"==",
+		"compare_to":0
+		}
+	}
+}

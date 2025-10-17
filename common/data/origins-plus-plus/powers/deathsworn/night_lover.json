@@ -5,7 +5,7 @@
 		"resource":"origins-plus-plus:deathsworn/soul_bar",
 		"change":1
 	},
-	"interval":100,
+	"interval":20,
 	"condition":{
 		"type":"origins:daytime",
 		"inverted":true

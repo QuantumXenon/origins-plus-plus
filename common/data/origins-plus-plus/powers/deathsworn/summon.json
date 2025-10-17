@@ -3,7 +3,7 @@
 	"entity_action":{
 		"type":"origins:raycast",
 		"distance":8,
-		"command_at_hit":"function origins-plus-plus:deathsworn/summon",
+		"command_at_hit":"function origins-plus-plus:deathsworn/summon_start",
 		"command_step":0.25,
 		"command_along_ray":"particle witch ~ ~ ~"
 	},
@@ -14,11 +14,11 @@
 				"type":"origins:resource",
 				"resource":"origins-plus-plus:deathsworn/soul_bar",
 				"comparison":">",
-				"compare_to":4
+				"compare_to":30
 			},
 			{
 				"type":"origins:command",
-				"command":"execute if data entity @s SelectedItem.tag{lnc:1}",
+				"command":"execute if data entity @s SelectedItem.tag.Minion_Count",
 				"comparison":"==",
 				"compare_to":1
 			}

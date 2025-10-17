@@ -4,11 +4,30 @@
 		"type":"origins:raycast",
 		"distance":16,
 		"bientity_action":{
-			"type":"origins:target_action",
-			"action":{
-				"type":"origins:execute_command",
-				"command":"power grant @s origins-plus-plus:deathsworn/one_off/draw_aggro"
-			}
+			"type":"origins:and",
+			"actions":[
+				{
+				"type":"origins:target_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"tag @s add Target"
+					}
+				},
+				{
+				"type":"origins:actor_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"execute at @s as @e[tag=Deathsworn_Minion] if score @s Owner_UUID0 = @a[team=deathsworn,limit=1,distance=..0.1] Owner_UUID0 if score @s Owner_UUID1 = @a[team=deathsworn,limit=1,distance=..0.1] Owner_UUID1 run function origins-plus-plus:deathsworn/aggro"
+					}
+				},
+				{
+				"type":"origins:target_action",
+				"action":{
+					"type":"origins:execute_command",
+					"command":"tag @s remove Target"
+					}
+				}
+			]
 		},
 		"bientity_condition":{
 			"type":"origins:target_condition",
@@ -21,7 +40,7 @@
 		"command_along_ray":"particle minecraft:soul_fire_flame",
 		"command_step":0.25
 	},
-	"cooldown":100,
+	"cooldown":40,
 	"hud_render":{
 		"bar_index":1,
 		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png"

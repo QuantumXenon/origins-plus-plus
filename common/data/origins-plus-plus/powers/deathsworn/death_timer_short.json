@@ -1,0 +1,22 @@
+{
+	"type":"origins:action_over_time",
+	"hidden":true,
+	"interval":360,
+	"entity_action":{
+		"type":"origins:and",
+		"actions":[
+			{
+			"type":"origins:execute_command",
+			"command":"execute if entity @s[tag=!Heart_Found,tag=!Deathsworn_Minion] run kill"
+			},
+			{
+			"type":"origins:execute_command",
+			"command":"execute if entity @s[tag=!Heart_Found,tag=!Deathsworn_Minion] at @e[tag=Living_Placeholder] if score @s Minion_Count = @e[tag=Living_Placeholder,limit=1,distance=..0.1] Minion_Count if score @s Owner_UUID0 = @e[tag=Living_Placeholder,limit=1,distance=..0.1] Owner_UUID0 if score @s Owner_UUID1 = @e[tag=Living_Placeholder,limit=1,distance=..0.1] Owner_UUID1 run kill @e[tag=Petrified_Heart,distance=..0.1,sort=nearest,limit=1]"
+			},
+			{
+			"type":"origins:execute_command",
+			"command":"power remove @s origins-plus-plus:deathsworn/death_timer_short"
+			}
+		]
+	}
+}

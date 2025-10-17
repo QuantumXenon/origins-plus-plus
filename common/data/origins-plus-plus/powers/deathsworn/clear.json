@@ -1,0 +1,9 @@
+{
+	"type":"origins:action_over_time",
+	"hidden":true,
+	"interval":10,
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"execute at @s run function origins-plus-plus:deathsworn/clear_check"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"type":"origins:action_over_time",
+	"hidden":true,
+	"interval":20,
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:deathsworn/tp_to_owner"
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"values":[
+		{
+		"id":"#ironchests:chests",
+		"required":false
+		},
+		{
+		"id":"#reinfshulker:copper_shulker_boxes",
+		"required":false
+		},
+		{
+		"id":"#reinfshulker:diamond_shulker_boxes",
+		"required":false
+		},
+		{
+		"id":"#reinfshulker:gold_shulker_boxes",
+		"required":false
+		},
+		{
+		"id":"#reinfshulker:iron_shulker_boxes",
+		"required":false
+		},
+		{
+		"id":"#reinfshulker:netherite_shulker_boxes",
+		"required":false
+		}
+	]
+}

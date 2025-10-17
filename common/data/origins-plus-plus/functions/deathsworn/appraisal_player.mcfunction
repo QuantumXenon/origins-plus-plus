@@ -1,0 +1,6 @@
+execute store result score @s Minion_Count_temp run data get entity @s SelectedItem.tag.Minion_Count
+execute as @e[tag=Standby_Minion] if score @s Minion_Count = @a[team=deathsworn,limit=1,distance=..0.1] Minion_Count_temp if score @s Owner_UUID0 = @a[team=deathsworn,limit=1,distance=..0.1] Owner_UUID0 if score @s Owner_UUID1 = @a[team=deathsworn,limit=1,distance=..0.1] Owner_UUID1 run tag @s add Appraisal_Name
+
+title @s actionbar [{"translate":"origins-plus-plus.deathsworn.health","color":"#FF0000","bold":false,"italic":false},{"nbt":"SelectedItem.tag.Health","entity":"@s","color":"#DB251F"},{"text":" | ","color":"white","bold":false,"italic":false},{"translate":"origins-plus-plus.deathsworn.armor","color":"#FF0000","bold":false,"italic":false},{"nbt":"SelectedItem.tag.Armor","entity":"@s","color":"#D11B1B"},{"text":" | ","color":"white"},{"translate":"origins-plus-plus.deathsworn.attack_damage","color":"#FF0000"},{"nbt":"SelectedItem.tag.AD","entity":"@s","interpret":false,"color":"#DB251F"},{"text":" | ","color":"white"},{"translate":"origins-plus-plus.deathsworn.player","color":"#FF0000"},{"nbt":"SelectedItem.tag.player","entity":"@s"}]
+
+tag @e remove Appraisal_Name

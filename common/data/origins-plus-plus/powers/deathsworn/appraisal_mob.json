@@ -1,0 +1,30 @@
+{
+	"type":"origins:action_over_time",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"function origins-plus-plus:deathsworn/appraisal_mob"
+	},
+	"falling_action":{
+		"type":"origins:execute_command",
+		"command":"title @p actionbar \"\""
+	},
+	"interval":2,
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+				"type":"origins:command",
+				"command":"execute if data entity @s SelectedItem.tag.Minion_Count",
+				"comparison":"==",
+				"compare_to":1
+			},
+			{
+				"type":"origins:command",
+				"command":"execute unless data entity @s SelectedItem.tag.player",
+				"comparison":"==",
+				"compare_to":1
+			}
+		]
+	},
+	"hidden":true
+}

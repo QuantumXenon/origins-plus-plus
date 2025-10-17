@@ -1,0 +1,32 @@
+{
+	"type":"origins:prevent_death",
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"tag @s add Deathsworn_Prevent_Death"
+	},
+	"condition":{
+		"type":"origins:and",
+		"conditions":[
+			{
+			"type":"origins:command",
+			"command":"attribute @s minecraft:generic.attack_damage get",
+			"comparison":">",
+			"compare_to":0
+			},
+			{
+			"type":"origins:command",
+			"command":"execute unless data entity @s HandItems[{id:\"minecraft:totem_of_undying\"}]",
+			"comparison":"==",
+			"compare_to":1
+			}
+		]
+	},
+	"damage_condition":{
+		"type":"origins:attacker",
+		"entity_condition":{
+			"type":"origins:origin",
+			"origin":"origins-plus-plus:deathsworn",
+			"layer":"origins:origin"
+		}
+	}
+}

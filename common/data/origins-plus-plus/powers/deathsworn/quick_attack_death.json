@@ -1,0 +1,13 @@
+{
+	"type":"origins:action_when_damage_taken",
+	"hidden":true,
+	"entity_action":{
+		"type":"origins:execute_command",
+		"command":"execute at @a[tag=Skip_Quick_Attack] if score @s Owner_UUID0 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] Owner_UUID0 if score @s Owner_UUID1 = @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] Owner_UUID1 run tag @a[tag=Skip_Quick_Attack,limit=1,distance=..0.1] remove Skip_Quick_Attack"
+	},
+	"condition":{
+		"type":"origins:health",
+		"comparison":"<=",
+		"compare_to":0
+	}
+}

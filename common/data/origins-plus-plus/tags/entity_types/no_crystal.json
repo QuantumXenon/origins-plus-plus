@@ -1,0 +1,21 @@
+{
+	"replace": true,
+	"values":[
+		"#origins-plus-plus:bosses",
+		"#origins-plus-plus:untargetable",
+		"minecraft:slime",
+		"minecraft:magma_cube",
+		{
+		"id":"#c:bosses",
+		"required":false
+		},
+		{
+		"id":"#forge:bosses",
+		"required":false
+		},
+		{
+		"id":"#origins-plus-plus-modded-support:no_crystal",
+		"required":false
+		}
+	]
+}
